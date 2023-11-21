@@ -5,8 +5,12 @@
     bottom: 0;
     left: 0;
     top: 0;
-    align-items: center;
-    justify-content: center;
+    
+    @media screen and (min-width: $large-form-factor-width), print { 
+        align-items: center;
+        justify-content: center;
+    }
+    
     display: flex;
 }
 
@@ -33,7 +37,8 @@ ul {
 .main {
     .brand {
         &:not(:last-child) {
-            padding-bottom: 4rem;
+            padding-bottom: 3em;
+            padding-top: 1em;
         }
 
         img {

@@ -3,7 +3,7 @@ layout: soon
 permalink: /
 ---
 
-## Software Produkte und IT Beratung mit einem klaren Commitment zu mehr Nachhaltigkeit.
+## Softwareprodukte und IT Beratung mit einem klaren Commitment zu mehr Nachhaltigkeit
 
 ##### Strategische App Beratung und Entwicklung
 ##### Enterprise Agile Coaching 
