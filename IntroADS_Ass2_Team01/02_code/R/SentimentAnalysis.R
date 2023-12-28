@@ -14,7 +14,7 @@ library(dplyr)
 library(syuzhet)
 
 # load cleaned data of game reviews
-load(paste0(path, "/01_data/", "gamereviews_cleaned.RData"))
+load(paste0(path, "/../../01_data/", "gamereviews_cleaned.RData"))
 
 
 # Task 3: Sentiment Analysis of your Game Reviews
@@ -24,9 +24,9 @@ load(paste0(path, "/01_data/", "gamereviews_cleaned.RData"))
 
 # word lists as txt data in 01_data
 # load positive and negative word lists
-pos_lines <- readLines(paste0(path, "/01_data/", "positive-words.txt"))
+pos_lines <- readLines(paste0(path, "/../../01_data/", "positive-words.txt"))
 pos_lines_filt <- pos_lines[!grepl("^;", pos_lines)] # filter header that starts rows with ";"
-neg_lines <- readLines(paste0(path, "/01_data/", "negative-words.txt"))
+neg_lines <- readLines(paste0(path, "/../../01_data/", "negative-words.txt"))
 neg_lines_filt <- neg_lines[!grepl("^;", neg_lines)]
 
 # calculate sentiment score for every review
@@ -51,6 +51,7 @@ for (i in seq_along(reviews.basic_analysis$review)) { # loop over all reviews
         sent_score <- sent_score - 1
       }
     }
+    
   }
   reviews.basic_analysis$sent_score_basic[i] <- sent_score # write sentiment score
   if(sent_score == 0) { # write overall sentiment of review in dependence of the score
@@ -62,7 +63,7 @@ for (i in seq_along(reviews.basic_analysis$review)) { # loop over all reviews
   }
 }
 # save dataframe to 01_data
-save(reviews.basic_analysis, file = paste0(path, "/01_data/", "gamereviews_basic_analysis.RData"))
+save(reviews.basic_analysis, file = paste0(path, "/../../01_data/", "gamereviews_basic_analysis.RData"))
 
 
 # 2: Deeper Sentiment Analysis using syuzhet ----
@@ -83,6 +84,42 @@ for(i in seq_along(reviews.sentiment$review)) {
   reviews.sentiment[i, (ncol(reviews.sentiment) - 9):ncol(reviews.sentiment)] <- emotions
 }
 # save dataframe to 01_data
-save(reviews.sentiment, file = paste0(path, "/01_data/", "gamereviews_sentiment.RData"))
+save(reviews.sentiment, file = paste0(path, "/../../01_data/", "gamereviews_sentiment.RData"))
 
+# 3: compare the sentiment scores
 
+# columns to compare
+columns_to_compare <- c("sent_score_basic", "sent_syuzhet", "sent_bing", "sent_afinn")
+
+# create an empty data frame to store the results
+comparison.results <- data.frame()
+
+# loop through each pair of columns
+for (col_name in columns_to_compare) {
+  if (col_name != "sent_score_basic") {
+    # calculate the difference between the current column and 'sent_score_basic'
+    diff_values <- reviews.sentiment$sent_score_basic - reviews.sentiment[[col_name]]
+    
+    # calculate mean and standard deviation of the differences
+    mean_diff <- round(mean(diff_values, na.rm = TRUE),2)
+    sd_diff <- round(sd(diff_values, na.rm = TRUE),2)
+    
+    # count the number of times the signs differ
+    sign_diff_count <- sum(sign(reviews.sentiment$sent_score_basic) != sign(reviews.sentiment[[col_name]]), na.rm = TRUE)
+    
+    # calculate the ratio of sign differences
+    sign_diff_ratio <- round(sign_diff_count / nrow(reviews.sentiment),2)
+    
+    # store the results in the comparison_results data frame
+    comparison.results <- rbind(comparison.results, data.frame(
+      sentiment_score = col_name,
+      mean.difference = mean_diff,
+      standard_deviation_difference = sd_diff,
+      sign_difference_count = sign_diff_count,
+      dign_difference_ratio = sign_diff_ratio
+    ))
+  }
+}
+
+# save dataframe to 01_data
+save(reviews.sentiment, file = paste0(path, "/../../01_data/", "gamereviews_sentiment_comparison.RData"))
