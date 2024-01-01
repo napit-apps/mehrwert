@@ -12,7 +12,7 @@ logo: "/assets/images/logo.png"
 logo_icon: "/assets/images/logo-b.png"
 # contact form action
 contact_form_action: "https://formspree.io/f/xjvnvkzb"
-mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
+mailchimp_list: #"https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
 footer_content: "Greener Software today, for a greener future tomorrow"
 copyright: "mehr.wert Software und IT Beratung GmbH <br /> &copy; 2023 All Right Reserved"
 # page header default image
@@ -21,8 +21,8 @@ google_map_api: ""
 
 ############### Call to Action ###############
 cta:
-  enable: true
-  title: "dizer give the smart solution for your business"
+  enable: false
+  title: ""
   bg_image: "/assets/images/bg/cta-bg-2.png"
   button:
     label: "get a quote"
@@ -30,21 +30,21 @@ cta:
 
 ################## Social site ###############
 social:
-  # - name: facebook
-  #   icon: "ti-facebook"
-  #   link: "#"
+  - name: facebook
+    icon: "ti-facebook"
+    link: "#"
 
-  # - name: twitter
-  #   icon: "ti-twitter-alt"
-  #   link: "#"
+  - name: twitter
+    icon: "ti-twitter-alt"
+    link: "#"
 
-  # - name: linkedin
-  #   icon: "ti-linkedin"
-  #   link: "#"
+  - name: linkedin
+    icon: "ti-linkedin"
+    link: "#"
 
-  # - name: pinterest
-  #   icon: "ti-pinterest"
-  #   link: "#"
+  - name: pinterest
+    icon: "ti-pinterest"
+    link: "#"
 
 # Build settings
 permalink: "/:title"

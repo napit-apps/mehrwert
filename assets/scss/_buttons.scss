@@ -31,8 +31,8 @@
   &:active,
   &.focus,
   &.active {
-    background: $secondary-color !important;
-    border-color: $secondary-color !important;
+    background: $blue !important;
+    border-color: $blue !important;
     color: $white !important;
   }
 }
@@ -46,8 +46,8 @@
   &:active,
   &.focus,
   &.active {
-    background: $primary-color !important;
-    border-color: $primary-color !important;
+    background: $blue !important;
+    border-color: $blue !important;
     color: $white !important;
   }
 }

@@ -14,11 +14,11 @@ hero_area:
   primaryButton:
     enable : true
     label : "Join Our Green Coding Revolution – Get Your Training"
-    link : "/contact"
+    link : "mailto:kontakt@mehrwert.com?subject=Green%20Coding%20Training%20Request"
   secondaryButton:
     enable : true
     label : "Embark on Your Agile Journey – Contact Us Today"
-    link : "/contact"
+    link : "mailto:kontakt@mehrwert.com?subject=Embark%20my%20Agile%20Journey"
     
 
 ################## Problem Solution ###########################
@@ -112,74 +112,69 @@ portfolios:
 ###################### Skill #############################
 skill:
   enable : true
-  subtitle : "mehr.wert skills"
+  subtitle : "mehr.wert usp"
   title : "Software Engineer and Agile Coach"
   image : "/assets/images/about/skill.jpg"
   agile-title: "Agile"
   agile:
-  - name : "Scrum"
+  - name : "Building Trust"
     percentage : "99%"
-  
-  - name : "Kanban"
-    percentage : "90%"
-  
-  - name : "Backlog Management"
-    percentage : "85%"
-    
-  - name : "SAFe"
-    percentage : "85%"
-  
-  - name : "Portfolio management"
-    percentage : "85%"
   
   - name : "Delivery on time"
     percentage : "95%"
-  
-  tech-title: "Technology"
-  tech:
-  - name : "Swift"
+    
+  - name : "Backlog Management"
     percentage : "95%"
-    
-  - name : "Objective-C"
-    percentage : "99%"
-    
-  - name : "UIKit + CoreGraphics"
+  
+  - name : "Portfolio management"
+    percentage : "85%"    
+  
+  - name : "Professional Training"
+    percentage : "85%"
+  
+  - name : "Capability Enhancement"
+    percentage : "90%"
+  
+  tech-title: "Mobile"
+  tech:
+  - name : "12+ years experience"
     percentage : "100%"
     
-  - name : "Core Data"
+  - name : "Efficient mobile architectures"
+    percentage : "95%"
+    
+  - name : "Technology selection"
+    percentage : "100%"
+    
+  - name : "Developer Trainings"
     percentage : "90%"
 
-  - name : "iCloud/CloudKit"
+  - name : "UI/UX Patterns"
     percentage : "85%"
   
-  - name : "SwiftUI"
-    percentage : "75%"
-  
-  - name : "XCTest"
+  - name : "Business driven design"
     percentage : "90%"
-  
-  - name : "Python"
-    percentage : "75%"
-  
-  - name : "Bash"
-    percentage : "85%"
-
-  - name : "RESTful Services"
-    percentage : "75%"
   
   green-title: "Green Coding"
   green:
   - name : "Principles of Green Software"
     percentage : "95%"
-    
-  - name : "SCI"
+  
+  - name : "Awareness Programs"
+    percentage : "85%"
+
+  - name : "Measurement (SCI)"
     percentage : "85%"
     
-  - name : "GHP"
-    percentage : "75%"
-    
-  - name : "Green Patterns"
+  - name : "Coding Practices"
     percentage : "85%"
+  
+  - name : "Professional Trainings"
+    percentage : "99%"
+  
+  - name : "Scope 3"
+    percentage : "90%"
+    
 
   certificates-title: "Certificates"
   certificates:
@@ -230,7 +225,7 @@ team:
 
 
 contact:
-  enable: true
+  enable: fatruese
   title: "Let's Innovate Together!"
   subtitle: "Got a project in mind or need advice on your Agile journey?"
   intro: "Drop us a message – we're excited to connect and explore how we can create sustainable IT solutions tailored for you."
@@ -239,7 +234,7 @@ contact:
     email: "Email Adress"
     phone: "Phone Number"
     message: "Message"
-  privacy-note: "By clicking the 'Submit' button below, you agree that we can process your data in accordance with the <a href=\"/privacy.html\" target=\"_blank\">Privacy Policy</a"
+  privacy-note: "By clicking the 'Submit' button below, you agree that we can process your data in accordance with the <a href=\"/privacy.html\" target=\"_blank\">Privacy Policy</a>"
   button: "Submit"
 
 ###################### Blog ######################

@@ -54,12 +54,25 @@
 				<div class="footer-widget">
 					<h4 class="text-white mb-3">Contact Info</h4>
 					<ul class="list-unstyled lh-38">
+						<li>{{site.author}}</li>
 						<li>{{site.address}}</li>
 						<li><a href="tel:{{site.phone}}">Phone: {{site.phone}}</a></li>
-						<li><a href="mailto:{{site.email}}">e-Mail: {{site.email}}</a></li>
+						<li><a href="mailto:{{site.email}}">E-Mail: {{site.email}}</a></li>
 					</ul>
 				</div>
-			</div>		
+			</div>	
+			
+			<div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0 col-md-6">
+				<div class="footer-widget">
+					<h4 class="text-white mb-3">Navigation</h4>
+
+					<ul class="list-unstyled lh-38">
+						{% for menu in site.data.navigation.footer %}
+						<li><a href="{{menu.link | relative_url }}">{{menu.name}}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>	 
 		</div>
 	</div>
 

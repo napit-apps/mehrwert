@@ -27,16 +27,10 @@ main:
 
 ########## footer menu ###############
 footer:
-  - name: Services
-    url: /services.html
-  - name: Portfolio One
-    url: /portfolio-1.html
-  - name: Portfolio Two
-    url: /portfolio-2.html
-  - name: Single Portfolio
-    url: /portfolio-single.html
-  - name: Contact
-    url: /contact.html
+  - name: Terms of Service
+    link: "/imprint.html"
+  - name: Privacy Policy
+    link: "/privacy.html"
 
 ############## Bottom menu ###############
 bottom:
