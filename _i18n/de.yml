@@ -13,21 +13,16 @@ hero_area:
 
 ################## Problem Solution ###########################
 about:
-  enable : true
-  subtitle : "Sustainable IT Modernization"
-  title : "Navigating Today's IT Challenges"
-  video_thumb : "/assets/images/about/marcel.jpg"
-  video_url : 
-  content : "In an ever-evolving digital landscape, businesses face multiple challenges. From keeping pace with technological advancements to implementing sustainable practices, the path to digital transformation is often riddled with complexities. These challenges can hinder growth, reduce efficiency, and impact your company’s long-term sustainability.
-
-
-  <b>Common Roadblocks to Success:</b>
-  Consider the struggles of integrating scalable agile processes in large teams, often leading to reduced productivity and misalignment of goals. Or the dilemma of creating mobile solutions that fail to resonate with your target audience, resulting in wasted resources and missed opportunities. And the growing concern of environmental impact in IT practices, where traditional methods contribute to a larger carbon footprint, challenging your commitment to sustainability.
-  
-  
-  <b>Our Tailored Solutions:</b>
-  At mehr.wert, we turn these challenges into opportunities. Our Scaled Agile Coaching transforms organizational chaos into a harmonized, productive workflow. Customized mobile strategies ensure your solutions hit the mark, engaging your audience effectively. And with our pioneering Green Coding initiative, we help you lead in sustainability, aligning your IT practices with environmental consciousness. Together, we pave the way for a smarter, greener, and more efficient future.
-  "
+  subtitle : "Nachhaltige IT Modernisierung"
+  title : "Den heutigen IT-Herausforderungen begegnen"
+  content : "<p>In einer sich ständig weiterentwickelnden digitalen Landschaft stehen Unternehmen vor zahlreichen Herausforderungen. Von der Schritthaltung mit dem technologischen Fortschritt bis hin zur Implementierung nachhaltiger Praktiken ist der Weg zur digitalen Transformation oft mit Komplexitäten gespickt. Diese Herausforderungen können das Wachstum hemmen, die Effizienz verringern und die langfristige Nachhaltigkeit Ihres Unternehmens beeinträchtigen.
+  </p>
+  <p><b>Häufige Hindernisse für den Erfolg:</b>
+  Betrachten Sie die Schwierigkeiten bei der Integration skalierbarer agiler Prozesse in großen Teams, die oft zu verminderter Produktivität und einer Fehlausrichtung der Ziele führen. Oder das Dilemma, mobile Lösungen zu schaffen, die nicht mit Ihrer Zielgruppe resonieren, was zu verschwendeten Ressourcen und verpassten Gelegenheiten führt. Und die wachsende Besorgnis über die Umweltauswirkungen in IT-Praktiken, bei denen traditionelle Methoden zu einem größeren CO2-Fußabdruck beitragen, was Ihr Engagement für Nachhaltigkeit herausfordert.
+  </p>
+  <p><b>Unsere maßgeschneiderten Lösungen:</b>
+  Bei mehr.wert verwandeln wir diese Herausforderungen in Chancen. Unser Scaled Agile Coaching verwandelt organisatorisches Chaos in einen harmonisierten, produktiven Arbeitsablauf. Maßgeschneiderte mobile Strategien gewährleisten, dass Ihre Lösungen ins Schwarze treffen und Ihre Zielgruppe effektiv einbinden. Und mit unserer bahnbrechenden Initiative Green Coding helfen wir Ihnen, in Sachen Nachhaltigkeit führend zu sein, indem wir Ihre IT-Praktiken mit Umweltbewusstsein in Einklang bringen. Gemeinsam ebnen wir den Weg für eine intelligentere, grünere und effizientere Zukunft.
+  </p>"
   button:
     enable : false
     label : "Purchase now"

@@ -17,9 +17,9 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-7 offset-lg-1 mt-5 mt-md-0">
-				<span class="text-color h5 text-uppercase">{{about.subtitle}}</span>
-				<h3 class="mb-4 mt-3">{{ about.title }}</h3>
-				{{ about.content | markdownify }}
+				<span class="text-color h5 text-uppercase">{% t about.subtitle %}</span>
+				<h3 class="mb-4 mt-3">{% t about.title %}</h3>
+				{% t about.content %}
 				{% if about.button.enable %}
 				<a href="{{ about.button.link | relative_url }}" class="btn btn-primary">{{about.button.label}}</a>
 				{% endif %}
