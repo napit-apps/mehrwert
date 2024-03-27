@@ -23,10 +23,7 @@ about:
   <p><b>Unsere maßgeschneiderten Lösungen:</b>
   Bei mehr.wert verwandeln wir diese Herausforderungen in Chancen. Unser Scaled Agile Coaching verwandelt organisatorisches Chaos in einen harmonisierten, produktiven Arbeitsablauf. Maßgeschneiderte mobile Strategien gewährleisten, dass Ihre Lösungen ins Schwarze treffen und Ihre Zielgruppe effektiv einbinden. Und mit unserer bahnbrechenden Initiative Green Coding helfen wir Ihnen, in Sachen Nachhaltigkeit führend zu sein, indem wir Ihre IT-Praktiken mit Umweltbewusstsein in Einklang bringen. Gemeinsam ebnen wir den Weg für eine intelligentere, grünere und effizientere Zukunft.
   </p>"
-  button:
-    enable : false
-    label : "Purchase now"
-    link : "/pricing"
+
 
 ###################### Services #####################
 services:
