@@ -1,29 +1,29 @@
 #Please use the main menu items under the "name"
 config:
-  enable-main: false
+  enable-main: true
   enable-footer: false
 
 main:
-  - name: Services
-    url: /
-    submenu:
-      - name: Agile Coaching
-        url: /services.html
-      - name: App Development
-        url: /portfolio-1.html
-      - name: Green Coding
-        url: /portfolio-2.html
-  - name: Culture
-    url: "#"
-    submenu:
-      - name: About us
-        url: /about.html
-      - name: About Me
-        url: /about-me.html
-  - name: Blog
-    url: /blog-1.html
-  - name: Contact
-    url: /contact.html
+  # - name: Services
+  #   url: /
+  #   submenu:
+  #     - name: Agile Coaching
+  #       url: /services.html
+  #     - name: App Development
+  #       url: /portfolio-1.html
+  #     - name: Green Coding
+  #       url: /portfolio-2.html
+  # - name: Culture
+  #   url: "#"
+  #   submenu:
+  #     - name: About us
+  #       url: /about.html
+  #     - name: About Me
+  #       url: /about-me.html
+  # - name: Blog
+  #   url: /blog-1.html
+  # - name: Contact
+  #   url: /contact.html
 
 ########## footer menu ###############
 footer:

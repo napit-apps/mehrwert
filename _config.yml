@@ -19,6 +19,13 @@ copyright: "mehr.wert Software und IT Beratung GmbH <br /> &copy; 2024 All Right
 cover_image: "/assets/images/bg/about-bg.jpg"
 google_map_api: ""
 
+######## Multi language support
+default_lang: "de"
+languages: ["de", "en"]
+default_locale_in_subfolder: false
+exclude_from_localizations: ["javascript", "images", "css"]
+exclude: ["LICENSE.txt", "README.md"]
+
 ############### Call to Action ###############
 cta:
   enable: false
@@ -52,6 +59,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-multiple-languages-plugin
   - jekyll-archives
 
 # Scss Directory

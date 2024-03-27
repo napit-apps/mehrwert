@@ -12,6 +12,39 @@
     font-family: $heading-font;
   }
 
+  .languages li:not(:last-child)::after {
+    content: "|";
+    font-family: $heading-font;
+    color: $white;
+    line-height: 40px;
+    font-size: 16px;
+  }
+
+  .languages {
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    text-align: center !important;
+    
+    a {
+      text-transform: uppercase;
+      font-family: $heading-font;
+      color: $white;
+      line-height: 40px;
+      font-size: 16px;
+      padding: 0 8px;
+    }
+
+    a[aria-current=true] {
+      text-decoration: underline;
+      text-decoration-color: $primary-color;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 0.3348979767rem;
+    }
+  } 
+
   .navbar-nav.extra-nav .nav-link {
     padding-left: 30px;
     padding-right: 0px;
