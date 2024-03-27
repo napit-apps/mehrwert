@@ -2,7 +2,7 @@
 {% assign config = site.data.navigation.config %}
 
 <footer class="section bg-secondary position-relative pb-0">
-	<img src="{{'/assets/images/bg/footer-bg.png' | relative_url}}" alt="" class="overlay-shape">
+	<img src="{{'/assets/images/bg/footer-bg.png'}}" alt="" class="overlay-shape">
 	<div class="container">
 		<div class="row">
 			
@@ -84,7 +84,7 @@
 				</div>
 				<div class="col-lg-4 text-center col-12">
 					<a href="{{site.baseurl}}">
-						<img src="{{site.logo | relative_url}}" alt="{{site.title}}" class="img-fluid">
+						<img src="{{site.logo}}" alt="{{site.title}}" class="img-fluid">
 					</a>
 				</div>
 				<div class="col-lg-4 col-12">
@@ -105,8 +105,8 @@
 
 <!-- JS Plugins -->
 {% for js in site.data.plugins.js %}
-<script src="{{ js | relative_url }}"></script>
+<script src="{{ js }}"></script>
 {% endfor %}
 
 <!-- Main Script -->
-<script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/script.js' }}"></script>

@@ -23,8 +23,8 @@ google_map_api: ""
 default_lang: "de"
 languages: ["de", "en"]
 default_locale_in_subfolder: false
-exclude_from_localizations: ["javascript", "images", "css"]
-exclude: ["LICENSE.txt", "README.md"]
+exclude_from_localizations: ["assets", "javascript", "images", "css"]
+
 
 ############### Call to Action ###############
 cta:

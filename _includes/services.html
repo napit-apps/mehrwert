@@ -2,7 +2,7 @@
 {% assign service = site.data.homepage.services %}
 {% if service.enable %}
 <section class="section-sm service bg-secondary">
-	<img src="{{ service.bg_image | relative_url }}" alt="" class="overlay-shape">
+	<img src="{{ service.bg_image }}" alt="" class="overlay-shape">
 	<div class="container">
 		<div class="row justify-content-center">
 			{% for item in service.item %}

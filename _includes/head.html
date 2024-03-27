@@ -14,15 +14,15 @@
   {% endif %}
 
   {% for css in site.data.plugins.css %}
-  <link rel="stylesheet" href="{{ css | relative_url }}">
+  <link rel="stylesheet" href="{{ css }}">
   {% endfor %}
 
   <!-- Main Stylesheet -->
-  <link href="{{ '/assets/scss/style.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ '/assets/scss/style.css' }}" rel="stylesheet">
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
-  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
-  <link rel="apple-touch-icon" type="image/png" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' }}" type="image/png">
+  <link rel="icon" href="{{ '/assets/images/favicon.png' }}" type="image/png">
+  <link rel="apple-touch-icon" type="image/png" href="{{ '/assets/images/apple-touch-icon.png' }}">
   
 </head>
