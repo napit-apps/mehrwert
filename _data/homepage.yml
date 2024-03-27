@@ -1,26 +1,13 @@
 ################## Hero Area #######################
 hero_area:
-  title : "Empowering Your Business with Sustainable IT Solutions"
   image : "/assets/images/banner/overlay.png"
-  subheadline : "<b>At mehr.wert, we blend innovation with sustainability to deliver true value in IT. Specializing in Scaled Agile Coaching, Efficient Mobile Solutions, and Pioneering Green Coding.</b>"
-  content : "<ul class=\"list-hero mt-4 mb-5\">
-<li><b>🌱 Sustainability:</b> Commitment to a Greener Future in IT</li>
-<li><b>🔒 Trust:</b> Building Reliable Solutions You Can Count On</li>
-<li><b>🤝 Partnership:</b> Collaborating for Mutual Success</li>
-<li><b>📈 Measurable Results:</b> Tangible Outcomes, Real Growth</li>
-
-</ul>"
-
   primaryButton:
     enable : true
-    label : "Join Our Green Coding Revolution – Get Your Training"
-    link : "mailto:kontakt@mehrwert.com?subject=Green%20Coding%20Training%20Request"
+    link : "/gsptraining.html"
   secondaryButton:
     enable : true
-    label : "Embark on Your Agile Journey – Contact Us Today"
     link : "mailto:kontakt@mehrwert.com?subject=Embark%20my%20Agile%20Journey"
     
-
 ################## Problem Solution ###########################
 about:
   enable : true

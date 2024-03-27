@@ -1,25 +1,15 @@
 ################## Hero Area #######################
 hero_area:
-  title : "Stärkung Ihres Unternehmens mit nachhaltigen IT-Lösungen"
-  image : "/assets/images/banner/overlay.png"
-  subheadline : "<b>At mehr.wert, we blend innovation with sustainability to deliver true value in IT. Specializing in Scaled Agile Coaching, Efficient Mobile Solutions, and Pioneering Green Coding.</b>"
+  title : "Stärken Sie Ihr Unternehmen mit nachhaltigen<br />IT-Lösungen"
+  subheadline : "<b>Bei mehr.wert verbinden wir Innovation mit Nachhaltigkeit, um echten Mehrwert in der IT zu schaffen. Wir sind spezialisiert auf Scaled Agile Coaching, effiziente mobile Lösungen und wegweisendes Green Coding.</b>"
   content : "<ul class=\"list-hero mt-4 mb-5\">
-<li><b>🌱 Sustainability:</b> Commitment to a Greener Future in IT</li>
-<li><b>🔒 Trust:</b> Building Reliable Solutions You Can Count On</li>
-<li><b>🤝 Partnership:</b> Collaborating for Mutual Success</li>
-<li><b>📈 Measurable Results:</b> Tangible Outcomes, Real Growth</li>
-
+<li><b>🌱 Nachhaltigkeit:</b> Engagement für eine grünere Zukunft in der IT</li>
+<li><b>🔒 Vertrauen:</b> Zuverlässige Lösungen, auf die man sich verlassen kann</li>
+<li><b>🤝 Partnerschaft:</b> Zusammenarbeit für den gegenseitigen Erfolg</li>
+<li><b>📈 Messbare Ergebnisse:</b> Konkrete Ergebnisse, echtes Wachstum</li>
 </ul>"
-
-  primaryButton:
-    enable : true
-    label : "Join Our Green Coding Revolution – Get Your Training"
-    link : "/gsptraining.html"
-  secondaryButton:
-    enable : true
-    label : "Embark on Your Agile Journey – Contact Us Today"
-    link : "mailto:kontakt@mehrwert.com?subject=Embark%20my%20Agile%20Journey"
-    
+  primaryButton-label : "Mach mit bei unserer Green Coding Revolution - Lass dich zertifizieren"
+  secondaryButton-label : "Kontaktieren Sie uns noch heute" 
 
 ################## Problem Solution ###########################
 about:

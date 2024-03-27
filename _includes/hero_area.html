@@ -3,16 +3,16 @@
 <section class="banner position-relative">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-9">
+			<div class="col-md-10">
 				<div class="banner-content">
 					<h2 class="text-white">{% t hero_area.title %}</h2>
-					<p class="text-white mt-4 mb-5">{{banner.subheadline}}</p>
-					{{banner.content}}
+					<p class="text-white mt-4 mb-5">{% t hero_area.subheadline %}</p>
+					{% t hero_area.content %}
 					{% if banner.primaryButton.enable %}
-					<a href="{{banner.primaryButton.link}}" class="btn btn-primary">{{banner.primaryButton.label}}</a>
+					<a href="{{banner.primaryButton.link}}" class="btn btn-primary">{% t hero_area.primaryButton-label %}</a>
 					{% endif %}
 					{% if banner.secondaryButton.enable %}
-					<a href="{{banner.secondaryButton.link}}" class="btn btn-secondary">{{banner.secondaryButton.label}}</a>
+					<a href="{{banner.secondaryButton.link}}" class="btn btn-secondary">{% t hero_area.secondaryButton-label %}</a>
 					{% endif %}
 
 				</div>
