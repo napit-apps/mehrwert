@@ -28,7 +28,7 @@ about:
 ###################### Services #####################
 services:
   1:
-    name: "Agile Business Evolution"
+    name: "Agile Transformation"
     content: "Transform your organization with our Scaled Agile Coaching, fostering an adaptable and responsive business environment. Benefit from a partnership that guides you through every step of your agile journey, backed by data-driven insights for continuous improvement and growth. Our commitment to long-term support ensures sustainable agility at every organizational level."
 
   2:
@@ -41,22 +41,18 @@ services:
 
 ######################### Testimonail ####################
 testimonial:
-  subtitle : "testimonials"
-  title : "What Others Say"
-  item: 
-  - name : "Jacques Dunselman"
-    designation : "Agile Transformation Lead - PMx"
-    link: "https://www.pmx.nl/"
-    image : "/assets/images/clients/jaqcues.jpeg"
+  subtitle : "Kundenstimmen"
+  title : "Was andere sagen"
+
+  1: 
+    designation: "Agile Transformation Lead - PMx"
     preview: "Marcel is a driven coach that is able to steer teams and people towards agility by asking the right questions, helping individuals discover their own path. Marcel’s critical …"
     content : "Marcel is a driven coach that is able to steer teams and people towards agility by asking the right questions, helping individuals discover their own path. Marcel’s critical and pragmatic approach means he validates whether it contributes to the objectives. If you’re looking for a pragmatic lead and/or coach that delivers results, don’t hesitate and hire Marcel!"
 
-  - name : "Konstantin Pasternack"
-    designation : "Department Manager, Head of Trading IT: Foundational Platforms & Operations - EnBW Energie Baden-Württemberg AG"
-    link: "https://www.linkedin.com/in/konstantin-pasternack-2b4723168/"
-    image : "/assets/images/clients/konstantin.jpeg"
+  2:
+    designation: "Head of Trading IT: Platforms & Operations - EnBW Energie Baden-Württemberg AG"
     preview: "Marcel is a key performer in my department. Through his clear and direct communication, he is always able to present problems and challenges,…"
-    content : "Marcel is a key performer in my department. Through his clear and direct communication, he is always able to present problems and challenges, as well as successes and achievements in the teams. He is solution-oriented and helps teams to work on their issues independently, but he does not shy away from getting involved himself. I particularly appreciate his ability to find a good balance between customer orientation and adherence to principles. As a result, real best practices for the specific challenges of my organization could be developed."
+    content : "Marcel ist ein zentraler Leistungsträger in meiner Abteilung. Durch seine klare und direkte Kommunikation ist er stets in der Lage Probleme und Herausforderungen, aber auch Erfolge und Leistungen in den Teams darzustellen. Er ist lösungsorientiert und hilft den Teams selbständig ihre Themen zu bearbeiten scheut aber auch nicht davor selber anzupacken. Besonders schätze ich ihn dafür eine gute Balance zwischen Kundenorientierung und Prinzipientreue zu finden. Dadurch konnten wirkliche Best Practices für die spezifischen Herausforderungen meiner Organisation entwickelt werden."
 
 
 ###################### Funfacts #########################
