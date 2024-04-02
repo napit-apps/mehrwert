@@ -15,12 +15,12 @@
 
   <li class="nav-item {% if link.submenu %} dropdown {% endif %}">
     <a class="nav-link" {% if link.submenu %} data-toggle="dropdown"
-      {% endif %} href="{{link.url | relative_url}}">{{link.name}}{% if link.submenu %}<i
+      {% endif %} href="{{ site.baseurl }}{{link.url | relative_url}}">{{link.name}}{% if link.submenu %}<i
         class="ti-angle-down ml-2"></i>{% endif %}</a>
     {% if link.submenu %}
     <ul class="sub-menu dropdown-menu">
       {% for sublink in link.submenu %}
-      <li><a class="dropdown-item" href="{{sublink.url |relative_url}}">{{sublink.name}}</a></li>
+      <li><a class="dropdown-item" href="{{ site.baseurl }}{{sublink.url |relative_url}}">{{sublink.name}}</a></li>
       {% endfor %}
     </ul>
     {% endif %}
