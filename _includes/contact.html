@@ -1,6 +1,8 @@
 <!-- Contact Start -->
-{% assign contact = site.data.homepage.contact %}
-{% if contact.enable %}
+{% assign contact-config = site.data.homepage.contact %}
+{% assign contact = site.translations[site.lang].contact %}
+
+{% if contact-config.enable %}
 
 <section id="contact" class="section home-contact">
 	<div class="container">

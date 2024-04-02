@@ -192,7 +192,6 @@ team:
 
 
 contact:
-  enable: fatruese
   title: "Let's Innovate Together!"
   subtitle: "Got a project in mind or need advice on your Agile journey?"
   intro: "Drop us a message – we're excited to connect and explore how we can create sustainable IT solutions tailored for you."
@@ -201,7 +200,7 @@ contact:
     email: "Email Adress"
     phone: "Phone Number"
     message: "Message"
-  privacy-note: "By clicking the 'Submit' button below, you agree that we can process your data in accordance with the <a href=\"/privacy.html\" target=\"_blank\">Privacy Policy</a>"
+  privacy-note: "By clicking the 'Submit' button below, you agree that we can process your data in accordance with the <a href=\"/en/privacy.html\" target=\"_blank\">Privacy Policy.</a>"
   button: "Submit"
 
 ###################### Blog ######################
