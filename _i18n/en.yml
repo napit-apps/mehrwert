@@ -77,23 +77,17 @@ funfacts:
     icon : "ti-rocket"
     value : "378"
     
-
-###################### Portfolio #########################
-portfolios:
-  enable: false
-
 ###################### Skill #############################
 skill:
-  enable : true
   subtitle : "mehr.wert usp"
   title : "Software Engineer and Agile Coach"
-  image : "/assets/images/about/skill.jpg"
+  
   agile-title: "Agile"
   agile:
   - name : "Building Trust"
     percentage : "99%"
   
-  - name : "Delivery on time"
+  - name : "Delivery in time"
     percentage : "95%"
     
   - name : "Backlog Management"

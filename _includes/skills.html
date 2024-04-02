@@ -1,6 +1,7 @@
 <!-- Slill Start -->
-{% assign skill = site.data.homepage.skill %}
-{% if skill.enable %}
+{% assign skill-config = site.data.homepage.skill %}
+{% assign skill = site.translations[site.lang].skill %}
+{% if skill-config.enable %}
 <section class="section skill bg-white">
 	<div class="container">
 		<span class="h5 text-color text-uppercase">
@@ -48,17 +49,6 @@
 				{% endfor %}
 			</div>
 		</div>
-		<!--
-		<div class="col-lg-12 pr-12">
-			<h3 class="mb-5 mt-2">{{ skill.certificates-title }}</h3>
-			<ul class="list-inline socials-links">
-				{% for item in skill.certificates %}
-				<li class="list-inline-item mb-2">
-					<a target="_blank" href="{{item.link}}" class="active" src="{{item.icon}}" alt="" ></a>
-				</li>
-				{% endfor %}
-			</ul>
-		</div> -->
 	</div>
 </section>
 <!-- Skill End -->

@@ -66,69 +66,7 @@ portfolios:
 ###################### Skill #############################
 skill:
   enable : true
-  subtitle : "mehr.wert usp"
-  title : "Software Engineer and Agile Coach"
   image : "/assets/images/about/skill.jpg"
-  agile-title: "Agile"
-  agile:
-  - name : "Building Trust"
-    percentage : "99%"
-  
-  - name : "Delivery on time"
-    percentage : "95%"
-    
-  - name : "Backlog Management"
-    percentage : "95%"
-  
-  - name : "Portfolio management"
-    percentage : "85%"    
-  
-  - name : "Professional Training"
-    percentage : "85%"
-  
-  - name : "Capability Enhancement"
-    percentage : "90%"
-  
-  tech-title: "Mobile"
-  tech:
-  - name : "12+ years experience"
-    percentage : "100%"
-    
-  - name : "Efficient mobile architectures"
-    percentage : "95%"
-    
-  - name : "Technology selection"
-    percentage : "100%"
-    
-  - name : "Developer Trainings"
-    percentage : "90%"
-
-  - name : "UI/UX Patterns"
-    percentage : "85%"
-  
-  - name : "Business driven design"
-    percentage : "90%"
-  
-  green-title: "Green Coding"
-  green:
-  - name : "Principles of Green Software"
-    percentage : "95%"
-  
-  - name : "Awareness Programs"
-    percentage : "85%"
-
-  - name : "Measurement (SCI)"
-    percentage : "85%"
-    
-  - name : "Coding Practices"
-    percentage : "85%"
-  
-  - name : "Professional Trainings"
-    percentage : "99%"
-  
-  - name : "Scope 3"
-    percentage : "90%"
-    
 
   certificates-title: "Certificates"
   certificates:
