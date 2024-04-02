@@ -57,22 +57,23 @@ testimonial:
 
 ###################### Funfacts #########################
 funfacts:
+  enable : true
   item:
-  - name : "cups of coffee"
-    icon : "ti-rocket"
-    value : "378"
-    
-  - name : "green coding articles published"
+  - name : "Green Coding Artikel"
     icon : "ti-write"
     value : "4"
     
-  - name : "Happy users"
+  - name : "Glückliche Kunden"
     icon : "ti-heart"
     value : ">50k"
     
-  - name : "programming languages"
+  - name : "Programmiersprachen"
     icon : "ti-hummer"
     value : "7"
+  
+  - name : "Tassen Kaffee"
+    icon : "ti-rocket"
+    value : "378"
 
 
 ###################### Portfolio #########################

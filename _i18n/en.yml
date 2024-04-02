@@ -61,10 +61,6 @@ funfacts:
   enable : true
   bg_image : "/assets/images/bg/cta-bg.png"
   item:
-  - name : "cups of coffee"
-    icon : "ti-rocket"
-    value : "378"
-    
   - name : "green coding articles published"
     icon : "ti-write"
     value : "4"
@@ -77,6 +73,10 @@ funfacts:
     icon : "ti-hummer"
     value : "7"
 
+  - name : "cups of coffee"
+    icon : "ti-rocket"
+    value : "378"
+    
 
 ###################### Portfolio #########################
 portfolios:

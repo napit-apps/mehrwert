@@ -57,22 +57,6 @@ testimonial:
 funfacts:
   enable : true
   bg_image : "/assets/images/bg/cta-bg.png"
-  item:
-  - name : "cups of coffee"
-    icon : "ti-rocket"
-    value : "378"
-    
-  - name : "green coding articles published"
-    icon : "ti-write"
-    value : "4"
-    
-  - name : "Happy users"
-    icon : "ti-heart"
-    value : ">50k"
-    
-  - name : "programming languages"
-    icon : "ti-hummer"
-    value : "7"
 
 
 ###################### Portfolio #########################
