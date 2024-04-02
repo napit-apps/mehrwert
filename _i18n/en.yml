@@ -30,20 +30,17 @@ about:
 
 ###################### Services #####################
 services:
-  enable : true
-  bg_image : "/assets/images/bg/feature-bg.png"
-  item:
-  - name : "Agile Business Evolution"
-    icon : 
-    content : "Transform your organization with our Scaled Agile Coaching, fostering an adaptable and responsive business environment. Benefit from a partnership that guides you through every step of your agile journey, backed by data-driven insights for continuous improvement and growth. Our commitment to long-term support ensures sustainable agility at every organizational level."
-    
-  - name : "Sustainable Tech Solutions"
-    icon : 
-    content : "Stay ahead with our Green Coding initiative, where environmental responsibility meets technological advancement. We help you implement coding practices that minimize environmental impact while maximizing efficiency. Our long-term partnership approach means continuous support in maintaining eco-friendly IT practices, with data-driven results to track your sustainability journey and its impact on your business performance."
+  1:
+    name: "Agile Business Evolution"
+    content: "Transform your organization with our Scaled Agile Coaching, fostering an adaptable and responsive business environment. Benefit from a partnership that guides you through every step of your agile journey, backed by data-driven insights for continuous improvement and growth. Our commitment to long-term support ensures sustainable agility at every organizational level."
 
-  - name : "Tailored Mobile Innovation"
-    icon : 
-    content : "Receive custom mobile strategies that align perfectly with your business objectives. We provide comprehensive support from conception to deployment, ensuring your mobile solutions are both innovative and practical. Our approach is grounded in measurable results, offering you clear insights into performance enhancements and user engagement, sustained by a commitment to ongoing partnership and support."
+  2:
+    name: "Sustainable Tech Solutions"
+    content: "Stay ahead with our Green Coding initiative, where environmental responsibility meets technological advancement. We help you implement coding practices that minimize environmental impact while maximizing efficiency. Our long-term partnership approach means continuous support in maintaining eco-friendly IT practices, with data-driven results to track your sustainability journey and its impact on your business performance."
+
+  3:
+    name: "Tailored Mobile Innovation"
+    content: "Receive custom mobile strategies that align perfectly with your business objectives. We provide comprehensive support from conception to deployment, ensuring your mobile solutions are both innovative and practical. Our approach is grounded in measurable results, offering you clear insights into performance enhancements and user engagement, sustained by a commitment to ongoing partnership and support."
     
 
 ######################### Testimonail ####################
