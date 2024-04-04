@@ -247,8 +247,6 @@
   color: $white;
 }
 
-
-
 @include mobile {
   .navbar-collapse {
     background-color: rgba($secondary-color, 0.9);
@@ -338,6 +336,16 @@
     color: $white;
   }
 }
+
+#main-nav .navbar-nav .nav-link[aria-expanded=true] {
+  color: $primary-color !important;
+}
+
+#main-nav .navbar-nav .nav-link[aria-expanded=false] {
+  color: $white !important;
+}
+
+
 
 // Off canvas menu
 
