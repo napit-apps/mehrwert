@@ -69,7 +69,7 @@
 }
 
 .nav-top {
-  background: $secondary-color;
+  background: rgba($secondary-color, 0.9);
   transition: .0s all ease;
   z-index: 99999;
 }
@@ -81,7 +81,7 @@
 
 .navbar {
   @include desktop {
-    background: $secondary-color;
+    background: rgba($secondary-color, 0.9);
     z-index: 99999;
   }
 
@@ -219,6 +219,7 @@
   .navbar-collapse {
     background-color: rgba($secondary-color, 0.9);
     text-align: center;
+    margin-top: -20px;
     padding: 0px;
     padding-bottom: 20px;
     max-width: 100%;
@@ -235,6 +236,7 @@
   .navbar-collapse {
     background-color: rgba($secondary-color, 0.9);
     text-align: center;
+    margin-top: -20px;
     padding: 0px;
     padding-bottom: 20px;
     max-width: 100%;
@@ -255,6 +257,7 @@
   .navbar-collapse {
     background-color: rgba($secondary-color, 0.9);
     text-align: center;
+    margin-top: -20px;
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 20px;
@@ -276,6 +279,7 @@
   .navbar-collapse {
     background-color: rgba($secondary-color, 0.9);
     text-align: center;
+    margin-top: -20px;
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 20px;
