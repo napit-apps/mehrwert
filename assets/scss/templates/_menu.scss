@@ -180,8 +180,9 @@
 }
 
 .dropdown-item:hover {
-  background: $secondary-color;
-  color: $white !important;
+  color: $primary-color !important;
+  background-color: transparent;
+  //color: $white !important;
 }
 
 
