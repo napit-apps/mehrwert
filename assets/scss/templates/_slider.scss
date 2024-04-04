@@ -13,18 +13,24 @@
     padding: 250px 0px 220px 0px;
     
     @include tablet {
-      padding: 200px 0px 220px 0px;
+      padding: 200px 15px 220px 15px;
     }
     @include mobile {
-      padding: 150px 0px 120px 0px;
+      padding: 150px 15px 120px 15px;
     }
     @include mobile-xs {
-      padding: 150px 0px 120px 0px;
+      padding: 150px 15px 120px 15px;
     }
   
     p {
       font-size: 17px;
     }
+   
+    @media(min-width:991px){ 
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+    }
+
   }
 
   .banner-img {
