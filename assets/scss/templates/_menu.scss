@@ -128,7 +128,7 @@
       padding: 15px;
       border: 0;
       border-radius: 0;
-      background: rgba(white, 0.9);
+      background: rgba(white, 0.8);
       top: 90%;
       left: 0px;
       margin-top: 20px;
@@ -164,6 +164,11 @@
 .navbar-toggler span {
   @include desktop {
     color: $white;
+  }
+}
+.navbar-toggler[aria-expanded=true] span {
+  @include desktop {
+    color: $primary-color;
   }
 }
 
@@ -248,9 +253,7 @@
   .navbar-collapse {
     background-color: rgba($secondary-color, 0.9);
     text-align: center;
-    margin-top: -20px;
     padding: 0px;
-    padding-bottom: 20px;
     max-width: 100%;
   }
 
@@ -258,6 +261,10 @@
   #main-nav .languages {
     padding: 0px;
     padding-top: 8px;
+  }
+
+  #main-nav .languages {
+    margin-bottom: 30px;
   }
 }
 
@@ -265,9 +272,7 @@
   .navbar-collapse {
     background-color: rgba($secondary-color, 0.9);
     text-align: center;
-    margin-top: -20px;
     padding: 0px;
-    padding-bottom: 20px;
     max-width: 100%;
   }
 
@@ -275,6 +280,10 @@
   #main-nav .languages {
     padding: 0px;
     padding-top: 8px;
+  }
+
+  #main-nav .languages {
+    margin-bottom: 30px;
   }
 
   .navbar-toggler span {
@@ -286,10 +295,8 @@
   .navbar-collapse {
     background-color: rgba($secondary-color, 0.9);
     text-align: center;
-    margin-top: -20px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 20px;
     max-width: 100%;
   }
 
@@ -297,6 +304,10 @@
   #main-nav .languages {
     padding: 0px;
     padding-top: 8px;
+  }
+
+  #main-nav .languages {
+    margin-bottom: 30px;
   }
 
   .navbar-toggler span {
@@ -308,10 +319,8 @@
   .navbar-collapse {
     background-color: rgba($secondary-color, 0.9);
     text-align: center;
-    margin-top: -20px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 20px;
     max-width: 100%;
   }
   
@@ -321,6 +330,10 @@
     padding-top: 8px;
   }
   
+  #main-nav .languages {
+    margin-bottom: 30px;
+  }
+
   .navbar-toggler span {
     color: $white;
   }
