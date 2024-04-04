@@ -22,8 +22,8 @@ main:
   #       url: /about-me.html
   # - name: Blog
   #   url: /blog-1.html
-  # - name: Contact
-  #   url: /contact.html
+  - name: Contact
+    url: /contact.html
 
 ########## footer menu ###############
 footer:

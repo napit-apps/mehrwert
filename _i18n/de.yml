@@ -1,6 +1,7 @@
 ################## Hero Area #######################
 hero_area:
-  title : "Innovation trifft Nachhaltigkeit -<br/> Software die begeistert"
+  title : "Nachhaltig bessere Software"
+  title2 : "Innovation trifft Nachhaltigkeit -<br/> Software die begeistert"
   subheadline : "<b>Bei mehr.wert führen wir Innovation und Nachhaltigkeit zusammen, um eine tiefgreifende Transformation in der IT zu ermöglichen. Unsere Spezialgebiete sind Scaled Agile Coaching, effiziente mobile Lösungen und Pionierarbeit im Bereich Green Coding.</b>"
   content : "<ul class=\"list-hero mt-4 mb-5\">
 <li><b>🌱 Nachhaltigkeit:</b> Engagement für eine grünere Zukunft in der IT</li>

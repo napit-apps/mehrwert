@@ -1,5 +1,12 @@
 #main-nav {
   height: 100px;
+  padding-right: 0;
+  padding-left: 0;
+
+
+  .container {
+    padding: 20px;
+  } 
 
   .navbar-nav .nav-link {
     text-transform: uppercase;
@@ -25,8 +32,11 @@
     list-style-type: none;
     display: flex;
     box-sizing: border-box;
+    justify-content: center;
     margin-bottom: 0;
     text-align: center !important;
+    padding-left: 35px;
+    padding-right: 20px;
     
     a {
       text-transform: uppercase;
@@ -203,25 +213,37 @@
   color: $white;
 }
 
+
+
 @include mobile {
   .navbar-collapse {
+    background-color: rgba($secondary-color, 0.9);
     text-align: center;
-    padding: 20px;
+    padding: 0px;
+    padding-bottom: 20px;
+    max-width: 100%;
   }
 
-  #main-nav .navbar-nav .nav-link {
+  #main-nav .navbar-nav .nav-link,
+  #main-nav .languages {
     padding: 0px;
+    padding-top: 8px;
   }
 }
 
 @include mobile-xs {
   .navbar-collapse {
+    background-color: rgba($secondary-color, 0.9);
     text-align: center;
-    padding: 20px;
+    padding: 0px;
+    padding-bottom: 20px;
+    max-width: 100%;
   }
 
-  #main-nav .navbar-nav .nav-link {
+  #main-nav .navbar-nav .nav-link,
+  #main-nav .languages {
     padding: 0px;
+    padding-top: 8px;
   }
 
   .navbar-toggler span {
@@ -231,14 +253,41 @@
 
 @include tablet {
   .navbar-collapse {
+    background-color: rgba($secondary-color, 0.9);
     text-align: center;
-    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    max-width: 100%;
   }
 
-  #main-nav .navbar-nav .nav-link {
+  #main-nav .navbar-nav .nav-link,
+  #main-nav .languages {
     padding: 0px;
+    padding-top: 8px;
   }
 
+  .navbar-toggler span {
+    color: $white;
+  }
+}
+
+@include desktop {
+  .navbar-collapse {
+    background-color: rgba($secondary-color, 0.9);
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    max-width: 100%;
+  }
+  
+  #main-nav .navbar-nav .nav-link,
+  #main-nav .languages {
+    padding: 0px;
+    padding-top: 8px;
+  }
+  
   .navbar-toggler span {
     color: $white;
   }
