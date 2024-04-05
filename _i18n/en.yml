@@ -1,3 +1,41 @@
+################## Menu Area #######################
+main-menue:
+  # - name: Services
+  #   url: /
+  #   submenu:
+  #     - name: Agile Coaching
+  #       url: /services.html
+  #     - name: App Development
+  #       url: /portfolio-1.html
+  #     - name: Green Coding
+  #       url: /portfolio-2.html
+  - name: Legal
+    url: "#"
+    submenu:
+      - name: Terms of Service
+        url: "/imprint.html"
+      - name: Privacy Policy
+        url: "/privacy.html"
+  # - name: Blog
+  #   url: /blog-1.html
+  # - name: Contact
+  #   url: /contact.html
+
+########## footer menu ###############
+footer:
+  - name: Terms of Service
+    link: "/imprint.html"
+  - name: Privacy Policy
+    link: "/privacy.html"
+
+############## Bottom menu ###############
+bottom:
+  - name: Terms of Service
+    link: "/imprint.html"
+  - name: Privacy Policy
+    link: "/privacy.html"
+
+
 ################## Hero Area #######################
 hero_area:
   title : "Sustainable Software Solutions"

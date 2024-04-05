@@ -1,6 +1,7 @@
+{% assign main-menue = site.translations[site.lang].main-menue %}
 
 <ul class="navbar-nav ml-auto text-center">
-  {% for link in site.data.navigation.main %}
+  {% for link in main-menue %}
   {% assign active = nil %}
 
   {% for sublink in link.submenu %}
