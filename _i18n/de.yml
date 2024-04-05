@@ -23,16 +23,16 @@ main-menue:
 
 ########## footer menu ###############
 footer:
-  - name: Terms of Service
+  - name: Impressum
     link: "/imprint.html"
-  - name: Privacy Policy
+  - name: Datenschutzbestimmung
     link: "/privacy.html"
 
 ############## Bottom menu ###############
 bottom:
-  - name: Terms of Service
+  - name: Impressum
     link: "/imprint.html"
-  - name: Privacy Policy
+  - name: Datenschutzbestimmung
     link: "/privacy.html"
 
 
@@ -235,10 +235,11 @@ contact:
   form : 
     name: "Name"
     email: "E-Mail"
-    phone: "Telefonnummer"
+    phone: "Telefon"
     message: "Nachricht"
   privacy-note: "Durch Klick auf den nachfolgenden Button 'Senden', erklären Sie sich damit einverstanden, dass wir Ihre Daten entsprechend der <a href=\"/privacy.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeiten."
   button: "Senden"
+  adress: "Kontakt Informationen"
 
 ###################### Blog ######################
 blog:

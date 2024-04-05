@@ -1,5 +1,7 @@
 <!-- Footer section start -->
 {% assign config = site.data.navigation.config %}
+{% assign bottom-menue = site.translations[site.lang].bottom %}
+{% assign contact = site.translations[site.lang].contact %}
 
 <footer class="section bg-secondary position-relative pb-0">
 	<img src="{{'/assets/images/bg/footer-bg.png'}}" alt="" class="overlay-shape">
@@ -52,16 +54,16 @@
 			{% endif %}	
 			<div class="col-lg-6 col-md-6">
 				<div class="footer-widget">
-					<h4 class="text-white mb-3">Contact Info</h4>
+					<h4 class="text-white mb-3">{{ contact.adress }}</h4>
 					<ul class="list-unstyled lh-38">
 						<li>{{site.author}}</li>
 						<li>{{site.address}}</li>
-						<li><a href="tel:{{site.phone}}">Phone: {{site.phone}}</a></li>
-						<li><a href="mailto:{{site.email}}">E-Mail: {{site.email}}</a></li>
+						<li><a href="tel:{{site.phone}}">{{ contact.form.phone }}: {{site.phone}}</a></li>
+						<li><a href="mailto:{{site.email}}">{{ contact.form.email }}: {{site.email}}</a></li>
 					</ul>
 				</div>
 			</div>	
-			
+<!-- 			
 			<div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0 col-md-6">
 				<div class="footer-widget">
 					<h4 class="text-white mb-3">Navigation</h4>
@@ -72,7 +74,7 @@
 						{% endfor %}
 					</ul>
 				</div>
-			</div>	 
+			</div>	  -->
 		</div>
 	</div>
 
@@ -89,7 +91,7 @@
 				</div>
 				<div class="col-lg-4 col-12">
 					<div class="text-center text-lg-right">
-						{% for menu in site.data.navigation.bottom %}
+						{% for menu in bottom-menue %}
 						<a href="{{ site.baseurl }}{{menu.link | relative_url }}">{{menu.name}} {% unless forloop.last %} <span class="mx-2">|</span> {% endunless %}</a>
 						{% endfor %}
 					</div>

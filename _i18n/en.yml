@@ -240,6 +240,7 @@ contact:
     message: "Message"
   privacy-note: "By clicking the 'Submit' button below, you agree that we can process your data in accordance with the <a href=\"/en/privacy.html\" target=\"_blank\">Privacy Policy.</a>"
   button: "Submit"
+  adress: "Contact Information"
 
 ###################### Blog ######################
 blog:
