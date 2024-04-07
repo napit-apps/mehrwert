@@ -22,35 +22,12 @@ about:
 ###################### Services #####################
 services:
   enable : true
-  bg_image : "/assets/images/bg/feature-bg.png"
-  item:
-  - name : "services.1.name"
-    content : "services.1.content"
-
-  - name : "services.2.name"
-    content : "services.2.content"
-
-  - name : "services.3.name"
-    content : "services.3.content"    
+  bg_image : "/assets/images/bg/feature-bg.png"    
 
 ######################### Testimonail ####################
 testimonial:
   enable : true
-  item:
-
-  - name : "Jacques Dunselman"
-    designation : "testimonial.1.designation"
-    link: "https://www.pmx.nl/"
-    image : "/assets/images/clients/jaqcues.jpeg"
-    preview: "testimonial.1.preview"
-    content : "testimonial.1.content"
-
-  - name : "Konstantin Pasternack"
-    designation : "testimonial.2.designation"
-    link: "https://www.linkedin.com/in/konstantin-pasternack-2b4723168/"
-    image : "/assets/images/clients/konstantin.jpeg"
-    preview: "testimonial.2.preview"
-    content : "testimonial.2.content"
+  bg_image : "/assets/images/bg/bg-pricing.jpg" 
 
 
 ###################### Funfacts #########################

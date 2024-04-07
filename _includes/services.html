@@ -1,16 +1,18 @@
 <!-- Service Start -->
-{% assign service = site.data.homepage.services %}
-{% if service.enable %}
+{% assign service-config = site.data.homepage.services %}
+{% assign services = site.translations[site.lang].services %}
+
+{% if service-config.enable %}
 <section class="section-sm service bg-secondary">
-	<img src="{{ service.bg_image }}" alt="" class="overlay-shape">
+	<img src="{{ service-config.bg_image }}" alt="" class="overlay-shape">
 	<div class="container">
 		<div class="row justify-content-center">
-			{% for item in service.item %}
+			{% for item in services.item %}
 			<div class="col-lg-4 col-md-6">
 				<div class="service-item mb-4 mb-lg-0">
 					<i class="{{item.icon}} text-color"></i>
-					<h4 class="my-4 text-white">{% t item.name %}</h4>
-					<p> {% t item.content %} </p>
+					<h4 class="my-4 text-white">{{ item.name }}</h4>
+					<p> {{ item.content }} </p>
 				</div>
 			</div>
 			{% endfor %}

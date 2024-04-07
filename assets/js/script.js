@@ -110,6 +110,23 @@
     });
   });
 
+  $(document).ready(function() {
+    $('.more-info-link').magnificPopup({
+      type: 'inline',
+      midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+      mainClass: 'mfp-fade', // Class added to popup container to apply fade effect
+      removalDelay: 300, // Delay in milliseconds before popup is removed
+      callbacks: {
+        beforeOpen: function() {
+            var $triggerEl = $(this.st.el),
+            popup_content = $triggerEl.data('testimonial');
+            // Set the content of the popup. This assumes you have a div with an ID of 'popup-content' for the content.
+            $('#popup-content').html(popup_content);
+        }
+    } 
+    });
+  });
+
   $(document).ready(function () {
     $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
       disableOn: 700,

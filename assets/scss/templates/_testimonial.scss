@@ -1,6 +1,4 @@
 .bg-testimonial{
-	background: url("../images/bg/bg-3.jpg") no-repeat;
-	background-size: cover;
 	position: absolute;
 	content: "";
 	width: 100%;
@@ -12,7 +10,7 @@
 }
 
 .testimonial {
-	.card{
+	.card {
 		border: 0px;
 		padding: 2.5rem 2rem 2.5rem 2rem;
 		border-bottom: 4px solid $primary-color;
@@ -45,6 +43,40 @@
 				line-height: 34px;
 				right: 30%;
 			}
+		}
+	}
+
+	.white-popup {
+		position: relative;
+		background: #FFF;
+		padding: 20px;
+		width: auto;
+		max-width: 600px;
+		margin: 20px auto;
+	}
+
+	@media(min-width:991px){ 
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba($secondary-color, 0.9);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			opacity: 0; /* Hide overlay by default */
+			transition: opacity 0.3s ease; /* Smooth transition for the overlay */
+			z-index: 999;
+	
+			p {
+				color: $primary-color;
+			}
+		}	
+
+		.card .overlay:hover {
+			opacity: 1; 
 		}
 	}
 }
