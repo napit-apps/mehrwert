@@ -69,6 +69,8 @@ sass:
 
 #collections
 collections:
+  testimonials:
+    output: true
   portfolios:
     output: true
 
