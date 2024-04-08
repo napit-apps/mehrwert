@@ -27,7 +27,7 @@ value: "Added transparency and structure in the cluster and the product teams
 
 top-skills: "Creating transparency and steering with a clearly communicated and customer-focused approach"
 
-feedback_preview: "Marcel ist ein zentraler Leistungsträger in meiner Abteilung. Durch seine klare und direkte Kommunikation ist er …"
+feedback_preview: "Marcel ist ein zentraler Leistungsträger in meiner Abteilung. Durch seine klare und direkte Kommunikation ist er"
 feedback_full: "Marcel ist ein zentraler Leistungsträger in meiner Abteilung. Durch seine klare und direkte Kommunikation ist er stets in der Lage Probleme und Herausforderungen, aber auch Erfolge und Leistungen in den Teams darzustellen. Er ist lösungsorientiert und hilft den Teams selbständig ihre Themen zu bearbeiten scheut aber auch nicht davor selber anzupacken. Besonders schätze ich ihn dafür eine gute Balance zwischen Kundenorientierung und Prinzipientreue zu finden. Dadurch konnten wirkliche Best Practices für die spezifischen Herausforderungen meiner Organisation entwickelt werden."
 
 ---

@@ -55,6 +55,13 @@
 		margin: 20px auto;
 	}
 
+	.overlay {
+		opacity: 0; /* Hide overlay by default */
+		p {
+			opacity: 0;
+		}
+	}
+
 	@media(min-width:991px){ 
 		.overlay {
 			position: absolute;
@@ -66,7 +73,6 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			opacity: 0; /* Hide overlay by default */
 			transition: opacity 0.3s ease; /* Smooth transition for the overlay */
 			z-index: 999;
 	
@@ -77,6 +83,9 @@
 
 		.card .overlay:hover {
 			opacity: 1; 
+			p {
+				opacity: 1;
+			}
 		}
 	}
 }
@@ -95,7 +104,40 @@
 		z-index: -1;
 	}
 }
+.mfp-content {
+	max-width: 60%;
 
+	@include tablet {
+		max-width: 75%;
+	}
+
+	@include mobile {
+		max-width: 90%;
+	}
+
+	@include mobile-xs {
+		max-width: 95%;
+	}
+
+	
+}
+.testimonial-modal {
+	background-color: rgba($secondary-color, 0.9);
+	padding: 25px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+	h5 {
+		color: $primary-color;
+		padding-bottom: 20px;
+	}
+	p {
+		color: #FFF;
+	}
+
+	.mfp-close {
+		color: $primary-color;
+	}
+}
 
 
 // Testimonial-=2

@@ -126,6 +126,17 @@
     });
   });
 
+  $(document).ready(function() {
+    $('.more-info-link').magnificPopup({
+      type: 'inline',
+      midClick: true,
+      mainClass: 'mfp-fade',
+      removalDelay: 300,
+      // no need for custom callbacks to modify content,
+      // Magnific Popup handles it based on `data-mfp-src` attribute
+    });
+  });
+
 
 
   // win.on('load', function () { // makes sure the whole site is loaded
