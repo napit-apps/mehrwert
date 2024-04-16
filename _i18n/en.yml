@@ -104,7 +104,7 @@ testimonial:
 funfacts:
   enable : true
   title: "Time to Change"
-  subtitle: "Sustainability starts in code"
+  subtitle: "Sustainability starts in the code"
   bg_image : "/assets/images/bg/cta-bg.png"
   item:
   - name : "One eMail without Attachment"
