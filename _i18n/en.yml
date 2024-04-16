@@ -103,23 +103,25 @@ testimonial:
 ###################### Funfacts #########################
 funfacts:
   enable : true
+  title: "Time to Change"
+  subtitle: "Sustainability starts in code"
   bg_image : "/assets/images/bg/cta-bg.png"
   item:
-  - name : "green coding articles published"
-    icon : "ti-write"
-    value : "4"
+  - name : "One eMail without Attachment"
+    icon : "ti-email"
+    value : "10g CO2e"
     
-  - name : "Happy users"
-    icon : "ti-heart"
-    value : ">50k"
+  - name : "Globale data waste 2020"
+    icon : "ti-trash"
+    value : "5,8 Mt CO2e"
     
-  - name : "programming languages"
-    icon : "ti-hummer"
-    value : "7"
-
-  - name : "cups of coffee"
-    icon : "ti-rocket"
-    value : "378"
+  - name : "IT's share of global electricity consumption"
+    icon : "ti-bolt"
+    value : "4-8%"
+  
+  - name : "30min Videocall"
+    icon : "ti-video-camera"
+    value : "100g CO2e"
     
 ###################### Skill #############################
 skill:

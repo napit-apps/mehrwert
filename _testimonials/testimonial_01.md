@@ -4,7 +4,7 @@ subtitle: "Agile Transformation Lead - PMx"
 link: "https://www.pmx.nl/"
 layout: default
 modal-id: 1
-category: Testimonial
+category: "Agile"
 date: 2023-12-11
 img: "/assets/images/clients/jaqcues.jpeg"
 thumbnail: "/assets/images/clients/jaqcues.jpeg"

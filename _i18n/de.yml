@@ -44,41 +44,41 @@ bottom:
 hero_area:
   title : "Nachhaltig bessere Software"
   title2 : "Innovation trifft Nachhaltigkeit -<br/> Software die begeistert"
-  subheadline : "<b>Bei mehr.wert führen wir Innovation und Nachhaltigkeit zusammen, um eine tiefgreifende Transformation in der IT zu ermöglichen. Unsere Spezialgebiete sind Scaled Agile Coaching, effiziente mobile Lösungen und Pionierarbeit im Bereich Green Coding.</b>"
+  subheadline : "<b>Bei mehr.wert kombinieren wir Innovation mit Nachhaltigkeit. Dadurch gelingen uns gemeinsam wertstiftende Veränderungen in der IT Landschaft. Wir sind spezialisiert auf Scaled Agile Coaching, effiziente mobile Lösungen und Pionierarbeit im Bereich Green Coding.</b>"
   content : "<ul class=\"list-hero mt-4 mb-5\">
 <li><b>🌱 Nachhaltigkeit:</b> Engagement für eine grünere Zukunft in der IT</li>
-<li><b>🔒 Vertrauen:</b> Zuverlässige Lösungen, auf die Du dich verlassen kannst</li>
-<li><b>🤝 Partnerschaft:</b> Gemeinsam zum Erfolg</li>
-<li><b>📈 Messbare Ergebnisse:</b> Konkrete Ergebnisse, echtes Wachstum</li>
+<li><b>🔒 Vertrauen:</b> Zuverlässige Lösungen</li>
+<li><b>🤝 Partnerschaft:</b> Auf Augenhöhe zum gemeinsamen Erfolg</li>
+<li><b>📈 Messbare Ergebnisse:</b>Greifbare Resultate, echtes Wachstum</li>
 </ul>"
-  primaryButton-label : "Mach mit bei unserer Green Coding Revolution - Lass Dich zertifizieren"
-  secondaryButton-label : "Starte Deine Agile Reise – Kontaktiere uns noch heute" 
+  primaryButton-label : "Werde Teil der Green Coding Revolution - Lass dich zertifizieren"
+  secondaryButton-label : "Beginne deine Agile Reise - Kontaktiere uns noch heute" 
 
 ################## Problem Solution ###########################
 about:
   subtitle : "Nachhaltige IT-Modernisierung"
-  title : "Die heutigen IT-Herausforderungen überwinden"
-  content : "<p>In einer sich ständig weiterentwickelnden digitalen Landschaft stehen Unternehmen vor zahlreichen Herausforderungen. Von der Schritthaltung mit dem technologischen Fortschritt bis hin zur Implementierung nachhaltiger Praktiken ist der Weg zur digitalen Transformation oft mit Herausforderungen gespickt. Diese können das Wachstum hemmen, die Effizienz verringern und den langfristigen Erfolg deines Unternehmens beeinträchtigen.
+  title : "Die heutigen IT Herausforderungen überwinden"
+  content : "<p>Das schnelle und nahezu unaufhaltbare Tempo des technologischen Fortschrittes stellt viele Unternehmen vor große Herausforderungen. Diese hindern nicht nur das Wachstum, sondern auch die Effizienz sowie der unternehmenseigene Beitrag zu einer nachhaltigen (IT-) Zukunft.
   </p>
-  <p><b>Häufige Stolpersteine:</b>
-  Viele Unternehmen haben Schwierigkeiten bei der Einführung skalierbarer agiler Prozesse in die Organisaiton und den Teams, die oft zu verminderter Produktivität und gar einer Fehlausrichtung der Ziele führen. Oder das Dilemma, mobile Lösungen zu schaffen, die nicht mit Ihrer Zielgruppe resonieren, was zu verschwendeten Ressourcen und verpassten Gelegenheiten führt. Und die wachsende Besorgnis über die Umweltauswirkungen in IT-Praktiken, bei denen traditionelle Methoden zu einem größeren CO2-Fußabdruck beitragen, was Ihr Engagement für Nachhaltigkeit herausfordert.
+  <p><b>Die Challenges:</b>
+  Herausforderungen wie das Einführen von hierarchie- und bereichsübergeifenden agilen, skalierbaren Prozessen in großen Teams, die Entwicklung von zielgruppenspezifische mobilen Lösungen oder den schonenden Umgang mit Ressourcen prägen den Unternehmensalltag. Hinzukommen wachsenden Anforderungen aus Gesellschaft und Politik sowie von Mitarbeitern, traditionelle Methoden zu modernisieren, und dadurch die Auswirkungen der IT Landschaft auf den CO2 Fußabdruck zu minimieren. 
   </p>
-  <p><b>Unsere maßgeschneiderten Lösungen:</b>
-  Bei mehr.wert verwandeln wir diese Herausforderungen in Chancen. Unser Scaled Agile Coaching verwandelt organisatorisches Chaos in einen harmonisierten, produktiven Arbeitsablauf. Maßgeschneiderte mobile Strategien gewährleisten, dass Ihre Lösungen ins Schwarze treffen und Ihre Zielgruppe effektiv einbinden. Und mit unserer bahnbrechenden Initiative Green Coding helfen wir Ihnen, in Sachen Nachhaltigkeit führend zu sein, indem wir Ihre IT-Praktiken mit Umweltbewusstsein in Einklang bringen. Gemeinsam ebnen wir den Weg für eine intelligentere, grünere und effizientere Zukunft.
+  <p><b>Individuelle Lösungen:</b>
+   Wir nutzen all diese Herausforderungen als Chancen. Mit unserem Scaled Agile Coaching transformieren wir Ihre Organisationskultur zu einem produktiven Arbeitsraum. Unsere individuellen mobile Lösungen ermöglichen eine kundenzentrierte Ansprache. Als aktiveers Mitglied der Green Coding Initiative leisten wir gemeinsam einen Beitrag für eine grünere IT. 
   </p>"
 
 
 ###################### Services #####################
 services:
   item:
-  - name : "Agile Transformation de"
-    content : "Transform your organization with our Scaled Agile Coaching, fostering an adaptable and responsive business environment. Benefit from a partnership that guides you through every step of your agile journey, backed by data-driven insights for continuous improvement and growth. Our commitment to long-term support ensures sustainable agility at every organizational level."
+  - name : "Agile Transformation"
+    content : "Mit unserem Scaled Agile Coaching transformieren wir Ihre Organisationsstruktur zu einem produktiven Arbeitsraum, der schnell auf neue Anforderungen reagieren und messbare Erfolge liefern kann. Unsere Partnerschaft beginnt mit dem ersten Schritt und endet erst dann, wenn Sie Ihre agile Reise im Unternehmen eigenständig weitertreiben können. Transparente KPIs ermöglichen klare Erkenntnisse sowie datengestützte Entscheidungen. Nur so können wir uns alle kontinuierlich Verbessern und Wachstum auf allen Organisationsebenen ermöglichen."
 
-  - name : "Sustainable Tech Solutions de"
-    content : "Stay ahead with our Green Coding initiative, where environmental responsibility meets technological advancement. We help you implement coding practices that minimize environmental impact while maximizing efficiency. Our long-term partnership approach means continuous support in maintaining eco-friendly IT practices, with data-driven results to track your sustainability journey and its impact on your business performance."
+  - name : "Maßgeschneiderte Mobile Apps"
+    content : "Wir begleiten Sie von der ersten Konzeptidee bis hin zur Implementierung der Anwendung. Dabei liegt unser Fokus auf kundenzentrierten und innovation Lösungen, die sich nahtlos in ihre Produkt- und Unternehmensstrategie eingliedern. Messbare Ergebnisse in jeder Phase der (Produkt)entwicklung bieten Ihnen dauerhafte Transparenz."
 
-  - name : "Tailored Mobile Innovation de"
-    content : "Receive custom mobile strategies that align perfectly with your business objectives. We provide comprehensive support from conception to deployment, ensuring your mobile solutions are both innovative and practical. Our approach is grounded in measurable results, offering you clear insights into performance enhancements and user engagement, sustained by a commitment to ongoing partnership and support."
+  - name : "Nachhaltig bessere Software"
+    content : "Mit der Kombination aus ökologischer Verantwortung und technologischem Fortschritt steht die IT  vor einer neuen Herausforderung. Wir helfen Ihnen bei der Implementierung von Vorgehensmodellen und Algorithmen, die die Umweltauswirkungen minimieren und dabei  die Effizienz maximieren. So halten Sie ökologisch Schritt und erfüllen sowohl die aufkommenden Regularien der Regierung (CSRD Reporting) als auch wachsende Ansprüche aus unserer Gesellschaft. Werden Sie Teil der Green Coding Initiative und zertifizieren Sie sich und Ihre Mitarbeitenden. "
 
 
 ######################### Testimonail ####################
@@ -104,22 +104,24 @@ testimonial:
 ###################### Funfacts #########################
 funfacts:
   enable : true
+  title: "Zeit zu(m) Handeln"
+  subtitle: "Nachhaltigkeit beginnt im Code"
   item:
-  - name : "Green Coding Artikel"
-    icon : "ti-write"
-    value : "4"
+  - name : "Eine E-Mail ohne Anhang"
+    icon : "ti-email"
+    value : "10g CO2e"
     
-  - name : "Glückliche Kunden"
-    icon : "ti-heart"
-    value : ">50k"
+  - name : "Globaler Datenmüll 2020"
+    icon : "ti-trash"
+    value : "5,8 Mt CO2e"
     
-  - name : "Programmiersprachen"
-    icon : "ti-hummer"
-    value : "7"
+  - name : "Anteil der IT am globalen Stromverbrauch"
+    icon : "ti-bolt"
+    value : "4-8%"
   
-  - name : "Tassen Kaffee"
-    icon : "ti-rocket"
-    value : "378"
+  - name : "30min Videocall"
+    icon : "ti-video-camera"
+    value : "100g CO2e"
 
 ###################### Skill #############################
 skill:

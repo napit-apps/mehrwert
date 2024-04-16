@@ -105,7 +105,12 @@
 	}
 }
 .mfp-content {
-	max-width: 60%;
+	width: 60%;
+	max-width: 850px;
+
+	@include desktop {
+		max-width: 60%;
+	}
 
 	@include tablet {
 		max-width: 75%;
@@ -132,6 +137,7 @@
 	}
 	p {
 		color: #FFF;
+		font-style: italic;
 	}
 
 	.mfp-close {

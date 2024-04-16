@@ -4,7 +4,7 @@ subtitle: "Head of Trading IT: Platforms & Operations - EnBW Energie Baden-Würt
 link: "https://www.linkedin.com/in/konstantin-pasternack-2b4723168/"
 layout: default
 modal-id: 2
-category: Testimonial
+category: "Agile"
 date: 2023-12-11
 img: "/assets/images/clients/konstantin.jpeg"
 thumbnail: "/assets/images/clients/konstantin.jpeg"
