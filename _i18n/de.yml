@@ -49,10 +49,10 @@ hero_area:
 <li><b>🌱 Nachhaltigkeit:</b> Engagement für eine grünere Zukunft in der IT</li>
 <li><b>🔒 Vertrauen:</b> Sicherheit durch Transparenz und Integrität</li>
 <li><b>🤝 Partnerschaft:</b> Auf Augenhöhe zum gemeinsamen Erfolg</li>
-<li><b>📈 Messbare Ergebnisse:</b>Greifbare Resultate, echtes Wachstum</li>
+<li><b>📈 Messbare Ergebnisse:</b> Greifbare Resultate, echtes Wachstum</li>
 </ul>"
-  primaryButton-label : "Werde Teil der Green Coding Revolution - Lass dich zertifizieren"
-  secondaryButton-label : "Beginne deine Agile Reise - Kontaktiere uns noch heute" 
+  primaryButton-label : "Werden Sie Teil der Green Coding Initiative"
+  secondaryButton-label : "Kontaktieren Sie uns" 
 
 ################## Problem Solution ###########################
 about:
@@ -72,7 +72,7 @@ about:
 services:
   item:
   - name : "Agile Transformation"
-    content : "Mit unserem Scaled Agile Coaching transformieren wir Ihre Organisationsstruktur zu einem produktiven Arbeitsraum, der schnell auf neue Anforderungen reagieren und messbare Erfolge liefern kann. Unsere Partnerschaft beginnt mit dem ersten Schritt und endet erst dann, wenn Sie Ihre agile Reise im Unternehmen eigenständig weitertreiben können. Transparente KPIs ermöglichen klare Erkenntnisse sowie datengestützte Entscheidungen. Nur so können wir uns alle kontinuierlich Verbessern und Wachstum auf allen Organisationsebenen ermöglichen."
+    content : "Entdecken Sie mit unserem Scaled Agile Coaching, wie Ihre Organisation zu einem dynamischen und produktiven Arbeitsumfeld transformiert wird, das schnell auf Marktveränderungen reagieren kann. Unsere Partnerschaft unterstützt Sie von den ersten Schritten bis zu dem Punkt, an dem Sie Ihre agile Reise selbstständig fortsetzen können. Wir setzen auf transparente KPIs, um klare Einblicke und fundierte Entscheidungen zu ermöglichen. Dieser Ansatz fördert kontinuierliche Verbesserungen und nachhaltiges Wachstum auf allen Ebenen Ihrer Organisation."
 
   - name : "Maßgeschneiderte Mobile Apps"
     content : "Wir begleiten Sie von der ersten Konzeptidee bis hin zur Implementierung der Anwendung. Dabei liegt unser Fokus auf kundenzentrierten und innovation Lösungen, die sich nahtlos in ihre Produkt- und Unternehmensstrategie eingliedern. Messbare Ergebnisse in jeder Phase der (Produkt)entwicklung bieten Ihnen dauerhafte Transparenz."
@@ -130,131 +130,131 @@ skill:
 
   agile-title: "Agile"
   agile:
-  - name: "Experten für Scrum und Kanban "
+  - name: "Experten für Scrum und Kanban"
     percentage: "99%"
     modal_id: "agile-1"
-    description: "Langjährige Erfahrung in der Umsetzung der Prinzipien und Praktiken von Scrum und Kanban, einschließlich der Leitung aller Scrum-Zeremonien und des Verständnisses der Rollen und Artefakte. Halten von Schulungen zu den Themen Backlogmanagement, Feature- und Story-Splitting, sowie das Schätzen und Vorhersagen im agilen Team."
+    description: "Wir haben langjährige Erfahrung in der Implementierung der Prinzipien und Praktiken von Scrum und Kanban in unterschiedlicher Rollen wie Scrum Master, Product Owner oder Business Analyst. Dabei fokussieren wir uns auf die Werte des Agilen Manifestos und berücksichtigen die individuelle Umgebung und Anforderungen der Teams."
 
   - name: "Agile Coaching und Mentoring"
     percentage: "99%"
     modal_id: "agile-2"
-    description: "Fähigkeit, Teams, Scrum-Master und Product Owner in agilen Praktiken zu schulen und eine Umgebung zu fördern, die kontinuierliche Verbesserungen und hohe Leistung unterstützt."
+    description: "Wir sind aus Leidenschaft agil und helfen Teams, Scrum-Master und Product Owner in ihren Rollen zu wachsen, schulen sie in agilen Praktiken und fördern eine Umgebung, welche kontinuierliche Verbesserungen und hohe Leistung unterstützt. Zusätzlich zu den klassischen agilen Schulungen, sind wir spezialisiert auf die Themen Backlogmanagement, Feature- und Story-Splitting, sowie das Schätzen und Vorhersagen im agilen Teams."
 
   - name: "Beseitigung von Hindernissen"
     percentage: "99%"
     modal_id: "agile-3"
-    description: "Geschickt darin, Hindernisse zu identifizieren und zu entfernen, die den Fortschritt des Teams behindern, um einen reibungslosen Betrieb zu gewährleisten und den Teams zu helfen, sich auf die Sprint-Ziele zu konzentrieren."
+    description: "Wir sind gut darin, Herausforderungen frühzeitig zu erkennen und aus dem Weg zu räumen. Dies ermöglicht den Teams, sich ohne Unterbrechungen auf ihre Sprint-Ziele zu konzentrieren und fördert einen nahtlosen Arbeitsfluss."
 
   - name: "Change Management"
     percentage: "99%"
     modal_id: "agile-4"
-    description: "Kompetent in der Führung von Organisationen durch den Übergang zu agilen Methoden, einschließlich des Managements von Widerständen und der Ausrichtung der Agile-Adoption an strategische Geschäftsziele."
+    description: "Wir führen Organisationen kompetent durch den Übergang zu agilen Methoden. Unser Ansatz beinhaltet das geschickte Management von Widerständen und das strategische Ausrichten der Agile-Adoption an die Geschäftsziele, um eine nahtlose und effektive Transformation zu gewährleisten."
 
   - name: "Teamdynamik und Konfliktlösung"
     percentage: "99%"
     modal_id: "agile-5"
-    description: "Erfahren in der Verbesserung der Interaktion und Zusammenarbeit im Team, der Lösung von Konflikten und dem Aufbau einer starken, zusammenhängenden Teamkultur, die auf Vertrauen und Respekt basiert."
+    description: "Wir bringen umfassende Erfahrung in der Verbesserung von Teaminteraktionen und Zusammenarbeit mit. Unser Ansatz zielt darauf ab, Konflikte effektiv zu lösen und eine starke, kohäsive Teamkultur zu fördern, die auf den Grundwerten von Vertrauen und Respekt basiert."
 
   scaled-agile-title: "Scaled Agile"
   scaled-agile:
-  - name: "Strategie für Unternehmensagilität"
+  - name: "Skalierung von Agilität in Unternehmen"
     percentage: "99%"
     modal_id: "agile-6"
-    description: "Meisterschaft in der Entwicklung und Implementierung von Strategien, die agile Praktiken in gesamten Organisationen integrieren, um eine Ausrichtung mit den übergeordneten Geschäftszielen sicherzustellen."
+    description: "Wir verfügen über fundierte Erfahrung in der Entwicklung und Implementierung von Strategien, die agile Praktiken in der gesamten Organisation verankern. Unser zielgerichteter Ansatz stellt sicher, dass diese Praktiken nahtlos mit den übergeordneten Geschäftszielen harmonieren und so die gesamte Unternehmensdynamik transformieren."
 
-  - name: "Expertise in Skalierungsframeworks"
+  - name: "Einsatz agiler Skalierungsframeworks"
     percentage: "95%"
     modal_id: "agile-7"
-    description: "Tiefgehendes Wissen in Frameworks wie SAFe (Scaled Agile Framework), das in der Lage ist, diese an die Bedürfnisse und Komplexitäten von Unternehmen anzupassen und zu implementieren."
+    description: "Dank unserer praktischen Erfahrung in der Anwendung und Anpassung agiler Frameworks wie SAFe an spezifische Anforderungen und Gegebenheiten von Unternehmen sind wir in der Lage, messbare Erfolge für unsere Kunden zu erzielen."
 
-  - name: "Führung von organisatorischen Veränderungen"
+  - name: "Führung organisatorischer Veränderungen"
     percentage: "95%"
     modal_id: "agile-8"
-    description: "Kompetent in der Leitung von Veränderungen auf organisatorischer Ebene, einschließlich Stakeholder-Management, Minderung von Widerständen und Etablierung einer agilen Kultur im gesamten Unternehmen."
+    description: "Wir sind erfahren in der Leitung von Veränderungen auf organisatorischer Ebene, einschließlich effektivem Stakeholder-Management, der Minderung von Widerständen und der Etablierung einer agilen Kultur im gesamten Unternehmen. Diese Fähigkeiten ermöglichen es uns, nachhaltige Verbesserungen und eine positive Transformation zu fördern."
 
   - name: "Portfolio- und Programmmanagement"
     percentage: "85%"
     modal_id: "agile-9"
-    description: "Geschickt im Management eines Portfolios von agilen Projekten und Programmen, Optimierung der Ressourcenzuweisung und Maximierung der Wertschöpfung durch effektive Priorisierung und Governance."
+    description: "Wir sind spezialisiert auf das Management eines Portfolios von agilen Projekten und Programmen. Unsere Strategien zur Optimierung der Ressourcenzuweisung und zur Maximierung der Wertschöpfung umfassen effektive Priorisierung und Governance, wodurch wir signifikante Verbesserungen für unsere Kunden erzielen."
 
-  - name: "Executive Coaching und Ausrichtung"
+  - name: "Agile Führungsstrategie"
     percentage: "85%"
     modal_id: "agile-10"
-    description: "Fähigkeit, leitende Führungskräfte und Führungspersonen in agilen Prinzipien und Praktiken zu schulen, um das Engagement der Führungsebene zu fördern und die Unterstützung von oben nach unten für agile Transformationen sicherzustellen."
+    description: "Wir bringen die Fähigkeit mit, leitende Führungskräfte in agilen Prinzipien und Praktiken zu schulen. Unser Coaching fördert das Engagement auf der Führungsebene und sichert die Unterstützung von oben nach unten, um agile Transformationen erfolgreich umzusetzen."
 
   - name: "Messung und Verbesserung der Leistung"
     percentage: "90%"
     modal_id: "agile-11"
-    description: "Experte in der Definition und Implementierung von agilen Metriken und KPIs zur Messung der Leistung, Förderung von Verbesserungen und Demonstration der geschäftlichen Auswirkungen der Agile-Einführung auf Unternehmensebene."
+    description: "Wir sind Experten in der Definition und Implementierung von agilen Metriken und KPIs, die es ermöglichen, die Leistung zu messen, kontinuierliche Verbesserungen zu fördern und die geschäftlichen Auswirkungen der Agile-Einführung auf Unternehmensebene nachweislich zu demonstrieren."
 
   tech-title: "Mobile Apps"
   tech:
-  - name : "12+ Jahre Erfahrung"
+  - name : "Über ein Jahrzehnt Erfahrung in mobilen Lösungen"
     percentage : "100%"
     modal_id: "tech-1"
-    description: "Mit über zwölf Jahren Erfahrung in mobilen Lösungen und Produkten, kompetent im Umgang mit komplexen App-Architekturen und Anpassung an technologische Entwicklungen in der mobilen Landschaft."
+    description: "Wir verfügen über mehr als zwölf Jahre Erfahrung in der Entwicklung mobiler Produkte und sind versiert im Umgang mit komplexen App-Architekturen sowie in der Anpassung an technologische Entwicklungen der mobilen Landschaft."
     
   - name : "Swift und Objective-C Programmierung"
     percentage : "95%"
     modal_id: "tech-2"
-    description: "Fachkenntnisse in Swift und Objective-C, den primären Sprachen für iOS-Entwicklung, gewährleisten effizienten, lesbaren und wartbaren Code."
+    description: "Unsere tiefgreifenden Fachkenntnisse in Swift und Objective-C, den Kernsprachen der iOS-Entwicklung, ermöglichen es uns, effizienten, lesbaren und wartbaren Code zu erstellen. Dies gewährleistet optimale Funktionalität und langfristige Pflege unserer mobilen Anwendungen."
     
   - name : "Experten im iOS SDK"
     percentage : "100%"
     modal_id: "tech-3"
-    description: "Umfassendes Verständnis der Komponenten des iOS Software Development Kit einschließlich UIKit, CoreData und CloudKit für robuste App-Entwicklung."
+    description: "Wir verfügen über ein umfassendes Verständnis der Komponenten des iOS Software Development Kit, einschließlich UIKit, CoreData und CloudKit. Dieses Wissen befähigt uns, robuste und hochfunktionale mobile Anwendungen zu entwickeln, die den Anforderungen moderner Nutzer gerecht werden."
     
   - name : "Benutzeroberflächengestaltung"
     percentage : "90%"
     modal_id: "tech-4"
-    description: "Kompetenz in der Gestaltung intuitiver und ansprechender Benutzeroberflächen mit SwiftUI und Interface Builder, unter Einhaltung der Human Interface Guidelines von Apple."
+    description: "Wir sind kompetent in der Gestaltung intuitiver und ansprechender Benutzeroberflächen unter Verwendung von SwiftUI und Interface Builder. Unser Designprozess folgt streng den Human Interface Guidelines von Apple, um eine optimale Benutzererfahrung zu gewährleisten."
 
   - name : "Leistungsoptimierung"
     percentage : "85%"
     modal_id: "tech-5"
-    description: "Geschickt in der Optimierung der App-Leistung durch effiziente Programmierpraktiken, Speicherverwaltung und Nutzung der nebenläufigen Programmierung."
+    description: "Als Kernkompetenz optimieren wir die App-Leistung durch den Einsatz effizienter Programmiermethoden, fortschrittliche Speicherverwaltung und die Anwendung von nebenläufiger Programmierung. Diese Praktiken ermöglichen es uns, leistungsstarke, reaktionsschnelle Anwendungen zu entwickeln, die auf Benutzerbedürfnisse zugeschnitten sind."
   
   - name : "Einhalten von Sicherheits- und Datenschutzvorschriften"
     percentage : "90%"
     modal_id: "tech-6"
-    description: "Kenntnisse in der Implementierung von Sicherheitsmaßnahmen wie Datenverschlüsselung und sichere Authentifizierung sowie die Gewährleistung, dass Apps Datenschutzgesetzen und -richtlinien entsprechen."
+    description: "Wir sind erfahren in der Implementierung von Sicherheitsmaßnahmen wie Datenverschlüsselung und sichere Authentifizierung. Unser Ansatz gewährleistet, dass alle von uns entwickelten Apps den geltenden Datenschutzgesetzen und -richtlinien entsprechen, um den Schutz von Nutzerdaten zu maximieren."
 
   green-title: "Green Coding"
   green:
   - name: "Energieeffizienter Code"
     percentage: "95%"
     modal_id: "green-1"
-    description: "Wir konzentrieren uns darauf, Code zu schreiben und zu überarbeiten, der mit minimalem Energieverbrauch läuft, um die Leistung zu maximieren und den Energieverbrauch zu reduzieren."
+    description: "Unser Fokus liegt darauf, Code so zu entwickeln und zu optimieren, dass dieser mit minimalem Energieverbrauch operiert. Diese Praxis hilft nicht nur, die Leistung zu maximieren, sondern trägt auch signifikant zur Reduzierung des Energieverbrauchs bei. Dadurch leisten wir einen wertvollen Beitrag zur Nachhaltigkeit in der Softwareentwicklung."
 
   - name: "Messung und Bewertung grüner Software"
     percentage: "85%"
     modal_id: "green-2"
-    description: "Wir sind spezialisiert darauf, die Umweltauswirkungen von Softwareanwendungen zu quantifizieren und bieten Metriken, die bei der Entscheidungsfindung für Codeverbesserungen helfen."
+    description: "Wir sind darauf spezialisiert, die Umweltauswirkungen von Softwareanwendungen zu quantifizieren. Unsere Metriken bieten fundierte Einblicke, die entscheidend sind, um gezielte Codeverbesserungen vorzunehmen und die ökologische Effizienz zu steigern."
 
-  - name: "Verständnis und Anwendung grüner Softwareprinzipien"
+  - name: "Anwendung grüner Softwareprinzipien"
     percentage: "85%"
     modal_id: "green-3"
-    description: "Unsere Expertise umfasst tiefgehendes Wissen über grüne Softwareprinzipien wie effizientes Ressourcenmanagement, Serverauslastung und algorithmische Effizienz, um Umweltauswirkungen zu minimieren."
+    description: "Unsere Expertise umfasst ein tiefgehendes Verständnis und die Anwendung von grünen Softwareprinzipien. Dies schließt effizientes Ressourcenmanagement, optimale Serverauslastung und algorithmische Effizienz ein, um die Umweltauswirkungen unserer Softwarelösungen zu minimieren."
 
   - name: "Umweltfreundliches Software-Lebenszyklusmanagement"
     percentage: "85%"
     modal_id: "green-4"
-    description: "Wir leiten zur Integration von Umweltaspekten in den gesamten Softwareentwicklungszyklus, von der Planung und Gestaltung bis zur Bereitstellung und Außerbetriebnahme."
+    description: "Wir führen die Integration von Umweltaspekten in allen Phasen des Softwareentwicklungszyklus an, von der Planung und Gestaltung bis hin zur Bereitstellung und Außerbetriebnahme. Dieser ganzheitliche Ansatz gewährleistet, dass jede Phase ökologische Nachhaltigkeit berücksichtigt und fördert."
 
   - name: "Energieprofilierung und Optimierung von Code"
     percentage: "99%"
     modal_id: "green-5"
-    description: "Wir bieten Dienstleistungen zur Profilierung des Energieverbrauchs von Software und zur Identifizierung von Hotspots, die Optimierungen bereitstellen, um den gesamten CO2-Fußabdruck des Betriebs zu reduzieren."
+    description: "Wir bieten spezialisierte Dienstleistungen zur Profilierung des Energieverbrauchs von Software. Durch das Identifizieren von Hotspots und die Bereitstellung zielgerichteter Optimierungen tragen wir dazu bei, den CO2-Fußabdruck in der IT unserer Kunden zu minimieren."
 
-  - name: "ESG- und CSRD-Berichterstattung"
+  - name: "Umweltberichterstattung für IT-Unternehmen"
     percentage: "80%"
     modal_id: "green-6"
-    description: "Wir bieten fachkundige Anleitung zur Einhaltung von Umwelt-, Sozial- und Governance-Standards (ESG) und der Richtlinie zur unternehmerischen Nachhaltigkeitsberichterstattung (CSRD), die IT-Unternehmen dabei unterstützt, ihre Nachhaltigkeitspraktiken und -auswirkungen genau zu messen und zu berichten."
+    description: "Wir bieten Beratungen zur Einhaltung der Umweltstandards im Rahmen der unternehmerischen Nachhaltigkeitsberichterstattung (CSRD). Unsere Expertise unterstützt IT-Unternehmen dabei, ihre ökologischen Praktiken und Auswirkungen präzise zu erfassen und transparent zu berichten, was zur Steigerung ihrer Umweltverantwortung beiträgt."
 
-  - name: "Schulungen zu nachhaltigen Programmierpraktiken"
+  - name: "Schulungen zu Green Coding"
     percentage: "95%"
     modal_id: "green-7"
-    description: "Wir bieten Schulungssitzungen an, die auf nachhaltige Programmierpraktiken ausgerichtet sind und Entwickler darin schulen, Software zu entwickeln, die sowohl umweltfreundlich als auch funktional ist."
+    description: "In unseren Schulungen vermitteln wir Entwicklern, wie sie Software erstellen können, die umweltfreundlich und zugleich leistungsfähig ist. Diese Trainings sind darauf ausgerichtet, das Bewusstsein für nachhaltige Programmierung im Unternehmen zu stärken und helfen dabei, eine dauerhaft umweltbewusste Firmenkultur zu etablieren."
 
   certificates-title: "Certificates"
   certificates:
@@ -306,8 +306,8 @@ team:
 
 contact:
   title: "Kontakt"
-  subtitle: "Got a project in mind or need advice on your Agile journey?"
-  intro: "Drop us a message – we're excited to connect and explore how we can create sustainable IT solutions tailored for you."
+  subtitle: "Brauchen Sie Unterstützung bei der Umsetzung nachhaltiger IT-Lösungen?"
+  intro: "Schreiben Sie uns – gemeinsam finden wir die passende Lösung für Sie."
   form : 
     name: "Name"
     email: "E-Mail"

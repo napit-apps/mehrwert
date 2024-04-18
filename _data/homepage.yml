@@ -2,11 +2,11 @@
 hero_area:
   image : "/assets/images/banner/overlay.png"
   primaryButton:
-    enable : true
-    link : "/gsptraining.html"
+    enable : false
+    link : "/training-gsp.html"
   secondaryButton:
     enable : true
-    link : "mailto:kontakt@mehrwert.com?subject=Embark%20my%20Agile%20Journey"
+    link : "mailto:kontakt@mehrwert.com?subject=Kontaktanfrage"
     
 ################## Problem Solution ###########################
 about:
