@@ -44,7 +44,7 @@ bottom:
 hero_area:
   title : "Nachhaltig bessere Software"
   title2 : "Innovation trifft Nachhaltigkeit -<br/> Software die begeistert"
-  subheadline : "<b>Bei mehr.wert kombinieren wir Innovation mit Nachhaltigkeit. Dadurch gelingen uns gemeinsam wertstiftende Veränderungen in der IT Landschaft. Wir sind spezialisiert auf Scaled Agile Coaching, effiziente mobile Lösungen und Pionierarbeit im Bereich Green Coding.</b>"
+  subheadline : "<b>Bei mehr.wert verbinden wir Innovation mit Nachhaltigkeit. Dadurch gelingen uns gemeinsam wertstiftende Veränderungen in der IT Landschaft. Wir sind spezialisiert auf Scaled Agile Coaching, effiziente mobile Lösungen und Pionierarbeit im Bereich Green Coding.</b>"
   content : "<ul class=\"list-hero mt-4 mb-5\">
 <li><b>🌱 Nachhaltigkeit:</b> Engagement für eine grünere Zukunft in der IT</li>
 <li><b>🔒 Vertrauen:</b> Sicherheit durch Transparenz und Integrität</li>
@@ -126,68 +126,135 @@ funfacts:
 ###################### Skill #############################
 skill:
   subtitle : "mehr.wert"
-  title : "Kernkompetenzen"
+  title : "Unsere Kernkompetenzen"
 
   agile-title: "Agile"
   agile:
-  - name : "Vertrauensaufbau"
-    percentage : "99%"
-  
-  - name : "Delivery on time"
-    percentage : "95%"
-    
-  - name : "Backlog Management"
-    percentage : "95%"
-  
-  - name : "Portfolio management"
-    percentage : "85%"    
-  
-  - name : "Professional Training"
-    percentage : "85%"
-  
-  - name : "Capability Enhancement"
-    percentage : "90%"
-  
-  tech-title: "Mobile"
-  tech:
-  - name : "12+ years experience"
-    percentage : "100%"
-    
-  - name : "Efficient mobile architectures"
-    percentage : "95%"
-    
-  - name : "Technology selection"
-    percentage : "100%"
-    
-  - name : "Developer Trainings"
-    percentage : "90%"
+  - name: "Experten für Scrum und Kanban "
+    percentage: "99%"
+    modal_id: "agile-1"
+    description: "Langjährige Erfahrung in der Umsetzung der Prinzipien und Praktiken von Scrum und Kanban, einschließlich der Leitung aller Scrum-Zeremonien und des Verständnisses der Rollen und Artefakte. Halten von Schulungen zu den Themen Backlogmanagement, Feature- und Story-Splitting, sowie das Schätzen und Vorhersagen im agilen Team."
 
-  - name : "UI/UX Patterns"
-    percentage : "85%"
-  
-  - name : "Business driven design"
+  - name: "Agile Coaching und Mentoring"
+    percentage: "99%"
+    modal_id: "agile-2"
+    description: "Fähigkeit, Teams, Scrum-Master und Product Owner in agilen Praktiken zu schulen und eine Umgebung zu fördern, die kontinuierliche Verbesserungen und hohe Leistung unterstützt."
+
+  - name: "Beseitigung von Hindernissen"
+    percentage: "99%"
+    modal_id: "agile-3"
+    description: "Geschickt darin, Hindernisse zu identifizieren und zu entfernen, die den Fortschritt des Teams behindern, um einen reibungslosen Betrieb zu gewährleisten und den Teams zu helfen, sich auf die Sprint-Ziele zu konzentrieren."
+
+  - name: "Change Management"
+    percentage: "99%"
+    modal_id: "agile-4"
+    description: "Kompetent in der Führung von Organisationen durch den Übergang zu agilen Methoden, einschließlich des Managements von Widerständen und der Ausrichtung der Agile-Adoption an strategische Geschäftsziele."
+
+  - name: "Teamdynamik und Konfliktlösung"
+    percentage: "99%"
+    modal_id: "agile-5"
+    description: "Erfahren in der Verbesserung der Interaktion und Zusammenarbeit im Team, der Lösung von Konflikten und dem Aufbau einer starken, zusammenhängenden Teamkultur, die auf Vertrauen und Respekt basiert."
+
+  scaled-agile-title: "Scaled Agile"
+  scaled-agile:
+  - name: "Strategie für Unternehmensagilität"
+    percentage: "99%"
+    modal_id: "agile-6"
+    description: "Meisterschaft in der Entwicklung und Implementierung von Strategien, die agile Praktiken in gesamten Organisationen integrieren, um eine Ausrichtung mit den übergeordneten Geschäftszielen sicherzustellen."
+
+  - name: "Expertise in Skalierungsframeworks"
+    percentage: "95%"
+    modal_id: "agile-7"
+    description: "Tiefgehendes Wissen in Frameworks wie SAFe (Scaled Agile Framework), das in der Lage ist, diese an die Bedürfnisse und Komplexitäten von Unternehmen anzupassen und zu implementieren."
+
+  - name: "Führung von organisatorischen Veränderungen"
+    percentage: "95%"
+    modal_id: "agile-8"
+    description: "Kompetent in der Leitung von Veränderungen auf organisatorischer Ebene, einschließlich Stakeholder-Management, Minderung von Widerständen und Etablierung einer agilen Kultur im gesamten Unternehmen."
+
+  - name: "Portfolio- und Programmmanagement"
+    percentage: "85%"
+    modal_id: "agile-9"
+    description: "Geschickt im Management eines Portfolios von agilen Projekten und Programmen, Optimierung der Ressourcenzuweisung und Maximierung der Wertschöpfung durch effektive Priorisierung und Governance."
+
+  - name: "Executive Coaching und Ausrichtung"
+    percentage: "85%"
+    modal_id: "agile-10"
+    description: "Fähigkeit, leitende Führungskräfte und Führungspersonen in agilen Prinzipien und Praktiken zu schulen, um das Engagement der Führungsebene zu fördern und die Unterstützung von oben nach unten für agile Transformationen sicherzustellen."
+
+  - name: "Messung und Verbesserung der Leistung"
+    percentage: "90%"
+    modal_id: "agile-11"
+    description: "Experte in der Definition und Implementierung von agilen Metriken und KPIs zur Messung der Leistung, Förderung von Verbesserungen und Demonstration der geschäftlichen Auswirkungen der Agile-Einführung auf Unternehmensebene."
+
+  tech-title: "Mobile Apps"
+  tech:
+  - name : "12+ Jahre Erfahrung"
+    percentage : "100%"
+    modal_id: "tech-1"
+    description: "Mit über zwölf Jahren Erfahrung in mobilen Lösungen und Produkten, kompetent im Umgang mit komplexen App-Architekturen und Anpassung an technologische Entwicklungen in der mobilen Landschaft."
+    
+  - name : "Swift und Objective-C Programmierung"
+    percentage : "95%"
+    modal_id: "tech-2"
+    description: "Fachkenntnisse in Swift und Objective-C, den primären Sprachen für iOS-Entwicklung, gewährleisten effizienten, lesbaren und wartbaren Code."
+    
+  - name : "Experten im iOS SDK"
+    percentage : "100%"
+    modal_id: "tech-3"
+    description: "Umfassendes Verständnis der Komponenten des iOS Software Development Kit einschließlich UIKit, CoreData und CloudKit für robuste App-Entwicklung."
+    
+  - name : "Benutzeroberflächengestaltung"
     percentage : "90%"
+    modal_id: "tech-4"
+    description: "Kompetenz in der Gestaltung intuitiver und ansprechender Benutzeroberflächen mit SwiftUI und Interface Builder, unter Einhaltung der Human Interface Guidelines von Apple."
+
+  - name : "Leistungsoptimierung"
+    percentage : "85%"
+    modal_id: "tech-5"
+    description: "Geschickt in der Optimierung der App-Leistung durch effiziente Programmierpraktiken, Speicherverwaltung und Nutzung der nebenläufigen Programmierung."
   
+  - name : "Einhalten von Sicherheits- und Datenschutzvorschriften"
+    percentage : "90%"
+    modal_id: "tech-6"
+    description: "Kenntnisse in der Implementierung von Sicherheitsmaßnahmen wie Datenverschlüsselung und sichere Authentifizierung sowie die Gewährleistung, dass Apps Datenschutzgesetzen und -richtlinien entsprechen."
+
   green-title: "Green Coding"
   green:
-  - name : "Principles of Green Software"
-    percentage : "95%"
-  
-  - name : "Awareness Programs"
-    percentage : "85%"
+  - name: "Energieeffizienter Code"
+    percentage: "95%"
+    modal_id: "green-1"
+    description: "Wir konzentrieren uns darauf, Code zu schreiben und zu überarbeiten, der mit minimalem Energieverbrauch läuft, um die Leistung zu maximieren und den Energieverbrauch zu reduzieren."
 
-  - name : "Measurement (SCI)"
-    percentage : "85%"
-    
-  - name : "Coding Practices"
-    percentage : "85%"
-  
-  - name : "Professional Trainings"
-    percentage : "99%"
-  
-  - name : "Scope 3"
-    percentage : "90%"
-    
+  - name: "Messung und Bewertung grüner Software"
+    percentage: "85%"
+    modal_id: "green-2"
+    description: "Wir sind spezialisiert darauf, die Umweltauswirkungen von Softwareanwendungen zu quantifizieren und bieten Metriken, die bei der Entscheidungsfindung für Codeverbesserungen helfen."
+
+  - name: "Verständnis und Anwendung grüner Softwareprinzipien"
+    percentage: "85%"
+    modal_id: "green-3"
+    description: "Unsere Expertise umfasst tiefgehendes Wissen über grüne Softwareprinzipien wie effizientes Ressourcenmanagement, Serverauslastung und algorithmische Effizienz, um Umweltauswirkungen zu minimieren."
+
+  - name: "Umweltfreundliches Software-Lebenszyklusmanagement"
+    percentage: "85%"
+    modal_id: "green-4"
+    description: "Wir leiten zur Integration von Umweltaspekten in den gesamten Softwareentwicklungszyklus, von der Planung und Gestaltung bis zur Bereitstellung und Außerbetriebnahme."
+
+  - name: "Energieprofilierung und Optimierung von Code"
+    percentage: "99%"
+    modal_id: "green-5"
+    description: "Wir bieten Dienstleistungen zur Profilierung des Energieverbrauchs von Software und zur Identifizierung von Hotspots, die Optimierungen bereitstellen, um den gesamten CO2-Fußabdruck des Betriebs zu reduzieren."
+
+  - name: "ESG- und CSRD-Berichterstattung"
+    percentage: "80%"
+    modal_id: "green-6"
+    description: "Wir bieten fachkundige Anleitung zur Einhaltung von Umwelt-, Sozial- und Governance-Standards (ESG) und der Richtlinie zur unternehmerischen Nachhaltigkeitsberichterstattung (CSRD), die IT-Unternehmen dabei unterstützt, ihre Nachhaltigkeitspraktiken und -auswirkungen genau zu messen und zu berichten."
+
+  - name: "Schulungen zu nachhaltigen Programmierpraktiken"
+    percentage: "95%"
+    modal_id: "green-7"
+    description: "Wir bieten Schulungssitzungen an, die auf nachhaltige Programmierpraktiken ausgerichtet sind und Entwickler darin schulen, Software zu entwickeln, die sowohl umweltfreundlich als auch funktional ist."
 
   certificates-title: "Certificates"
   certificates:

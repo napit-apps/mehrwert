@@ -130,63 +130,131 @@ skill:
   
   agile-title: "Agile"
   agile:
-  - name : "Building Trust"
+  - name : "Scrum Framework Mastery"
     percentage : "99%"
+    modal_id: "agile-1"
+    description: "Expertise in applying the principles and practices of the Scrum framework, including facilitating all Scrum ceremonies and understanding the roles and artifacts involved."
   
-  - name : "Delivery in time"
+  - name : "Agile Coaching and Mentoring"
+    percentage : "99%"
+    modal_id: "agile-2"
+    description: "Ability to coach teams, Scrum Masters, and Product Owners on Agile practices, fostering an environment conducive to continuous improvement and high performance."
+  
+  - name : "Impediment Removal"
+    percentage : "99%"
+    modal_id: "agile-3"
+    description: "Skilled in identifying and removing obstacles that impede team progress, ensuring smooth operations and helping teams maintain their focus on sprint goals."
+  
+  - name : "Change Management"
+    percentage : "99%"
+    modal_id: "agile-4"
+    description: "Proficient in guiding organizations through the transition to Agile methodologies, including managing resistance and aligning Agile adoption with strategic business goals."
+  
+  - name : "Team Dynamics and Conflict Resolution"
+    percentage : "99%"
+    modal_id: "agile-5"
+    description: "Experienced in enhancing team interaction and collaboration, resolving conflicts, and building a strong, cohesive team culture based on trust and respect."
+  
+  scaled-agile-title: "Scaled Agile"
+  scaled-agile:
+  - name : "Enterprise Agility Strategy"
+    percentage : "99%"
+    modal_id: "agile-6"
+    description: "Mastery in developing and implementing strategies that integrate Agile practices across entire organizations, ensuring alignment with overall business objectives."
+  
+  - name : "Scaling Frameworks Expertise"
     percentage : "95%"
+    modal_id: "agile-7"
+    description: "Deep knowledge in frameworks such as SAFe (Scaled Agile Framework), capable of customizing and deploying these to suit enterprise needs and complexities."
     
-  - name : "Backlog Management"
+  - name : "Organizational Change Leadership"
     percentage : "95%"
+    modal_id: "agile-8"
+    description: "Proficient in leading change at the organizational level, including stakeholder management, change resistance mitigation, and the establishment of an Agile culture throughout the enterprise."
   
-  - name : "Portfolio management"
-    percentage : "85%"    
+  - name : "Portfolio and Program Management"
+    percentage : "85%"  
+    modal_id: "agile-9"
+    description: "Skilled in managing a portfolio of Agile projects and programs, optimizing resource allocation and maximizing value delivery through effective prioritization and governance."
   
-  - name : "Professional Training"
+  - name : "Executive Coaching and Alignment"
     percentage : "85%"
+    modal_id: "agile-10"
+    description: "Ability to coach senior executives and leaders on Agile principles and practices, fostering executive buy-in and ensuring top-down support for Agile transformations."
   
-  - name : "Capability Enhancement"
+  - name : "Metrics and Performance Improvement"
     percentage : "90%"
+    modal_id: "agile-11"
+    description: "Expert in defining and implementing Agile metrics and KPIs to measure performance, drive improvements, and demonstrate the business impact of Agile adoption at the enterprise level."
   
-  tech-title: "Mobile"
+  tech-title: "Mobile Apps"
   tech:
   - name : "12+ years experience"
     percentage : "100%"
+    modal_id: "tech-1"
+    description: "With over twelve years of focused experience in mobile solutions, adept at navigating complex app architectures and adapting to technological advancements in the mobile landscape."
     
-  - name : "Efficient mobile architectures"
+  - name : "Swift and Objective-C Programming"
     percentage : "95%"
+    modal_id: "tech-2"
+    description: "Expertise in Swift and Objective-C, the primary languages for iOS development, ensuring efficient, readable, and maintainable code."
     
-  - name : "Technology selection"
+  - name : "iOS SDK Mastery"
     percentage : "100%"
+    modal_id: "tech-3"
+    description: "Comprehensive understanding of iOS Software Development Kit components including UIKit, CoreData, and CloudKit for robust app development."
     
-  - name : "Developer Trainings"
+  - name : "User Interface Design"
     percentage : "90%"
+    modal_id: "tech-4"
+    description: "Proficiency in crafting intuitive and engaging user interfaces using SwiftUI and Interface Builder, adhering to Apple's Human Interface Guidelines."
 
-  - name : "UI/UX Patterns"
+  - name : "Performance Optimization"
     percentage : "85%"
+    modal_id: "tech-5"
+    description: "Skilled in optimizing app performance through efficient coding practices, memory management, and leveraging concurrent programming."
   
-  - name : "Business driven design"
+  - name : "Security and Privacy Compliance"
     percentage : "90%"
+    modal_id: "tech-6"
+    description: "Knowledgeable in implementing security measures like data encryption and secure authentication, and ensuring apps comply with privacy laws and guidelines."
   
   green-title: "Green Coding"
   green:
-  - name : "Principles of Green Software"
+  - name : "Optimized Code for Energy Efficiency"
     percentage : "95%"
+    modal_id: "green-1"
+    description: "We focus on writing and refactoring code to run with minimal power usage, maximizing performance while reducing energy consumption."
   
-  - name : "Awareness Programs"
+  - name : "Green Software Metrics and Measurement"
     percentage : "85%"
+    modal_id: "green-2"
+    description: "We specialize in quantifying the environmental impact of software applications, providing metrics that help in making informed decisions about code improvements."
 
-  - name : "Measurement (SCI)"
+  - name : "Understanding and Applying Green Software Principles"
     percentage : "85%"
+    modal_id: "green-3"
+    description : "Our expertise includes deep knowledge of green software principles such as efficient resource management, server utilization, and algorithmic efficiency to minimize environmental impact."
     
-  - name : "Coding Practices"
+  - name : "Eco-friendly Software Lifecycle Management"
     percentage : "85%"
+    modal_id: "green-4"
+    description: "We guide on integrating environmental considerations throughout the software development lifecycle, from planning and design to deployment and decommissioning."
   
-  - name : "Professional Trainings"
+  - name : "Energy Profiling and Optimization of Code"
     percentage : "99%"
+    modal_id: "green-5"
+    description : "We offer services to profile software energy usage and identify hotspots, providing optimizations that reduce the overall carbon footprint of operations."
+
+  - name : "ESG and CSRD Reporting"
+    percentage : "80%"
+    modal_id: "green-6"
+    description : "We offer expert guidance on Environmental, Social, and Governance (ESG) and Corporate Sustainability Reporting Directive (CSRD) compliance, helping IT companies to accurately measure and report their sustainability practices and impacts."
   
-  - name : "Scope 3"
-    percentage : "90%"
+  - name : "Training in Sustainable Coding Practices"
+    percentage : "95%"
+    modal_id: "green-7"
+    description : "We provide training sessions focused on sustainable coding practices, educating developers on how to build software that is as environmentally friendly as it is functional."
     
 
   certificates-title: "Certificates"

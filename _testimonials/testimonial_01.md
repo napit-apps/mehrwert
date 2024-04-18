@@ -3,7 +3,7 @@ name: "Jacques Dunselman"
 subtitle: "Agile Transformation Lead - PMx"
 link: "https://www.pmx.nl/"
 layout: default
-modal-id: 1
+modal-id: "testimonial-1"
 category: "Agile"
 date: 2023-12-11
 img: "/assets/images/clients/jaqcues.jpeg"
@@ -24,7 +24,6 @@ Positive mindset
 Pragmatic – not dogmatic"
 
 feedback_preview: "Marcel is a driven coach that is able to steer teams and people towards agility by asking the right questions,"
-feedback_full: "Marcel is a driven coach that is able to steer teams and people towards agility by asking the right questions, helping individuals discover their own path. Marcel’s critical and pragmatic approach means he validates whether it contributes to the objectives. If you’re looking for a pragmatic lead and/or coach that delivers results, don’t hesitate and hire Marcel!
-"
+feedback_full: "Marcel is a driven coach that is able to steer teams and people towards agility by asking the right questions, helping individuals discover their own path. Marcel’s critical and pragmatic approach means he validates whether it contributes to the objectives. If you’re looking for a pragmatic lead and/or coach that delivers results, don’t hesitate and hire Marcel!"
 
 ---
