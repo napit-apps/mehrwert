@@ -207,7 +207,7 @@ skill:
   - name : "Benutzeroberflächengestaltung"
     percentage : "90%"
     modal_id: "tech-4"
-    description: "Wir sind kompetent in der Gestaltung intuitiver und ansprechender Benutzeroberflächen unter Verwendung von SwiftUI und Interface Builder. Unser Designprozess folgt streng den Human Interface Guidelines von Apple, um eine optimale Benutzererfahrung zu gewährleisten."
+    description: "Wir sind erfahren in der Gestaltung intuitiver und ansprechender Benutzeroberflächen unter Verwendung von SwiftUI und Interface Builder. Unser Designprozess folgt streng den Human Interface Guidelines von Apple, um eine optimale Benutzererfahrung zu gewährleisten."
 
   - name : "Leistungsoptimierung"
     percentage : "85%"
