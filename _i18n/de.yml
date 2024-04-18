@@ -51,8 +51,8 @@ hero_area:
 <li><b>🤝 Partnerschaft:</b> Auf Augenhöhe zum gemeinsamen Erfolg</li>
 <li><b>📈 Messbare Ergebnisse:</b> Greifbare Resultate, echtes Wachstum</li>
 </ul>"
-  primaryButton-label : "Werden Sie Teil der Green Coding Initiative"
-  secondaryButton-label : "Kontaktieren Sie uns" 
+  primaryButton-label : "Kontaktieren Sie uns" 
+  secondaryButton-label : "Werden Sie Teil der Green Coding Initiative"
 
 ################## Problem Solution ###########################
 about:
