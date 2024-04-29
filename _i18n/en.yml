@@ -43,7 +43,7 @@ bottom:
 ################## Hero Area #######################
 hero_area:
   title : "Sustainable Software Solutions"
-  subheadline : "<b>At mehr.wert, we combine innovation with sustainability to deliver true value in IT. Specializing in Scaled Agile Coaching, Efficient Mobile Solutions, and Pioneering Green Coding.</b>"
+  subheadline : "At mehr.wert, we combine innovation with sustainability to deliver true value in IT. Specializing in Scaled Agile Coaching, Efficient Mobile Solutions, and Pioneering Green Coding."
   content : "<ul class=\"list-hero mt-4 mb-5\">
 <li><b>🌱 Sustainability:</b> Commitment to a Greener Future in IT</li>
 <li><b>🔒 Trust:</b> Building Reliable Solutions You Can Count On</li>
