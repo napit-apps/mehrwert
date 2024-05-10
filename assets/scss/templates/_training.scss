@@ -1,0 +1,45 @@
+.faq-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.faq-question:not(:first-of-type) td {
+    border-top: 3px solid $primary-color;
+}
+
+.faq-question td {
+    cursor: pointer;
+    padding: 12px;
+    background-color: $secondary-color; /* Stellen Sie sicher, dass diese SCSS-Variable definiert ist oder ersetzen Sie sie durch eine CSS-Farbe, z.B. #ddd */
+    color: $white; /* Stellen Sie sicher, dass diese SCSS-Variable definiert ist oder ersetzen Sie sie durch eine CSS-Farbe, z.B. #fff */
+    font-size: large;
+    position: relative; /* Wichtig, damit das Icon relativ zu diesem td positioniert wird */
+    overflow: hidden; /* Verhindert, dass Inhalte außerhalb des td überlaufen */
+}
+
+.faq-question td i {
+    position: absolute;
+    right: 20px; /* Rechter Rand innerhalb des td */
+    top: 50%; /* Zentriert das Icon vertikal in der Mitte des td */
+    transform: translateY(-50%); /* Korrigiert die Position, damit das Zentrum des Icons genau in der Mitte des td ist */
+}
+
+.faq-question.open .ti-arrow-down {
+    transform: translateY(-50%) rotate(180deg); /* Dreht das Icon, wenn die Zeile offen ist */
+}
+
+
+.faq-answer td {
+    padding: 0px 24px 24px 24px;
+}
+
+.faq-answer {
+    background-color: $secondary-color;
+    color: white;
+    display: none; /* Set to none initially, let jQuery handle showing it */
+    opacity: 0;
+}
+
+.faq-answer.open {
+    opacity: 1; /* Make the content fully opaque when visible */
+}

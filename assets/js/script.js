@@ -188,7 +188,23 @@
     });
   }
 
-
+  // FAQ Toggle Functionality
+  // $(document).ready(function () {
+  //   $('.faq-question').on('click', function () {
+  //     var answerRow = $(this).next('.faq-answer');
+  //     answerRow.toggleClass('open');
+  //   });
+  // });
+  $(document).ready(function () {
+    $('.faq-question').click(function () {
+      // This assumes the answer is the immediately following row
+      var answer = $(this).next('.faq-answer');
+      answer.slideToggle(0, function() {
+        answer.toggleClass('open');
+      });
+      $(this).toggleClass('open');
+    });
+  });
 
   // meta social link
 

@@ -4,15 +4,11 @@ close: "Close"
 
 ################## Menu Area #######################
 main-menue:
-  # - name: Services
-  #   url: /
-  #   submenu:
-  #     - name: Agile Coaching
-  #       url: /services.html
-  #     - name: App Development
-  #       url: /portfolio-1.html
-  #     - name: Green Coding
-  #       url: /portfolio-2.html
+  - name: Trainings
+    url: "#"
+    submenu: 
+      - name: Green Software Practitioner
+        url: "/trainings/gsp.html"
   - name: Legal
     url: "#"
     submenu:
@@ -324,3 +320,123 @@ blog:
   title : "latest article"
   subtitle : "Stay Update with mehr.wert"
 
+###################### 404 ######################
+error:
+  404: 
+    title: "404"
+    description: "404 page not found"
+
+###################### Trainings ######################
+contact_training:
+  title: "Let's Innovate Together!"
+  subtitle: "Got a project in mind or need advice on your Agile journey?"
+  intro: "Drop us a message – we're excited to connect and explore how we can create sustainable IT solutions tailored for you."
+  form : 
+    name: "Name"
+    email: "Email Adress"
+    phone: "Phone Number"
+    message: "Message"
+    subject: "Subject"
+  privacy-note: "By clicking the 'Submit' button below, you agree that we can process your data in accordance with the <a href=\"/en/privacy.html\" target=\"_blank\">Privacy Policy.</a>"
+  button: "Submit"
+  adress: "Contact Information"
+
+gsp_training:
+  title: "Make your software development sustainable"
+  description: "Train yourself and your team to become certified Green Software Practitioners."
+  cta:
+    title: "Request information about training"
+    action: "mailto:kontakt@mehrwert.com?subject=Anfrage Green Software Practitioner Training"
+  relevance:
+    title: "Sustainable Software: A Global Imperative"
+    description: "In today's digital age, software drives countless aspects of our lives, but it also significantly impacts the environment. The increasing demand for digital services results in higher energy consumption and greater carbon emissions, making the need for sustainable software development more critical than ever. <br /><br />Recent data highlights the urgency of integrating sustainability in software development."
+    footer: "As a Green Software Practitioner, you will be equipped with the skills and knowledge necessary to develop software that is not only functional and innovative but also environmentally conscious. This training will empower you to make decisions that align with ecological sustainability, helping reduce the environmental impact of technology and fostering a greener future."
+    item:
+    - name : "Energy Consumption"
+      content: "The global IT sector is estimated to account for approximately 2% to 3% of global carbon emissions, equivalent to the airline industry. Data centers alone are responsible for around 1% of the global electricity demand and could rise to 3-4% by 2030."
+      icon : "ti-bolt"
+      
+    - name : "Waste Generation"
+      content: "Electronic waste is one of the fastest-growing waste streams worldwide, with millions of tons of outdated or end-of-life hardware discarded each year, much of which is linked to software upgrades or replacements."
+      icon : "ti-trash"
+      
+    - name : "Resource Efficiency"
+      content: "Software can influence the energy efficiency of the hardware it runs on. Optimized software can reduce the energy consumption of devices, contributing significantly to global sustainability efforts."
+      icon : "ti-stats-up"
+  overview:
+    title: "Achieving Sustainability in Software"
+    intro: "Green software focuses on carbon efficiency, which involves minimizing emissions through three key strategies: energy efficiency, carbon awareness, and hardware efficiency. This training will cover these concepts, show you how to apply them to your processes, measure their impact, and familiarize you with the international guidelines and organizations overseeing this space."
+    subtitle: "By the end of this training, you will have gained the following insights and skills"
+    item:
+    - text : "Understanding Carbon Drivers: Identify the primary factors that contribute to carbon emissions in software applications."
+    - text : "Effective Actions for Reduction: Learn the three critical actions to reduce the carbon footprint of your software—energy efficiency, carbon awareness, and hardware efficiency."
+    - text : "Measuring Emissions: Master the techniques for quantifying software emissions, utilizing standards such as the Greenhouse Gas (GHG) protocol and the Software Carbon Intensity (SCI) specification."
+    - text : "Aligning with Corporate Goals: Understand the various types of corporate climate targets to better integrate your green software initiatives with your organization’s public commitments."
+  banner:
+    image: "/assets/images/bg/bg-8.jpg"
+    text: "No special prior knowledge required!"
+  pricing:
+    title: "Pricing"
+    subtitle: "We offer different packages for the training."
+    price-unit: "flat rate"
+    item:
+    - title: "Basic"
+      background: bg-white
+      duration: "~4 Hours"
+      price: "500€"
+      participants: "3-6 participants"
+      location: "Neue Weberrei (Wernau)"
+      content-1: "Creating awareness"
+      content-2: "Green coding basics"
+      content-3: "Understanding theory"
+    - title: "Professional"
+      background: bg-primary
+      duration: "6-8 Hours"
+      price: "800€"
+      participants: "up to 10 participants"
+      location: "Neue Weberrei (Wernau)"
+      content-1: "Creating awareness"
+      content-2: "Introduction to Green Coding"
+      content-3: "Practical examples"
+    - title: "Professional"
+      background: bg-white
+      duration: "6-8 Hours"
+      price: "950€"
+      participants: "up to 10 participants"
+      location: "On site with you"
+      content-1: "Creating awareness"
+      content-2: "Introduction to Green Coding"
+      content-3: "Practical examples"
+  faq:
+    title: "FAQs"
+    item:
+    - question: "Why should you and your team sign up for the training?" 
+      answer: "The environmental impact of software is increasing rapidly. In this training you will learn how developers, IT departments and managers can contribute to a sustainable IT future."
+    - question: "Who should attend this training?" 
+      answer: "This training is specifically designed for professionals working in software development, implementation or management. It is aimed at anyone who wants to deepen their knowledge of sustainable software practices in order to actively contribute to reducing the carbon footprint of their applications."
+    - question: "What are the prerequisites for participation?"   
+      answer: "Participants in this training should have a basic knowledge of software development. This forms the basis for effectively understanding and applying the principles and techniques of sustainable software development."  
+    - question: "What will you learn in this training?"
+      answer: "In this training you will explore the key concepts of sustainable software development. These include energy efficiency, carbon awareness and hardware efficiency. You will learn how to apply these principles in practice to minimize the carbon footprint of your software products."
+    - question: "What is the training content based on?"
+      answer: "The training content is based on the sound preliminary work of the Green Software Foundation. This is supplemented by in-depth teaching materials that include the latest scientific findings and practical examples to give you a comprehensive understanding of sustainable software development."
+    - question: "How can you register yourself and your team for training?"
+      answer: "To register yourself and your team for the training, please use the registration form at the bottom of the page, call us or send us an e-mail. If you have any questions or require further information, please do not hesitate to contact us."
+    - question: "Is there a minimum number of participants or a limit on the number of participants?"
+      answer: "There is both a minimum number of participants and an upper limit for the number of participants. To ensure an optimal learning environment, we recommend a group size of 4 to 10 participants. Please contact us directly for more information."
+    - question: "Why does the training preferably take place in person?"
+      answer: "The training is primarily conducted on site to promote an interactive learning environment in which direct exchange and practical exercises can be optimally implemented. This form of learning not only supports the development of networks among the participants, but also enables direct feedback and individual support from the trainers."
+    - question: "Can individual participants also take part in the training remotely?"
+      answer: "Yes, it is possible for individual participants to take part in the training remotely. We offer flexible solutions to ensure effective integration of face-to-face and distance learning. For specific requirements or to set up a hybrid training format, we will be happy to help you find a suitable solution."
+    - question: "Does the training address technology-specific issues?"
+      answer: "While the content of our training is designed to be technology-independent to ensure broad applicability, we are happy to address technology-specific questions. We encourage participants to ask such questions so that we can respond to individual needs and specific situations. The scope is determined by the selected training package."
+    - question: "How much does the training cost?"
+      answer: "The cost of training varies depending on the package you choose. You can find a detailed overview of the various training packages and their prices on our website. Please note that additional travel costs may be incurred for venues outside a 50 km radius of Kirchheim unter Teck. For specific information on travel costs, please contact us directly."
+    - question: "How long does the training last?"
+      answer: "The duration of the training depends on the package you choose. Details of the individual training packages and their duration can be found on our website. There we offer a selection of different formats tailored to different needs and schedules."
+    - question: "How does the certification take place?"
+      answer: "If you opt for certification, you will have the opportunity to take a Linux Foundation exam at the end of the training. This exam tests your acquired knowledge and skills in the area of sustainable software development. If you successfully pass the exam, you will receive a certificate confirming your qualifications as a Green Software Practitioner."           
+    - question: "Where does the training take place?"
+      answer: "We will be happy to come to you for the training. Alternatively, we have modern facilities at the Neue Weberrei in Wernau."
+     
+  

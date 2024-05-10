@@ -2,8 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-          <h2 class="text-capitalize mb-2 text-lg text-white">{{page.title}}</h2>
-           <p class="text-white">{{page.description}}</p>
+          <h2 class="mb-2 text-white">{% t page.title %}</h2>
+          <p class="text-white">{% t page.description %}</p>
+          {% if page.cta-title %}
+          <p><a href="{% t page.cta-action %}" class="btn btn-primary">{% t page.cta-title %}</a></p>
+          {% endif %}
       </div>
     </div>
   </div>

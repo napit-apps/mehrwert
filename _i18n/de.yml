@@ -4,15 +4,11 @@ close: "Schließen"
 
 ################## Menu Area #######################
 main-menue:
-  # - name: Services
-  #   url: /
-  #   submenu:
-  #     - name: Agile Coaching
-  #       url: /services.html
-  #     - name: App Development
-  #       url: /portfolio-1.html
-  #     - name: Green Coding
-  #       url: /portfolio-2.html
+  - name: Schulungen
+    url: "#"
+    submenu: 
+      - name: Green Software Practitioner
+        url: "/trainings/gsp.html"
   - name: Rechtliches
     url: "#"
     submenu:
@@ -323,3 +319,123 @@ blog:
   title : "latest article"
   subtitle : "Stay Update with mehr.wert"
 
+###################### 404 ######################
+error:
+  404: 
+    title: "404"
+    description: "404 page not found"
+
+
+###################### Trainings ######################
+contact_training:
+  title: "Unverbindliche Anfrage"
+  subtitle: "Sie wollen ein Training buchen oder haben Fragen zu unserem Trainingsangebot?"
+  intro: "Schreiben Sie uns – wir freuen uns auf Ihre Nachricht."
+  form : 
+    name: "Name"
+    email: "E-Mail"
+    phone: "Telefon"
+    message: "Nachricht"
+    subject: "Betreff"
+  privacy-note: "Durch Klick auf den nachfolgenden Button 'Senden', erklären Sie sich damit einverstanden, dass wir Ihre Daten entsprechend der <a href=\"/privacy.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeiten."
+  button: "Informationen anfordern"
+  adress: "Kontakt Informationen"
+
+gsp_training:
+  title: "Machen Sie Ihre Softwareentwicklung nachhaltig"
+  description: "Lassen Sie sich und Ihr Team zu Green Software Practitioner schulen und zertifizieren."
+  cta:
+    title: "Informationen zum Training anfragen"
+    action: "mailto:kontakt@mehrwert.com?subject=Anfrage Green Software Practitioner Training"
+  relevance:
+    title: "Nachhaltige Software - jetzt!"
+    description: "In der digitalen Welt spielt Software in nahezu allen Lebensbereichen eine entscheidende Rolle. Dabei beeinflusst sie erheblich die Umwelt. Der steigende Bedarf an digitalen Diensten führt zu höherem Energieverbrauch und größeren CO2-Emissionen. Die Zukunft ist jetzt- nachhaltige Software ist wichtiger denn je. Das unterstreichen auch Daten aus aktuellen Forschungen."
+    footer: "In diesem Training lernen Sie, funktionale Software innovativ und umweltbewusst zu entwickeln. Treffen Sie künftig Technologie-Entscheidungen im Einklang mit ökologischer Nachhaltigkeit und reduzieren Sie so, die Umweltauswirkungen. Für eine grünere Zukunft der IT."
+    item:
+    - name : "Energieverbrauch"
+      content: "Der globale IT-Sektor ist für etwa 2% bis 3% der weltweiten CO2-Emissionen verantwortlich und damit vergleichbar mit der Luftfahrtindustrie. Allein Rechenzentren beanspruchen rund 1% des weltweiten Strombedarfs. Schätzungen gehen bis 2030 sogar von 3%- 4% aus."
+      icon : "ti-bolt"
+      
+    - name : "Abfallerzeugung"
+      content: "Elektronischer Müll zählt zu den am schnellsten wachsenden Abfallursachen weltweit. Jährlich werden Millionen Tonnen veraltete oder ausgediente Hardware entsorgt, oft verursacht durch inkompatible Software Updates."
+      icon : "ti-trash"
+      
+    - name : "Ressourceneffizienz"
+      content: "Software kann die Energieeffizienz der Hardware beeinflussen. Optimierter Softwareeinsatz kann den Energieverbrauch von Geräten reduzieren und somit einen bedeutenden Beitrag zu globalen Nachhaltigkeitsbemühungen leisten."
+      icon : "Ti-stats-up"
+  overview:
+    title: "Trainingsinhalte"
+    intro: "Das übergeordnete Ziel von grüner Software ist die Steigerung der CO2-Effizienz. Diese lässt sich in drei Kernbereiche unterteilen: Energieeffizienz, CO2-Bewusstsein und Hardware-Effizienz. Am Ende des Trainings können Sie die Schlüsselkonzepte der grünen Softwareentwicklung in Ihre tägliche Arbeit integrieren und so messbare Verbesserungen erzielen."
+    subtitle: "Das Training umfasst folgende Bereiche des Green Codings"
+    item:
+    - text : "<b>CO2 Produzenten verstehen:</b> Identifizieren Sie die wichtigsten Faktoren, die zu den CO2-Emissionen in Softwareanwendungen beitragen."
+    - text : "<b>Effektive Maßnahmen zur Reduktion:</b>Lernen Sie die drei wichtigsten Maßnahmen zur Verringerung des CO2-Fußabdrucks Ihrer Software kennen - Energieeffizienz, CO2-Bewusstsein und Hardware-Effizienz."
+    - text : "<b>Messen von Emissionen:</b>Lernen Sie die Techniken zur Bestimmung von Software-Emissionen durch Verwendung von Standards wie dem Greenhouse Gas (GHG) Protokoll und der Software Carbon Intensity (SCI) Spezifikation, unterstützt durch einfache Praxis-Beispiele."
+    - text : "<b>Abstimmung mit Unternehmenszielen:</b>Verstehen Sie die verschiedenen Arten von Unternehmens-Klimazielen, um Ihre grünen Software-Initiativen besser mit den öffentlichen Anforderungen Ihres Unternehmens in Einklang zu bringen."
+  banner:
+    image: "/assets/images/bg/bg-8.jpg"
+    text: "Keine besonderen Vorkenntnisse erforderlich!"
+  pricing:
+    title: "Preise"
+    subtitle: "Wir bieten verschiedene Pakete für das Training an."
+    price-unit: "pauschal"
+    item:
+    - title: "Basic"
+      background: bg-white
+      duration: "~4 Stunden"
+      price: "500€"
+      participants: "3-6 Teilnehmer"
+      location: "Neue Weberrei (Wernau)"
+      content-1: "Bewusstsein schaffen"
+      content-2: "Grundlagen Green Coding"
+      content-3: "Theorieverständnis"
+    - title: "Professional"
+      background: bg-primary
+      duration: "6-8 Stunden"
+      price: "800€"
+      participants: "bis 10 Teilnehmer"
+      location: "Neue Weberrei (Wernau)"
+      content-1: "Bewusstsein schaffen"
+      content-2: "Einführung Green Coding"
+      content-3: "Praxisbeispiele"
+    - title: "Professional"
+      background: bg-white
+      duration: "6-8 Stunden"
+      price: "950€"
+      participants: "bis 10 Teilnehmer"
+      location: "Bei Ihnen vor Ort"
+      content-1: "Bewusstsein schaffen"
+      content-2: "Einführung Green Coding"
+      content-3: "Praxisbeispiele"
+
+  faq:
+    title: "FAQs"
+    item:
+    - question: "Warum sollten Sie sich und Ihr Team für das Training anmelden?" 
+      answer: "Die Umweltauswirkungen von Software steigt rassant. In diesem Training erfahren Sie, wie Entwickler, IT Abteilungen und Manager zu einer nachhaltigen IT Zukunft beitragen können."
+    - question: "Wer sollte an diesem Training teilnehmen?" 
+      answer: "Dieses Training ist speziell für Fachleute konzipiert, die in den Bereichen Softwareentwicklung, -implementierung oder -management tätig sind. Es richtet sich an alle, die ihre Kenntnisse im Bereich der nachhaltigen Softwarepraktiken vertiefen möchten, um aktiv zur Reduzierung des CO2-Fußabdrucks ihrer Anwendungen beizutragen."
+    - question: "Welche Voraussetzungen sind für die Teilnahme erforderlich?"   
+      answer: "Teilnehmer dieses Trainings sollten über Grundkenntnisse in der Softwareentwicklung verfügen. Dies bildet die Basis, um die Prinzipien und Techniken nachhaltiger Softwareentwicklung effektiv zu verstehen und anzuwenden."  
+    - question: "Was werden Sie in diesem Training lernen?"
+      answer: "In diesem Training werden Sie sich mit den Schlüsselkonzepten der nachhaltigen Softwareentwicklung auseinandersetzen. Dazu gehören Energieeffizienz, Kohlenstoffbewusstsein und Hardwareeffizienz. Sie lernen, wie diese Prinzipien in der Praxis angewandt werden, um den CO2-Fußabdruck Ihrer Softwareprodukte zu minimieren."
+    - question: "Auf welchen Grundlagen beruhen die Trainingsinhalte?"
+      answer: "Die Trainingsinhalte stützen sich auf die fundierten Vorarbeiten der Green Software Foundation. Diese werden durch tiefergehende Lehrmaterialien ergänzt, die neueste wissenschaftliche Erkenntnisse sowie praxisnahe Beispiele einschließen, um Ihnen ein umfassendes Verständnis der nachhaltigen Softwareentwicklung zu vermitteln."
+    - question: "Wie können Sie sich und Ihr Team für das Training anmelden?"
+      answer: "Um sich und Ihr Team für das Training anzumelden, nutzen Sie bitte das Anmeldeformular weiter unten auf der Seite, rufen uns an oder schicken uns eine E-Mail. Bei Fragen oder für weitere Informationen stehen wir Ihnen gerne zur Verfügung."
+    - question: "Gibt es eine Mindestteilnehmerzahl oder eine Begrenzung der Teilnehmeranzahl?"
+      answer: "Für das Training gibt es sowohl eine Mindestteilnehmerzahl als auch eine Obergrenze für die Anzahl der Teilnehmenden. Um eine optimale Lernumgebung zu gewährleisten empfehlen wir eine Gruppengröße von 4 bis 10 Teilnehmenden. Kontaktieren Sie uns gerne direkt für weitere Informationen."
+    - question: "Warum findet das Training bevorzugt in Präsenz statt?"
+      answer: "Das Training wird vorrangig vor Ort durchgeführt, um eine interaktive Lernumgebung zu fördern, in der direkter Austausch und praktische Übungen optimal umgesetzt werden können. Diese Form des Lernens unterstützt nicht nur den Aufbau von Netzwerken unter den Teilnehmern, sondern ermöglicht auch unmittelbares Feedback und individuelle Unterstützung durch die Trainer."
+    - question: "Können einzelne Teilnehmer auch remote am Training teilnehmen?"
+      answer: "Ja, es besteht die Möglichkeit, dass einzelne Teilnehmer remote am Training teilnehmen. Wir bieten flexible Lösungen an, um eine effektive Integration von Präsenz- und Fernunterricht zu gewährleisten. Für spezifische Anforderungen oder die Einrichtung eines hybriden Trainingsformats stehen wir Ihnen gerne zur Verfügung, um eine passende Lösung zu finden."
+    - question: "Werden im Training technologiespezifische Fragen behandelt?"
+      answer: "Während die Inhalte unseres Trainings technologieunabhängig gestaltet sind, um eine breite Anwendbarkeit zu gewährleisten, gehen wir gerne auf technologiespezifische Fragen ein. Wir ermutigen die Teilnehmenden, solche Fragen zu stellen, um auf individuelle Bedürfnisse und spezifische Situationen eingehen zu können. Der Umfang ist dabei über das gewählte Trainingspaket geregelt."
+    - question: "Wieviel kostet das Training?"
+      answer: "Die Kosten für das Training variieren je nach gewähltem Paket. Eine detaillierte Übersicht über die verschiedenen Trainingspakete und deren Preise finden Sie auf dieser Webseite. Bitte beachten Sie, dass für Veranstaltungsorte außerhalb eines 50-km-Radius um Kirchheim unter Teck zusätzliche Reisekosten anfallen können. Für spezifische Informationen zu den Reisekosten kontaktieren Sie uns bitte direkt."
+    - question: "Wie lange dauert das Training?"
+      answer: "Die Dauer des Trainings hängt vom gewählten Paket ab. Details zu den einzelnen Trainingspaketen und deren Laufzeiten finden Sie auf dieser Webseite. Dort bieten wir eine Auswahl verschiedener Formate, die auf unterschiedliche Bedürfnisse und Zeitpläne zugeschnitten sind."
+    - question: "Wie erfolgt die Zertifizierung?"
+      answer: "Wenn Sie sich für eine Zertifizierung entscheiden, haben Sie die Möglichkeit, im Anschluss an das Training eine Prüfung über die Linux Foundation abzulegen. Diese Prüfung testet Ihr erworbenes Wissen und Ihre Fähigkeiten im Bereich der nachhaltigen Softwareentwicklung. Bei erfolgreichem Bestehen der Prüfung erhalten Sie ein Zertifikat, das Ihre Qualifikationen als Green Software Practitioner bestätigt."
+    - question: "Wo findet das Training statt?"
+      answer: "Für die Durchführung des Tainungs kommen wir sehr gerne bei Ihnen vorbei. Alternativ sgtehen uns moderne Räumlichkeiten in der Neuen Weberrei in Wernau zur Verfügung."

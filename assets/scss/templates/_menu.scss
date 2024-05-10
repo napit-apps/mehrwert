@@ -131,13 +131,13 @@
       background: rgba(white, 0.8);
       top: 90%;
       left: 0px;
-      margin-top: 20px;
+      margin-top: -20px;
       display: block;
       visibility: hidden;
       opacity: 0;
       right: 0px;
-      transition: all .45s ease;
-      width: 250px;
+      transition: all 0.45s ease;
+      width: 300px;
 
       @include desktop {
         display: none;

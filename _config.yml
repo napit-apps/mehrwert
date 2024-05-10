@@ -61,6 +61,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-multiple-languages-plugin
   - jekyll-archives
+  - jekyll-sitemap
 
 # Scss Directory
 sass:
@@ -72,6 +73,8 @@ collections:
   testimonials:
     output: true
   portfolios:
+    output: true
+  trainings:
     output: true
 
 ########################################################
