@@ -7,7 +7,7 @@ main-menue:
   - name: Schulungen
     url: "#"
     submenu: 
-      - name: Green Software Practitioner
+      - name: Green Coding Grundlagen
         url: "/trainings/gsp.html"
   - name: Rechtliches
     url: "#"
@@ -365,13 +365,13 @@ gsp_training:
       icon : "Ti-stats-up"
   overview:
     title: "Trainingsinhalte"
-    intro: "Das übergeordnete Ziel von grüner Software ist die Steigerung der CO2-Effizienz. Diese lässt sich in drei Kernbereiche unterteilen: Energieeffizienz, CO2-Bewusstsein und Hardware-Effizienz. Am Ende des Trainings können Sie die Schlüsselkonzepte der grünen Softwareentwicklung in Ihre tägliche Arbeit integrieren und so messbare Verbesserungen erzielen."
+    intro: "Das übergeordnete Ziel von Green Coding ist die Steigerung der CO2-Effizienz. Diese lässt sich in drei Kernbereiche unterteilen: Energieeffizienz, CO2-Bewusstsein und Hardware-Effizienz. Am Ende des Trainings können Sie die Schlüsselkonzepte der grünen Softwareentwicklung in Ihre tägliche Arbeit integrieren und so messbare Verbesserungen erzielen."
     subtitle: "Das Training umfasst folgende Bereiche des Green Codings"
     item:
     - text : "<b>CO2 Produzenten verstehen:</b> Identifizieren Sie die wichtigsten Faktoren, die zu den CO2-Emissionen in Softwareanwendungen beitragen."
-    - text : "<b>Effektive Maßnahmen zur Reduktion:</b>Lernen Sie die drei wichtigsten Maßnahmen zur Verringerung des CO2-Fußabdrucks Ihrer Software kennen - Energieeffizienz, CO2-Bewusstsein und Hardware-Effizienz."
-    - text : "<b>Messen von Emissionen:</b>Lernen Sie die Techniken zur Bestimmung von Software-Emissionen durch Verwendung von Standards wie dem Greenhouse Gas (GHG) Protokoll und der Software Carbon Intensity (SCI) Spezifikation, unterstützt durch einfache Praxis-Beispiele."
-    - text : "<b>Abstimmung mit Unternehmenszielen:</b>Verstehen Sie die verschiedenen Arten von Unternehmens-Klimazielen, um Ihre grünen Software-Initiativen besser mit den öffentlichen Anforderungen Ihres Unternehmens in Einklang zu bringen."
+    - text : "<b>Effektive Maßnahmen zur Reduktion:</b> Lernen Sie die drei wichtigsten Maßnahmen zur Verringerung des CO2-Fußabdrucks Ihrer Software kennen - Energieeffizienz, CO2-Bewusstsein und Hardware-Effizienz."
+    - text : "<b>Messen von Emissionen:</b> Lernen Sie die Techniken zur Bestimmung von Software-Emissionen durch Verwendung von Standards wie dem Greenhouse Gas (GHG) Protokoll und der Software Carbon Intensity (SCI) Spezifikation, unterstützt durch einfache Praxis-Beispiele."
+    - text : "<b>Abstimmung mit Unternehmenszielen:</b> Verstehen Sie die verschiedenen Arten von Unternehmens-Klimazielen, um Ihren Green Coding Initiativen besser mit den öffentlichen Anforderungen Ihres Unternehmens in Einklang zu bringen."
   banner:
     image: "/assets/images/bg/bg-8.jpg"
     text: "Keine besonderen Vorkenntnisse erforderlich!"

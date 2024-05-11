@@ -7,7 +7,7 @@ main-menue:
   - name: Trainings
     url: "#"
     submenu: 
-      - name: Green Software Practitioner
+      - name: Green Coding Practitioner
         url: "/trainings/gsp.html"
   - name: Legal
     url: "#"
