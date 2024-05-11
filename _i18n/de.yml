@@ -418,7 +418,7 @@ gsp_training:
     - question: "Welche Voraussetzungen sind für die Teilnahme erforderlich?"   
       answer: "Teilnehmer dieses Trainings sollten über Grundkenntnisse in der Softwareentwicklung verfügen. Dies bildet die Basis, um die Prinzipien und Techniken nachhaltiger Softwareentwicklung effektiv zu verstehen und anzuwenden."  
     - question: "Was werden Sie in diesem Training lernen?"
-      answer: "In diesem Training werden Sie sich mit den Schlüsselkonzepten der nachhaltigen Softwareentwicklung auseinandersetzen. Dazu gehören Energieeffizienz, Kohlenstoffbewusstsein und Hardwareeffizienz. Sie lernen, wie diese Prinzipien in der Praxis angewandt werden, um den CO2-Fußabdruck Ihrer Softwareprodukte zu minimieren."
+      answer: "In diesem Training werden Sie sich mit den Schlüsselkonzepten der nachhaltigen Softwareentwicklung auseinandersetzen. Dazu gehören Energieeffizienz, CO2-Bewusstsein und Hardwareeffizienz. Sie lernen, wie diese Prinzipien in der Praxis angewandt werden, um den CO2-Fußabdruck Ihrer Softwareprodukte zu minimieren."
     - question: "Auf welchen Grundlagen beruhen die Trainingsinhalte?"
       answer: "Die Trainingsinhalte stützen sich auf die fundierten Vorarbeiten der Green Software Foundation. Diese werden durch tiefergehende Lehrmaterialien ergänzt, die neueste wissenschaftliche Erkenntnisse sowie praxisnahe Beispiele einschließen, um Ihnen ein umfassendes Verständnis der nachhaltigen Softwareentwicklung zu vermitteln."
     - question: "Wie können Sie sich und Ihr Team für das Training anmelden?"
