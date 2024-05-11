@@ -343,10 +343,10 @@ contact_training:
 
 gsp_training:
   title: "Machen Sie Ihre Softwareentwicklung nachhaltig"
-  description: "Lassen Sie sich und Ihr Team zu Green Software Practitioner schulen und zertifizieren."
+  description: "Lassen Sie sich und Ihr Team zu Green Coding Practitioner schulen und wahlweise zertifizieren."
   cta:
     title: "Informationen zum Training anfragen"
-    action: "mailto:kontakt@mehrwert.com?subject=Anfrage Green Software Practitioner Training"
+    action: "mailto:kontakt@mehrwert.com?subject=Anfrage Green Coding Practitioner Training"
   relevance:
     title: "Nachhaltige Software - jetzt!"
     description: "In der digitalen Welt spielt Software in nahezu allen Lebensbereichen eine entscheidende Rolle. Dabei beeinflusst sie erheblich die Umwelt. Der steigende Bedarf an digitalen Diensten führt zu höherem Energieverbrauch und größeren CO2-Emissionen. Die Zukunft ist jetzt- nachhaltige Software ist wichtiger denn je. Das unterstreichen auch Daten aus aktuellen Forschungen."

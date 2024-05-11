@@ -343,14 +343,14 @@ contact_training:
 
 gsp_training:
   title: "Make your software development sustainable"
-  description: "Train yourself and your team to become certified Green Software Practitioners."
+  description: "Train yourself and your team to become certified Green Coding Practitioners."
   cta:
     title: "Request information about training"
-    action: "mailto:kontakt@mehrwert.com?subject=Anfrage Green Software Practitioner Training"
+    action: "mailto:kontakt@mehrwert.com?subject=Anfrage Green Coding Practitioner Training"
   relevance:
     title: "Sustainable Software: A Global Imperative"
     description: "In today's digital age, software drives countless aspects of our lives, but it also significantly impacts the environment. The increasing demand for digital services results in higher energy consumption and greater carbon emissions, making the need for sustainable software development more critical than ever. <br /><br />Recent data highlights the urgency of integrating sustainability in software development."
-    footer: "As a Green Software Practitioner, you will be equipped with the skills and knowledge necessary to develop software that is not only functional and innovative but also environmentally conscious. This training will empower you to make decisions that align with ecological sustainability, helping reduce the environmental impact of technology and fostering a greener future."
+    footer: "As a Green Coding Practitioner, you will be equipped with the skills and knowledge necessary to develop software that is not only functional and innovative but also environmentally conscious. This training will empower you to make decisions that align with ecological sustainability, helping reduce the environmental impact of technology and fostering a greener future."
     item:
     - name : "Energy Consumption"
       content: "The global IT sector is estimated to account for approximately 2% to 3% of global carbon emissions, equivalent to the airline industry. Data centers alone are responsible for around 1% of the global electricity demand and could rise to 3-4% by 2030."
