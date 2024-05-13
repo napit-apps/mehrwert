@@ -337,8 +337,8 @@ contact_training:
     phone: "Telefon"
     message: "Nachricht"
     subject: "Betreff"
-  privacy-note: "Durch Klick auf den nachfolgenden Button 'Senden', erklären Sie sich damit einverstanden, dass wir Ihre Daten entsprechend der <a href=\"/privacy.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeiten."
-  button: "Informationen anfordern"
+  privacy-note: "Durch Klick auf den nachfolgenden Button 'Anfrage absenden', erklären Sie sich damit einverstanden, dass wir Ihre Daten entsprechend der <a href=\"/privacy.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeiten."
+  button: "Anfrage absenden"
   adress: "Kontakt Informationen"
 
 gsp_training:
