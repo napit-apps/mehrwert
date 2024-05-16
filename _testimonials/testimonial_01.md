@@ -6,8 +6,8 @@ layout: default
 modal-id: "testimonial-1"
 category: "Agile"
 date: 2023-12-11
-img: "/assets/images/clients/jaqcues.jpeg"
-thumbnail: "/assets/images/clients/jaqcues.jpeg"
+img: "/assets/images/clients/jaqcues.avif"
+thumbnail: "/assets/images/clients/jaqcues.avif"
 alt: image-alt
 project-date: 08/2022 - 12/2023 
 

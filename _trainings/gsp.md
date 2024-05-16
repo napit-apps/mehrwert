@@ -1,6 +1,6 @@
 ---
 layout: training
-header_image: "/assets/images/banner/green-training-2.png"
+header_image: "/assets/images/banner/green-training-2.avif"
 title: gsp_training.title
 description: gsp_training.description
 cta-title: gsp_training.cta.title

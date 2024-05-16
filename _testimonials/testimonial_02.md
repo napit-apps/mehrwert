@@ -6,8 +6,8 @@ layout: default
 modal-id: "testimonial-2"
 category: "Agile"
 date: 2023-12-11
-img: "/assets/images/clients/konstantin.jpeg"
-thumbnail: "/assets/images/clients/konstantin.jpeg"
+img: "/assets/images/clients/konstantin.avif"
+thumbnail: "/assets/images/clients/konstantin.avif"
 alt: image-alt
 project-date: 05/2022 - 09/2023 
 

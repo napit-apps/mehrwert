@@ -93,14 +93,14 @@ testimonial:
     preview: "Marcel is a driven coach that is able to steer teams and people towards agility by asking the right questions, …"
     content: "Marcel is a driven coach that is able to steer teams and people towards agility by asking the right questions, helping individuals discover their own path. Marcel’s critical and pragmatic approach means he validates whether it contributes to the objectives. If you’re looking for a pragmatic lead and/or coach that delivers results, don’t hesitate and hire Marcel!"
     link: "https://www.pmx.nl/"
-    image : "/assets/images/clients/jaqcues.jpeg"
+    image : "/assets/images/clients/jaqcues.avif"
 
   - name : "Konstantin Pasternack"
     designation: "Head of Trading IT: Platforms & Operations - EnBW Energie Baden-Württemberg AG"
     preview: "Marcel ist ein zentraler Leistungsträger in meiner Abteilung. Durch seine klare und direkte Kommunikation ist er …"
     content : "Marcel ist ein zentraler Leistungsträger in meiner Abteilung. Durch seine klare und direkte Kommunikation ist er stets in der Lage Probleme und Herausforderungen, aber auch Erfolge und Leistungen in den Teams darzustellen. Er ist lösungsorientiert und hilft den Teams selbständig ihre Themen zu bearbeiten scheut aber auch nicht davor selber anzupacken. Besonders schätze ich ihn dafür eine gute Balance zwischen Kundenorientierung und Prinzipientreue zu finden. Dadurch konnten wirkliche Best Practices für die spezifischen Herausforderungen meiner Organisation entwickelt werden."
     link: "https://www.linkedin.com/in/konstantin-pasternack-2b4723168/"
-    image : "/assets/images/clients/konstantin.jpeg"
+    image : "/assets/images/clients/konstantin.avif"
     
 
 ###################### Funfacts #########################
@@ -278,11 +278,11 @@ skill:
 clients:
   enable : true
   logos:
-    - "/assets/images/clients/client-1.png"
-    - "/assets/images/clients/client-2.png"
-    - "/assets/images/clients/client-3.png"
-    - "/assets/images/clients/client-4.png"
-    - "/assets/images/clients/client-5.png"
+    - "/assets/images/clients/client-1.avif"
+    - "/assets/images/clients/client-2.avif"
+    - "/assets/images/clients/client-3.avif"
+    - "/assets/images/clients/client-4.avif"
+    - "/assets/images/clients/client-5.avif"
     
 
 ###################### Team ######################

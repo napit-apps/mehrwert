@@ -11,7 +11,7 @@ hero_area:
 ################## Problem Solution ###########################
 about:
   enable : true
-  video_thumb : "/assets/images/about/marcel.jpg"
+  video_thumb : "/assets/images/about/marcel.avif"
   video_url : 
 
   button:
@@ -65,13 +65,13 @@ skill:
 clients:
   enable : true
   logos:
-    - "/assets/images/clients/client-1.png"
-    - "/assets/images/clients/client-2.png"
-    - "/assets/images/clients/client-3.png"
-    - "/assets/images/clients/client-4.png"
-    - "/assets/images/clients/client-5.png"
-    - "/assets/images/clients/client-6.png"
-    - "/assets/images/clients/client-7.png"
+    - "/assets/images/clients/client-1.avif"
+    - "/assets/images/clients/client-2.avif"
+    - "/assets/images/clients/client-3.avif"
+    - "/assets/images/clients/client-4.avif"
+    - "/assets/images/clients/client-5.avif"
+    - "/assets/images/clients/client-6.avif"
+    - "/assets/images/clients/client-7.avif"
     
 
 ###################### Team ######################
