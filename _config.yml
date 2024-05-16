@@ -1,6 +1,6 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mehrwert.tech" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
-title: "mehr.wert - Nachhaltig bessere Software"
+title: "page_title"
 email: "kontakt@mehrwert.tech"
 phone: "+49 152 21694139"
 address: >-

@@ -1,3 +1,6 @@
+################## Page #######################
+page_title: "mehr.wert - Nachhaltig bessere Software"
+
 ################## General #######################
 readmore: "Mehr"
 close: "Schließen"
@@ -78,6 +81,9 @@ services:
 
 
 ######################### Testimonail ####################
+Testimonial_01: "Testimonial_01"
+Testimonial_02: "Testimonial_02"
+
 testimonial:
   subtitle : "Kundenstimmen"
   title : "Was andere sagen"
@@ -349,11 +355,11 @@ gsp_training:
     action: "mailto:kontakt@mehrwert.com?subject=Anfrage Green Coding Practitioner Training"
   relevance:
     title: "Nachhaltige Software - jetzt!"
-    description: "In der digitalen Welt spielt Software in nahezu allen Lebensbereichen eine entscheidende Rolle. Dabei beeinflusst sie erheblich die Umwelt. Der steigende Bedarf an digitalen Diensten führt zu höherem Energieverbrauch und größeren CO2-Emissionen. Die Zukunft ist jetzt- nachhaltige Software ist wichtiger denn je. Das unterstreichen auch Daten aus aktuellen Forschungen."
+    description: "In der digitalen Welt spielt Software in nahezu allen Lebensbereichen eine entscheidende Rolle. Dabei beeinflusst sie erheblich die Umwelt. Der steigende Bedarf an digitalen Diensten führt zu höherem Energieverbrauch und größeren CO2-Emissionen. Die Zukunft ist jetzt- nachhaltige Software ist wichtiger denn je. Dies zeigen Daten aus neuesten wissenschaftlichen Untersuchungen."
     footer: "In diesem Training lernen Sie, funktionale Software innovativ und umweltbewusst zu entwickeln. Treffen Sie künftig Technologie-Entscheidungen im Einklang mit ökologischer Nachhaltigkeit und reduzieren Sie so, die Umweltauswirkungen. Für eine grünere Zukunft der IT."
     item:
     - name : "Energieverbrauch"
-      content: "Der globale IT-Sektor ist für etwa 2% bis 3% der weltweiten CO2-Emissionen verantwortlich und damit vergleichbar mit der Luftfahrtindustrie. Allein Rechenzentren beanspruchen rund 1% des weltweiten Strombedarfs. Schätzungen gehen bis 2030 sogar von 3%- 4% aus."
+      content: "Der globale IT-Sektor ist für bis zu 3% der weltweiten CO2-Emissionen verantwortlich und damit vergleichbar mit der gesamten Luftfahrtindustrie. Allein Rechenzentren beanspruchen rund 1% des weltweiten Strombedarfs. Schätzungen gehen bis 2030 sogar von bis zu 4% aus."
       icon : "ti-bolt"
       
     - name : "Abfallerzeugung"
@@ -438,4 +444,4 @@ gsp_training:
     - question: "Wie erfolgt die Zertifizierung?"
       answer: "Wenn Sie sich für eine Zertifizierung entscheiden, haben Sie die Möglichkeit, im Anschluss an das Training eine Prüfung über die Linux Foundation abzulegen. Diese Prüfung testet Ihr erworbenes Wissen und Ihre Fähigkeiten im Bereich der nachhaltigen Softwareentwicklung. Bei erfolgreichem Bestehen der Prüfung erhalten Sie ein Zertifikat, das Ihre Qualifikationen als Green Software Practitioner bestätigt."
     - question: "Wo findet das Training statt?"
-      answer: "Für die Durchführung des Tainungs kommen wir sehr gerne bei Ihnen vorbei. Alternativ sgtehen uns moderne Räumlichkeiten in der Neuen Weberrei in Wernau zur Verfügung."
+      answer: "Für die Durchführung des Tainungs kommen wir sehr gerne bei Ihnen vorbei. Alternativ stehen uns moderne Räumlichkeiten in der Neuen Weberrei in Wernau zur Verfügung."

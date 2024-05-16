@@ -1,3 +1,6 @@
+################## Page #######################
+page_title: "mehr.wert - Sustainable Software Solutions"
+
 ################## General #######################
 readmore: "Read More"
 close: "Close"
@@ -77,6 +80,9 @@ services:
 
 
 ######################### Testimonail ####################
+Testimonial_01: "Testimonial_01"
+Testimonial_02: "Testimonial_02"
+
 testimonial:
   subtitle : "testimonials"
   title : "What Others Say"
