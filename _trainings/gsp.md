@@ -9,6 +9,7 @@ cta-action: gsp_training.cta.action
 
 {% include page_header.html %}
 {% assign gsp_training = site.translations[site.lang].gsp_training %}
+
 <!-- Training Start -->
 <section class="service-main section">
 	<div class="container">
@@ -68,6 +69,34 @@ cta-action: gsp_training.cta.action
 	</div>
 </section>
 
+<!-- <section class="service-main section ">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-4 col-md-6">
+				<div class="service-item mb-4 text-center px-4 py-5">
+					<i class="ti-comments text-color icon-md"></i>
+					<h4 class="my-4 text-color">Interaktive Sessions</h4>
+					<p class="text-white">Profitieren Sie von Live-Diskussionen und Gruppenarbeiten, die Online-Formate nur schwer bieten können.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 border-left">
+				<div class="service-item mb-4 text-center px-4 py-5">
+					<i class="ti-hand-open text-color icon-md"></i>
+					<h4 class="my-4 text-color">Praxisnahe Anwendung</h4>
+					<p class="text-white">Erleben Sie Hands-on Übungen und reale Fallstudien, die Ihnen helfen, Konzepte sofort in die Praxis umzusetzen.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="service-item mb-4 text-center px-4 py-5">
+					<i class="ti-world text-color icon-md"></i>
+					<h4 class="my-4 text-color">Networking</h4>
+					<p class="text-white">Knüpfen Sie wertvolle Kontakte zu Branchenkollegen und Experten.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>  -->
+
 <section class="service-main section bg-white">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -92,40 +121,44 @@ cta-action: gsp_training.cta.action
 	</div>
 </section>
 
-
-<!-- 
-<section class="service-main section ">
+<!-- Testimonial Start -->
+<section class="section bg-secondary position-relative">
+	<img src="/assets/images/bg/testimonial-bg.png" alt="" class="overlay-shape">
 	<div class="container">
-		<div class="row justify-content-center">
-				<span class="h3 text-color">
-					{{ gsp_training.overview.title }}
+		<div class="row">
+			<div class="col-lg-12">
+				<span class="h5 text-color text-uppercase">
+					{{ gsp_training.testimonials.subtitle }}
 				</span>
-			<div class="col-lg-4 col-md-6">
-				<div class="service-item mb-4 text-center px-4 py-5">
-					<i class="ti-comments text-color icon-md"></i>
-					<h4 class="my-4 text-color">Interaktive Sessions</h4>
-					<p class="text-white">Profitieren Sie von Live-Diskussionen und Gruppenarbeiten, die Online-Formate nicht bieten können.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 border-left">
-				<div class="service-item mb-4 text-center px-4 py-5">
-					<i class="ti-hand-open text-color icon-md"></i>
-					<h4 class="my-4 text-color">Praxisnahe Anwendung</h4>
-					<p class="text-white">Erleben Sie Hands-on Übungen und reale Fallstudien, die Ihnen helfen, Konzepte sofort in die Praxis umzusetzen.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="service-item mb-4 text-center px-4 py-5">
-					<i class="ti-world text-color icon-md"></i>
-					<h4 class="my-4 text-color">Networking</h4>
-					<p class="text-white">Knüpfen Sie wertvolle Kontakte zu Branchenkollegen und Experten.</p>
-				</div>
+				<h3 class="mb-4 mt-2 text-white">{{ gsp_training.testimonials.title }}</h3>
 			</div>
 		</div>
+		<div class="row testimonial-wrap">
+			{% for item in gsp_training.testimonials.item %}
+				<div class="col-lg-12 ">
+				<div class="test-wrap ">
+					<i class="text-color ti-quote-left"></i>
+					<div class="testimonial-content">
+						<p class="text-white"> {{ item.text }} </p>
+						<a class="text-color" href="{{ item.link }}" target="_blank">
+						<div class="test-author d-flex mt-4">
+							<div>
+								<img src="{{ item.image }}" alt="" class="img-fluid mr-3">
+							</div>
+							<div>
+								<h5 class="mb-0 mt-2 text-white">{{ item.name }}</h5>
+								<span class="text-color"> {{ item.role }} </span>
+							</div>
+						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
 	</div>
-</section> -->
-<!-- Training End -->
-
+</section>
+<!-- Testimonial End -->
 
 <!-- Pricing Start -->
 <section class="section pricing bg_secondary">

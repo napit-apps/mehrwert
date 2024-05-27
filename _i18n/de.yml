@@ -85,24 +85,9 @@ Testimonial_01: "Testimonial_01"
 Testimonial_02: "Testimonial_02"
 
 testimonial:
-  subtitle : "Kundenstimmen"
   title : "Was andere sagen"
-  item:
-  - name : "Jacques Dunselman"
-    designation: "Agile Transformation Lead - PMx"
-    preview: "Marcel is a driven coach that is able to steer teams and people towards agility by asking the right questions, …"
-    content: "Marcel is a driven coach that is able to steer teams and people towards agility by asking the right questions, helping individuals discover their own path. Marcel’s critical and pragmatic approach means he validates whether it contributes to the objectives. If you’re looking for a pragmatic lead and/or coach that delivers results, don’t hesitate and hire Marcel!"
-    link: "https://www.pmx.nl/"
-    image : "/assets/images/clients/jaqcues.avif"
-
-  - name : "Konstantin Pasternack"
-    designation: "Head of Trading IT: Platforms & Operations - EnBW Energie Baden-Württemberg AG"
-    preview: "Marcel ist ein zentraler Leistungsträger in meiner Abteilung. Durch seine klare und direkte Kommunikation ist er …"
-    content : "Marcel ist ein zentraler Leistungsträger in meiner Abteilung. Durch seine klare und direkte Kommunikation ist er stets in der Lage Probleme und Herausforderungen, aber auch Erfolge und Leistungen in den Teams darzustellen. Er ist lösungsorientiert und hilft den Teams selbständig ihre Themen zu bearbeiten scheut aber auch nicht davor selber anzupacken. Besonders schätze ich ihn dafür eine gute Balance zwischen Kundenorientierung und Prinzipientreue zu finden. Dadurch konnten wirkliche Best Practices für die spezifischen Herausforderungen meiner Organisation entwickelt werden."
-    link: "https://www.linkedin.com/in/konstantin-pasternack-2b4723168/"
-    image : "/assets/images/clients/konstantin.avif"
-    
-
+  subtitle : "Kundenstimmen"
+  
 ###################### Funfacts #########################
 funfacts:
   enable : true
@@ -381,6 +366,20 @@ gsp_training:
   banner:
     image: "/assets/images/bg/bg-8.jpg"
     text: "Keine besonderen Vorkenntnisse erforderlich!"
+  testimonials:
+    title: "Nachhaltigkeit in der Praxis"
+    subtitle: "Stimmen aus dem Training"
+    item:
+    - name: "Ivo Ganchev"
+      image: "/assets/images/clients/ivo.avif"
+      role: "Tech Lead/Software Engineer bei HUGO BOSS"
+      text: "Getting into Green Coding Principles was eye-opening. It provided me understanding and awareness of the environmental impact of running software. From analyzing deployment footprint to energy-efficient coding practices and tips, I'm now more mindful of tomorrow's software I create. Let's code responsibly!"
+      link: "https://www.linkedin.com/in/ivo-ganchev-74659a165/"
+    - name: "Marietta Manz"
+      image: "/assets/images/clients/marietta.avif"
+      role: "Expert Software Engineer bei HUGO BOSS"
+      text: "As developers, we have the power to make a positive impact on the environment by embracing green software principles. By optimizing our code and leveraging efficient algorithms, we can create applications that run seamlessly on older hardware, effectively extending their lifetime. With the extension of the lifetime of devices, the embodied carbon is better utilized, reducing the overall environmental footprint."
+      link: "https://www.linkedin.com/in/marietta-m-80a046276/"
   pricing:
     title: "Preise"
     subtitle: "Wir bieten verschiedene Pakete für das Training an."
