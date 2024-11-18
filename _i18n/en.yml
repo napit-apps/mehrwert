@@ -7,6 +7,8 @@ close: "Close"
 
 ################## Menu Area #######################
 main-menue:
+  - name: Blog
+    url: /blog.html
   - name: Trainings
     url: "#"
     submenu: 
@@ -310,6 +312,11 @@ blog:
   enable: false
   title : "latest article"
   subtitle : "Stay Update with mehr.wert"
+
+blog-landing:
+  enable: true
+  title : "Our contribution"
+  subtitle : "EN: Hier kommt ein fancy Text und ein schönes Hintergrund bild..."
 
 ###################### 404 ######################
 error:

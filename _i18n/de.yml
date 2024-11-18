@@ -7,6 +7,8 @@ close: "Schließen"
 
 ################## Menu Area #######################
 main-menue:
+  - name: Blog
+    url: /blog.html
   - name: Schulungen
     url: "#"
     submenu: 
@@ -19,8 +21,7 @@ main-menue:
         url: "/imprint.html"
       - name: Datenschutzbestimmung
         url: "/privacy.html"
-  # - name: Blog
-  #   url: /blog-1.html
+ 
   # - name: Contact
   #   url: /contact.html
 
@@ -307,8 +308,13 @@ contact:
 ###################### Blog ######################
 blog:
   enable: false
-  title : "latest article"
-  subtitle : "Stay Update with mehr.wert"
+  title : "Unser Beitrag"
+  subtitle : "Bleib up-to Date mit mehr.wert"
+
+blog-landing:
+  enable: true
+  title : "Unser Beitrag"
+  subtitle : "Hier kommt ein fancy Text und ein schönes Hintergrund bild..."
 
 ###################### 404 ######################
 error:
