@@ -314,7 +314,7 @@ blog:
 blog-landing:
   enable: true
   title : "Unser Beitrag"
-  subtitle : "Hier kommt ein fancy Text und ein schönes Hintergrund bild..."
+  subtitle : "Hier kommt ein fancy Text und ein schönes Hintergrundbild..."
 
 ###################### 404 ######################
 error:
