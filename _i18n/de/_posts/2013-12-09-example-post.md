@@ -4,12 +4,15 @@ title: Beispiel post
 cover: cover.jpg
 date:   2013-12-09 12:00:00
 post_image: "/assets/images/blog/blog-15.jpg"
+tags: technology lifestyle
 categories: de posts
+author: "Alina, Marcel"
+featured: false
 ---
 
 ## DE: Introducing Flexible-Jekyll, a Jekyll theme
 
-DE: Flex is a minimalist, responsive theme based on the website, [The Development](https://jekyllthemes.io/theme/flexible-jekyll).
+DE: Flex is a minimalist, responsive theme based on the website, [The Development](https://marcelruss.de).
 
 ## Open Sourced on GitHub
 
