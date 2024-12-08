@@ -42,4 +42,4 @@ In Deutschland ist inzwischen ein wachsendes Bewusstsein für nachhaltige Softwa
 
 Bei der digitalen Transformation, die zur Auseinandersetzung mit den Energieeffizienzfragen von Software drängt, fällt die Verantwortung für Green Coding nicht nur den Entwicklern oder Unternehmen zu. Diese Herausforderung hat vielmehr eine technologische wie moralische Dimension mit der Konsequenz, dass eine nachhaltige Softwareentwicklung von allen erwartet wird. Während die großen Global Player die Trends besetzen, bleibt Deutschland in Sachen innovative Nachhaltigkeit in der Entwicklung von Software trotz allem noch aufholbedürftig. 
 
-Weitere Informationen und Hintergründen finden sich im Artikel von Dev-Insider zu Green Coding – https://www.dev-insider.de/green-coding-nachhaltige-softwareentwicklung-a-a6b6dd926903508b9302fe1b2c7f5b0d/
+Weitere Informationen und Hintergründen finden sich [hier](https://www.dev-insider.de/green-coding-nachhaltige-softwareentwicklung-a-a6b6dd926903508b9302fe1b2c7f5b0d/).
