@@ -7,7 +7,7 @@ close: "Schließen"
 
 ################## Menu Area #######################
 main-menue:
-  - name: Beiträge
+  - name: Blog
     url: /blog.html
   - name: Schulungen
     url: "#"

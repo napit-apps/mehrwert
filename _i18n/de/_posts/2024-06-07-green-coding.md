@@ -32,13 +32,6 @@ Das Thema Nachhaltigkeit ist längst in den regulatorischen Rahmen eingebettet. 
 
 Mit Green Coding steht Unternehmen ein wirkungsvolles Werkzeug zur Verfügung, um ihre Umweltbilanz zu verbessern und gleichzeitig ihre Innovationskraft zu stärken. Es zeigt, wie ökologische Verantwortung und wirtschaftlicher Erfolg Hand in Hand gehen können – eine Chance, die sich Unternehmen nicht entgehen lassen sollten.
 
-Weitere Informationen und Hintergründen finden sich [hier](https://www.wirtschaft-digital-bw.de/fileadmin/media/Dokumente/Studien/20240522_IW4Null_GreenCoding_BF_PAC3.pdf) im Leidfaden "Green Coding – Effizienzsteigerung durch den intelligenten Einsatz von Software", an welchem wir mitwirken durften.
+Weitere Informationen und Hintergründen finden sich im folgenden Leidfaden.
 
-
-
-
-
-
-
-
-
+[Green Coding – Effizienzsteigerung durch den intelligenten Einsatz von Software](https://www.wirtschaft-digital-bw.de/fileadmin/media/Dokumente/Studien/20240522_IW4Null_GreenCoding_BF_PAC3.pdf)
