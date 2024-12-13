@@ -3,7 +3,7 @@ layout: post
 title: Green Coding - Nachhaltige Softwareentwicklung für die Zukunft
 cover: cover.jpg
 date:   2024-06-07 12:00:00
-post_image: "/assets/images/blog/2024-06-07-green-coding-1.jpg"
+post_image: "/assets/images/blog/2024-06-07-green-coding.jpg"
 tags: technology lifestyle
 categories: de posts
 author: "Alina"
