@@ -3,7 +3,7 @@ layout: post
 title: Nachhaltige Softwareentwicklung - Green Coding als Unternehmensstrategie
 cover: cover.jpg
 date:   2023-11-13 12:00:00
-post_image: "/assets/images/blog/blog-15.jpg"
+post_image: "/assets/images/blog/2023-11-13-nachhaltige-softwareentwicklung-3.jpg"
 tags: technology lifestyle
 categories: de posts
 author: "Alina und Marcel"
