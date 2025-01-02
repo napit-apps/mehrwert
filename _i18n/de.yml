@@ -300,6 +300,7 @@ contact:
     name: "Name"
     email: "E-Mail"
     phone: "Telefon"
+    subject: "Betreff"
     message: "Nachricht"
   privacy-note: "Durch Klick auf den nachfolgenden Button 'Senden', erklären Sie sich damit einverstanden, dass wir Ihre Daten entsprechend der <a href=\"/privacy.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeiten."
   button: "Senden"
@@ -308,13 +309,27 @@ contact:
 ###################### Blog ######################
 blog:
   enable: false
-  title : "Unser Beitrag"
+  title : "Blog & Artikel"
   subtitle : "Bleib up-to Date mit mehr.wert"
 
 blog-landing:
   enable: true
-  title : "Unser Beitrag"
-  subtitle : "Hier kommt ein fancy Text und ein schönes Hintergrundbild..."
+  title : "Blog & Artikel"
+  subtitle : "Weil wir Wissen gerne mit Ihnen teilen."
+
+contact_blog:
+  title: "Kontakt"
+  subtitle: "Was ist Ihre Meinung zu diesem Thema?"
+  intro: "Schreiben Sie uns – wir freuen uns über einen spannenden Austausch mit Ihnen."
+  form : 
+    name: "Name"
+    email: "E-Mail"
+    phone: "Telefon"
+    subject: "Betreff"
+    message: "Nachricht"
+  privacy-note: "Durch Klick auf den nachfolgenden Button 'Senden', erklären Sie sich damit einverstanden, dass wir Ihre Daten entsprechend der <a href=\"/privacy.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeiten."
+  button: "Senden"
+  adress: "Kontakt Informationen"
 
 ###################### 404 ######################
 error:
