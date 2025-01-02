@@ -1,5 +1,7 @@
 <!-- Contact Start -->
 {% assign contact-config = site.data.homepage.contact %}
+{% assign contact = site.translations[site.lang].contact %}
+
 {% if contact-config.enable %}
 
 <section id="contact" class="section home-contact">
@@ -7,10 +9,10 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<span class="h5 text-color text-uppercase">
-					{{ contact.title }}
+					{% if contact_spec.title %} {{ contact_spec.title }} {% else %} {{ contact.title }} {% endif %}
 				</span>
-				<p class="h2 mb-5 mt-2">{{ contact.subtitle }}</p>
-				<p class="h5 mb-5 mt-2">{{ contact.intro }}</p>
+				<p class="h2 mb-5 mt-2">{% if contact_spec.subtitle %} {{ contact_spec.subtitle }} {% else %} {{ contact.subtitle }} {% endif %}</p>
+				<p class="h5 mb-5 mt-2">{% if contact_spec.intro %} {{ contact_spec.intro }} {% else %} {{ contact.intro }} {% endif %}</p>
 
 				<form action="{{site.contact_form_action}}" method="POST" class="home-contact-form">
 					<div class="form-row">

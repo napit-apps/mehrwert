@@ -196,5 +196,3 @@ cta-action: gsp_training.cta.action
 	</div>
 </section>
 <!-- Pricing End -->
-{% assign contact = site.translations[site.lang].contact_training %}
-{% include contact.html %}
