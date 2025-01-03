@@ -2,6 +2,7 @@
 layout: post
 title: Green Coding als Unternehmensstrategie
 cover: cover.jpg
+type: "Blog-Post"
 datum:  "13.09.2024"
 post_image: "/assets/images/blog/2023-11-13-nachhaltige-softwareentwicklung.jpg"
 tags: "#green-coding, #nachhaltigkeit"
