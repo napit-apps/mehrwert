@@ -7,8 +7,8 @@ close: "Close"
 
 ################## Menu Area #######################
 main-menue:
-  - name: Blog
-    url: /blog.html
+  # - name: Blog
+  #   url: /blog.html
   - name: Trainings
     url: "#"
     submenu: 
@@ -303,6 +303,7 @@ contact:
     email: "Email Adress"
     phone: "Phone Number"
     message: "Message"
+    subject: "Subject"
   privacy-note: "By clicking the 'Submit' button below, you agree that we can process your data in accordance with the <a href=\"/en/privacy.html\" target=\"_blank\">Privacy Policy.</a>"
   button: "Submit"
   adress: "Contact Information"
@@ -318,6 +319,11 @@ blog-landing:
   title : "Our contribution"
   subtitle : "EN: Hier kommt ein fancy Text und ein schönes Hintergrund bild..."
 
+  contact_blog:
+  title: "Discussion"
+  subtitle: "What's your opinion on that topic"
+  intro: "Drop us a message – we would love to connect and have a meaningful exchange."
+
 ###################### 404 ######################
 error:
   404: 
@@ -327,17 +333,8 @@ error:
 ###################### Trainings ######################
 contact_training:
   title: "Let's Innovate Together!"
-  subtitle: "Got a project in mind or need advice on your Agile journey?"
-  intro: "Drop us a message – we're excited to connect and explore how we can create sustainable IT solutions tailored for you."
-  form : 
-    name: "Name"
-    email: "Email Adress"
-    phone: "Phone Number"
-    message: "Message"
-    subject: "Subject"
-  privacy-note: "By clicking the 'Submit' button below, you agree that we can process your data in accordance with the <a href=\"/en/privacy.html\" target=\"_blank\">Privacy Policy.</a>"
-  button: "Submit"
-  adress: "Contact Information"
+  subtitle: "Would you like to book a training course or do you have questions about our training program?"
+  intro: "Write to us - we look forward to hearing from you."
 
 gsp_training:
   title: "Make your software development sustainable"

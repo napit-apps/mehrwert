@@ -196,4 +196,3 @@ cta-action: gsp_training.cta.action
 	</div>
 </section>
 <!-- Pricing End -->
-{% include contact-training.html %}

@@ -6,6 +6,8 @@
 
    {% include header.html %}
    {{content}}
+   {% assign contact_spec = site.translations[site.lang].contact_training %}
+   {% include contact.html %}
    {% include footer.html %}
 
 </body>

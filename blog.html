@@ -1,6 +1,6 @@
 ---
 layout: default
-header_image: "/assets/images/bg/blog-bg.jpg"
+header_image: "/assets/images/bg/blog-bg2.avif"
 title: blog-landing.title
 description: blog-landing.subtitle
 ---
@@ -8,30 +8,32 @@ description: blog-landing.subtitle
 {% include page_header.html %}
 
 <section class="section">
-	<div class="container">
-		<div class="row justify-content-center">
-			{% for post in site.posts %}
-			<div class="col-lg-4 col-md-6">
-				<div class="blog-item mb-5">
-					{% if post.post_image %}
-					<div class="blog-img position-relative">
-						<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{post.post_image | relative_url}}" alt="{{post.title}}" class="img-fluid w-100" /></a>
-					</div>
-					{% endif %}
-					<h4 class="mt-4 mb-2"><a class="text-white " href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-					<div class="post-meta text-uppercase mb-3">
-						{% if post.author %}
-						<a href="#" class="text-color">by {{post.author}} </a>
-						{% endif %}
-						<span class="text-color">{{post.date | date_to_long_string }}</span>
-					</div>
-					<p class="text-white">{{post.excerpt | strip_html | truncatewords: "20"}}</p>
-				</div>
-			</div>
-			{% endfor %}
-		</div>
-		{% include pagination.html %}
-	</div>
+    <div class="container">
+        <div class="row justify-content-center">
+            {% for post in site.posts %}
+            <div class="col-lg-4 col-md-6">
+                <a href="{{ site.baseurl }}{{ post.url }}" class="blog-item mb-5 d-block text-decoration-none">
+                    <div class="card h-100">
+                        <div class="card-body">
+							<!-- {% if post.post_image %}
+							<img src="{{post.post_image | relative_url}}" alt="{{post.title}}" class="img-fluid w-100" />
+							{% endif %} -->
+                            <h4 class="mt-4 mb-2">{{ post.title }}</h4>
+                            <div class="post-meta text-uppercase mb-3">
+                                {% if post.author %}
+                                <span class="text-color">{{ post.author }}, </span>
+                                {% endif %}
+                                <span class="text-color">{{ post.datum }}</span>
+                            </div>
+                            <p class="text-dark">{{ post.excerpt | strip_html | truncatewords: "20" }} <i class="ti-arrow-right"></i></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        {% include pagination.html %}
+    </div>
 </section>
 
 {% include call_to_action.html %}
