@@ -1,1 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="de" /><updated>2024-09-23T13:28:45+02:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>mehr.wert - Nachhaltig bessere Software</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="de" /><updated>2025-01-16T14:12:50+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>mehr.wert - Nachhaltig bessere Software</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Grüne Software, grüne Zukunft - Nachhaltikeit im digitalen Zeitalter</title><link href="https://mehrwert.tech/green-coding-einfuehrung" rel="alternate" type="text/html" title="Grüne Software, grüne Zukunft - Nachhaltikeit im digitalen Zeitalter" /><published>2025-01-09T00:00:00+01:00</published><updated>2025-01-09T00:00:00+01:00</updated><id>https://mehrwert.tech/green-coding-einfuehrung</id><content type="html" xml:base="https://mehrwert.tech/green-coding-einfuehrung"><![CDATA[<p>Ob das Hochladen eines Fotos, das Streamen eines Films oder die Nutzung einer Cloud-App – das Internet macht unseren Alltag komfortabler. Doch dieser Komfort hat seinen Preis: Einen enormen Energieverbrauch, der oft unsichtbar bleibt. Jede digitale Aktion – vom Versenden einer E-Mail bis zur Nutzung datenintensiver KI-Dienste - summiert sich zu einem globale Energieverbrauch, vergelichbar mit dem der globalen Flugindustrie.</p>
+
+<p>In einer Zeit, in der die Klimakrise und Nachhaltigkeit zentrale Themen sind, rückt auch die IT-Branche in den Fokus. Wie können wir die digitale Welt effizienter und umweltfreundlicher gestalten? Und welche Rolle spielt Green Coding dabei?</p>
+
+<h3 id="der-energiehunger-des-internets">Der Energiehunger des Internets</h3>
+<p>Das Internet wirkt auf den ersten Blick wie ein unsichtbares weltumspannendes Netzwerk, doch dahinter steckt eine beeindruckende physische Infrastruktur. Ob E-Mails schreiben, Videos streamen oder Suchanfragen – alles, was wir online tun, durchläuft globale Netzwerke und landet schließlich in Rechenzentren. Diese „Drehscheiben“ des Internets sind unverzichtbar für die digitale Welt, verbrauchen jedoch enorme Mengen an Energie.</p>
+
+<p>Laut der International Energy Agency (IEA) verbrauchten Rechenzentren im Jahr 2022, weltweit etwa 200 Terawattstunden Strom, was knapp 1 % des globalen Stromverbrauchs entspricht. Zum Vergleich: Das entspricht fast dem jährlichen Energiebedarf von Ländern wie Thailand. Dieser Verbrauch steigt weiter an, da der weltweite Datenverkehr jährlich um etwa 20–30 % zunimmt.</p>
+
+<p>Besonders datenintensive Anwendungen wie Streaming-Dienste oder KI-Anwendungen tragen massiv dazu bei. Hier ein paar Beispiele:</p>
+<ul>
+<li>Das Streamen eines zweistündigen 4K-Films benötigt rund 15 kWh Energie – genug, um eine Glühbirne über 150 Stunden leuchten zu lassen.</li>
+<li>Das Hochladen eines 10 MB großen Fotos verbraucht etwa 0,2 kWh – das entspricht dem Stromverbrauch einer LED-Lampe für etwa 12 Stunden.</li>
+<li>Eine Stunde Nutzung eines Cloud-Dienstes zur Bearbeitung von großen Dateien kann bis zu 0,5 kWh verbrauchen, was den Stromverbrauch einer durchschnittlichen Lampe für ca. 25 Stunden entspricht.</li></ul>
+
+<h3 id="der-zusammenhang-von-it-und-stromverbrauch">Der Zusammenhang von IT und Stromverbrauch</h3>
+<p>Der steigende Energiebedarf der IT-Infrastruktur hat weitreichende Auswirkungen auf den globalen Stromverbrauch und damit auf unsere Umwelt. Ein hoher Energieverbrauch führt zu erhöhten CO₂-Emissionen, insbesondere in Regionen, die ihren Strom überwiegend aus fossilen Brennstoffen gewinnen.</p>
+
+<p>Der weltweite Stromverbrauch lag 2023 bei etwa 28.000 Terawattstunden (TWh). IT und digitale Technologien machen einen erheblichen Anteil davon aus. Besonders problematisch ist, dass viele Rechenzentren weiterhin von Kohle-, Gas- oder Ölkraftwerken gespeist werden, was zu hohen CO₂-Ausstoß führt. Schätzungen zufolge ist die IT-Branche bereits für 2–4 % der globalen CO₂-Emissionen verantwortlich – ein Anteil, der mit der Luftfahrtindustrie vergleichbar ist und weiter ansteigt.</p>
+
+<p><img class="img-fluid w-100" src="/assets/images/blog/grafik-co2-fussabdruck-internet.jpg" alt="Grafik zum CO2-Fußabdruck im Netz" /></p>
+
+<p>Die Klimaziele machen die Dringlichkeit deutlich: Bis 2050 sollen die globalen Treibhausgasemissionen drastisch reduziert werden, um die Erderwärmung auf maximal 1,5 °C zu begrenzen. Doch angesichts des wachsenden Energieverbrauchs durch digitale Technologien und der bisherigen Entwicklungen scheint dieses Ziel nicht mehr erreichbar. Umso wichtiger ist es jetzt, die Wirtschaft und insbesondere die Technologiebranche konsequent umzubauen, um den Klimawandel so weit wie möglich einzudämmen.</p>
+
+<p>Hier setzt Green IT an: Effizientere Technologien, die Umstellung auf erneuerbare Energien und ressourcenschonende Ansätze wie Green Coding sind keine Zukunftsvisionen mehr, sondern dringend benötigte Lösungen.</p>
+
+<h3 id="ressourcenverbrauch-jenseits-von-energie">Ressourcenverbrauch jenseits von Energie</h3>
+<p>Neben dem Energieverbrauch ist auch der Ressourcenverbrauch in der IT von entscheidender Bedeutung. Die Herstellung und Entsorgung von Geräten wie Servern, Computern und mobilen Endgeräten erfordert eine Vielzahl von Rohstoffen, darunter auch Seltene Erden. Diese Rohstoffe sind nur in sehr begrenzten Mengen verfügbar und vor allem der Abbau sowie die Verarbeitung sind mit erheblichen Riskien für die Umwelt verbunden. Auch die Entsorgung von Elektronikabfällen stellt ein wachsendes Problem dar, da viele Geräte nicht recycelt oder wiederverwendet werden. Eine nachhaltige IT-Branche muss daher nicht nur den Energieverbrauch senken, sondern auch die Ressourcennutzung optimieren und die Lebensdauer von Geräten verlängern.</p>
+
+<h3 id="green-coding---code-neu-denken">Green Coding - Code neu denken</h3>
+<p>Green Coding verfolgt einen ganzheitlichen Ansatz, um den Energieverbrauch von Software und digitalen Anwendungen zu minimieren. Ziel ist es, digitale Produkte so zu gestalten, dass sie ressourcenschonend arbeiten und gleichzeitig ihre Funktionalität maximieren. Dabei spielen drei Prinzipien eine entscheidende Rolle:</p>
+
+<p><img class="img-fluid w-100" src="/assets/images/blog/Green-Coding-Principles.png" alt="Green Coding Principles" /></p>
+
+<ul>
+<li><b>Energy Efficiency:</b> Software soll so optimiert werden, dass ihr Betrieb weniger Energie verbraucht. Das bedeutet beispielsweise, dass Rechenoperationen effizienter ausgeführt und ressourcenintensive Prozesse minimiert werden.</li>
+<li><b>Hardware Efficiency:</b> Die Software muss mit der Hardware effizient zusammenarbeiten, um den Energieverbrauch zu senken. Dies umfasst auch die Optimierung von Software so, dass sie besser mit vorhandenen Geräten und Infrastrukturen harmoniert. Ziel ist dabei ein möglichst langer Lebenszyklus der Hardware.</li>
+<li><b>Carbon Awareness:</b> Entwickler sollten sich der CO₂-Emissionen bewusst sein, die durch den Betrieb von Software und deren Infrastruktur entstehen. Es geht darum, digitale Produkte und Anwendungen so zu gestalten, dass sie einen minimalen CO2-Fußabdruck haben.</li></ul>
+
+<h3 id="die-digitale-zukunft-nachhaltig-gestalten">Die digitale Zukunft nachhaltig gestalten</h3>
+<p>Der Energieverbrauch des Internets und der IT-Infrastruktur stellt einen bedeutenden Faktor im globalen Energiehaushalt dar. Rechenzentren tragen erheblich zu diesem Verbrauch bei. Es ist jedoch möglich, die Auswirkungen durch Green IT und speziell Green Coding signifikant zu reduzieren. Hier einige Beispiele:</p>
+
+<ul>
+<li><b>Nutzung grüner Energie:</b> Viele Rechenzentren setzen zunehmend auf erneuerbare Energien, um ihren Betrieb klimafreundlicher zu gestalten. Durch den Wechsel zu Solar-, Wind- oder Strom aus Wasserkraft können die CO₂-Emissionen erheblich gesenkt werden. Große Unternehmen wie Google und Microsoft haben bereits damit begonnen, ihre Rechenzentren mit kohlenstofffreier Energie zu betreiben und streben sogar an, ihre gesamte Infrastruktur CO₂-neutral zu gestalten.</li>
+<li><b>Wiederverwertung der Abwärme:</b> Einige Rechenzentren nutzen die entstehende Abwärme, um benachbarte Gebäude zu beheizen oder sogar in Fernwärmenetze einzuspeisen. Ein Beispiel hierfür ist das Rechenzentrum von EcoDataCenter in Schweden, das seine Abwärme nutzt, um ein nahegelegenes Wohngebiet mit Energie zu versorgen. Solche innovativen Ansätze helfen nicht nur, den Energieverbrauch zu optimieren, sondern tragen auch zur Reduktion des CO₂-Ausstoßes bei.</li></ul>
+
+<p>Die digitale Transformation bietet viele Chancen, doch sie bringt auch die Verantwortung mit sich, unsere Technologien so effizient und ressourcenschonend wie möglich zu gestalten. Green Coding ist ein entscheidender Bestandteil dieser Verantwortung, da es darauf abzielt, die digitale Welt mit weniger Energie und somit geringeren CO₂-Emissionen zu betreiben. Hierzu müssen auch die Unternehmen, die diese Technologien entwickeln und betreiben, zur Verantwortung gezogen werden, indem sie sicherstellen, dass ihre Infrastruktur – von der Software bis zu den Rechenzentren – möglichst grün und nachhaltig ist.</p>
+
+<p>Insgesamt müssen wir als Gesellschaft und als Branche die Notwendigkeit erkennen, dass der Übergang zu nachhaltigeren IT-Praktiken nicht nur eine Option, sondern eine dringende Verpflichtung ist. Es liegt an uns, die digitale Zukunft in einer Weise zu gestalten, die sowohl den technologischen Fortschritt als auch den Schutz unseres Planeten fördert.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Ob das Hochladen eines Fotos, das Streamen eines Films oder die Nutzung einer Cloud-App – das Internet macht unseren Alltag komfortabler. Doch dieser Komfort hat seinen Preis: Einen enormen Energieverbrauch, der oft unsichtbar bleibt. Jede digitale Aktion – vom Versenden einer E-Mail bis zur Nutzung datenintensiver KI-Dienste - summiert sich zu einem globale Energieverbrauch, vergelichbar mit dem der globalen Flugindustrie.]]></summary></entry><entry><title type="html">Green Coding - Nachhaltigkeit in der Softwareentwicklung</title><link href="https://mehrwert.tech/green-coding" rel="alternate" type="text/html" title="Green Coding - Nachhaltigkeit in der Softwareentwicklung" /><published>2024-05-28T00:00:00+02:00</published><updated>2024-05-28T00:00:00+02:00</updated><id>https://mehrwert.tech/green-coding</id><content type="html" xml:base="https://mehrwert.tech/green-coding"><![CDATA[<p>In der heutigen digitalen Welt spielt Software eine entscheidende Rolle – von der alltäglichen Nutzung bis hin zu komplexen Unternehmenslösungen. Seit einiger Zeit entwickelt sich Softwareentwicklung jedoch nicht nur zu einer technologischen, sondern zunehmend auch zu einer ökologischen Herausforderung.</p>
+
+<p>Die Disziplin des <strong>Green Codings</strong> wirkt diesem Trend entgegen. Sie bietet innovative Ansätze, um die Energie- und Ressourceneffizienz der Software zu steigern und damit nachhaltige Entwicklungspraktiken zu fördern. Durch die daraus entstehenden Hebelwirkungen kann einen entscheidenden Beitrag zur Erreichung der Klimaziele bis 2030 geleistet werden.</p>
+
+<p>Denn die IT-Branche hat weltweit inzwischen einen ähnlich hohen CO2 Ausstoß wie die globale Luftfahrt.</p>
+
+<h4 id="was-steckt-hinter-green-coding"><strong>Was steckt hinter Green Coding?</strong></h4>
+<p>Die Digitalisierung bietet immense Potenziale, aber auch Herausforderungen. Insbesondere in Bezug auf die nachhaltige Nutzung kostbarer Ressourcen und den stetig steigenden Energiebedarf.</p>
+
+<p>Green Coding setzt genau hier an: Durch effizientere Entwicklungspraktiken soll Software so gestalten werden, dass sie während ihrer gesamten Lebensdauer möglichst wenig Energie und Ressourcen verbraucht. Die Praktiken umfassen die Optimierung von Code, die Reduktion unnötiger Datenmengen und die Entwicklung von Anwendungen, die Hardware länger nutzbar machen. Durch z.B. Ansätze zur Datensparsamkeit und den Einsatz energieeffizienter Programmiersprachen wie Rust kann der Ressourcenverbrauch zusätzlich gesenkt werden.</p>
+
+<h4 id="vorteile-für-unternehmen-und-umwelt"><strong>Vorteile für Unternehmen und Umwelt</strong></h4>
+<p>Green Coding bietet nicht nur ökologische, sondern auch wirtschaftliche Vorteile:</p>
+<ul>
+<li><b>Kosteneinsparungen</b> durch geringeren Stromverbrauch und weniger Hardwarebedarf.  </li>
+<li><b>Längere Hardwarelebenszyklen</b>, die Müll reduzieren und den Ressourcenverbrauch senken.  </li>
+<li><b>Erhöhte Wettbewerbsfähigkeit</b> durch nachhaltige Innovationsfähigkeit.  </li>
+<li><b>Einhaltung von ESG-Kriterien</b>, die nicht nur gesellschaftlich gefordert werden, sondern in der EU bereits teilweise verpflichtend berichtet werden müssen. </li>
+</ul>
+
+<h4 id="ansätze-für-unternehmen"><strong>Ansätze für Unternehmen</strong></h4>
+<p>Unternehmen können Green Coding in ihre Entwicklungsprozesse integrieren, indem sie auf Cloud-Lösungen setzen, unnötige Rechenressourcen vermeiden und ihre Anwendungen energieeffizient gestalten. Automatisierte Tests und agile Entwicklungsmodelle können dazu beitragen, ineffiziente Software frühzeitig zu erkennen und anzupassen.</p>
+
+<h4 id="herausforderungen-und-chancen"><strong>Herausforderungen und Chancen</strong></h4>
+<p>Obwohl Green Coding Potenziale für eine klimafreundlichere IT bietet, ist die Vermeidung von sogenannten <strong>Rebound-Effekten</strong> zentral. Diese treten auf, wenn Einsparungen durch intensivere Nutzung oder neue Anwendungen kompensiert werden. Eine bewusste Implementierung nachhaltiger Praktiken kann dem jedoch entgegenwirken.</p>
+
+<p>Mit Green Coding steht Unternehmen ein wirkungsvolles Werkzeug zur Verfügung, um ihre Umweltbilanz zu verbessern und gleichzeitig ihre Innovationskraft zu stärken. Es zeigt, wie ökologische Verantwortung und wirtschaftlicher Erfolg Hand in Hand gehen können – eine Chance, die sich Unternehmen nicht entgehen lassen sollten.</p>
+
+<p>Weitere Informationen und Hintergründen finden sich im Leidfaden <a href="https://www.wirtschaft-digital-bw.de/fileadmin/media/Dokumente/Studien/20240607_IW4Null_GreenCoding.pdf" target="_blank">Green Coding – Effizienzsteigerung durch den intelligenten Einsatz von Software</a>, an welchem wir mitwirken durften.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[In der heutigen digitalen Welt spielt Software eine entscheidende Rolle – von der alltäglichen Nutzung bis hin zu komplexen Unternehmenslösungen. Seit einiger Zeit entwickelt sich Softwareentwicklung jedoch nicht nur zu einer technologischen, sondern zunehmend auch zu einer ökologischen Herausforderung.]]></summary></entry></feed>

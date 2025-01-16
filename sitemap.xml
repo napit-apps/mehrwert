@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://mehrwert.tech/green-coding</loc>
+<lastmod>2024-05-28T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://mehrwert.tech/green-coding-einfuehrung</loc>
+<lastmod>2025-01-09T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>https://mehrwert.tech/testimonials/testimonial_01</loc>
 <lastmod>2023-12-11T00:00:00+01:00</lastmod>
 </url>
@@ -10,10 +18,13 @@
 </url>
 <url>
 <loc>https://mehrwert.tech/trainings/gsp</loc>
-<lastmod>2024-09-23T13:28:45+02:00</lastmod>
+<lastmod>2025-01-16T14:12:50+01:00</lastmod>
 </url>
 <url>
 <loc>https://mehrwert.tech/404</loc>
+</url>
+<url>
+<loc>https://mehrwert.tech/blog</loc>
 </url>
 <url>
 <loc>https://mehrwert.tech/imprint</loc>
@@ -23,5 +34,11 @@
 </url>
 <url>
 <loc>https://mehrwert.tech/privacy</loc>
+</url>
+<url>
+<loc>https://mehrwert.tech/tag/%23green-coding,/</loc>
+</url>
+<url>
+<loc>https://mehrwert.tech/tag/%23nachhaltigkeit/</loc>
 </url>
 </urlset>
