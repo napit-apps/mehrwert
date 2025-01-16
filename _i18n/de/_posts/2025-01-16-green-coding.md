@@ -3,7 +3,7 @@ layout: post
 title: Green Coding - Nachhaltigkeit in der Softwareentwicklung
 cover: cover.jpg
 type: "Artikel"
-datum:  "28.05.2024"
+datum:  "16.01.2025"
 post_image: "/assets/images/blog/2024-06-07-green-coding.jpg"
 tags: "#green-coding, #nachhaltigkeit"
 categories: de posts
