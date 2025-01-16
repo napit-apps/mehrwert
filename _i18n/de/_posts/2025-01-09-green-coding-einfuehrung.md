@@ -11,7 +11,7 @@ author: "Alina"
 featured: false
 ---
 
-Ob das Hochladen eines Fotos, das Streamen eines Films oder die Nutzung einer Cloud-App – das Internet macht unseren Alltag komfortabler. Doch dieser Komfort hat seinen Preis: Einen enormen Energieverbrauch, der oft unsichtbar bleibt. Jede digitale Aktion – vom Versenden einer E-Mail bis zur Nutzung datenintensiver KI-Dienste - summiert sich zu einem globale Energieverbrauch, vergelichbar mit dem der globalen Flugindustrie.
+Ob das Hochladen eines Fotos, das Streamen eines Films oder die Nutzung einer Cloud-App – das Internet macht unseren Alltag komfortabler. Doch dieser Komfort hat seinen Preis: Einen enormen Energieverbrauch, der oft unsichtbar bleibt. Jede digitale Aktion – vom Versenden einer E-Mail bis zur Nutzung datenintensiver KI-Dienste - summiert sich zu einem globale Energieverbrauch, vergleichbar mit dem der globalen Flugindustrie.
 
 In einer Zeit, in der die Klimakrise und Nachhaltigkeit zentrale Themen sind, rückt auch die IT-Branche in den Fokus. Wie können wir die digitale Welt effizienter und umweltfreundlicher gestalten? Und welche Rolle spielt Green Coding dabei?
 
