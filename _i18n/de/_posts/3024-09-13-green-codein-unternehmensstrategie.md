@@ -7,7 +7,7 @@ datum:  "13.09.2024"
 post_image: "/assets/images/blog/2023-11-13-nachhaltige-softwareentwicklung.jpg"
 tags: "#green-coding, #nachhaltigkeit"
 categories: de posts
-author: "Alina und Marcel"
+author: "Alina, Marcel"
 featured: false
 ---
 
