@@ -7,7 +7,7 @@ datum:  "28.05.2024"
 post_image: "/assets/images/blog/2024-06-07-green-coding.jpg"
 tags: "#green-coding, #nachhaltigkeit"
 categories: de posts
-author: "Marcel, Alina"
+author: "Alina, Marcel"
 featured: false
 ---
 At a time when the climate crisis and sustainability have become key issues, the IT industry and its energy consumption are also coming more into focus. The constant increase in energy requirements and the growing consumption of resources are presenting companies and developers with new challenges. In this context, green coding approaches are becoming increasingly relevant. It offers solutions to make software more efficient and thus make a direct contribution to reducing its ecological footprint.
