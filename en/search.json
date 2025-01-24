@@ -1,3 +1,19 @@
 [
   
+    {
+      "title"    : "Green software, green future - sustainability in the digital age",
+      "category" : "",
+      "tags"     : "#green-coding,, #nachhaltigkeit",
+      "url"      : "/en/green-software",
+      "date"     : "2025-01-16 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Green coding - sustainability in software development",
+      "category" : "",
+      "tags"     : "#green-coding,, #nachhaltigkeit",
+      "url"      : "/en/green-coding",
+      "date"     : "2025-01-16 00:00:00 +0100"
+    } 
+  
 ]
