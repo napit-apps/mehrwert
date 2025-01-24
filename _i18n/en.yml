@@ -1,0 +1,458 @@
+################## Page #######################
+page_title: "mehr.wert - Sustainable Software Solutions"
+
+################## General #######################
+readmore: "Read More"
+close: "Close"
+
+################## Menu Area #######################
+main-menue:
+  - name: Blog
+    url: /blog.html
+  - name: Trainings
+    url: "#"
+    submenu: 
+      - name: Green Coding Practitioner
+        url: "/trainings/gsp.html"
+  - name: Legal
+    url: "#"
+    submenu:
+      - name: Terms of Service
+        url: "/imprint.html"
+      - name: Privacy Policy
+        url: "/privacy.html"
+  # - name: Blog
+  #   url: /blog-1.html
+  # - name: Contact
+  #   url: /contact.html
+
+########## footer menu ###############
+footer:
+  - name: Terms of Service
+    link: "/imprint.html"
+  - name: Privacy Policy
+    link: "/privacy.html"
+
+############## Bottom menu ###############
+bottom:
+  - name: Terms of Service
+    link: "/imprint.html"
+  - name: Privacy Policy
+    link: "/privacy.html"
+
+
+################## Hero Area #######################
+hero_area:
+  title : "Sustainable Software Solutions"
+  subheadline : "At mehr.wert, we combine Software Engineering with Sustainability to deliver true value in IT. Specializing in Scaled Agile Coaching, Efficient Mobile Apps, and Pioneering Green Coding."
+  content : "<ul class=\"list-hero mt-4 mb-5\">
+<li><b>🌱 Sustainability:</b> Commitment to a Greener Future in IT</li>
+<li><b>🔒 Trust:</b> Building Reliable Solutions You Can Count On</li>
+<li><b>🤝 Partnership:</b> Collaborating for Mutual Success</li>
+<li><b>📈 Measurable Results:</b> Tangible Outcomes, Real Growth</li>
+</ul>"
+  primaryButton-label : "Contact Us Today"  
+  secondaryButton-label : "Join Our Green Coding Revolution – Get Your Training"
+
+################## Problem Solution ###########################
+about:
+  subtitle : "Sustainable IT Modernization"
+  title : "Navigating Today's IT Challenges"
+  content : "<p>In an ever-evolving digital landscape, businesses face multiple challenges. From keeping pace with technological advancements to implementing sustainable practices, the path to digital transformation is often riddled with complexities. These challenges can hinder growth, reduce efficiency, and impact your company’s long-term sustainability.
+  </p>
+  <p><b>Common Roadblocks to Success:</b>
+  Consider the struggles of integrating scalable agile processes in large teams, often leading to reduced productivity and misalignment of goals. Or the dilemma of creating mobile solutions that fail to resonate with your target audience, resulting in wasted resources and missed opportunities. And the growing concern of environmental impact in IT practices, where traditional methods contribute to a larger carbon footprint, challenging your commitment to sustainability.
+  </p>
+  <p><b>Our Tailored Solutions:</b>
+  At mehr.wert, we turn these challenges into opportunities. Our Scaled Agile Coaching transforms organizational chaos into a harmonized, productive workflow. Customized mobile strategies ensure your solutions hit the mark, engaging your audience effectively. And with our pioneering Green Coding initiative, we help you lead in sustainability, aligning your IT practices with environmental consciousness. Together, we pave the way for a smarter, greener, and more efficient future.
+  </p>"
+
+
+###################### Services #####################
+services:
+  item:
+  - name : "Agile Transformation"
+    content : "Transform your organization with our Scaled Agile Coaching, fostering an adaptable and responsive business environment. Benefit from a partnership that guides you through every step of your agile journey, backed by data-driven insights for continuous improvement and growth. Our commitment to long-term support ensures sustainable agility at every organizational level."
+
+  - name : "Sustainable Tech Solutions"
+    content : "Stay ahead with our Green Coding initiative, where environmental responsibility meets technological advancement. We help you implement coding practices that minimize environmental impact while maximizing efficiency. Our long-term partnership approach means continuous support in maintaining eco-friendly IT practices, with data-driven results to track your sustainability journey and its impact on your business performance."
+
+  - name : "Tailored Mobile Innovation"
+    content : "Receive custom mobile strategies that align perfectly with your business objectives. We provide comprehensive support from conception to deployment, ensuring your mobile solutions are both innovative and practical. Our approach is grounded in measurable results, offering you clear insights into performance enhancements and user engagement, sustained by a commitment to ongoing partnership and support."
+
+
+######################### Testimonail ####################
+Testimonial_01: "Testimonial_01"
+Testimonial_02: "Testimonial_02"
+
+testimonial:
+  subtitle : "testimonials"
+  title : "What Others Say"  
+
+###################### Funfacts #########################
+funfacts:
+  enable : true
+  title: "Time to Change"
+  subtitle: "Sustainability starts in the code"
+  bg_image : "/assets/images/bg/cta-bg.png"
+  item:
+  - name : "One eMail without Attachment"
+    icon : "ti-email"
+    value : "10g CO2e"
+    
+  - name : "Globale data waste 2020"
+    icon : "ti-trash"
+    value : "5,8 Mt CO2e"
+    
+  - name : "IT's share of global electricity consumption"
+    icon : "ti-bolt"
+    value : "4-8%"
+  
+  - name : "30min Videocall"
+    icon : "ti-video-camera"
+    value : "100g CO2e"
+    
+###################### Skill #############################
+skill:
+  subtitle : "mehr.wert"
+  title : "Talents and key competencies"
+  
+  agile-title: "Agile"
+  agile:
+  - name : "Scrum Framework Mastery"
+    percentage : "99%"
+    modal_id: "agile-1"
+    description: "Expertise in applying the principles and practices of the Scrum framework, including facilitating all Scrum ceremonies and understanding the roles and artifacts involved."
+  
+  - name : "Agile Coaching and Mentoring"
+    percentage : "99%"
+    modal_id: "agile-2"
+    description: "Ability to coach teams, Scrum Masters, and Product Owners on Agile practices, fostering an environment conducive to continuous improvement and high performance."
+  
+  - name : "Impediment Removal"
+    percentage : "99%"
+    modal_id: "agile-3"
+    description: "Skilled in identifying and removing obstacles that impede team progress, ensuring smooth operations and helping teams maintain their focus on sprint goals."
+  
+  - name : "Change Management"
+    percentage : "99%"
+    modal_id: "agile-4"
+    description: "Proficient in guiding organizations through the transition to Agile methodologies, including managing resistance and aligning Agile adoption with strategic business goals."
+  
+  - name : "Team Dynamics and Conflict Resolution"
+    percentage : "99%"
+    modal_id: "agile-5"
+    description: "Experienced in enhancing team interaction and collaboration, resolving conflicts, and building a strong, cohesive team culture based on trust and respect."
+  
+  scaled-agile-title: "Scaled Agile"
+  scaled-agile:
+  - name : "Enterprise Agility Strategy"
+    percentage : "99%"
+    modal_id: "agile-6"
+    description: "Mastery in developing and implementing strategies that integrate Agile practices across entire organizations, ensuring alignment with overall business objectives."
+  
+  - name : "Scaling Frameworks Expertise"
+    percentage : "95%"
+    modal_id: "agile-7"
+    description: "Deep knowledge in frameworks such as SAFe (Scaled Agile Framework), capable of customizing and deploying these to suit enterprise needs and complexities."
+    
+  - name : "Organizational Change Leadership"
+    percentage : "95%"
+    modal_id: "agile-8"
+    description: "Proficient in leading change at the organizational level, including stakeholder management, change resistance mitigation, and the establishment of an Agile culture throughout the enterprise."
+  
+  - name : "Portfolio and Program Management"
+    percentage : "85%"  
+    modal_id: "agile-9"
+    description: "Skilled in managing a portfolio of Agile projects and programs, optimizing resource allocation and maximizing value delivery through effective prioritization and governance."
+  
+  - name : "Executive Coaching and Alignment"
+    percentage : "85%"
+    modal_id: "agile-10"
+    description: "Ability to coach senior executives and leaders on Agile principles and practices, fostering executive buy-in and ensuring top-down support for Agile transformations."
+  
+  - name : "Metrics and Performance Improvement"
+    percentage : "90%"
+    modal_id: "agile-11"
+    description: "Expert in defining and implementing Agile metrics and KPIs to measure performance, drive improvements, and demonstrate the business impact of Agile adoption at the enterprise level."
+  
+  tech-title: "Mobile Apps"
+  tech:
+  - name : "12+ years experience"
+    percentage : "100%"
+    modal_id: "tech-1"
+    description: "With over twelve years of focused experience in mobile solutions, adept at navigating complex app architectures and adapting to technological advancements in the mobile landscape."
+    
+  - name : "Swift and Objective-C Programming"
+    percentage : "95%"
+    modal_id: "tech-2"
+    description: "Expertise in Swift and Objective-C, the primary languages for iOS development, ensuring efficient, readable, and maintainable code."
+    
+  - name : "iOS SDK Mastery"
+    percentage : "100%"
+    modal_id: "tech-3"
+    description: "Comprehensive understanding of iOS Software Development Kit components including UIKit, CoreData, and CloudKit for robust app development."
+    
+  - name : "User Interface Design"
+    percentage : "90%"
+    modal_id: "tech-4"
+    description: "Proficiency in crafting intuitive and engaging user interfaces using SwiftUI and Interface Builder, adhering to Apple's Human Interface Guidelines."
+
+  - name : "Performance Optimization"
+    percentage : "85%"
+    modal_id: "tech-5"
+    description: "Skilled in optimizing app performance through efficient coding practices, memory management, and leveraging concurrent programming."
+  
+  - name : "Security and Privacy Compliance"
+    percentage : "90%"
+    modal_id: "tech-6"
+    description: "Knowledgeable in implementing security measures like data encryption and secure authentication, and ensuring apps comply with privacy laws and guidelines."
+  
+  green-title: "Green Coding"
+  green:
+  - name : "Optimized Code for Energy Efficiency"
+    percentage : "95%"
+    modal_id: "green-1"
+    description: "We focus on writing and refactoring code to run with minimal power usage, maximizing performance while reducing energy consumption."
+  
+  - name : "Green Software Metrics and Measurement"
+    percentage : "85%"
+    modal_id: "green-2"
+    description: "We specialize in quantifying the environmental impact of software applications, providing metrics that help in making informed decisions about code improvements."
+
+  - name : "Understanding and Applying Green Software Principles"
+    percentage : "85%"
+    modal_id: "green-3"
+    description : "Our expertise includes deep knowledge of green software principles such as efficient resource management, server utilization, and algorithmic efficiency to minimize environmental impact."
+    
+  - name : "Eco-friendly Software Lifecycle Management"
+    percentage : "85%"
+    modal_id: "green-4"
+    description: "We guide on integrating environmental considerations throughout the software development lifecycle, from planning and design to deployment and decommissioning."
+  
+  - name : "Energy Profiling and Optimization of Code"
+    percentage : "99%"
+    modal_id: "green-5"
+    description : "We offer services to profile software energy usage and identify hotspots, providing optimizations that reduce the overall carbon footprint of operations."
+
+  - name : "ESG and CSRD Reporting"
+    percentage : "80%"
+    modal_id: "green-6"
+    description : "We offer expert guidance on Environmental, Social, and Governance (ESG) and Corporate Sustainability Reporting Directive (CSRD) compliance, helping IT companies to accurately measure and report their sustainability practices and impacts."
+  
+  - name : "Training in Sustainable Coding Practices"
+    percentage : "95%"
+    modal_id: "green-7"
+    description : "We provide training sessions focused on sustainable coding practices, educating developers on how to build software that is as environmentally friendly as it is functional."
+    
+
+  certificates-title: "Certificates"
+  certificates:
+  - icon : "assets/images/skills/psd1.svg"
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/psm1.svg "
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/pspo1.svg "
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/SAFe_SA.png"
+    link : "https://www.credly.com/badges/5e28e351-fbc9-4ac2-838f-5ef1bbc90989/public_url"
+  - icon : "assets/images/skills/SAFe_SA_6.png"
+    link : "https://www.credly.com/badges/824cd794-69de-4fae-adaf-e7761b922f28/public_url"
+  - icon : "assets/images/skills/linux.svg"
+    link : "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0241ce4d-6018-4891-bd40-a23ee2c9acaf-marcel-russ-ca32e563-51ea-4447-8f69-d396ebc7246d-certificate.pdf"
+
+
+###################### Clients ######################
+clients:
+  enable : true
+  logos:
+    - "/assets/images/clients/client-1.avif"
+    - "/assets/images/clients/client-2.avif"
+    - "/assets/images/clients/client-3.avif"
+    - "/assets/images/clients/client-4.avif"
+    - "/assets/images/clients/client-5.avif"
+    
+
+###################### Team ######################
+team:
+  enable : false
+  item:
+  - name : "Liam Hughes"
+    designation : "Manager"
+    image : "/assets/images/team/team-1.jpg"
+    
+  - name : "Liam Hughes"
+    designation : "Manager"
+    image : "/assets/images/team/team-2.jpg"
+    
+  - name : "Liam Hughes"
+    designation : "Manager"
+    image : "/assets/images/team/team-3.jpg"
+    
+  - name : "Liam Hughes"
+    designation : "Manager"
+    image : "/assets/images/team/team-4.jpg"
+
+
+contact:
+  title: "Let's Innovate Together!"
+  subtitle: "Got a project in mind or need advice on your Agile journey?"
+  intro: "Drop us a message – we're excited to connect and explore how we can create sustainable IT solutions tailored for you."
+  form : 
+    name: "Name"
+    email: "Email Adress"
+    phone: "Phone Number"
+    message: "Message"
+    subject: "Subject"
+  privacy-note: "By clicking the 'Submit' button below, you agree that we can process your data in accordance with the <a href=\"/en/privacy.html\" target=\"_blank\">Privacy Policy.</a>"
+  button: "Submit"
+  adress: "Contact Information"
+
+###################### Blog ######################
+blog:
+  enable: false
+  title : "latest article"
+  subtitle : "Stay Update with mehr.wert"
+
+blog-landing:
+  enable: true
+  title : "Our contribution"
+  subtitle : "EN: Hier kommt ein fancy Text und ein schönes Hintergrund bild..."
+
+  contact_blog:
+  title: "Discussion"
+  subtitle: "What's your opinion on that topic"
+  intro: "Drop us a message – we would love to connect and have a meaningful exchange."
+
+###################### 404 ######################
+error:
+  404: 
+    title: "404"
+    description: "404 page not found"
+
+###################### Trainings ######################
+contact_training:
+  title: "Let's Innovate Together!"
+  subtitle: "Would you like to book a training course or do you have questions about our training program?"
+  intro: "Write to us - we look forward to hearing from you."
+
+gsp_training:
+  title: "Make your software development sustainable"
+  description: "Train yourself and your team to become certified Green Coding Practitioners."
+  cta:
+    title: "Request information about training"
+    action: "mailto:kontakt@mehrwert.com?subject=Anfrage Green Coding Practitioner Training"
+  relevance:
+    title: "Sustainable Software: A Global Imperative"
+    description: "In today's digital age, software drives countless aspects of our lives, but it also significantly impacts the environment. The increasing demand for digital services results in higher energy consumption and greater carbon emissions, making the need for sustainable software development more critical than ever. <br /><br />Recent data highlights the urgency of integrating sustainability in software development."
+    footer: "As a Green Coding Practitioner, you will be equipped with the skills and knowledge necessary to develop software that is not only functional and innovative but also environmentally conscious. This training will empower you to make decisions that align with ecological sustainability, helping reduce the environmental impact of technology and fostering a greener future."
+    item:
+    - name : "Energy Consumption"
+      content: "The global IT sector is estimated to account for approximately 2% to 3% of global carbon emissions, equivalent to the airline industry. Data centers alone are responsible for around 1% of the global electricity demand and could rise to 3-4% by 2030."
+      icon : "ti-bolt"
+      
+    - name : "Waste Generation"
+      content: "Electronic waste is one of the fastest-growing waste streams worldwide, with millions of tons of outdated or end-of-life hardware discarded each year, much of which is linked to software upgrades or replacements."
+      icon : "ti-trash"
+      
+    - name : "Resource Efficiency"
+      content: "Software can influence the energy efficiency of the hardware it runs on. Optimized software can reduce the energy consumption of devices, contributing significantly to global sustainability efforts."
+      icon : "ti-stats-up"
+  overview:
+    title: "Achieving Sustainability in Software"
+    intro: "Green software focuses on carbon efficiency, which involves minimizing emissions through three key strategies: energy efficiency, carbon awareness, and hardware efficiency. This training will cover these concepts, show you how to apply them to your processes, measure their impact, and familiarize you with the international guidelines and organizations overseeing this space."
+    subtitle: "By the end of this training, you will have gained the following insights and skills"
+    item:
+    - text : "Understanding Carbon Drivers: Identify the primary factors that contribute to carbon emissions in software applications."
+    - text : "Effective Actions for Reduction: Learn the three critical actions to reduce the carbon footprint of your software—energy efficiency, carbon awareness, and hardware efficiency."
+    - text : "Measuring Emissions: Master the techniques for quantifying software emissions, utilizing standards such as the Greenhouse Gas (GHG) protocol and the Software Carbon Intensity (SCI) specification."
+    - text : "Aligning with Corporate Goals: Understand the various types of corporate climate targets to better integrate your green software initiatives with your organization’s public commitments."
+  banner:
+    image: "/assets/images/bg/bg-8.jpg"
+    text: "No special prior knowledge required!"
+  testimonials:
+    title: "Sustainability in Action"
+    subtitle: "Testimonials from the Training"
+    item:
+    - name: "Ivo Ganchev"
+      image: "/assets/images/clients/ivo.avif"
+      role: "Tech Lead/Software Engineer at HUGO BOSS"
+      company: "HUGO BOSS"
+      text: "Getting into Green Coding Principles was eye-opening. It provided me understanding and awareness of the environmental impact of running software. From analyzing deployment footprint to energy-efficient coding practices and tips, I'm now more mindful of tomorrow's software I create. Let's code responsibly!"
+      link: "https://www.linkedin.com/in/ivo-ganchev-74659a165/"
+    - name: "Marietta Manz"
+      image: "/assets/images/clients/marietta.avif"
+      role: "Expert Software Engineer at HUGO BOSS"
+      company: "HUGO BOSS"
+      text: "As developers, we have the power to make a positive impact on the environment by embracing green software principles. By optimizing our code and leveraging efficient algorithms, we can create applications that run seamlessly on older hardware, effectively extending their lifetime. With the extension of the lifetime of devices, the embodied carbon is better utilized, reducing the overall environmental footprint."
+      link: "https://www.linkedin.com/in/marietta-m-80a046276/"
+    - name: "Marcus Danzer"
+      image: "/assets/images/clients/marcus.avif"
+      role: "Software Engineer bei HUGO BOSS"
+      text: "Das Green Coding Training war eine inspirierende Erfahrung. Es hat mir gezeigt, wie ich als Entwickler aktiv dazu beitragen kann, den Carbon Footprint meiner Firma zu senken."
+      link: "https://www.linkedin.com/in/marcus-danzer-188510182/"
+  pricing:
+    title: "Pricing"
+    subtitle: "We offer different packages for the training."
+    price-unit: "flat rate"
+    item:
+    - title: "Basic"
+      background: bg-white
+      duration: "~4 Hours"
+      price: "500€"
+      participants: "3-6 participants"
+      location: "Neue Weberei (Wernau)"
+      content-1: "Creating awareness"
+      content-2: "Green coding basics"
+      content-3: "Understanding theory"
+    - title: "Professional"
+      background: bg-primary
+      duration: "6-8 Hours"
+      price: "800€"
+      participants: "up to 10 participants"
+      location: "Neue Weberei (Wernau)"
+      content-1: "Creating awareness"
+      content-2: "Introduction to Green Coding"
+      content-3: "Practical examples"
+    - title: "Professional"
+      background: bg-white
+      duration: "6-8 Hours"
+      price: "950€"
+      participants: "up to 10 participants"
+      location: "On site with you"
+      content-1: "Creating awareness"
+      content-2: "Introduction to Green Coding"
+      content-3: "Practical examples"
+  faq:
+    title: "FAQs"
+    item:
+    - question: "Why should you and your team sign up for the training?" 
+      answer: "The environmental impact of software is increasing rapidly. In this training you will learn how developers, IT departments and managers can contribute to a sustainable IT future."
+    - question: "Who should attend this training?" 
+      answer: "This training is specifically designed for professionals working in software development, implementation or management. It is aimed at anyone who wants to deepen their knowledge of sustainable software practices in order to actively contribute to reducing the carbon footprint of their applications."
+    - question: "What are the prerequisites for participation?"   
+      answer: "Participants in this training should have a basic knowledge of software development. This forms the basis for effectively understanding and applying the principles and techniques of sustainable software development."  
+    - question: "What will you learn in this training?"
+      answer: "In this training you will explore the key concepts of sustainable software development. These include energy efficiency, carbon awareness and hardware efficiency. You will learn how to apply these principles in practice to minimize the carbon footprint of your software products."
+    - question: "What is the training content based on?"
+      answer: "The training content is based on the sound preliminary work of the Green Software Foundation. This is supplemented by in-depth teaching materials that include the latest scientific findings and practical examples to give you a comprehensive understanding of sustainable software development."
+    - question: "How can you register yourself and your team for training?"
+      answer: "To register yourself and your team for the training, please use the registration form at the bottom of the page, call us or send us an e-mail. If you have any questions or require further information, please do not hesitate to contact us."
+    - question: "Is there a minimum number of participants or a limit on the number of participants?"
+      answer: "There is both a minimum number of participants and an upper limit for the number of participants. To ensure an optimal learning environment, we recommend a group size of 4 to 10 participants. Please contact us directly for more information."
+    - question: "Why does the training preferably take place in person?"
+      answer: "The training is primarily conducted on site to promote an interactive learning environment in which direct exchange and practical exercises can be optimally implemented. This form of learning not only supports the development of networks among the participants, but also enables direct feedback and individual support from the trainers."
+    - question: "Can individual participants also take part in the training remotely?"
+      answer: "Yes, it is possible for individual participants to take part in the training remotely. We offer flexible solutions to ensure effective integration of face-to-face and distance learning. For specific requirements or to set up a hybrid training format, we will be happy to help you find a suitable solution."
+    - question: "Does the training address technology-specific issues?"
+      answer: "While the content of our training is designed to be technology-independent to ensure broad applicability, we are happy to address technology-specific questions. We encourage participants to ask such questions so that we can respond to individual needs and specific situations. The scope is determined by the selected training package."
+    - question: "How much does the training cost?"
+      answer: "The cost of training varies depending on the package you choose. You can find a detailed overview of the various training packages and their prices on our website. Please note that additional travel costs may be incurred for venues outside a 50 km radius of Kirchheim unter Teck. For specific information on travel costs, please contact us directly."
+    - question: "How long does the training last?"
+      answer: "The duration of the training depends on the package you choose. Details of the individual training packages and their duration can be found on our website. There we offer a selection of different formats tailored to different needs and schedules."
+    - question: "How does the certification take place?"
+      answer: "If you opt for certification, you will have the opportunity to take a Linux Foundation exam at the end of the training. This exam tests your acquired knowledge and skills in the area of sustainable software development. If you successfully pass the exam, you will receive a certificate confirming your qualifications as a Green Software Practitioner."           
+    - question: "Where does the training take place?"
+      answer: "We will be happy to come to you for the training. Alternatively, we have modern facilities at the Neue Weberei in Wernau."
+     
+  

@@ -12,7 +12,7 @@ featured: false
 ---
 At a time when the climate crisis and sustainability have become key issues, the IT industry and its energy consumption are also coming more into focus. The constant increase in energy requirements and the growing consumption of resources are presenting companies and developers with new challenges. In this context, green coding approaches are becoming increasingly relevant. It offers solutions to make software more efficient and thus make a direct contribution to reducing its ecological footprint.
 
-#### **What is behind green coding?  
+#### **What is behind green coding?**
 Green coding is a comprehensive approach that optimizes not only the code itself, but also the entire software architecture. It takes into account the consumption of resources over the entire life cycle of the software in order to keep this as low as possible. Decisions such as the choice of algorithms, data structuring and the location of the data center play an important role. For example, the use of scalable system architectures can reduce energy consumption and ensure that software runs more efficiently on different hardware configurations. The selection of energy-efficient programming languages, such as Rust, also makes a significant contribution to reducing power consumption.
 
 #### **Benefits for companies and the environment**  
