@@ -3,11 +3,11 @@ layout: post
 title: Green Coding - Nachhaltigkeit in der Softwareentwicklung
 cover: cover.jpg
 type: "Artikel"
-datum:  "28.05.2024"
+datum:  "16.01.2025"
 post_image: "/assets/images/blog/2024-06-07-green-coding.jpg"
 tags: "#green-coding, #nachhaltigkeit"
 categories: de posts
-author: "Alina, Marcel"
+author: "Marcel, Alina"
 featured: false
 ---
 In einer Zeit, in der die Klimakrise und Nachhaltigkeit zu zentralen Themen geworden sind, rückt auch die IT-Branche und ihr Energieverbrauch stärker in den Fokus. Der stetige Anstieg des Energiebedarfs und der wachsende Ressourcenverbrauch stellen Unternehmen und Entwickler vor neue Herausforderungen. In diesem Kontext werden die Ansätze von Green Coding immer relevanter. Sie bietet Lösungen, um Software effizienter zu gestalten und so einen direkten Beitrag zur Reduktion ihres ökologischen Fußabdrucks zu leisten.
