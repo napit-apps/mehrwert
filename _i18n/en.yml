@@ -7,8 +7,8 @@ close: "Close"
 
 ################## Menu Area #######################
 main-menue:
-  # - name: Blog
-  #   url: /blog.html
+  - name: Blog
+    url: /blog.html
   - name: Trainings
     url: "#"
     submenu: 
