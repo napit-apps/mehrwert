@@ -2,6 +2,7 @@
 page_title: "mehr.wert - Sustainable Software Solutions"
 
 ################## General #######################
+empty: " "
 readmore: "Read More"
 close: "Close"
 
@@ -14,6 +15,11 @@ main-menue:
     submenu: 
       - name: Green Coding Practitioner
         url: "/trainings/gsp.html"
+  - name: About
+    url: "#"
+    submenu:
+      - name: Our Mission
+        url: /mission.html
   - name: Legal
     url: "#"
     submenu:
@@ -67,6 +73,31 @@ about:
   At mehr.wert, we turn these challenges into opportunities. Our Scaled Agile Coaching transforms organizational chaos into a harmonized, productive workflow. Customized mobile strategies ensure your solutions hit the mark, engaging your audience effectively. And with our pioneering Green Coding initiative, we help you lead in sustainability, aligning your IT practices with environmental consciousness. Together, we pave the way for a smarter, greener, and more efficient future.
   </p>"
 
+################## Mission Area #######################
+mission:
+  enable: true
+  title: "Our Mission"
+  subtitle: "Sustainable agility starts with people – and changes everything."
+  statement: "We combine agility with sustainability to make software development long-term successful, resilient, and responsible. Our goal is a development culture that consciously utilizes resources, fosters innovation, and ensures companies remain future-proof."
+  why-title: "Why?"
+  why:
+  - item: "Because software shapes the world – and we must take responsibility for its impact."
+  - item: "Because sustainable development is not just environmentally responsible, but also economically smart."
+  - item: "Because companies must make sustainability measurable to stay compliant and strategically future-proof."
+  how-title: "How?"
+  how:
+  - item: "Consulting & coaching to establish sustainability as an integral part of agile software development."
+  - item: "Sustainable agility as the core – from requirements gathering to decommissioning."
+  - item: "Measurable KPIs & clear sustainability goals to optimize development and operations."
+  - item: "AI-driven solutions to make software and IT systems more efficient and resource-conscious."
+  special-title: "What makes us unique?"
+  specials:
+  - item: "Technical excellence meets agile scaling – with sustainability as a core strategy."
+  - item: "Sustainability is not an add-on, but a decisive success factor."
+  - item: "We provide clarity, measurable results, and practical implementation."
+vision:
+  title: "Our Vision"
+  statement: "Sustainable agility becomes the standard in software development. Companies will not only develop quickly but also responsibly – with a culture that unites innovation, resilience, and efficient resource utilization. Our vision is a digital world where software is not just powerful but also sustainable and future-proof."
 
 ###################### Services #####################
 services:

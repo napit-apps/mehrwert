@@ -2,18 +2,24 @@
 page_title: "mehr.wert - Nachhaltig bessere Software"
 
 ################## General #######################
+empty: " "
 readmore: "Mehr"
 close: "Schließen"
 
 ################## Menu Area #######################
 main-menue:
-  - name: Blog
-    url: /blog.html
   - name: Schulungen
     url: "#"
     submenu: 
       - name: Green Coding Grundlagen
         url: "/trainings/gsp.html"
+  - name: Blog
+    url: /blog.html
+  - name: Über uns
+    url: "#"
+    submenu:
+      - name: Unsere Mission
+        url: /mission.html
   - name: Rechtliches
     url: "#"
     submenu:
@@ -66,6 +72,32 @@ about:
   <p><b>Individuelle Lösungen:</b>
    Wir nutzen all diese Herausforderungen als Chancen. Mit unserem Scaled Agile Coaching transformieren wir Ihre Organisationskultur zu einem produktiven Arbeitsraum. Unsere individuellen mobile Lösungen ermöglichen eine kundenzentrierte Ansprache. Als aktives Mitglied der Green Coding Initiative leisten wir gemeinsam einen Beitrag für eine grünere IT. 
   </p>"
+
+################## Mission Area #######################
+mission:
+  enable: true
+  title: "Unsere Mission"
+  subtitle: "Nachhaltige Agilität beginnt bei den Menschen – und verändert alles."
+  statement: "Wir verbinden Agilität mit Nachhaltigkeit, damit Softwareentwicklung langfristig erfolgreich, resilient und verantwortungsvoll wird. Unser Ziel ist eine Entwicklungskultur, die Ressourcen bewusst nutzt, Innovation fördert und somit Unternehmen zukunftssicher macht."
+  why-title: "Warum?"
+  why:
+  - item: "Weil Software die Welt verändert – und wir Verantwortung für ihren Einfluss übernehmen müssen."
+  - item: "Weil nachhaltige Entwicklung nicht nur ökologisch sinnvoll, sondern wirtschaftlich klug ist."
+  - item: "Weil Unternehmen Nachhaltigkeit messbar machen müssen, um regulatorisch und strategisch zukunftsfähig zu sein."
+  how-title: "Wie?"
+  how:
+  - item: "Beratung & Coaching, um Nachhaltigkeit als festen Bestandteil agiler Softwareentwicklung zu verankern."
+  - item: "Nachhaltige Agilität als Kern – von der Anforderungsaufnahme bis zur Abschaltung."
+  - item: "Messbare KPIs & klare Nachhaltigkeitsziele, um Entwicklung und Betrieb zu optimieren."
+  - item: "KI-gestützte Lösungen, um Software und IT-Systeme effizienter und ressourcenschonender zu gestalten."
+  special-title: "Was macht uns einzigartig?"
+  specials:
+  - item: "Technische Exzellenz trifft agile Skalierung – mit Nachhaltigkeit als Kernstrategie."
+  - item: "Nachhaltigkeit ist kein Zusatz, sondern ein entscheidender Erfolgsfaktor."
+  - item: "Wir liefern Klarheit, messbare Ergebnisse und praxisnahe Umsetzung."
+vision:
+  title: "Unsere Vision"
+  statement: "Nachhaltige Agilität wird zum Standard in der Softwareentwicklung. Unternehmen entwickeln nicht nur schnell, sondern auch verantwortungsvoll – mit einer Kultur, die Innovation, Resilienz und effizienten Ressourceneinsatz vereint. Unsere Vision ist eine digitale Welt, in der Software nicht nur leistungsfähig, sondern auch nachhaltig und zukunftssicher ist."
 
 
 ###################### Services #####################

@@ -11,13 +11,13 @@
             </h2>
           <p class="text-white">
             {% if page.layout == "post" %}
-            {{ page.description }} hello
+            {{ page.description }}
             {%else %}
             {% t page.description %}
             {% endif %}
             </p>
           {% if page.cta-title %}
-          <!-- <p><a href="{% t page.cta-action %}" class="btn btn-primary">{% t page.cta-title %}</a></p> -->
+          <p><a href="{% t page.cta-action %}" class="btn btn-primary">{% t page.cta-title %}</a></p>
           {% endif %}
       </div>
     </div>

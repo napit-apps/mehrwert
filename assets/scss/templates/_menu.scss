@@ -44,6 +44,7 @@
     font-weight: 500;
     line-height: 40px;
     font-family: $heading-font;
+    text-wrap: nowrap;
   }
 
   .languages li:not(:last-child)::after {
@@ -781,6 +782,7 @@
     .nav-link {
       color: $white !important;
       font-size: 20px;
+      text-wrap: nowrap;
     }
   }
 

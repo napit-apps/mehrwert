@@ -1,0 +1,86 @@
+---
+layout: default
+header_image: "/assets/images/bg/bg-portfolio.jpg"
+title: mission.subtitle
+description: empty
+---
+
+{% include page_header.html %}
+
+{% assign mission = site.translations[site.lang].mission %}
+{% if mission.enable %}
+
+<!-- Mission Statement -->
+<section class="section mission text-center overflow-hidden bg-white">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 mx-auto">
+				<h2 class="mb-4">{{ mission.title }}</h2>
+				<h4 class="text-muted font-italic">{{ mission.statement }}</h4>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Warum? -->
+<section class="section bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto text-center">
+				<h3 class="mb-4">{{ mission.why-title }}</h3>
+				<ul class="list-unstyled">
+					{% for item in mission.why %}
+						<li class="mb-3"><i class="fas fa-check-circle text-primary"></i> {{ item.item }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Wie? -->
+<section class="section bg-white">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto text-center">
+				<h3 class="mb-4">{{ mission.how-title }}</h3>
+				<ul class="list-unstyled">
+					{% for item in mission.how %}
+						<li class="mb-3"><i class="fas fa-cogs text-success"></i> {{ item.item }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Was ist das Besondere? -->
+<section class="section bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto text-center">
+				<h3 class="mb-4">{{ mission.special-title }}</h3>
+				<ul class="list-unstyled">
+					{% for item in mission.specials %}
+						<li class="mb-3"><i class="fas fa-star text-warning"></i> {{ item.item }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Vision Statement -->
+{% assign vision = site.translations[site.lang].vision %}
+<section class="section text-center bg-white">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mx-auto">
+				<h3 class="mb-4">{{ vision.title }}</h3>
+				<p class="lead font-italic text-muted">{{ vision.statement }}</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endif %}
