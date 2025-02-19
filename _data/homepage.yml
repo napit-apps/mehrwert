@@ -15,9 +15,8 @@ about:
   video_url : 
 
   button:
-    enable : false
-    label : "Purchase now"
-    link : "/pricing"
+    enable : true
+    link : "mailto:kontakt@mehrwert.com?subject=Kontaktanfrage"
 
 ###################### Services #####################
 services:

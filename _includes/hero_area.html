@@ -7,11 +7,11 @@
 				<h2 class="text-white">{% t hero_area.title %}</h2>
 				<p class="text-white mt-4 mb-5">{% t hero_area.subheadline %}</p>
 				{% t hero_area.content %}
-				{% if banner.secondaryButton.enable %}
-				<a href="{{ site.baseurl }}{{banner.secondaryButton.link}}" class="btn btn-secondary">{% t hero_area.secondaryButton-label %}</a>
-				{% endif %}
 				{% if banner.primaryButton.enable %}
 				<p><a href="{{banner.primaryButton.link}}" class="btn btn-primary">{% t hero_area.primaryButton-label %}</a></p>
+				{% endif %}
+				{% if banner.secondaryButton.enable %}
+				<a href="{{ site.baseurl }}{{banner.secondaryButton.link}}" class="btn btn-secondary">{% t hero_area.secondaryButton-label %}</a>
 				{% endif %}
 			</div>
 		

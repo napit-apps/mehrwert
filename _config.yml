@@ -1,13 +1,14 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mehrwert.tech" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
 title: "page_title"
+description: "page_description"
 email: "kontakt@mehrwert.tech"
 phone: "+49 152 21694139"
 address: >-
   Lindachstraße 14,
   73230 Kirchheim unter Teck
 author: mehr.wert Software und IT Beratung GmbH
-description: mehr.wert - Nachhaltig bessere Software
+
 logo: "/assets/images/logo.png"
 logo_icon: "/assets/images/logo-b.png"
 # contact form action

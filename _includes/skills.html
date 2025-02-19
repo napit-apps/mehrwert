@@ -12,20 +12,9 @@
 				<h3 class="mb-5 mt-2">{{ skill.title }}</h3>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-4 pr-4">
-				<p class="h5 text-blue">{{skill.agile-title}}</p>
-				{% for item in skill.agile %}
-				<div class="progress-block">
-					<a href="#{{ item.modal_id }}" data-mfp-src="#skillModal{{ item.modal_id }}" class="more-info-link text-color">
-						<h6 class="text-uppercase">
-							{{ item.name }} <i class="ti-arrow-right"></i>
-						</h6>
-					</a>
-				</div>
-				{% endfor %}
-				<p class="h5 text-blue scaled-agile">{{skill.scaled-agile-title}}</p>
-				{% for item in skill.scaled-agile %}
+		<div class="row g-0">
+			<div class="col-12 col-md-6">
+				{% for item in skill.skills-left %}
 				<div class="progress-block">
 					<a href="#{{ item.modal_id }}" data-mfp-src="#skillModal{{ item.modal_id }}" class="more-info-link text-color">
 						<h6 class="text-uppercase">
@@ -35,21 +24,8 @@
 				</div>
 				{% endfor %}
 			</div>
-			<div class="col-lg-4 pr-4">
-				<p class="h5 text-orange">{{skill.tech-title}}</p>
-				{% for item in skill.tech %}
-				<div class="progress-block">
-					<a href="#{{ item.modal_id }}" data-mfp-src="#skillModal{{ item.modal_id }}" class="more-info-link text-color">
-						<h6 class="text-uppercase">
-							{{ item.name }} <i class="ti-arrow-right"></i>
-						</h6>
-					</a>
-				</div>
-				{% endfor %}
-			</div>
-			<div class="col-lg-4 pr-4">
-				<p class="h5 text-green">{{skill.green-title}}</p>
-				{% for item in skill.green %}
+			<div class="col-12 col-md-6">
+				{% for item in skill.skills-right %}
 				<div class="progress-block">
 					<a href="#{{ item.modal_id }}" data-mfp-src="#skillModal{{ item.modal_id }}" class="more-info-link text-color">
 						<h6 class="text-uppercase">

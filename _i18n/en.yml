@@ -1,5 +1,6 @@
 ################## Page #######################
-page_title: "mehr.wert - Sustainable Software Solutions"
+page_title: "mehr.wert - Sustainable & Better Software | Agile & Efficient Development"
+page_description: "We combine agility with sustainability to help companies develop software responsibly, efficiently, and innovatively."
 
 ################## General #######################
 empty: " "
@@ -50,28 +51,32 @@ bottom:
 ################## Hero Area #######################
 hero_area:
   title : "Sustainable Software Solutions"
-  subheadline : "At mehr.wert, we combine Software Engineering with Sustainability to deliver true value in IT. Specializing in Scaled Agile Coaching, Efficient Mobile Apps, and Pioneering Green Coding."
-  content : "<ul class=\"list-hero mt-4 mb-5\">
-<li><b>🌱 Sustainability:</b> Commitment to a Greener Future in IT</li>
-<li><b>🔒 Trust:</b> Building Reliable Solutions You Can Count On</li>
-<li><b>🤝 Partnership:</b> Collaborating for Mutual Success</li>
-<li><b>📈 Measurable Results:</b> Tangible Outcomes, Real Growth</li>
-</ul>"
-  primaryButton-label : "Contact Us Today"  
-  secondaryButton-label : "Join Our Green Coding Revolution – Get Your Training"
+  title2 : "Where Software Meets Sustainability -<br/> Inspiring & Responsible Development"
+  subheadline : "Agile, resource-efficient, and future-proof: We combine software development with sustainability and efficiency – for companies that take responsibility."
+  content : 
+    "<ul class=\"list-hero mt-4 mb-5\">
+      <li><b>🌱 Sustainable IT:</b> Resource-efficient software development with measurable impact</li>
+      <li><b>🔍 Transparency & Trust:</b> Clear processes, honest consulting, reliable results</li>
+      <li><b>🤝 Collaborative Partnership:</b> Working together pragmatically for sustainable success</li>
+      <li><b>📈 Measurable Sustainability:</b> Data-driven optimization for greener & more efficient IT solutions</li>
+    </ul>"
+  primaryButton-label : "Develop Sustainable Software – Get Started Now" 
+  secondaryButton-label : "Learn More About Green Coding"
 
 ################## Problem Solution ###########################
 about:
   subtitle : "Sustainable IT Modernization"
-  title : "Navigating Today's IT Challenges"
-  content : "<p>In an ever-evolving digital landscape, businesses face multiple challenges. From keeping pace with technological advancements to implementing sustainable practices, the path to digital transformation is often riddled with complexities. These challenges can hinder growth, reduce efficiency, and impact your company’s long-term sustainability.
-  </p>
-  <p><b>Common Roadblocks to Success:</b>
-  Consider the struggles of integrating scalable agile processes in large teams, often leading to reduced productivity and misalignment of goals. Or the dilemma of creating mobile solutions that fail to resonate with your target audience, resulting in wasted resources and missed opportunities. And the growing concern of environmental impact in IT practices, where traditional methods contribute to a larger carbon footprint, challenging your commitment to sustainability.
-  </p>
-  <p><b>Our Tailored Solutions:</b>
-  At mehr.wert, we turn these challenges into opportunities. Our Scaled Agile Coaching transforms organizational chaos into a harmonized, productive workflow. Customized mobile strategies ensure your solutions hit the mark, engaging your audience effectively. And with our pioneering Green Coding initiative, we help you lead in sustainability, aligning your IT practices with environmental consciousness. Together, we pave the way for a smarter, greener, and more efficient future.
-  </p>"
+  title : "Software Development is in a Dilemma – We Solve it Sustainably."
+  content : "<p>Agile methods and modern IT technologies enable rapid development – but often lack a focus on sustainability, scalability, and energy efficiency. These challenges cost companies time, money, and competitiveness in the long run.</p>
+  <ul class=\"problem-list\">
+    <li><b>⚡ Fast, but short-sighted.</b> Traditional agility prioritizes speed – but without sustainability, resource efficiency and long-term IT strategy suffer.</li>
+    <li><b>🌱 High resource consumption:</b> IT systems consume more energy than necessary, driving up costs and harming the environment.</li>
+    <li><b>📊 No clear measurability:</b> Without defined KPIs, sustainable software development remains a mere promise.</li>
+    <li><b>🏗 Outdated structures, new challenges:</b> Traditional processes and rigid hierarchies obstruct sustainable transformation.</li>
+  </ul>
+  <p><b>Tailored Solutions: </b>
+  We turn challenges into opportunities. With Scaled Agile Coaching, we evolve agile processes – embedding sustainability as a key factor. Through Green Coding and an optimized Software Delivery Lifecycle, we help companies make their IT resource-efficient and future-proof.</p>"
+  cta: "Let’s Transform Your IT Sustainably – Get Started Now."
 
 ################## Mission Area #######################
 mission:
@@ -101,16 +106,20 @@ vision:
 
 ###################### Services #####################
 services:
+  title: "Sustainable IT. Agile Processes. Measurable Results."
+  subtitle: "We combine agility with responsibility to make software development future-proof. Our services help companies become more efficient, resource-conscious, and measurably successful."
   item:
-  - name : "Agile Transformation"
-    content : "Transform your organization with our Scaled Agile Coaching, fostering an adaptable and responsive business environment. Benefit from a partnership that guides you through every step of your agile journey, backed by data-driven insights for continuous improvement and growth. Our commitment to long-term support ensures sustainable agility at every organizational level."
+  - name : "Agility with Responsibility"
+    content : "We create a sustainable development culture – applying agile principles that strengthen collaboration, improve decision-making, and empower teams to work efficiently and responsibly."
+    icon: "ti-rocket"
 
-  - name : "Sustainable Tech Solutions"
-    content : "Stay ahead with our Green Coding initiative, where environmental responsibility meets technological advancement. We help you implement coding practices that minimize environmental impact while maximizing efficiency. Our long-term partnership approach means continuous support in maintaining eco-friendly IT practices, with data-driven results to track your sustainability journey and its impact on your business performance."
+  - name : "Green Coding & Energy Efficiency"
+    content : "We reduce your IT’s energy consumption through optimized software architectures & resource-efficient algorithms – delivering powerful and cost-effective solutions."
+    icon: "ti-desktop"
 
-  - name : "Tailored Mobile Innovation"
-    content : "Receive custom mobile strategies that align perfectly with your business objectives. We provide comprehensive support from conception to deployment, ensuring your mobile solutions are both innovative and practical. Our approach is grounded in measurable results, offering you clear insights into performance enhancements and user engagement, sustained by a commitment to ongoing partnership and support."
-
+  - name : "Measurable Sustainability & IT Transparency"
+    content : "We make IT sustainability tangible – with clear KPIs, reporting standards, and CO₂ reduction strategies. We help companies identify the right metrics for CSRD reporting and provide reliable data insights."
+    icon: "ti-eye"
 
 ######################### Testimonail ####################
 Testimonial_01: "Testimonial_01"
@@ -148,134 +157,51 @@ skill:
   subtitle : "mehr.wert"
   title : "Talents and key competencies"
   
-  agile-title: "Agile"
-  agile:
-  - name : "Scrum Framework Mastery"
-    percentage : "99%"
-    modal_id: "agile-1"
-    description: "Expertise in applying the principles and practices of the Scrum framework, including facilitating all Scrum ceremonies and understanding the roles and artifacts involved."
-  
-  - name : "Agile Coaching and Mentoring"
-    percentage : "99%"
-    modal_id: "agile-2"
-    description: "Ability to coach teams, Scrum Masters, and Product Owners on Agile practices, fostering an environment conducive to continuous improvement and high performance."
-  
-  - name : "Impediment Removal"
-    percentage : "99%"
-    modal_id: "agile-3"
-    description: "Skilled in identifying and removing obstacles that impede team progress, ensuring smooth operations and helping teams maintain their focus on sprint goals."
-  
-  - name : "Change Management"
-    percentage : "99%"
-    modal_id: "agile-4"
-    description: "Proficient in guiding organizations through the transition to Agile methodologies, including managing resistance and aligning Agile adoption with strategic business goals."
-  
-  - name : "Team Dynamics and Conflict Resolution"
-    percentage : "99%"
-    modal_id: "agile-5"
-    description: "Experienced in enhancing team interaction and collaboration, resolving conflicts, and building a strong, cohesive team culture based on trust and respect."
-  
-  scaled-agile-title: "Scaled Agile"
-  scaled-agile:
-  - name : "Enterprise Agility Strategy"
-    percentage : "99%"
-    modal_id: "agile-6"
-    description: "Mastery in developing and implementing strategies that integrate Agile practices across entire organizations, ensuring alignment with overall business objectives."
-  
-  - name : "Scaling Frameworks Expertise"
-    percentage : "95%"
-    modal_id: "agile-7"
-    description: "Deep knowledge in frameworks such as SAFe (Scaled Agile Framework), capable of customizing and deploying these to suit enterprise needs and complexities."
-    
-  - name : "Organizational Change Leadership"
-    percentage : "95%"
-    modal_id: "agile-8"
-    description: "Proficient in leading change at the organizational level, including stakeholder management, change resistance mitigation, and the establishment of an Agile culture throughout the enterprise."
-  
-  - name : "Portfolio and Program Management"
-    percentage : "85%"  
-    modal_id: "agile-9"
-    description: "Skilled in managing a portfolio of Agile projects and programs, optimizing resource allocation and maximizing value delivery through effective prioritization and governance."
-  
-  - name : "Executive Coaching and Alignment"
-    percentage : "85%"
-    modal_id: "agile-10"
-    description: "Ability to coach senior executives and leaders on Agile principles and practices, fostering executive buy-in and ensuring top-down support for Agile transformations."
-  
-  - name : "Metrics and Performance Improvement"
-    percentage : "90%"
-    modal_id: "agile-11"
-    description: "Expert in defining and implementing Agile metrics and KPIs to measure performance, drive improvements, and demonstrate the business impact of Agile adoption at the enterprise level."
-  
-  tech-title: "Mobile Apps"
-  tech:
-  - name : "12+ years experience"
-    percentage : "100%"
-    modal_id: "tech-1"
-    description: "With over twelve years of focused experience in mobile solutions, adept at navigating complex app architectures and adapting to technological advancements in the mobile landscape."
-    
-  - name : "Swift and Objective-C Programming"
-    percentage : "95%"
-    modal_id: "tech-2"
-    description: "Expertise in Swift and Objective-C, the primary languages for iOS development, ensuring efficient, readable, and maintainable code."
-    
-  - name : "iOS SDK Mastery"
-    percentage : "100%"
-    modal_id: "tech-3"
-    description: "Comprehensive understanding of iOS Software Development Kit components including UIKit, CoreData, and CloudKit for robust app development."
-    
-  - name : "User Interface Design"
-    percentage : "90%"
-    modal_id: "tech-4"
-    description: "Proficiency in crafting intuitive and engaging user interfaces using SwiftUI and Interface Builder, adhering to Apple's Human Interface Guidelines."
+  skills-left:
+  - name: "Agile Coaching & Mentoring"
+    modal_id: "skill-1"
+    description: "We support teams, Scrum Masters, and executives on their journey to agile excellence. Our coaching enhances collaboration, decision-making, and fosters a sustainable agile culture."
 
-  - name : "Performance Optimization"
-    percentage : "85%"
-    modal_id: "tech-5"
-    description: "Skilled in optimizing app performance through efficient coding practices, memory management, and leveraging concurrent programming."
-  
-  - name : "Security and Privacy Compliance"
-    percentage : "90%"
-    modal_id: "tech-6"
-    description: "Knowledgeable in implementing security measures like data encryption and secure authentication, and ensuring apps comply with privacy laws and guidelines."
-  
-  green-title: "Green Coding"
-  green:
-  - name : "Optimized Code for Energy Efficiency"
-    percentage : "95%"
-    modal_id: "green-1"
-    description: "We focus on writing and refactoring code to run with minimal power usage, maximizing performance while reducing energy consumption."
-  
-  - name : "Green Software Metrics and Measurement"
-    percentage : "85%"
-    modal_id: "green-2"
-    description: "We specialize in quantifying the environmental impact of software applications, providing metrics that help in making informed decisions about code improvements."
+  - name: "Scaled Agility (SAFe, LeSS, Nexus)"
+    modal_id: "skill-2"
+    description: "We help companies successfully scale agile methods – from individual teams to entire organizations. Using SAFe, LeSS, and Nexus, we establish sustainable structures for agile scaling."
 
-  - name : "Understanding and Applying Green Software Principles"
-    percentage : "85%"
-    modal_id: "green-3"
-    description : "Our expertise includes deep knowledge of green software principles such as efficient resource management, server utilization, and algorithmic efficiency to minimize environmental impact."
-    
-  - name : "Eco-friendly Software Lifecycle Management"
-    percentage : "85%"
-    modal_id: "green-4"
-    description: "We guide on integrating environmental considerations throughout the software development lifecycle, from planning and design to deployment and decommissioning."
-  
-  - name : "Energy Profiling and Optimization of Code"
-    percentage : "99%"
-    modal_id: "green-5"
-    description : "We offer services to profile software energy usage and identify hotspots, providing optimizations that reduce the overall carbon footprint of operations."
+  - name: "Change Management & Agile Transformation"
+    modal_id: "skill-3"
+    description: "We guide organizations through agile transformation processes, reduce resistance, and build structures that enable sustainable agility."
 
-  - name : "ESG and CSRD Reporting"
-    percentage : "80%"
-    modal_id: "green-6"
-    description : "We offer expert guidance on Environmental, Social, and Governance (ESG) and Corporate Sustainability Reporting Directive (CSRD) compliance, helping IT companies to accurately measure and report their sustainability practices and impacts."
-  
-  - name : "Training in Sustainable Coding Practices"
-    percentage : "95%"
-    modal_id: "green-7"
-    description : "We provide training sessions focused on sustainable coding practices, educating developers on how to build software that is as environmentally friendly as it is functional."
-    
+  - name: "Portfolio & Program Management"
+    modal_id: "skill-4"
+    description: "We optimize the management of agile programs and portfolios – ensuring clear priorities, value focus, and strategic alignment."
+
+  - name: "Agile Leadership Strategies"
+    modal_id: "skill-5"
+    description: "We empower leaders to embrace agile principles sustainably and guide their organizations toward resilience and adaptability."
+
+  - name: "Team Development & Conflict Resolution"
+    modal_id: "skill-6"
+    description: "We foster collaboration, resolve obstacles, and cultivate a team culture built on trust, respect, and continuous improvement."
+
+  skills-right:
+  - name: "Green Coding & Energy Efficiency"
+    modal_id: "skill-7"
+    description: "We optimize code and software architecture to reduce energy consumption and increase efficiency – creating sustainable, high-performance IT."
+
+  - name: "Measurable Sustainability & IT Transparency"
+    modal_id: "skill-8"
+    description: "We define KPIs for sustainable software development and support companies in preparing for CSRD compliance."
+
+  - name: "Sustainability in the Software Development Lifecycle (SDLC)"
+    modal_id: "skill-9"
+    description: "We integrate ecological responsibility into the entire development process – from architecture to programming and operations."
+
+  - name: "Energy Profiling & Software Optimization"
+    modal_id: "skill-10"
+    description: "Through targeted analysis and optimization, we measurably reduce the energy consumption of IT systems."
+
+  - name: "Training in Green IT & Sustainable Software Development"
+    modal_id: "skill-11"
+    description: "We provide knowledge and best practices on Green Coding, energy-efficient software development, and sustainable IT strategies."
 
   certificates-title: "Certificates"
   certificates:

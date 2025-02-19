@@ -70,6 +70,16 @@ h6,.h6 {
   line-height: 2.5em;
 }
 
+.problem-list {
+  list-style: none; /* Entfernt Standard-Punkte */
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 1.2em;
+  }
+}
+
 @include desktop-lg {
   h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
     font-family: $heading-font;

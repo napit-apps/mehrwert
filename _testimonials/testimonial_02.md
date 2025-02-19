@@ -1,6 +1,6 @@
 ---
 name: "Konstantin Pasternack"
-subtitle: "Head of Trading IT: Platforms & Operations - EnBW Energie Baden-Württemberg AG"
+subtitle: "Head of Trading IT - EnBW"
 link: "https://www.linkedin.com/in/konstantin-pasternack-2b4723168/"
 layout: default
 modal-id: "testimonial-2"

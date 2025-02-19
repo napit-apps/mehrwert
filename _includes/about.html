@@ -21,7 +21,7 @@
 				<h3 class="mb-4 mt-3">{% t about.title %}</h3>
 				{% t about.content %}
 				{% if about.button.enable %}
-				<a href="{{ site.baseurl }}{{ about.button.link | relative_url }}" class="btn btn-primary">{{about.button.label}}</a>
+				<a href="{{ site.baseurl }}{{ about.button.link | relative_url }}" class="btn btn-primary">{%t about.cta %}</a>
 				{% endif %}
 			</div>
 		</div>
