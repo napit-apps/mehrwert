@@ -24,7 +24,7 @@ google_map_api: ""
 default_lang: "de"
 languages: ["de", "en"]
 default_locale_in_subfolder: false
-exclude_from_localizations: ["assets", "javascript", "images", "css"]
+exclude_from_localizations: ["assets", "javascript", "images", "css", "deploy.sh", "robots.txt", "favicon.ico", "LICENSE", "README.md"]
 
 
 ############### Call to Action ###############
