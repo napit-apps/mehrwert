@@ -1,6 +1,6 @@
 ################ CSS Plugins #####################
 css:
-  - "/assets/plugins/bootstrap/bootstrap.css"
+  - "/assets/plugins/bootstrap/bootstrap.min.css"
   - "/assets/plugins/themify/css/themify-icons.css"
   - "/assets/plugins/magnific-popup/magnific-popup.css"
   - "/assets/plugins/slick-carousel/slick/slick.css"
