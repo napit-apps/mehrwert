@@ -13,6 +13,7 @@ rm -r trainings/
 
 mv _site/* .
 
-print "Update done... need to commit and push"
+git st
+echo "Update done... need to commit and push"
 
 
