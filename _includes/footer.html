@@ -106,8 +106,8 @@
 
 <!-- JS Plugins -->
 {% for js in site.data.plugins.js %}
-<script src="{{ js }}"></script>
+<script src="{{ js }}" defer></script>
 {% endfor %}
 
 <!-- Main Script -->
-<script src="{{ '/assets/js/script.js' }}"></script>
+<script src="{{ '/assets/js/script.js' }}" defer></script>
