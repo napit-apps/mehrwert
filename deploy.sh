@@ -14,6 +14,20 @@ rm -r trainings/
 mv _site/* .
 
 git st
-echo "Update done... need to commit and push"
+
+read -p "Do you want to publish the changes? (yes/no): " response
+
+if [[ "$response" =~ ^[Yy](es)?$ ]]; then
+    git commit -am "updated content"
+    git push
+    echo "################ Deployment done ####################"
+else
+    git re
+    git cl
+    echo "################ Deployment aborted ####################"
+fi
+
+# Ensure we are back on main branch
+git checkout main
 
 
