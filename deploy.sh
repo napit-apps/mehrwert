@@ -11,6 +11,8 @@ rm -r en/
 rm -r testimonials/
 rm -r trainings/
 
-#mv _site/* .
+mv _site/* .
+
+print "Update done... need to commit and push"
 
 
