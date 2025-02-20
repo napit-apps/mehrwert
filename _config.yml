@@ -149,3 +149,6 @@ feed:
   collections:
     posts:
       path: "/index.xml"
+
+exclude:
+  - deploy.sh
