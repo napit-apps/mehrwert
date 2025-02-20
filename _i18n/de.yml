@@ -9,13 +9,13 @@ close: "Schließen"
 
 ################## Menu Area #######################
 main-menue:
+  - name: Blog
+    url: /blog.html
   - name: Schulungen
     url: "#"
     submenu: 
       - name: Green Coding Grundlagen
         url: "/trainings/gsp.html"
-  - name: Blog
-    url: /blog.html
   - name: Über uns
     url: "#"
     submenu:
