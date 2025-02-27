@@ -1,0 +1,108 @@
+################## Hero Area #######################
+hero_area:
+  image : "/assets/images/banner/overlay.png"
+  primaryButton:
+    enable : true
+    link : "mailto:kontakt@mehrwert.com?subject=Kontaktanfrage"
+  secondaryButton:
+    enable : true
+    link : "/trainings/gsp.html"
+    
+################## Problem Solution ###########################
+about:
+  enable : true
+  video_thumb : "/assets/images/about/marcel.avif"
+  video_url : 
+
+  button:
+    enable : false
+    label : "Purchase now"
+    link : "/pricing"
+
+###################### Services #####################
+services:
+  enable : true
+  bg_image : "/assets/images/bg/feature-bg.png"    
+
+######################### Testimonail ####################
+testimonial:
+  enable : true
+  bg_image : "/assets/images/bg/bg-pricing.jpg" 
+
+
+###################### Funfacts #########################
+funfacts:
+  enable : true
+  bg_image : "/assets/images/bg/cta-bg.png"
+
+
+###################### Portfolio #########################
+portfolios:
+  enable: false
+
+###################### Skill #############################
+skill:
+  enable : true
+  image : "/assets/images/about/skill.jpg"
+
+  certificates-title: "Certificates"
+  certificates:
+  - icon : "assets/images/skills/psd1.svg"
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/psm1.svg "
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/pspo1.svg "
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/SAFe_SA.png"
+    link : "https://www.credly.com/badges/5e28e351-fbc9-4ac2-838f-5ef1bbc90989/public_url"
+  - icon : "assets/images/skills/SAFe_SA_6.png"
+    link : "https://www.credly.com/badges/824cd794-69de-4fae-adaf-e7761b922f28/public_url"
+  - icon : "assets/images/skills/linux.svg"
+    link : "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0241ce4d-6018-4891-bd40-a23ee2c9acaf-marcel-russ-ca32e563-51ea-4447-8f69-d396ebc7246d-certificate.pdf"
+
+
+###################### Clients ######################
+clients:
+  enable : true
+  logos:
+    - "/assets/images/clients/client-1.avif"
+    - "/assets/images/clients/client-2.avif"
+    - "/assets/images/clients/client-3.avif"
+    - "/assets/images/clients/client-4.avif"
+    - "/assets/images/clients/client-5.avif"
+    - "/assets/images/clients/client-6.avif"
+    - "/assets/images/clients/client-7.avif"
+    
+
+###################### Team ######################
+team:
+  enable : false
+  item:
+  - name : "Liam Hughes"
+    designation : "Manager"
+    image : "/assets/images/team/team-1.jpg"
+    
+  - name : "Liam Hughes"
+    designation : "Manager"
+    image : "/assets/images/team/team-2.jpg"
+    
+  - name : "Liam Hughes"
+    designation : "Manager"
+    image : "/assets/images/team/team-3.jpg"
+    
+  - name : "Liam Hughes"
+    designation : "Manager"
+    image : "/assets/images/team/team-4.jpg"
+
+
+###################### Contact ######################
+contact:
+  enable: true
+
+
+###################### Blog ######################
+blog:
+  enable: false
+  title : "latest article"
+  subtitle : "Stay Update with mehr.wert"
+
