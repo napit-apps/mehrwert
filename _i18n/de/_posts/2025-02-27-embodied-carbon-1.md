@@ -3,7 +3,7 @@ layout: post
 title: Embodied Carbon in der IT – Der versteckte CO₂-Fußabdruck unserer digitalen Welt
 cover: cover.jpg
 type: "Blog-Post"
-datum:  "13.09.2024"
+datum:  "27.02.2025"
 post_image: "/assets/images/blog/2023-11-13-nachhaltige-softwareentwicklung.jpg"
 tags: "#green-coding, #nachhaltigkeit"
 categories: de posts
@@ -29,18 +29,22 @@ Ein Beispiel: **Bis zu 98 % der gesamten CO₂-Emissionen eines Smartphones oder
 
 Die Herstellung von IT-Hardware ist extrem ressourcen- und energieintensiv. Sie erfordert den Abbau und die Verarbeitung seltener Rohstoffe wie Kobalt, Lithium, Silizium und Gold. Die Umweltfolgen sind gravierend:
 
-- **Hoher Energieverbrauch**: Die Produktion von Mikroprozessoren und anderen High-Tech-Komponenten erfordert große Mengen an Elektrizität, oft aus fossilen Quellen.
-- **Ressourcenausbeutung**: Der Abbau seltener Metalle führt zu Umweltzerstörung, Wasserverschmutzung und sozialen Problemen in Abbauregionen.
-- **Kurze Lebenszyklen**: Schnell wechselnde Technologietrends führen zu immer kürzeren Nutzungszeiten von Geräten – oft werden sie ausgetauscht, obwohl sie noch funktionstüchtig sind.
+<ul>
+<li><b>Hoher Energieverbrauch</b>: Die Produktion von Mikroprozessoren und anderen High-Tech-Komponenten erfordert große Mengen an Elektrizität, oft aus fossilen Quellen.</li>
+<li><b>Ressourcenausbeutung</b>: Der Abbau seltener Metalle führt zu Umweltzerstörung, Wasserverschmutzung und sozialen Problemen in Abbauregionen.</li>
+<li><b>Kurze Lebenszyklen</b>: Schnell wechselnde Technologietrends führen zu immer kürzeren Nutzungszeiten von Geräten – oft werden sie ausgetauscht, obwohl sie noch funktionstüchtig sind.</li>
+</ul>
 
 ## **Der Weg zur Reduktion von Embodied Carbon**
 
 Um den *Embodied Carbon* von IT-Hardware zu reduzieren, sind verschiedene Strategien notwendig:
 
-1. **Längere Nutzungsdauer**: Durch Reparaturen, Upgrades und eine längere Nutzung von Geräten kann die Umweltbilanz deutlich verbessert werden.
-2. **Kreislaufwirtschaft**: Unternehmen sollten auf Wiederverwendung und Recycling setzen, um Rohstoffe zurückzugewinnen und die Notwendigkeit neuer Produktionen zu verringern.
-3. **Nachhaltige Produktion**: Hersteller müssen emissionsärmere Fertigungsprozesse entwickeln und verstärkt auf Recyclingmaterialien setzen.
-4. **Bewusstes Konsumverhalten**: Auch Nutzerinnen und Nutzer können durch bewusste Kaufentscheidungen und nachhaltige IT-Strategien einen Beitrag leisten.
+<ul>
+<li><b>Längere Nutzungsdauer</b>: Durch Reparaturen, Upgrades und eine längere Nutzung von Geräten kann die Umweltbilanz deutlich verbessert werden.</li>
+<li><b>Kreislaufwirtschaft</b>: Unternehmen sollten auf Wiederverwendung und Recycling setzen, um Rohstoffe zurückzugewinnen und die Notwendigkeit neuer Produktionen zu verringern.</li>
+<li><b>Nachhaltige Produktion</b>: Hersteller müssen emissionsärmere Fertigungsprozesse entwickeln und verstärkt auf Recyclingmaterialien setzen.</li>
+<li><b>Bewusstes Konsumverhalten</b>: Auch Nutzerinnen und Nutzer können durch bewusste Kaufentscheidungen und nachhaltige IT-Strategien einen Beitrag leisten.</li>
+</ul>
 
 ## **Fazit**
 
