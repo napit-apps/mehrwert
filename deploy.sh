@@ -21,6 +21,7 @@ git st
 read -p "Do you want to publish the changes? (yes/no): " response
 
 if [[ "$response" =~ ^[Yy](es)?$ ]]; then
+    git add --all
     git commit -am "updated content"
     git push
     echo "################ Deployment done ####################"
