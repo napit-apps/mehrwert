@@ -51,3 +51,7 @@ To mitigate the *Embodied Carbon* of IT hardware, several strategies are essenti
 While the IT industry has made great strides in reducing *Operational Carbon*, *Embodied Carbon* remains an often-overlooked factor. Businesses and consumers must recognize the full environmental impact and implement sustainable strategies to minimize CO₂ emissions throughout a product’s lifecycle.
 
 **Sustainable IT does not begin when a device is powered on – it starts with its production.**
+
+## **Outlook**
+
+In the upcoming articles in this series, we will take a closer look at the environmental impact of hardware production and disposal. We will also look at the life cycle of data centers and analyze their environmental challenges and possible sustainable solutions.

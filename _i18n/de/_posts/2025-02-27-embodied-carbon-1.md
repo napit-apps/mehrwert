@@ -51,3 +51,7 @@ Um den *Embodied Carbon* von IT-Hardware zu reduzieren, sind verschiedene Strate
 Während die IT-Branche große Fortschritte in der Reduktion des *Operational Carbon* macht, bleibt der *Embodied Carbon* ein oft übersehener Faktor. Unternehmen und Konsumenten müssen sich der gesamten Umweltbelastung bewusst werden und nachhaltige Strategien entwickeln, um die CO₂-Emissionen über den gesamten Lebenszyklus eines Produkts hinweg zu minimieren. 
 
 **Nachhaltige IT beginnt nicht erst mit dem Einschalten eines Geräts – sondern schon bei seiner Herstellung.**
+
+## **Ausblick**
+
+In den kommenden Artikeln dieser Reihe werden wir die Umweltfolgen der Hardwareproduktion und -entsorgung genauer beleuchten. Zudem widmen wir uns dem Lebenszyklus von Rechenzentren und analysieren deren ökologische Herausforderungen und mögliche nachhaltige Lösungen.
