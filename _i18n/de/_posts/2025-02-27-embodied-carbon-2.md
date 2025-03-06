@@ -10,7 +10,6 @@ categories: de posts
 author: "Alina, Marcel"
 featured: false
 ---
-**Die dunkle Seite der IT: Umweltbelastung durch Produktion und Entsorgung von Hardware**
 
 Ob Smartphone, Laptop oder Server – jedes IT-Gerät beginnt seinen Lebenszyklus mit einem massiven Ressourcenverbrauch. Noch bevor wir ein Gerät zum ersten Mal einschalten, hat es bereits einen erheblichen ökologischen Fußabdruck hinterlassen. Vom Rohstoffabbau über energieintensive Fertigungsprozesse bis hin zur wachsenden Elektroschrott-Problematik: Die unsichtbaren Umweltkosten der IT sind enorm. Dieser Artikel beleuchtet die Schattenseiten der Hardwareproduktion. Wir zeigen, wie Rohstoffabbau, energieintensive Fertigungsprozesse und Elektroschrott die Umwelt belasten. Außerdem stellen wir Strategien vor, um den ökologischen Fußabdruck der IT-Branche zu verringern. Den ersten Teil der Serie zu Embodied Carbon findest du [hier](https://mehrwert.tech/embodied-carbon-1).
 
