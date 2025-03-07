@@ -11,7 +11,7 @@ author: "Alina, Marcel"
 featured: false
 ---
 
-Whether smartphone, laptop or server - every IT device begins its life cycle with a massive consumption of resources. Even before we switch on a device for the first time, it has already left a considerable ecological footprint. From the extraction of raw materials and energy-intensive manufacturing processes to the growing problem of electronic waste: the invisible environmental costs of IT are enormous. This article sheds light on the darker side of hardware production. We show how the extraction of raw materials, energy-intensive manufacturing processes and e-waste impact the environment. We also present strategies to reduce the ecological footprint of the IT industry. Den ersten Teil der Serie zu Embodied Carbon findest du [hier](https://mehrwert.tech/embodied-carbon-1).
+Whether smartphone, laptop or server - every IT device begins its life cycle with a massive consumption of resources. Even before we switch on a device for the first time, it has already left a considerable ecological footprint. From the extraction of raw materials and energy-intensive manufacturing processes to the growing problem of electronic waste: the invisible environmental costs of IT are enormous. This article sheds light on the darker side of hardware production. We show how the extraction of raw materials, energy-intensive manufacturing processes and e-waste impact the environment. We also present strategies to reduce the ecological footprint of the IT industry. Den ersten Teil der Serie zu Embodied Carbon findest du [hier](https://mehrwert.tech/en/embodied-carbon-1).
 
 ## **Commodity extraction: an environmental and social hotspot**
 
