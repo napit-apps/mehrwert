@@ -1,23 +1,23 @@
 ---
 layout: post
-title: Embodied carbon - the lifecycle of a data center and its carbon footprint
+title: How software influences the useful life of hardware
 cover: cover.jpg
 type: "Blog-Post"
 datum:  "14.03.2025"
 post_image: "/assets/images/blog/2023-11-13-nachhaltige-softwareentwicklung.jpg"
 tags: "#green-coding, #nachhaltigkeit"
 categories: en posts
-author: "Alina, Marcel"
+author: "Alina"
 featured: false
 ---
 
-In this third and final edition of our article series on *Embodied Carbon*, we turn our focus to an often overlooked aspect of digital infrastructure: **the CO₂ emissions of an entire data center over its lifecycle**. While many sustainability efforts concentrate on the **operational phase**, significant emissions arise **already during the construction phase** and through hardware production. In this article, we analyze the **environmental impact of a data center from construction through operation to decommissioning** – and highlight **strategies that can help reduce emissions**. All figures are supported by sources to ensure a well-founded assessment.
+In this third and final edition of our article series on *Embodied Carbon*, we turn our focus to an often overlooked aspect of digital infrastructure: **the CO₂ emissions of an entire data center over its lifecycle**. While many sustainability efforts concentrate on the **operational phase**, significant emissions arise **already during the construction phase** and through hardware production. You can find the second part of the series on embodied carbon [here](https://mehrwert.tech/embodied-carbon-2).
 
 ## **Construction Phase: A Frequently Underestimated Emission Factor**
 
 The **construction of a data center** is one of the most emission-intensive phases of its lifecycle. Materials such as **steel, concrete, and aluminum** cause high **CO₂ emissions during production and transportation**. The main environmental impacts stem from:
 
-- **Concrete Production:** Concrete is responsible for **about 8% of global CO₂ emissions**, primarily due to the **energy-intensive cement production process**. [[Andrew, R. M., 2019]](https://essd.copernicus.org/articles/11/1675/2019/)
+- **Concrete Production:** Concrete is responsible for **about 8% of global CO₂ emissions**, primarily due to the **energy-intensive cement production process**. [[Andrew, R. M., 2019]](https://essd.copernicus.org/articles/11/1675/2019/) The construction of a medium-sized data center can require several thousand tons of concrete, depending on the size and construction method. Since the production of one ton of cement generates an average of 0.6 to 0.9 tons of CO₂, this results in CO₂ emissions of several thousand tons. 
 - **Steel Production:** Producing **one ton of steel emits roughly 1.5 tons of CO₂**. [[acatech, 2024]](https://dechema.de/Themen/Studien%2Bund%2BPositionspapiere/2024%2B03%2BH2%2BKompass/_/H2K_IND_Stahl.pdf) Data centers use **large quantities of steel** for both the building structure and **server racks**. For example, there are approximately **266,000 server racks** in German data centers. [[Umweltbundesamt, 2010]](https://www.umweltbundesamt.de/sites/default/files/medien/461/publikationen/4037.pdf) The **CO₂ emissions per ton of steel** vary considerably depending on the **production method**. While traditional methods generate high emissions, new technologies such as the **use of green hydrogen** could significantly improve the balance. These approaches, however, are still in the **development phase** and require **high energy input**. [[DWV, 2021]](https://dwv-info.de/wp-content/uploads/2023/04/20210616-EP-Gruener-Stahl-min-1.pdf)
 - **Aluminum Processing:** **Aluminum has a high energy density** during production but is widely used in data centers due to its **light weight** and **corrosion resistance**. **Producing one ton of primary aluminum emits on average 11.5 tons of CO₂.** The exact figure may vary depending on the **production method** and **energy source**. Aluminum production is particularly energy-intensive, as the **extraction from bauxite** requires vast amounts of electricity. [[International Aluminium Institute, 2018]](https://international-aluminium.org/wp-content/uploads/2021/08/CF-Good-Guidance-v1-2018.pdf)
 - **Energy Consumption During Construction:** The **construction phase** demands **large quantities of electrical energy** for machinery, transportation, and the assembly of IT infrastructure. Since most **construction equipment runs on fossil fuels**, significant **CO₂ emissions** are generated – especially from **diesel-powered excavators, cranes, and concrete mixers**.
@@ -38,9 +38,11 @@ After approximately **15–25 years**, a **data center is either modernized or d
 - **Disposal of Building Materials:** Without a **sustainable deconstruction concept**, large amounts of **concrete, steel, and other building materials end up in landfills** rather than being recycled.
 - **Electronic Waste:** **Over 60 million tons of electronic waste are generated worldwide each year**, of which **only a fraction is recycled**. [[unitar, 2024]](https://ewastemonitor.info/wp-content/uploads/2024/12/GEM_2024_EN_11_NOV-web.pdf)
 
+You can find out more about the environmental problems associated with the extraction of raw materials and the disposal of IT hardware in our previous article. [Read here](https://mehrwert.tech/embodied-carbon-2)
+
 ## **Environmental Impact of Data Centers Over Their Entire Lifecycle**
 
-The **BUND** conducted a study in **2018** to assess the **resource consumption** and **CO₂ emissions** of various data centers over their **entire lifecycle**. [[Bundesumweltamt, 2018]](https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-02-23_texte_19-2018_ressourceneffizienz-rechenzentren.pdf) The environmental impacts were divided into **four phases**: **production, distribution, usage, and disposal.**
+The **BUND** conducted a study in **2018** to assess the **resource consumption** and **CO₂ emissions** of various data centers over their **entire lifecycle**. [[Bundesumweltamt, 2018]](https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-02-23_texte_19-2018_ressourceneffizienz-rechenzentren.pdf) The environmental impacts were divided into **four phases**: **production** (green), distribution, usage, and disposal.**
 
 The model data centers were:
 

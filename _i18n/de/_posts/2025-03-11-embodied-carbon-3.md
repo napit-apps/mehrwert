@@ -1,23 +1,23 @@
 ---
 layout: post
-title: Embodied Carbon - Der Lifecycle eines Rechenzentrums und seine CO₂-Bilanz
+title: Wie Software die Nutzungsdauer von Hardware beeinflusst
 cover: cover.jpg
 type: "Blog-Post"
 datum:  "14.03.2025"
 post_image: "/assets/images/blog/2023-11-13-nachhaltige-softwareentwicklung.jpg"
 tags: "#green-coding, #nachhaltigkeit"
 categories: de posts
-author: "Alina, Marcel"
+author: "Alina"
 featured: false
 ---
 
-In dieser dritten und letzten Ausgabe unserer Artikelserie über *Embodied Carbon* widmen wir uns einem oft übersehenen Aspekt der digitalen Infrastruktur: den **CO₂-Emissionen eines gesamten Rechenzentrums über seinen Lebenszyklus**. Während sich viele Nachhaltigkeitsbemühungen auf den **laufenden Betrieb** konzentrieren, entstehen erhebliche Emissionen **bereits während der Bauphase** und durch die Produktion der Hardware. In diesem Artikel analysieren wir die **Umweltbelastung eines Rechenzentrums von der Errichtung über den Betrieb bis hin zur Stilllegung** – und zeigen auf, welche **Strategien helfen können, die Emissionen zu reduzieren**. Alle Angaben sind mit Quellen belegt, um eine fundierte Einordnung zu ermöglichen.
+In dieser dritten und letzten Ausgabe unserer Artikelserie über *Embodied Carbon* widmen wir uns einem oft übersehenen Aspekt der digitalen Infrastruktur: den **CO₂-Emissionen eines gesamten Rechenzentrums über seinen Lebenszyklus**. Während sich viele Nachhaltigkeitsbemühungen auf den **laufenden Betrieb** konzentrieren, entstehen erhebliche Emissionen **bereits während der Bauphase** und durch die Produktion der Hardware. Den zweiten Teil der Serie zu Embodied Carbon findest du [hier](https://mehrwert.tech/embodied-carbon-2).
 
 ## **Bauphase: Ein oft unterschätzter Emissionsfaktor**
 
 Der **Bau eines Rechenzentrums** ist eine der emissionsintensivsten Phasen seines Lebenszyklus. Materialien wie **Stahl, Beton und Aluminium** verursachen hohe **CO₂-Emissionen in der Produktion und beim Transport**. Die größten Umweltbelastungen entstehen durch:
 
-- **Betonherstellung:** Beton ist für **etwa 8 % der globalen CO₂-Emissionen** verantwortlich, insbesondere durch die **energieintensive Zementproduktion**. [[Andrew, R. M., 2019]](https://essd.copernicus.org/articles/11/1675/2019/)
+- **Betonherstellung:** Beton ist für **etwa 8 % der globalen CO₂-Emissionen** verantwortlich, insbesondere durch die **energieintensive Zementproduktion**. [[Andrew, R. M., 2019]](https://essd.copernicus.org/articles/11/1675/2019/) Der Bau eines mittelgroßen Rechenzentrums kann mehrere tausend Tonnen Beton erfordern, abhängig von der Größe und Bauweise. Da die Herstellung von einer Tonne Zement durchschnittlich 0,6 bis 0,9 Tonnen CO₂ verursacht, ergbit dies eine CO₂-Emission von mehreren tausend Tonnen. 
 - **Stahlproduktion:** Die Herstellung **einer Tonne Stahl verursacht rund 1,5 Tonnen CO₂**. [[acatech, 2024]](https://dechema.de/Themen/Studien%2Bund%2BPositionspapiere/2024%2B03%2BH2%2BKompass/_/H2K_IND_Stahl.pdf) In einem Rechenzentrum werden **große Mengen Stahl** für die Gebäudestruktur und **Serverracks** verwendet. Beispielsweise gibt es in deutschen Rechenzentren insgesamt etwa **266.000 Serverracks**. [[Umweltbundesamt, 2010]](https://www.umweltbundesamt.de/sites/default/files/medien/461/publikationen/4037.pdf) Die **CO₂-Emissionen pro Tonne Stahl** hängen stark von der **Produktionsmethode** ab. Während klassische Verfahren hohe Emissionen verursachen, könnten neue Technologien wie die **Nutzung von grünem Wasserstoff** die Bilanz deutlich verbessern. Diese Ansätze sind jedoch noch in der **Entwicklungsphase** und mit **hohem Energieaufwand** verbunden. [[DWV, 2021]](https://dwv-info.de/wp-content/uploads/2023/04/20210616-EP-Gruener-Stahl-min-1.pdf)
 - **Aluminiumverarbeitung:** **Aluminium hat eine hohe Energiedichte** in der Produktion, wird jedoch aufgrund seines **geringen Gewichts** und der **Korrosionsbeständigkeit** in vielen Rechenzentren eingesetzt. **Die Produktion von einer Tonne Primäraluminium verursacht durchschnittlich 11,5 Tonnen CO₂.** Die genaue Zahl kann je nach **Produktionsmethode** und **Energiequelle** variieren. Die **Aluminiumherstellung** ist besonders energieintensiv, da für die **Gewinnung aus Bauxit** große Mengen an Elektrizität benötigt werden. [[International Aluminium Institute, 2018]](https://international-aluminium.org/wp-content/uploads/2021/08/CF-Good-Guidance-v1-2018.pdf)
 - **Energieverbrauch bei der Errichtung:** Die **Bauphase** erfordert **große Mengen an elektrischer Energie** für Maschinen, Transport und die Montage der IT-Infrastruktur. Da die meisten **Baugeräte mit fossilen Brennstoffen betrieben werden**, entstehen erhebliche **CO₂-Emissionen** – insbesondere durch **dieselbetriebene Bagger, Kräne und Betonmischer**.
@@ -37,6 +37,8 @@ Nach etwa **15–25 Jahren** wird ein **Rechenzentrum entweder modernisiert oder
 
 - **Entsorgung von Baumaterialien:** Ohne ein **nachhaltiges Rückbaukonzept** landen große Mengen an **Beton, Stahl und anderen Baustoffen auf Deponien**, anstatt recycelt zu werden.
 - **Elektroschrott:** **Jedes Jahr entstehen weltweit über 60 Millionen Tonnen Elektroschrott**, von denen **nur ein Bruchteil recycelt wird**. [[unitar, 2024]](https://ewastemonitor.info/wp-content/uploads/2024/12/GEM_2024_EN_11_NOV-web.pdf)
+
+Mehr über die Umweltprobleme beim Rohstoffabbau und der Entsorgung von IT-Hardware findest du in unserem vorherigen Artikel. [Hier lesen](https://mehrwert.tech/embodied-carbon-2)
 
 ## **Umweltbilanz von Rechenzentren über den gesamten Lebenszyklus**  
 
