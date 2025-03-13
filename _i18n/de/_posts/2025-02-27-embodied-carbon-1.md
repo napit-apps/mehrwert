@@ -54,4 +54,4 @@ Während die IT-Branche große Fortschritte in der Reduktion des *Operational Ca
 
 ## **Ausblick**
 
-In den kommenden Artikeln dieser Reihe werden wir die Umweltfolgen der Hardwareproduktion und -entsorgung genauer beleuchten. Zudem widmen wir uns dem Lebenszyklus von Rechenzentren und analysieren deren ökologische Herausforderungen und mögliche nachhaltige Lösungen.
+In den kommenden Artikeln dieser Reihe werden wir die Umweltfolgen der Hardwareproduktion und -entsorgung genauer beleuchten. Zudem widmen wir uns dem Lebenszyklus von Rechenzentren und analysieren deren ökologische Herausforderungen und mögliche nachhaltige Lösungen. [Hier](https://mehrwert.tech/embodied-carbon-2) gehts zum zweiten Teil der Serie. 

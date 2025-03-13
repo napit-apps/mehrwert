@@ -54,4 +54,4 @@ While the IT industry has made great strides in reducing *Operational Carbon*, *
 
 ## **Outlook**
 
-In the upcoming articles in this series, we will take a closer look at the environmental impact of hardware production and disposal. We will also look at the life cycle of data centers and analyze their environmental challenges and possible sustainable solutions.
+In the upcoming articles in this series, we will take a closer look at the environmental impact of hardware production and disposal. We will also look at the life cycle of data centers and analyze their environmental challenges and possible sustainable solutions. [Click here](https://mehrwert.tech/embodied-carbon-2) for the second part of the series. 

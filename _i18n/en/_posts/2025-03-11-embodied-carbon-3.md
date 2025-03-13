@@ -79,3 +79,5 @@ To minimize the **environmental impact** of a data center over its **entire life
 Through **sustainable construction practices, energy-efficient hardware, renewable energy, waste heat recovery, and a circular economy approach**, companies can significantly reduce their **ecological footprint**.
 
 **It is time to design the IT infrastructure of the future so that it is not only high-performing but also sustainable.**
+
+For more insights into the topic of embodied carbon, it is worth taking a look at the [first](https://mehrwert.tech/embodied-carbon-1) and [second]{https://mehrwert.tech/embodied-carbon-2} part of the series. 

@@ -81,6 +81,4 @@ In addition, **recycling can recover valuable raw materials such as gold, copper
 
 Sustainability in IT requires a rethink along the entire life cycle of hardware and software. **Longer usage times, targeted recycling and a consistent circular economy** are key levers for conserving resources and reducing emissions. Companies and consumers alike can take responsibility - be it by purchasing long-lasting hardware, using refurbished devices or consciously handling electronic waste.
 
-The next article is about the **lifecycle of a data center**. We show what environmental impacts arise from construction to dismantling and which sustainable strategies help to minimize the carbon footprint.
-
-
+The next article is about the **lifecycle of a data center**. We show what environmental impacts arise from construction to dismantling and which sustainable strategies help to minimize the carbon footprint. Click [here](https://mehrwert.tech/embodied-carbon-3) for the third part of the series. You can find an overview of embodied carbon [here](https://mehrwert.tech/embodied-carbon-1) in the first part of the series. 
