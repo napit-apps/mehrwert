@@ -80,4 +80,4 @@ Durch **nachhaltige Bauweisen, energieeffiziente Hardware, erneuerbare Energie, 
 
 **Es ist an der Zeit, die IT-Infrastruktur der Zukunft so zu gestalten, dass sie nicht nur leistungsfähig, sondern auch nachhaltig ist.**
 
-Für mehr Einblicke zum Thema Embodied Carbon lohnt sich ein Blick in den [ersten](https://mehrwert.tech/embodied-carbon-1) und [zweiten]{https://mehrwert.tech/embodied-carbon-2} Teil der Serie. 
+Für mehr Einblicke zum Thema Embodied Carbon lohnt sich ein Blick in den [ersten](https://mehrwert.tech/embodied-carbon-1) und [zweiten](https://mehrwert.tech/embodied-carbon-2) Teil der Serie. 
