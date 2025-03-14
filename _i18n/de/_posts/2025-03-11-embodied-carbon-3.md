@@ -11,7 +11,9 @@ author: "Alina"
 featured: false
 ---
 
-In dieser dritten und letzten Ausgabe unserer Artikelserie über *Embodied Carbon* widmen wir uns einem oft übersehenen Aspekt der digitalen Infrastruktur: den **CO₂-Emissionen eines gesamten Rechenzentrums über seinen Lebenszyklus**. Während sich viele Nachhaltigkeitsbemühungen auf den **laufenden Betrieb** konzentrieren, entstehen erhebliche Emissionen **bereits während der Bauphase** und durch die Produktion der Hardware. Den zweiten Teil der Serie zu Embodied Carbon findest du [hier](https://mehrwert.tech/embodied-carbon-2).
+In dieser dritten und letzten Ausgabe unserer Artikelserie über *Embodied Carbon* widmen wir uns einem oft übersehenen Aspekt der digitalen Infrastruktur: den **CO₂-Emissionen eines gesamten Rechenzentrums über seinen Lebenszyklus**. Während sich viele Nachhaltigkeitsbemühungen auf den **laufenden Betrieb** konzentrieren, entstehen erhebliche Emissionen **bereits während der Bauphase** und durch die Produktion der Hardware. 
+
+Den Einstieg in das Thema **Embodied Carbon** finden Sie im [ersten](https://mehrwert.tech/embodied-carbon-1) und [zweiten](https://mehrwert.tech/embodied-carbon-1) Teil der Serie.
 
 ## **Bauphase: Ein oft unterschätzter Emissionsfaktor**
 
@@ -38,7 +40,7 @@ Nach etwa **15–25 Jahren** wird ein **Rechenzentrum entweder modernisiert oder
 - **Entsorgung von Baumaterialien:** Ohne ein **nachhaltiges Rückbaukonzept** landen große Mengen an **Beton, Stahl und anderen Baustoffen auf Deponien**, anstatt recycelt zu werden.
 - **Elektroschrott:** **Jedes Jahr entstehen weltweit über 60 Millionen Tonnen Elektroschrott**, von denen **nur ein Bruchteil recycelt wird**. [[unitar, 2024]](https://ewastemonitor.info/wp-content/uploads/2024/12/GEM_2024_EN_11_NOV-web.pdf)
 
-Mehr über die Umweltprobleme beim Rohstoffabbau und der Entsorgung von IT-Hardware findest du in unserem vorherigen Artikel. [Hier lesen](https://mehrwert.tech/embodied-carbon-2)
+Mehr über die Umweltprobleme beim Rohstoffabbau und der Entsorgung von IT-Hardware findest du in unserem [vorherigen Artikel](https://mehrwert.tech/embodied-carbon-2).
 
 ## **Umweltbilanz von Rechenzentren über den gesamten Lebenszyklus**  
 
