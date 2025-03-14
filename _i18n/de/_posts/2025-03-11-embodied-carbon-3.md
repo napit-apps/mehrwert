@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wie Software die Nutzungsdauer von Hardware beeinflusst
+title: Embodied Carbon - Der Lifecycle eines Rechenzentrums und seine CO₂-Bilanz
 cover: cover.jpg
 type: "Blog-Post"
 datum:  "14.03.2025"

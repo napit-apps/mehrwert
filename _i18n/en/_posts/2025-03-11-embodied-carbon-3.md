@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How software influences the useful life of hardware
+title: Embodied carbon - the lifecycle of a data center and its carbon footprint
 cover: cover.jpg
 type: "Blog-Post"
 datum:  "14.03.2025"
