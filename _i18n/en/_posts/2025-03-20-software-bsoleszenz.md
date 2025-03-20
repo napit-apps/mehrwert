@@ -32,7 +32,7 @@ Furthermore, software updates should not artificially degrade older hardware per
 ### Development of Security Updates for Smartphones
 
 <img class="img-fluid w-100" src="/assets/images/blog/Security Update Duration of Apple iPhones and Google Pixel Smartphones.png" alt="Duration of Security Updates for iPhones and Google Pixel Smartphones">
-<small>[Wikipedia](https://en.wikipedia.org/wiki/Software_update#Google), [Wikipedia](https://en.wikipedia.org/wiki/IPhone)</small>
+<small> [Wikipedia Google](https://de.wikipedia.org/wiki/Softwareaktualisierung#Google), [Wikipedia iPhone](https://de.wikipedia.org/wiki/IPhone)</small>
 
 The chart illustrates the increasing length of guaranteed security updates for iPhone and Google Pixel models over recent years. This trend is highly positive, as extended update periods improve device usability and security. Businesses and users must now adapt to these improved and more sustainable usage cycles and adjust their IT strategies accordingly.
 
@@ -50,7 +50,7 @@ Extending hardware lifespan offers clear advantages for businesses. It leads to 
 
 ## Conclusion
 
-By managing software requirements wisely and implementing strategic software development approaches, businesses can significantly extend hardware lifespan. This leads to financial benefits while making a meaningful contribution to environmental sustainability. Given the substantial environmental impact of hardware production—also known as **embodied carbon** (more on this in our article series on [[**Embodied Carbon**]](https://mehrwert.tech/en/embodied-carbon-1) )—extending hardware lifespan is essential.
+By managing software requirements wisely and implementing strategic software development approaches, businesses can significantly extend hardware lifespan. This leads to financial benefits while making a meaningful contribution to environmental sustainability. Given the substantial environmental impact of hardware production—also known as **embodied carbon** (more on this in our article series on [**Embodied Carbon**](https://mehrwert.tech/en/embodied-carbon-1) )—extending hardware lifespan is essential.
 
-Software developers and companies can further contribute through **Green Coding**, which promotes sustainable software practices. Our introductory guide to [[**Green Coding**]](https://mehrwert.tech/en/green-coding) explores initial approaches to this. The responsibility ultimately lies with manufacturers, developers, and businesses to make sustainable IT decisions that foster long-term, efficient, and resource-conscious infrastructure usage.
+Software developers and companies can further contribute through *[**Green Coding**](https://mehrwert.tech/en/trainings/gsp.html), which promotes sustainable software practices. The responsibility ultimately lies with manufacturers, developers, and businesses to make sustainable IT decisions that foster long-term, efficient, and resource-conscious infrastructure usage.
 
