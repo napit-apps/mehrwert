@@ -50,7 +50,7 @@ Extending hardware lifespan offers clear advantages for businesses. It leads to 
 
 ## Conclusion
 
-By managing software requirements wisely and implementing strategic software development approaches, businesses can significantly extend hardware lifespan. This leads to financial benefits while making a meaningful contribution to environmental sustainability. Given the substantial environmental impact of hardware production—also known as **embodied carbon** (more on this in our article series on [[**Embodied Carbon**]](https://mehrwert.tech/en/embodied-carbon-1))—extending hardware lifespan is essential.
+By managing software requirements wisely and implementing strategic software development approaches, businesses can significantly extend hardware lifespan. This leads to financial benefits while making a meaningful contribution to environmental sustainability. Given the substantial environmental impact of hardware production—also known as **embodied carbon** (more on this in our article series on [[**Embodied Carbon**]](https://mehrwert.tech/en/embodied-carbon-1) )—extending hardware lifespan is essential.
 
 Software developers and companies can further contribute through **Green Coding**, which promotes sustainable software practices. Our introductory guide to [[**Green Coding**]](https://mehrwert.tech/en/green-coding) explores initial approaches to this. The responsibility ultimately lies with manufacturers, developers, and businesses to make sustainable IT decisions that foster long-term, efficient, and resource-conscious infrastructure usage.
 
