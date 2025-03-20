@@ -3,7 +3,7 @@ layout: post
 title: Wie Software die Nutzungsdauer von Hardware beeinflusst
 cover: cover.jpg
 type: "Artikel"
-datum:  "28.05.2024"
+datum:  "20.03.2025"
 post_image: "/assets/images/blog/2024-06-07-green-coding.jpg"
 tags: "#green-coding, #nachhaltigkeit"
 categories: de posts
