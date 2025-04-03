@@ -19,7 +19,7 @@ Dabei ging es nicht nur um die Tools selbst, sondern auch um eine zentrale Frage
 
 ## Setup und Zielsetzung
 
-Der Selbstversuch wurde im **Juni/Juli 2023** auf einem **MacBookPro17,1 mit macOS Ventura Version 13.3** durchgeführt. Getestet wurden die drei gängigen Videokonferenztools **Zoom**, **Microsoft Teams** und **FaceTime**. Ziel war es herauszufinden, wie sich aus- und eingehendes Video und Screensharing auf den Energieverbrauch auswirken – und ob sich daraus Empfehlungen für eine nachhaltigere Nutzung ableiten lassen.
+Der Selbstversuch wurde im **Juni/Juli 2023** auf einem **MacBookPro17,1 mit macOS Ventura Version 13.3** durchgeführt. Dabei wurde ausschließlich der Energieverbrauch auf dem Endgerät berücksichtigt – also der Energiebedarf der jeweiligen Anwendung auf dem MacBook, ohne Berücksichtigung des Netzwerks oder weiterer Infrastruktur. Getestet wurden die drei gängigen Videokonferenztools **Zoom**, **Microsoft Teams** und **FaceTime**. Ziel war es herauszufinden, wie sich aus- und eingehendes Video und Screensharing auf den Energieverbrauch auswirken – und ob sich daraus Empfehlungen für eine nachhaltigere Nutzung ableiten lassen.
 
 Gleichzeitig sollte gezeigt werden, dass man mit Bordmitteln wie **powermetrics**, einem **Python-Skript** und einer durchdachten Versuchsanordnung bereits qualitative Aussagen über Energieeffizienz treffen kann.
 
@@ -49,7 +49,14 @@ Ein besonders aufschlussreicher Vergleich ergibt sich zwischen den Szenarien „
 
 Im Szenario mit allen Funktionen aktiviert („**Video in/out + Screensharing an**“) liegt der **Energy Impact bei Teams etwa dreimal so hoch** wie im Minimalmodus mit allem deaktiviert – ein signifikanter Unterschied, der über die Zeit ins Gewicht fällt.
 
-## Fazit: Nachhaltigkeit beginnt im Detail
+## Fazit: Energieverbrauch verstehen – Basis für nachhaltige Software
 
-Der Selbstversuch zeigt, wie groß die Unterschiede beim Energiebedarf von Videokonferenztools sein können – und wie einfach sich erste Vergleiche auch im eigenen Umfeld durchführen lassen. Für IT-Teams, Unternehmen und Einzelpersonen bietet das spannende Möglichkeiten: **Mit dem richtigen Tool und einer bewussteren Nutzung lässt sich auch bei alltäglichen Anwendungen nachhaltiger handeln.**
+Der Selbstversuch zeigt, **wie groß die Unterschiede beim Energiebedarf von Videokonferenztools** sein können. Schon mit **einfachen Bordmitteln** lassen sich **aussagekräftige Ergebnisse** erzielen. Diese Herangehensweise ermöglicht es, **Schritt für Schritt in das komplexe Thema der Software-Energieeffizienz** einzusteigen – ohne sofort auf spezialisierte Messtechnik oder große Ressourcen zurückgreifen zu müssen.
 
+Die gewonnenen Erkenntnisse bilden eine **fundierte Grundlage**, um Software hinsichtlich ihrer Energieeffizienz zu bewerten – und schlagen eine Brücke zum **Software Carbon Intensity (SCI)-Standard**, der genau hier ansetzt: bei der **transparenten Erfassung und Optimierung der CO₂-Emissionen von Software**.
+
+**Mit dem richtigen Tool und einer bewussteren Nutzung lässt sich auch bei alltäglichen Anwendungen nachhaltiger handeln.**
+
+Wer tiefer in das Thema einsteigen möchte, findet in unserem Artikel zur **[Software Carbon Intensity (SCI)](https://mehrwert.tech/SCI)** eine fundierte Einführung in die Methodik zur CO₂-Bewertung von Software.
+
+Ebenfalls empfehlenswert: unsere **[Artikelserie zum Embodied Carbon](https://mehrwert.tech/embodied-carbon-1)**, in der wir die **versteckten Emissionen im Hardware Lifecycle** beleuchten – eine wichtige Ergänzung zur Software-Perspektive.
