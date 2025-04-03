@@ -3,7 +3,7 @@ layout: post
 title: Determine energy consumption - with on-board tools - The self-test for video conferencing tools
 cover: cover.jpg
 type: "Blog-Post"
-datum:  "28.03.2025"
+datum:  "04.04.2025"
 post_image: "/assets/images/blog/2023-11-13-nachhaltige-softwareentwicklung.jpg"
 tags: "#green-coding, #nachhaltigkeit"
 categories: en posts

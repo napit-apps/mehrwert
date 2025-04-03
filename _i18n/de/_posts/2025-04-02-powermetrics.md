@@ -3,7 +3,7 @@ layout: post
 title: Energieverbrauch bestimmen – mit Bordmitteln - Der Selbsttest zu Videokonferenztools
 cover: cover.jpg
 type: "Blog-Post"
-datum:  "28.03.2025"
+datum:  "04.04.2025"
 post_image: "/assets/images/blog/2023-11-13-nachhaltige-softwareentwicklung.jpg"
 tags: "#green-coding, #nachhaltigkeit"
 categories: de posts
@@ -25,7 +25,7 @@ Gleichzeitig sollte gezeigt werden, dass man mit Bordmitteln wie **powermetrics*
 
 ## Methodik
 
-Für jedes Tool wurden verschiedene Szenarien getestet: **eingehendes Video an/aus, ausgehendes Video an/aus und Screensharing an/aus**. Dabei wurde der sogenannte **Energy Impact** erfasst – ein Modellwert, den powermetrics in einem Textfile ausgibt. Vor jeder Messreihe wurde ein **Neustart** durchgeführt, um unnötige Prozesse zu beenden. Zusätzlich wurde zu Beginn **eine Baseline bestimmt**, indem nach einem Neustart ohne geöffnete Programme der Energy Impact modelliert wurde.
+Für jedes Tool wurden verschiedene Szenarien getestet: **Eingehendes Video an/aus, ausgehendes Video an/aus und Screensharing an/aus**. Dabei wurde der sogenannte **Energy Impact** erfasst – ein Modellwert, den powermetrics in einem Textfile ausgibt. Vor jeder Messreihe wurde ein **Neustart** durchgeführt, um unnötige Prozesse zu beenden. Zusätzlich wurde zu Beginn **eine Baseline bestimmt**, indem nach einem Neustart ohne geöffnete Programme der Energy Impact modelliert wurde.
 
 Die Messungen liefen stets in **10-Minuten-Blöcken**. Für jedes Szenario wurden **drei Wiederholungen** durchgeführt und der **mittlere Energy Impact** berechnet.
 
@@ -59,4 +59,4 @@ Die gewonnenen Erkenntnisse bilden eine **fundierte Grundlage**, um Software hin
 
 Wer tiefer in das Thema einsteigen möchte, findet in unserem Artikel zur **[Software Carbon Intensity (SCI)](https://mehrwert.tech/SCI)** eine fundierte Einführung in die Methodik zur CO₂-Bewertung von Software.
 
-Ebenfalls empfehlenswert: unsere **[Artikelserie zum Embodied Carbon](https://mehrwert.tech/embodied-carbon-1)**, in der wir die **versteckten Emissionen im Hardware Lifecycle** beleuchten – eine wichtige Ergänzung zur Software-Perspektive.
+Ebenfalls empfehlenswert: Unsere **[Artikelserie zum Embodied Carbon](https://mehrwert.tech/embodied-carbon-1)**, in der wir die **versteckten Emissionen im Hardware Lifecycle** beleuchten – eine wichtige Ergänzung zur Software-Perspektive.
