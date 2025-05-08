@@ -6,7 +6,7 @@ type: "Artikel"
 datum:  "09.01.2025"
 post_image: "/assets/images/blog/Green-Coding_titelbild.png"
 tags: "#green-coding, #nachhaltigkeit"
-categories: de posts
+categories: en posts
 author: "Alina"
 featured: false
 ---

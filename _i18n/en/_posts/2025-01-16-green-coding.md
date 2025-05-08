@@ -6,7 +6,7 @@ type: "Artikel"
 datum:  "28.05.2024"
 post_image: "/assets/images/blog/2024-06-07-green-coding.jpg"
 tags: "#green-coding, #nachhaltigkeit"
-categories: de posts
+categories: en posts
 author: "Alina, Marcel"
 featured: false
 ---
