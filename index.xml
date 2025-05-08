@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="de" /><updated>2025-04-03T14:13:51+02:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Energieverbrauch bestimmen – mit Bordmitteln - Der Selbsttest zu Videokonferenztools</title><link href="https://mehrwert.tech/powermetrics" rel="alternate" type="text/html" title="Energieverbrauch bestimmen – mit Bordmitteln - Der Selbsttest zu Videokonferenztools" /><published>2025-04-02T00:00:00+02:00</published><updated>2025-04-02T00:00:00+02:00</updated><id>https://mehrwert.tech/powermetrics</id><content type="html" xml:base="https://mehrwert.tech/powermetrics"><![CDATA[<h2 id="videokonferenztools-im-vergleich-wie-viel-energie-verbrauchen-zoom-teams-und-facetime-wirklich">Videokonferenztools im Vergleich: Wie viel Energie verbrauchen Zoom, Teams und FaceTime wirklich?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="de" /><updated>2025-05-08T09:22:57+02:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Green Coding Patterns - Praxisnahe Ansätze für energieeffiziente Software</title><link href="https://mehrwert.tech/green-coding-patterns" rel="alternate" type="text/html" title="Green Coding Patterns - Praxisnahe Ansätze für energieeffiziente Software" /><published>2025-05-07T00:00:00+02:00</published><updated>2025-05-07T00:00:00+02:00</updated><id>https://mehrwert.tech/green-coding-patterns</id><content type="html" xml:base="https://mehrwert.tech/green-coding-patterns"><![CDATA[<p>In Zeiten der Klimakrise rückt der <strong>Energieverbrauch der IT-Branche</strong> zunehmend in den Fokus. Laut dem Weltklimarat (IPCC) lassen sich schwerwiegende Auswirkungen nur durch <strong>sofortige Emissionsreduktionen</strong> abmildern. Die IT spielt dabei eine doppelte Rolle: Einerseits kann Digitalisierung helfen, Emissionen in anderen Bereichen zu senken (<em>green by IT</em>). Andererseits muss die Branche selbst nachhaltiger werden (<em>green in IT</em>).</p>
+
+<p>Software steht dabei besonders im Zentrum – denn <strong>nachhaltige Software ist vor allem effiziente Software</strong>. Jede ineffiziente Codezeile verursacht nicht nur technische, sondern auch <strong>ökologische Schulden</strong>. Ähnlich wie technische Schulden können sie die <strong>langfristige Wartbarkeit und Effizienz</strong> beeinträchtigen – mit dem Unterschied, dass hier auch <strong>reale Ressourcen wie Strom und CO₂</strong> unmittelbar betroffen sind. Die gute Nachricht: Es braucht keine radikalen Umstellungen, sondern vor allem ein <strong>geschärftes Bewusstsein</strong> und ein paar <strong>gezielte Anpassungen</strong>. Dieser Artikel stellt praxisnahe <strong>Green Coding Patterns</strong> vor, die sich einfach in den Entwicklungsalltag integrieren lassen.</p>
+
+<h2 id="kleine-hebel-große-wirkung">Kleine Hebel, große Wirkung</h2>
+
+<p>Nachhaltiges Entwickeln muss nicht mit einem kompletten Umdenken beginnen. Oft reichen <strong>kleine Änderungen im Alltag</strong> – ein anderes Format hier, eine bewusstere Entscheidung dort –, um <strong>spürbare Effekte</strong> zu erzielen. Solche Anpassungen wirken wie <strong>Hebel</strong>: Sie sind klein in der Umsetzung, aber groß in ihrer Wirkung. So kann durch viele kleine Entscheidungen der <strong>Energieverbrauch auf vielen Ebenen deutlich reduziert</strong> werden.</p>
+
+<p>Wer sein Verhalten Stück für Stück verändert, entwickelt über die Zeit ein <strong>neues Bewusstsein</strong>. Was heute noch wie eine zusätzliche Maßnahme wirkt, kann schon bald zum <strong>neuen Standard</strong> werden. Die folgenden Beispiele zeigen solche <strong>kleinen Stellschrauben mit großem Hebel</strong> – direkt anwendbar und mit positivem Effekt auf Umwelt und Systemleistung.</p>
+
+<h2 id="effizienz-durch-reduzierten-rechenaufwand">Effizienz durch reduzierten Rechenaufwand</h2>
+
+<p>Ein erster Hebel liegt im <strong>Code selbst</strong>: Je weniger Rechenleistung eine Anwendung benötigt, desto weniger Energie verbraucht sie. <strong>Unnötige Berechnungen zu vermeiden</strong>, ist ein zentraler Hebel – so wie ein sparsames Auto weniger Sprit braucht, verbraucht effizienter Code weniger Strom. Es geht nicht um Perfektion, sondern um bewusst gesetzte <strong>Prioritäten bei der Ressourcennutzung</strong>.</p>
+
+<ul>
+  <li><strong>Überflüssige Prozesse vermeiden</strong>: Muss wirklich bei jedem Klick eine neue Abfrage gesendet werden? Muss der komplette DOM neu gerendert werden? Gezielt gesetzte Event-Handler oder Caching-Strategien helfen, unnötige Rechenlast zu vermeiden.</li>
+  <li><strong>Einfache Datentypen bevorzugen</strong>: Ganzzahloperationen benötigen oft weniger Energie als Gleitkommazahlen. Kleine Änderungen in der Datenverarbeitung können große Effekte haben.</li>
+  <li><strong>Vorkompilierte Ressourcen nutzen</strong>: Kompilieren oder bündeln Sie Skripte und Assets vorab, um unnötige Rechenarbeit auf Endgeräten zu vermeiden.</li>
+</ul>
+
+<h2 id="daten-effizient-übertragen">Daten effizient übertragen</h2>
+
+<p>Auch <strong>Datenverkehr kostet Energie</strong> – auf Endgeräten, in Netzwerken und Rechenzentren. Deshalb gilt: Je weniger, desto besser.</p>
+
+<ul>
+  <li><strong>Nur notwendige Daten übertragen</strong>: API-Responses und Datenbankabfragen sollten auf das Wesentliche reduziert sein.</li>
+  <li><strong>Dateien komprimieren</strong>: Text- und Bilddateien lassen sich oft stark verkleinern, ohne an Funktionalität oder Qualität einzubüßen.</li>
+  <li><strong>Caching konsequent nutzen</strong>: Wiederholte Datenabrufe lassen sich vermeiden, wenn Inhalte lokal oder serverseitig zwischengespeichert werden.</li>
+</ul>
+
+<h2 id="energieeffiziente-interfaces-und-ux">Energieeffiziente Interfaces und UX</h2>
+
+<p>Die <strong>Gestaltung einer Anwendung</strong> hat direkten Einfluss auf ihren Energiebedarf. Sowohl <strong>Nutzerfreundlichkeit als auch Ressourcenschonung</strong> lassen sich miteinander verbinden.</p>
+
+<ul>
+  <li><strong>Bilder effizient einsetzen</strong>: Sparsame Formate wie WebP und passend skalierte Medien tragen dazu bei, die Datenmenge und damit den Energieverbrauch zu reduzieren. Große Bilddateien sollten vermieden werden, wenn kleinere Versionen denselben Zweck erfüllen.</li>
+  <li><strong>Animationen reduzieren</strong>: Bewegte Inhalte wirken oft modern, verursachen aber eine höhere GPU-Last – insbesondere auf mobilen Geräten. Weniger ist hier mehr.</li>
+  <li><strong>Dark Mode anbieten</strong>: Auf OLED-Displays spart ein dunkles Design Energie. Ein optionaler Dark Mode verbessert zugleich die Nutzerfreundlichkeit.</li>
+  <li><strong>Ladezeiten optimieren</strong>: Schnelle Ladezeiten senken nicht nur den Stromverbrauch, sondern steigern auch die Nutzerzufriedenheit.</li>
+</ul>
+
+<h2 id="ressourcen-bewusster-nutzen">Ressourcen bewusster nutzen</h2>
+
+<p>Auch die <strong>Infrastruktur</strong> hinter einer Anwendung birgt Potenzial zur Optimierung. Ziel ist eine möglichst <strong>bedarfsgerechte Auslastung</strong> vorhandener Ressourcen.</p>
+
+<ul>
+  <li><strong>Bedarfsgerechtes Skalieren</strong>: Systeme sollten automatisch auf Last reagieren und in ruhigen Phasen herunterfahren.</li>
+  <li><strong>Unnötige Umgebungen abschalten</strong>: Entwicklungs- und Testsysteme müssen nicht durchgehend online sein.</li>
+  <li><strong>Serverless &amp; Container nutzen</strong>: Diese Technologien ermöglichen eine effizientere Ausnutzung der Hardware.</li>
+</ul>
+
+<h2 id="carbon-aware-coding">Carbon-Aware Coding</h2>
+
+<p>Nicht jeder Strom ist gleich grün. Der CO₂-Ausstoß pro Kilowattstunde variiert je nach Tageszeit und Netzbelastung – je nachdem, ob gerade viel Strom aus <strong>erneuerbaren Quellen wie Wind oder Sonne</strong> ins Netz eingespeist wird oder ob <strong>fossile Energieträger</strong> dominieren. Diese sogenannte <strong>CO₂-Intensität</strong> beschreibt, wie viel Kohlendioxid bei der Erzeugung einer Kilowattstunde Strom entsteht. <strong>Carbon-Aware Coding</strong> nutzt diese Unterschiede aktiv.</p>
+
+<ul>
+  <li><strong>Zeitlich intelligent planen</strong>: Batch-Prozesse oder Analysen können so terminiert werden, dass sie zu Zeiten mit <strong>niedriger Netzlast oder geringerer CO₂-Intensität</strong> des Stroms laufen – etwa wenn viele erneuerbare Energien eingespeist werden. Ein praktisches Tool dafür ist das Carbon Aware SDK der Green Software Foundation. Auch die Open-Source-Anwendung StromGedacht kann helfen, sich an besonders grüne Zeiten im Strommix zu orientieren – etwa durch Push-Benachrichtigungen, wenn gerade viel erneuerbare Energie verfügbar ist.</li>
+  <li><strong>Gerätezustand berücksichtigen</strong>: Anwendungen sollten erkennen, ob ein Gerät im Energiesparmodus läuft – und ihr Verhalten entsprechend anpassen.</li>
+</ul>
+
+<h2 id="messen-und-verbessern">Messen und verbessern</h2>
+
+<p><strong>Nachhaltigkeit braucht Kennzahlen</strong>. Nur was gemessen wird, kann gezielt verbessert werden. Ein <strong>realistischer Überblick</strong> über den Energieverbrauch bildet die Grundlage für konkrete Maßnahmen.</p>
+
+<ul>
+  <li><strong>Energieverbrauch erfassen</strong>: Der Energieverbrauch einer Anwendung lässt sich über verschiedene Wege sichtbar machen – etwa durch <strong>dynamisches Profiling</strong> oder durch <strong>indirekte Messgrößen</strong> wie CPU-Auslastung, Laufzeit oder Arbeitsspeicherbedarf. Diese Proxys bieten zwar keine exakte Messung, ermöglichen aber eine erste Orientierung. Wer tiefer einsteigen möchte, kann auf spezialisierte Tools zur Energieanalyse zurückgreifen.</li>
+  <li><strong>Benchmarks nutzen</strong>: Standardisierte Metriken wie die <strong>Software Carbon Intensity (SCI)</strong> helfen dabei, Verbesserungen greifbar zu machen. Ein konkretes Beispiel dazu findet sich im <a href="https://mehrwert.tech/powermetrics">vorherigen Artikel zur Energieanalyse mit Powermetrics</a>.</li>
+</ul>
+
+<h2 id="low-hanging-fruits-energie-sparen-direkt-am-gerät">Low Hanging Fruits: Energie sparen direkt am Gerät</h2>
+
+<p>Nicht alle Optimierungen müssen im Code oder in der Infrastruktur stattfinden – auch <strong>direkt am Gerät</strong> lassen sich einfache, aber wirksame Maßnahmen umsetzen:</p>
+
+<ul>
+  <li><strong>Dark Mode aktivieren</strong>: Besonders bei OLED-Displays reduziert ein dunkles Design den Stromverbrauch deutlich.</li>
+  <li><strong>Helligkeit reduzieren</strong>: Die Bildschirmhelligkeit ist ein großer Stromfresser. Schon eine kleine Reduktion spart Energie.</li>
+  <li><strong>Geräte abends herunterfahren</strong>: Entwicklungsgeräte, Monitore und Peripherie nach Feierabend ausschalten statt im Standby lassen.</li>
+  <li><strong>Energiesparmodi aktivieren</strong>: Sowohl Betriebssysteme als auch IDEs bieten Energiesparoptionen, die oft ungenutzt bleiben.</li>
+  <li><strong>Unnötige Tabs und Programme schließen</strong>: Viele Prozesse im Hintergrund belasten CPU und Speicher – und damit auch den Energieverbrauch.</li>
+</ul>
+
+<p><strong>Diese kleinen, sofort umsetzbaren Maßnahmen</strong> ergänzen die strukturellen Verbesserungen und machen <strong>Green Coding</strong> zu einem <strong>ganzheitlichen Ansatz</strong>.</p>
+
+<p><strong>Ein zusätzlicher Vorteil:</strong> Viele dieser Änderungen lassen sich <strong>direkt umsetzen</strong> – <strong>ohne Teamentscheid oder umfassende Abstimmungen</strong>. Wer etwa lokal Energiesparfunktionen nutzt oder systemseitige Einstellungen anpasst, kann <strong>sofort Wirkung erzielen</strong>. So liegt ein Stück der <strong>Verantwortung</strong> – und der <strong>Gestaltungsspielraum</strong> – in der eigenen Hand.</p>
+
+<h2 id="fazit-kleine-schritte-große-wirkung">Fazit: Kleine Schritte, große Wirkung</h2>
+
+<p><strong>Green Coding muss nicht kompliziert sein.</strong> Viele Maßnahmen lassen sich schnell umsetzen – und haben spürbare Effekte. <strong>Effizienter Code</strong>, <strong>sparsame Datenübertragung</strong> und <strong>durchdachte Interfaces</strong> senken nicht nur den Energieverbrauch, sondern machen Anwendungen <strong>performanter und robuster</strong>.</p>
+
+<p><strong>Entwickler:innen haben es in der Hand</strong>, Software nachhaltiger zu gestalten – Zeile für Zeile.</p>
+
+<p>Mehr zum Thema Green Coding – inklusive strategischer Einordnung und Hintergrundwissen – finden Sie im <a href="https://mehrwert.tech/green-coding">Artikel “Grüne Software, grüne Zukunft”</a>.</p>]]></content><author><name>Marcel, Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[In Zeiten der Klimakrise rückt der Energieverbrauch der IT-Branche zunehmend in den Fokus. Laut dem Weltklimarat (IPCC) lassen sich schwerwiegende Auswirkungen nur durch sofortige Emissionsreduktionen abmildern. Die IT spielt dabei eine doppelte Rolle: Einerseits kann Digitalisierung helfen, Emissionen in anderen Bereichen zu senken (green by IT). Andererseits muss die Branche selbst nachhaltiger werden (green in IT).]]></summary></entry><entry><title type="html">Energieverbrauch bestimmen – mit Bordmitteln - Der Selbsttest zu Videokonferenztools</title><link href="https://mehrwert.tech/powermetrics" rel="alternate" type="text/html" title="Energieverbrauch bestimmen – mit Bordmitteln - Der Selbsttest zu Videokonferenztools" /><published>2025-04-02T00:00:00+02:00</published><updated>2025-04-02T00:00:00+02:00</updated><id>https://mehrwert.tech/powermetrics</id><content type="html" xml:base="https://mehrwert.tech/powermetrics"><![CDATA[<h2 id="videokonferenztools-im-vergleich-wie-viel-energie-verbrauchen-zoom-teams-und-facetime-wirklich">Videokonferenztools im Vergleich: Wie viel Energie verbrauchen Zoom, Teams und FaceTime wirklich?</h2>
 
 <p>Videokonferenzen sind aus unserem Alltag nicht mehr wegzudenken. Doch wie klimafreundlich sind Zoom, Teams und FaceTime eigentlich? In einem Selbstversuch wurden die drei Tools unter identischen Bedingungen getestet – mit erstaunlichen Ergebnissen.</p>
 
