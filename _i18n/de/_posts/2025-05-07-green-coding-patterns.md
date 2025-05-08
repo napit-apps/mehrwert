@@ -17,7 +17,7 @@ Software steht dabei besonders im Zentrum – denn **nachhaltige Software ist vo
 
 ## Kleine Hebel, große Wirkung
 
-Nachhaltiges Entwickeln muss nicht mit einem kompletten Umdenken beginnen. Oft reichen **kleine Änderungen im Alltag** – ein anderes Format hier, eine bewusstere Entscheidung dort –, um **spürbare Effekte** zu erzielen. Solche Anpassungen wirken wie **Hebel**: Sie sind klein in der Umsetzung, aber groß in ihrer Wirkung. So kann durch viele kleine Entschiedungen der **Energieverbrauch auf vielen Ebenen deutlich reduziert** werden.
+Nachhaltiges Entwickeln muss nicht mit einem kompletten Umdenken beginnen. Oft reichen **kleine Änderungen im Alltag** – ein anderes Format hier, eine bewusstere Entscheidung dort –, um **spürbare Effekte** zu erzielen. Solche Anpassungen wirken wie **Hebel**: Sie sind klein in der Umsetzung, aber groß in ihrer Wirkung. So kann durch viele kleine Entscheidungen der **Energieverbrauch auf vielen Ebenen deutlich reduziert** werden.
 
 Wer sein Verhalten Stück für Stück verändert, entwickelt über die Zeit ein **neues Bewusstsein**. Was heute noch wie eine zusätzliche Maßnahme wirkt, kann schon bald zum **neuen Standard** werden. Die folgenden Beispiele zeigen solche **kleinen Stellschrauben mit großem Hebel** – direkt anwendbar und mit positivem Effekt auf Umwelt und Systemleistung.
 
