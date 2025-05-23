@@ -6,7 +6,7 @@ hero_area:
     link : "mailto:kontakt@mehrwert.com?subject=Kontaktanfrage"
   secondaryButton:
     enable : true
-    link : "/trainings/gsp.html"
+    link : "/blog.html"
     
 ################## Problem Solution ###########################
 about:

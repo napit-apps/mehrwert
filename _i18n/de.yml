@@ -273,7 +273,7 @@ blog:
 blog-landing:
   enable: true
   title : "Blog & Artikel"
-  subtitle : "Weil wir Wissen gerne mit Ihnen teilen."
+  subtitle : "Weil wir unser Wissen gerne mit Ihnen teilen."
 
 contact_blog:
   title: "Diskussion"

@@ -273,10 +273,10 @@ blog:
 
 blog-landing:
   enable: true
-  title : "Our contribution"
-  subtitle : "EN: Hier kommt ein fancy Text und ein schönes Hintergrund bild..."
+  title : "Blog & Articles"
+  subtitle : "Because we love to share our knowledge with you."
 
-  contact_blog:
+contact_blog:
   title: "Discussion"
   subtitle: "What's your opinion on that topic"
   intro: "Drop us a message – we would love to connect and have a meaningful exchange."
