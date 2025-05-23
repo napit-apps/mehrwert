@@ -1,21 +1,20 @@
 .banner {
   background:
-    radial-gradient(circle at top left, #934ae4 0%, rgba(97, 187, 149, 0) 45%),
-    linear-gradient(to bottom, #61BB95 45%, #110C1B 80%);
+    radial-gradient(circle at 10% -20%, $extra-color 0%, rgba(97, 187, 149, 0) 33%),
+    radial-gradient(circle at 90% -20%, $primary-color 0%, rgba(255, 255, 255, 0) 66%),
+    linear-gradient(to bottom, $secondary-color-dark 0%, $secondary-color 100%);
   position: relative;
   
-  .overlay {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Dunkles Overlay */
-    z-index: 1;
-  }
 
   .banner .container {
     position: relative;
     
+  }
+
+  .hero-logo {
+    width: 140px;
+    height: auto;
+    margin-bottom: 0.75rem !important;
   }
 
   .banner-content { 
@@ -25,16 +24,16 @@
       line-height: 78px;
     }
 
-    padding: 250px 0px 220px 0px;
+    padding: 150px 0px 220px 0px;
     
     @include tablet {
       padding: 200px 15px 220px 15px;
     }
     @include mobile {
-      padding: 150px 15px 120px 15px;
+      padding: 120px 15px 120px 15px;
     }
     @include mobile-xs {
-      padding: 150px 15px 120px 15px;
+      padding: 120px 15px 120px 15px;
     }
   
     p {
@@ -93,6 +92,12 @@
     line-height: 56px;
   }
 
+  .banner .hero-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem !important;
+  }
+
 }
 
 @include mobile-xs {
@@ -100,6 +105,7 @@
     font-size: 40px;
     line-height: 46px;
   }
+
 }
 
 

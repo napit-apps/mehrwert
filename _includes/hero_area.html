@@ -1,25 +1,21 @@
 <!-- Slider Start -->
 {% assign banner = site.data.homepage.hero_area %}
-<section class="banner position-relative">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row">
-			<div class="banner-content">
-				<h2 class="text-white">{% t hero_area.title %}</h2>
-				<p class="text-white mt-4 mb-5">{% t hero_area.subheadline %}</p>
-				{% t hero_area.content %}
-				{% if banner.primaryButton.enable %}
-				<p><a href="{{banner.primaryButton.link}}" class="btn btn-primary">{% t hero_area.primaryButton-label %}</a></p>
-				{% endif %}
-				{% if banner.secondaryButton.enable %}
-				<a href="{{ site.baseurl }}{{banner.secondaryButton.link}}" class="btn btn-secondary">{% t hero_area.secondaryButton-label %}</a>
-				{% endif %}
-			</div>
-		
-			<!--<div class="banner-img d-none d-lg-block">
-				<img src="{{ banner.image }}" alt="contact" class="img-fluid">
-			</div>-->
-		</div>
-	</div>
+<section class="banner d-flex align-items-center text-center position-relative" style="min-height: 100vh;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 banner-content">
+        <img src="{{ '/assets/images/logo-star.svg' | relative_url }}" alt="mehr.wert Logo" class="hero-logo mb-4">
+        <h2 class="text-white">{% t hero_area.title %}</h2>
+        <p class="text-white mt-4 mb-5">{% t hero_area.subheadline %}</p>
+        {% t hero_area.content %}
+        {% if banner.primaryButton.enable %}
+          <p><a href="{{banner.primaryButton.link}}" class="btn btn-primary">{% t hero_area.primaryButton-label %}</a></p>
+        {% endif %}
+        {% if banner.secondaryButton.enable %}
+          <a href="{{ site.baseurl }}{{banner.secondaryButton.link}}" class="btn btn-secondary">{% t hero_area.secondaryButton-label %}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
 </section>
 <!-- Slider End -->
