@@ -24,6 +24,8 @@ main-menue:
   - name: Rechtliches
     url: "#"
     submenu:
+      - name: AGB
+        url: "/agb.html"
       - name: Impressum
         url: "/imprint.html"
       - name: Datenschutzbestimmung

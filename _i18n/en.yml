@@ -24,6 +24,8 @@ main-menue:
   - name: Legal
     url: "#"
     submenu:
+      - name: Terms and Conditions
+        url: "/agb.html"
       - name: Terms of Service
         url: "/imprint.html"
       - name: Privacy Policy
