@@ -350,7 +350,7 @@ gsp_training:
       text: "Das Green Coding Training war eine inspirierende Erfahrung. Es hat mir gezeigt, wie ich als Entwickler aktiv dazu beitragen kann, den Carbon Footprint meiner Firma zu senken."
       link: "https://www.linkedin.com/in/marcus-danzer-188510182/"
   pricing:
-    title: "Preise"
+    title: "Pakete"
     subtitle: "Wir bieten verschiedene Pakete für das Training an."
     price-unit: "pauschal"
     item:
@@ -359,7 +359,7 @@ gsp_training:
       duration: "~4 Stunden"
       price: "500€"
       participants: "3-6 Teilnehmer"
-      location: "Neue Weberei (Wernau)"
+      location: "Online"
       content-1: "Bewusstsein schaffen"
       content-2: "Grundlagen Green Coding"
       content-3: "Theorieverständnis"

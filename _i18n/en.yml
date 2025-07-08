@@ -351,7 +351,7 @@ gsp_training:
       text: "Das Green Coding Training war eine inspirierende Erfahrung. Es hat mir gezeigt, wie ich als Entwickler aktiv dazu beitragen kann, den Carbon Footprint meiner Firma zu senken."
       link: "https://www.linkedin.com/in/marcus-danzer-188510182/"
   pricing:
-    title: "Pricing"
+    title: "Packages"
     subtitle: "We offer different packages for the training."
     price-unit: "flat rate"
     item:

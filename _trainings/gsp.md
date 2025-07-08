@@ -177,7 +177,7 @@ cta-action: gsp_training.cta.action
 				<div class="card border-0 rounded-0 shadow-lg text-center p-4 mb-5 mb-lg-0 {{ item.background }}">
 					<div class="card-header">
 						<span class="package d-inline-block text-capitalize">{{ item.title }}</span>
-						<h3 class="price mt-4 font-weight-bold">{{ item.price }} <small class="text-secondary text-sm"> {{ gsp_training.pricing.price-unit }}</small></h3>
+						<!-- <h3 class="price mt-4 font-weight-bold">{{ item.price }} <small class="text-secondary text-sm"> {{ gsp_training.pricing.price-unit }}</small></h3> -->
 						<p>{{ item.duration }}</p>
 						<p>{{ item.location }}</p>
 						<p>{{ item.participants }}</p>
