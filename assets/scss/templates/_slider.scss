@@ -5,6 +5,8 @@
     linear-gradient(to bottom, $secondary-color-dark 0%, $secondary-color 100%);
   position: relative;
   
+  overflow: hidden;
+  padding-top: 50px;
 
   .banner .container {
     position: relative;
@@ -15,36 +17,6 @@
     width: 140px;
     height: auto;
     margin-bottom: 0.75rem !important;
-  }
-
-  .banner-content { 
-    z-index: 2;
-    h2 {
-      font-size: 65px;
-      line-height: 78px;
-    }
-
-    padding: 150px 0px 220px 0px;
-    
-    @include tablet {
-      padding: 200px 15px 220px 15px;
-    }
-    @include mobile {
-      padding: 120px 15px 120px 15px;
-    }
-    @include mobile-xs {
-      padding: 120px 15px 120px 15px;
-    }
-  
-    p {
-      font-size: 17px;
-    }
-   
-    @media(min-width:991px){ 
-      flex: 0 0 66.666667%;
-      max-width: 66.666667%;
-    }
-
   }
 
   .banner-img {
@@ -60,11 +32,42 @@
       right: -10%;
     }
   }
+
+  .banner-content {
+    padding: 180px 0px 120px 0px;
+    @include desktop-lg {
+      padding: 150px 0 100px 0;
+    }
+
+    h2 {
+      font-size: 60px;
+      line-height: 70px;
+      @include desktop-lg {
+        font-size: 50px;
+        line-height: 60px;
+      }
+    }
+  }
+
+  p {
+    color: rgba(255, 255, 255, .7);
+    font-size: 17px; 
+  }
+
+  .btn:hover {
+    background: $white;
+    color: $black !important;
+  }
 }
+
 
 @include desktop-lg {
   .about-banner {
     background-position: 40% 50%;
+  }
+
+  .banner p {
+     padding-right: 55px;
   }
 }
 
@@ -72,6 +75,10 @@
   .banner .banner-content h2 {
     font-size: 62px;
     line-height: 70px;
+  }
+
+  .banner p {
+     padding-right: 55px;
   }
 
   .about-banner {
@@ -83,6 +90,10 @@
   .banner .banner-content h2 {
     font-size: 56px;
     line-height: 63px;
+  }
+
+  .banner p {
+     padding-right: 0;
   }
 }
 
@@ -105,7 +116,6 @@
     font-size: 40px;
     line-height: 46px;
   }
-
 }
 
 

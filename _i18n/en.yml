@@ -57,10 +57,10 @@ hero_area:
   subheadline : "Agile, resource-efficient, and future-proof: We combine software development with sustainability and efficiency – for companies that take responsibility."
   content : 
     "<ul class=\"list-hero mt-4 mb-5\">
-      <li><b>🌱 Sustainable IT:</b> Resource-efficient software development with measurable impact</li>
-      <li><b>🔍 Transparency & Trust:</b> Clear processes, honest consulting, reliable results</li>
-      <li><b>🤝 Collaborative Partnership:</b> Working together pragmatically for sustainable success</li>
-      <li><b>📈 Measurable Sustainability:</b> Data-driven optimization for greener & more efficient IT solutions</li>
+      <li><b>Sustainable IT:</b> Resource-efficient software development with measurable impact</li>
+      <li><b>Transparency & Trust:</b> Clear processes, honest consulting, reliable results</li>
+      <li><b>Collaborative Partnership:</b> Working together pragmatically for sustainable success</li>
+      <li><b>Measurable Sustainability:</b> Data-driven optimization for greener & more efficient IT solutions</li>
     </ul>"
   primaryButton-label : "Develop Sustainable Software – Get Started Now" 
   secondaryButton-label : "Learn More About Green Coding"
@@ -71,10 +71,10 @@ about:
   title : "Software Development is in a Dilemma – We Solve it Sustainably."
   content : "<p>Agile methods and modern IT technologies enable rapid development – but often lack a focus on sustainability, scalability, and energy efficiency. These challenges cost companies time, money, and competitiveness in the long run.</p>
   <ul class=\"problem-list\">
-    <li><b>⚡ Fast, but short-sighted.</b> Traditional agility prioritizes speed – but without sustainability, resource efficiency and long-term IT strategy suffer.</li>
-    <li><b>🌱 High resource consumption:</b> IT systems consume more energy than necessary, driving up costs and harming the environment.</li>
-    <li><b>📊 No clear measurability:</b> Without defined KPIs, sustainable software development remains a mere promise.</li>
-    <li><b>🏗 Outdated structures, new challenges:</b> Traditional processes and rigid hierarchies obstruct sustainable transformation.</li>
+    <li><b>Fast, but short-sighted.</b> Traditional agility prioritizes speed – but without sustainability, resource efficiency and long-term IT strategy suffer.</li>
+    <li><b>High resource consumption:</b> IT systems consume more energy than necessary, driving up costs and harming the environment.</li>
+    <li><b>No clear measurability:</b> Without defined KPIs, sustainable software development remains a mere promise.</li>
+    <li><b>Outdated structures, new challenges:</b> Traditional processes and rigid hierarchies obstruct sustainable transformation.</li>
   </ul>
   <p><b>Tailored Solutions: </b>
   We turn challenges into opportunities. With Scaled Agile Coaching, we evolve agile processes – embedding sustainability as a key factor. Through Green Coding and an optimized Software Delivery Lifecycle, we help companies make their IT resource-efficient and future-proof.</p>"

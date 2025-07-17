@@ -51,17 +51,17 @@ bottom:
 
 ################## Hero Area #######################
 hero_area:
-  title : "Nachhaltig bessere Software"
-  title2 : "Software trifft Nachhaltigkeit -<br/> Software die begeistert"
-  subheadline : "Agil, ressourcenschonend und zukunftssicher: Wir verbinden Softwareentwicklung mit Nachhaltigkeit und Effizienz – für Unternehmen, die Verantwortung übernehmen."
+  title : "<i>CTO-as-a-Service</i> für nachhaltig bessere Software"
+  title2 : "mehr.wert – IT & Softwareberatung mit Verantwortung"
+  subheadline : "Ihre IT braucht Richtung. Ich liefere sie. <br />Als externer CTO für KMU & Startups bringe ich Klarheit und messbaren Fortschritt."
   content : 
     "<ul class=\"list-hero mt-4 mb-5\">
-      <li><b>🌱 Nachhaltige IT:</b> Ressourcenschonende Softwareentwicklung mit messbarem Impact</li>
-      <li><b>🔍 Transparenz & Vertrauen:</b> Klare Prozesse, ehrliche Beratung, verlässliche Ergebnisse</li>
-      <li><b>🤝 Zusammenarbeit auf Augenhöhe:</b> Partnerschaftlich & pragmatisch zum nachhaltigen Erfolg</li>
-      <li><b>📈 Messbare Nachhaltigkeit:</b> Datenbasierte Optimierung für grüne & effiziente IT-Lösungen</li>
+      <li>Struktur und Führung für Ihre IT – flexibel auf Zeit</li>
+      <li>Technische Roadmaps & Teamführung durch Wandel  </li>
+      <li>Green Tech mit Verantwortung & messbarem Impact</li>
+      <li>Direkte Zusammenarbeit – statt PowerPoint-Beratung</li>
     </ul>"
-  primaryButton-label : "Nachhaltige Software entwickeln – Jetzt starten" 
+  primaryButton-label : "CTO Quick Check starten – kostenlos & konkret" 
   secondaryButton-label : "Mehr über Green Coding erfahren"
 
 ################## Problem Solution ###########################
@@ -70,10 +70,10 @@ about:
   title : "Die Softwareentwicklung steckt in einem Dilemma – wir lösen es nachhaltig."
   content : "<p>Agile Methoden und moderne IT-Technologien ermöglichen schnelle Entwicklungen – doch oft fehlt der Blick auf Nachhaltigkeit, Skalierbarkeit und Energieeffizienz. Diese Herausforderungen kosten Unternehmen langfristig Zeit, Geld und Wettbewerbsfähigkeit.</p>
   <ul class=\"problem-list\">
-    <li><b>⚡ Schnell, aber ohne Weitblick.</b> Klassische Agilität sorgt für Tempo – doch ohne Nachhaltigkeit leidet die Ressourceneffizienz und langfristige IT-Strategie.</li>
-    <li><b>🌱 Hoher Ressourcenverbrauch:</b> IT-Systeme verbrauchen mehr Energie als nötig, treiben Kosten in die Höhe und belasten die Umwelt.</li>
-    <li><b>📊 Keine klare Messbarkeit:</b> Ohne klare KPIs bleibt nachhaltige Softwareentwicklung ein Lippenbekenntnis.</li>
-    <li><b>🏗 Veraltete Strukturen, neue Herausforderungen:</b> Traditionelle Prozesse und starre Hierarchien blockieren nachhaltige Transformation.</li>
+    <li><b>Schnell, aber ohne Weitblick.</b> Klassische Agilität sorgt für Tempo – doch ohne Nachhaltigkeit leidet die Ressourceneffizienz und langfristige IT-Strategie.</li>
+    <li><b>Hoher Ressourcenverbrauch:</b> IT-Systeme verbrauchen mehr Energie als nötig, treiben Kosten in die Höhe und belasten die Umwelt.</li>
+    <li><b>Keine klare Messbarkeit:</b> Ohne klare KPIs bleibt nachhaltige Softwareentwicklung ein Lippenbekenntnis.</li>
+    <li><b>Veraltete Strukturen, neue Herausforderungen:</b> Traditionelle Prozesse und starre Hierarchien blockieren nachhaltige Transformation.</li>
   </ul>
   <p><b>Individuelle Lösungen: </b>
   Wir machen aus Herausforderungen Chancen. Mit Scaled Agile Coaching entwickeln wir agile Prozesse weiter – mit Nachhaltigkeit als zentralem Faktor. Durch Green Coding und einen optimierten Software Delivery Lifecycle helfen wir Unternehmen, ihre IT ressourcenschonend und zukunftssicher zu gestalten.</p>"

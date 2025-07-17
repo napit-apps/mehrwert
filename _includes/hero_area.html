@@ -1,21 +1,27 @@
 <!-- Slider Start -->
 {% assign banner = site.data.homepage.hero_area %}
-<section class="banner d-flex align-items-center text-center position-relative" style="min-height: 100vh;">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-10 banner-content">
-        <img src="{{ '/assets/images/logo-star.svg' | relative_url }}" alt="mehr.wert Logo" class="hero-logo mb-4">
-        <h2 class="text-white">{% t hero_area.title %}</h2>
-        <p class="text-white mt-4 mb-5">{% t hero_area.subheadline %}</p>
-        {% t hero_area.content %}
-        {% if banner.primaryButton.enable %}
+<section class="banner position-relative">
+		<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-7 col-md-7">
+				<div class="banner-content">
+					<span class="h5 text-color text-uppercase">{% t hero_area.title2 %}</span>
+					<h2 class="text-white mt-2">{% t hero_area.title %}</h2>
+          <p class="text-white mt-4 mb-5">{% t hero_area.subheadline %}</p>
+					<p class="my-4">{% t hero_area.content %}</p>
+					{% if banner.primaryButton.enable %}
           <p><a href="{{banner.primaryButton.link}}" class="btn btn-primary">{% t hero_area.primaryButton-label %}</a></p>
-        {% endif %}
-        {% if banner.secondaryButton.enable %}
+          {% endif %}
+          {% if banner.secondaryButton.enable %}
           <a href="{{ site.baseurl }}{{banner.secondaryButton.link}}" class="btn btn-secondary">{% t hero_area.secondaryButton-label %}</a>
-        {% endif %}
-      </div>
-    </div>
-  </div>
+          {% endif %}
+				</div>
+			</div>
+
+			<div class="col-lg-5 col-md-5 align-self-end">
+				<img src="{{ banner.image | relative_url }}" alt="" class="img-fluid position-absolute-">
+			</div>
+		</div>
+	</div>
 </section>
 <!-- Slider End -->

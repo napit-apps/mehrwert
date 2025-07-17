@@ -1,11 +1,12 @@
 ################## Hero Area #######################
 hero_area:
-  image : "/assets/images/banner/overlay.png"
+  background_image : "/assets/images/bg/landing.jpg"
+  image : "/assets/images/banner/2023.avif"
   primaryButton:
     enable : true
     link : "mailto:kontakt@mehrwert.com?subject=Kontaktanfrage"
   secondaryButton:
-    enable : true
+    enable : false
     link : "/blog.html"
     
 ################## Problem Solution ###########################
