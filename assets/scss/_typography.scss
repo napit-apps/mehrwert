@@ -70,6 +70,7 @@ h6,.h6 {
   padding-left: 1.2em;           /* Platz für eigenen Bullet */
   position: relative;
   margin: 0;
+  text-align: left;
 
   li::before {
     content: "✔";                  /* Bullet manuell einfügen */
