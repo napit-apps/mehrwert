@@ -2,15 +2,7 @@
 	position: relative;
 	background-color: white;
 
-	&:before{
-		position: absolute;
-		content:"";
-		background: url("../images/about/pattern-bg.png")no-repeat;
-		width:90%;
-		height: 100%;
-		left: 97%;
-		top: 23px;
-	}
+
 	.about-img{
 		position: relative;
 		.video-play{

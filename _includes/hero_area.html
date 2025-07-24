@@ -6,8 +6,10 @@
       <div class="col-lg-10 banner-content">
         <img src="{{ '/assets/images/logo-star.svg' | relative_url }}" alt="mehr.wert Logo" class="hero-logo mb-4">
         <h2 class="text-white">{% t hero_area.title %}</h2>
-        <p class="text-white mt-4 mb-5">{% t hero_area.subheadline %}</p>
-        {% t hero_area.content %}
+        <p class="text-white mt-4 mb-5 text-italic">{% t hero_area.subheadline %}</p>
+        {% if banner.content.enable %}
+          {% t hero_area.content %}
+        {% endif %}
         {% if banner.primaryButton.enable %}
           <p><a href="{{banner.primaryButton.link}}" class="btn btn-primary">{% t hero_area.primaryButton-label %}</a></p>
         {% endif %}

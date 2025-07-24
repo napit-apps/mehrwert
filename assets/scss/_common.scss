@@ -91,10 +91,31 @@ a:focus {
 	overflow: hidden !important;
 }
 
+.text-italic {
+	font-style: italic;
+}
+
+.text-small {
+	font-size: smaller;
+}
+
 .slick-slide {
 	outline: 0;
 
 	img {
 		display: inline-block;
 	}
+}
+
+.more-link {
+	margin: 1em auto;
+}
+
+.more-link::after {
+	font-family: 'themify';
+  	content: "\e649"; /* Unicode für ti-arrow-right */
+  	display: inline-block;
+  	margin-left: 0.1em;
+  	font-size: 0.9em;
+ 	vertical-align: middle;
 }

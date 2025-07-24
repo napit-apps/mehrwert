@@ -73,7 +73,9 @@ sass:
 collections:
   testimonials:
     output: true
-  portfolios:
+  de/_portfolios:
+    output: true
+  en/_portfolios:
     output: true
   trainings:
     output: true

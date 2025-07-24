@@ -3,7 +3,7 @@
 {% assign services = site.translations[site.lang].services %}
 
 {% if service-config.enable %}
-<section class="section-sm service bg-secondary">
+<section class="section-sm service bg-secondary border-top">
 	<div class="container">
 		<div class="row justify-content-center">
 			{% for service in services.item %}
@@ -12,6 +12,9 @@
 					<i class="{{ service.icon }} text-color icon-md"></i>
 					<h4 class="my-4 text-white">{{ service.name }}</h4>
 					<p>{{ service.content }}</p>
+					{% if service.btn-label %}
+          				<a class="more-link text-color" href="{{ service.btn-url }}"> {{ service.btn-label }} </a>
+       				 {% endif %}	
 				</div>
 			</div>
 			{% endfor %}

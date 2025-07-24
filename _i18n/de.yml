@@ -1,6 +1,6 @@
 ################## Page #######################
-page_title: "mehr.wert - Nachhaltig bessere Software | Agile & effiziente Entwicklung"
-page_description: "Wir verbinden Agilität mit Nachhaltigkeit, damit Unternehmen Software verantwortungsvoll, effizient und innovativ entwickeln können."
+page_title: "mehr.wert - Fractional CTO & Agile Leadership für nachhaltige Softwarelösungen"
+page_description: "Strategische IT-Beratung für Unternehmen im Wandel: Als CTO auf Zeit unterstütze ich Sie bei Architekturentscheidungen, Teamführung, agilen Prozessen und nachhaltiger Softwareentwicklung. Klar. Umsetzbar. Wirkungsvoll."
 
 ################## General #######################
 empty: " "
@@ -9,13 +9,15 @@ close: "Schließen"
 
 ################## Menu Area #######################
 main-menue:
-  - name: Blog
-    url: /blog.html
-  - name: Schulungen
+  - name: Leistungen
     url: "#"
     submenu: 
-      - name: Green Coding Grundlagen
+      - name: CTO auf Zeit
+        url: "/services/fractional-cto.html"
+      - name: Green Coding Training
         url: "/trainings/gsp.html"
+  - name: Blog
+    url: /blog.html
   - name: Über uns
     url: "#"
     submenu:
@@ -51,33 +53,48 @@ bottom:
 
 ################## Hero Area #######################
 hero_area:
-  title : "Nachhaltig bessere Software"
-  title2 : "Software trifft Nachhaltigkeit -<br/> Software die begeistert"
-  subheadline : "Agil, ressourcenschonend und zukunftssicher: Wir verbinden Softwareentwicklung mit Nachhaltigkeit und Effizienz – für Unternehmen, die Verantwortung übernehmen."
-  content : 
-    "<ul class=\"list-hero mt-4 mb-5\">
-      <li><b>🌱 Nachhaltige IT:</b> Ressourcenschonende Softwareentwicklung mit messbarem Impact</li>
-      <li><b>🔍 Transparenz & Vertrauen:</b> Klare Prozesse, ehrliche Beratung, verlässliche Ergebnisse</li>
-      <li><b>🤝 Zusammenarbeit auf Augenhöhe:</b> Partnerschaftlich & pragmatisch zum nachhaltigen Erfolg</li>
-      <li><b>📈 Messbare Nachhaltigkeit:</b> Datenbasierte Optimierung für grüne & effiziente IT-Lösungen</li>
-    </ul>"
-  primaryButton-label : "Nachhaltige Software entwickeln – Jetzt starten" 
-  secondaryButton-label : "Mehr über Green Coding erfahren"
+  title : "Wir geben IT einen Wert.<br />Und Ihren Ideen neuen Spielraum."
+  subheadline : "Wir denken strategisch, handeln verantwortungsvoll und gestalten Wandel mit technischer Klarheit. Das Ergebnis sind tragfähige Strukturen, handlungsfähige Teams und Software mit nachhaltiger Wirkung."
+  content: "hello world"
+  primaryButton-label : "Jetzt ins Gespräch kommen" 
+  secondaryButton-label : ""
+
+
+###################### Services #####################
+services:
+  title: "Nachhaltige IT. Agile Prozesse. Messbare Ergebnisse."
+  subtitle: "Wir verbinden Agilität mit Verantwortung, um Softwareentwicklung zukunftssicher zu gestalten. Unsere Services helfen Unternehmen, effizienter, ressourcenschonender und messbar erfolgreicher zu werden."
+  item:
+  - name : "CTO auf Zeit"
+    content : "Technische Führung auf Zeit – für KMU, NGOs und Startups mit wachsender IT. Wir bringen Struktur in Ihre IT-Landschaft, begleiten technologische Entscheidungen und machen Ihr Team fit für die Zukunft."
+    icon: "ti-direction"
+    btn-label: "Mehr erfahren"
+    btn-url: "/services/fractional-cto.html"
+
+  - name : "Green Agile Coaching"
+    content : "Agilität, die wirkt – für Teams, Prozesse und nachhaltigen Wandel. Wir verbinden agile Methoden mit Sinn, Struktur und Verantwortung. Für Klarheit, Zusammenarbeit und echten Fortschritt."
+    icon: "ti-stats-up"
+
+  - name : "Green Coding Training"
+    content : "Nachhaltige Software beginnt beim Code. Wir zeigen Entwicklungsteams, wie sie messbar Ressourcen sparen – ohne Produktivitätseinbußen."
+    icon: "ti-medall"
+    btn-label: "Zum Training"
+    btn-url: "/trainings/gsp.html"
+
 
 ################## Problem Solution ###########################
 about:
-  subtitle : "Nachhaltige IT-Modernisierung"
-  title : "Die Softwareentwicklung steckt in einem Dilemma – wir lösen es nachhaltig."
-  content : "<p>Agile Methoden und moderne IT-Technologien ermöglichen schnelle Entwicklungen – doch oft fehlt der Blick auf Nachhaltigkeit, Skalierbarkeit und Energieeffizienz. Diese Herausforderungen kosten Unternehmen langfristig Zeit, Geld und Wettbewerbsfähigkeit.</p>
-  <ul class=\"problem-list\">
-    <li><b>⚡ Schnell, aber ohne Weitblick.</b> Klassische Agilität sorgt für Tempo – doch ohne Nachhaltigkeit leidet die Ressourceneffizienz und langfristige IT-Strategie.</li>
-    <li><b>🌱 Hoher Ressourcenverbrauch:</b> IT-Systeme verbrauchen mehr Energie als nötig, treiben Kosten in die Höhe und belasten die Umwelt.</li>
-    <li><b>📊 Keine klare Messbarkeit:</b> Ohne klare KPIs bleibt nachhaltige Softwareentwicklung ein Lippenbekenntnis.</li>
-    <li><b>🏗 Veraltete Strukturen, neue Herausforderungen:</b> Traditionelle Prozesse und starre Hierarchien blockieren nachhaltige Transformation.</li>
-  </ul>
-  <p><b>Individuelle Lösungen: </b>
-  Wir machen aus Herausforderungen Chancen. Mit Scaled Agile Coaching entwickeln wir agile Prozesse weiter – mit Nachhaltigkeit als zentralem Faktor. Durch Green Coding und einen optimierten Software Delivery Lifecycle helfen wir Unternehmen, ihre IT ressourcenschonend und zukunftssicher zu gestalten.</p>"
-  cta: "Lassen Sie uns Ihre IT nachhaltig transformieren – Jetzt starten."
+  subtitle : "Nachhaltig bessere Software"
+  title : "Wir stehen für MEHR.WERT – und das beginnt mit Haltung."
+  content : "<p>Wir begleiten Unternehmen, die nicht nur digital mithalten, sondern zukunftsfähig gestalten wollen.
+              Als Gründer von mehr.wert bringe ich – Marcel Russ – über ein Jahrzehnt Erfahrung in Softwareentwicklung, agiler Führung und Technologiebegleitung ein.</p>
+            <p>Unser Anspruch: Strategische Klarheit, partnerschaftliche Beratung und technisches Denken mit Verantwortung. Gemeinsam entwickeln wir Strukturen, Teams und Lösungen, die wirken – heute und morgen.</p>"
+  btn-label: "Mehr über unsere Haltung & Arbeitsweise"
+  quote: "„Technologie braucht Richtung. Und eine Haltung, die bleibt.“ — Marcel Russ"
+
+################## Portfolio Area #######################
+
+
 
 ################## Mission Area #######################
 mission:
@@ -104,24 +121,6 @@ mission:
 vision:
   title: "Unsere Vision"
   statement: "Nachhaltige Agilität wird zum Standard in der Softwareentwicklung. Unternehmen entwickeln nicht nur schnell, sondern auch verantwortungsvoll – mit einer Kultur, die Innovation, Resilienz und effizienten Ressourceneinsatz vereint. Unsere Vision ist eine digitale Welt, in der Software nicht nur leistungsfähig, sondern auch nachhaltig und zukunftssicher ist."
-
-
-###################### Services #####################
-services:
-  title: "Nachhaltige IT. Agile Prozesse. Messbare Ergebnisse."
-  subtitle: "Wir verbinden Agilität mit Verantwortung, um Softwareentwicklung zukunftssicher zu gestalten. Unsere Services helfen Unternehmen, effizienter, ressourcenschonender und messbar erfolgreicher zu werden."
-  item:
-  - name : "Agilität mit Verantwortung"
-    content : "Wir schaffen eine nachhaltige Entwicklungskultur – durch agile Prinzipien, die Zusammenarbeit stärken, Entscheidungsprozesse verbessern und Teams befähigen, effizient und verantwortungsbewusst zu arbeiten."
-    icon: "ti-rocket"
-
-  - name : "Green Coding & Energieeffizienz"
-    content : "Wir reduzieren den Energieverbrauch Ihrer IT durch optimierte Softwarearchitekturen & ressourcenschonende Algorithmen – für leistungsfähige und kosteneffiziente Lösungen."
-    icon: "ti-desktop"
-
-  - name : "Messbare Nachhaltigkeit & IT-Transparenz"
-    content : "Wir machen Nachhaltigkeit in der IT greifbar – mit klaren KPIs, Reporting-Standards und Strategien zur CO₂-Reduktion. Wir helfen Unternehmen, die richtigen Metriken für das CSRD-Reporting zu identifizieren und fundierte Daten bereitzustellen."
-    icon: "ti-eye"
 
 ######################### Testimonail ####################
 Testimonial_01: "Testimonial_01"
