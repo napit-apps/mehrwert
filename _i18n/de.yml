@@ -92,8 +92,57 @@ about:
   btn-label: "Mehr über unsere Haltung & Arbeitsweise"
   quote: "„Technologie braucht Richtung. Und eine Haltung, die bleibt.“ — Marcel Russ"
 
-################## Portfolio Area #######################
 
+################## Portfolio Area #######################
+#TODO: more-links, card-colors
+portfolios:
+  subtitle: "Ein paar ausgewählte Referenzen"
+  title: "Unser Portfolio"
+  item:
+    - name: "EnBW Agile Coaching"
+      description: "Skaliertes agiles Arbeiten für 20+ Teams – mit Struktur, Metriken und Wirkung."
+      color: "#1D1F25"  # Dunkles Graphit (Basis für Stabilität)
+      popup: "Wir begleiten Organisationen bei der Einführung agiler Skalierung. Mit Fokus auf Teamautonomie, Transparenz und Planbarkeit gestalten wir Prozesse, die wirklich funktionieren – mit Wirkung bis ins Management."
+
+    - name: "Mobile Leadership @ Hugo Boss"
+      description: "Teamaufbau (international), Produktverantwortung und agile Skalierung im Fashion-Tech."
+      color: "#5F4B8B"  # CI-nahes Violett
+      popup: "Wir führten ein interdisziplinäres Mobile & Web-Team bei Hugo Boss und entwickelten digitale Produkte für Stores und Supply Chain. Ergebnis: effizientere Prozesse und spürbarer Mehrwert für Mitarbeitende und Kunden."
+
+    - name: "Green Agile Guide"
+      description: "Nachhaltigkeit trifft Agilität – als Open-Source-Framework für IT-Teams."
+      color: "#5C8F87"  # Desaturiertes Türkis-Grün (nah an CI-Grün)
+      popup: "Wir verbinden Nachhaltigkeit und Agilität – mit einem Open-Source-Framework, das ökologische, ökonomische und soziale Prinzipien in agile Prozesse integriert."
+
+    - name: "Aufbau internationaler Teams"
+      description: "Internationale Teams strategisch aufbauen – effizient, integriert, skalierbar."
+      color: "#322F40"  # CI-nahes Dunkelviolett
+      popup: "Wir etablierten leistungsfähige Nearshore-Teams (Portugal, Slowakei, England, Tschechien, Indien) und führten sie erfolgreich in verteilte Entwicklungsprozesse ein – mit klarer Kommunikation, Qualitätssicherung und technischer Verantwortung."
+
+    - name: "CTO auf Zeit"
+      description: "Technische Führung auf Zeit – Struktur, Architektur und Klarheit für KMU & Startups."
+      color: "#44464F"  # Neutraler Metallton – modern & zurückhaltend
+      popup: "Wir bringen technische Führung in Ihr Unternehmen – genau dann, wenn sie gebraucht wird. Von Architektur über Teamstruktur bis zur Skalierungsstrategie: pragmatisch, erfahren und auf Augenhöhe."
+
+    - name: "Green Coding Training"
+      description: "Nachhaltige Softwareentwicklung praxisnah erklärt – mit Strategie & Wirkung."
+      color: "#518CA8"  # Ruhiges Blau – tech-freundlich
+      popup: "Wir vermitteln praxisnahes Wissen zu energieeffizientem Coden. Die Trainings verbinden Entwicklungsalltag mit nachhaltigen Entscheidungen – messbar, konkret und zukunftsweisend."
+
+    - name: "Instore-Digitalisierung"
+      description: "Digitale Plattform für Stores – Information, Beratung und neue Kanäle im Handel."
+      color: "#A77EB4"  # Softes, helleres Violett – feminin & modern
+      popup: "Wir entwickelten digitale Tools für Store-Mitarbeitende – von Produktinfos bis zu Management-KPIs. Ergebnis: eine zentrale Plattform, die Effizienz steigert und neue Vertriebskanäle eröffnet."
+
+    - name: "myWork Zeiterfassung"
+      description: "Mobile Zeiterfassung neu gedacht – einfach, effizient, individuell."
+      color: "#5BA382"  # Abgeleitet aus CI-Türkis – minimal grüner
+      popup: "Wir entwickelen und betreiben eine umfangreiche App für einfache, verlässliche Zeiterfassung. Mit tollen Automatismen,  datenschutzkonform und mit intuitiver Benutzerführung – für Angestellte, Selbständige und kleine Teams."
+
+    - name: "Smartes Sportshirt (Prototyp)"
+      description: "Sensorbasiertes Training – mit App, 3D-Modell und Echtzeit-Feedback für mehr Präzision."
+      color: "#3C3F53"  # Dunkles Blau-Violett – sportlich, techig, dezent
+      popup: "Wir entwickelten einen Sensor-basierten Prototyp zur Analyse von Bewegungsabläufen im Training. Kombiniert mit einer App, die Feedback und Visualisierungen liefert – als Brücke zwischen Technik und Körpergefühl."
 
 
 ################## Mission Area #######################

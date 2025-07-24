@@ -1,17 +1,26 @@
-{% for portfolio in site.portfolios %}
-<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for category in portfolio.categories %} &quot;{{ category | downcase | slugify }}&quot; {% unless forloop.last %}, {% endunless %} {% endfor %}]">
+{% assign items = site.translations[site.lang].portfolios %}
+{% for item in items.item %}
+<div class="col-lg-4 col-6 mb-4 shuffle-item">
   <div class="position-relative inner-box">
-    <div class="image position-relative ">
-      <img src="{{portfolio.thumbnail }}" alt="portfolio-image" class="img-fluid w-100 d-block" />
+    
+    <!-- farbige Fläche übernimmt Bildfläche -->
+    <div class="image position-relative d-flex align-items-center justify-content-center text-white"
+         style="background-color: {{ item.color }}; height: 250px;">
+
+      <!-- Titel mittig zentriert -->
+      <h5 class="portfolio-title mb-0 text-center">{{ item.name }}</h5>
+
+      <!-- Overlay-Box für Hover-Beschreibung -->
       <div class="overlay-box">
         <div class="overlay-inner">
-          <a class="overlay-content text-center" href="{{portfolio.url | relative_url }}">
-            <h5 class="mb-0 text-white">{{portfolio.title}}</h5>
-            <p>{% for category in portfolio.categories %} {{category}}{% unless forloop.last %} , {% endunless %} {% endfor %}</p>
+          <a class="overlay-content text-center">
+            <p>{{ item.description }}</p>
           </a>
         </div>
       </div>
+
     </div>
+    
   </div>
 </div>
 {% endfor %}

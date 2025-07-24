@@ -44,6 +44,23 @@
   }
 }
 
+.portfolio-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.inner-box:hover .portfolio-title {
+  opacity: 0;
+  transition-delay: 0.1s;
+}
+
 
 //  Portfolio-2
 //  
