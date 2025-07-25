@@ -24,7 +24,11 @@
 .counter-description-container {
 	@include mobile {
     	text-align: center;
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
+
+		p {
+			text-align: left;
+		}
   	}
 }
 
