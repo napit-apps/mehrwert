@@ -14,6 +14,9 @@
 <div class="portfolio-modal mfp-hide" id="portfolioModal{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
     <h5 class="modal-title" id="myModalLabel">{{ item.name }}</h5>
     <p>{{ item.popup }}</p>
+    {% if item.more-link %}
+      <a class="more-link text-color" href="{{ item.more-link }}" target="_blank">{% t readmore %}</a>
+    {% endif %}
 </div>
 
 

@@ -94,7 +94,6 @@ about:
 
 
 ################## Portfolio Area #######################
-#TODO: more-links, card-colors
 portfolios:
   subtitle: "Ein paar ausgewählte Projekte"
   title: "Unser Erfahrungen"
@@ -113,6 +112,7 @@ portfolios:
       description: "Nachhaltigkeit trifft Agilität – als Open-Source-Framework für IT-Teams."
       color: "#5C8F87"  # Desaturiertes Türkis-Grün (nah an CI-Grün)
       popup: "Wir verbinden Nachhaltigkeit und Agilität – mit einem Open-Source-Framework, das ökologische, ökonomische und soziale Prinzipien in agile Prozesse integriert."
+      more-link: "https://greenagile.org"
 
     - name: "Aufbau internationaler Teams"
       description: "Internationale Teams strategisch aufbauen – effizient, integriert, skalierbar."
@@ -123,11 +123,13 @@ portfolios:
       description: "Technische Führung auf Zeit – Struktur, Architektur und Klarheit für KMU & Startups."
       color: "#44464F"  # Neutraler Metallton – modern & zurückhaltend
       popup: "Ich bringe technische Führung in Ihr Unternehmen – genau dann, wenn sie gebraucht wird. Von Architektur über Teamstruktur bis zur Skalierungsstrategie: pragmatisch, erfahren und auf Augenhöhe."
+      more-link: "/services/fractional-cto.html"
 
     - name: "Green Coding Training"
       description: "Nachhaltige Softwareentwicklung praxisnah erklärt – mit Strategie & Wirkung."
       color: "#518CA8"  # Ruhiges Blau – tech-freundlich
       popup: "Wir vermitteln praxisnahes Wissen zu energieeffizientem Coden. Die Trainings verbinden Entwicklungsalltag mit nachhaltigen Entscheidungen – messbar, konkret und zukunftsweisend."
+      more-link: "/trainings/gsp.html"
 
     - name: "Instore-Digitalisierung"
       description: "Digitale Plattform für Stores – Information, Beratung und neue Kanäle im Handel."
@@ -138,6 +140,7 @@ portfolios:
       description: "Mobile Zeiterfassung neu gedacht – einfach, effizient, individuell."
       color: "#5BA382"  # Abgeleitet aus CI-Türkis – minimal grüner
       popup: "Ich entwickle und betreibe eine umfangreiche App für einfache, verlässliche Zeiterfassung. Mit tollen Automatismen, datenschutzkonform und mit intuitiver Benutzerführung – für Angestellte, Selbständige und kleine Teams."
+      more-link: "https://apps.apple.com/de/app/mywork/id487617582?l=de#?platform=iphone"
 
     - name: "Smartes Sportshirt (Prototyp)"
       description: "Sensorbasiertes Training – mit App, 3D-Modell und Echtzeit-Feedback für mehr Präzision."
