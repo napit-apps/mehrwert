@@ -115,3 +115,9 @@
 .text-black{
 	color: $black;
 }
+
+.about-textbox {
+	@include mobile {
+			text-align: center;
+  		}
+}

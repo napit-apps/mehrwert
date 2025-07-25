@@ -2,7 +2,7 @@
 {% for item in items.item %}
 <div class="col-lg-4 col-6 mb-4 shuffle-item">
   <div class="position-relative inner-box">
-    <div class="image position-relative d-flex align-items-center justify-content-center text-white" style="background-color: {{ item.color }}; height: 250px;">    
+    <div class="overlay-container position-relative d-flex align-items-center justify-content-center text-white" style="background-color: {{ item.color }};">    
       <h5 class="portfolio-title mb-0">{{ item.name }}</h5>
       
       <div class="overlay-box">

@@ -1,5 +1,11 @@
 .service {
 	position: relative;
+	.service-item-container {
+		@include tablet {
+			border-right: none !important;
+			padding-bottom: 40px;
+  		}
+	}
 
 	.service-item {
 		padding: 0px 30px;

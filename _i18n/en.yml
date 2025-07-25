@@ -82,7 +82,6 @@ about:
   quote: "„Technologie braucht Richtung. Und eine Haltung, die bleibt.“ — Marcel Russ"
 
 ################## Portfolio Area #######################
-#TODO: more-links, card-colors
 portfolios:
   subtitle: "EN: Ein paar ausgewählte Referenzen"
   title: "Our Portfolio"
@@ -305,9 +304,9 @@ contact:
 
 ###################### Blog ######################
 blog:
-  enable: false
+  enable: true
   title : "latest article"
-  subtitle : "Stay Update with mehr.wert"
+  subtitle : "Stay Update with MEHR.WERT"
 
 blog-landing:
   enable: true

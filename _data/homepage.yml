@@ -33,7 +33,7 @@ testimonial:
 
 ###################### Funfacts #########################
 funfacts:
-  enable : true
+  enable : false
   bg_image : "/assets/images/bg/cta-bg.png"
 
 
@@ -103,7 +103,5 @@ contact:
 
 ###################### Blog ######################
 blog:
-  enable: false
-  title : "latest article"
-  subtitle : "Stay Update with mehr.wert"
+  enable: true
 

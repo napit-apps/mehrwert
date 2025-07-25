@@ -305,8 +305,8 @@ team:
 
 contact:
   title: "Kontakt"
-  subtitle: "Brauchen Sie Unterstützung bei der Umsetzung nachhaltiger IT-Lösungen?"
-  intro: "Schreiben Sie uns – gemeinsam finden wir die passende Lösung für Sie."
+  subtitle: "Lassen Sie uns gemeinsam mehr Wert entfalten."
+  intro: "Schreiben Sie uns – wir zeigen Ihnen, wie Technik, Teams und Strategie nachhaltig wirken können."
   form : 
     name: "Name"
     email: "E-Mail"
@@ -321,7 +321,7 @@ contact:
 blog:
   enable: false
   title : "Blog & Artikel"
-  subtitle : "Bleib up-to Date mit mehr.wert"
+  subtitle : "Bleib up-to Date mit MEHR.WERT"
 
 blog-landing:
   enable: true
