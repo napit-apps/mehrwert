@@ -186,7 +186,8 @@ testimonial:
 funfacts:
   enable : true
   title: "Zeit zu(m) Handeln"
-  subtitle: "Nachhaltigkeit beginnt im Code"
+  subtitle: "Technologie mit Verantwortung"
+  description: "Unsere digitale Welt wächst – und mit ihr der ökologische Fußabdruck der IT. Von Datenmüll über ineffizienten Code bis hin zu energiehungrigen Infrastrukturen. Wir glauben: Wer Software entwickelt, trägt Verantwortung. Deshalb gestalten wir IT so, dass sie wirkt – für Ihre Ziele und für morgen."
   item:
   - name : "Eine E-Mail ohne Anhang"
     icon : "ti-email"
@@ -303,6 +304,13 @@ team:
     image : "/assets/images/team/team-4.jpg"
 
 
+###################### Banner ######################
+banner:
+  enable: true
+  quote: "„Wir arbeiten dort, wo Struktur, Strategie und Haltung gebraucht werden – nicht dort, wo man die Schuld auf andere schiebt.“"
+  title: "MEHR.WERT bedeutet Klarheit, nicht Show."
+
+###################### Contact ######################
 contact:
   title: "Kontakt"
   subtitle: "Lassen Sie uns gemeinsam mehr Wert entfalten."
@@ -320,7 +328,7 @@ contact:
 ###################### Blog ######################
 blog:
   enable: false
-  title : "Blog & Artikel"
+  title : "Neueste Artikel"
   subtitle : "Bleib up-to Date mit MEHR.WERT"
 
 blog-landing:

@@ -2,14 +2,14 @@
 {% assign blog-config = site.data.homepage.blog %}
 {% assign blog = site.translations[site.lang].blog %}
 {% if blog-config.enable %}
-<section class="section latest-blog position-relative overflow-hidden bg-primary">
+<section class="section latest-blog position-relative overflow-hidden bg-secondary">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<span class="h5 text-white text-uppercase">
+				<span class="h5 text-color text-uppercase">
 					{{blog.title}}
 				</span>
-				<h3 class="mb-5 mt-2">{{blog.subtitle}}</h3>
+				<h3 class="mb-5 mt-2 text-white">{{blog.subtitle}}</h3>
 			</div>
 		</div>
 		<div class="row justify-content-center">

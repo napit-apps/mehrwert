@@ -287,6 +287,13 @@ team:
     designation : "Manager"
     image : "/assets/images/team/team-4.jpg"
 
+###################### Banner ######################
+banner:
+  enable: true
+  quote: "„Wir arbeiten dort, wo Struktur, Strategie und Haltung gebraucht werden – nicht dort, wo man die Schuld auf andere schiebt.“"
+  title: "mehr.wert bedeutet Klarheit, nicht Show."
+
+###################### Contact ######################
 
 contact:
   title: "Let's Innovate Together!"

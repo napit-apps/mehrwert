@@ -33,7 +33,7 @@ testimonial:
 
 ###################### Funfacts #########################
 funfacts:
-  enable : false
+  enable : true
   bg_image : "/assets/images/bg/cta-bg.png"
 
 
@@ -104,4 +104,3 @@ contact:
 ###################### Blog ######################
 blog:
   enable: true
-
