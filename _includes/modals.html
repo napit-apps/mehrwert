@@ -1,4 +1,6 @@
  <!-- testimonial Modals -->
+{% assign testimonial-config = site.data.homepage.testimonial %}
+{% if testimonial-config.enable %}
  {% for testimonial in site.testimonials %}
  <div class="testimonial-modal mfp-hide" id="testimonialModal{{ testimonial.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
     <h5 class="modal-title" id="myModalLabel">{{ testimonial.name }}</h5>
@@ -7,6 +9,7 @@
     <p>{{ testimonial.top-skills }}</p> -->
   </div>
 {% endfor %}
+{% endif %}
 
 <!-- poprtfolio modals -->
 {% assign items = site.translations[site.lang].portfolios %}
@@ -18,16 +21,7 @@
       <a class="more-link text-color" href="{{ item.more-link }}" target="_blank">{% t readmore %}</a>
     {% endif %}
 </div>
-
-
-<div class="testimonial-modal mfp-hide" id="testimonialModal{{ testimonial.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-    <h5 class="modal-title" id="myModalLabel">{{ testimonial.name }}</h5>
-    <p>"{{ testimonial.feedback_full }}"</p>
-    <!-- <p>{{ testimonial.topics }}</p>
-    <p>{{ testimonial.top-skills }}</p> -->
-  </div>
 {% endfor %}
-
 
 <!-- skill Modals -->
 {% assign skill-config = site.data.homepage.skill %}

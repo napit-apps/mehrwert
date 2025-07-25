@@ -27,7 +27,7 @@ services:
 
 ######################### Testimonail ####################
 testimonial:
-  enable : true
+  enable : false
   bg_image : "/assets/images/bg/bg-pricing.jpg" 
 
 
@@ -43,7 +43,7 @@ portfolios:
 
 ###################### Skill #############################
 skill:
-  enable : true
+  enable : false
   image : "/assets/images/about/skill.jpg"
 
   certificates-title: "Certificates"
