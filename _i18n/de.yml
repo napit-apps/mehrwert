@@ -185,7 +185,7 @@ testimonial:
 ###################### Funfacts #########################
 funfacts:
   enable : true
-  title: "Zeit zu(m) Handeln"
+  title: "Zeit zu handeln"
   subtitle: "Technologie mit Verantwortung"
   description: "Unsere digitale Welt wächst – und mit ihr der ökologische Fußabdruck der IT. Von Datenmüll über ineffizienten Code bis hin zu energiehungrigen Infrastrukturen. Wir glauben: Wer Software entwickelt, trägt Verantwortung. Deshalb gestalten wir IT so, dass sie wirkt – für Ihre Ziele und für morgen."
   item:
@@ -308,7 +308,7 @@ team:
 banner:
   enable: true
   quote: "„Wir arbeiten dort, wo Struktur, Strategie und Haltung gebraucht werden – nicht dort, wo man die Schuld auf andere schiebt.“"
-  title: "MEHR.WERT bedeutet Klarheit, nicht Show."
+  title: "MEHR.WERT liefert Klarheit, nicht nur Worte."
 
 ###################### Contact ######################
 contact:

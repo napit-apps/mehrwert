@@ -7,14 +7,14 @@
     <div class="row align-items-start">
       
       <!-- Linke Spalte: Titel, Untertitel, Beschreibung -->
-    <div class="col-lg-7 col-md-12 mb-5 mb-lg-0">
+    <div class="counter-description-container col-lg-6 col-md-7">
     	<span class="h5 text-color text-uppercase">{{ items.subtitle }}</span>
     	<h3 class="my-3 text-white">{{ items.title }}</h3>
     	<p class="text-light">{{ items.description }}</p>
   	</div>
 
       <!-- Rechte Spalte: Funfacts-Icons -->
-    <div class="counter-container col-lg-5 col-md-12">
+    <div class="counter-container col-md-5">
    	{% for item in items.item %}
 		<div class="counter-content d-flex align-items-start mb-4">
 			<i class="{{ item.icon }} mr-4 mt-1" style="font-size: 36px; color: #42b883;"></i>
