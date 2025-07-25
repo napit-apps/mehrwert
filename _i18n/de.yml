@@ -96,8 +96,8 @@ about:
 ################## Portfolio Area #######################
 #TODO: more-links, card-colors
 portfolios:
-  subtitle: "Ein paar ausgewählte Referenzen"
-  title: "Unser Portfolio"
+  subtitle: "Ein paar ausgewählte Projekte"
+  title: "Unser Erfahrungen"
   item:
     - name: "EnBW Agile Coaching"
       description: "Skaliertes agiles Arbeiten für 20+ Teams – mit Struktur, Metriken und Wirkung."
@@ -105,9 +105,9 @@ portfolios:
       popup: "Wir begleiten Organisationen bei der Einführung agiler Skalierung. Mit Fokus auf Teamautonomie, Transparenz und Planbarkeit gestalten wir Prozesse, die wirklich funktionieren – mit Wirkung bis ins Management."
 
     - name: "Mobile Leadership @ Hugo Boss"
-      description: "Teamaufbau (international), Produktverantwortung und agile Skalierung im Fashion-Tech."
+      description: "Teamaufbau (international), Produkt-Verantwortung und agile Skalierung im Fashion-Tech."
       color: "#5F4B8B"  # CI-nahes Violett
-      popup: "Wir führten ein interdisziplinäres Mobile & Web-Team bei Hugo Boss und entwickelten digitale Produkte für Stores und Supply Chain. Ergebnis: effizientere Prozesse und spürbarer Mehrwert für Mitarbeitende und Kunden."
+      popup: "Ich führte ein interdisziplinäres Mobile & Web-Team bei Hugo Boss und entwickelte digitale Produkte für Stores und Supply Chain. Ergebnis: effizientere Prozesse und spürbarer Mehrwert für Mitarbeitende und Kunden."
 
     - name: "Green Agile Guide"
       description: "Nachhaltigkeit trifft Agilität – als Open-Source-Framework für IT-Teams."
@@ -122,7 +122,7 @@ portfolios:
     - name: "CTO auf Zeit"
       description: "Technische Führung auf Zeit – Struktur, Architektur und Klarheit für KMU & Startups."
       color: "#44464F"  # Neutraler Metallton – modern & zurückhaltend
-      popup: "Wir bringen technische Führung in Ihr Unternehmen – genau dann, wenn sie gebraucht wird. Von Architektur über Teamstruktur bis zur Skalierungsstrategie: pragmatisch, erfahren und auf Augenhöhe."
+      popup: "Ich bringe technische Führung in Ihr Unternehmen – genau dann, wenn sie gebraucht wird. Von Architektur über Teamstruktur bis zur Skalierungsstrategie: pragmatisch, erfahren und auf Augenhöhe."
 
     - name: "Green Coding Training"
       description: "Nachhaltige Softwareentwicklung praxisnah erklärt – mit Strategie & Wirkung."
@@ -137,12 +137,12 @@ portfolios:
     - name: "myWork Zeiterfassung"
       description: "Mobile Zeiterfassung neu gedacht – einfach, effizient, individuell."
       color: "#5BA382"  # Abgeleitet aus CI-Türkis – minimal grüner
-      popup: "Wir entwickelen und betreiben eine umfangreiche App für einfache, verlässliche Zeiterfassung. Mit tollen Automatismen,  datenschutzkonform und mit intuitiver Benutzerführung – für Angestellte, Selbständige und kleine Teams."
+      popup: "Ich entwickle und betreibe eine umfangreiche App für einfache, verlässliche Zeiterfassung. Mit tollen Automatismen, datenschutzkonform und mit intuitiver Benutzerführung – für Angestellte, Selbständige und kleine Teams."
 
     - name: "Smartes Sportshirt (Prototyp)"
       description: "Sensorbasiertes Training – mit App, 3D-Modell und Echtzeit-Feedback für mehr Präzision."
       color: "#3C3F53"  # Dunkles Blau-Violett – sportlich, techig, dezent
-      popup: "Wir entwickelten einen Sensor-basierten Prototyp zur Analyse von Bewegungsabläufen im Training. Kombiniert mit einer App, die Feedback und Visualisierungen liefert – als Brücke zwischen Technik und Körpergefühl."
+      popup: "Sensor-basierten Prototyp zur Analyse von Bewegungsabläufen im Training. Kombiniert mit einer App, die Feedback und Visualisierungen liefert – als Brücke zwischen Technik und Körpergefühl."
 
 
 ################## Mission Area #######################

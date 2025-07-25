@@ -109,6 +109,13 @@ a:focus {
 
 .more-link {
 	margin: 1em auto;
+	
+	&:hover,
+  	&:active,
+  	&.focus,
+ 	&.active {
+    color: $blue !important;
+  }
 }
 
 .more-link::after {

@@ -200,7 +200,10 @@
       transition: .2s ease;
       transition-delay: .0s;
     }
-    p{
+
+    a,
+    span,
+    p {
       color: $white;
       transform: translateX(-16px);
       opacity: 0;
@@ -226,7 +229,9 @@
       opacity: 1;
       transition-delay: .4s;
     }
-    p{
+    a,
+    span,
+    p {
       transform: translateX(0);
       opacity: 1;
       transition-delay: .5s;
