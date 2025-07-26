@@ -71,6 +71,8 @@ sass:
 
 #collections
 collections:
+  services:
+    output: true
   testimonials:
     output: true
   trainings:

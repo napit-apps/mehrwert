@@ -287,22 +287,10 @@ clients:
 team:
   enable : false
   item:
-  - name : "Liam Hughes"
-    designation : "Manager"
+  - name : "Marcel Russ"
+    designation : "Geschäftsführer"
     image : "/assets/images/team/team-1.jpg"
-    
-  - name : "Liam Hughes"
-    designation : "Manager"
-    image : "/assets/images/team/team-2.jpg"
-    
-  - name : "Liam Hughes"
-    designation : "Manager"
-    image : "/assets/images/team/team-3.jpg"
-    
-  - name : "Liam Hughes"
-    designation : "Manager"
-    image : "/assets/images/team/team-4.jpg"
-
+ 
 
 ###################### Banner ######################
 banner:
@@ -472,3 +460,20 @@ gsp_training:
       answer: "Wenn Sie sich für eine Zertifizierung entscheiden, haben Sie die Möglichkeit, im Anschluss an das Training eine Prüfung über die Linux Foundation abzulegen. Diese Prüfung testet Ihr erworbenes Wissen und Ihre Fähigkeiten im Bereich der nachhaltigen Softwareentwicklung. Bei erfolgreichem Bestehen der Prüfung erhalten Sie ein Zertifikat, das Ihre Qualifikationen als Green Software Practitioner bestätigt."
     - question: "Wo findet das Training statt?"
       answer: "Für die Durchführung des Tainungs kommen wir sehr gerne bei Ihnen vorbei. Alternativ stehen uns moderne Räumlichkeiten in der Neuen Weberei in Wernau zur Verfügung."
+
+
+################## Services #######################
+################## CTO Hero Area #######################
+cto_hero:
+  title : "<i>CTO-as-a-Service</i> für nachhaltig bessere Software"
+  title2 : "mehr.wert – IT & Softwareberatung mit Verantwortung"
+  subheadline : "Ihre IT braucht Richtung. Ich liefere sie. <br />Als externer CTO für KMU & Startups bringe ich Klarheit und messbaren Fortschritt."
+  image : "/assets/images/banner/2023.avif"
+  content : 
+    "<ul class=\"list-hero mt-4 mb-5\">
+      <li>Struktur und Führung für Ihre IT – flexibel auf Zeit</li>
+      <li>Technische Roadmaps & Teamführung durch Wandel  </li>
+      <li>Green Tech mit Verantwortung & messbarem Impact</li>
+      <li>Direkte Zusammenarbeit – statt PowerPoint-Beratung</li>
+    </ul>"
+  primaryButton-label : "CTO Quick Check starten – kostenlos & konkret" 
