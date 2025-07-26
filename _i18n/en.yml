@@ -1,6 +1,6 @@
 ################## Page #######################
-page_title: "mehr.wert - Sustainable & Better Software | Agile & Efficient Development"
-page_description: "We combine agility with sustainability to help companies develop software responsibly, efficiently, and innovatively."
+page_title: "mehr.wert - Fractional CTO & Agile Leadership for sustainable IT Solutions "
+page_description: "Strategic IT consulting for companies undergoing change: As an interim CTO, I support you in architectural decisions, team leadership, agile processes, and sustainable software development. Clear. Feasible. Effective."
 
 ################## General #######################
 empty: " "
@@ -9,13 +9,15 @@ close: "Close"
 
 ################## Menu Area #######################
 main-menue:
-  - name: Blog
-    url: /blog.html
-  - name: Trainings
+  - name: Services
     url: "#"
     submenu: 
-      - name: Green Coding Practitioner
+      - name: Fractional CTO
+        url: "/services/fractional-cto.html"
+      - name: Green Coding Training
         url: "/trainings/gsp.html"
+  - name: Blog
+    url: /blog.html
   - name: About
     url: "#"
     submenu:
@@ -52,67 +54,74 @@ bottom:
 
 ################## Hero Area #######################
 hero_area:
-  title : "Sustainable Software Solutions"
-  title2 : "Where Software Meets Sustainability -<br/> Inspiring & Responsible Development"
-  subheadline : "Agile, resource-efficient, and future-proof: We combine software development with sustainability and efficiency – for companies that take responsibility."
-  content : 
-    "<ul class=\"list-hero mt-4 mb-5\">
-      <li><b>🌱 Sustainable IT:</b> Resource-efficient software development with measurable impact</li>
-      <li><b>🔍 Transparency & Trust:</b> Clear processes, honest consulting, reliable results</li>
-      <li><b>🤝 Collaborative Partnership:</b> Working together pragmatically for sustainable success</li>
-      <li><b>📈 Measurable Sustainability:</b> Data-driven optimization for greener & more efficient IT solutions</li>
-    </ul>"
-  primaryButton-label : "Develop Sustainable Software – Get Started Now" 
-  secondaryButton-label : "Learn More About Green Coding"
+  title : "We give IT value.<br />And your ideas new scope."
+  subheadline : "We think strategically, act responsibly, and shape change with technical clarity. The result are sustainable structures, effective teams, and software with a lasting impact."
+  content : ""
+  primaryButton-label : "Start the conversati0n now" 
+  secondaryButton-label : ""
 
 ################## Problem Solution ###########################
 about:
-  subtitle : "Sustainable IT Modernization"
-  title : "Software Development is in a Dilemma – We Solve it Sustainably."
-  content : "<p>Agile methods and modern IT technologies enable rapid development – but often lack a focus on sustainability, scalability, and energy efficiency. These challenges cost companies time, money, and competitiveness in the long run.</p>
-  <ul class=\"problem-list\">
-    <li><b>⚡ Fast, but short-sighted.</b> Traditional agility prioritizes speed – but without sustainability, resource efficiency and long-term IT strategy suffer.</li>
-    <li><b>🌱 High resource consumption:</b> IT systems consume more energy than necessary, driving up costs and harming the environment.</li>
-    <li><b>📊 No clear measurability:</b> Without defined KPIs, sustainable software development remains a mere promise.</li>
-    <li><b>🏗 Outdated structures, new challenges:</b> Traditional processes and rigid hierarchies obstruct sustainable transformation.</li>
-  </ul>
-  <p><b>Tailored Solutions: </b>
-  We turn challenges into opportunities. With Scaled Agile Coaching, we evolve agile processes – embedding sustainability as a key factor. Through Green Coding and an optimized Software Delivery Lifecycle, we help companies make their IT resource-efficient and future-proof.</p>"
-  btn-label: "Let’s Transform Your IT Sustainably – Get Started Now."
-  quote: "„Technologie braucht Richtung. Und eine Haltung, die bleibt.“ — Marcel Russ"
+  subtitle : "Sustainable Software Solutions"
+  title : "We stand for MEHR.WERT (MORE.VALUE) – and that starts with attitude."
+  content : "<p>We support companies that not only want to keep up digitally, but also want to shape the future. As the founder of mehr.wert, I – Marcel Russ – bring over a decade of experience in software development, agile leadership, and technology support to the table.</p>
+              <p>Our mission: strategic clarity, partnership-based consulting, and technical thinking with responsibility. Together, we develop structures, teams, and solutions that work – today and tomorrow.</p>"
+  btn-label: "More about our approach & working methods"
+  quote: "“Technology needs direction. And an attitude/approach that lasts.” — Marcel Russ"
 
 ################## Portfolio Area #######################
 portfolios:
-  subtitle: "EN: Ein paar ausgewählte Referenzen"
-  title: "Our Portfolio"
+  subtitle: "Selected projects"
+  title: "Our Experiences"
   item:
-  - name: "EnBW Agile Coaching"
-    description: "Skaliertes agiles Arbeiten für 20+ Teams – mit Struktur, Metriken und Wirkung."
-    popup: "Wir begleiten Organisationen bei der Einführung agiler Skalierung. Mit Fokus auf Teamautonomie, Transparenz und Planbarkeit gestalten wir Prozesse, die wirklich funktionieren – mit Wirkung bis ins Management."
-  - name: "Mobile Leadership @ Hugo Boss"
-    description: "Teamaufbau (international), Produktverantwortung und agile Skalierung im Fashion-Tech."
-    popup: "Wir führten ein interdisziplinäres Mobile & Web-Team bei Hugo Boss und entwickelten digitale Produkte für Stores und Supply Chain. Ergebnis: effizientere Prozesse und spürbarer Mehrwert für Mitarbeitende und Kunden."
-  - name: "Green Agile Guide"
-    description: "Nachhaltigkeit trifft Agilität – als Open-Source-Framework für IT-Teams."
-    popup: "Wir verbinden Nachhaltigkeit und Agilität – mit einem Open-Source-Framework, das ökologische, ökonomische und soziale Prinzipien in agile Prozesse integriert."
-  - name: "Aufbau internationaler Teams"
-    description: "Internationale Teams strategisch aufbauen – effizient, integriert, skalierbar."
-    popup: "Wir etablierten leistungsfähige Nearshore-Teams (Portugal, Slowakei, England, Tschechien, Indien) und führten sie erfolgreich in verteilte Entwicklungsprozesse ein – mit klarer Kommunikation, Qualitätssicherung und technischer Verantwortung."
-  - name: "CTO auf Zeit"
-    description: "Technische Führung auf Zeit – Struktur, Architektur und Klarheit für KMU & Startups."
-    popup: "Wir bringen technische Führung in Ihr Unternehmen – genau dann, wenn sie gebraucht wird. Von Architektur über Teamstruktur bis zur Skalierungsstrategie: pragmatisch, erfahren und auf Augenhöhe."
-  - name: "Green Coding Training"
-    description: "Nachhaltige Softwareentwicklung praxisnah erklärt – mit Strategie & Wirkung."
-    popup: "Wir vermitteln praxisnahes Wissen zu energieeffizientem Coden. Die Trainings verbinden Entwicklungsalltag mit nachhaltigen Entscheidungen – messbar, konkret und zukunftsweisend."
-  - name: "Instore-Digitalisierung"
-    description: "Digitale Plattform für Stores – Information, Beratung und neue Kanäle im Handel."
-    popup: "Wir entwickelten digitale Tools für Store-Mitarbeitende – von Produktinfos bis zu Management-KPIs. Ergebnis: eine zentrale Plattform, die Effizienz steigert und neue Vertriebskanäle eröffnet."
-  - name: "myWork Zeiterfassung"
-    description: "Mobile Zeiterfassung neu gedacht – einfach, effizient, individuell."
-    popup: "Wir entwickelen und betreiben eine umfangreiche App für einfache, verlässliche Zeiterfassung. Mit tollen Automatismen,  Datanschutzkonform und mit intuitiver Benutzerführung – für Angestellte, Selbständige und kleine Teams."
-  - name: "Smartes Sportshirt (Prototyp)"
-    description: "Sensorbasiertes Training – mit App, 3D-Modell und Echtzeit-Feedback für mehr Präzision."
-    popup: "Wir entwickelten einen Sensor-basierten Prototyp zur Analyse von Bewegungsabläufen im Training. Kombiniert mit einer App, die Feedback und Visualisierungen liefert – als Brücke zwischen Technik und Körpergefühl."
+    - name: "EnBW Agile Coaching"
+      description: "Scaled agile working for 20+ teams – with structure, metrics, and impact."
+      color: "#1D1F25"  # Dunkles Graphit (Basis für Stabilität)
+      popup: "We support organizations in introducing agile scaling. With a focus on team autonomy, transparency, and predictability, we design processes that really work – with an impact that extends all the way up to management."
+
+    - name: "Mobile Leadership @ Hugo Boss"
+      description: "Team building (international), product responsibility, and agile scaling in fashion tech."
+      color: "#5F4B8B"  # CI-nahes Violett
+      popup: "I led an interdisciplinary mobile & web team at Hugo Boss and developed digital products for stores and the supply chain. The outcome: more efficient processes and measurable added value for employees and customers."
+
+    - name: "Green Agile Guide"
+      description: "Sustainability meets agility – as an open source framework for IT teams."
+      color: "#5C8F87"  # Desaturiertes Türkis-Grün (nah an CI-Grün)
+      popup: "We combine sustainability and agility – with an open source framework that integrates ecological, economic, and social principles into agile processes."
+      more-link: "https://greenagile.org"
+
+    - name: "Building international teams"
+      description: "Strategically building international teams – efficiently, integrated, scalable."
+      color: "#322F40"  # CI-nahes Dunkelviolett
+      popup: "We established high-performance nearshore teams (Portugal, Slovakia, England, Czech Republic, India) and successfully introduced them to distributed development processes – with clear communication, quality assurance, and technical responsibility."
+
+    - name: "Fractional CTO"
+      description: "Temporary technical leadership – structure, architecture, and clarity for SMEs and startups."
+      color: "#44464F"  # Neutraler Metallton – modern & zurückhaltend
+      popup: "We bring technical leadership to your company – exactly when you need it. From architecture to team structure to scaling strategy: pragmatic, experienced, and on equal footing."
+      more-link: "/services/fractional-cto.html"
+
+    - name: "Green Coding Training"
+      description: "Sustainable software development explained in a practical way – with strategy and impact."
+      color: "#518CA8"  # Ruhiges Blau – tech-freundlich
+      popup: "We teach practical knowledge about energy-efficient coding. The training courses combine everyday development with sustainable decisions – measurable, concrete, and forward-looking."
+      more-link: "/trainings/gsp.html"
+
+    - name: "In-store digitization"
+      description: "Digital platform for stores – information, guidance, and new retail channels."
+      color: "#A77EB4"  # Softes, helleres Violett – feminin & modern
+      popup: "We developed digital tools for store employees – from product information to management KPIs. The result: a central platform that increases efficiency and opens up new sales channels."
+
+    - name: "myWork Time Tracking"
+      description: "Mobile time tracking redesigned – simple, efficient, customized."
+      color: "#5BA382"  # Abgeleitet aus CI-Türkis – minimal grüner
+      popup: "I develop and operate a comprehensive app for simple, reliable time tracking. With great automation features, data protection compliance, and intuitive user guidance – for employees, freelancers, and small teams."
+      more-link: "https://apps.apple.com/de/app/mywork/id487617582?l=de#?platform=iphone"
+
+    - name: "Intelligent sports shirt (prototype)"
+      description: "Sensor-based training – with app, 3D model, and real-time feedback for greater precision."
+      color: "#3C3F53"  # Dunkles Blau-Violett – sportlich, techig, dezent
+      popup: "We developed a sensor-based prototype for analyzing movement sequences during training. Combined with an app that provides feedback and visualizations – as a bridge between technology and body awareness."
   
 
 ################## Mission Area #######################
@@ -146,17 +155,21 @@ services:
   title: "Sustainable IT. Agile Processes. Measurable Results."
   subtitle: "We combine agility with responsibility to make software development future-proof. Our services help companies become more efficient, resource-conscious, and measurably successful."
   item:
-  - name : "Agility with Responsibility"
-    content : "We create a sustainable development culture – applying agile principles that strengthen collaboration, improve decision-making, and empower teams to work efficiently and responsibly."
-    icon: "ti-rocket"
+  - name : "CTO-as-a-Service"
+    content : "Temporary technical leadership – for SMEs, NGOs, and startups with growing IT needs. We structure your IT landscape, support you in making technological decisions, and prepare your team for the future."
+    icon: "ti-direction"
+    btn-label: "Learn more"
+    btn-url: "/services/fractional-cto.html"
 
-  - name : "Green Coding & Energy Efficiency"
-    content : "We reduce your IT’s energy consumption through optimized software architectures & resource-efficient algorithms – delivering powerful and cost-effective solutions."
-    icon: "ti-desktop"
+  - name : "Green Agile Coaching"
+    content : "Agility that matters – for teams, processes, and sustainable change. We combine agile methods with purpose, structure, and responsibility. For clarity, collaboration, and real progress."
+    icon: "ti-stats-up"
 
-  - name : "Measurable Sustainability & IT Transparency"
-    content : "We make IT sustainability tangible – with clear KPIs, reporting standards, and CO₂ reduction strategies. We help companies identify the right metrics for CSRD reporting and provide reliable data insights."
-    icon: "ti-eye"
+  - name : "Green Coding Training"
+    content : "Sustainable software starts at coding. We show development teams how to save resources in a measurable way – without compromising productivity. Sustainable software starts at coding."
+    icon: "ti-medall"
+    btn-label: "View Training"
+    btn-url: "/trainings/gsp.html"
 
 ######################### Testimonail ####################
 Testimonial_01: "Testimonial_01"
@@ -170,7 +183,8 @@ testimonial:
 funfacts:
   enable : true
   title: "Time to Change"
-  subtitle: "Sustainability starts in the code"
+  subtitle: "Technology with responsibility"
+  description: "Our digital world is growing – and with it, the ecological footprint of IT. From data waste and inefficient code to energy-hungry infrastructures. We believe that anyone who develops software bears responsibility. That's why we design IT to be effective – for your goals and for tomorrow. Our digital world is growing – and with it, the ecological footprint of IT."
   bg_image : "/assets/images/bg/cta-bg.png"
   item:
   - name : "One eMail without Attachment"
@@ -290,15 +304,15 @@ team:
 ###################### Banner ######################
 banner:
   enable: true
-  quote: "„Wir arbeiten dort, wo Struktur, Strategie und Haltung gebraucht werden – nicht dort, wo man die Schuld auf andere schiebt.“"
-  title: "mehr.wert bedeutet Klarheit, nicht Show."
+  quote: "„We work where structure, strategy, and attitude are needed—not where others are blamed.“"
+  title: "MEHR.WERT provides clarity, not just words."
 
 ###################### Contact ######################
 
 contact:
-  title: "Let's Innovate Together!"
-  subtitle: "Got a project in mind or need advice on your Agile journey?"
-  intro: "Drop us a message – we're excited to connect and explore how we can create sustainable IT solutions tailored for you."
+  title: "Contact"
+  subtitle: "Let’s create mehr.wert (more value) together."
+  intro: "Get in touch with us – we'll show you how technology, teams, and strategy can have a lasting impact."
   form : 
     name: "Name"
     email: "Email Adress"

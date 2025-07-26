@@ -55,7 +55,7 @@ bottom:
 hero_area:
   title : "Wir geben IT einen Wert.<br />Und Ihren Ideen neuen Spielraum."
   subheadline : "Wir denken strategisch, handeln verantwortungsvoll und gestalten Wandel mit technischer Klarheit. Das Ergebnis sind tragfähige Strukturen, handlungsfähige Teams und Software mit nachhaltiger Wirkung."
-  content: "hello world"
+  content: ""
   primaryButton-label : "Jetzt ins Gespräch kommen" 
   secondaryButton-label : ""
 
@@ -95,7 +95,7 @@ about:
 
 ################## Portfolio Area #######################
 portfolios:
-  subtitle: "Ein paar ausgewählte Projekte"
+  subtitle: "Ausgewählte Projekte"
   title: "Unser Erfahrungen"
   item:
     - name: "EnBW Agile Coaching"
