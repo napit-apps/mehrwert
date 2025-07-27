@@ -63,16 +63,28 @@ h6,.h6 {
   font-size: 14px;
 }
 
+
 .list-hero {
   color: white;
   list-style: none;
   padding: 0;
+  padding-left: 1.2em;           /* Platz für eigenen Bullet */
+  position: relative;
   margin: 0;
+  text-align: left;
+
+  li::before {
+    content: "✔";                  /* Bullet manuell einfügen */
+    position: absolute;
+    left: 0;
+    color: white;                /* deine CI-Farbe */
+}
 
   li {
     margin-bottom: 1.2em;
   }
 }
+
 
 .problem-list {
   list-style: none; /* Entfernt Standard-Punkte */

@@ -1,15 +1,14 @@
 <!-- Slider Start -->
 {% assign cto_hero = site.translations[site.lang].cto_hero %}
-<section class="banner position-relative">
+<section class="banner-cto position-relative">
 		<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-7 col-md-7">
-				<div class="banner-content">
+				<div class="banner-cto-content">
           <span class="h5 text-color text-uppercase">{{ cto_hero.title2 }}</span>
-          <img src="{{ '/assets/images/logo-star.svg' | relative_url }}" alt="mehr.wert Logo" class="hero-logo mb-4">
 					<h2 class="text-white mt-2">{{ cto_hero.title }}</h2>
           <p class="text-white mt-4 mb-5">{{ cto_hero.subheadline }}</p>
-					<p class="my-4">{{ cto_hero.content }}</p>
+		<p class="my-4">{{ cto_hero.content }}</p>
 			
           <p><a href="{{ cto_hero.primaryButton.link }}" class="btn btn-primary">{{ cto_hero.primaryButton-label }}</a></p>  
         	</div>

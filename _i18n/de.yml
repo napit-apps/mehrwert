@@ -465,9 +465,9 @@ gsp_training:
 ################## Services #######################
 ################## CTO Hero Area #######################
 cto_hero:
-  title : "<i>CTO-as-a-Service</i> für nachhaltig bessere Software"
-  title2 : "mehr.wert – IT & Softwareberatung mit Verantwortung"
-  subheadline : "Ihre IT braucht Richtung. Ich liefere sie. <br />Als externer CTO für KMU & Startups bringe ich Klarheit und messbaren Fortschritt."
+  title : "CTO auf Zeit<br />für KMU & Startups"
+  title2 : "Ich bin Marcel Russ"
+  subheadline : "Als externer CTO bringe ich Klarheit in Ihre IT-Strukturen, Teams und Technologien – für nachhaltige Wirkung und messbaren Fortschritt."
   image : "/assets/images/banner/2023.avif"
   content : 
     "<ul class=\"list-hero mt-4 mb-5\">

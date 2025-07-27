@@ -463,7 +463,7 @@ gsp_training:
 ################## Services #######################
 ################## CTO Hero Area #######################
 cto_hero:
-  title : "<i>CTO-as-a-Service</i> für nachhaltig bessere Software"
+  title : "<i>Fractional CTO</i> für nachhaltig bessere Software"
   title2 : "mehr.wert – IT & Softwareberatung mit Verantwortung"
   subheadline : "Ihre IT braucht Richtung. Ich liefere sie. <br />Als externer CTO für KMU & Startups bringe ich Klarheit und messbaren Fortschritt."
   image : "/assets/images/banner/2023.avif"
