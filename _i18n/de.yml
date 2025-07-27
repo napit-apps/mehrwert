@@ -487,4 +487,40 @@ cto_about:
             <p><b>Das kostet nicht nur Zeit und Geld – es gefährdet die Zukunftsfähigkeit.</b><br />Ohne klare technische Vision entstehen Silos, schlechte Architekturentscheidungen oder ineffiziente Prozesse. Die Folge: Frust im Team, verzögerte Releases, verpasste Marktchancen. Irgendwann ist es zu spät für nachhaltige Korrekturen.</p>
             <p><b>Mit einem externen CTO holen Sie sich strategische Führung auf Zeit.</b><br />Als CTO auf Zeit bringe ich Struktur, Klarheit und technisches Denken in Ihre Organisation – flexibel, erfahren und mit dem Blick fürs Wesentliche. Gemeinsam richten wir Ihre IT neu aus: zukunftsfähig, wirkungsorientiert und im Einklang mit Ihren Business-Zielen.</p>"
   btn-label: "Mehr über unsere Haltung & Arbeitsweise"
-  #quote: "„Technologie braucht Richtung. Und eine Haltung, die bleibt.“ — Marcel Russ"
+  quote: "„Struktur ist kein Selbstzweck. Sie schafft Raum für Klarheit, Fokus und nachhaltige Entscheidungen.“ — Marcel Russ"
+
+###################### Services #####################
+cto_services:
+  title: ""
+  subtitle: ""
+  item:
+  - name : "Architektur, die mitwächst"
+    content : "Komplexe Systeme werden beherrschbar. Ihre IT bleibt erweiterbar, wartbar und passt sich dem Geschäft flexibel an – statt es auszubremsen."
+    icon: "ti-server"
+
+  - name : "Teamplay statt Technik-Silos"
+    content : "Entwicklung, Betrieb und Business ziehen an einem Strang. Das bringt Klarheit, reduziert Reibung und schafft den Raum für echte Ergebnisse."
+    icon: "ti-heart"
+
+  - name : "IT, die Verantwortung übernimmt"
+    content : "Nachhaltig auf allen Ebenen: moderne Technologien senken den Verbrauch, verbessern die Betriebsstabilität und steigern die Wirkung Ihrer digitalen Lösungen."
+    icon: "ti-shine"
+
+######################### Testimonail ####################
+cto_testimonials:
+  title : "Vertrauen durch Erfahrung"
+  subtitle : "Empfehlungen aus der Praxis"
+  item:
+  - text : "Marcel war ein zentraler Leistungsträger in meiner Abteilung. Durch seine klare und direkte Kommunikation ist er stets in der Lage Probleme und Herausforderungen, aber auch Erfolge und Leistungen in den Teams darzustellen. Er ist lösungsorientiert und hilft den Teams selbständig ihre Themen zu bearbeiten scheut aber auch nicht davor selber anzupacken. Besonders schätze ich ihn dafür eine gute Balance zwischen Kundenorientierung und Prinzipientreue zu finden. Dadurch konnten wirkliche Best Practices für die spezifischen Herausforderungen meiner Organisation entwickelt werden."
+    author : "Konstantin Pasternack"
+    role : "Bereichsleiter IT, EnBW AG" 
+    image : "../assets/images/clients/konstantin.avif"
+  - text : "Marcel überzeugte durch sein stark ausgeprägtes analytisches und logisches Denkvermögen. Er fand stets praktikable Lösungen für neue Aufgabenstellungen und erkannte auftretende Probleme frühzeitig. In seinem Fachgebiet verfügt Herr Russ über ein umfassendes und fundiertes Wissen, welches er in unser Unternehmen in gewinnbringender Weise einbrachte."
+    author : "Exxeta AG"
+    role : "Arbeitszeugnis, Teamlead"
+    image : "../assets/images/clients/exxeta.avif"
+  - text : "Marcel verstand es, seine Mitarbeiter entsprechend ihrer Fähigkeiten erfolgreich einzusetzen und in höchstem Maß zu motivieren. Er bewegte seine Teams zur aktiven und zukunftsorientierten Gestaltung des Wandels – mit klarer Zielkommunikation und situativem Führungsstil."
+    author : "Hugo Boss AG"
+    role : "Arbeitszeugnis, Manager"
+    image : "../assets/images/clients/hugoboss.avif"
+  

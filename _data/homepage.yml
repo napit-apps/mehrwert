@@ -22,7 +22,7 @@ about:
 
 cto_about:
   enable : true
-  video_thumb : "/assets/images/about/cto-about.jpg"
+  video_thumb : "/assets/images/about/cto-about.avif"
   video_url : 
 
   button:
@@ -34,10 +34,9 @@ services:
   enable : true
   bg_image : "/assets/images/bg/feature-bg.png"    
 
-######################### Testimonail ####################
-testimonial:
-  enable : false
-  bg_image : "/assets/images/bg/bg-pricing.jpg" 
+cto_services:
+  enable : true
+  bg_image : "/assets/images/bg/feature-bg.png"  
 
 
 ###################### Funfacts #########################

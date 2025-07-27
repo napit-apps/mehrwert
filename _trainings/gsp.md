@@ -123,7 +123,6 @@ cta-action: gsp_training.cta.action
 
 <!-- Testimonial Start -->
 <section class="section bg-secondary position-relative">
-	<img src="/assets/images/bg/testimonial-bg.png" alt="" class="overlay-shape">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
