@@ -24,21 +24,18 @@
 {% endfor %}
 
 <!-- skill Modals -->
-{% assign skill-config = site.data.homepage.skill %}
-{% assign skills = site.translations[site.lang].skill %}
-{% if skill-config.enable %}
+{% assign skills = site.translations[site.lang].cto_skill %}
 {% for item in skill.skills-left %}
-<div class="skill-modal mfp-hide" id="skillModal{{ item.modal_id }}" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="skill-modal mfp-hide" id="skillModal_l_{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
    <h5 class="modal-title" id="myModalLabel">{{ item.name }}</h5>
    <p>{{ item.description }}</p>
  </div>
 {% endfor %}
 
 {% for item in skill.skills-right %}
-<div class="skill-modal mfp-hide" id="skillModal{{ item.modal_id }}" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="skill-modal mfp-hide" id="skillModal_r_{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
    <h5 class="modal-title" id="myModalLabel">{{ item.name }}</h5>
    <p>{{ item.description }}</p>
  </div>
 {% endfor %}
 
-{% endif %}

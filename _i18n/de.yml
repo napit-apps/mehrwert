@@ -523,4 +523,60 @@ cto_testimonials:
     author : "Hugo Boss AG"
     role : "Arbeitszeugnis, Manager"
     image : "../assets/images/clients/hugoboss.avif"
-  
+
+###################### Skill #############################
+cto_skill:
+  subtitle : "Handlungsfelder im CTO-Mandat"
+  title : "12 Bausteine für tragfähige Technik, Teams und Prozesse"
+  skills-left:
+    - name: "CTO Tech Audit"
+      description: "Systematische Analyse von Code, Tools, Architektur & Team zur klaren Einordnung."
+
+    - name: "Technische Roadmap & Architekturstrategie"
+      description: "Gemeinsam entwickeltes Zielbild für nachhaltige Technik- und Toolentscheidungen."
+
+    - name: "Releasefähigkeit & DevOps-Strukturen"
+      description: "Automatisierte CI/CD-Prozesse für schnellere, stabilere und risikoarme Deployments."
+
+    - name: "Green Tech / Nachhaltigkeit"
+      description: "Bewertung & Optimierung von Software im Hinblick auf Energie, Wartbarkeit und ESG-Kriterien."
+
+    - name: "KI-Enablement & Use-Case-Bewertung"
+      description: "KI-Potenziale identifizieren, realistische Use Cases bewerten und gezielt umsetzen."
+
+  skills-right:
+    - name: "Teamstruktur & Rollenklärung"
+      description: "Klare Verantwortlichkeiten und effiziente Zusammenarbeit durch gezielte Strukturarbeit."
+
+    - name: "Externe Partnerführung"
+      description: "Technische Steuerung und Schnittstellenmanagement für bessere Ergebnisse mit Dienstleistern."
+
+    - name: "Technisches Backlog-Management"
+      description: "Strukturiertes technisches Backlog für Transparenz und gezielte Weiterentwicklung."
+
+    - name: "Agiler Reifegrad & Impediment-Analyse"
+      description: "Systemische Hindernisse erkennen, Teamdynamik verbessern, Meetings wirksam machen."
+
+    - name: "Business-Tech-Brückenfunktion"
+      description: "Verständnis und Alignment zwischen Business und Technik – strukturiert vermittelt."
+
+    - name: "Wachstums- & Skalierungsstrategie"
+      description: "Architekturen & Team-Modelle, die organisch mit dem Produkt wachsen können."
+
+    - name: "Agile Delivery & Skalierung"
+      description: "Wirksame agile Prozesse & skalierte Strukturen für verlässliche, fokussierte Lieferung."
+        
+  certificates-title: "Certificates"
+  certificates:
+  - icon : "assets/images/skills/psd1.svg"
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/psm1.svg "
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/pspo1.svg "
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/SAFe_SA.png"
+    link : "https://www.credly.com/badges/5e28e351-fbc9-4ac2-838f-5ef1bbc90989/public_url"
+  - icon : "assets/images/skills/SAFe_SA_6.png"
+    link : "https://www.credly.com/badges/824cd794-69de-4fae-adaf-e7761b922f28/public_url"
+  - icon : "assets/images/skills/linux.svg"
+    link : "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0241ce4d-6018-4891-bd40-a23ee2c9acaf-marcel-russ-ca32e563-51ea-4447-8f69-d396ebc7246d-certificate.pdf"

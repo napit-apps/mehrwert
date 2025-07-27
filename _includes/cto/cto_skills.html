@@ -1,0 +1,39 @@
+<!-- Slill Start -->
+{% assign skill = site.translations[site.lang].cto_skill %}
+<section class="section skill bg-secondary">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<span class="h5 text-color text-uppercase">
+					{{ skill.subtitle }}
+				</span>
+				<h3 class="mb-5 mt-2 text-white">{{ skill.title }}</h3>
+			</div>
+		</div>
+		<div class="row g-0">
+			<div class="col-12 col-md-6">
+				{% for item in skill.skills-left %}
+				<div class="progress-block">
+					<a href="#{{ forloop.index }}" data-mfp-src="#skillModal_l_{{ forloop.index }}" class="more-info-link text-color">
+						<h6 class="text-uppercase text-white">
+							{{ item.name }} <i class="ti-arrow-right"></i>
+						</h6>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+			<div class="col-12 col-md-6">
+				{% for item in skill.skills-right %}
+				<div class="progress-block">
+					<a href="#{{ forloop.index }}" data-mfp-src="#skillModal_r_{{ forloop.index }}" class="more-info-link text-color">
+						<h6 class="text-uppercase text-white">
+							{{ item.name }} <i class="ti-arrow-right"></i>
+						</h6>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Skill End -->
