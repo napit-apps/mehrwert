@@ -20,6 +20,15 @@ about:
     enable : true
     link : "/mission.html"
 
+cto_about:
+  enable : true
+  video_thumb : "/assets/images/about/cto-about.jpg"
+  video_url : 
+
+  button:
+    enable : false
+    link : "/mission.html"
+
 ###################### Services #####################
 services:
   enable : true

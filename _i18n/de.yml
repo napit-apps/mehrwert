@@ -477,3 +477,14 @@ cto_hero:
       <li>Direkte Zusammenarbeit – statt PowerPoint-Beratung</li>
     </ul>"
   primaryButton-label : "CTO Quick Check starten – kostenlos & konkret" 
+
+
+################## Problem Solution ###########################
+cto_about:
+  subtitle : "Technische Führung fehlt"
+  title : "Wenn IT wächst, wachsen auch die Herausforderungen."
+  content : "<p><b>Ohne technische Führung verliert sich das Team im Tagesgeschäft.</b><br />Viele Unternehmen stecken fest: Die IT entwickelt sich inkonsistent, technische Schulden wachsen, strategische Entscheidungen werden aufgeschoben – oft, weil die CTO-Rolle fehlt oder überlastet ist.</p>
+            <p><b>Das kostet nicht nur Zeit und Geld – es gefährdet die Zukunftsfähigkeit.</b><br />Ohne klare technische Vision entstehen Silos, schlechte Architekturentscheidungen oder ineffiziente Prozesse. Die Folge: Frust im Team, verzögerte Releases, verpasste Marktchancen. Irgendwann ist es zu spät für nachhaltige Korrekturen.</p>
+            <p><b>Mit einem externen CTO holen Sie sich strategische Führung auf Zeit.</b><br />Als CTO auf Zeit bringe ich Struktur, Klarheit und technisches Denken in Ihre Organisation – flexibel, erfahren und mit dem Blick fürs Wesentliche. Gemeinsam richten wir Ihre IT neu aus: zukunftsfähig, wirkungsorientiert und im Einklang mit Ihren Business-Zielen.</p>"
+  btn-label: "Mehr über unsere Haltung & Arbeitsweise"
+  #quote: "„Technologie braucht Richtung. Und eine Haltung, die bleibt.“ — Marcel Russ"

@@ -1,0 +1,33 @@
+<!-- About Start -->
+{% assign about_config = site.data.homepage.cto_about %}
+{% if about_config.enable %}
+{% assign about = site.translations[site.lang].cto_about %}
+<section class="section about overflow-hidden bg-white">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="about-img">
+					<img src="{{about_config.video_thumb}}" alt="" class="img-fluid w-100">
+					{% if about_config.video_url %}
+					<div class="video-play">
+						<div class="play-bg">
+							<a class="popup-youtube" href="{{about_config.video_url}}"><i class="ti-control-play"></i></a>
+						</div>
+					</div>
+					{% endif %}
+				</div>
+				<p class="text-italic text-secondary text-small"> {{ about.quote }}</p>
+			</div>
+			<div class="about-textbox col-lg-6 col-md-7 offset-lg-1 mt-5 mt-md-0">
+				<span class="text-color h5 text-uppercase">{{ about.subtitle }}</span>
+				<h3 class="mb-4 mt-3">{{ about.title }}</h3>
+				{{ about.content }}
+				{% if about.button.enable %}
+				<a href="{{ site.baseurl }}{{ about.button.link | relative_url }}" class="btn btn-primary mt-4">{{ about.btn-label }}</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</section>
+{% endif %}
+<!-- About End -->
