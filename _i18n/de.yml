@@ -580,3 +580,30 @@ cto_skill:
     link : "https://www.credly.com/badges/824cd794-69de-4fae-adaf-e7761b922f28/public_url"
   - icon : "assets/images/skills/linux.svg"
     link : "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0241ce4d-6018-4891-bd40-a23ee2c9acaf-marcel-russ-ca32e563-51ea-4447-8f69-d396ebc7246d-certificate.pdf"
+
+
+##################### FAQ #########################
+cto_faq:
+  title: "GUT ZU WISSEN"
+  subtitle: "Antworten auf die wichtigsten Fragen"
+  item:
+  - question: "Was genau macht ein CTO auf Zeit?"
+    answer: "Ich übernehme temporär die technische Führung – hands-on und strategisch. Dabei geht es um klare Architekturentscheidungen, saubere Teamstrukturen und wirksame Prozesse – bis Ihr Tech-Team selbstständig liefern kann."
+
+  - question: "Wie läuft der Einstieg ab?"
+    answer: "Mit dem CTO Quick Check (kostenlos) prüfen wir Ziel, Kontext und Handlungsbedarf. Danach folgt – falls sinnvoll – ein CTO Tech Audit mit klaren Empfehlungen und Prioritäten."
+
+  - question: "Sind Sie Teil meines Teams oder externer Berater?"
+    answer: "Ich arbeite als Teil Ihrer Organisation, nicht auf der Metaebene. Ich übernehme Verantwortung, treffe Entscheidungen und coache gleichzeitig Ihr Team für nachhaltige Eigenständigkeit."
+
+  - question: "Wie lange bleiben Sie an Board?"
+    answer: "So lange wie sinnvoll – typischerweise zwischen 2 und 9 Monaten. Manche Projekte enden nach der Roadmap-Phase, andere laufen bis zur erfolgreichen Skalierung."
+
+  - question: "Wir haben kein großes Budget. Gibt es auch kleine Pakete?"
+    answer: "Ja – besonders für Startups und NGOs gibt es fokussierte Module wie das Tech Audit oder gezielte Architektur- und Teamreviews. Wirkung vor Umfang."
+
+  - question: "Was unterscheidet Sie von einer klassischen IT-Beratung?"
+    answer: "Ich bringe keine PowerPoint-Folien, sondern konkrete Umsetzungserfahrung. Ich arbeite an den realen Systemen, mit den echten Teams – und bin messbar wirksam, nicht bloß strategisch präsent."
+
+  - question: "Wie messen Sie Ihren Erfolg als CTO?"
+    answer: "Erfolg heißt für mich: Transparenz, Fortschritt und Eigenständigkeit. Ich arbeite mit konkreten KPIs – z. B. Release-Zyklen, Bugrate, technischer Schuldenstand oder Team-Zufriedenheit. Entscheidend ist: Ihr Team kann nach meiner Zeit selbständig liefern."
