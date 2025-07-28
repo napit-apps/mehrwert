@@ -9,6 +9,8 @@ close: "Schließen"
 
 ################## Menu Area #######################
 main-menue:
+  - name: Startseite
+    url: "#"
   - name: Leistungen
     url: "#"
     submenu: 
@@ -175,7 +177,7 @@ mission:
 vision:
   title: "Unsere Vision"
   statement: "Wertorientierung wird zur neuen Norm in der digitalen Welt. Unternehmen entwickeln Software nicht nur schneller, sondern verantwortungsvoller – mit klarer Ausrichtung, resilienten Teams und technischer Substanz. Unsere Vision ist eine digitale Zukunft, in der Wertschöpfung nicht auf Geschwindigkeit, sondern auf Wirkung, Verantwortung und Nachhaltigkeit basiert."
-  
+
 ######################### Testimonail ####################
 Testimonial_01: "Testimonial_01"
 Testimonial_02: "Testimonial_02"

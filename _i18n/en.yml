@@ -9,6 +9,8 @@ close: "Close"
 
 ################## Menu Area #######################
 main-menue:
+  - name: Home
+    url: "#"
   - name: Services
     url: "#"
     submenu: 
