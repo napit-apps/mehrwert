@@ -23,6 +23,8 @@ main-menue:
     submenu:
       - name: Unsere Mission
         url: /mission.html
+      - name: Kontakt
+        url: /contact.html
   - name: Rechtliches
     url: "#"
     submenu:
@@ -32,9 +34,7 @@ main-menue:
         url: "/imprint.html"
       - name: Datenschutzbestimmung
         url: "/privacy.html"
- 
-  # - name: Contact
-  #   url: /contact.html
+
 
 ########## footer menu ###############
 footer:
@@ -313,6 +313,16 @@ contact:
   privacy-note: "Durch Klick auf den nachfolgenden Button 'Senden', erklären Sie sich damit einverstanden, dass wir Ihre Daten entsprechend der <a href=\"/privacy.html\" target=\"_blank\">Datenschutzerklärung</a> verarbeiten."
   button: "Senden"
   adress: "Kontakt Informationen"
+
+contact-page:
+  headline: "Kontakt"
+  subheadline: "Lassen Sie uns ins Gespräch kommen."
+  title: "Kontaktinformationen"
+  description: "Ob kurzes Kennenlernen oder konkrete Anfrage – Wir freuen uns auf Ihre Nachricht. Gemeinsam finden wir heraus, wie wir Sie am besten unterstützen können."
+  address: "Adresse"
+  phone: "Telefon"
+  email: "E-Mail"
+
 
 ###################### Blog ######################
 blog:

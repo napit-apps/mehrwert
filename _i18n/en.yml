@@ -23,6 +23,8 @@ main-menue:
     submenu:
       - name: Our Mission
         url: /mission.html
+      - name: Contact
+        url: /contact.html
   - name: Legal
     url: "#"
     submenu:
@@ -152,7 +154,7 @@ vision:
   title: "Our Vision"
   statement: "Digital solutions that matter. We believe in software development that is economically sound, technically excellent, and socially responsible. Our vision is an IT landscape that helps shape the future – with clear structures, self-organized teams, and sustainable technologies."
 
-  
+
 ###################### Services #####################
 services:
   title: "Sustainable IT. Agile Processes. Measurable Results."
@@ -303,7 +305,7 @@ banner:
 
 contact:
   title: "Contact"
-  subtitle: "Let’s create mehr.wert (more value) together."
+  subtitle: "Let’s create mehr.wert (more.value) together."
   intro: "Get in touch with us – we'll show you how technology, teams, and strategy can have a lasting impact."
   form : 
     name: "Name"
@@ -314,6 +316,15 @@ contact:
   privacy-note: "By clicking the 'Submit' button below, you agree that we can process your data in accordance with the <a href=\"/en/privacy.html\" target=\"_blank\">Privacy Policy.</a>"
   button: "Submit"
   adress: "Contact Information"
+
+contact-page:
+  headline: "Contact"
+  subheadline: "Let’s start the conversation."
+  title: "Contact Information"
+  description: "Whether it’s a quick introduction or a specific request – I look forward to hearing from you. Together, we’ll find out how I can best support your goals."
+  address: "Address"
+  phone: "Phone"
+  email: "Email"
 
 ###################### Blog ######################
 blog:
