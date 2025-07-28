@@ -464,15 +464,156 @@ gsp_training:
 ################## Services #######################
 ################## CTO Hero Area #######################
 cto_hero:
-  title : "<i>Fractional CTO</i> für nachhaltig bessere Software"
-  title2 : "mehr.wert – IT & Softwareberatung mit Verantwortung"
-  subheadline : "Ihre IT braucht Richtung. Ich liefere sie. <br />Als externer CTO für KMU & Startups bringe ich Klarheit und messbaren Fortschritt."
+  title : "Fractional CTO<br />for SMEs & Startups"
+  title2 : "I'm Marcel Russ"
+  subheadline : "As an external CTO, I bring clarity to your IT structures, teams, and technologies – for sustainable impact and measurable progress."
   image : "/assets/images/banner/2023.avif"
   content : 
     "<ul class=\"list-hero mt-4 mb-5\">
-      <li>Struktur und Führung für Ihre IT – flexibel auf Zeit</li>
-      <li>Technische Roadmaps & Teamführung durch Wandel  </li>
-      <li>Green Tech mit Verantwortung & messbarem Impact</li>
-      <li>Direkte Zusammenarbeit – statt PowerPoint-Beratung</li>
+      <li>Structure and leadership for your IT – flexible and temporary</li>
+      <li>Technical roadmaps & team leadership through transformation</li>
+      <li>Green tech with responsibility & measurable impact</li>
+      <li>Direct collaboration – no PowerPoint consulting</li>
     </ul>"
-  primaryButton-label : "CTO Quick Check starten – kostenlos & konkret" 
+  primaryButton-label : "Start CTO Quick Check – free & concrete"
+  primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Request free CTO Quick Check"
+
+################## Problem Solution ###########################
+cto_about:
+  subtitle : "Lack of technical leadership"
+  title : "As IT grows, so do the challenges."
+  content : "<p><b>Without technical leadership, teams get lost in daily business.</b><br />Many companies get stuck: IT evolves inconsistently, technical debt increases, and strategic decisions are postponed – often because the CTO role is missing or overwhelmed.</p>
+            <p><b>This doesn’t just cost time and money – it endangers future viability.</b><br />Without a clear technical vision, silos emerge, poor architectural decisions are made, and inefficient processes take root. The result: frustrated teams, delayed releases, missed market opportunities. Eventually, it’s too late for sustainable corrections.</p>
+            <p><b>A Fractional CTO brings strategic leadership on demand.</b><br />As a Fractional CTO, I bring structure, clarity, and technical thinking into your organization – flexible, experienced, and focused on what matters. Together, we realign your IT: future-proof, impact-driven, and aligned with your business goals.</p>"
+  btn-label: "More about our mindset & approach"
+  quote: "“Structure is not an end in itself. It creates space for clarity, focus, and sustainable decisions.” — Marcel Russ"
+
+###################### Services #####################
+cto_services:
+  title: ""
+  subtitle: ""
+  item:
+  - name : "Architecture that scales"
+    content : "Complex systems become manageable. Your IT remains scalable, maintainable, and adapts flexibly to the business – instead of slowing it down."
+    icon: "ti-server"
+
+  - name : "Teamplay instead of tech silos"
+    content : "Development, operations, and business work together. This brings clarity, reduces friction, and creates room for real results."
+    icon: "ti-heart"
+
+  - name : "IT that takes responsibility"
+    content : "Sustainable at all levels: modern technologies reduce consumption, improve operational stability, and increase the impact of your digital solutions."
+    icon: "ti-shine"
+
+######################### Testimonail ####################
+cto_testimonials:
+  title : "Trust through experience"
+  subtitle : "Recommendations from the field"
+  item:
+  - text : "Marcel was a key contributor in my department. Thanks to his clear and direct communication, he was always able to present problems and challenges – but also successes and achievements – in the teams. He is solution-oriented and helps teams tackle their issues independently, while also being unafraid to get hands-on himself. I especially value his ability to strike a good balance between customer orientation and adherence to principles. This enabled us to develop true best practices for the specific challenges of my organization."
+    author : "Konstantin Pasternack"
+    role : "Head of IT, EnBW AG"
+    image : "../../assets/images/clients/konstantin.avif"
+  - text : "Marcel impressed with his strong analytical and logical thinking. He consistently found practical solutions for new challenges and identified emerging problems early. In his field of expertise, Mr. Russ possesses comprehensive and in-depth knowledge, which he brought into our company in a highly valuable way."
+    author : "Exxeta AG"
+    role : "Reference, Team Lead"
+    image : "../../assets/images/clients/exxeta.avif"
+  - text : "Marcel knew how to deploy his employees successfully according to their strengths and motivated them to the highest degree. He encouraged his teams to shape change proactively and forward-thinking – with clear communication of goals and a situational leadership style."
+    author : "Hugo Boss AG"
+    role : "Reference, Manager"
+    image : "../../assets/images/clients/hugoboss.avif"
+
+###################### Skill #############################
+cto_skill:
+  subtitle : "Action areas in the CTO mandate"
+  title : "12 building blocks for resilient tech, teams, and processes"
+  skills-left:
+    - name: "CTO Tech Audit"
+      description: "Systematic analysis of code, tools, architecture & team for clear assessment."
+
+    - name: "Technical Roadmap & Architecture Strategy"
+      description: "Jointly developed target picture for sustainable tech and tool decisions."
+
+    - name: "Release Capability & DevOps Structures"
+      description: "Automated CI/CD pipelines for faster, more stable, and low-risk deployments."
+
+    - name: "Green Tech / Sustainability"
+      description: "Assessing & optimizing software for energy use, maintainability, and ESG criteria."
+
+    - name: "AI Enablement & Use Case Assessment"
+      description: "Identify AI potential, evaluate realistic use cases, and implement purposefully."
+
+  skills-right:
+    - name: "Team Structure & Role Clarity"
+      description: "Clear responsibilities and efficient collaboration through targeted structural work."
+
+    - name: "External Partner Management"
+      description: "Technical coordination and interface management for better results with vendors."
+
+    - name: "Technical Backlog Management"
+      description: "Structured tech backlog for transparency and focused improvement."
+
+    - name: "Agile Maturity & Impediment Analysis"
+      description: "Identify systemic blockers, improve team dynamics, and make meetings effective."
+
+    - name: "Business-Tech Bridge Function"
+      description: "Facilitating alignment between business and tech – clearly and effectively."
+
+    - name: "Growth & Scaling Strategy"
+      description: "Architectures & team models that grow organically with the product."
+
+    - name: "Agile Delivery & Scaling"
+      description: "Effective agile processes & scaled structures for reliable, focused delivery."
+        
+  certificates-title: "Certificates"
+  certificates:
+  - icon : "assets/images/skills/psd1.svg"
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/psm1.svg "
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/pspo1.svg "
+    link : "https://www.scrum.org/user/354382"
+  - icon : "assets/images/skills/SAFe_SA.png"
+    link : "https://www.credly.com/badges/5e28e351-fbc9-4ac2-838f-5ef1bbc90989/public_url"
+  - icon : "assets/images/skills/SAFe_SA_6.png"
+    link : "https://www.credly.com/badges/824cd794-69de-4fae-adaf-e7761b922f28/public_url"
+  - icon : "assets/images/skills/linux.svg"
+    link : "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0241ce4d-6018-4891-bd40-a23ee2c9acaf-marcel-russ-ca32e563-51ea-4447-8f69-d396ebc7246d-certificate.pdf"
+
+##################### FAQ #########################
+cto_faq:
+  title: "GOOD TO KNOW"
+  subtitle: "Answers to the most important questions"
+  item:
+  - question: "What exactly does a Fractional CTO do?"
+    answer: "I temporarily take over technical leadership – hands-on and strategic. This includes clear architectural decisions, clean team structures, and effective processes – until your tech team can deliver independently."
+
+  - question: "How does the engagement begin?"
+    answer: "With the CTO Quick Check (free), we review goals, context, and needs. If appropriate, a CTO Tech Audit follows with clear recommendations and priorities."
+
+  - question: "Are you part of my team or an external advisor?"
+    answer: "I work as part of your organization, not from a meta level. I take responsibility, make decisions, and coach your team toward sustainable independence."
+
+  - question: "How long do you stay on board?"
+    answer: "As long as it makes sense – typically between 2 and 9 months. Some projects end after the roadmap phase, others continue until successful scaling."
+
+  - question: "We don’t have a big budget. Are there smaller packages?"
+    answer: "Yes – especially for startups and NGOs, there are focused modules like the Tech Audit or targeted architecture and team reviews. Impact over volume."
+
+  - question: "How do you differ from traditional IT consultancies?"
+    answer: "I don’t bring PowerPoint slides – I bring implementation experience. I work on real systems, with real teams – and deliver measurable impact, not just strategic presence."
+
+  - question: "How do you measure your success as CTO?"
+    answer: "Success means: transparency, progress, and autonomy. I work with concrete KPIs – e.g., release cycles, bug rate, technical debt, or team satisfaction. What matters is: your team can deliver independently after I’m gone."
+
+####################### CTA ##########################
+cto_cta:
+    title: "Fractional CTO – Clarity, structure, and impact start here."
+    subtitle: "In 30 minutes, you’ll receive a realistic assessment of potential, risks, and next steps – free, concrete, and non-binding."
+    btn-label: "Request free Quick Check now"
+    btn-url: "mailto:kontakt@mehrwert.com?subject=Request free CTO Quick Check"
+
+cto_contact:
+  title: "Non-binding inquiry"
+  subtitle: "No Quick Check – but still a question?"
+  intro: "Send us a message – we look forward to hearing from you."
