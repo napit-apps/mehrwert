@@ -10,7 +10,7 @@ close: "Close"
 ################## Menu Area #######################
 main-menue:
   - name: Home
-    url: /index.html
+    url: "#"
   - name: Services
     url: "#"
     submenu: 
