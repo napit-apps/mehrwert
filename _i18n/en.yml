@@ -131,29 +131,28 @@ portfolios:
 mission:
   enable: true
   title: "Our Mission"
-  subtitle: "Use technology strategically – for better software, stronger teams, and lasting impact."
-  statement: "We create clarity across technology, collaboration, and decision-making. Our goal: digital structures that are economically viable, people-centered, and environmentally conscious – so software development not only works, but stands the test of time."
+  subtitle: "Real value is built on clarity, responsibility, and impact."
+  statement: "We believe value is the foundation of everything – from effective teams and resilient processes to measurable outcomes. True value emerges when responsibility meets execution. That’s what we stand for."
   why-title: "Why?"
   why:
-  - item: "Because software is the infrastructure of our society – and we must shape its quality and impact consciously."
-  - item: "Because sustainable structures and clear processes are the foundation for real innovation."
-  - item: "Because many organizations face complex challenges – and need orientation, structure, and reliability."
+    - item: "Because value creation without values doesn’t last."
+    - item: "Because clarity in tech, team and strategy is key to sustainable progress."
+    - item: "Because future-readiness requires conscious responsibility – technically, ecologically, and socially."
   how-title: "How?"
   how:
-  - item: "Through structured CTO services that align technology, teams, and business goals."
-  - item: "Through agile coaching with purpose – focused on clarity, team maturity, and real results."
-  - item: "Through training and sparring in green coding and modern software practices – for measurable impact, not empty buzzwords."
-  - item: "By combining technical excellence, agile leadership, and sustainable product development."
-  special-title: "What makes us different?"
+    - item: "Through clear roles, structured processes and technical depth."
+    - item: "Through agile frameworks tailored to outcomes, not ideology."
+    - item: "Through sustainability metrics and Green Tech as strategic levers."
+    - item: "Through coaching that empowers teams instead of enforcing methods."
+  special-title: "What sets us apart?"
   specials:
-  - item: "We approach technology through its impact – and anchor it strategically within the organization."
-  - item: "We combine leadership, development, and sustainability into one coherent offering."
-  - item: "We don’t deliver templates – we provide structure, clarity, and accountability tailored to your context."
+    - item: "We approach value creation holistically – technical, human, sustainable."
+    - item: "We combine CTO strategy, agile leadership and green engineering."
+    - item: "We don’t sell hype – we deliver clarity, impact, and responsibility."
 
 vision:
   title: "Our Vision"
-  statement: "Digital solutions that matter. We believe in software development that is economically sound, technically excellent, and socially responsible. Our vision is an IT landscape that helps shape the future – with clear structures, self-organized teams, and sustainable technologies."
-
+  statement: "Value-driven thinking becomes the new norm in the digital world. Companies no longer aim for speed alone – but build software with responsibility, strong teams, and lasting impact. Our vision is a digital future where value creation is rooted in clarity, responsibility, and sustainability – not short-term trends."
 
 ###################### Services #####################
 services:

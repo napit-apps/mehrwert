@@ -153,28 +153,29 @@ portfolios:
 mission:
   enable: true
   title: "Unsere Mission"
-  subtitle: "Technologie strategisch nutzen – für bessere Software, starke Teams und nachhaltige Wirkung."
-  statement: "Wir schaffen Klarheit in Technologie, Zusammenarbeit und Entscheidungsprozessen. Unser Ziel: Digitale Strukturen, die tragen – wirtschaftlich, menschlich und ökologisch. Damit Softwareentwicklung nicht nur funktioniert, sondern zukunftsfähig wird."
+  subtitle: "Mehr.Wert entsteht durch Klarheit, Verantwortung und wirksame Umsetzung."
+  statement: "Wir glauben: Wert ist die Grundlage für alles – für funktionierende Teams, tragfähige Prozesse und greifbare Ergebnisse. Echten Mehrwert schafft, wer Verantwortung übernimmt und konsequent auf nachhaltige Wirkung hinarbeitet. Genau dafür stehen wir."
   why-title: "Warum?"
   why:
-  - item: "Weil Software eine zentrale Infrastruktur unserer Gesellschaft ist – und wir ihre Qualität und Wirkung aktiv mitgestalten müssen."
-  - item: "Weil nachhaltige Strukturen und klare Prozesse die Voraussetzung für echte Innovationskraft sind."
-  - item: "Weil viele Organisationen vor komplexen Herausforderungen stehen – und Orientierung, Struktur und Verlässlichkeit brauchen."
+    - item: "Weil Wertschöpfung ohne Werte nicht langfristig funktioniert."
+    - item: "Weil Klarheit in Technik, Team und Strategie die Voraussetzung für nachhaltige Ergebnisse ist."
+    - item: "Weil Zukunftsfähigkeit eine bewusste Entscheidung für Verantwortung erfordert – technisch, ökologisch und menschlich."
   how-title: "Wie?"
   how:
-  - item: "Durch strukturierte CTO-Services, die Technik, Team und Business zusammenbringen."
-  - item: "Durch agiles Coaching mit Haltung – orientiert an Klarheit, Reifegrad und echten Ergebnissen."
-  - item: "Durch Training und Sparring zu Green Coding und moderner Softwarepraxis – für messbare Wirkung statt leere Schlagworte."
-  - item: "Durch die Verbindung von technischer Exzellenz, agiler Führung und nachhaltiger Produktentwicklung."
+    - item: "Durch klare Rollen, strukturierte Prozesse und technische Exzellenz."
+    - item: "Durch agile Methoden, die auf Wirkung statt Dogma setzen."
+    - item: "Durch Nachhaltigkeitsmetriken und Green Tech als strategische Hebel."
+    - item: "Durch Coaching, das Teams stärkt – nicht nur Methoden lehrt."
   special-title: "Was macht uns einzigartig?"
   specials:
-  - item: "Wir denken Technologie von der Wirkung her – und verankern sie strategisch im Unternehmen."
-  - item: "Wir kombinieren Führung, Entwicklung und Nachhaltigkeit zu einem integrierten Angebot."
-  - item: "Wir liefern keine Templates, sondern Struktur, Klarheit und Verantwortung – situationsgerecht und partnerschaftlich."
+    - item: "Wir denken Wertschöpfung ganzheitlich – technisch, menschlich, nachhaltig."
+    - item: "Wir vereinen CTO-Denken, agile Führung und Green Software Engineering."
+    - item: "Wir liefern keinen Hype – sondern Klarheit, Wirkung und Verantwortung."
 
 vision:
   title: "Unsere Vision"
-  statement: "Digitale Lösungen mit Substanz. Wir glauben an eine Softwareentwicklung, die wirtschaftlich tragfähig, technisch exzellent und gesellschaftlich verantwortungsvoll ist. Unsere Vision ist eine IT-Landschaft, die Zukunft gestaltet – durch klare Strukturen, selbstorganisierte Teams und nachhaltige Technologien."
+  statement: "Wertorientierung wird zur neuen Norm in der digitalen Welt. Unternehmen entwickeln Software nicht nur schneller, sondern verantwortungsvoller – mit klarer Ausrichtung, resilienten Teams und technischer Substanz. Unsere Vision ist eine digitale Zukunft, in der Wertschöpfung nicht auf Geschwindigkeit, sondern auf Wirkung, Verantwortung und Nachhaltigkeit basiert."
+  
 ######################### Testimonail ####################
 Testimonial_01: "Testimonial_01"
 Testimonial_02: "Testimonial_02"
