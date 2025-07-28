@@ -57,6 +57,7 @@ hero_area:
   subheadline : "Wir denken strategisch, handeln verantwortungsvoll und gestalten Wandel mit technischer Klarheit. Das Ergebnis sind tragfähige Strukturen, handlungsfähige Teams und Software mit nachhaltiger Wirkung."
   content: ""
   primaryButton-label : "Jetzt ins Gespräch kommen" 
+  primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Kontaktanfrage"
   secondaryButton-label : ""
 
 
@@ -477,6 +478,7 @@ cto_hero:
       <li>Direkte Zusammenarbeit – statt PowerPoint-Beratung</li>
     </ul>"
   primaryButton-label : "CTO Quick Check starten – kostenlos & konkret" 
+  primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Anfrage kostenloser CTO Quick Check"
 
 
 ################## Problem Solution ###########################
@@ -607,3 +609,16 @@ cto_faq:
 
   - question: "Wie messen Sie Ihren Erfolg als CTO?"
     answer: "Erfolg heißt für mich: Transparenz, Fortschritt und Eigenständigkeit. Ich arbeite mit konkreten KPIs – z. B. Release-Zyklen, Bugrate, technischer Schuldenstand oder Team-Zufriedenheit. Entscheidend ist: Ihr Team kann nach meiner Zeit selbständig liefern."
+
+
+####################### CTA ##########################
+cto_cta:
+    title: "CTO auf Zeit – Klarheit, Struktur und Wirksamkeit starten hier."
+    subtitle: "In 30 Minuten erhalten Sie eine realistische Einschätzung zu Potenzial, Risiken und nächsten Schritten – kostenlos, konkret und unverbindlich."
+    btn-label: "Jetzt kostenlosen Quick Check anfragen"
+    btn-url: "mailto:kontakt@mehrwert.com?subject=Anfrage kostenloser CTO Quick Check"
+
+cto_contact:
+  title: "Unverbindliche Anfrage"
+  subtitle: "Kein Quick Check – aber trotzdem eine Frage?"
+  intro: "Schreiben Sie uns – wir freuen uns auf Ihre Nachricht."

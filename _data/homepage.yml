@@ -5,7 +5,6 @@ hero_area:
     enable : false
   primaryButton:
     enable : true
-    link : "mailto:kontakt@mehrwert.com?subject=Kontaktanfrage"
   secondaryButton:
     enable : false
     link : "/blog.html"
@@ -22,7 +21,7 @@ about:
 
 cto_about:
   enable : true
-  video_thumb : "/assets/images/about/cto-about.avif"
+  video_thumb : "/assets/images/about/cto-about-2.avif"
   video_url : 
 
   button:

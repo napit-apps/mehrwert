@@ -11,7 +11,7 @@
           {% t hero_area.content %}
         {% endif %}
         {% if banner.primaryButton.enable %}
-          <p><a href="{{banner.primaryButton.link}}" class="btn btn-primary">{% t hero_area.primaryButton-label %}</a></p>
+          <p><a href="{% t hero_area.primaryButton-url %}" class="btn btn-primary">{% t hero_area.primaryButton-label %}</a></p>
         {% endif %}
         {% if banner.secondaryButton.enable %}
           <a href="{{ site.baseurl }}{{banner.secondaryButton.link}}" class="btn btn-secondary">{% t hero_area.secondaryButton-label %}</a>
