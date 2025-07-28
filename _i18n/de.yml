@@ -10,7 +10,7 @@ close: "Schließen"
 ################## Menu Area #######################
 main-menue:
   - name: Start
-    url: /index.html
+    url: /blog.html
   - name: Leistungen
     url: "#"
     submenu: 
