@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Green Coding Patterns - Practical Tips for Energy-Efficient Software</title>
+  <title>Green Coding with AI – ChatGPT as a Tool for Sustainable Programming</title>
   
 
   <!-- mobile responsive meta -->
@@ -155,12 +155,12 @@
 				<div class="blog-single mb-5">
 					<div class="row justify-content-center">
 						<div class="col-lg-8">
-							<h3 class="text-white mt-4 mb-2">Green Coding Patterns - Practical Tips for Energy-Efficient Software</h3>
+							<h3 class="text-white mt-4 mb-2">Green Coding with AI – ChatGPT as a Tool for Sustainable Programming</h3>
 							<div class="post-meta text-uppercase mb-3">
-								<span class="text-color"> Marcel, Alina, </span>
-								<span class="text-color">07.05.2025</span>
+								<span class="text-color"> Alina, </span>
+								<span class="text-color">23.07.2025</span>
 							</div>
-							<!-- <p class="text-white">As the climate crisis intensifies, the energy consumption of the IT sector is drawing increasing attention. According to the Intergovernmental Panel on Climate Change (IPCC),...</p> -->
+							<!-- <p class="text-white">In the first part of our article series, we explored the tension between Artificial Intelligence and sustainability: How can we ensure that AI is not...</p> -->
 						</div>
 					</div>
 					<!-- 
@@ -172,110 +172,112 @@
 					<div class="row justify-content-center">
 						<div class="col-lg-8 mx-auto">
 							<div class="post-content">
-								<p>As the climate crisis intensifies, the <strong>energy consumption of the IT sector</strong> is drawing increasing attention. According to the Intergovernmental Panel on Climate Change (IPCC), severe impacts can only be mitigated through <strong>immediate emission reductions</strong>. IT plays a dual role: on the one hand, digitalization can help reduce emissions in other sectors (<em>green by IT</em>). On the other hand, the industry itself must become more sustainable (<em>green in IT</em>).</p>
+								<p>In the <a href="https://mehrwert.tech/en/KI">first part of our article series</a>, we explored the tension between <strong>Artificial Intelligence</strong> and <strong>sustainability</strong>: How can we ensure that AI is not just resource-intensive, but also contributes to solving ecological problems?</p>
 
-<p>Software is at the center of this transformation—because <strong>sustainable software is efficient software</strong>. Every inefficient line of code creates not only technical but also <strong>ecological debt</strong>. Like technical debt, it can impair <strong>long-term maintainability and efficiency</strong>—but with the added impact on <strong>real resources like electricity and CO₂</strong>. The good news: no radical changes are needed—what matters most is a <strong>sharpened awareness</strong> and a few <strong>targeted adjustments</strong>. This article presents practical <strong>Green Coding Patterns</strong> that are easy to integrate into everyday development.</p>
+<p>In this second part, we turn to the <strong>practical application</strong>: How can <strong>ChatGPT be used in everyday development</strong> to produce <strong>sustainable, energy-efficient code</strong>? We take a closer look at <strong>current research</strong>, analyze the <strong>strengths and weaknesses</strong> of LLMs, and show how these tools can already be tailored for <strong>Green Coding</strong> today—and how to put this <strong>potential to use</strong> right now.</p>
 
-<h2 id="small-levers-big-impact">Small Levers, Big Impact</h2>
+<p>Before diving into specific implementation methods in ChatGPT, we need to ask a fundamental question: <strong>Can a language model like ChatGPT even generate energy-efficient code—and if so, under what conditions?</strong> This potential needs to be confirmed before considering appropriate techniques and contexts for practical use. Let’s take a look at <strong>current research findings</strong>.</p>
 
-<p>Sustainable development doesn’t have to start with a complete overhaul. Often, <strong>small everyday changes</strong>—a different format here, a more conscious decision there—can lead to <strong>measurable effects</strong>. These adjustments act like <strong>levers</strong>: small in effort but large in impact. Many small decisions can significantly <strong>reduce energy consumption across multiple levels</strong>.</p>
+<h3 id="can-chatgpt-actually-produce-energy-efficient-code">Can ChatGPT actually produce energy-efficient code?</h3>
 
-<p>Changing behaviors step by step leads to a <strong>new awareness</strong>. What feels like an extra effort today can soon become the <strong>new normal</strong>. The following examples highlight such <strong>small levers with big impact</strong>—immediately applicable and effective for both the environment and system performance.</p>
+<p>The answer is: <strong>Yes—under certain conditions</strong>. But not automatically. A key source here is the study “Generating Energy‑efficient Code with LLMs” (<a href="https://arxiv.org/abs/2411.10599">Tom Cappendijk et al., 2024</a>). In a controlled experiment, five large LLMs (including CodeLlama‑70b and DeepSeek‑Coder‑33b) were tasked with solving three different LeetCode problems. The prompts ranged from neutral instructions (“Solve this problem”) to specific phrasing such as “Give me an energy‑optimized solution…” or “Use library functions.”</p>
 
-<h2 id="efficiency-through-reduced-computation">Efficiency Through Reduced Computation</h2>
+<p>The study concludes that <strong>energy savings through LLMs are generally possible</strong>—but not consistently. In some test scenarios, certain combinations of model, task type, and <strong>targeted prompting</strong> led to significant improvements in energy efficiency. For example, the use of <strong>efficient library functions</strong> or <strong>optimized loop structures</strong> resulted in savings of up to <strong>60%</strong>. At the same time, there was <strong>no prompt that consistently produced more efficient code</strong>; in some cases, the models even generated considerably less efficient code, especially for more complex tasks.</p>
 
-<p>One of the first levers lies in the <strong>code itself</strong>: the less computational power an application requires, the less energy it consumes. <strong>Avoiding unnecessary calculations</strong> is a key lever—just as a fuel-efficient car uses less gas, efficient code uses less electricity. It’s not about perfection, but about setting clear <strong>priorities for resource use</strong>.</p>
+<p>The decisive factor is <strong>prompting</strong>: Only when the prompt explicitly references energy efficiency or specific coding practices does the <strong>likelihood increase</strong> that the generated solution will be resource-conscious. Without such guidance, the energy efficiency of the output remains <strong>largely unpredictable</strong>.</p>
 
-<ul>
-  <li><strong>Avoid unnecessary processes</strong>: Does every click really need to trigger a new query? Does the entire DOM need to re-render? Smart event handling and caching can prevent excess computation.</li>
-  <li><strong>Prefer simple data types</strong>: Integer operations often use less energy than floating-point ones. Small changes in data handling can make a big difference.</li>
-  <li><strong>Use precompiled resources</strong>: Bundle and optimize scripts and assets before delivery to reduce computation on end devices.</li>
-</ul>
+<p>The study shows: LLMs like ChatGPT <strong>can</strong> generate <strong>energy-efficient code</strong>—if <strong>guided accordingly</strong>. What matters are <strong>clear prompts</strong> and a meaningful <strong>context</strong>. Without them, the potential remains untapped.</p>
 
-<h2 id="transferring-data-efficiently">Transferring Data Efficiently</h2>
+<h3 id="ai-powered-refactoring-what-the-research-tells-us">AI-powered Refactoring: What the Research Tells Us</h3>
 
-<p><strong>Data traffic also consumes energy</strong>—on end devices, in networks, and in data centers. The rule: the less, the better.</p>
+<p>A major shortcoming of existing approaches is their focus on evaluating AI-generated code. They assess how energy-efficient a given output is—but offer no concrete method for automatically improving existing code. This is where a research team from Purdue University (<a href="https://arxiv.org/abs/2410.09241">Peng et al., 2024</a>) goes a step further: They developed a prototype for an automated <strong>refactoring system</strong>, in which <strong>two LLMs collaborate</strong> to systematically optimize existing code for energy efficiency.</p>
 
-<ul>
-  <li><strong>Transfer only necessary data</strong>: Keep API responses and database queries focused on essentials.</li>
-  <li><strong>Compress files</strong>: Text and image files can often be reduced significantly in size without losing quality.</li>
-  <li><strong>Use caching effectively</strong>: Repeated data retrievals can be avoided by storing static content locally or on the server.</li>
-</ul>
+<p>Here’s how it works: A first model (e.g., GPT-4) analyzes the input code and suggests an <strong>optimized version</strong> designed to use fewer resources. A second model evaluates this suggestion—checking for <strong>functional correctness</strong> and measuring actual <strong>energy consumption</strong> using embedded telemetry and runtime data. Based on this feedback, the first model can then <strong>iteratively improve</strong> its suggestions.</p>
 
-<h2 id="energy-efficient-interfaces-and-ux">Energy-Efficient Interfaces and UX</h2>
+<p>The result: In about half of the test cases, <strong>energy consumption was significantly reduced</strong>—sometimes to less than half of the original level. Particularly notable: In several cases, the refactoring suggestions even outperformed what traditional <strong>compiler optimizations</strong> achieved.</p>
 
-<p>The <strong>design of an application</strong> directly influences its energy demand. <strong>User-friendliness and resource efficiency</strong> are not mutually exclusive—they go hand in hand.</p>
+<p>This approach clearly highlights the <strong>potential of LLMs in sustainable software maintenance</strong>: Instead of merely generating efficient new code, they could also adapt existing code to meet modern <strong>efficiency standards</strong>—a promising outlook for future tools.</p>
+
+<h3 id="green-coding-guidelines-how-to-train-chatgpt-with-context">Green Coding Guidelines: How to Train ChatGPT with Context</h3>
+
+<p>To unlock the potential of LLMs like ChatGPT for everyday development, several proven strategies are already available. While research shows that LLMs do not inherently produce energy-efficient code, their output can be greatly improved through <strong>targeted prompting</strong> and <strong>contextual guidance</strong>.</p>
+
+<p>If you want ChatGPT to consistently focus on energy efficiency in code generation, there are multiple ways to make that happen:</p>
 
 <ul>
-  <li><strong>Use images efficiently</strong>: Lean formats like WebP and properly scaled media reduce file size and energy consumption.</li>
-  <li><strong>Reduce animations</strong>: Visual effects increase GPU usage, especially on mobile devices. Less is more.</li>
-  <li><strong>Offer dark mode</strong>: On OLED screens, a dark interface saves energy and improves accessibility.</li>
-  <li><strong>Optimize loading times</strong>: Faster loading not only saves energy but also improves user experience.</li>
+<li><b>Persistent Custom Instructions</b><br />
+With custom instructions (accessible via the settings menu in the ChatGPT app, available only for ChatGPT Plus/Enterprise), you can store permanent prompts that are automatically applied in every conversation. <br />
+These instructions are used across contexts – regardless of the project or topic at hand.</li>
+
+<li><b>Upload style guides or Markdown files</b><br />
+GPT-4 supports file uploads. This allows you to provide your own guidelines directly as input – for example as `green_coding_guidelines.md` – and explicitly ask the model to follow them.</li>
+
+<li><b>Create your own GPTs with system prompts</b><br />
+Using the "Explore" feature, you can build specialized GPTs that consistently follow Green Coding goals – including fixed prompts and optional knowledge files.</li>
+
+<li><b>Be clear and structured</b><br />
+Rules should be positive, precise, and written in bullet points. Reinforcers such as “always” or “definitely” help the model prioritize effectively.</li>
 </ul>
 
-<h2 id="using-resources-more-wisely">Using Resources More Wisely</h2>
+<p><strong>Good prompting is key</strong>—and sometimes a single sentence is enough to noticeably improve code suggestions. A prompt that has proven effective in practice reads:</p>
 
-<p>The <strong>infrastructure</strong> behind an application also holds potential for optimization. The goal is to <strong>scale resources to actual needs</strong>.</p>
+<blockquote>
+  <p>“Act as an experienced software developer. Review the following code for performance, maintainability, and energy efficiency. Provide specific, actionable suggestions for improvement in each of these areas.”</p>
+</blockquote>
 
+<p>This prompt is taken from a practical article by (<a href="https://ashexplained.com/how-to-improve-code-reviews-using-chatgpt/">Ash Explained, 2024</a>) and can be easily adapted. Developers looking to systematically generate or review more efficient code can embed such prompts directly or apply them as persistent settings.</p>
+
+<h3 id="green-coding-checklist-for-embedding-or-uploading">Green Coding Checklist (for Embedding or Uploading)</h3>
+
+<p>Here is a list of Green Coding Principles that can be incorporated in various ways within ChatGPT: directly in prompts, as system instructions in a custom GPT, or as a Markdown file uploaded during a conversation. This checklist can of course be refined or extended for project-specific needs:</p>
+
+<h3> Green Coding Guidelines for Energy-Efficient Software</h3>
+<h4> General Principles</h4>
 <ul>
-  <li><strong>Scale based on demand</strong>: Systems should automatically adapt to load and scale down during off-peak times.</li>
-  <li><strong>Shut down unnecessary environments</strong>: Development and test environments don’t need to run 24/7.</li>
-  <li><strong>Use serverless and containers</strong>: These technologies help use hardware more efficiently.</li>
+  <li>Use efficient algorithms &amp; data structures</li>
+  <li>Avoid redundant computations</li>
+  <li>Apply caching &amp; memoization</li>
+  <li>Avoid busy-waiting</li>
+  <li>Keep memory usage low</li>
+  <li>Parallelize tasks sensibly</li>
 </ul>
-
-<h2 id="carbon-aware-coding">Carbon-Aware Coding</h2>
-
-<p>Not all electricity is equally green. CO₂ emissions per kilowatt-hour vary depending on the time of day and grid load—depending on whether <strong>renewable sources like wind and solar</strong> are feeding the grid or whether <strong>fossil fuels</strong> dominate. This is called <strong>carbon intensity</strong>, describing how much carbon dioxide is emitted per kilowatt-hour of electricity. <strong>Carbon-aware coding</strong> takes these variations into account.</p>
-
+<h4> Python-Specific</h4>
 <ul>
-  <li><strong>Schedule intelligently</strong>: Batch jobs or analyses can be timed to run during periods of <strong>low grid load or lower CO₂ intensity</strong>—for instance, when renewables are abundant. Tools like the Carbon Aware SDK or apps like StromGedacht help identify particularly green times in the grid mix.</li>
-  <li><strong>Adapt to device states</strong>: Applications should detect whether a device is in energy-saving mode and adjust their behavior accordingly.</li>
+  <li>Use vectorized NumPy operations instead of loops</li>
+  <li>Prefer generators over lists</li>
+  <li>Read files line by line</li>
+  <li>Avoid object instantiation inside loops</li>
 </ul>
-
-<h2 id="measuring-and-improving">Measuring and Improving</h2>
-
-<p><strong>Sustainability needs metrics</strong>. Only what is measured can be improved. A <strong>realistic overview</strong> of energy usage is the foundation for meaningful change.</p>
-
+<h4> Java-Specific</h4>
 <ul>
-  <li><strong>Measure energy consumption</strong>: There are various ways to track how much energy an application uses—through <strong>runtime profiling</strong> or <strong>indirect indicators</strong> like CPU load, runtime, or memory usage. While these proxies aren’t precise, they offer helpful insights. More detailed analysis can be done with specialized tools.</li>
-  <li><strong>Use benchmarks</strong>: Standardized metrics like the <strong>Software Carbon Intensity (SCI)</strong> make progress measurable. A practical example is available in the <a href="https://mehrwert.tech/en/powermetrics">previous article on energy analysis with Powermetrics</a>.</li>
+  <li>Avoid object allocations in hot loops</li>
+  <li>Use streams instead of full data loads</li>
+  <li>Prefer primitive types</li>
+  <li>Mark constants with <code>final</code></li>
 </ul>
-
-<h2 id="low-hanging-fruits-saving-energy-on-devices">Low Hanging Fruits: Saving Energy on Devices</h2>
-
-<p>Not all optimization happens in code or infrastructure—<strong>devices themselves</strong> offer opportunities for simple yet effective actions:</p>
-
+<h4> Cross-Technology</h4>
 <ul>
-  <li><strong>Activate dark mode</strong>: Especially on OLED screens, this can significantly reduce power usage.</li>
-  <li><strong>Reduce screen brightness</strong>: One of the simplest ways to save energy.</li>
-  <li><strong>Shut down devices after hours</strong>: Turning off monitors, laptops, and peripherals avoids unnecessary standby power.</li>
-  <li><strong>Enable energy-saving modes</strong>: Many operating systems and IDEs offer these features—they’re often just unused.</li>
-  <li><strong>Close unused tabs and applications</strong>: Less load on the CPU means less energy consumed.</li>
+  <li>Move loop conditions outside the loop</li>
+  <li>Use optimized libraries</li>
+  <li>Choose suitable languages/platforms</li>
 </ul>
 
-<p><strong>These small, easy-to-implement actions</strong> complement structural improvements and make <strong>Green Coding</strong> a <strong>holistic approach</strong>.</p>
+<h3 id="conclusion">Conclusion</h3>
 
-<p><strong>One major advantage:</strong> Many of these actions can be implemented <strong>individually</strong>, <strong>without team consensus or lengthy discussions</strong>. Anyone adjusting local power settings or activating energy-saving features can <strong>have an immediate impact</strong>. A portion of the <strong>responsibility</strong>—and <strong>freedom to act</strong>—lies in one’s own hands.</p>
+<p>Language models like ChatGPT can be a powerful <strong>tool for sustainable programming</strong>—provided they are used strategically. Research shows: <strong>Energy-efficient code does not happen by default</strong>. It requires clear instructions, thoughtful context, and the integration of green coding principles into the development process. By leveraging <strong>custom instructions</strong>, <strong>prompting strategies</strong>, or tailored <strong>style guides</strong>, developers can start using the potential of LLMs for sustainable software development today—reducing resource consumption while improving code quality. For more background on the intersection of AI and sustainability, check out the <a href="https://mehrwert.tech/en/KI">first part of our article series</a>.</p>
 
-<h2 id="conclusion-small-steps-big-difference">Conclusion: Small Steps, Big Difference</h2>
-
-<p><strong>Green Coding doesn’t have to be complex.</strong> Many practices are simple to implement and deliver real impact. <strong>Efficient code</strong>, <strong>reduced data transfer</strong>, and <strong>thoughtful interfaces</strong> help lower energy consumption while making software more <strong>performant and reliable</strong>.</p>
-
-<p><strong>Developers have the power</strong> to make software more sustainable—one line at a time.</p>
-
-<p>Want more? You can find strategic background and further insights in the <a href="https://mehrwert.tech/en/green-coding">article “Green Software, Green Future”</a>.</p>
 
 								<ul class="list-inline post-share text-right">
     <li class="list-inline-item"><h5>Share:</h5></li>
     <li class="list-inline-item">
-        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://mehrwert.tech/en/green-coding-patterns"
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://mehrwert.tech/en/KI-II"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Facebook" >
         <i class="ti-facebook"></i>
     </a>
     </li>
     <li class="list-inline-item">
-        <a  href="https://twitter.com/intent/tweet?text=Green Coding Patterns - Practical Tips for Energy-Efficient Software&url=https://mehrwert.tech/en/green-coding-patterns"
+        <a  href="https://twitter.com/intent/tweet?text=Green Coding with AI – ChatGPT as a Tool for Sustainable Programming&url=https://mehrwert.tech/en/KI-II"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Twitter" >
         <i class="ti-twitter"></i>
@@ -293,21 +295,21 @@
 								<div class="col-lg-6">
 									<div class="list-inline post-tags">
 										<div class="list-inline-item"><h5>Themenbereiche:</h5></div>
-										<a  href="/en/tag/%23green-coding%2c/"  rel="tag">#green-coding,</a>,  <a  href="/en/tag/%23nachhaltigkeit/"  rel="tag">#nachhaltigkeit</a>
+										<a  href="/en/tag/%23green-coding%2c/"  rel="tag">#green-coding,</a>,  <a  href="/en/tag/%23nachhaltigkeit%2c/"  rel="tag">#nachhaltigkeit,</a>,  <a  href="/en/tag/%23ki/"  rel="tag">#ki</a>
 									</div>
 								</div>
 								<div class="col-lg-8">
 									<ul class="list-inline post-share text-right">
     <li class="list-inline-item"><h5>Share:</h5></li>
     <li class="list-inline-item">
-        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://mehrwert.tech/en/green-coding-patterns"
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://mehrwert.tech/en/KI-II"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Facebook" >
         <i class="ti-facebook"></i>
     </a>
     </li>
     <li class="list-inline-item">
-        <a  href="https://twitter.com/intent/tweet?text=Green Coding Patterns - Practical Tips for Energy-Efficient Software&url=https://mehrwert.tech/en/green-coding-patterns"
+        <a  href="https://twitter.com/intent/tweet?text=Green Coding with AI – ChatGPT as a Tool for Sustainable Programming&url=https://mehrwert.tech/en/KI-II"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Twitter" >
         <i class="ti-twitter"></i>
