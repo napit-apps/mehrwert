@@ -74,7 +74,7 @@ h6,.h6 {
   text-align: left;
 
   li::before {
-    content: "✔";                  /* Bullet manuell einfügen */
+    content: "\2713";                  /* Bullet manuell einfügen */
     position: absolute;
     left: 0;
     color: white;                /* deine CI-Farbe */
