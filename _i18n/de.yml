@@ -412,7 +412,8 @@ gsp_training:
       content-2: "Grundlagen Green Coding"
       content-3: "Theorieverständnis"
     - title: "Professional"
-      background: bg-primary
+      background: bg-extra
+      textcolor: text-white
       duration: "6-8 Stunden"
       price: "800€"
       participants: "bis 10 Teilnehmer"

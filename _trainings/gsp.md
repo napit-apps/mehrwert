@@ -160,26 +160,26 @@ cta-action: gsp_training.cta.action
 <!-- Testimonial End -->
 
 <!-- Pricing Start -->
-<section class="section pricing bg_secondary">
+<section class="section bg-primary">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8 text-center">
-				<span class="h5 text-color text-uppercase">
+				<span class="h5 text-white text-uppercase">
 					{{ gsp_training.pricing.subtitle }}
 				</span>
-				<h3 class="mb-5 mt-2">{{ gsp_training.pricing.title }}</h3>
+				<h3 class="mb-5 mt-2 text-white">{{ gsp_training.pricing.title }}</h3>
 			</div>
 		</div>
 		<div class="row">
 			{% for item in gsp_training.pricing.item %}
 				<div class="col-lg-4 col-md-6 ">
-				<div class="card border-0 rounded-0 shadow-lg text-center p-4 mb-5 mb-lg-0 {{ item.background }}">
+				<div class="card border-0 rounded-0 shadow-lg text-center p-4 mb-5 mb-lg-0 {{ item.background }} {{ item.textcolor }}">
 					<div class="card-header">
 						<span class="package d-inline-block text-capitalize">{{ item.title }}</span>
 						<!-- <h3 class="price mt-4 font-weight-bold">{{ item.price }} <small class="text-secondary text-sm"> {{ gsp_training.pricing.price-unit }}</small></h3> -->
-						<p>{{ item.duration }}</p>
-						<p>{{ item.location }}</p>
-						<p>{{ item.participants }}</p>
+						<p class="{{ item.textcolor }}">{{ item.duration }}</p>
+						<p class="{{ item.textcolor }}">{{ item.location }}</p>
+						<p class="{{ item.textcolor }}">{{ item.participants }}</p>
 					</div>
 					<div class="card-body">
 						<ul class="list-unstyled lh-45 mt-3 mb-4">
