@@ -16,6 +16,8 @@ main-menue:
     submenu: 
       - name: CTO auf Zeit
         url: "/services/fractional-cto.html"
+      # - name: Green Agile Coaching
+      #   url: "/services/green-agile-coaching.html"
       - name: Green Coding Training
         url: "/trainings/gsp.html"
   - name: Blog
@@ -77,6 +79,8 @@ services:
   - name : "Green Agile Coaching"
     content : "Agilität, die wirkt – für Teams, Prozesse und nachhaltigen Wandel. Wir verbinden agile Methoden mit Sinn, Struktur und Verantwortung. Für Klarheit, Zusammenarbeit und echten Fortschritt."
     icon: "ti-stats-up"
+    # btn-label: "Agilität mit Wirkung"
+    # btn-url: "/services/green-agile-coaching.html"
 
   - name : "Green Coding Training"
     content : "Nachhaltige Software beginnt beim Code. Wir zeigen Entwicklungsteams, wie sie messbar Ressourcen sparen – ohne Produktivitätseinbußen."

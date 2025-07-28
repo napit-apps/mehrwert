@@ -16,6 +16,8 @@ main-menue:
     submenu: 
       - name: Fractional CTO
         url: "/services/fractional-cto.html"
+      # - name: Green Agile Coaching
+      #   url: "/services/green-agile-coaching.html"
       - name: Green Coding Training
         url: "/trainings/gsp.html"
   - name: Blog
@@ -104,13 +106,13 @@ portfolios:
       description: "Temporary technical leadership – structure, architecture, and clarity for SMEs and startups."
       color: "#44464F"  # Neutraler Metallton – modern & zurückhaltend
       popup: "We bring technical leadership to your company – exactly when you need it. From architecture to team structure to scaling strategy: pragmatic, experienced, and on equal footing."
-      more-link: "/services/fractional-cto.html"
+      more-link: "/en/services/fractional-cto.html"
 
     - name: "Green Coding Training"
       description: "Sustainable software development explained in a practical way – with strategy and impact."
       color: "#518CA8"  # Ruhiges Blau – tech-freundlich
       popup: "We teach practical knowledge about energy-efficient coding. The training courses combine everyday development with sustainable decisions – measurable, concrete, and forward-looking."
-      more-link: "/trainings/gsp.html"
+      more-link: "/en/trainings/gsp.html"
 
     - name: "In-store digitization"
       description: "Digital platform for stores – information, guidance, and new retail channels."
@@ -170,6 +172,8 @@ services:
   - name : "Green Agile Coaching"
     content : "Agility that matters – for teams, processes, and sustainable change. We combine agile methods with purpose, structure, and responsibility. For clarity, collaboration, and real progress."
     icon: "ti-stats-up"
+    # btn-label: "Agility with impact"
+    # btn-url: "/services/green-agile-coaching.html"
 
   - name : "Green Coding Training"
     content : "Sustainable software starts at coding. We show development teams how to save resources in a measurable way – without compromising productivity. Sustainable software starts at coding."
@@ -499,7 +503,6 @@ cto_about:
   content : "<p><b>Without technical leadership, teams get lost in daily business.</b><br />Many companies get stuck: IT evolves inconsistently, technical debt increases, and strategic decisions are postponed – often because the CTO role is missing or overwhelmed.</p>
             <p><b>This doesn’t just cost time and money – it endangers future viability.</b><br />Without a clear technical vision, silos emerge, poor architectural decisions are made, and inefficient processes take root. The result: frustrated teams, delayed releases, missed market opportunities. Eventually, it’s too late for sustainable corrections.</p>
             <p><b>A Fractional CTO brings strategic leadership on demand.</b><br />As a Fractional CTO, I bring structure, clarity, and technical thinking into your organization – flexible, experienced, and focused on what matters. Together, we realign your IT: future-proof, impact-driven, and aligned with your business goals.</p>"
-  btn-label: "More about our mindset & approach"
   quote: "“Structure is not an end in itself. It creates space for clarity, focus, and sustainable decisions.” — Marcel Russ"
 
 ###################### Services #####################

@@ -13,7 +13,7 @@
 					<h4 class="my-4 text-white">{{ service.name }}</h4>
 					<p>{{ service.content }}</p>
 					{% if service.btn-label %}
-          				<a class="more-link text-color" href="{{ service.btn-url }}"> {{ service.btn-label }} </a>
+          				<a class="more-link text-color" href="{{ site.baseurl }}{{ service.btn-url | relative_url }}"> {{ service.btn-label }} </a>
        				{% endif %}	
 				</div>
 			</div>
