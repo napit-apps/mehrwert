@@ -129,28 +129,30 @@ portfolios:
 mission:
   enable: true
   title: "Our Mission"
-  subtitle: "Sustainable agility starts with people – and changes everything."
-  statement: "We combine agility with sustainability to make software development long-term successful, resilient, and responsible. Our goal is a development culture that consciously utilizes resources, fosters innovation, and ensures companies remain future-proof."
+  subtitle: "Use technology strategically – for better software, stronger teams, and lasting impact."
+  statement: "We create clarity across technology, collaboration, and decision-making. Our goal: digital structures that are economically viable, people-centered, and environmentally conscious – so software development not only works, but stands the test of time."
   why-title: "Why?"
   why:
-  - item: "Because software shapes the world – and we must take responsibility for its impact."
-  - item: "Because sustainable development is not just environmentally responsible, but also economically smart."
-  - item: "Because companies must make sustainability measurable to stay compliant and strategically future-proof."
+  - item: "Because software is the infrastructure of our society – and we must shape its quality and impact consciously."
+  - item: "Because sustainable structures and clear processes are the foundation for real innovation."
+  - item: "Because many organizations face complex challenges – and need orientation, structure, and reliability."
   how-title: "How?"
   how:
-  - item: "Consulting & coaching to establish sustainability as an integral part of agile software development."
-  - item: "Sustainable agility as the core – from requirements gathering to decommissioning."
-  - item: "Measurable KPIs & clear sustainability goals to optimize development and operations."
-  - item: "AI-driven solutions to make software and IT systems more efficient and resource-conscious."
-  special-title: "What makes us unique?"
+  - item: "Through structured CTO services that align technology, teams, and business goals."
+  - item: "Through agile coaching with purpose – focused on clarity, team maturity, and real results."
+  - item: "Through training and sparring in green coding and modern software practices – for measurable impact, not empty buzzwords."
+  - item: "By combining technical excellence, agile leadership, and sustainable product development."
+  special-title: "What makes us different?"
   specials:
-  - item: "Technical excellence meets agile scaling – with sustainability as a core strategy."
-  - item: "Sustainability is not an add-on, but a decisive success factor."
-  - item: "We provide clarity, measurable results, and practical implementation."
+  - item: "We approach technology through its impact – and anchor it strategically within the organization."
+  - item: "We combine leadership, development, and sustainability into one coherent offering."
+  - item: "We don’t deliver templates – we provide structure, clarity, and accountability tailored to your context."
+
 vision:
   title: "Our Vision"
-  statement: "Sustainable agility becomes the standard in software development. Companies will not only develop quickly but also responsibly – with a culture that unites innovation, resilience, and efficient resource utilization. Our vision is a digital world where software is not just powerful but also sustainable and future-proof."
+  statement: "Digital solutions that matter. We believe in software development that is economically sound, technically excellent, and socially responsible. Our vision is an IT landscape that helps shape the future – with clear structures, self-organized teams, and sustainable technologies."
 
+  
 ###################### Services #####################
 services:
   title: "Sustainable IT. Agile Processes. Measurable Results."

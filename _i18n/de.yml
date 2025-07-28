@@ -153,28 +153,28 @@ portfolios:
 mission:
   enable: true
   title: "Unsere Mission"
-  subtitle: "Nachhaltige Agilität beginnt bei den Menschen – und verändert alles."
-  statement: "Wir verbinden Agilität mit Nachhaltigkeit, damit Softwareentwicklung langfristig erfolgreich, resilient und verantwortungsvoll wird. Unser Ziel ist eine Entwicklungskultur, die Ressourcen bewusst nutzt, Innovation fördert und somit Unternehmen zukunftssicher macht."
+  subtitle: "Technologie strategisch nutzen – für bessere Software, starke Teams und nachhaltige Wirkung."
+  statement: "Wir schaffen Klarheit in Technologie, Zusammenarbeit und Entscheidungsprozessen. Unser Ziel: Digitale Strukturen, die tragen – wirtschaftlich, menschlich und ökologisch. Damit Softwareentwicklung nicht nur funktioniert, sondern zukunftsfähig wird."
   why-title: "Warum?"
   why:
-  - item: "Weil Software die Welt verändert – und wir Verantwortung für ihren Einfluss übernehmen müssen."
-  - item: "Weil nachhaltige Entwicklung nicht nur ökologisch sinnvoll, sondern wirtschaftlich klug ist."
-  - item: "Weil Unternehmen Nachhaltigkeit messbar machen müssen, um regulatorisch und strategisch zukunftsfähig zu sein."
+  - item: "Weil Software eine zentrale Infrastruktur unserer Gesellschaft ist – und wir ihre Qualität und Wirkung aktiv mitgestalten müssen."
+  - item: "Weil nachhaltige Strukturen und klare Prozesse die Voraussetzung für echte Innovationskraft sind."
+  - item: "Weil viele Organisationen vor komplexen Herausforderungen stehen – und Orientierung, Struktur und Verlässlichkeit brauchen."
   how-title: "Wie?"
   how:
-  - item: "Beratung & Coaching, um Nachhaltigkeit als festen Bestandteil agiler Softwareentwicklung zu verankern."
-  - item: "Nachhaltige Agilität als Kern – von der Anforderungsaufnahme bis zur Abschaltung."
-  - item: "Messbare KPIs & klare Nachhaltigkeitsziele, um Entwicklung und Betrieb zu optimieren."
-  - item: "KI-gestützte Lösungen, um Software und IT-Systeme effizienter und ressourcenschonender zu gestalten."
+  - item: "Durch strukturierte CTO-Services, die Technik, Team und Business zusammenbringen."
+  - item: "Durch agiles Coaching mit Haltung – orientiert an Klarheit, Reifegrad und echten Ergebnissen."
+  - item: "Durch Training und Sparring zu Green Coding und moderner Softwarepraxis – für messbare Wirkung statt leere Schlagworte."
+  - item: "Durch die Verbindung von technischer Exzellenz, agiler Führung und nachhaltiger Produktentwicklung."
   special-title: "Was macht uns einzigartig?"
   specials:
-  - item: "Technische Exzellenz trifft agile Skalierung – mit Nachhaltigkeit als Kernstrategie."
-  - item: "Nachhaltigkeit ist kein Zusatz, sondern ein entscheidender Erfolgsfaktor."
-  - item: "Wir liefern Klarheit, messbare Ergebnisse und praxisnahe Umsetzung."
+  - item: "Wir denken Technologie von der Wirkung her – und verankern sie strategisch im Unternehmen."
+  - item: "Wir kombinieren Führung, Entwicklung und Nachhaltigkeit zu einem integrierten Angebot."
+  - item: "Wir liefern keine Templates, sondern Struktur, Klarheit und Verantwortung – situationsgerecht und partnerschaftlich."
+
 vision:
   title: "Unsere Vision"
-  statement: "Nachhaltige Agilität wird zum Standard in der Softwareentwicklung. Unternehmen entwickeln nicht nur schnell, sondern auch verantwortungsvoll – mit einer Kultur, die Innovation, Resilienz und effizienten Ressourceneinsatz vereint. Unsere Vision ist eine digitale Welt, in der Software nicht nur leistungsfähig, sondern auch nachhaltig und zukunftssicher ist."
-
+  statement: "Digitale Lösungen mit Substanz. Wir glauben an eine Softwareentwicklung, die wirtschaftlich tragfähig, technisch exzellent und gesellschaftlich verantwortungsvoll ist. Unsere Vision ist eine IT-Landschaft, die Zukunft gestaltet – durch klare Strukturen, selbstorganisierte Teams und nachhaltige Technologien."
 ######################### Testimonail ####################
 Testimonial_01: "Testimonial_01"
 Testimonial_02: "Testimonial_02"
