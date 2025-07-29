@@ -16,8 +16,8 @@ main-menue:
     submenu: 
       - name: Fractional CTO
         url: "/services/fractional-cto.html"
-      # - name: Green Agile Coaching
-      #   url: "/services/green-agile-coaching.html"
+      - name: Green Agile Coaching
+        url: "/services/green-agile-coaching.html"
       - name: Green Coding Training
         url: "/trainings/gsp.html"
   - name: Blog
@@ -172,8 +172,8 @@ services:
   - name : "Green Agile Coaching"
     content : "Agility that matters – for teams, processes, and sustainable change. We combine agile methods with purpose, structure, and responsibility. For clarity, collaboration, and real progress."
     icon: "ti-stats-up"
-    # btn-label: "Agility with impact"
-    # btn-url: "/services/green-agile-coaching.html"
+    btn-label: "Agility with impact"
+    btn-url: "/services/green-agile-coaching.html"
 
   - name : "Green Coding Training"
     content : "Sustainable software starts at coding. We show development teams how to save resources in a measurable way – without compromising productivity. Sustainable software starts at coding."

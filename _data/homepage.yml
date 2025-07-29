@@ -21,7 +21,12 @@ about:
 
 cto_about:
   enable : true
-  video_thumb : "/assets/images/about/cto-about-2.avif"
+  video_thumb : "/assets/images/about/cto-about.avif"
+  video_url : 
+
+ac_about:
+  enable : true
+  video_thumb : "/assets/images/about/ac-about.avif"
   video_url : 
 
   button:
@@ -34,6 +39,10 @@ services:
   bg_image : "/assets/images/bg/feature-bg.png"    
 
 cto_services:
+  enable : true
+  bg_image : "/assets/images/bg/feature-bg.png"  
+
+ac_services:
   enable : true
   bg_image : "/assets/images/bg/feature-bg.png"  
 
