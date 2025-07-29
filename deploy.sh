@@ -13,6 +13,7 @@ rm -r assets/
 rm -r en/
 rm -r testimonials/
 rm -r trainings/
+rm -r services/
 
 mv _site/* .
 
