@@ -481,7 +481,7 @@ gsp_training:
       answer: "Für die Durchführung des Tainungs kommen wir sehr gerne bei Ihnen vorbei. Alternativ stehen uns moderne Räumlichkeiten in der Neuen Weberei in Wernau zur Verfügung."
 
 
-################## Services #######################
+#################################### Fractional CTO #########################################
 ################## CTO Hero Area #######################
 cto_hero:
   title : "CTO auf Zeit<br />für KMU & Startups"
@@ -497,6 +497,7 @@ cto_hero:
     </ul>"
   primaryButton-label : "CTO Quick Check starten – kostenlos & konkret" 
   primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Anfrage kostenloser CTO Quick Check"
+  background-style: "background: radial-gradient(circle at 20% 0%, #934ae4 0%, rgba(147, 74, 228, 0) 45%), radial-gradient(circle at 80% 10%, #61bb95 0%, rgba(255, 255, 255, 0) 55%), linear-gradient(to bottom, #1B1428 0%, #2B2044 100%);"
 
 
 ################## Problem Solution ###########################
@@ -537,11 +538,11 @@ cto_testimonials:
     image : "../assets/images/clients/konstantin.avif"
   - text : "Marcel überzeugte durch sein stark ausgeprägtes analytisches und logisches Denkvermögen. Er fand stets praktikable Lösungen für neue Aufgabenstellungen und erkannte auftretende Probleme frühzeitig. In seinem Fachgebiet verfügt Herr Russ über ein umfassendes und fundiertes Wissen, welches er in unser Unternehmen in gewinnbringender Weise einbrachte."
     author : "Exxeta AG"
-    role : "Arbeitszeugnis, Teamlead"
+    role : "Auszug Arbeitszeugnis, Teamlead"
     image : "../assets/images/clients/exxeta.avif"
   - text : "Marcel verstand es, seine Mitarbeiter entsprechend ihrer Fähigkeiten erfolgreich einzusetzen und in höchstem Maß zu motivieren. Er bewegte seine Teams zur aktiven und zukunftsorientierten Gestaltung des Wandels – mit klarer Zielkommunikation und situativem Führungsstil."
     author : "Hugo Boss AG"
-    role : "Arbeitszeugnis, Manager"
+    role : "Auszug Arbeitszeugnis, Manager"
     image : "../assets/images/clients/hugoboss.avif"
 
 ###################### Skill #############################
@@ -586,21 +587,6 @@ cto_skill:
     - name: "Agile Delivery & Skalierung"
       description: "Wirksame agile Prozesse & skalierte Strukturen für verlässliche, fokussierte Lieferung."
         
-  certificates-title: "Certificates"
-  certificates:
-  - icon : "assets/images/skills/psd1.svg"
-    link : "https://www.scrum.org/user/354382"
-  - icon : "assets/images/skills/psm1.svg "
-    link : "https://www.scrum.org/user/354382"
-  - icon : "assets/images/skills/pspo1.svg "
-    link : "https://www.scrum.org/user/354382"
-  - icon : "assets/images/skills/SAFe_SA.png"
-    link : "https://www.credly.com/badges/5e28e351-fbc9-4ac2-838f-5ef1bbc90989/public_url"
-  - icon : "assets/images/skills/SAFe_SA_6.png"
-    link : "https://www.credly.com/badges/824cd794-69de-4fae-adaf-e7761b922f28/public_url"
-  - icon : "assets/images/skills/linux.svg"
-    link : "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0241ce4d-6018-4891-bd40-a23ee2c9acaf-marcel-russ-ca32e563-51ea-4447-8f69-d396ebc7246d-certificate.pdf"
-
 
 ##################### FAQ #########################
 cto_faq:
@@ -640,3 +626,146 @@ cto_contact:
   title: "Unverbindliche Anfrage"
   subtitle: "Kein Quick Check – aber trotzdem eine Frage?"
   intro: "Schreiben Sie uns – wir freuen uns auf Ihre Nachricht."
+
+
+
+#################################### Agile Coaching #########################################
+################## Hero Area #######################
+ac_hero:
+  title: "Agilität mit Business-Fokus"
+  title2: "Komplexität steuern. Wirkung sichern."
+  subheadline: "Wir helfen Organisationen, ihre agile Arbeitsweise messbar wirksam zu machen – mit Fokus auf Lieferfähigkeit, klare Führungsmodelle und risikoarme Umsetzung. Für schnellere Entscheidungen, bessere Ergebnisse und planbaren Fortschritt in komplexen Umfeldern."
+  image : "/assets/images/banner/agile-coaching.avif"
+  content : 
+    "<ul class=\"list-hero mt-4 mb-5\">
+      <li>Lieferfähigkeit und Planbarkeit in dynamischen Systemen erhöhen</li>
+      <li>Passende Frameworks für Ihre Realität: Scrum, SAFe, Kanban u.a.</li>
+      <li>Teams stärken, Führung befähigen, Verantwortung klären</li>
+      <li>Agilität, die Business-Ziele mit Technologie verbindet</li>
+    </ul>"
+  primaryButton-label : "Jetzt unverbindlich anfragen"
+  primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Anfrage Agile Coaching"
+  background-style: "background: radial-gradient(circle at -10% -10%, #934ae4 0%, rgba(147, 74, 228, 0) 40%),radial-gradient(circle at 110% 110%, #61bb95 0%, rgba(97, 187, 149, 0) 50%), linear-gradient(to bottom, #1B1428 0%, #2B2044 100%);"
+
+
+################## Problem Solution ###########################
+ac_about:
+  subtitle : "Agilität auf dem Prüfstand"
+  title : "Wenn Komplexität steigt, müssen Entscheidungen schneller, sicherer und besser werden."
+  content : "<p><b>Agile Methoden allein reichen nicht aus.</b><br />Viele Unternehmen führen agile Frameworks ein – aber die erhoffte Wirkung bleibt aus: Entscheidungen dauern, Teams kämpfen mit Überlast, und strategische Ziele bleiben unscharf. Das Problem liegt selten im Framework, sondern im fehlenden Zusammenspiel von Struktur, Führung und Steuerung.</p>
+            <p><b>Das kostet Tempo, Vertrauen und strategische Klarheit.</b><br />Wenn Rollen unklar sind, Führungsmodelle fehlen oder Business und IT nicht synchronisiert sind, entstehen Risiken und Unsicherheiten. Gerade in komplexen Organisationen braucht es eine systemische Sicht – und keine Schablone.</p>
+            <p><b>Mit einem unabhängigen Agile Coach gewinnen Sie Klarheit und Wirkung zurück.</b><br />Wir helfen Teams, Führungskräften und Organisationen dabei, Agilität gezielt auf den Prüfstand zu stellen und neu auszurichten – mit validen KPIs, passenden Frameworks und Fokus auf Risikominimierung. Für planbare Ergebnisse in komplexen Umfeldern.</p>"
+  btn-label: "Mehr über unsere Haltung & Arbeitsweise"
+  quote: "„Agilität ist kein Ziel, sondern ein Mittel für bessere Entscheidungen, geringeres Risiko und planbaren Fortschritt.“ – Marcel Russ"
+
+###################### Services #####################
+ac_services:
+  title: ""
+  subtitle: ""
+  item:
+  - name : "Agile Strategie & Skalierung"
+    content : "Klar ausgerichtete Teams und Strukturen, die steuerbar entlang von Wertströmen arbeiten. Agilität zahlt direkt auf Unternehmensziele ein – fokussiert, skalierbar, wirksam."
+    icon: " ti-stats-up"
+
+  - name : "Team-Reife & Delivery-Fokus"
+    content : "Hohe Lieferfähigkeit und Planbarkeit durch selbstorganisierte Teams mit klarem Fokus. Blockaden sind sichtbar, Wertbeiträge nachvollziehbar, Ergebnisse konsistent."
+    icon: "ti-layout-grid3"
+
+  - name : "Transparenz & Entscheidungsfähigkeit"
+    content : "Fundierte Entscheidungen auf Basis valider Daten. Klare KPIs und synchronisierte Feedback-Zyklen schaffen Steuerbarkeit – statt blindem Aktionismus."
+    icon: "ti-bar-chart"
+
+######################### Testimonail ####################
+ac_testimonials:
+  title : "Vertrauen durch Substanz"
+  subtitle : "Empfehlungen aus der Zusammenarbeit"
+  item:
+  - text : "Marcel Russ gestaltete das agile Vorgehensmodell für rund 20 Teams aktiv mit. Besonders wertvoll war seine Arbeit auf Systemebene: Er coachte Scrum Master, Product Owner und Führungskräfte (L1–L3), etablierte ein übergreifendes Portfoliomanagement und sorgte für ein harmonisiertes Backlog- und Risikomanagement. So wurden Abhängigkeiten sichtbar und planbar."
+    author : "Exxeta AG"
+    role : "Auzug Arbeitszeugnis, Teamlead"
+    image : "../assets/images/clients/exxeta.avif"
+  - text : "Marcel ist ein engagierter Coach, der Teams und Einzelpersonen durch gezielte Fragen auf dem Weg zur Agilität begleitet – ohne vorgefertigte Antworten, sondern mit dem Anspruch, den eigenen Weg zu finden. Seine kritische und pragmatische Herangehensweise sorgt dafür, dass Maßnahmen auf ihre Wirkung hin überprüft werden. Wer einen pragmatischen Coach oder Leader sucht, der Ergebnisse liefert, sollte Marcel unbedingt ins Boot holen."
+    author : "Jacques Dunselmann"
+    role : "Agile Transformation Lead, PMx"
+    image : "../assets/images/clients/jacques.avif"
+  - text : "Marcel bringt Struktur und Klarheit in die Zusammenarbeit. Er erklärt nicht nur, was getan werden muss, sondern auch warum – und passt Methoden gezielt an unsere Situation an. Ob in der Moderation, in Meetings oder bei der Weiterentwicklung unserer Prozesse: Marcel ist präsent, klar und bringt Dinge auf den Punkt. Besonders schätze ich seine direkte Kommunikation und seine Fähigkeit, Teams und Führung gleichermaßen mitzunehmen."
+    author : "Feedback zur Zusammenarbeit"
+    role : "Projektleitung"
+    image : "../assets/images/clients/enbw.avif"
+
+###################### Skill #############################
+ac_skill:
+  subtitle : "Handlungsfelder im Agile Coaching"
+  title : "10 Hebel für wirksame Agilität in komplexen Organisationen"
+  skills-left:
+    - name: "Skalierte Agilität, die funktioniert"
+      description: "Verlässliche Planung und Verantwortung auf Team- und Clusterebene – ohne bürokratische Überforderung."
+
+    - name: "Messbare Agilität"
+      description: "Klarheit über Lieferfähigkeit, Teamflow und Planbarkeit – statt isolierter Velocity-Metriken."
+
+    - name: "Backlogs mit Steuerungskraft"
+      description: "Klare Prioritäten, valide Risiken und planbare Abhängigkeiten – kein Aufgabensammelsurium."
+
+    - name: "End-to-End-Wertstrom"
+      description: "Stabiler Fluss von Idee bis Betrieb – mit Produktverantwortung, Qualität und Durchgängigkeit."
+
+    - name: "Strategische Priorisierung"
+      description: "Bessere Investitionsentscheidungen auf Basis klarer Kriterien und abgestimmter Roadmaps."
+
+  skills-right:
+    - name: "Leadership mit Wirkung"
+      description: "Führungskräfte, POs und Scrum Master agieren klar, abgestimmt und mit Verantwortung."
+
+    - name: "Agile Meetings mit Substanz"
+      description: "Planungen und Reviews erzeugen Klarheit, Entscheidungen und Fortschritt – nicht Meeting-Last."
+
+    - name: "Agilität im Betrieb"
+      description: "Zuverlässige Planung und Vorhersehbarkeit im IT-Betrieb – durch Klarheit und Flow."
+
+    - name: "Nachhaltiger Wandel"
+      description: "Agile Transformationen mit Haltung – tragfähig, abgestimmt und tief in der Organisation verankert."
+
+    - name: "Green Agile Thinking"
+      description: "Nachhaltigkeit als Steuerungsprinzip: Effiziente Technik, bewusste Entscheidungen, resilienter Betrieb."
+
+##################### FAQ #########################
+ac_faq:
+  title: "GUT ZU WISSEN"
+  subtitle: "Antworten auf typische Entscheidungsfragen"
+  item:
+  - question: "Was bringt Agile Coaching konkret für mein Team?"
+    answer: "Mehr Planbarkeit, bessere Entscheidungen und geringere Reibung – das zeigen unsere Projekte immer wieder. Die Effekte sind meist schnell spürbar: mehr Klarheit, mehr Fokus, bessere Zusammenarbeit."
+
+  - question: "Wie lange dauert es, bis erste Erfolge sichtbar werden?"
+    answer: "In der Regel sehen Teams erste spürbare Verbesserungen nach wenigen Wochen – etwa in der Zusammenarbeit, der Planungssicherheit oder der Verantwortungsübernahme. Langfristige Wirkung entsteht über begleitendes Coaching."
+
+  - question: "Wie viel Aufwand bedeutet das intern?"
+    answer: "Der Aufwand ist planbar und richtet sich nach Ihrem Setup. Meist starten wir mit wenigen Stunden pro Woche, um Wirkung zu entfalten – ohne operative Teams zu blockieren."
+
+  - question: "Was unterscheidet euch von klassischen Agile Coaches?"
+    answer: "Wir denken Coaching vom Business her. Nicht der Prozess steht im Vordergrund, sondern Wirkung: bessere Steuerung, bessere Entscheidungen, bessere Ergebnisse."
+
+  - question: "Was passiert, wenn’s nicht funktioniert?"
+    answer: "Dann justieren wir. Coaching ist ein lernender Prozess – auf beiden Seiten. Sollte sich keine Wirkung zeigen, beenden wir das Engagement lieber früh als verspätet."
+
+  - question: "Wie funktioniert der Einstieg?"
+    answer: "Sie starten mit dem kostenlosen Quick Check. Gemeinsam analysieren wir Setup, Engpässe und Potenziale – daraus entsteht ein konkreter Vorschlag für das weitere Vorgehen."
+
+  - question: "Remote oder vor Ort?"
+    answer: "Beides ist möglich. Remote-Coaching ist effizient und bewährt – vor Ort bringt zusätzliche Impulse für Kultur, Präsenz und Vertrauen. Wir stimmen das Setup individuell ab."
+
+  - question: "Was kostet das?"
+    answer: "Unsere Leistungen skalieren mit Ihrem Bedarf. Wir bieten flexible Modelle – von punktueller Unterstützung bis zur strategischen Begleitung. Im Erstgespräch erhalten Sie eine fundierte Einschätzung."
+
+####################### CTA ##########################
+ac_cta:
+    title: "Agile Coaching mit Wirkung – Klarheit statt Aktionismus."
+    subtitle: "In 30 Minuten erhalten Sie eine unabhängige Einschätzung zu Planbarkeit, Struktur und Steuerbarkeit Ihrer Teams – konkret, ehrlich, umsetzbar."
+    btn-label: "Jetzt Quick Check starten – Klarheit für Ihre Delivery-Struktur"
+    btn-url: "mailto:kontakt@mehrwert.com?subject=Anfrage kostenloser Agile Coaching Check"
+
+ac_contact:
+  title: "Noch Fragen oder Gesprächsbedarf?"
+  subtitle: "Sie haben keinen akuten Coaching-Bedarf – möchten aber ein Thema einordnen oder besprechen?"
+  intro: "Schreiben Sie uns gern. Wir geben Ihnen eine ehrliche Einschätzung – unabhängig, fundiert, unverbindlich."

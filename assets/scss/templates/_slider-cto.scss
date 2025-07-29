@@ -1,8 +1,4 @@
 .banner-cto {
-  background:
-    radial-gradient(circle at 20% 0%, $extra-color 0%, rgba(97, 187, 149, 0) 45%),
-    radial-gradient(circle at 80% 10%, $primary-color 0%, rgba(255, 255, 255, 0) 55%),
-    linear-gradient(to bottom, darken($secondary-color-dark, 5%) 0%, lighten($secondary-color, 3%) 100%);
   position: relative;
   
   overflow: hidden;

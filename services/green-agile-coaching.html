@@ -1,14 +1,30 @@
 ---
 layout: default
 ---
+{% assign hero = site.translations[site.lang].ac_hero %}
+{% include service/hero_area.html %}
 
-{% include cto/cto_hero_area.html %}
-{% include cto/cto_about.html %}
-{% include cto/cto_services.html %}
-{% include cto/cto_testimonials.html %}
-{% include cto/cto_skills.html %}
-{% include cto/cto_faq.html %}
-{% include cto/cto_cta.html %}
-{% assign contact_spec = site.translations[site.lang].cto_contact %}
+{% assign about_config = site.data.homepage.ac_about %}
+{% assign about = site.translations[site.lang].ac_about %}
+{% include service/about.html %}
+
+{% assign services = site.translations[site.lang].ac_services %}
+{% include service/services.html %}
+
+{% assign testimonials = site.translations[site.lang].ac_testimonials %}
+{% include service/testimonials.html %}
+
+{% assign skill = site.translations[site.lang].ac_skill %}
+{% include service/skills.html %}
+
+{% assign faq = site.translations[site.lang].ac_faq %}
+{% include service/faq.html %}
+
+{% assign cta = site.translations[site.lang].ac_cta %}
+{% include service/cta.html %}
+
+{% assign contact_spec = site.translations[site.lang].ac_contact %}
 {% include contact.html %}
-{% include cto/cto_modals.html %}
+
+{% assign skills = site.translations[site.lang].ac_skill %}
+{% include service/modals.html %}

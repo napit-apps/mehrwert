@@ -495,6 +495,7 @@ cto_hero:
     </ul>"
   primaryButton-label : "Start CTO Quick Check – free & concrete"
   primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Request free CTO Quick Check"
+  background-style: "background: radial-gradient(circle at 20% 0%, #934ae4 0%, rgba(147, 74, 228, 0) 45%), radial-gradient(circle at 80% 10%, #61bb95 0%, rgba(255, 255, 255, 0) 55%), linear-gradient(to bottom, #1B1428 0%, #2B2044 100%);"
 
 ################## Problem Solution ###########################
 cto_about:
@@ -634,3 +635,146 @@ cto_contact:
   title: "Non-binding inquiry"
   subtitle: "No Quick Check – but still a question?"
   intro: "Send us a message – we look forward to hearing from you."
+
+
+#################################### Agile Coaching #########################################
+################## Hero Area #######################
+ac_hero:
+  title: "Agility with a Business Focus"
+  title2: "Master Complexity. Deliver Impact."
+  subheadline: "We help organizations make agility measurably effective – focusing on delivery capability, clear leadership models, and low-risk implementation. For faster decisions, better results, and predictable progress in complex environments."
+  image : "/assets/images/banner/agile-coaching.avif"
+  content : 
+    "<ul class=\"list-hero mt-4 mb-5\">
+      <li>Increase delivery capability and predictability in dynamic systems</li>
+      <li>Choose the right frameworks for your reality: Scrum, SAFe, Kanban, and more</li>
+      <li>Strengthen teams, empower leadership, clarify responsibilities</li>
+      <li>Agility that aligns business goals with technology</li>
+    </ul>"
+  primaryButton-label : "Get in Touch Now"
+  primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Inquiry Agile Coaching"
+  background-style: "background: radial-gradient(circle at -10% -10%, #934ae4 0%, rgba(147, 74, 228, 0) 40%),radial-gradient(circle at 110% 110%, #61bb95 0%, rgba(97, 187, 149, 0) 50%), linear-gradient(to bottom, #1B1428 0%, #2B2044 100%);"
+
+################## Problem Solution ###########################
+ac_about:
+  subtitle : "Agility Under Review"
+  title : "When complexity grows, decisions must become faster, safer, and better."
+  content : "<p><b>Agile frameworks alone aren’t enough.</b><br />Many companies adopt agile methods – but the expected impact never materializes: decisions are slow, teams are overwhelmed, strategic goals remain vague. The problem rarely lies in the framework itself, but in the missing interplay between structure, leadership, and governance.</p>
+            <p><b>This costs speed, trust, and strategic clarity.</b><br />When roles are unclear, leadership models are absent, or business and IT are misaligned, uncertainty and risk arise. Especially in complex organizations, you need a systemic view – not a one-size-fits-all solution.</p>
+            <p><b>With an independent Agile Coach, you regain clarity and impact.</b><br />We support teams, leaders, and organizations in critically reassessing and realigning agility – with measurable KPIs, tailored frameworks, and a focus on minimizing risk. For tangible results in complex environments.</p>"
+  btn-label: "Our Approach & Guiding Principles"
+  quote: "“Agility isn’t the goal. It’s a lever for better decisions, lower risk, and predictable progress.” – Marcel Russ"
+
+###################### Services #####################
+ac_services:
+  title: ""
+  subtitle: ""
+  item:
+  - name : "Agile Strategy & Scaling"
+    content : "Clearly aligned teams and structures that operate along value streams – fully steerable. Agility translates directly into business impact: focused, scalable, effective."
+    icon: " ti-stats-up"
+
+  - name : "Team Maturity & Delivery Focus"
+    content : "High delivery capability and predictability through self-organizing teams with clear focus. Bottlenecks become visible, value creation is traceable, outcomes are consistent."
+    icon: "ti-layout-grid3"
+
+  - name : "Transparency & Decision Readiness"
+    content : "Informed decisions based on valid data. Clear KPIs and synchronized feedback cycles enable steerability – instead of blind actionism."
+    icon: "ti-bar-chart"
+
+######################### Testimonail ####################
+ac_testimonials:
+  title : "Trust Built on Substance"
+  subtitle : "Voices from real collaboration"
+  item:
+  - text : "Marcel Russ actively co-developed the agile operating model for around 20 teams. His impact was especially valuable at the system level: coaching Scrum Masters, Product Owners, and executives (L1–L3), establishing a cross-team portfolio management approach, and streamlining backlog and risk governance. Dependencies became transparent and manageable."
+    author : "Exxeta AG"
+    role : "Excerpt from reference letter, Team Lead"
+    image : "../../assets/images/clients/exxeta.avif"
+
+  - text : "Marcel is a committed coach who guides teams and individuals toward agility through insightful questions – without pre-made answers, but with the goal of finding your own path. His critical and pragmatic approach ensures that actions are measured by their impact. If you're looking for a results-driven coach or leader, Marcel is the one to have on board."
+    author : "Jacques Dunselmann"
+    role : "Agile Transformation Lead, PMx"
+    image : "../../assets/images/clients/jacques.avif"
+
+  - text : "Marcel brings clarity and structure to the collaboration. He doesn’t just explain what to do, but why it matters – and adapts methods to fit our specific context. Whether moderating, guiding meetings, or optimizing processes, he’s always clear, present, and on point. I especially value his direct communication and his ability to align teams and leaders alike."
+    author : "Collaboration Feedback"
+    role : "Project Management"
+    image : "../../assets/images/clients/enbw.avif"
+
+###################### Skill #############################
+ac_skill:
+  subtitle : "Agile Coaching Focus Areas"
+  title : "10 Levers for Effective Agility in Complex Organizations"
+  skills-left:
+    - name: "Scalable Agility That Works"
+      description: "Reliable planning and ownership at team and cluster level – without bureaucratic overload."
+
+    - name: "Measurable Agility"
+      description: "Clarity on delivery capability, team flow, and predictability – beyond isolated velocity metrics."
+
+    - name: "Backlogs with Steering Power"
+      description: "Clear priorities, visible risks, and manageable dependencies – not a task dump."
+
+    - name: "End-to-End Value Streams"
+      description: "Stable flow from idea to operations – with product ownership, quality, and continuity."
+
+    - name: "Strategic Prioritization"
+      description: "Better investment decisions based on clear criteria and aligned roadmaps."
+
+  skills-right:
+    - name: "Leadership with Impact"
+      description: "Leaders, POs, and Scrum Masters act clearly, in sync, and with accountability."
+
+    - name: "Agile Meetings That Matter"
+      description: "Planning and reviews bring clarity, decisions, and momentum – not just meeting overhead."
+
+    - name: "Agility in Operations"
+      description: "Reliable planning and predictability in IT operations – driven by clarity and flow."
+
+    - name: "Sustainable Transformation"
+      description: "Agile change with backbone – embedded, aligned, and rooted in the organization."
+
+    - name: "Green Agile Thinking"
+      description: "Sustainability as a steering principle: efficient tech, conscious choices, resilient operations."
+
+##################### FAQ #########################
+ac_faq:
+  title: "GOOD TO KNOW"
+  subtitle: "Answers to Key Decision Questions"
+  item:
+  - question: "What’s the actual impact of Agile Coaching on my team?"
+    answer: "More predictability, better decisions, and reduced friction – that’s what our clients experience. The effects are often quickly felt: more clarity, more focus, better collaboration."
+
+  - question: "How soon will we see results?"
+    answer: "In most cases, teams see noticeable improvements within a few weeks – in planning, collaboration, or accountability. Long-term impact is built through ongoing coaching."
+
+  - question: "How much internal effort is required?"
+    answer: "It’s manageable and tailored to your setup. We usually start with just a few hours per week to create visible impact – without blocking your teams."
+
+  - question: "How is this different from other Agile Coaches?"
+    answer: "We take a business-first approach. It’s not about process for the sake of process – it’s about outcomes: better governance, better decisions, better results."
+
+  - question: "What if it doesn’t work?"
+    answer: "Then we adjust. Coaching is a learning process – for both sides. If there’s no visible impact, we prefer to stop early rather than drag it out."
+
+  - question: "How do we get started?"
+    answer: "Start with the free Quick Check. Together we’ll analyze your setup, bottlenecks, and potential – and provide a tailored proposal for the next steps."
+
+  - question: "Remote or on-site?"
+    answer: "Both options are viable. Remote coaching is efficient and proven – on-site brings cultural and interpersonal benefits. We tailor the setup to your needs."
+
+  - question: "How much does it cost?"
+    answer: "Our services scale with your needs. We offer flexible models – from focused support to strategic coaching. You'll get a realistic estimate in the initial consultation."
+
+####################### CTA ##########################
+ac_cta:
+  title: "Agile Coaching That Delivers – Clarity Over Actionism."
+  subtitle: "In just 30 minutes, you'll receive an independent review of your teams' structure, predictability, and delivery setup – concrete, honest, and actionable."
+  btn-label: "Start the Quick Check – Clarity for Your Delivery Structure"
+  btn-url: "mailto:kontakt@mehrwert.com?subject=Free Agile Coaching Quick Check"
+
+ac_contact:
+  title: "Still Have Questions or Want to Talk?"
+  subtitle: "No immediate coaching need – but something worth discussing?"
+  intro: "Reach out to us. We’ll give you an honest perspective – independent, informed, and without obligation."
