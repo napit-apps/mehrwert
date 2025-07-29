@@ -9,7 +9,7 @@ close: "Schließen"
 
 ################## Menu Area #######################
 main-menue:
-  - name: Start
+  - name: Startseite
     url: "#"
   - name: Leistungen
     url: "#"
