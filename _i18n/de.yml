@@ -16,8 +16,8 @@ main-menue:
     submenu: 
       - name: CTO auf Zeit
         url: "/services/fractional-cto.html"
-      - name: Green Agile Coaching
-        url: "/services/green-agile-coaching.html"
+      - name: Agile Transformation Coaching
+        url: "/services/agile-transformation-coaching.html"
       - name: Green Coding Training
         url: "/trainings/gsp.html"
   - name: Blog
@@ -76,11 +76,11 @@ services:
     btn-label: "Mehr erfahren"
     btn-url: "/services/fractional-cto.html"
 
-  - name : "Green Agile Coaching"
+  - name : "Agile Transformation Coaching"
     content : "Agilität, die wirkt – für Teams, Prozesse und nachhaltigen Wandel. Wir verbinden agile Methoden mit Sinn, Struktur und Verantwortung. Für Klarheit, Zusammenarbeit und echten Fortschritt."
     icon: "ti-stats-up"
     btn-label: "Agilität mit Wirkung"
-    btn-url: "/services/green-agile-coaching.html"
+    btn-url: "/services/agile-transformation-coaching.html"
 
   - name : "Green Coding Training"
     content : "Nachhaltige Software beginnt beim Code. Wir zeigen Entwicklungsteams, wie sie messbar Ressourcen sparen – ohne Produktivitätseinbußen."
@@ -746,7 +746,7 @@ ac_faq:
   - question: "Was unterscheidet euch von klassischen Agile Coaches?"
     answer: "Wir denken Coaching vom Business her. Nicht der Prozess steht im Vordergrund, sondern Wirkung: bessere Steuerung, bessere Entscheidungen, bessere Ergebnisse."
 
-  - question: "Was bedeutet das „Green“ in Green Agile Coaching?"
+  - question: "Was bedeutet das „Green“ in Green Agile?"
     answer: "„Green“ steht bei uns für einen erweiterten Blick auf Agilität: Wir verbinden die Prinzipien agiler Arbeitsweisen mit nachhaltigem, verantwortungsvollem Handeln – sowohl in der Organisation als auch in der Technologie. Das heißt: Wir achten nicht nur auf Lieferfähigkeit und Planbarkeit, sondern auch darauf, wie Entscheidungen langfristig wirken – auf Teams, Systeme und Ressourcen. So entsteht Agilität, die wirtschaftlich, organisatorisch und ökologisch tragfähig ist."
   
   - question: "Was passiert, wenn’s nicht funktioniert?"
