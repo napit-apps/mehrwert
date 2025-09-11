@@ -45,6 +45,10 @@
 <lastmod>2025-07-23T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>https://mehrwert.tech/green-agile</loc>
+<lastmod>2025-09-11T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>https://mehrwert.tech/testimonials/testimonial_01</loc>
 <lastmod>2023-12-11T00:00:00+01:00</lastmod>
 </url>
@@ -54,7 +58,7 @@
 </url>
 <url>
 <loc>https://mehrwert.tech/trainings/gsp</loc>
-<lastmod>2025-09-10T15:24:27+02:00</lastmod>
+<lastmod>2025-09-11T11:48:20+02:00</lastmod>
 </url>
 <url>
 <loc>https://mehrwert.tech/404</loc>
@@ -97,5 +101,8 @@
 </url>
 <url>
 <loc>https://mehrwert.tech/tag/%23ki/</loc>
+</url>
+<url>
+<loc>https://mehrwert.tech/tag/%23green-agile,/</loc>
 </url>
 </urlset>
