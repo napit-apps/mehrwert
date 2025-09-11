@@ -30,7 +30,7 @@ Agilität ohne Nachhaltigkeit ist kurzfristig. Nachhaltigkeit ohne Agilität ble
 
 ## Der Green Agile Guide  
 
-Um diese Verbindung greifbar zu machen, habe ich den **Green Agile Guide** entwickelt. Inspiriert vom Scrum Guide, aber bewusst erweitert. Kein neues Framework, keine Methodensammlung – sondern ein **Mindset**, das Orientierung gibt.  
+Um diese Verbindung greifbar zu machen, habe ich die Initiative **Green Agile Guide** gestartet. Inspiriert vom Scrum Guide, aber bewusst erweitert. Kein neues Framework, keine Methodensammlung – sondern ein **Mindset**, das Orientierung gibt.  
 
 Der Guide beschreibt, wie Teams ökologische, ökonomische und soziale Verantwortung in ihre Arbeitsweise integrieren können, ohne Geschwindigkeit und Flexibilität aufzugeben. Er soll helfen, bessere Fragen zu stellen:  
 - Was ist der ökologische Fußabdruck unserer Architektur?  
