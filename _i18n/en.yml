@@ -64,7 +64,7 @@ hero_area:
   subheadline : "We think strategically, act responsibly, and shape change with technical clarity. The results are sustainable structures, effective teams, and software with a lasting impact."
   content : ""
   primaryButton-label : "Start the conversation now" 
-  primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Get in touch"
+  primaryButton-url : "/contact.html"
   secondaryButton-label : ""
 
 ################## Problem Solution ###########################
