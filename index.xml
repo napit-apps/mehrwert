@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="de" /><updated>2025-09-26T15:19:59+02:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Green Agile - Warum wir Agilität neu denken müssen</title><link href="https://mehrwert.tech/green-agile" rel="alternate" type="text/html" title="Green Agile - Warum wir Agilität neu denken müssen" /><published>2025-09-11T00:00:00+02:00</published><updated>2025-09-11T00:00:00+02:00</updated><id>https://mehrwert.tech/green-agile</id><content type="html" xml:base="https://mehrwert.tech/green-agile"><![CDATA[<p>Wenn wir heute über Nachhaltigkeit sprechen, denken viele zuerst an Windräder, Elektromobilität oder den eigenen Konsum. Kaum jemand hat dabei Software im Kopf. Dabei steckt in unseren digitalen Systemen ein oft unsichtbarer, aber gewaltiger Energie- und Ressourcenverbrauch. Rechenzentren verbrauchen mehr Strom als ganze Länder, und schlecht optimierte Software sorgt dafür, dass Hardware schneller ersetzt werden muss.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="de" /><updated>2025-10-07T10:18:45+02:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Bewusstsein und Verantwortung – Warum Nachhaltigkeit mehr als Technik ist</title><link href="https://mehrwert.tech/green-agile-guide" rel="alternate" type="text/html" title="Bewusstsein und Verantwortung – Warum Nachhaltigkeit mehr als Technik ist" /><published>2025-10-06T00:00:00+02:00</published><updated>2025-10-06T00:00:00+02:00</updated><id>https://mehrwert.tech/green-agile-guide</id><content type="html" xml:base="https://mehrwert.tech/green-agile-guide"><![CDATA[<p>Vor einigen Jahren hatte ich die Aufgabe, das Warenwirtschaftssystem einer großen deutschen Supermarktkette zu analysieren. Das System war über Jahrzehnte gewachsen – geschrieben in <em>Gupta</em>, einem heute kaum noch verbreiteten Entwicklungssystem. Eine einzelne Datei umfasste über <strong>300.000 Zeilen Quellcode</strong>. Keine Module. Keine Dokumentation. Keine klaren Verantwortlichkeiten.</p>
+
+<p>Niemand wusste mehr genau, <strong>was</strong> das Programm tat, <strong>warum</strong> es so funktionierte – oder <strong>was passiert</strong>, wenn man auch nur eine Kleinigkeit änderte.</p>
+
+<p>Was folgte, war keine Optimierung, sondern eine komplette Neuimplementierung. Ein mehrjähriges Projekt mit enormem Ressourcenaufwand – technisch, wirtschaftlich und menschlich.</p>
+
+<p>Für mich war das ein Wendepunkt. Denn dieses Beispiel zeigt, dass Nachhaltigkeit in der IT nicht mit Energiemessungen beginnt – <strong>sondern mit Bewusstsein und Verantwortung</strong>.</p>
+
+<h2 id="green-agile-beginnt-bei-den-werten">Green Agile beginnt bei den Werten</h2>
+
+<p>Im <a href="https://greenagile.org">Green Agile Guide</a> sprechen wir oft über nachhaltige Praktiken: Impact Transparency, Green Product Backlog, ökologische Architekturentscheidungen. Doch all diese Methoden bleiben wirkungslos, wenn sie nicht auf einem <strong>fundamentalen Werteverständnis</strong> beruhen.</p>
+
+<p>Deshalb haben wir zwei Leitbegriffe in den Mittelpunkt gestellt:</p>
+
+<h3 id="bewusstsein">Bewusstsein</h3>
+
+<ul>
+  <li>Wahrnehmen, was Software wirklich bewirkt – technisch, ökologisch, sozial</li>
+  <li>Den Mut haben, <strong>blinde Flecken</strong> im Team oder in Prozessen zu benennen</li>
+  <li>Systeme im Kontext sehen: Wer nutzt sie? Was brauchen sie wirklich? Welche Kosten entstehen in 2, 5 oder 10 Jahren?</li>
+</ul>
+
+<blockquote>
+  <p>Bewusstsein bedeutet, <strong>nicht nur lokal zu optimieren</strong>, sondern global zu reflektieren.</p>
+</blockquote>
+
+<h3 id="verantwortung">Verantwortung</h3>
+
+<ul>
+  <li>Entscheidungen treffen, auch wenn sie unbequem oder kurzfristig teurer sind</li>
+  <li>Technische Schulden benennen – und nicht einfach ignorieren</li>
+  <li>Die langfristige Wartbarkeit eines Systems ernst nehmen</li>
+  <li>Nachhaltigkeit nicht delegieren, sondern <strong>als Teil der eigenen Rolle begreifen</strong></li>
+</ul>
+
+<blockquote>
+  <p>Verantwortung bedeutet, <strong>auch dann zu handeln</strong>, wenn niemand zusieht.</p>
+</blockquote>
+
+<h2 id="warum-das-mehr-als-technik-ist">Warum das mehr als Technik ist</h2>
+
+<p>Viele Unternehmen investieren heute in Nachhaltigkeitsinitiativen – von Green Coding bis CO₂-Kompensation. Das ist wichtig. Aber ohne <strong>verinnerlichte Werte</strong> bleibt es oft bei Symbolik.</p>
+
+<p>Nachhaltigkeit braucht eine Kultur, in der Menschen sagen:</p>
+<blockquote>
+  <p>„Ich verstehe, was ich tue. Und ich stehe für die Wirkung meiner Arbeit ein.“</p>
+</blockquote>
+
+<p>Genau hier setzt Green Agile an. Es geht nicht um neue Rollen oder Checklisten. Es geht darum, <strong>eine neue Haltung</strong> in bestehende Prozesse zu bringen.</p>
+
+<h2 id="was-kannst-du-tun">Was kannst du tun?</h2>
+
+<p>Einige Fragen, die du dir oder deinem Team stellen kannst:</p>
+
+<ul>
+  <li>Wo in unserem System fehlt uns <strong>Transparenz</strong> – technisch oder organisatorisch?</li>
+  <li>Wer <strong>trägt Verantwortung</strong> – nicht nur formal, sondern real?</li>
+  <li>Welche Entscheidungen würden wir anders treffen, wenn wir <strong>langfristiger</strong> denken würden?</li>
+</ul>
+
+<h2 id="ausblick">Ausblick</h2>
+
+<p>In den kommenden Wochen werde ich in einer kleinen Blog-Serie weitere Bausteine des Green Agile Guide vorstellen: von konkreten Praktiken über Rollenbilder bis hin zu Metriken. Wenn du Interesse hast, mitzudenken oder den Guide in deiner Organisation zu erproben, melde dich gerne.</p>
+
+<blockquote>
+  <p>Gemeinsam können wir zeigen: <strong>Nachhaltige Software entsteht nicht durch Zufall. Sondern durch Menschen mit Bewusstsein und Verantwortung.</strong></p>
+</blockquote>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="#green-agile," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Vor einigen Jahren hatte ich die Aufgabe, das Warenwirtschaftssystem einer großen deutschen Supermarktkette zu analysieren. Das System war über Jahrzehnte gewachsen – geschrieben in Gupta, einem heute kaum noch verbreiteten Entwicklungssystem. Eine einzelne Datei umfasste über 300.000 Zeilen Quellcode. Keine Module. Keine Dokumentation. Keine klaren Verantwortlichkeiten.]]></summary></entry><entry><title type="html">Green Agile - Warum wir Agilität neu denken müssen</title><link href="https://mehrwert.tech/green-agile" rel="alternate" type="text/html" title="Green Agile - Warum wir Agilität neu denken müssen" /><published>2025-09-11T00:00:00+02:00</published><updated>2025-09-11T00:00:00+02:00</updated><id>https://mehrwert.tech/green-agile</id><content type="html" xml:base="https://mehrwert.tech/green-agile"><![CDATA[<p>Wenn wir heute über Nachhaltigkeit sprechen, denken viele zuerst an Windräder, Elektromobilität oder den eigenen Konsum. Kaum jemand hat dabei Software im Kopf. Dabei steckt in unseren digitalen Systemen ein oft unsichtbarer, aber gewaltiger Energie- und Ressourcenverbrauch. Rechenzentren verbrauchen mehr Strom als ganze Länder, und schlecht optimierte Software sorgt dafür, dass Hardware schneller ersetzt werden muss.</p>
 
 <p>Mich begleitet dieses Thema seit vielen Jahren. Als <strong>Software Engineer</strong> habe ich gesehen, wie durch kleine Designentscheidungen enorme Unterschiede im Energieverbrauch entstehen können. Später, als <strong>Agile Coach und RTE</strong>, habe ich Organisationen dabei unterstützt, komplexe IT-Landschaften und Teams zu steuern. Immer wieder stieß ich auf dieselbe Lücke: Agilität bringt Geschwindigkeit und Anpassungsfähigkeit – aber die ökologische Dimension blieb außen vor.</p>
 
@@ -512,47 +578,4 @@ In diesem Beitrag beleuchten wir einen Ansatz mit dem der Energieverbrauch der <
 
 <p>Nachhaltigkeit in der IT erfordert ein Umdenken entlang des gesamten Lebenszyklus von Hardware und Software. <strong>Längere Nutzungszeiten, gezieltes Recycling und eine konsequente Kreislaufwirtschaft</strong> sind zentrale Hebel, um Ressourcen zu schonen und Emissionen zu senken. Unternehmen und Verbraucher können gleichermaßen Verantwortung übernehmen – sei es durch den Kauf von langlebiger Hardware, den Einsatz von Refurbished-Geräten oder den bewussten Umgang mit Elektroschrott.</p>
 
-<p>Im nächsten Artikel geht es um den <strong>Lifecycle eines Rechenzentrums</strong>. Wir zeigen, welche Umweltbelastungen von Bau bis Rückbau entstehen und welche nachhaltigen Strategien helfen, den CO₂-Fußabdruck zu minimieren. <a href="https://mehrwert.tech/embodied-carbon-3">Hier</a> gehts zum dritten Teil der Serie. Einen Überblick über Embodied Carbon finden Sie <a href="https://mehrwert.tech/embodied-carbon-1">hier</a> im ersten Teil der Serie.</p>]]></content><author><name>Alina, Marcel</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Ob Smartphone, Laptop oder Server – jedes IT-Gerät beginnt seinen Lebenszyklus mit einem massiven Ressourcenverbrauch. Noch bevor wir ein Gerät zum ersten Mal einschalten, hat es bereits einen erheblichen ökologischen Fußabdruck hinterlassen. Vom Rohstoffabbau über energieintensive Fertigungsprozesse bis hin zur wachsenden Elektroschrott-Problematik: Die unsichtbaren Umweltkosten der IT sind enorm. Dieser Artikel beleuchtet die Schattenseiten der Hardwareproduktion. Wir zeigen, wie Rohstoffabbau, energieintensive Fertigungsprozesse und Elektroschrott die Umwelt belasten. Außerdem stellen wir Strategien vor, um den ökologischen Fußabdruck der IT-Branche zu verringern. Den ersten Teil der Serie zu Embodied Carbon finden Sie hier.]]></summary></entry><entry><title type="html">Embodied Carbon in der IT – Der versteckte CO₂-Fußabdruck unserer digitalen Welt</title><link href="https://mehrwert.tech/embodied-carbon-1" rel="alternate" type="text/html" title="Embodied Carbon in der IT – Der versteckte CO₂-Fußabdruck unserer digitalen Welt" /><published>2025-02-27T00:00:00+01:00</published><updated>2025-02-27T00:00:00+01:00</updated><id>https://mehrwert.tech/embodied-carbon-1</id><content type="html" xml:base="https://mehrwert.tech/embodied-carbon-1"><![CDATA[<p>In der heutigen digitalen Welt dreht sich vieles um Software, Daten und Vernetzung. Doch hinter jeder digitalen Anwendung steckt eine physische Infrastruktur: Rechenzentren, Server, Netzwerktechnik und Endgeräte. Während der Fokus auf Energieeffizienz und erneuerbare Stromquellen liegt, bleibt eine entscheidende Umweltbelastung oft unbemerkt – der <em>Embodied Carbon</em>.</p>
-
-<h2 id="was-ist-embodied-carbon"><strong>Was ist Embodied Carbon?</strong></h2>
-
-<p>Der Begriff <em>Embodied Carbon</em> beschreibt die gesamten CO₂-Emissionen, die während des gesamten Lebenszyklus eines IT-Produkts anfallen – von der Rohstoffgewinnung über die Produktion bis hin zum Transport und zur Entsorgung. Im Gegensatz zu <em>Operational Carbon</em>, der die Emissionen durch den Energieverbrauch während der Nutzung beschreibt, ist der <em>Embodied Carbon</em> oft der weitaus größere Anteil der Umweltbelastung.</p>
-
-<p>Ein Beispiel: <strong>Bis zu 98 % der gesamten CO₂-Emissionen eines Smartphones oder Laptops entstehen bereits in der Herstellung.</strong> Ebenso verursacht die Herstellung eines Servers je nach Ausstattung <strong>zwischen 100 und 3.000 Kilogramm CO₂-Äquivalente.</strong> Der <strong>Embodied Carbon</strong> macht dabei etwa <strong>75 % der gesamten CO₂-Emissionen eines Rack-Servers aus.</strong> Zum Vergleich: <strong>Ein Smartphone verursacht etwa 55 Kilogramm CO₂-Äquivalente durch Embodied Carbon, ein Laptop rund 300 Kilogramm.</strong> <a href="https://globalelectronicscouncil.org/wp-content/uploads/GEC_Climate_Change_SOSR_DRAFT_For_Public_Comment_1APR2021.pdf">(Quelle)</a></p>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/smart-phone_vs_rack-server-de.png" alt="Vergleich von Embodied Carbon und Operational Carbon bei IT-Hardware" />
-<small>Quelle: <a href="https://globalelectronicscouncil.org/wp-content/uploads/GEC_Climate_Change_SOSR_DRAFT_For_Public_Comment_1APR2021.pdf">globalelectronicscouncil.org</a></small></p>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/carbon-compairison-different-devices-de.png" alt="Vergleich von Embodied Carbon und Operational Carbon bei IT-Hardware" />
-<small>Quelle: <a href="https://globalelectronicscouncil.org/wp-content/uploads/GEC_Climate_Change_SOSR_DRAFT_For_Public_Comment_1APR2021.pdf">globalelectronicscouncil.org</a></small></p>
-
-<h2 id="warum-ist-embodied-carbon-so-relevant"><strong>Warum ist Embodied Carbon so relevant?</strong></h2>
-
-<p>Die Herstellung von IT-Hardware ist extrem ressourcen- und energieintensiv. Sie erfordert den Abbau und die Verarbeitung seltener Rohstoffe wie Kobalt, Lithium, Silizium und Gold. Die Umweltfolgen sind gravierend:</p>
-
-<ul>
-<li><b>Hoher Energieverbrauch</b>: Die Produktion von Mikroprozessoren und anderen High-Tech-Komponenten erfordert große Mengen an Elektrizität, oft aus fossilen Quellen.</li>
-<li><b>Ressourcenausbeutung</b>: Der Abbau seltener Metalle führt zu Umweltzerstörung, Wasserverschmutzung und sozialen Problemen in Abbauregionen.</li>
-<li><b>Kurze Lebenszyklen</b>: Schnell wechselnde Technologietrends führen zu immer kürzeren Nutzungszeiten von Geräten – oft werden sie ausgetauscht, obwohl sie noch funktionstüchtig sind.</li>
-</ul>
-
-<h2 id="der-weg-zur-reduktion-von-embodied-carbon"><strong>Der Weg zur Reduktion von Embodied Carbon</strong></h2>
-
-<p>Um den <em>Embodied Carbon</em> von IT-Hardware zu reduzieren, sind verschiedene Strategien notwendig:</p>
-
-<ul>
-<li><b>Längere Nutzungsdauer</b>: Durch Reparaturen, Upgrades und eine längere Nutzung von Geräten kann die Umweltbilanz deutlich verbessert werden.</li>
-<li><b>Kreislaufwirtschaft</b>: Unternehmen sollten auf Wiederverwendung und Recycling setzen, um Rohstoffe zurückzugewinnen und die Notwendigkeit neuer Produktionen zu verringern.</li>
-<li><b>Nachhaltige Produktion</b>: Hersteller müssen emissionsärmere Fertigungsprozesse entwickeln und verstärkt auf Recyclingmaterialien setzen.</li>
-<li><b>Bewusstes Konsumverhalten</b>: Auch Nutzerinnen und Nutzer können durch bewusste Kaufentscheidungen und nachhaltige IT-Strategien einen Beitrag leisten.</li>
-</ul>
-
-<h2 id="fazit"><strong>Fazit</strong></h2>
-
-<p>Während die IT-Branche große Fortschritte in der Reduktion des <em>Operational Carbon</em> macht, bleibt der <em>Embodied Carbon</em> ein oft übersehener Faktor. Unternehmen und Konsumenten müssen sich der gesamten Umweltbelastung bewusst werden und nachhaltige Strategien entwickeln, um die CO₂-Emissionen über den gesamten Lebenszyklus eines Produkts hinweg zu minimieren.</p>
-
-<p><strong>Nachhaltige IT beginnt nicht erst mit dem Einschalten eines Geräts – sondern schon bei seiner Herstellung.</strong></p>
-
-<h2 id="ausblick"><strong>Ausblick</strong></h2>
-
-<p>In den kommenden Artikeln dieser Reihe werden wir die Umweltfolgen der Hardwareproduktion und -entsorgung genauer beleuchten. Zudem widmen wir uns dem Lebenszyklus von Rechenzentren und analysieren deren ökologische Herausforderungen und mögliche nachhaltige Lösungen. <a href="https://mehrwert.tech/embodied-carbon-2">Hier</a> gehts zum zweiten Teil der Serie.</p>]]></content><author><name>Alina, Marcel</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[In der heutigen digitalen Welt dreht sich vieles um Software, Daten und Vernetzung. Doch hinter jeder digitalen Anwendung steckt eine physische Infrastruktur: Rechenzentren, Server, Netzwerktechnik und Endgeräte. Während der Fokus auf Energieeffizienz und erneuerbare Stromquellen liegt, bleibt eine entscheidende Umweltbelastung oft unbemerkt – der Embodied Carbon.]]></summary></entry></feed>
+<p>Im nächsten Artikel geht es um den <strong>Lifecycle eines Rechenzentrums</strong>. Wir zeigen, welche Umweltbelastungen von Bau bis Rückbau entstehen und welche nachhaltigen Strategien helfen, den CO₂-Fußabdruck zu minimieren. <a href="https://mehrwert.tech/embodied-carbon-3">Hier</a> gehts zum dritten Teil der Serie. Einen Überblick über Embodied Carbon finden Sie <a href="https://mehrwert.tech/embodied-carbon-1">hier</a> im ersten Teil der Serie.</p>]]></content><author><name>Alina, Marcel</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Ob Smartphone, Laptop oder Server – jedes IT-Gerät beginnt seinen Lebenszyklus mit einem massiven Ressourcenverbrauch. Noch bevor wir ein Gerät zum ersten Mal einschalten, hat es bereits einen erheblichen ökologischen Fußabdruck hinterlassen. Vom Rohstoffabbau über energieintensive Fertigungsprozesse bis hin zur wachsenden Elektroschrott-Problematik: Die unsichtbaren Umweltkosten der IT sind enorm. Dieser Artikel beleuchtet die Schattenseiten der Hardwareproduktion. Wir zeigen, wie Rohstoffabbau, energieintensive Fertigungsprozesse und Elektroschrott die Umwelt belasten. Außerdem stellen wir Strategien vor, um den ökologischen Fußabdruck der IT-Branche zu verringern. Den ersten Teil der Serie zu Embodied Carbon finden Sie hier.]]></summary></entry></feed>
