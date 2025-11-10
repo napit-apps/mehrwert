@@ -424,7 +424,7 @@ gsp_training:
       duration: "~4 Hours"
       price: "500€"
       participants: "3-6 participants"
-      location: "Neue Weberei (Wernau)"
+      location: "Bei unsi (Wernau)"
       content-1: "Creating awareness"
       content-2: "Green coding basics"
       content-3: "Understanding theory"
@@ -433,7 +433,7 @@ gsp_training:
       duration: "6-8 Hours"
       price: "800€"
       participants: "up to 10 participants"
-      location: "Neue Weberei (Wernau)"
+      location: "Bei unsi (Wernau)"
       content-1: "Creating awareness"
       content-2: "Introduction to Green Coding"
       content-3: "Practical examples"
@@ -476,7 +476,7 @@ gsp_training:
     - question: "How does the certification take place?"
       answer: "If you opt for certification, you will have the opportunity to take a Linux Foundation exam at the end of the training. This exam tests your acquired knowledge and skills in the area of sustainable software development. If you successfully pass the exam, you will receive a certificate confirming your qualifications as a Green Software Practitioner."           
     - question: "Where does the training take place?"
-      answer: "We will be happy to come to you for the training. Alternatively, we have modern facilities at the Neue Weberei in Wernau."
+      answer: "We will be happy to come to you for the training. Alternatively, we have modern facilities at the Bei unsi in Wernau."
      
 
 ################## Services #######################
