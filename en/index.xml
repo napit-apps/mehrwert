@@ -1,4 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-11-10T13:25:09+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Awareness and Responsibility – Why Sustainability Is More Than Just Technology</title><link href="https://mehrwert.tech/green-agile-guide" rel="alternate" type="text/html" title="Awareness and Responsibility – Why Sustainability Is More Than Just Technology" /><published>2025-10-06T00:00:00+02:00</published><updated>2025-10-06T00:00:00+02:00</updated><id>https://mehrwert.tech/green-agile-guide</id><content type="html" xml:base="https://mehrwert.tech/green-agile-guide"><![CDATA[<p>A few years ago, I was asked to analyze the enterprise resource planning system of a major German supermarket chain. The system had evolved over decades — written in <em>Gupta</em>, a development environment that’s barely used today. One single file contained more than <strong>300,000 lines of source code</strong>. No modular structure. No documentation. No clear ownership.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-05T11:59:45+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Less Effort, Better Matches – The Profile Agent</title><link href="https://mehrwert.tech/profil-agent" rel="alternate" type="text/html" title="Less Effort, Better Matches – The Profile Agent" /><published>2025-12-29T00:00:00+01:00</published><updated>2025-12-29T00:00:00+01:00</updated><id>https://mehrwert.tech/profil-agent</id><content type="html" xml:base="https://mehrwert.tech/profil-agent"><![CDATA[<p>In many companies, it always starts the same way. A new project request comes in. Or a customer tender lands in the inbox. The topic is interesting, the requirements are manageable – but then the real challenge begins: <strong>Which employees are actually the right fit for this project?</strong></p>
+
+<p>Who has the relevant experience? Who is currently available? And who might even be underutilized, yet would be a perfect match in terms of skills?</p>
+
+<p>Instead of clear answers, a tedious search often begins. Profiles are gathered, Excel sheets opened, old Word documents copied and adapted. A lot of knowledge exists – but not where it is needed at that moment.</p>
+
+<h2 id="the-real-problem-matching-takes-time">The Real Problem: Matching Takes Time</h2>
+
+<p>The core issue is rarely a lack of expertise, but rather a lack of overview. Skills, project experience, and roles are spread across different systems or documented only superficially. At the same time, there is often no clear connection to employees’ <strong>utilization</strong>.</p>
+
+<p>This leads to two typical situations:</p>
+
+<ul>
+  <li>Responses to tenders are delayed, even though suitable profiles exist within the company.</li>
+  <li>Employees with available capacity remain unnoticed, while other teams are overloaded.</li>
+</ul>
+
+<p>This is exactly where our <strong>Profile Agent</strong> comes into play.</p>
+
+<h2 id="how-we-do-it-from-demand-to-the-right-profile">How We Do It: From Demand to the Right Profile</h2>
+
+<p>The Profile Agent connects multiple sources of information into a single, coherent process. The starting point is either a project tender or an internal project demand. This input is automatically analyzed and structured.</p>
+
+<p>At the same time, the system accesses existing employee data – such as project descriptions, roles, skills, and timelines. Optionally, <strong>utilization data</strong> can also be integrated. This makes it possible to identify employees who are a strong skills match <strong>and</strong> currently have available capacity.</p>
+
+<p>The result is automatically generated short profiles that are precisely tailored to the specific context – for internal project planning as well as for external tenders.</p>
+
+<h2 id="under-the-hood-structure-instead-of-guesswork">Under the Hood: Structure Instead of Guesswork</h2>
+
+<p>From a technical perspective, the Profile Agent is based on a modular pipeline. A key component is <strong>Retrieval-Augmented Generation (RAG)</strong>.</p>
+
+<p>Existing employee profiles are stored as a searchable knowledge base in a vector database. Relevant experience is retrieved in a targeted manner and combined with the requirements of the tender. A language model then ensures that the result is a coherent, natural-sounding short profile.</p>
+
+<p>In addition, the Profile Agent calculates a <strong>match score</strong> that transparently shows how well a person fits a given request. This makes decisions more traceable – without removing humans from the process.</p>
+
+<h2 id="adaptable-to-context-brand-and-language">Adaptable to Context, Brand, and Language</h2>
+
+<p>Every organization communicates differently. That is why the generated profiles can be flexibly adapted – both to the company’s own corporate identity and to the <strong>corporate identity and tone of the customer</strong>. Language and writing style can also be adjusted as needed.</p>
+
+<p>This results in profiles that not only fit from a technical perspective, but also integrate seamlessly into existing proposal and communication processes.</p>
+
+<h2 id="real-value-in-everyday-work">Real Value in Everyday Work</h2>
+
+<p>The value of the Profile Agent becomes clear in day-to-day operations:</p>
+
+<ul>
+  <li>faster responses to project and customer requests</li>
+  <li>better use of existing skills and expertise</li>
+  <li>greater transparency regarding skills and utilization</li>
+  <li>consistent, high-quality profiles</li>
+  <li>less manual coordination and less time spent searching</li>
+</ul>
+
+<p>In short: <strong>less effort, better matches.</strong></p>
+
+<h2 id="no-talent-goes-unused">No Talent Goes Unused</h2>
+
+<p>The Profile Agent follows a clear guiding principle: <strong>No talent goes unused.</strong> By structuring knowledge, making it accessible, and enabling context-aware use, it helps organizations match people to the right projects more effectively – efficiently, transparently, and sustainably.</p>]]></content><author><name>Alina</name></author><category term="de" /><category term="posts" /><category term="#Künstliche" /><category term="Intelligenz," /><category term="#Wissensmanagement," /><category term="#Projektplanung," /><category term="#Ressourcenplanung" /><summary type="html"><![CDATA[In many companies, it always starts the same way. A new project request comes in. Or a customer tender lands in the inbox. The topic is interesting, the requirements are manageable – but then the real challenge begins: Which employees are actually the right fit for this project?]]></summary></entry><entry><title type="html">Knowledge management in everyday life – how Mehr.Wiki makes knowledge available on a long-term basis</title><link href="https://mehrwert.tech/mehrwiki" rel="alternate" type="text/html" title="Knowledge management in everyday life – how Mehr.Wiki makes knowledge available on a long-term basis" /><published>2025-12-18T00:00:00+01:00</published><updated>2025-12-18T00:00:00+01:00</updated><id>https://mehrwert.tech/mehrwiki</id><content type="html" xml:base="https://mehrwert.tech/mehrwiki"><![CDATA[<p>Knowledge is one of the most valuable resources in companies—and at the same time one of the most transient. A colleague spends years acquiring in-depth expertise in projects, gathering experience, and developing best practices. But what happens when this knowledge only exists in presentations, local folders, or in her own head?</p>
+
+<p>This is precisely where a central problem of modern knowledge work lies: skills are built up individually, but are often only available to the company as a whole to a limited extent. Project knowledge disappears into folder structures, insights are reworked multiple times, and valuable experience is lost as soon as teams change.</p>
+
+<p>This is where <strong>Mehr.Wiki</strong> comes in: an internal knowledge database that captures and bundles precisely this knowledge and makes it accessible to everyone—in a sustainable, structured, and future-proof way.</p>
+
+<h2 id="from-individual-knowledge-to-a-shared-resource">From individual knowledge to a shared resource</h2>
+
+<p>Mehr.Wiki is the internal knowledge platform of Mehr.Wert GmbH. Technically, it is based on MediaWiki, the open-source software that also underpins Wikipedia. However, it is not so much the technology that is important as the idea behind it: knowledge acquired by individual employees in projects, research, or training should not remain isolated. In Mehr.Wiki, it is stored in such a way that others can quickly find, understand, and reuse it—regardless of who originally developed it.</p>
+
+<h2 id="what-content-is-included-in-mehrwiki">What content is included in Mehr.Wiki?</h2>
+
+<p>Mehr.Wiki contains content from a wide variety of technical contexts—from technical questions and methodological approaches to organizational topics. It is important to note that we deliberately avoid long, newly written “wiki articles” unless necessary. Instead, existing materials are entered in an <strong>accessible</strong> manner and briefly classified.</p>
+
+<p>These include, for example, PDFs, presentations, Excel files, worksheets, and training materials. This creates a <strong>uniformly structured</strong> knowledge base from different sources that can be quickly used in everyday life.</p>
+
+<h2 id="structure-instead-of-knowledge-silos">Structure instead of knowledge silos</h2>
+
+<p>A central principle of Mehr.Wiki is a clear structure and taxonomy—and a deliberately streamlined approach to content. Instead of writing long texts or extensive editorial articles, existing media and materials are integrated simply, pragmatically, and as close as possible to their original form.</p>
+
+<p>Documents, presentations, or working materials are stored in such a way that they can be found quickly and are clearly organized without being unnecessarily reworked. Categories and subcategories ensure that content is grouped thematically on overview pages.</p>
+
+<p>The result: less maintenance, less duplication of work, and more transparency about what knowledge already exists in the company—and where it can be found.</p>
+
+<p>In knowledge management in particular, it is clear time and again that <strong>less is often more</strong>. It is not the number of functions or perfectly crafted content that determines the success of a system, but its usability in everyday life. Low-threshold access, clear structures, and carefully selected, easily available tools lower the barrier to use – and ensure that knowledge is actually shared and developed further. This is precisely where the key to sustainable knowledge management lies.</p>
+
+<h3 id="ai-supported-assistance-with-knowledge-processing">AI-supported assistance with knowledge processing</h3>
+
+<p>To ensure that data entry remains fast, the tools used are embedded in a separate routine that serves as a <strong>content intake pipeline</strong>. This pipeline maps the entire process from reading and processing to storage in the wiki and makes it possible to collect and efficiently enter multiple documents.</p>
+
+<p>We integrate <strong>commercially available API solutions</strong> for content processing: documents are analyzed automatically and provided with a <strong>short, compact summary</strong>. This mini-summary serves as an “introduction” so that colleagues can decide in seconds whether a document is relevant to them.</p>
+
+<p>In this way, AI modules primarily support structure and orientation—not the rewriting of entire content. This keeps the effort low and makes knowledge management realistic in everyday work.</p>
+
+<h2 id="robust-sustainable-and-expandable">Robust, sustainable, and expandable</h2>
+
+<p>The most important sustainability factor of Mehr.Wiki is its <strong>suitability for everyday use</strong>: new content can be quickly added, updated, and sensibly categorized—without any major hurdles. It is precisely this low threshold that ensures that the wiki is actually used and continuously maintained, rather than becoming obsolete after a one-time “documentation phase.”</p>
+
+<p>We support this technically through containerized operation. Existing content is retained during updates or restarts, and typical sources of error—such as special characters in file names or uploads that are too large—are reliably detected and communicated transparently. This ensures that Mehr.Wiki remains stable, expandable, and usable in the long term.</p>
+
+<h2 id="looking-ahead">Looking ahead</h2>
+
+<p>Mehr.Wiki is not a completed project, but an ongoing process. We are gradually developing the structure, workflows, and automation—always with the goal of making knowledge easy to share and permanently available within the company. The experience and principles gained in the process can also be transferred to other organizations and contexts where sustainable knowledge management plays a central role.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="sustainability," /><category term="knowledge," /><category term="wiki," /><category term="knowledge" /><category term="management," /><category term="green" /><category term="IT" /><summary type="html"><![CDATA[Knowledge is one of the most valuable resources in companies—and at the same time one of the most transient. A colleague spends years acquiring in-depth expertise in projects, gathering experience, and developing best practices. But what happens when this knowledge only exists in presentations, local folders, or in her own head?]]></summary></entry><entry><title type="html">Awareness and Responsibility – Why Sustainability Is More Than Just Technology</title><link href="https://mehrwert.tech/green-agile-guide" rel="alternate" type="text/html" title="Awareness and Responsibility – Why Sustainability Is More Than Just Technology" /><published>2025-10-06T00:00:00+02:00</published><updated>2025-10-06T00:00:00+02:00</updated><id>https://mehrwert.tech/green-agile-guide</id><content type="html" xml:base="https://mehrwert.tech/green-agile-guide"><![CDATA[<p>A few years ago, I was asked to analyze the enterprise resource planning system of a major German supermarket chain. The system had evolved over decades — written in <em>Gupta</em>, a development environment that’s barely used today. One single file contained more than <strong>300,000 lines of source code</strong>. No modular structure. No documentation. No clear ownership.</p>
 
 <p>No one really knew <strong>what</strong> the system was doing, <strong>why</strong> it worked the way it did — or <strong>what would break</strong> if even a minor change was made.</p>
 
@@ -447,154 +546,4 @@ Rules should be positive, precise, and written in bullet points. Reinforcers suc
 
 <p>By managing software requirements wisely and implementing strategic software development approaches, businesses can significantly extend hardware lifespan. This leads to financial benefits while making a meaningful contribution to environmental sustainability. Given the substantial environmental impact of hardware production—also known as <strong>embodied carbon</strong> (more on this in our article series on <a href="https://mehrwert.tech/en/embodied-carbon-1"><strong>Embodied Carbon</strong></a> )—extending hardware lifespan is essential.</p>
 
-<p>Software developers and companies can further contribute through *<a href="https://mehrwert.tech/en/trainings/gsp.html"><strong>Green Coding</strong></a>, which promotes sustainable software practices. The responsibility ultimately lies with manufacturers, developers, and businesses to make sustainable IT decisions that foster long-term, efficient, and resource-conscious infrastructure usage.</p>]]></content><author><name>Alina, Marcel</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[In the IT world, a device’s lifespan is not determined solely by hardware quality—software plays a crucial role as well. Many hardware components are discarded today even though they are still technically functional. The reason? Modern software places ever higher demands on processors, memory, and other resources. Industry analyses show that increasing software requirements drive hardware replacements more than pure technological innovation. This dynamic has significant implications for companies aiming to manage their IT infrastructure efficiently, cost-effectively, and sustainably.]]></summary></entry><entry><title type="html">Embodied carbon - the lifecycle of a data center and its carbon footprint</title><link href="https://mehrwert.tech/embodied-carbon-3" rel="alternate" type="text/html" title="Embodied carbon - the lifecycle of a data center and its carbon footprint" /><published>2025-03-11T00:00:00+01:00</published><updated>2025-03-11T00:00:00+01:00</updated><id>https://mehrwert.tech/embodied-carbon-3</id><content type="html" xml:base="https://mehrwert.tech/embodied-carbon-3"><![CDATA[<p>In this third and final edition of our article series on <em>Embodied Carbon</em>, we turn our focus to an often overlooked aspect of digital infrastructure: <strong>the CO₂ emissions of an entire data center over its lifecycle</strong>. While many sustainability efforts concentrate on the <strong>operational phase</strong>, significant emissions arise <strong>already during the construction phase</strong> and through hardware production. You can find the second part of the series on embodied carbon <a href="https://mehrwert.tech/embodied-carbon-2">here</a>.</p>
-
-<h2 id="construction-phase-a-frequently-underestimated-emission-factor"><strong>Construction Phase: A Frequently Underestimated Emission Factor</strong></h2>
-
-<p>The <strong>construction of a data center</strong> is one of the most emission-intensive phases of its lifecycle. Materials such as <strong>steel, concrete, and aluminum</strong> cause high <strong>CO₂ emissions during production and transportation</strong>. The main environmental impacts stem from:</p>
-
-<ul>
-  <li><strong>Concrete Production:</strong> Concrete is responsible for <strong>about 8% of global CO₂ emissions</strong>, primarily due to the <strong>energy-intensive cement production process</strong>. <a href="https://essd.copernicus.org/articles/11/1675/2019/">[Andrew, R. M., 2019]</a> The construction of a medium-sized data center can require several thousand tons of concrete, depending on the size and construction method. Since the production of one ton of cement generates an average of 0.6 to 0.9 tons of CO₂, this results in CO₂ emissions of several thousand tons.</li>
-  <li><strong>Steel Production:</strong> Producing <strong>one ton of steel emits roughly 1.5 tons of CO₂</strong>. <a href="https://dechema.de/Themen/Studien%2Bund%2BPositionspapiere/2024%2B03%2BH2%2BKompass/_/H2K_IND_Stahl.pdf">[acatech, 2024]</a> Data centers use <strong>large quantities of steel</strong> for both the building structure and <strong>server racks</strong>. For example, there are approximately <strong>266,000 server racks</strong> in German data centers. <a href="https://www.umweltbundesamt.de/sites/default/files/medien/461/publikationen/4037.pdf">[Umweltbundesamt, 2010]</a> The <strong>CO₂ emissions per ton of steel</strong> vary considerably depending on the <strong>production method</strong>. While traditional methods generate high emissions, new technologies such as the <strong>use of green hydrogen</strong> could significantly improve the balance. These approaches, however, are still in the <strong>development phase</strong> and require <strong>high energy input</strong>. <a href="https://dwv-info.de/wp-content/uploads/2023/04/20210616-EP-Gruener-Stahl-min-1.pdf">[DWV, 2021]</a></li>
-  <li><strong>Aluminum Processing:</strong> <strong>Aluminum has a high energy density</strong> during production but is widely used in data centers due to its <strong>light weight</strong> and <strong>corrosion resistance</strong>. <strong>Producing one ton of primary aluminum emits on average 11.5 tons of CO₂.</strong> The exact figure may vary depending on the <strong>production method</strong> and <strong>energy source</strong>. Aluminum production is particularly energy-intensive, as the <strong>extraction from bauxite</strong> requires vast amounts of electricity. <a href="https://international-aluminium.org/wp-content/uploads/2021/08/CF-Good-Guidance-v1-2018.pdf">[International Aluminium Institute, 2018]</a></li>
-  <li><strong>Energy Consumption During Construction:</strong> The <strong>construction phase</strong> demands <strong>large quantities of electrical energy</strong> for machinery, transportation, and the assembly of IT infrastructure. Since most <strong>construction equipment runs on fossil fuels</strong>, significant <strong>CO₂ emissions</strong> are generated – especially from <strong>diesel-powered excavators, cranes, and concrete mixers</strong>.</li>
-</ul>
-
-<h2 id="operational-phase-the-main-contributor-to-co-emissions"><strong>Operational Phase: The Main Contributor to CO₂ Emissions</strong></h2>
-
-<p>After completion, the <strong>operation of a data center</strong> continuously generates emissions, primarily due to the <strong>power consumption for IT hardware, cooling, and supporting infrastructure</strong>. The key factors include:</p>
-
-<ul>
-  <li><strong>Server Power Consumption:</strong> <strong>Data centers worldwide consumed around 360 TWh of electricity in 2022</strong>, which is about <strong>1.7% of the global energy demand</strong>. <a href="https://www.gewinn.com/artikel/rechenzentren-sind-wachstumstreiber-der-stromnachfrage">[Gewinn, 2024]</a>, <a href="https://de.statista.com/statistik/daten/studie/239764/umfrage/weltweiter-stromverbrauch/">[Statista, 2024]</a> The actual <strong>emissions depend heavily on the energy mix</strong> – while <strong>renewable energy sources can minimize the CO₂ footprint</strong>, fossil fuels lead to significant emissions.</li>
-  <li><strong>Cooling:</strong> Cooling can account for up to <strong>40% of the total energy consumption</strong>. <a href="https://de.wikipedia.org/wiki/Green_IT">[Wikipedia]</a> <strong>Efficient cooling methods</strong>, such as <strong>liquid cooling</strong> or <strong>utilizing outside air</strong>, can considerably reduce emissions.</li>
-  <li><strong>Power Usage Effectiveness (PUE):</strong> <strong>Modern data centers achieve PUE values of 1.2 or lower</strong>, whereas <strong>older facilities may exceed values of 2</strong>, leading to massive energy losses. <a href="https://www.computerweekly.com/de/meinung/Energieeffizienz-von-Rechenzentren-aus-alt-mach-nachhaltig">[Computer Weekly, 2023]</a> <strong>The PUE value describes the ratio between the total energy consumption of a data center and the energy actually used for IT infrastructure</strong> – the lower the value, the <strong>more efficiently the energy is used</strong>.</li>
-  <li><strong>Backup Systems:</strong> <strong>Diesel generators as backup power units generate significant CO₂ emissions</strong> and air pollution, particularly in <strong>older facilities</strong>. <a href="https://www.bund-hessen.de/pm/news/bund-klagt-gegen-zu-hohe-emissionen-aus-notstromdieselmotoren-von-rechenzentren/">[Umweltbundesamt, 2022]</a></li>
-</ul>
-
-<h2 id="decommissioning-and-recycling-what-happens-after-1525-years"><strong>Decommissioning and Recycling: What Happens After 15–25 Years?</strong></h2>
-
-<p>After approximately <strong>15–25 years</strong>, a <strong>data center is either modernized or decommissioned</strong>. This step also causes <strong>environmental impacts</strong>:</p>
-
-<ul>
-  <li><strong>Disposal of Building Materials:</strong> Without a <strong>sustainable deconstruction concept</strong>, large amounts of <strong>concrete, steel, and other building materials end up in landfills</strong> rather than being recycled.</li>
-  <li><strong>Electronic Waste:</strong> <strong>Over 60 million tons of electronic waste are generated worldwide each year</strong>, of which <strong>only a fraction is recycled</strong>. <a href="https://ewastemonitor.info/wp-content/uploads/2024/12/GEM_2024_EN_11_NOV-web.pdf">[unitar, 2024]</a></li>
-</ul>
-
-<p>You can find out more about the environmental problems associated with the extraction of raw materials and the disposal of IT hardware in our previous article. <a href="https://mehrwert.tech/embodied-carbon-2">Read here</a></p>
-
-<h2 id="environmental-impact-of-data-centers-over-their-entire-lifecycle"><strong>Environmental Impact of Data Centers Over Their Entire Lifecycle</strong></h2>
-
-<p>The <strong>BUND</strong> conducted a study in <strong>2018</strong> to assess the <strong>resource consumption</strong> and <strong>CO₂ emissions</strong> of various data centers over their <strong>entire lifecycle</strong>. <a href="https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-02-23_texte_19-2018_ressourceneffizienz-rechenzentren.pdf">[Bundesumweltamt, 2018]</a> The environmental impacts were divided into <strong>four phases</strong>: <strong>production</strong> (green), distribution, usage, and disposal.**</p>
-
-<p>The model data centers were:</p>
-
-<ul>
-  <li><strong>DC1:</strong> A <strong>municipal data center</strong> with an <strong>IT rated capacity of 750 kW</strong>. It is used for <strong>managed services and colocation</strong>.</li>
-  <li><strong>DC2:</strong> A <strong>web hosting data center</strong> with an <strong>IT rated capacity of 83 kW</strong>. It primarily provides <strong>hosting services</strong>.</li>
-  <li><strong>DC3:</strong> An <strong>IT consulting data center</strong> with an <strong>IT rated capacity of 192 kW</strong>. It mainly serves <strong>internal corporate services</strong>.</li>
-</ul>
-
-<p>The environmental impacts of the data centers were analyzed based on various <strong>indicators</strong>:</p>
-
-<ul>
-  <li><strong>ADP (Abiotic Depletion Potential):</strong> This measures the impact on the availability of <strong>non-renewable resources</strong> such as <strong>metals and fossil fuels</strong>.</li>
-  <li><strong>KEA (Cumulative Energy Demand):</strong> This indicator describes the <strong>total amount of energy</strong> required over the <strong>lifecycle</strong>.</li>
-  <li><strong>GHG (Greenhouse Gas Potential):</strong> This indicator measures the <strong>CO₂ emissions</strong> over the entire <strong>lifecycle</strong>.</li>
-  <li><strong>Water Consumption:</strong> This indicator assesses the <strong>total water usage</strong> throughout the <strong>lifecycle</strong>.</li>
-</ul>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/Relative_Umweltauswirkungen_Rechenzentrum.png" alt="Relative distribution of the environmental impacts of data centers by lifecycle phase" />
-<small> <a href="https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-02-23_texte_19-2018_ressourceneffizienz-rechenzentren.pdf">Bundesumweltamt, 2018</a></small></p>
-
-<p>The analysis clearly shows that across all indicators, <strong>the operational phase is the largest contributor to environmental impact</strong>, particularly in terms of <strong>energy consumption and CO₂ emissions</strong>. However, the <strong>production of hardware</strong> also contributes <strong>significantly</strong> to the environmental impacts, especially regarding the <strong>abiotic depletion potential</strong>. In contrast, the <strong>disposal phase</strong> has a <strong>comparatively low share</strong> of the overall impacts. Although this study was published back in 2018, its findings remain highly relevant, as the fundamental sources of emissions and environmental impacts of data centers have hardly changed since then.</p>
-
-<h2 id="measures-towards-greener-data-centers"><strong>Measures Towards Greener Data Centers</strong></h2>
-
-<p>To minimize the <strong>environmental impact</strong> of a data center over its <strong>entire lifecycle</strong>, various approaches are necessary:</p>
-
-<ul>
-  <li><strong>Sustainable Construction:</strong> Using <strong>CO₂-reduced concrete, recycled steel</strong> and <strong>sustainable materials</strong> can lower emissions during the construction phase.</li>
-  <li><strong>Energy-Efficient Hardware:</strong> <strong>Modern processors and memory technologies</strong> with <strong>lower power consumption</strong> reduce the <strong>CO₂ output</strong> during operation.</li>
-  <li><strong>Green Energy Sources:</strong> Using <strong>renewable energies</strong> such as <strong>wind and solar power</strong> can make a data center’s electricity consumption nearly <strong>climate-neutral</strong>.</li>
-  <li><strong>Waste Heat Recovery:</strong> Through <strong>intelligent heat recovery systems</strong>, data centers can channel their waste heat to <strong>local residential or industrial areas</strong>.</li>
-  <li><strong>Circular Economy:</strong> The <strong>reuse</strong> and <strong>recycling</strong> of <strong>servers, building materials</strong> and other <strong>components</strong> can extend their <strong>lifespan</strong> and <strong>reduce waste</strong>.</li>
-</ul>
-
-<h2 id="conclusion"><strong>Conclusion</strong></h2>
-
-<p><strong>Data centers are the backbone of the digital world, yet they generate significant CO₂ emissions over their entire lifecycle.</strong> While the <strong>ongoing electricity consumption</strong> often takes center stage, the <strong>construction phase</strong> as well as the <strong>disposal of building materials and hardware</strong> must not be neglected.</p>
-
-<p>Through <strong>sustainable construction practices, energy-efficient hardware, renewable energy, waste heat recovery, and a circular economy approach</strong>, companies can significantly reduce their <strong>ecological footprint</strong>.</p>
-
-<p><strong>It is time to design the IT infrastructure of the future so that it is not only high-performing but also sustainable.</strong></p>
-
-<p>For more insights into the topic of embodied carbon, it is worth taking a look at the <a href="https://mehrwert.tech/embodied-carbon-1">first</a> and <a href="https://mehrwert.tech/embodied-carbon-2">second</a> part of the series.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[In this third and final edition of our article series on Embodied Carbon, we turn our focus to an often overlooked aspect of digital infrastructure: the CO₂ emissions of an entire data center over its lifecycle. While many sustainability efforts concentrate on the operational phase, significant emissions arise already during the construction phase and through hardware production. You can find the second part of the series on embodied carbon here.]]></summary></entry><entry><title type="html">Embodied carbon - environmental impact of hardware production and disposal</title><link href="https://mehrwert.tech/embodied-carbon-2" rel="alternate" type="text/html" title="Embodied carbon - environmental impact of hardware production and disposal" /><published>2025-03-06T00:00:00+01:00</published><updated>2025-03-06T00:00:00+01:00</updated><id>https://mehrwert.tech/embodied-carbon-2</id><content type="html" xml:base="https://mehrwert.tech/embodied-carbon-2"><![CDATA[<p>Whether smartphone, laptop or server - every IT device begins its life cycle with a massive consumption of resources. Even before we switch on a device for the first time, it has already left a considerable ecological footprint. From the extraction of raw materials and energy-intensive manufacturing processes to the growing problem of electronic waste: the invisible environmental costs of IT are enormous. This article sheds light on the darker side of hardware production. We show how the extraction of raw materials, energy-intensive manufacturing processes and e-waste impact the environment. We also present strategies to reduce the ecological footprint of the IT industry. You can find the first part of this article series <a href="https://mehrwert.tech/en/embodied-carbon-1">here</a>.</p>
-
-<h2 id="commodity-extraction-an-environmental-and-social-hotspot"><strong>Commodity extraction: an environmental and social hotspot</strong></h2>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/smartphone_resources.jpg" alt="Raw materials that make up a smartphone" />
-<small>Quelle: <a href="https://www.regenwald-schuetzen.org/regenwald-wissen/faszination-regenwald/haeufige-fragen/welche-rohstoffe-gibt-es">OroVerde - Die Tropenwaldstiftung</a></small></p>
-
-<p>IT devices consist of a variety of materials such as silicon, copper, gold and rare earths. However, their extraction has serious consequences for people and the environment:</p>
-
-<ul>
-<li><b>Habitat Destruction:</b> The extraction of gold, lithium, and cobalt leads to deforestation of rainforests, soil contamination, and loss of natural habitats. Cobalt mining in the Democratic Republic of the Congo has already destroyed over <b>500,000 hectares of rainforest</b> (Source: Global Forest Watch, 2023).</li>
-<li><b>Soil contamination:</b> Many mining processes release toxic chemicals that can contaminate the soil. Particularly problematic is gold extraction using cyanide leaching, where toxic residues are often disposed of improperly, causing extensive soil contamination (<a href="https://earthworks.org/wp-content/uploads/2025/01/Earthworks-Annual-Report-2023.pdf">[Source: Earthworks, 2023]</a>). Another critical issue is the release of toxic heavy metals from ore mining and refining processes, which can pollute the soil in the long term (<a href="https://earthworks.org/wp-content/uploads/2025/01/Earthworks-Annual-Report-2023.pdf">[Source: Earthworks, 2023]</a>).</li>
-<li><b>Water Consumption and Pollution:</b> Lithium extraction in the Atacama Desert consumes up to <b>2 million liters of water per ton of lithium</b> <a href="https://www.fr.de/wirtschaft/konflikte-wasser-10968084.html">[Source: Friends of the Earth, 2022]</a>. This leads to the drying out of local ecosystems and endangers indigenous communities.</li>
-<li><b>Social Issues:</b> Up to <b>40,000 children work in cobalt mines</b> in the Democratic Republic of the Congo under hazardous conditions <a href="https://www.amnesty.de/informieren/aktuell/demokratische-republik-kongo-grosskonzerne-tun-zu-wenig-gegen-kinderarbeit">[Source: Amnesty International, 2023]</a>. Additionally, profits from raw materials finance armed conflicts and destabilize entire regions.</li>
-</ul>
-
-<p>According to the International Energy Agency (IEA), demand for these raw materials will more than double by <strong>2040</strong>, which will further exacerbate the negative consequences. <a href="https://www.iea.org/news/sharp-declines-in-critical-mineral-prices-mask-risks-of-future-supply-strains-as-energy-transitions-advance">Source: International Energy Agency, 2024</a></p>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/Smartphone_resources_map.jpg" alt="Map - Where which raw materials are mined" />
-<small>Quelle: <a href="https://everphone.com/de/blog/oekologische-handys/">everphone</a></small></p>
-
-<h2 id="energy-intensive-production-the-hidden-co-driver"><strong>Energy-intensive production: the hidden CO₂ driver</strong></h2>
-
-<p>The extraction of raw materials is followed by an energy-intensive manufacturing process that causes enormous amounts of CO₂ emissions:</p>
-
-<ul>
-<li><b>Semiconductor Manufacturing:</b> Producing microchips demands extremely high levels of purity, involving significant water and chemical consumption. Particularly problematic is production in Taiwan, which accounts for over <b>90% of global high-end chip manufacturing</b> <a href="https://www.economist.com/special-report/2023/03/06/taiwans-dominance-of-the-chip-industry-makes-it-more-important">[Source: The Economist, 2023]</a>. Manufacturing a single 30 cm silicon wafer consumes <b>up to 8,000 liters of water</b>—an enormous strain for water-scarce regions like Taiwan. <a href="https://www.globalwaterintel.com">[Source: Global Water Intelligence (2009) Pure Water, Semiconductors and The Recession]</a></li>
-<li><b>Circuit Board Manufacturing:</b> Etching copper traces produces toxic chemicals, which are often improperly disposed of. In China, where a large share of global circuit board production occurs, <b>thousands of tons of heavy metals and acids</b> contaminate the environment each year, polluting agricultural land and water sources. <a href="https://www.fraunhofer-zukunftsfabrik.de/?p=4256">[Source: Fraunhofer Institute, 2023]</a> Some manufacturers are now adopting alternative processes that reduce chemical use, but widespread implementation remains limited.</li>
-<li><b>Battery production:</b> The production of lithium-ion batteries is among the most energy-intensive processes in the IT industry. Electrode manufacturing and cell assembly, in particular, require high temperatures and cleanroom conditions, leading to enormous energy consumption. Studies indicate that producing a lithium battery generates between <b>61</b> and <b>106 kg CO₂-equivalents per kWh battery capacity</b> <a href="https://ivl.diva-portal.org/smash/get/diva2:1549551/FULLTEXT01.pdf">[Source: IVL Swedish Environmental Research Institute, 2019]</a>. In addition to the high electricity usage, substantial amounts of waste, including toxic solvents and electrolyte residues, are produced. Although manufacturers are exploring innovative alternatives like solid-state batteries and more efficient recycling methods, in the short term, battery production remains environmentally challenging.</li>
-</ul>
-
-<p>Transportation routes: an often overlooked factor</p>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/smartphone_supply_chain.png" alt="Production cuts in smartphone manufacturing" />
-<small>Quelle: <a href="https://www.bild.de/bild-plus/digital/smartphone-und-tablet/smartphone/langer-weg-eines-handys-53442300.bild.html">Bild</a></small></p>
-
-<ul>
-<li><b>Shipping:</b> Container ships, which also transport IT components across the world's oceans, emitted <b>932 million tons of CO₂</b> in 2015. <a href="https://www.umweltbundesamt.de/themen/wasser/gewaesser/meere/nutzung-belastungen/schifffahrt#fakten-zur-seeschifffahrt-und-zu-ihren-auswirkungen-auf-die-umwelt">[Source: German Environment Agency (Umweltbundesamt), 2023]</a></li>
-<li><b>Air Freight:</b> Particularly fast deliveries via aircraft are even more harmful to the climate—air transport generates about <b>180 times more CO₂ emissions per ton of freight than sea transport</b>. <a href="https://www.itf-oecd.org/sites/default/files/docs/dp201421.pdf">[Source: International Transport Forum, 2014]</a></li>
-<li><b>Last Mile:</b> Delivery to end customers by truck or courier also contributes significantly to the CO₂ footprint, especially due to the growth in online retail.</li>
-</ul>
-
-<p>Measures such as shortening supply chains, using more energy-efficient means of transportation and regional production sites could significantly reduce these emissions.</p>
-
-<h2 id="electrical-waste-the-unsolved-disposal-problem"><strong>Electrical waste: the unsolved disposal problem</strong></h2>
-
-<p>Every year, over <strong>50 million tons of electronic waste</strong> are generated worldwide - less than 20% is recycled. IT devices contain valuable raw materials such as gold, copper and cobalt, but also hazardous substances that need to be disposed of in an environmentally friendly manner:</p>
-
-<ul>
-<li><b>Gold, Copper, and Cobalt:</b> Recycling can recover these materials for use in new products. For example, recycled gold is already being reused in smartphones, reducing the demand for newly mined gold. <a href="https://globalewastemonitor.org/">[Source: Global e-Waste Monitor, 2022]</a></li>
-<li><b>Toxic Substances:</b> Many devices contain lead, mercury, and flame retardants, posing risks to both the environment and human health. Improperly disposed devices can leak these substances into groundwater, causing long-term damage to ecosystems. <a href="https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/35364/CoCL.pdf">[Source: UNEP, 2020]</a></li>
-<li><b>Illegal Waste Disposal:</b> Old IT hardware is frequently exported to developing countries, where it is dismantled under hazardous conditions. According to research by the Basel Action Network (BAN), approximately <b>352,474 tons of electronic waste are illegally exported from Europe annually</b>, often disguised as recycling. In countries such as Ghana, massive e-waste dumps have emerged, where workers inhale toxic fumes without protective equipment, exposing them to severe health risks. <a href="https://wiki.ban.org/images/f/f4/Holes_in_the_Circular_Economy-_WEEE_Leakage_from_Europe.pdf">[Source: Basel Action Network, 2019]</a></li>
-</ul>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/elektroschrott_recycling.jpeg" alt="Electronic waste by continent" />
-<small>Source: <a href="https://de.statista.com/infografik/33250/elektroabfaelle-nach-regionen/">Statista</a></small></p>
-
-<h2 id="refurbished-hardware-and-the-circular-economy-keeping-resources-in-circulation"><strong>Refurbished hardware and the circular economy: keeping resources in circulation</strong></h2>
-
-<p>One of the most effective measures for more sustainable IT is <strong>extending the lifespan of devices</strong>. Instead of replacing hardware after a few years, companies and consumers can rely on <strong>refurbished devices</strong> - professionally refurbished devices that are technically modernized and reused. This alternative not only reduces costs, but also the enormous <strong>resource consumption of new productions</strong>. In addition, the use of refurbished hardware can reduce <strong>CO₂ emissions, resource consumption and electronic waste by up to 80%</strong> compared to new devices. <a href="https://www.refurbed.de/a/pressrelease-refurbed-fraunhofer/">[Source: refurbed, 2024]</a> In addition to economic benefits, extending the service life of devices also helps to reduce e-waste, as fewer old devices need to be disposed of. Companies that rely on refurbished hardware not only benefit from lower acquisition costs, but also from positive sustainability effects that are reflected in their ESG balance sheet.</p>
-
-<p>The circular economy** approach is even more consistent. The aim here is to keep <strong>IT devices, their components and materials in the usage cycle for as long as possible</strong> instead of disposing of them after a short time. Manufacturers must increasingly focus on <strong>modular, repairable designs</strong> and facilitate access to <strong>spare parts</strong>. Many components that are considered “obsolete” in the traditional IT value chain can still provide valuable services in other areas. One example: <strong>Servers</strong> decommissioned in data centers often find a second use as inexpensive, powerful machines in smaller companies. <a href="https://www.ellenmacarthurfoundation.org/circular-economy-diagram">[Source: Ellen MacArthur Foundation, 2023]</a></p>
-
-<p>In addition, <strong>recycling can recover valuable raw materials such as gold, copper and rare earths</strong>, reducing the environmental impact of new extraction. <strong>Tech giants like Apple are already using recycled aluminum</strong> in their MacBooks, while Google aims to use only recycled materials in all of its hardware products by 2030 <a href="https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2024.pdf">[Source: Apple Environmental Progress Report, 2023]</a>; <a href="https://sustainability.google/reports/google-2023-environmental-report/">[Google Sustainability Report, 2023]</a>. However, <strong>consumers are also called upon</strong> to exploit the full impact of the circular economy: Those who consciously opt for <strong>long-lasting, repairable or refurbished devices</strong> actively contribute to the <strong>reduction of electronic waste and CO₂ emissions</strong>.</p>
-
-<h2 id="ways-to-a-more-sustainable-it"><strong>Ways to a more sustainable IT</strong></h2>
-
-<p>Sustainability in IT requires a rethink along the entire life cycle of hardware and software. <strong>Longer usage times, targeted recycling and a consistent circular economy</strong> are key levers for conserving resources and reducing emissions. Companies and consumers alike can take responsibility - be it by purchasing long-lasting hardware, using refurbished devices or consciously handling electronic waste.</p>
-
-<p>The next article is about the <strong>lifecycle of a data center</strong>. We show what environmental impacts arise from construction to dismantling and which sustainable strategies help to minimize the carbon footprint. Click <a href="https://mehrwert.tech/embodied-carbon-3">here</a> for the third part of the series. You can find an overview of embodied carbon <a href="https://mehrwert.tech/embodied-carbon-1">here</a> in the first part of the series.</p>]]></content><author><name>Alina, Marcel</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Whether smartphone, laptop or server - every IT device begins its life cycle with a massive consumption of resources. Even before we switch on a device for the first time, it has already left a considerable ecological footprint. From the extraction of raw materials and energy-intensive manufacturing processes to the growing problem of electronic waste: the invisible environmental costs of IT are enormous. This article sheds light on the darker side of hardware production. We show how the extraction of raw materials, energy-intensive manufacturing processes and e-waste impact the environment. We also present strategies to reduce the ecological footprint of the IT industry. You can find the first part of this article series here.]]></summary></entry></feed>
+<p>Software developers and companies can further contribute through *<a href="https://mehrwert.tech/en/trainings/gsp.html"><strong>Green Coding</strong></a>, which promotes sustainable software practices. The responsibility ultimately lies with manufacturers, developers, and businesses to make sustainable IT decisions that foster long-term, efficient, and resource-conscious infrastructure usage.</p>]]></content><author><name>Alina, Marcel</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[In the IT world, a device’s lifespan is not determined solely by hardware quality—software plays a crucial role as well. Many hardware components are discarded today even though they are still technically functional. The reason? Modern software places ever higher demands on processors, memory, and other resources. Industry analyses show that increasing software requirements drive hardware replacements more than pure technological innovation. This dynamic has significant implications for companies aiming to manage their IT infrastructure efficiently, cost-effectively, and sustainably.]]></summary></entry></feed>

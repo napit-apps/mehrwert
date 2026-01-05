@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Weniger Aufwand, mehr Treffer - Der Profile-Agent",
+      "category" : "",
+      "tags"     : "#Künstliche, Intelligenz,, #Wissensmanagement,, #Projektplanung,, #Ressourcenplanung",
+      "url"      : "/profil-agent",
+      "date"     : "2025-12-29 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Wissensmanagement im Alltag – wie das Mehr.Wiki Wissen nachhaltig verfügbar macht",
+      "category" : "",
+      "tags"     : "nachhaltigkeit,, wissen,, wiki,, knowledge-management,, green-it",
+      "url"      : "/mehrwiki",
+      "date"     : "2025-12-18 00:00:00 +0100"
+    } ,
+  
+    {
       "title"    : "Bewusstsein und Verantwortung – Warum Nachhaltigkeit mehr als Technik ist",
       "category" : "",
       "tags"     : "#green-agile,, #nachhaltigkeit",
