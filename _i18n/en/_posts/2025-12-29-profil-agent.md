@@ -71,3 +71,5 @@ In short: **less effort, better matches.**
 ## No Talent Goes Unused
 
 The Profile Agent follows a clear guiding principle: **No talent goes unused.** By structuring knowledge, making it accessible, and enabling context-aware use, it helps organizations match people to the right projects more effectively – efficiently, transparently, and sustainably.
+
+The **Mehr.Wiki** follows the same goal of making knowledge available in a structured way and reducing recurring search and coordination efforts. Instead of isolated documents, it provides a central, searchable knowledge base. You can read more about this in the article [Mehr.Wiki – Knowledge where it is needed](https://mehrwert.tech/en/mehrwiki).

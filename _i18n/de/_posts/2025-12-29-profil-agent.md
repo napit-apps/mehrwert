@@ -73,3 +73,4 @@ Oder anders gesagt: **Weniger Aufwand, mehr Treffer.**
 
 Der Profile-Agent folgt einem klaren Leitgedanken: **Kein Talent bleibt ungenutzt.** Indem Wissen strukturiert, auffindbar und kontextbezogen nutzbar gemacht wird, unterstützt er Unternehmen dabei, Menschen gezielt auf die richtigen Projekte zu bringen – effizient, transparent und nachhaltig.
 
+Auch der **Mehr.Wiki** verfolgt das Ziel, Wissen strukturiert verfügbar zu machen und wiederkehrende Such- und Abstimmungsprozesse zu reduzieren. Statt isolierter Dokumente entsteht eine zentrale, durchsuchbare Wissensbasis. Mehr dazu gibt es im Artikel [Mehr.Wiki – Wissen dort, wo es gebraucht wird](https://mehrwert.tech/mehrwiki).
