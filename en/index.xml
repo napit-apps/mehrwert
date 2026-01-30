@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-05T11:59:45+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Less Effort, Better Matches – The Profile Agent</title><link href="https://mehrwert.tech/profil-agent" rel="alternate" type="text/html" title="Less Effort, Better Matches – The Profile Agent" /><published>2025-12-29T00:00:00+01:00</published><updated>2025-12-29T00:00:00+01:00</updated><id>https://mehrwert.tech/profil-agent</id><content type="html" xml:base="https://mehrwert.tech/profil-agent"><![CDATA[<p>In many companies, it always starts the same way. A new project request comes in. Or a customer tender lands in the inbox. The topic is interesting, the requirements are manageable – but then the real challenge begins: <strong>Which employees are actually the right fit for this project?</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-01-30T08:21:07+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">n8n Reality Check - Productivity Gain or Programming with a User Interface?</title><link href="https://mehrwert.tech/en/n8n-1" rel="alternate" type="text/html" title="n8n Reality Check - Productivity Gain or Programming with a User Interface?" /><published>2026-01-27T00:00:00+01:00</published><updated>2026-01-27T00:00:00+01:00</updated><id>https://mehrwert.tech/en/n8n-1</id><content type="html" xml:base="https://mehrwert.tech/en/n8n-1"><![CDATA[<p>Automation Between Orchestration and Hidden Complexity.</p>
+
+<p>Low-code workflow automation promises efficiency, speed, and less manual work. Tools like n8n embrace this promise—with a visual interface, numerous integrations, and the ability to quickly piece together processes. But how much actual added value do they still provide today? And where are the limits of such low-code approaches?</p>
+
+<p>This article provides a critical assessment of n8n—technically, organizationally, and with a view to resource-efficient software development.</p>
+
+<h2 id="what-is-n8nand-what-is-it-not">What is n8n—and what is it not?</h2>
+
+<p>n8n is a platform for <strong>workflow automation</strong>. So-called <em>triggers</em> (e.g., webhooks or schedules) initiate <em>nodes</em> that perform actions: API calls, database queries, if/else logic, or data transformations. This creates workflows that move data between systems and automate processes.</p>
+
+<p>Typical use cases include:</p>
+
+<ul>
+  <li>A form is submitted → data lands in the CRM → a Slack message is sent</li>
+  <li>An invoice arrives by email → information is extracted → accounting is updated</li>
+</ul>
+
+<p>It is important to classify n8n correctly: <strong>n8n is not a classic no-code tool</strong>. At the latest with expressions, custom nodes, and especially the <strong>code nodes</strong> where JavaScript or Python is executed, you are clearly in the <strong>low-code realm</strong>. The real value lies not in “coding without code” but in the <strong>orchestration of logic, APIs, and processes</strong>. However, this also carries a risk: <strong>complex software is easily disguised as a simple flow</strong>.</p>
+
+<h2 id="which-needs-does-n8n-address">Which needs does n8n address?</h2>
+
+<p>n8n targets not so much clearly defined roles but certain <strong>motivations</strong> found in many teams:</p>
+
+<ul>
+  <li>Processes should be <strong>automated quickly</strong> without long development cycles</li>
+  <li>Manual, error-prone work should be reduced</li>
+  <li>Data and infrastructure should remain <strong>under own control</strong> (self-hosting)</li>
+  <li>Solutions should work pragmatically—even with limited development resources</li>
+</ul>
+
+<p>From these needs arise typical contexts of use: tech-savvy engineering or platform teams, operations and DevOps areas with many SaaS tools, as well as SMEs and startups prioritizing speed over formal architecture.</p>
+
+<p>The critical point: n8n appears externally as “no-code for everyone,” but in practice it requires users to have at least <strong>basic coding skills</strong>—enough to understand data structures, follow logic, and configure nodes meaningfully. Thus, n8n is mostly <strong>low-code for people who can handle complexity, debugging, and operations</strong>.</p>
+
+<h2 id="what-n8n-does-well">What n8n does well</h2>
+
+<p>To be fair, n8n brings clear strengths:</p>
+
+<ul>
+  <li><strong>Rapid prototyping</strong> of integrations through many pre-built nodes</li>
+  <li><strong>Self-hosting</strong> enables data sovereignty and flexible integration into existing stacks</li>
+  <li><strong>Extensibility</strong> through custom nodes and code nodes</li>
+  <li>Support for modern <strong>AI and agent workflows</strong>, which are currently in high demand</li>
+</ul>
+
+<p>For simple to medium integration scenarios, n8n can quickly create value—<strong>but this advantage is not exclusive</strong>: comparable results can often also be achieved with scripts, small services, or other low-code and integration tools.</p>
+
+<p><strong>What low-code does not eliminate</strong></p>
+
+<p>As with many low-code frameworks, the challenge lies less in getting started than in long-term operation. As complexity increases, visual workflows become confusing, changes harder to trace, and classic engineering practices like reviews, versioning, and testing more demanding. At the same time, integrations rarely fail at the surface but due to unstable APIs, rate limits, timeouts, or expiring tokens, requiring solid monitoring and error handling concepts. Self-hosting is no free lunch either: updates, backups, secrets and rights management, as well as security hardening, merely shift the effort. Code nodes in particular increase the attack surface and make clear role and permission concepts necessary. The initial speed advantage of low-code can thus be eaten up over time by rising maintenance, operational, and security costs.</p>
+
+<h2 id="license-and-the-open-source-narrative">License and the open-source narrative</h2>
+
+<p>Another aspect often overlooked in assessments of n8n is the <strong>license model</strong>. n8n is <em>source-available</em> under the Sustainable Use License: the source code is accessible, but usage is restricted—e.g., for resale or offering as a service.</p>
+
+<p>This is fundamentally legitimate but often clashes with expectations. In a technical context, “open source” usually implies maximum freedom. For product providers, platform projects, or long-term strategic decisions, this license can therefore be a relevant criterion—or even a reason for exclusion.</p>
+
+<h2 id="programming-with-a-user-interface">Programming with a user interface?</h2>
+
+<p>One central question remains: <strong>Does n8n really help today to the extent it promises?</strong></p>
+
+<p>Many workflows ultimately consist of logic, API calls, and data transformations that can also be implemented in classic code. n8n mainly takes over orchestration—not the domain-specific or technical complexity. Let’s remember: even with n8n, users need basic programming skills.</p>
+
+<p>At the same time, modern <strong>AI-assisted coding tools</strong> significantly lower the entry barrier for classic implementations. Even with <strong>rudimentary programming skills</strong>, it is now possible to create functional applications and integrations quickly, e.g., with Copilot, ChatGPT, or Cursor.</p>
+
+<p>Small services, scripts, or integrations can thus often be generated, tested, and adapted very quickly today—even without a visual workflow framework.</p>
+
+<p>This raises the legitimate question whether n8n in many cases is rather <strong>programming with a user interface</strong>: the logic remains, only its representation changes.</p>
+
+<h2 id="resource-efficiency-automation-is-not-automatically-cost-saving">Resource efficiency: automation is not automatically cost-saving</h2>
+
+<p>Automation also consumes resources and thus causes direct and indirect costs. For example, if processes are implemented via polling instead of event-driven triggers, unnecessary computational load arises. High log and retention settings further increase storage needs and thus ongoing operational costs. Additionally, cluttered or outdated workflows often continue running permanently, consuming resources without delivering real added value.</p>
+
+<p>From a <strong>resource efficiency</strong> perspective, automation should therefore be used deliberately and regularly reviewed. Event-driven designs, limited run frequencies, and conscious data and workflow lifecycle management help avoid unnecessary consumption—and thus <strong>significantly reduce ongoing costs</strong>.</p>
+
+<h2 id="conclusion-another-solution-for-a-known-problem">Conclusion: another solution for a known problem</h2>
+
+<p>n8n is not a particularly strong or fundamentally new tool but primarily <strong>another solution for a known problem</strong>: the orchestration of integrations and automations. It does not replace engineering but shifts it into a visual interface. With the increasing power of AI-assisted coding tools, the question arises more and more whether the use of an additional low-code framework is still justified in every case.</p>
+
+<p>n8n can work for clearly defined integrations—with clear ownership, monitoring, and security concepts. At the same time, one should be aware that it is ultimately <strong>programming with a user interface</strong>. Without corresponding discipline, it quickly becomes a hard-to-maintain collection of workflows that is hardly less complex than classic code.</p>
+
+<p>The <strong>Profile Agent</strong> follows the same goal of <strong>increasing efficiency and automating recurring problems</strong>, but without visual workflows. Instead, it relies on structured logic and AI-assisted evaluation. You can read more about this approach in the article <a href="https://mehrwert.tech/en/profil-agent">Less Effort, Better Matches – The Profile Agent</a>.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="Low-Code," /><category term="Workflow-Automation," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Automation Between Orchestration and Hidden Complexity.]]></summary></entry><entry><title type="html">Less Effort, Better Matches – The Profile Agent</title><link href="https://mehrwert.tech/profil-agent" rel="alternate" type="text/html" title="Less Effort, Better Matches – The Profile Agent" /><published>2025-12-29T00:00:00+01:00</published><updated>2025-12-29T00:00:00+01:00</updated><id>https://mehrwert.tech/profil-agent</id><content type="html" xml:base="https://mehrwert.tech/profil-agent"><![CDATA[<p>In many companies, it always starts the same way. A new project request comes in. Or a customer tender lands in the inbox. The topic is interesting, the requirements are manageable – but then the real challenge begins: <strong>Which employees are actually the right fit for this project?</strong></p>
 
 <p>Who has the relevant experience? Who is currently available? And who might even be underutilized, yet would be a perfect match in terms of skills?</p>
 
@@ -505,45 +586,4 @@ Rules should be positive, precise, and written in bullet points. Reinforcers suc
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>The Software Carbon Intensity standard sets a new benchmark for sustainable software development. With clear, measurable outcomes, it empowers organizations and developers to take meaningful action on emissions. Now it’s up to the industry to adopt the standard and drive real change for a more sustainable digital future. For more insights into hardware-related emissions, check out our series on <a href="https://mehrwert.tech/embodied-carbon-1">Embodied Carbon</a>.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Sustainability is no longer just a buzzword – its ecological, economic, and social impacts are becoming increasingly relevant in software development. As we’ve already explored in our previous article, software decisions can significantly affect hardware longevity.]]></summary></entry><entry><title type="html">How Software Influences Hardware Lifespan</title><link href="https://mehrwert.tech/en/software-bsoleszenz" rel="alternate" type="text/html" title="How Software Influences Hardware Lifespan" /><published>2025-03-20T00:00:00+01:00</published><updated>2025-03-20T00:00:00+01:00</updated><id>https://mehrwert.tech/en/software-bsoleszenz</id><content type="html" xml:base="https://mehrwert.tech/en/software-bsoleszenz"><![CDATA[<p>In the IT world, a device’s lifespan is not determined solely by hardware quality—<strong>software plays a crucial role</strong> as well. Many hardware components are discarded today even though they are still technically functional. The reason? Modern software places ever <strong>higher demands on processors, memory, and other resources</strong>. Industry analyses show that increasing software requirements drive hardware replacements more than pure technological innovation. This dynamic has significant implications for companies aiming to manage their IT infrastructure <strong>efficiently, cost-effectively, and sustainably</strong>.</p>
-
-<h2 id="software-as-the-key-to-hardware-longevity">Software as the Key to Hardware Longevity</h2>
-
-<p>Software largely determines <strong>how long hardware remains usable</strong>. Functional hardware is often <strong>replaced prematurely</strong> because rising software demands make it obsolete—a phenomenon known as <strong>software obsolescence</strong>. As the technological gap between hardware generations narrows, software—not hardware innovation—has become the primary driver of increasing electronic waste. Lack of software support or compatibility with newer programs renders older devices practically useless, even when the hardware is still functional. This form of software-driven aging leads to hardware being discarded before reaching its full technical lifespan. Moreover, it makes <strong>refurbishment options less attractive or even impossible</strong>, as older devices can no longer be effectively reused due to compatibility issues with modern software. <a href="https://en.wikipedia.org/wiki/Planned_obsolescence">[Wikipedia]</a></p>
-
-<h2 id="consequences-and-challenges">Consequences and Challenges</h2>
-
-<p><strong>Software obsolescence</strong> forces companies to <strong>replace hardware more frequently</strong>, increasing investment costs and contradicting sustainability goals. According to a study by the European Environmental Bureau (EEB), extending the lifespan of computers by just one year could reduce the environmental impact of these devices by approximately 25%. <a href="https://eeb.org/revealed-the-climate-cost-of-disposable-smartphones/">[EEB, 2019]</a> Manufacturers must design software, products, and services to ensure <strong>long-term support and compatibility</strong>, allowing hardware to remain in use for longer periods.</p>
-
-<h2 id="strategies-for-extending-hardware-lifespan">Strategies for Extending Hardware Lifespan</h2>
-
-<p>Companies can extend the lifespan of their hardware through conscious decisions in software development and selection. It is essential to prioritize software products whose vendors guarantee <strong>long-term support (LTS) versions</strong>. This reduces the need for frequent hardware replacements while ensuring prolonged usability. Products that utilize <strong>open interfaces and standard formats</strong> enable better integration with older systems and offer long-term flexibility for software updates and modifications. To help customers make informed decisions, vendors must provide <strong>transparent communication</strong> regarding product support duration, hardware requirements, and long-term compatibility.</p>
-
-<p>A recent example is the Google Pixel 9, which has been announced with guaranteed security updates until at least October 2033. Additionally, Google has clearly communicated the hardware specifications necessary for long-term usage. <a href="https://www.heise.de/news/Pixel-9a-Googles-Antwort-auf-das-Apple-iPhone-16e-10321170.html">[Heise, 2025]</a> This transparency allows businesses to plan their IT infrastructure more reliably.</p>
-
-<p>Furthermore, software updates should not artificially degrade older hardware performance through intentional slowdowns or exclusion from new versions. <strong>Transparent and fair update strategies</strong> promote longer hardware lifecycles. The use of <strong>open-source software</strong> also extends hardware lifespan, as the community continuously develops and adapts solutions for older devices. Companies should also plan hardware upgrades <strong>based on actual needs</strong>, utilizing modern monitoring tools to assess performance accurately and prevent unnecessary investments.</p>
-
-<h3 id="development-of-security-updates-for-smartphones">Development of Security Updates for Smartphones</h3>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/Security Update Duration of Apple iPhones and Google Pixel Smartphones.png" alt="Duration of Security Updates for iPhones and Google Pixel Smartphones" />
-<small> <a href="https://de.wikipedia.org/wiki/Softwareaktualisierung#Google">Wikipedia Google</a>, <a href="https://de.wikipedia.org/wiki/IPhone">Wikipedia iPhone</a></small></p>
-
-<p>The chart illustrates the increasing length of guaranteed security updates for iPhone and Google Pixel models over recent years. This trend is highly positive, as extended update periods improve device usability and security. Businesses and users must now adapt to these improved and more sustainable usage cycles and adjust their IT strategies accordingly.</p>
-
-<h2 id="how-software-developers-can-promote-hardware-longevity">How Software Developers Can Promote Hardware Longevity</h2>
-
-<p>Software developers play a crucial role in extending hardware lifespan. <strong>Resource-efficient programming</strong> helps by optimizing algorithms, minimizing background processes, and reducing memory usage. Particularly memory-intensive tasks or unnecessary graphical effects should be optional and adjustable to avoid excessive strain on older hardware. Developers should also ensure <strong>long-term compatibility</strong> by regularly testing software on older hardware generations and operating systems.</p>
-
-<p>Supporting <strong>backward compatibility</strong> is essential, ensuring that updates do not exclude older devices. Applications should be designed in a modular and scalable way so that resource-intensive features are only activated if the hardware can handle them. This allows users with older devices to continue enjoying a good user experience without being forced to upgrade. Each new feature should be critically evaluated for its actual value, as unnecessary additions can significantly burden hardware.</p>
-
-<p>Additionally, developers should adopt <strong>sustainable update strategies</strong>, separating security updates from feature enhancements. This allows users to keep older devices secure without being forced to install resource-heavy new functionalities. Whenever possible, developers should use <strong>open standards and open-source components</strong> to ensure long-term software maintenance by the community.</p>
-
-<h2 id="benefits-of-extending-hardware-lifespan">Benefits of Extending Hardware Lifespan</h2>
-
-<p>Extending hardware lifespan offers clear advantages for businesses. It leads to <strong>significant cost savings</strong>, as fewer hardware purchases ease IT budgets while reducing maintenance, setup, and disposal costs. Sustainable IT practices contribute to less electronic waste, lower resource consumption, and an improved carbon footprint, strengthening a company’s environmental reputation. Additionally, <strong>competitive advantages</strong> arise as sustainable IT strategies enhance corporate image and increase customer loyalty, especially as more consumers and partners prioritize ecological responsibility.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>By managing software requirements wisely and implementing strategic software development approaches, businesses can significantly extend hardware lifespan. This leads to financial benefits while making a meaningful contribution to environmental sustainability. Given the substantial environmental impact of hardware production—also known as <strong>embodied carbon</strong> (more on this in our article series on <a href="https://mehrwert.tech/en/embodied-carbon-1"><strong>Embodied Carbon</strong></a> )—extending hardware lifespan is essential.</p>
-
-<p>Software developers and companies can further contribute through *<a href="https://mehrwert.tech/en/trainings/gsp.html"><strong>Green Coding</strong></a>, which promotes sustainable software practices. The responsibility ultimately lies with manufacturers, developers, and businesses to make sustainable IT decisions that foster long-term, efficient, and resource-conscious infrastructure usage.</p>]]></content><author><name>Alina, Marcel</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[In the IT world, a device’s lifespan is not determined solely by hardware quality—software plays a crucial role as well. Many hardware components are discarded today even though they are still technically functional. The reason? Modern software places ever higher demands on processors, memory, and other resources. Industry analyses show that increasing software requirements drive hardware replacements more than pure technological innovation. This dynamic has significant implications for companies aiming to manage their IT infrastructure efficiently, cost-effectively, and sustainably.]]></summary></entry></feed>
+<p>The Software Carbon Intensity standard sets a new benchmark for sustainable software development. With clear, measurable outcomes, it empowers organizations and developers to take meaningful action on emissions. Now it’s up to the industry to adopt the standard and drive real change for a more sustainable digital future. For more insights into hardware-related emissions, check out our series on <a href="https://mehrwert.tech/embodied-carbon-1">Embodied Carbon</a>.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Sustainability is no longer just a buzzword – its ecological, economic, and social impacts are becoming increasingly relevant in software development. As we’ve already explored in our previous article, software decisions can significantly affect hardware longevity.]]></summary></entry></feed>
