@@ -9,9 +9,7 @@ tags: Modernisierung, Softwareentwicklung, Ressourceneffizienz, Toolkritik, KI-g
 categories: de posts
 author: "Marcel"
 featured: false
----
- 
-# IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern  
+--- 
 
 Eine der schwierigsten Fragen in der IT-Modernisierung lautet nicht, wie ein Zielsystem aussehen soll, sondern wie der Übergang dorthin gestaltet werden kann. Bestehende Systeme lassen sich selten isoliert ersetzen. Sie sind in Prozesse eingebettet, unterstützen laufende Geschäftsabläufe und können nicht einfach abgeschaltet werden.  
 
