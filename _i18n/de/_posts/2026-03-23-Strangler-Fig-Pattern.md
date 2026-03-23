@@ -3,7 +3,7 @@ layout: post
 title: IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern
 cover: cover.jpg
 type: "Artikel"
-datum:  "27.03.2026"
+datum:  "23.03.2026"
 post_image: "/assets/images/blog/2026-12-18-mehrwiki.jpg"
 tags: Modernisierung, Softwareentwicklung, Ressourceneffizienz, Toolkritik, KI-gestütztes-Coding, Integration
 categories: de posts
