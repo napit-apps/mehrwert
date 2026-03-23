@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>DDD trifft LLMs – warum AI ohne Domänenverständnis scheitert</title>
+  <title>Qualität sichern während der Modernisierung – mit Golden Master Testing</title>
   
 
   <!-- mobile responsive meta -->
@@ -168,13 +168,13 @@
 				<div class="blog-single mb-5">
 					<div class="row justify-content-center">
 						<div class="col-lg-8">
-							<h3 class="text-white mt-4 mb-2">DDD trifft LLMs – warum AI ohne Domänenverständnis scheitert</h3>
+							<h3 class="text-white mt-4 mb-2">Qualität sichern während der Modernisierung – mit Golden Master Testing</h3>
 							<div class="post-meta text-uppercase mb-3">
 								<span class="text-color"> Marcel, </span>
-								<span class="text-color">20.03.2026</span>
+								<span class="text-color">22.03.2026</span>
 							</div>
-							<!-- <p class="text-white">Die Erwartungen an Large Language Models (LLMs) sind hoch.
-Code generieren, Systeme verstehen, ganze Anwendungen entwickeln – vieles scheint plötzlich einfacher zu werden.
+							<!-- <p class="text-white">IT-Modernisierung bedeutet Veränderung.
+Und jede Veränderung bringt ein Risiko mit sich:
 </p> -->
 						</div>
 					</div>
@@ -187,123 +187,132 @@ Code generieren, Systeme verstehen, ganze Anwendungen entwickeln – vieles sche
 					<div class="row justify-content-center">
 						<div class="col-lg-8 mx-auto">
 							<div class="post-content">
-								<p>Die Erwartungen an Large Language Models (LLMs) sind hoch.<br />
-Code generieren, Systeme verstehen, ganze Anwendungen entwickeln – vieles scheint plötzlich einfacher zu werden.</p>
+								<p>IT-Modernisierung bedeutet Veränderung.<br />
+Und jede Veränderung bringt ein Risiko mit sich:</p>
 
-<p>Doch in der Praxis zeigt sich ein anderes Bild.</p>
+<p>Funktioniert das System danach noch genauso wie zuvor?</p>
 
-<p>LLMs sind extrem leistungsfähig.<br />
-Aber sie verstärken das, was bereits vorhanden ist.</p>
+<p>Gerade bei gewachsenen Systemen ist diese Frage schwer zu beantworten.<br />
+Zu viele Sonderfälle, zu viele implizite Regeln, zu wenig Dokumentation.</p>
 
-<p>Struktur wird besser.<br />
-Chaos wird schneller.</p>
+<p>Und genau hier liegt eines der größten Risiken jeder Modernisierung.</p>
 
 <h2 id="das-eigentliche-problem">Das eigentliche Problem</h2>
 
-<p>In vielen Organisationen fehlt ein klares Domänenverständnis.</p>
+<p>In vielen Legacy-Systemen steckt die fachliche Logik nicht nur im Code – sie ist über Jahre gewachsen, erweitert und angepasst worden.</p>
 
-<p>Systeme sind historisch gewachsen, Verantwortlichkeiten unscharf, fachliche Grenzen nicht sauber definiert.<br />
-Genau in diesen Umgebungen werden LLMs aktuell eingesetzt.</p>
+<p>Oft gilt:<br />
+Das System funktioniert – aber niemand weiß genau, warum.</p>
 
-<p>Die Hoffnung:<br />
-Produktivität steigern, Entwicklung beschleunigen, Komplexität reduzieren.</p>
-
-<p>Die Realität:</p>
-
-<p>Ohne klare Struktur liefern LLMs zwar Ergebnisse – aber keine nachhaltigen Lösungen.</p>
-
-<h2 id="llms-brauchen-kontext">LLMs brauchen Kontext</h2>
-
-<p>Ein LLM arbeitet immer auf Basis von Kontext.</p>
-
-<p>Fehlt dieser Kontext oder ist er widersprüchlich, entstehen typische Probleme:</p>
+<p>Ein klassischer Ansatz wäre, umfassende Tests zu schreiben.<br />
+Doch in der Praxis ist das kaum realistisch:</p>
 
 <ul>
-  <li>Generierter Code passt nicht zur bestehenden Architektur</li>
-  <li>Fachliche Regeln werden inkonsistent umgesetzt</li>
-  <li>Abhängigkeiten werden verstärkt statt reduziert</li>
-  <li>Technische Schulden wachsen schneller</li>
+  <li>Die vollständige fachliche Logik ist nicht bekannt</li>
+  <li>Anforderungen sind unvollständig oder widersprüchlich</li>
+  <li>Der Aufwand für klassische Testabdeckung ist enorm</li>
 </ul>
 
-<p>Das Problem liegt nicht im Modell.<br />
-Es liegt im System, in dem es eingesetzt wird.</p>
+<p>Die Folge:<br />
+Modernisierung wird zum Blindflug.</p>
 
-<h2 id="warum-ddd-wichtiger-wird">Warum DDD wichtiger wird</h2>
+<h2 id="die-idee-des-golden-master-testing">Die Idee des Golden Master Testing</h2>
 
-<p>Genau hier gewinnt Domain-Driven Design eine neue Bedeutung.</p>
+<p>Golden Master Testing (auch bekannt als <strong>Characterization Testing</strong>) verfolgt einen anderen Ansatz.</p>
 
-<p>DDD schafft:</p>
-<ul>
-  <li>Klare fachliche Grenzen</li>
-  <li>Eindeutige Verantwortlichkeiten</li>
-  <li>Gemeinsame Sprache zwischen Business und IT</li>
-</ul>
+<p>Statt zu definieren, wie ein System <em>funktionieren soll</em>, wird zunächst erfasst, wie es sich <em>tatsächlich verhält</em>.</p>
 
-<p>Diese Elemente sind nicht nur für Menschen relevant.<br />
-Sie sind die Grundlage dafür, dass LLMs sinnvoll eingesetzt werden können.</p>
+<p>Das Prinzip ist einfach:</p>
 
-<p>Ein klar abgegrenzter Kontext führt zu besseren Ergebnissen:</p>
+<ol>
+  <li>Bestehende Funktionalität wird mit realistischen Eingaben ausgeführt</li>
+  <li>Die Ergebnisse werden aufgezeichnet („Golden Master“)</li>
+  <li>Änderungen am System werden gegen diesen Referenzzustand geprüft</li>
+</ol>
 
-<ul>
-  <li>Prompts werden präziser</li>
-  <li>Generierter Code wird konsistenter</li>
-  <li>Entscheidungen werden nachvollziehbarer</li>
-</ul>
+<p>Ziel ist nicht Perfektion.<br />
+Ziel ist Stabilität.</p>
 
-<p>LLMs funktionieren am besten in klar definierten Domänen.</p>
+<h2 id="warum-das-in-der-modernisierung-so-wertvoll-ist">Warum das in der Modernisierung so wertvoll ist</h2>
 
-<h2 id="ein-perspektivwechsel">Ein Perspektivwechsel</h2>
+<p>Golden Master Testing ermöglicht es, bestehendes Verhalten abzusichern – ohne es vollständig verstehen zu müssen.</p>
 
-<p>Die aktuelle Diskussion wird oft falsch geführt.</p>
-
-<p>Nicht:<br />
-„Ersetzen LLMs Entwickler?“</p>
-
-<p>Sondern:<br />
-„Wie müssen Systeme strukturiert sein, damit LLMs sinnvoll eingesetzt werden können?“</p>
-
-<p>Die Antwort führt direkt zurück zu den Grundlagen:<br />
-Domänenverständnis, klare Grenzen und saubere Verantwortlichkeiten.</p>
-
-<h2 id="die-rolle-moderner-it-führung">Die Rolle moderner IT-Führung</h2>
-
-<p>Für Unternehmen entsteht daraus eine neue Herausforderung.</p>
-
-<p>Es reicht nicht, neue Tools einzuführen.<br />
-Es braucht eine klare Struktur, in der diese Tools wirken können.</p>
-
-<p>Genau hier liegt die Rolle moderner IT-Führung:</p>
+<p>Das ist besonders in frühen Phasen entscheidend:</p>
 
 <ul>
-  <li>Komplexität sichtbar machen</li>
-  <li>Strukturen schaffen</li>
-  <li>Entscheidungen fundiert treffen</li>
+  <li>Beim Refactoring bestehender Komponenten</li>
+  <li>Beim Herauslösen einzelner Domänen</li>
+  <li>Beim Aufbau neuer Services parallel zum Altsystem</li>
 </ul>
 
-<p>LLMs sind ein Beschleuniger.<br />
-Ob sie Fortschritt oder Chaos beschleunigen, hängt vom System ab.</p>
+<p>Der große Vorteil:</p>
+
+<p>Das Risiko von unbeabsichtigten Änderungen wird drastisch reduziert.</p>
+
+<h2 id="ein-pragmatischer-einsatz">Ein pragmatischer Einsatz</h2>
+
+<p>In der Praxis hat sich ein iteratives Vorgehen bewährt:</p>
+
+<ul>
+  <li>Auswahl kritischer Use Cases</li>
+  <li>Aufzeichnung von Ein- und Ausgaben</li>
+  <li>Aufbau einer automatisierten Vergleichslogik</li>
+  <li>Schrittweise Erweiterung der Testbasis</li>
+</ul>
+
+<p>Wichtig ist dabei:</p>
+
+<p>Nicht alles muss getestet werden.<br />
+Aber das Richtige.</p>
+
+<h2 id="grenzen-des-ansatzes">Grenzen des Ansatzes</h2>
+
+<p>Golden Master Testing ist kein Ersatz für fachliche Tests.</p>
+
+<p>Es zeigt, ob sich das Verhalten verändert hat –<br />
+nicht, ob es fachlich korrekt ist.</p>
+
+<p>Gerade in gewachsenen Systemen kann es sinnvoll sein, bestehendes Verhalten bewusst zu verändern.</p>
+
+<p>Deshalb gilt:</p>
+
+<p>Golden Master Tests sichern den Status quo.<br />
+Die fachliche Weiterentwicklung bleibt eine bewusste Entscheidung.</p>
+
+<h2 id="verbindung-zu-domain-driven-design">Verbindung zu Domain-Driven Design</h2>
+
+<p>In Kombination mit Domain-Driven Design entsteht ein wirkungsvoller Ansatz:</p>
+
+<ul>
+  <li>DDD schafft Struktur und Verständnis</li>
+  <li>Golden Master Testing schafft Sicherheit bei der Umsetzung</li>
+</ul>
+
+<p>Während Domänen identifiziert und neu geschnitten werden, sorgt Golden Master Testing dafür, dass bestehende Funktionalität stabil bleibt.</p>
+
+<p>So wird Modernisierung nicht nur planbar – sondern auch kontrollierbar.</p>
 
 <h2 id="fazit">Fazit</h2>
 
-<p>Domain-Driven Design ist kein Gegenpol zu AI.<br />
-Es ist die Voraussetzung dafür, dass AI sinnvoll eingesetzt werden kann.</p>
+<p>Modernisierung ohne Absicherung ist riskant.<br />
+Klassische Testansätze stoßen in komplexen Legacy-Systemen schnell an ihre Grenzen.</p>
 
-<p>Wer heute in LLMs investiert, sollte gleichzeitig in Domänenverständnis investieren.</p>
+<p>Golden Master Testing bietet einen pragmatischen Weg, bestehendes Verhalten zu sichern und Veränderungen kontrolliert umzusetzen.</p>
 
-<p>Nicht als theoretisches Konzept.<br />
-Sondern als Grundlage für echte, nachhaltige Modernisierung.</p>
+<p>Nicht perfekt.<br />
+Aber wirkungsvoll.</p>
 
 								<ul class="list-inline post-share text-right">
     <li class="list-inline-item"><h5>Share:</h5></li>
     <li class="list-inline-item">
-        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://mehrwert.tech/DDD-3"
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://mehrwert.tech/Golder-Master-Testing"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Facebook" >
         <i class="ti-facebook"></i>
     </a>
     </li>
     <li class="list-inline-item">
-        <a  href="https://twitter.com/intent/tweet?text=DDD trifft LLMs – warum AI ohne Domänenverständnis scheitert&url=https://mehrwert.tech/DDD-3"
+        <a  href="https://twitter.com/intent/tweet?text=Qualität sichern während der Modernisierung – mit Golden Master Testing&url=https://mehrwert.tech/Golder-Master-Testing"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Twitter" >
         <i class="ti-twitter"></i>
@@ -328,14 +337,14 @@ Sondern als Grundlage für echte, nachhaltige Modernisierung.</p>
 									<ul class="list-inline post-share text-right">
     <li class="list-inline-item"><h5>Share:</h5></li>
     <li class="list-inline-item">
-        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://mehrwert.tech/DDD-3"
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://mehrwert.tech/Golder-Master-Testing"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Facebook" >
         <i class="ti-facebook"></i>
     </a>
     </li>
     <li class="list-inline-item">
-        <a  href="https://twitter.com/intent/tweet?text=DDD trifft LLMs – warum AI ohne Domänenverständnis scheitert&url=https://mehrwert.tech/DDD-3"
+        <a  href="https://twitter.com/intent/tweet?text=Qualität sichern während der Modernisierung – mit Golden Master Testing&url=https://mehrwert.tech/Golder-Master-Testing"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Twitter" >
         <i class="ti-twitter"></i>
