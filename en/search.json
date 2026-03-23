@@ -9,14 +9,6 @@
     } ,
   
     {
-      "title"    : "Ensuring Quality During Modernization – with Golden Master Testing",
-      "category" : "",
-      "tags"     : "Modernisierung,, Softwareentwicklung,, Ressourceneffizienz,, Toolkritik,, KI-gestütztes-Coding,, Integration",
-      "url"      : "/en/Golder-Master-Testing",
-      "date"     : "2026-03-22 00:00:00 +0100"
-    } ,
-  
-    {
       "title"    : "DDD Meets LLMs – Why AI Fails Without Domain Understanding",
       "category" : "",
       "tags"     : "Modernisierung,, Softwareentwicklung,, Ressourceneffizienz,, Toolkritik,, KI-gestütztes-Coding,, Integration",
@@ -30,14 +22,6 @@
       "tags"     : "Modernisierung,, Softwareentwicklung,, Ressourceneffizienz,, Toolkritik,, KI-gestütztes-Coding,, Integration",
       "url"      : "/en/DDD-2",
       "date"     : "2026-03-18 00:00:00 +0100"
-    } ,
-  
-    {
-      "title"    : "Rethinking IT Modernization – The Role of Domain-Driven Design",
-      "category" : "",
-      "tags"     : "Modernisierung,, Softwareentwicklung,, Ressourceneffizienz,, Toolkritik,, KI-gestütztes-Coding,, Integration",
-      "url"      : "/en/DDD-1",
-      "date"     : "2026-03-14 00:00:00 +0100"
     } ,
   
     {
