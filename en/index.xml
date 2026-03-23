@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-23T10:06:31+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Ensuring Quality During Modernization – with Golden Master Testing</title><link href="https://mehrwert.tech/Strangler-Fig-Pattern" rel="alternate" type="text/html" title="Ensuring Quality During Modernization – with Golden Master Testing" /><published>2026-03-23T00:00:00+01:00</published><updated>2026-03-23T00:00:00+01:00</updated><id>https://mehrwert.tech/Strangler-Fig-Pattern</id><content type="html" xml:base="https://mehrwert.tech/Strangler-Fig-Pattern"><![CDATA[<h1 id="modernizing-systems-step-by-step--the-strangler-fig-pattern">Modernizing Systems Step by Step – The Strangler Fig Pattern</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-23T10:18:39+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Ensuring Quality During Modernization – with Golden Master Testing</title><link href="https://mehrwert.tech/Strangler-Fig-Pattern" rel="alternate" type="text/html" title="Ensuring Quality During Modernization – with Golden Master Testing" /><published>2026-03-23T00:00:00+01:00</published><updated>2026-03-23T00:00:00+01:00</updated><id>https://mehrwert.tech/Strangler-Fig-Pattern</id><content type="html" xml:base="https://mehrwert.tech/Strangler-Fig-Pattern"><![CDATA[<h1 id="modernizing-systems-step-by-step--the-strangler-fig-pattern">Modernizing Systems Step by Step – The Strangler Fig Pattern</h1>
 
 <p>One of the most difficult questions in IT modernization is:</p>
 
@@ -111,7 +111,120 @@ It is a strategic approach to handling complexity.</p>
 <p>Combined with Domain-Driven Design and proper quality assurance, it provides a solid foundation for sustainable IT modernization.</p>
 
 <p>Not through radical disruption.<br />
-But through controlled, continuous change.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Modernizing Systems Step by Step – The Strangler Fig Pattern]]></summary></entry><entry><title type="html">DDD Meets LLMs – Why AI Fails Without Domain Understanding</title><link href="https://mehrwert.tech/DDD-3" rel="alternate" type="text/html" title="DDD Meets LLMs – Why AI Fails Without Domain Understanding" /><published>2026-03-20T00:00:00+01:00</published><updated>2026-03-20T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-3</id><content type="html" xml:base="https://mehrwert.tech/DDD-3"><![CDATA[<p>Expectations for large language models (LLMs) are high.<br />
+But through controlled, continuous change.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Modernizing Systems Step by Step – The Strangler Fig Pattern]]></summary></entry><entry><title type="html">Ensuring Quality During Modernization – with Golden Master Testing</title><link href="https://mehrwert.tech/Golder-Master-Testing" rel="alternate" type="text/html" title="Ensuring Quality During Modernization – with Golden Master Testing" /><published>2026-03-22T00:00:00+01:00</published><updated>2026-03-22T00:00:00+01:00</updated><id>https://mehrwert.tech/Golder-Master-Testing</id><content type="html" xml:base="https://mehrwert.tech/Golder-Master-Testing"><![CDATA[<p>IT modernization means change.<br />
+And every change introduces risk:</p>
+
+<p>Will the system still behave the same afterward?</p>
+
+<p>In legacy systems, this question is difficult to answer.<br />
+Too many edge cases, too many implicit rules, and too little documentation.</p>
+
+<p>This is one of the biggest risks in any modernization effort.</p>
+
+<h2 id="the-real-problem">The real problem</h2>
+
+<p>In many legacy systems, business logic is not only in the code – it has evolved over years through continuous changes and adaptations.</p>
+
+<p>Often, the reality is:<br />
+The system works – but no one fully understands why.</p>
+
+<p>A typical approach would be to write comprehensive tests.<br />
+In practice, this is rarely feasible:</p>
+
+<ul>
+  <li>The full business logic is unknown</li>
+  <li>Requirements are incomplete or inconsistent</li>
+  <li>The effort for traditional test coverage is extremely high</li>
+</ul>
+
+<p>The result:<br />
+Modernization becomes guesswork.</p>
+
+<h2 id="the-idea-of-golden-master-testing">The idea of Golden Master Testing</h2>
+
+<p>Golden Master Testing (also known as <strong>Characterization Testing</strong>) takes a different approach.</p>
+
+<p>Instead of defining how a system <em>should behave</em>, it captures how it <em>actually behaves</em>.</p>
+
+<p>The principle is simple:</p>
+
+<ol>
+  <li>Execute existing functionality with realistic inputs</li>
+  <li>Record the outputs (“Golden Master”)</li>
+  <li>Compare future changes against this reference</li>
+</ol>
+
+<p>The goal is not perfection.<br />
+The goal is stability.</p>
+
+<h2 id="why-this-is-valuable-in-modernization">Why this is valuable in modernization</h2>
+
+<p>Golden Master Testing allows teams to safeguard existing behavior – without fully understanding it.</p>
+
+<p>This is especially important in early stages:</p>
+
+<ul>
+  <li>Refactoring existing components</li>
+  <li>Extracting domains</li>
+  <li>Building new services alongside legacy systems</li>
+</ul>
+
+<p>The key benefit:</p>
+
+<p>The risk of unintended changes is significantly reduced.</p>
+
+<h2 id="a-pragmatic-approach">A pragmatic approach</h2>
+
+<p>In practice, an iterative approach works best:</p>
+
+<ul>
+  <li>Select critical use cases</li>
+  <li>Capture inputs and outputs</li>
+  <li>Build automated comparison logic</li>
+  <li>Gradually extend test coverage</li>
+</ul>
+
+<p>The key principle:</p>
+
+<p>You don’t need to test everything.<br />
+But you need to test the right things.</p>
+
+<h2 id="limitations-of-the-approach">Limitations of the approach</h2>
+
+<p>Golden Master Testing is not a replacement for business-driven tests.</p>
+
+<p>It shows whether behavior has changed –<br />
+not whether it is correct.</p>
+
+<p>In legacy systems, it is often necessary to intentionally change existing behavior.</p>
+
+<p>Therefore:</p>
+
+<p>Golden Master Tests preserve the current state.<br />
+Business improvements remain a conscious decision.</p>
+
+<h2 id="combined-with-domain-driven-design">Combined with Domain-Driven Design</h2>
+
+<p>In combination with Domain-Driven Design, a powerful approach emerges:</p>
+
+<ul>
+  <li>DDD provides structure and understanding</li>
+  <li>Golden Master Testing provides safety during change</li>
+</ul>
+
+<p>While domains are identified and reshaped, Golden Master Testing ensures that existing behavior remains stable.</p>
+
+<p>This makes modernization not only possible – but controllable.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Modernization without safeguards is risky.<br />
+Traditional testing approaches often reach their limits in complex legacy systems.</p>
+
+<p>Golden Master Testing offers a pragmatic way to preserve behavior and enable controlled change.</p>
+
+<p>Not perfect.<br />
+But effective.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[IT modernization means change. And every change introduces risk:]]></summary></entry><entry><title type="html">DDD Meets LLMs – Why AI Fails Without Domain Understanding</title><link href="https://mehrwert.tech/DDD-3" rel="alternate" type="text/html" title="DDD Meets LLMs – Why AI Fails Without Domain Understanding" /><published>2026-03-20T00:00:00+01:00</published><updated>2026-03-20T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-3</id><content type="html" xml:base="https://mehrwert.tech/DDD-3"><![CDATA[<p>Expectations for large language models (LLMs) are high.<br />
 Generating code, understanding systems, building entire applications – many things suddenly seem easier.</p>
 
 <p>But in practice, a different picture emerges.</p>
@@ -215,7 +328,7 @@ It is a prerequisite for using AI effectively.</p>
 <p>Organizations investing in LLMs should invest in domain understanding at the same time.</p>
 
 <p>Not as a theoretical concept.<br />
-But as a foundation for real, sustainable modernization.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Expectations for large language models (LLMs) are high. Generating code, understanding systems, building entire applications – many things suddenly seem easier.]]></summary></entry><entry><title type="html">From Domains to Decisions – How DDD Enables Real IT Modernization</title><link href="https://mehrwert.tech/en/DDD-2" rel="alternate" type="text/html" title="From Domains to Decisions – How DDD Enables Real IT Modernization" /><published>2026-03-18T00:00:00+01:00</published><updated>2026-03-18T00:00:00+01:00</updated><id>https://mehrwert.tech/en/DDD-2</id><content type="html" xml:base="https://mehrwert.tech/en/DDD-2"><![CDATA[<p>The first step is understanding the system.<br />
+But as a foundation for real, sustainable modernization.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Expectations for large language models (LLMs) are high. Generating code, understanding systems, building entire applications – many things suddenly seem easier.]]></summary></entry><entry><title type="html">From Domains to Decisions – How DDD Enables Real IT Modernization</title><link href="https://mehrwert.tech/DDD-2" rel="alternate" type="text/html" title="From Domains to Decisions – How DDD Enables Real IT Modernization" /><published>2026-03-18T00:00:00+01:00</published><updated>2026-03-18T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-2</id><content type="html" xml:base="https://mehrwert.tech/DDD-2"><![CDATA[<p>The first step is understanding the system.<br />
 Making domains visible, identifying dependencies, and building a shared understanding.</p>
 
 <p>But understanding alone is not enough.</p>
@@ -330,7 +443,87 @@ But it becomes controllable.</p>
 <p>How do modern technologies like LLMs fit into this picture?<br />
 And what role does domain understanding play in a world where code is increasingly generated automatically?</p>
 
-<p>This is what the next post will explore.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[The first step is understanding the system. Making domains visible, identifying dependencies, and building a shared understanding.]]></summary></entry><entry><title type="html">n8n Reality Check - Productivity Gain or Programming with a User Interface?</title><link href="https://mehrwert.tech/en/n8n-1" rel="alternate" type="text/html" title="n8n Reality Check - Productivity Gain or Programming with a User Interface?" /><published>2026-01-27T00:00:00+01:00</published><updated>2026-01-27T00:00:00+01:00</updated><id>https://mehrwert.tech/en/n8n-1</id><content type="html" xml:base="https://mehrwert.tech/en/n8n-1"><![CDATA[<p>Automation Between Orchestration and Hidden Complexity.</p>
+<p>This is what the next post will explore.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[The first step is understanding the system. Making domains visible, identifying dependencies, and building a shared understanding.]]></summary></entry><entry><title type="html">Rethinking IT Modernization – The Role of Domain-Driven Design</title><link href="https://mehrwert.tech/DDD-1" rel="alternate" type="text/html" title="Rethinking IT Modernization – The Role of Domain-Driven Design" /><published>2026-03-14T00:00:00+01:00</published><updated>2026-03-14T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-1</id><content type="html" xml:base="https://mehrwert.tech/DDD-1"><![CDATA[<p>IT modernization is on almost every agenda today. New market demands, increasing cost pressure, and the need for greater flexibility are driving companies to question their existing systems.</p>
+
+<p>An example from a recent project shows what these situations typically look like:</p>
+
+<p>A monolithic system grown over many years, built on more than 25 technologies and programming languages.<br />
+Over 200 individual installations, many with customer-specific customizations.<br />
+And a team where no one has a complete understanding of the system as a whole.</p>
+
+<p>This is where many modernization initiatives begin.<br />
+And this is exactly where they often fail.</p>
+
+<h2 id="the-real-problem-is-not-technology">The real problem is not technology</h2>
+
+<p>The most common reaction is technology-driven:<br />
+a new architecture, a new platform, sometimes even a complete rewrite.</p>
+
+<p>But these approaches fall short.</p>
+
+<p>Without a clear understanding of the business domain, existing complexity is not reduced – it is simply reimplemented.<br />
+The result: the same problems, just on a more modern technology stack.</p>
+
+<p>The key lever is not technology.<br />
+It is understanding the system.</p>
+
+<h2 id="domain-driven-design-as-a-foundation">Domain-Driven Design as a foundation</h2>
+
+<p>Domain-Driven Design (DDD) addresses exactly this challenge.<br />
+Instead of focusing on technical structure, it puts the business perspective at the center.</p>
+
+<p>What domains exist?<br />
+How are they connected?<br />
+Which parts are truly business-critical?</p>
+
+<p>Only when these questions are answered does a solid foundation for decision-making emerge.</p>
+
+<p>In a recent workshop, this step became the turning point.<br />
+Instead of jumping directly into target architectures, we first built a shared understanding of the business domain.</p>
+
+<p>The key difference:<br />
+not only IT was involved, but also the business stakeholders.</p>
+
+<h2 id="the-key-insight">The key insight</h2>
+
+<p>One of the most important realizations was surprisingly simple:</p>
+
+<p>Modernization is not an IT-only topic.</p>
+
+<p>Only through collaboration across different perspectives did a shared understanding of the domains emerge.<br />
+And this understanding became the foundation for all further decisions.</p>
+
+<p>Another critical aspect:<br />
+from within the organization, achieving this level of clarity is often difficult.</p>
+
+<p>There are too many assumptions, too many dependencies, and too many implicit decisions.<br />
+An external perspective helps to make structures visible and enables real prioritization.</p>
+
+<h2 id="why-this-matters">Why this matters</h2>
+
+<p>Without a clear domain understanding, decisions are made blindly.<br />
+With a clear domain model, direction emerges.</p>
+
+<ul>
+  <li>Which parts of the system actually need modernization – and which do not?</li>
+  <li>Where does investment truly pay off?</li>
+  <li>Which dependencies determine the sequence of implementation?</li>
+</ul>
+
+<p>These are not technical questions.<br />
+They are business questions.</p>
+
+<h2 id="outlook">Outlook</h2>
+
+<p>Domain-Driven Design is not an end in itself.<br />
+It is a tool to understand complexity and reduce it deliberately.</p>
+
+<p>The next step is to turn this understanding into concrete decisions:<br />
+migration strategies, transformation waves, and a solid roadmap.</p>
+
+<p>And this is where it becomes particularly interesting – especially in combination with new technologies like LLMs.</p>
+
+<p>More on that in the next post.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[IT modernization is on almost every agenda today. New market demands, increasing cost pressure, and the need for greater flexibility are driving companies to question their existing systems.]]></summary></entry><entry><title type="html">n8n Reality Check - Productivity Gain or Programming with a User Interface?</title><link href="https://mehrwert.tech/en/n8n-1" rel="alternate" type="text/html" title="n8n Reality Check - Productivity Gain or Programming with a User Interface?" /><published>2026-01-27T00:00:00+01:00</published><updated>2026-01-27T00:00:00+01:00</updated><id>https://mehrwert.tech/en/n8n-1</id><content type="html" xml:base="https://mehrwert.tech/en/n8n-1"><![CDATA[<p>Automation Between Orchestration and Hidden Complexity.</p>
 
 <p>Low-code workflow automation promises efficiency, speed, and less manual work. Tools like n8n embrace this promise—with a visual interface, numerous integrations, and the ability to quickly piece together processes. But how much actual added value do they still provide today? And where are the limits of such low-code approaches?</p>
 
@@ -620,128 +813,4 @@ And what role does domain understanding play in a world where code is increasing
 
 <p>I invite you to join the conversation, share your feedback, and help shape the Green Agile Guide. Because only together can we make IT not just faster, but also more sustainable.</p>
 
-<p>👉 <a href="https://greenagile.org">Read the Green Agile Guide here</a></p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="#green-agile," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[When we talk about sustainability today, most people think of wind turbines, electric cars, or personal consumption. Hardly anyone thinks of software. Yet our digital systems hide a massive, invisible energy and resource footprint. Data centers consume more electricity than entire countries, and poorly optimized software forces hardware to be replaced far too quickly.]]></summary></entry><entry><title type="html">Green Coding with AI – ChatGPT as a Tool for Sustainable Programming</title><link href="https://mehrwert.tech/KI-II" rel="alternate" type="text/html" title="Green Coding with AI – ChatGPT as a Tool for Sustainable Programming" /><published>2025-07-23T00:00:00+02:00</published><updated>2025-07-23T00:00:00+02:00</updated><id>https://mehrwert.tech/KI-II</id><content type="html" xml:base="https://mehrwert.tech/KI-II"><![CDATA[<p>In the <a href="https://mehrwert.tech/en/KI">first part of our article series</a>, we explored the tension between <strong>Artificial Intelligence</strong> and <strong>sustainability</strong>: How can we ensure that AI is not just resource-intensive, but also contributes to solving ecological problems?</p>
-
-<p>In this second part, we turn to the <strong>practical application</strong>: How can <strong>ChatGPT be used in everyday development</strong> to produce <strong>sustainable, energy-efficient code</strong>? We take a closer look at <strong>current research</strong>, analyze the <strong>strengths and weaknesses</strong> of LLMs, and show how these tools can already be tailored for <strong>Green Coding</strong> today—and how to put this <strong>potential to use</strong> right now.</p>
-
-<p>Before diving into specific implementation methods in ChatGPT, we need to ask a fundamental question: <strong>Can a language model like ChatGPT even generate energy-efficient code—and if so, under what conditions?</strong> This potential needs to be confirmed before considering appropriate techniques and contexts for practical use. Let’s take a look at <strong>current research findings</strong>.</p>
-
-<h3 id="can-chatgpt-actually-produce-energy-efficient-code">Can ChatGPT actually produce energy-efficient code?</h3>
-
-<p>The answer is: <strong>Yes—under certain conditions</strong>. But not automatically. A key source here is the study “Generating Energy‑efficient Code with LLMs” (<a href="https://arxiv.org/abs/2411.10599">Tom Cappendijk et al., 2024</a>). In a controlled experiment, five large LLMs (including CodeLlama‑70b and DeepSeek‑Coder‑33b) were tasked with solving three different LeetCode problems. The prompts ranged from neutral instructions (“Solve this problem”) to specific phrasing such as “Give me an energy‑optimized solution…” or “Use library functions.”</p>
-
-<p>The study concludes that <strong>energy savings through LLMs are generally possible</strong>—but not consistently. In some test scenarios, certain combinations of model, task type, and <strong>targeted prompting</strong> led to significant improvements in energy efficiency. For example, the use of <strong>efficient library functions</strong> or <strong>optimized loop structures</strong> resulted in savings of up to <strong>60%</strong>. At the same time, there was <strong>no prompt that consistently produced more efficient code</strong>; in some cases, the models even generated considerably less efficient code, especially for more complex tasks.</p>
-
-<p>The decisive factor is <strong>prompting</strong>: Only when the prompt explicitly references energy efficiency or specific coding practices does the <strong>likelihood increase</strong> that the generated solution will be resource-conscious. Without such guidance, the energy efficiency of the output remains <strong>largely unpredictable</strong>.</p>
-
-<p>The study shows: LLMs like ChatGPT <strong>can</strong> generate <strong>energy-efficient code</strong>—if <strong>guided accordingly</strong>. What matters are <strong>clear prompts</strong> and a meaningful <strong>context</strong>. Without them, the potential remains untapped.</p>
-
-<h3 id="ai-powered-refactoring-what-the-research-tells-us">AI-powered Refactoring: What the Research Tells Us</h3>
-
-<p>A major shortcoming of existing approaches is their focus on evaluating AI-generated code. They assess how energy-efficient a given output is—but offer no concrete method for automatically improving existing code. This is where a research team from Purdue University (<a href="https://arxiv.org/abs/2410.09241">Peng et al., 2024</a>) goes a step further: They developed a prototype for an automated <strong>refactoring system</strong>, in which <strong>two LLMs collaborate</strong> to systematically optimize existing code for energy efficiency.</p>
-
-<p>Here’s how it works: A first model (e.g., GPT-4) analyzes the input code and suggests an <strong>optimized version</strong> designed to use fewer resources. A second model evaluates this suggestion—checking for <strong>functional correctness</strong> and measuring actual <strong>energy consumption</strong> using embedded telemetry and runtime data. Based on this feedback, the first model can then <strong>iteratively improve</strong> its suggestions.</p>
-
-<p>The result: In about half of the test cases, <strong>energy consumption was significantly reduced</strong>—sometimes to less than half of the original level. Particularly notable: In several cases, the refactoring suggestions even outperformed what traditional <strong>compiler optimizations</strong> achieved.</p>
-
-<p>This approach clearly highlights the <strong>potential of LLMs in sustainable software maintenance</strong>: Instead of merely generating efficient new code, they could also adapt existing code to meet modern <strong>efficiency standards</strong>—a promising outlook for future tools.</p>
-
-<h3 id="green-coding-guidelines-how-to-train-chatgpt-with-context">Green Coding Guidelines: How to Train ChatGPT with Context</h3>
-
-<p>To unlock the potential of LLMs like ChatGPT for everyday development, several proven strategies are already available. While research shows that LLMs do not inherently produce energy-efficient code, their output can be greatly improved through <strong>targeted prompting</strong> and <strong>contextual guidance</strong>.</p>
-
-<p>If you want ChatGPT to consistently focus on energy efficiency in code generation, there are multiple ways to make that happen:</p>
-
-<ul>
-<li><b>Persistent Custom Instructions</b><br />
-With custom instructions (accessible via the settings menu in the ChatGPT app, available only for ChatGPT Plus/Enterprise), you can store permanent prompts that are automatically applied in every conversation. <br />
-These instructions are used across contexts – regardless of the project or topic at hand.</li>
-
-<li><b>Upload style guides or Markdown files</b><br />
-GPT-4 supports file uploads. This allows you to provide your own guidelines directly as input – for example as `green_coding_guidelines.md` – and explicitly ask the model to follow them.</li>
-
-<li><b>Create your own GPTs with system prompts</b><br />
-Using the "Explore" feature, you can build specialized GPTs that consistently follow Green Coding goals – including fixed prompts and optional knowledge files.</li>
-
-<li><b>Be clear and structured</b><br />
-Rules should be positive, precise, and written in bullet points. Reinforcers such as “always” or “definitely” help the model prioritize effectively.</li>
-</ul>
-
-<p><strong>Good prompting is key</strong>—and sometimes a single sentence is enough to noticeably improve code suggestions. A prompt that has proven effective in practice reads:</p>
-
-<blockquote>
-  <p>“Act as an experienced software developer. Review the following code for performance, maintainability, and energy efficiency. Provide specific, actionable suggestions for improvement in each of these areas.”</p>
-</blockquote>
-
-<p>This prompt is taken from a practical article by (<a href="https://ashexplained.com/how-to-improve-code-reviews-using-chatgpt/">Ash Explained, 2024</a>) and can be easily adapted. Developers looking to systematically generate or review more efficient code can embed such prompts directly or apply them as persistent settings.</p>
-
-<h3 id="green-coding-checklist-for-embedding-or-uploading">Green Coding Checklist (for Embedding or Uploading)</h3>
-
-<p>Here is a list of Green Coding Principles that can be incorporated in various ways within ChatGPT: directly in prompts, as system instructions in a custom GPT, or as a Markdown file uploaded during a conversation. This checklist can of course be refined or extended for project-specific needs:</p>
-
-<h3> Green Coding Guidelines for Energy-Efficient Software</h3>
-<h4> General Principles</h4>
-<ul>
-  <li>Use efficient algorithms &amp; data structures</li>
-  <li>Avoid redundant computations</li>
-  <li>Apply caching &amp; memoization</li>
-  <li>Avoid busy-waiting</li>
-  <li>Keep memory usage low</li>
-  <li>Parallelize tasks sensibly</li>
-</ul>
-<h4> Python-Specific</h4>
-<ul>
-  <li>Use vectorized NumPy operations instead of loops</li>
-  <li>Prefer generators over lists</li>
-  <li>Read files line by line</li>
-  <li>Avoid object instantiation inside loops</li>
-</ul>
-<h4> Java-Specific</h4>
-<ul>
-  <li>Avoid object allocations in hot loops</li>
-  <li>Use streams instead of full data loads</li>
-  <li>Prefer primitive types</li>
-  <li>Mark constants with <code>final</code></li>
-</ul>
-<h4> Cross-Technology</h4>
-<ul>
-  <li>Move loop conditions outside the loop</li>
-  <li>Use optimized libraries</li>
-  <li>Choose suitable languages/platforms</li>
-</ul>
-
-<h3 id="conclusion">Conclusion</h3>
-
-<p>Language models like ChatGPT can be a powerful <strong>tool for sustainable programming</strong>—provided they are used strategically. Research shows: <strong>Energy-efficient code does not happen by default</strong>. It requires clear instructions, thoughtful context, and the integration of green coding principles into the development process. By leveraging <strong>custom instructions</strong>, <strong>prompting strategies</strong>, or tailored <strong>style guides</strong>, developers can start using the potential of LLMs for sustainable software development today—reducing resource consumption while improving code quality. For more background on the intersection of AI and sustainability, check out the <a href="https://mehrwert.tech/en/KI">first part of our article series</a>.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit," /><category term="#ki" /><summary type="html"><![CDATA[In the first part of our article series, we explored the tension between Artificial Intelligence and sustainability: How can we ensure that AI is not just resource-intensive, but also contributes to solving ecological problems?]]></summary></entry><entry><title type="html">Artificial Intelligence - Between Grand Promises and the Illusion of Innovation</title><link href="https://mehrwert.tech/KI" rel="alternate" type="text/html" title="Artificial Intelligence - Between Grand Promises and the Illusion of Innovation" /><published>2025-07-16T00:00:00+02:00</published><updated>2025-07-16T00:00:00+02:00</updated><id>https://mehrwert.tech/KI</id><content type="html" xml:base="https://mehrwert.tech/KI"><![CDATA[<p><strong>“AI will reach singularity by 2030.”</strong> This bold claim by OpenAI CEO Sam Altman illustrates the immense hype surrounding artificial intelligence (AI). Indeed, modern AI systems are seen as beacons of hope in nearly every field. In <em>medicine</em>, they are expected to detect diseases earlier and help develop new treatments. In the fight against <em>climate change</em>, they promise to optimize the <em>energy sector</em> and <em>mobility</em>. <em>Education</em> could also be transformed by personalized learning systems. And when it comes to <em>climate adaptation</em>, AI is increasingly used to predict extreme weather events, map risks, and help cities adjust their infrastructure to heatwaves. In short: AI is celebrated as a miracle cure for solving humanity’s most pressing problems.</p>
-
-<p>But this euphoric narrative often overshadows a more fundamental issue: While much attention is paid to AI’s energy and resource consumption, a more crucial question remains—<strong>can AI actually create innovation, or is it merely a tool for reassembling existing knowledge?</strong> Today’s systems like GPT-4 are impressive in producing fluent texts, but they draw entirely on pre-existing data. True creative breakthroughs, scientific paradigm shifts, or disruptive ideas still originate from human intuition, curiosity, and experience.</p>
-
-<p>That’s not to ignore the environmental impact: Training large models consumes vast amounts of energy and leaves behind a significant carbon footprint—training GPT-3 alone emitted around <strong>550 tons of CO₂</strong>. And that’s without accounting for the environmental toll of the required hardware: Specialized chips and servers demand enormous resources and materials—often at the expense of ecosystems and communities in mining regions. While some companies are working on more efficient algorithms and sustainable infrastructure, reality still lags behind these ambitions. Without clear ecological guidelines, technological progress risks continuing at the planet’s expense.</p>
-
-<p>The glowing vision of AI as a universal savior begins to look less like a revolutionary shift and more like a reflection of our existing mindset—only faster.</p>
-
-<h2 id="when-ai-becomes-a-technological-miracle-cure">When AI Becomes a Technological Miracle Cure</h2>
-
-<p>Faced with these contradictions, critical questions arise: <strong>Is AI really the solution to all our modern problems—or are we simply creating new ones?</strong> What <strong>ecological</strong> and <strong>social side effects</strong> accompany the AI boom? And who decides <em>how</em> an AI should solve a problem? One thing is certain: An AI always acts according to the goals and priorities we set for it.</p>
-
-<p>Consider this thought experiment: What if an AI were tasked with achieving <em>climate goals at all costs</em>? In extreme cases, it might weigh human suffering against emission reductions. Whether it prioritizes <em>individual well-being</em> or the <em>collective good</em> depends on the values it has been trained with. The question of <strong>how</strong> AI “thinks” is thus closely tied to societal values, ethical boundaries, and—most importantly—<strong>who defines them</strong>.</p>
-
-<p>A real-world example from the U.S. highlights how societal biases can creep into AI systems: Facial recognition software used by U.S. police forces misidentified several innocent Black men as suspects. The problem wasn’t just technical—it stemmed from biased training data and decisions that reproduced systemic inequalities. Algorithms were significantly less accurate at identifying non-white faces, especially Black individuals. Studies showed that the error rate for Black women reached up to <strong>35%</strong>, compared to under <strong>1%</strong> for white men (<a href="https://www.media.mit.edu/projects/gender-shades/overview/">MIT Media Lab, 2018</a>).</p>
-
-<p>Different priorities and blind spots can lead to radically different “solutions”—from technological efficiency to social redistribution. What’s considered “right” ultimately depends on the worldview and objectives behind a system. AI is therefore not a neutral all-rounder but a <strong>tool</strong> shaped by human assumptions. It cannot think—it merely detects and reproduces patterns from the data it was trained on. As such, it cannot develop its own moral framework or make ethical decisions. These too must be programmed by us. Ethical trade-offs—so essential in many societal debates—are beyond AI’s reach unless explicitly defined by humans.</p>
-
-<p>So who really benefits from this AI revolution—and who is left behind? Right now, it’s primarily large tech companies that control the necessary data and computing power, concentrating influence in the hands of a few. Experts warn that AI development risks becoming monopolized, potentially stifling innovation and increasing global dependency (<a href="https://yalelawandpolicy.org/antimonopoly-approach-governing-artificial-intelligence?utm_source=chatgpt.com">Yale Law &amp; Policy Review, 2024</a>). At the same time, millions of jobs are at risk. A study by Goldman Sachs estimates that up to <strong>300 million jobs</strong> worldwide could be automated or altered by generative AI (<a href="https://www.industryintel.com/news/goldman-sachs-ai-could-replace-up-to-300-million-full-time-jobs-globally-with-administrative-and-legal-sectors-at-highest-risk-generative-ai-marks-leap-in-automation-and-could-increase-global-annual-value-of-goods-or-services-output-by-7--171642439200?utm_source">industry intelligence inc., 2025</a>). Administrative, legal, and routine-heavy office work is especially vulnerable. New professions are emerging—like <em>prompt engineering</em>—but the <strong>social transformations</strong> will be far-reaching. However, this shift is occurring more slowly than anticipated a decade ago (<a href="https://www.oecd.org/publications/ai-outlook/">OECD, 2023</a>), making long-term predictions difficult, both technologically and socially.</p>
-
-<p>And the core issue remains: <strong>Can AI truly innovate—or is it just remixing what already exists?</strong> Many experts argue that today’s models, such as GPT-4, are highly capable pattern recognition machines (<a href="https://arxiv.org/pdf/1801.00631">vgl. Marcus &amp; Davis, “Rebooting AI”, 2019</a>). They generate outputs by recombining known information—but without any actual understanding. What’s missing is context, a sense of purpose, or even curiosity.</p>
-
-<p><strong>Genuine innovation</strong>—like the theory of relativity or quantum mechanics—requires paradigm shifts, interdisciplinary thinking, and the courage to challenge established ideas. These abilities are deeply rooted in human cognition and remain impossible to replicate algorithmically. At best, AI can serve as a catalyst or assistive tool—generating hypotheses or speeding up workflows—but not as a true source of disruptive breakthroughs. It remains dependent on human-defined goals, data, and evaluation metrics.</p>
-
-<h2 id="ai-only-works-as-a-tool">AI Only Works as a Tool</h2>
-
-<p>How can AI be expected to solve humanity’s grand challenges if it can’t truly innovate? In many ways, AI risks exacerbating the very inequalities it claims to fix. The climate crisis, for example, is not just an ecological emergency but also a social one. Studies show that wealthier populations contribute far more to global emissions, while poorer communities bear the brunt—facing heatwaves, food insecurity, or lack of adaptive infrastructure (<a href="https://www.theguardian.com/environment/2025/may/07/two-thirds-of-global-heating-caused-by-richest-study-suggests?utm_source=chatgpt.com">The Guardian, 2025</a>). If AI is primarily deployed for economic optimization and industrial efficiency, these imbalances risk being reinforced. New challenges may emerge—without solving the old ones.</p>
-
-<p>If we accept that AI is not <em>the</em> solution, we must ask: <strong>How can it be part of one?</strong> The key lies in understanding AI as a <strong>tool</strong>. And like any tool, it depends on <strong>how and for what</strong> it is used. Responsible governance is essential—grounded in ethical reflection, fair policies, and the political will to shape AI for the common good.</p>
-
-<p>In practical terms, developers, companies, and institutions have a responsibility to use AI consciously—for instance, to detect climate risks early, promote equitable resource use, or democratize access to knowledge. Even on the technical level, there are levers for change: Developers who engage with the principles of <em>green coding</em> can already contribute to sustainability in small but meaningful ways. AI itself can be used deliberately to make one’s code more sustainable—how exactly that works will be the focus of the <strong>next article in this series</strong> (<a href="https://mehrwert.tech/en/KI-II">Green Coding with AI – ChatGPT as a Tool for Sustainable Programming</a>). For a general introduction to the topic, see our article <a href="https://mehrwert.tech/en/green-coding">„Green coding - sustainability in software development“</a>, and for practical approaches, refer to <a href="https://mehrwert.tech/en/green-coding-patterns">„Green Coding Patterns - Practical Tips for Energy-Efficient Software“</a>. This way, AI becomes not an end in itself but a building block of a more sustainable digital future. It’s not the technology itself that makes the difference—but our decisions about how we use it.</p>
-
-<p>In the end, AI is not a magic fix. It’s a component of a more sustainable digital future. What makes the difference is not the technology itself—but <strong>our choices in how we use it.</strong></p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit," /><category term="#ki" /><summary type="html"><![CDATA[“AI will reach singularity by 2030.” This bold claim by OpenAI CEO Sam Altman illustrates the immense hype surrounding artificial intelligence (AI). Indeed, modern AI systems are seen as beacons of hope in nearly every field. In medicine, they are expected to detect diseases earlier and help develop new treatments. In the fight against climate change, they promise to optimize the energy sector and mobility. Education could also be transformed by personalized learning systems. And when it comes to climate adaptation, AI is increasingly used to predict extreme weather events, map risks, and help cities adjust their infrastructure to heatwaves. In short: AI is celebrated as a miracle cure for solving humanity’s most pressing problems.]]></summary></entry></feed>
+<p>👉 <a href="https://greenagile.org">Read the Green Agile Guide here</a></p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="#green-agile," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[When we talk about sustainability today, most people think of wind turbines, electric cars, or personal consumption. Hardly anyone thinks of software. Yet our digital systems hide a massive, invisible energy and resource footprint. Data centers consume more electricity than entire countries, and poorly optimized software forces hardware to be replaced far too quickly.]]></summary></entry></feed>
