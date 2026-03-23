@@ -34,7 +34,6 @@
   <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png">
   <link rel="icon" href="/assets/images/favicon.png" type="image/png">
   <link rel="apple-touch-icon" type="image/png" href="/assets/images/apple-touch-icon.png">
-  
 </head>
 
 
@@ -173,7 +172,7 @@
 								<span class="text-color"> Marcel, </span>
 								<span class="text-color">23.03.2026</span>
 							</div>
-							<!-- <p class="text-white">Eine der schwierigsten Fragen in der IT-Modernisierung lautet:
+							<!-- <p class="text-white">IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern
 </p> -->
 						</div>
 					</div>
@@ -186,119 +185,109 @@
 					<div class="row justify-content-center">
 						<div class="col-lg-8 mx-auto">
 							<div class="post-content">
-								<p>Eine der schwierigsten Fragen in der IT-Modernisierung lautet:</p>
+								<h1 id="it-modernisierung-schritt-für-schritt--das-strangler-fig-pattern">IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern</h1>
 
-<p>Wie ersetzt man ein bestehendes System, ohne den laufenden Betrieb zu gefährden?</p>
+<p>Eine der schwierigsten Fragen in der IT-Modernisierung lautet nicht, wie ein Zielsystem aussehen soll, sondern wie der Übergang dorthin gestaltet werden kann. Bestehende Systeme lassen sich selten isoliert ersetzen. Sie sind in Prozesse eingebettet, unterstützen laufende Geschäftsabläufe und können nicht einfach abgeschaltet werden.</p>
 
-<p>Der klassische Ansatz ist bekannt:<br />
-Ein vollständiger Neuaufbau – oft als „Big Bang“ umgesetzt.</p>
+<p>Genau hier liegt die Herausforderung: Veränderung ist notwendig, gleichzeitig muss der Betrieb stabil bleiben.</p>
 
-<p>Die Realität zeigt jedoch:<br />
-Solche Projekte sind riskant, teuer und selten erfolgreich.</p>
+<h2 id="warum-der-big-bang-in-der-praxis-selten-funktioniert">Warum der „Big Bang“ in der Praxis selten funktioniert</h2>
 
-<h2 id="ein-anderer-ansatz">Ein anderer Ansatz</h2>
+<p>Ein häufiger Ansatz besteht darin, ein System vollständig neu zu entwickeln und zu einem definierten Zeitpunkt zu ersetzen. Dieses Vorgehen wirkt auf den ersten Blick logisch, da es klare Schnittpunkte und ein sauberes Zielbild verspricht.</p>
 
-<p>Das <strong>Strangler Fig Pattern</strong> verfolgt eine grundlegend andere Strategie.</p>
+<p>In der Praxis zeigt sich jedoch, dass dieser Ansatz mit erheblichen Risiken verbunden ist.</p>
 
-<p>Statt das bestehende System auf einmal zu ersetzen, wird es schrittweise transformiert.</p>
+<p>Während der Entwicklungsphase müssen bestehende und neue Anforderungen parallel berücksichtigt werden. Das Altsystem entwickelt sich weiter, während gleichzeitig ein neues System entsteht. Am Ende treffen zwei Welten aufeinander, die sich oft nicht mehr synchronisieren lassen.</p>
 
-<p>Neue Funktionalitäten werden außerhalb des bestehenden Systems aufgebaut und nach und nach integriert.<br />
-Das alte System wird dabei Stück für Stück „ersetzt“ – ähnlich wie eine Würgefeige, die einen Baum langsam umschließt.</p>
+<p>Zudem entsteht ein hoher Druck auf den finalen Umschaltzeitpunkt. Fehler oder unvollständige Funktionalität lassen sich zu diesem Zeitpunkt kaum noch kontrolliert beheben.</p>
 
-<h2 id="das-prinzip">Das Prinzip</h2>
+<p>Der Versuch, Komplexität in einem Schritt zu ersetzen, führt häufig dazu, dass sie sich an anderer Stelle erneut aufbaut.</p>
 
-<p>Der Ansatz lässt sich auf wenige Kerngedanken reduzieren:</p>
+<h2 id="das-grundprinzip-des-strangler-fig-patterns">Das Grundprinzip des Strangler Fig Patterns</h2>
 
-<ul>
-  <li>Das bestehende System bleibt zunächst bestehen</li>
-  <li>Neue Funktionalitäten werden separat entwickelt</li>
-  <li>Zugriffe werden schrittweise umgeleitet</li>
-  <li>Alte Komponenten werden nach und nach entfernt</li>
-</ul>
+<p>Das Strangler Fig Pattern verfolgt einen anderen Ansatz. Statt eines vollständigen Austauschs wird das bestehende System schrittweise transformiert. Neue Funktionalität entsteht außerhalb des bestehenden Systems und übernimmt nach und nach einzelne Aufgabenbereiche.</p>
 
-<p>Der entscheidende Vorteil:</p>
+<p>Der Name beschreibt dieses Vorgehen sehr treffend: Wie eine Würgefeige einen Baum langsam umschließt, wird das bestehende System Stück für Stück durch neue Komponenten ersetzt.</p>
 
-<p>Das Risiko wird verteilt – nicht konzentriert.</p>
+<p>Der zentrale Gedanke ist dabei nicht die technische Umsetzung, sondern die Art der Veränderung:</p>
 
-<h2 id="einstieg-in-die-umsetzung">Einstieg in die Umsetzung</h2>
+<p>Transformation erfolgt inkrementell, kontrolliert und entlang fachlicher Grenzen.</p>
 
-<p>Ein typischer Einstieg beginnt mit der Definition klarer Schnittstellen.</p>
+<h2 id="technische-struktur-des-ansatzes">Technische Struktur des Ansatzes</h2>
 
-<p>Diese fungieren als Übergabepunkt zwischen Alt- und Neusystem.</p>
+<p>In der Praxis wird das Strangler Fig Pattern häufig über eine zusätzliche Schicht umgesetzt, die eingehende Anfragen steuert. Diese Schicht entscheidet, ob eine Anfrage an das bestehende System oder an eine neue Komponente weitergeleitet wird.</p>
 
-<p>Darauf aufbauend können einzelne Bereiche gezielt herausgelöst werden:</p>
+<p>Im Laufe der Transformation verschiebt sich diese Zuordnung schrittweise.</p>
 
-<ul>
-  <li>Identifikation einer klar abgegrenzten Domäne</li>
-  <li>Aufbau einer neuen Implementierung</li>
-  <li>Umlenkung der Anfragen auf das neue System</li>
-  <li>Abschaltung der alten Funktionalität</li>
-</ul>
+<p>Zu Beginn werden nahezu alle Anfragen an das bestehende System weitergeleitet. Mit jeder neuen Komponente wird ein weiterer Teil der Funktionalität ausgelagert.</p>
 
-<p>Dieser Prozess wird iterativ wiederholt.</p>
+<p>Die zentrale Steuerung ermöglicht es, diese Übergänge kontrolliert zu gestalten und bei Bedarf auch wieder rückgängig zu machen.</p>
+
+<h2 id="ein-konkretes-beispiel-aus-der-praxis">Ein konkretes Beispiel aus der Praxis</h2>
+
+<p>Im Projekt zeigte sich der Bedarf für diesen Ansatz besonders in Bereichen mit hoher Änderungsdynamik. Kundenspezifische Anpassungen mussten regelmäßig umgesetzt werden, während gleichzeitig bestehende Funktionalität stabil bleiben musste.</p>
+
+<p>Ein vollständiger Austausch dieser Bereiche wäre mit hohem Risiko verbunden gewesen, da viele Abhängigkeiten nicht vollständig sichtbar waren.</p>
+
+<p>Stattdessen wurde ein klar abgegrenzter fachlicher Bereich identifiziert und als eigenständige Komponente neu implementiert. Die Zugriffe auf diesen Bereich wurden gezielt über eine Routing-Schicht gesteuert.</p>
+
+<p>Neue Anforderungen wurden ausschließlich in der neuen Komponente umgesetzt, während bestehende Funktionalität zunächst im Altsystem verblieb. Schritt für Schritt wurden weitere Funktionen migriert, bis der entsprechende Bereich vollständig aus dem Altsystem herausgelöst war.</p>
+
+<p>Dieses Vorgehen ermöglichte es, Veränderungen umzusetzen, ohne den laufenden Betrieb zu gefährden.</p>
 
 <h2 id="verbindung-zu-domain-driven-design">Verbindung zu Domain-Driven Design</h2>
 
 <p>Das Strangler Fig Pattern entfaltet seine volle Wirkung erst in Kombination mit Domain-Driven Design.</p>
 
-<p>DDD hilft dabei:</p>
+<p>Die zentrale Frage lautet nicht, welche technischen Komponenten ersetzt werden sollen, sondern welche fachlichen Domänen sinnvoll geschnitten werden können.</p>
+
+<p>DDD liefert genau diese Struktur:</p>
 <ul>
-  <li>sinnvolle fachliche Schnitte zu identifizieren</li>
-  <li>klare Verantwortlichkeiten zu definieren</li>
-  <li>Abhängigkeiten zu verstehen</li>
+  <li>klare fachliche Grenzen</li>
+  <li>definierte Verantwortlichkeiten</li>
+  <li>nachvollziehbare Abhängigkeiten</li>
 </ul>
 
-<p>Ohne diese Grundlage besteht die Gefahr, lediglich technische Teile zu verschieben –<br />
-statt echte Komplexität zu reduzieren.</p>
+<p>Ohne diese Grundlage besteht die Gefahr, lediglich technische Teile zu verschieben, während die eigentliche Komplexität bestehen bleibt.</p>
 
-<h2 id="qualität-während-der-transformation">Qualität während der Transformation</h2>
+<p>Mit einem klaren Domänenmodell hingegen lassen sich gezielte, fachlich sinnvolle Transformationen durchführen.</p>
 
-<p>Während der schrittweisen Migration stellt sich eine zentrale Frage:</p>
+<h2 id="qualität-und-risiko-während-der-migration">Qualität und Risiko während der Migration</h2>
 
-<p>Wie stellen wir sicher, dass sich das Verhalten nicht unbeabsichtigt verändert?</p>
+<p>Ein wesentlicher Aspekt des Strangler Fig Patterns ist der parallele Betrieb von Alt- und Neusystem. Dadurch entsteht eine Übergangsphase, in der beide Systeme aktiv genutzt werden.</p>
 
-<p>Hier kommt beispielsweise <strong>Golden Master Testing</strong> ins Spiel.</p>
+<p>Diese Phase erfordert besondere Aufmerksamkeit, insbesondere im Hinblick auf Konsistenz und Qualität.</p>
 
-<p>Bestehende Funktionalität wird abgesichert, während neue Komponenten entstehen.<br />
-So können Änderungen kontrolliert und nachvollziehbar umgesetzt werden.</p>
+<p>Ansätze wie Golden Master Testing können hier eine wichtige Rolle spielen. Bestehendes Verhalten wird abgesichert, während neue Komponenten entstehen. Veränderungen werden sichtbar und können gezielt bewertet werden.</p>
 
-<h2 id="typische-herausforderungen">Typische Herausforderungen</h2>
+<p>Gleichzeitig müssen Aspekte wie Datenkonsistenz, Synchronisation und Monitoring aktiv adressiert werden. Der Vorteil des inkrementellen Vorgehens liegt darin, dass diese Herausforderungen schrittweise gelöst werden können.</p>
 
-<p>Auch dieser Ansatz ist nicht trivial.</p>
+<h2 id="typische-herausforderungen-und-trade-offs">Typische Herausforderungen und Trade-offs</h2>
 
-<p>Häufige Herausforderungen sind:</p>
+<p>Das Strangler Fig Pattern reduziert Risiken, eliminiert sie jedoch nicht.</p>
 
+<p>Zu den typischen Herausforderungen zählen:</p>
 <ul>
-  <li>Unklare Schnittstellen im bestehenden System</li>
-  <li>Versteckte Abhängigkeiten</li>
-  <li>Datenmigration und Synchronisation</li>
-  <li>Paralleler Betrieb von Alt- und Neusystem</li>
+  <li>Unklare oder fehlende Schnittstellen im bestehenden System</li>
+  <li>Versteckte Abhängigkeiten zwischen Systemteilen</li>
+  <li>Synchronisation von Daten zwischen Alt- und Neusystem</li>
+  <li>Erhöhter Betriebsaufwand durch parallele Systemlandschaften</li>
 </ul>
 
-<p>Diese Aspekte müssen aktiv adressiert werden.</p>
+<p>Diese Aspekte sind Teil des Ansatzes und müssen bewusst eingeplant werden.</p>
 
-<h2 id="warum-sich-der-ansatz-lohnt">Warum sich der Ansatz lohnt</h2>
-
-<p>Trotz der Herausforderungen bietet das Strangler Fig Pattern entscheidende Vorteile:</p>
-
-<ul>
-  <li>Reduziertes Risiko durch inkrementelle Umsetzung</li>
-  <li>Frühe sichtbare Ergebnisse</li>
-  <li>Bessere Steuerbarkeit der Transformation</li>
-  <li>Möglichkeit zur kontinuierlichen Anpassung</li>
-</ul>
-
-<p>Modernisierung wird damit kein einmaliges Projekt, sondern ein steuerbarer Prozess.</p>
+<p>Der zentrale Trade-off besteht darin, kurzfristig mehr Komplexität im Betrieb in Kauf zu nehmen, um langfristig Komplexität im System zu reduzieren.</p>
 
 <h2 id="fazit">Fazit</h2>
 
-<p>Das Strangler Fig Pattern ist kein technischer Trick.<br />
-Es ist ein strategischer Ansatz für den Umgang mit Komplexität.</p>
+<p>Das Strangler Fig Pattern ist kein technischer Trick, sondern ein strategischer Ansatz für den Umgang mit gewachsenen Systemen.</p>
 
-<p>In Kombination mit Domain-Driven Design und gezielter Qualitätssicherung entsteht ein belastbares Fundament für nachhaltige IT-Modernisierung.</p>
+<p>Es verschiebt den Fokus von einmaligen, risikobehafteten Großprojekten hin zu einer kontrollierten, schrittweisen Transformation.</p>
 
-<p>Nicht durch radikale Brüche.<br />
-Sondern durch kontrollierte, kontinuierliche Veränderung.</p>
+<p>In Kombination mit Domain-Driven Design und gezielter Qualitätssicherung entsteht ein belastbarer Weg, um bestehende Systeme weiterzuentwickeln, ohne ihre Stabilität zu gefährden.</p>
+
+<p>Nicht durch radikale Brüche.
+Sondern durch kontinuierliche, nachvollziehbare Veränderung.</p>
 
 								<ul class="list-inline post-share text-right">
     <li class="list-inline-item"><h5>Share:</h5></li>

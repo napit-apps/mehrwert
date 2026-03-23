@@ -34,7 +34,6 @@
   <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png">
   <link rel="icon" href="/assets/images/favicon.png" type="image/png">
   <link rel="apple-touch-icon" type="image/png" href="/assets/images/apple-touch-icon.png">
-  
 </head>
 
 
@@ -173,7 +172,7 @@
 								<span class="text-color"> Marcel, </span>
 								<span class="text-color">14.03.2026</span>
 							</div>
-							<!-- <p class="text-white">IT modernization is on almost every agenda today. New market demands, increasing cost pressure, and the need for greater flexibility are driving companies to question...</p> -->
+							<!-- <p class="text-white">IT modernization is currently one of the dominant topics across many organizations. New market demands, increasing cost pressure, and technological developments such as AI are...</p> -->
 						</div>
 					</div>
 					<!-- 
@@ -185,87 +184,71 @@
 					<div class="row justify-content-center">
 						<div class="col-lg-8 mx-auto">
 							<div class="post-content">
-								<p>IT modernization is on almost every agenda today. New market demands, increasing cost pressure, and the need for greater flexibility are driving companies to question their existing systems.</p>
+								<p>IT modernization is currently one of the dominant topics across many organizations. New market demands, increasing cost pressure, and technological developments such as AI are pushing companies to rethink their existing systems. At the same time, experience shows that these initiatives are often more complex than anticipated and frequently fail to deliver the expected results.</p>
 
-<p>An example from a recent project shows what these situations typically look like:</p>
+<p>A recent project illustrates this situation clearly. Over many years, a system had evolved into a monolith built on more than 25 different technologies and programming languages. It was deployed in over 200 installations, many of them tailored to specific customer requirements. At the same time, knowledge about the system had become fragmented: individual parts were understood, but a shared understanding of the system as a whole no longer existed.</p>
 
-<p>A monolithic system grown over many years, built on more than 25 technologies and programming languages.<br />
-Over 200 individual installations, many with customer-specific customizations.<br />
-And a team where no one has a complete understanding of the system as a whole.</p>
+<p>This situation is not an exception. It is typical for many long-lived IT landscapes.</p>
 
-<p>This is where many modernization initiatives begin.<br />
-And this is exactly where they often fail.</p>
+<h2 id="when-systems-are-no-longer-evolvable">When systems are no longer evolvable</h2>
 
-<h2 id="the-real-problem-is-not-technology">The real problem is not technology</h2>
+<p>The real challenges are not primarily visible in architecture diagrams, but in day-to-day operations. Changes become increasingly risky because their impact on other parts of the system can no longer be reliably assessed. Customer-specific adaptations regularly introduce unintended side effects, as implicit dependencies remain hidden. At the same time, quality assurance turns into a bottleneck, since the system’s behavior can no longer be consistently reproduced or verified.</p>
 
-<p>The most common reaction is technology-driven:<br />
-a new architecture, a new platform, sometimes even a complete rewrite.</p>
+<p>In this particular case, a single installation took more than a year to complete and had to be carried out on-site at the customer. At the same time, new business requirements—such as data visualization—could not be implemented. Not because of a lack of technical expertise, but because the existing system structure made such changes practically impossible.</p>
 
-<p>But these approaches fall short.</p>
+<p>The system continued to function.<br />
+But it was no longer capable of evolving.</p>
 
-<p>Without a clear understanding of the business domain, existing complexity is not reduced – it is simply reimplemented.<br />
-The result: the same problems, just on a more modern technology stack.</p>
+<h2 id="common-assumptions--and-why-they-fail">Common assumptions – and why they fail</h2>
 
-<p>The key lever is not technology.<br />
-It is understanding the system.</p>
+<p>In situations like this, two assumptions frequently emerge. The first is the belief that the existing system is generally understood. The second is the expectation that new technologies—particularly AI—will take over much of the modernization effort.</p>
 
-<h2 id="domain-driven-design-as-a-foundation">Domain-Driven Design as a foundation</h2>
+<p>Both assumptions tend to break down in practice.</p>
 
-<p>Domain-Driven Design (DDD) addresses exactly this challenge.<br />
-Instead of focusing on technical structure, it puts the business perspective at the center.</p>
+<p>In the project described, it quickly became clear that there was no shared understanding of the system. Knowledge existed, but it was distributed across individuals and teams. Decisions were made locally, without fully understanding their impact on the overall system.</p>
 
-<p>What domains exist?<br />
-How are they connected?<br />
-Which parts are truly business-critical?</p>
+<p>The expectation that technology alone can solve these problems is equally misleading. Tools such as LLMs can leverage and accelerate existing structures, but they cannot replace a missing understanding of the domain. Without clearly defined relationships and boundaries, there is no solid foundation for meaningful automation or generation.</p>
 
-<p>Only when these questions are answered does a solid foundation for decision-making emerge.</p>
+<h2 id="why-traditional-modernization-approaches-fall-short">Why traditional modernization approaches fall short</h2>
 
-<p>In a recent workshop, this step became the turning point.<br />
-Instead of jumping directly into target architectures, we first built a shared understanding of the business domain.</p>
+<p>Against this backdrop, it becomes clear why many modernization efforts do not achieve their intended outcomes. A common reaction is to design a new architecture or even attempt a complete rebuild. While these approaches may be technically sound, they fall short if the underlying domain structure is not properly understood.</p>
 
-<p>The key difference:<br />
-not only IT was involved, but also the business stakeholders.</p>
+<p>In practice, this often leads to a situation where existing complexity is not reduced, but simply transferred into a new technological environment. Dependencies remain, business ambiguities persist, and the fundamental problems are carried forward rather than resolved.</p>
 
-<h2 id="the-key-insight">The key insight</h2>
+<p>The technology changes.<br />
+The complexity stays.</p>
 
-<p>One of the most important realizations was surprisingly simple:</p>
+<h2 id="domain-driven-design-as-a-structuring-approach">Domain-Driven Design as a structuring approach</h2>
 
-<p>Modernization is not an IT-only topic.</p>
+<p>The turning point in the project did not come from a technical decision, but from a shift in perspective. Instead of focusing immediately on target architectures, the team started by analyzing the system from a business domain perspective.</p>
 
-<p>Only through collaboration across different perspectives did a shared understanding of the domains emerge.<br />
-And this understanding became the foundation for all further decisions.</p>
+<p>Key questions included: What domains actually exist? How are they connected? And which of them are truly critical to the business?</p>
 
-<p>Another critical aspect:<br />
-from within the organization, achieving this level of clarity is often difficult.</p>
+<p>A crucial difference was that this analysis was not performed by IT alone. Only through the involvement of business stakeholders did a shared understanding of the domains and their relationships emerge. This shared model became the foundation for all subsequent decisions.</p>
 
-<p>There are too many assumptions, too many dependencies, and too many implicit decisions.<br />
-An external perspective helps to make structures visible and enables real prioritization.</p>
+<h2 id="the-role-of-an-external-perspective">The role of an external perspective</h2>
 
-<h2 id="why-this-matters">Why this matters</h2>
+<p>An often underestimated factor in this context is the value of an external perspective. In long-established organizations, many structures become implicit and are no longer questioned. Historical decisions are continued, even when their original rationale no longer applies.</p>
 
-<p>Without a clear domain understanding, decisions are made blindly.<br />
-With a clear domain model, direction emerges.</p>
+<p>An external perspective does not necessarily introduce better ideas, but it helps to make existing assumptions visible and subject them to systematic scrutiny. This is what enables real prioritization.</p>
 
-<ul>
-  <li>Which parts of the system actually need modernization – and which do not?</li>
-  <li>Where does investment truly pay off?</li>
-  <li>Which dependencies determine the sequence of implementation?</li>
-</ul>
+<h2 id="what-changes-as-a-result">What changes as a result</h2>
 
-<p>These are not technical questions.<br />
-They are business questions.</p>
+<p>With a clear understanding of domains, the perspective on modernization shifts fundamentally. The central question is no longer how to replace the system as a whole, but which parts are actually relevant, where investment creates value, and which areas can intentionally remain unchanged.</p>
+
+<p>Modernization becomes less of a large-scale technical initiative and more of a sequence of informed decisions grounded in business context.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The main challenge in IT modernization is rarely the technology itself. It is the lack of clarity about the underlying domain structure. Domain-Driven Design provides a way to make this structure visible and to use it as a basis for decision-making.</p>
+
+<p>Not as a methodological end in itself, but as a practical means to reduce complexity in existing systems and make modernization manageable.</p>
 
 <h2 id="outlook">Outlook</h2>
 
-<p>Domain-Driven Design is not an end in itself.<br />
-It is a tool to understand complexity and reduce it deliberately.</p>
+<p>Once a clear domain understanding is established, it becomes possible to derive concrete next steps—from prioritizing specific areas to defining migration strategies and building a realistic roadmap.</p>
 
-<p>The next step is to turn this understanding into concrete decisions:<br />
-migration strategies, transformation waves, and a solid roadmap.</p>
-
-<p>And this is where it becomes particularly interesting – especially in combination with new technologies like LLMs.</p>
-
-<p>More on that in the next post.</p>
+<p>This is what the next article will focus on.</p>
 
 								<ul class="list-inline post-share text-right">
     <li class="list-inline-item"><h5>Share:</h5></li>

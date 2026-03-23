@@ -1,10 +1,10 @@
 [
   
     {
-      "title"    : "Ensuring Quality During Modernization – with Golden Master Testing",
+      "title"    : "Beyond Architecture – Why IT Modernization Is Also Organizational Change",
       "category" : "",
       "tags"     : "Modernisierung,, Softwareentwicklung,, Ressourceneffizienz,, Toolkritik,, KI-gestütztes-Coding,, Integration",
-      "url"      : "/en/Strangler-Fig-Pattern",
+      "url"      : "/en/Beyond-Architecure",
       "date"     : "2026-03-23 00:00:00 +0100"
     } ,
   
@@ -12,8 +12,16 @@
       "title"    : "Ensuring Quality During Modernization – with Golden Master Testing",
       "category" : "",
       "tags"     : "Modernisierung,, Softwareentwicklung,, Ressourceneffizienz,, Toolkritik,, KI-gestütztes-Coding,, Integration",
-      "url"      : "/en/Golder-Master-Testing",
+      "url"      : "/en/Strangler-Fig-Pattern",
       "date"     : "2026-03-22 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Ensuring Quality During Modernization – with Golden Master Testing",
+      "category" : "",
+      "tags"     : "Modernisierung,, Softwareentwicklung,, Ressourceneffizienz,, Toolkritik,, KI-gestütztes-Coding,, Integration",
+      "url"      : "/en/Golder-Master-Testing",
+      "date"     : "2026-03-21 00:00:00 +0100"
     } ,
   
     {

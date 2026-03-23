@@ -1,529 +1,529 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="de" /><updated>2026-03-23T10:23:23+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern</title><link href="https://mehrwert.tech/Strangler-Fig-Pattern" rel="alternate" type="text/html" title="IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern" /><published>2026-03-23T00:00:00+01:00</published><updated>2026-03-23T00:00:00+01:00</updated><id>https://mehrwert.tech/Strangler-Fig-Pattern</id><content type="html" xml:base="https://mehrwert.tech/Strangler-Fig-Pattern"><![CDATA[<p>Eine der schwierigsten Fragen in der IT-Modernisierung lautet:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="de" /><updated>2026-03-23T11:31:04+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Beyond Architecture – warum IT-Modernisierung immer auch Organisationsentwicklung ist</title><link href="https://mehrwert.tech/Beyond-Architecure" rel="alternate" type="text/html" title="Beyond Architecture – warum IT-Modernisierung immer auch Organisationsentwicklung ist" /><published>2026-03-23T00:00:00+01:00</published><updated>2026-03-23T00:00:00+01:00</updated><id>https://mehrwert.tech/Beyond-Architecure</id><content type="html" xml:base="https://mehrwert.tech/Beyond-Architecure"><![CDATA[<p>In den vorherigen Artikeln habe ich unterschiedliche Aspekte moderner IT-Modernisierung beleuchtet. Ausgangspunkt war die Erkenntnis, dass viele Systeme nicht an ihrer Technologie scheitern, sondern an fehlender Klarheit über ihre fachliche Struktur. Domain-Driven Design schafft hier die Grundlage, um Systeme überhaupt verstehen und sinnvoll schneiden zu können.</p>
 
-<p>Wie ersetzt man ein bestehendes System, ohne den laufenden Betrieb zu gefährden?</p>
+<p>Darauf aufbauend wurde gezeigt, wie aus diesem Verständnis konkrete Entscheidungen entstehen – von der Priorisierung einzelner Domänen über Migrationsstrategien bis hin zu einer belastbaren Roadmap. Ergänzend dazu spielen Ansätze wie Golden Master Testing und das Strangler Fig Pattern eine zentrale Rolle, um Veränderungen kontrolliert umzusetzen und Risiken zu reduzieren.</p>
 
-<p>Der klassische Ansatz ist bekannt:<br />
-Ein vollständiger Neuaufbau – oft als „Big Bang“ umgesetzt.</p>
+<p>Diese Perspektive ist bewusst ganzheitlich angelegt. IT-Modernisierung ist kein einzelnes Architekturthema, sondern ein Zusammenspiel aus Struktur, Entscheidungen, Umsetzung und Absicherung.</p>
 
-<p>Die Realität zeigt jedoch:<br />
-Solche Projekte sind riskant, teuer und selten erfolgreich.</p>
+<p>Was dabei häufig unterschätzt wird: Dieses Zusammenspiel endet nicht auf Systemebene. Es wirkt direkt auf die Organisation zurück, die diese Systeme entwickelt und betreibt.</p>
 
-<h2 id="ein-anderer-ansatz">Ein anderer Ansatz</h2>
+<p>Genau an dieser Stelle wird sichtbar, dass IT-Modernisierung mehr ist als ein technisches Vorhaben.</p>
 
-<p>Das <strong>Strangler Fig Pattern</strong> verfolgt eine grundlegend andere Strategie.</p>
+<h2 id="system-und-organisation-sind-untrennbar-verbunden">System und Organisation sind untrennbar verbunden</h2>
 
-<p>Statt das bestehende System auf einmal zu ersetzen, wird es schrittweise transformiert.</p>
+<p>Ein zentraler Zusammenhang, der in der Modernisierung häufig unterschätzt wird, ist die enge Kopplung zwischen Systemstruktur und Organisationsstruktur.</p>
 
-<p>Neue Funktionalitäten werden außerhalb des bestehenden Systems aufgebaut und nach und nach integriert.<br />
-Das alte System wird dabei Stück für Stück „ersetzt“ – ähnlich wie eine Würgefeige, die einen Baum langsam umschließt.</p>
+<p>Systeme entstehen nicht im luftleeren Raum. Sie spiegeln die Art wider, wie Teams zusammenarbeiten, wie Entscheidungen getroffen werden und wie Verantwortung verteilt ist.</p>
 
-<h2 id="das-prinzip">Das Prinzip</h2>
+<p>Diese Beobachtung ist nicht neu. Sie wird oft unter dem Begriff Conway’s Law beschrieben: Systeme tendieren dazu, die Kommunikationsstrukturen der Organisation abzubilden, die sie entwickelt.</p>
 
-<p>Der Ansatz lässt sich auf wenige Kerngedanken reduzieren:</p>
+<p>In der Praxis bedeutet das:</p>
+
+<p>Eine fragmentierte Organisation führt zu fragmentierten Systemen.<br />
+Unklare Verantwortlichkeiten führen zu unklaren Systemgrenzen.<br />
+Lokale Optimierung führt zu globaler Komplexität.</p>
+
+<p>Wenn sich diese Strukturen nicht verändern, reproduzieren sie sich auch in neuen Systemen.</p>
+
+<h2 id="warum-technische-modernisierung-allein-nicht-ausreicht">Warum technische Modernisierung allein nicht ausreicht</h2>
+
+<p>Viele Modernisierungsansätze fokussieren stark auf Architektur und Technologie. Neue Plattformen werden eingeführt, Services neu geschnitten und Zielbilder definiert.</p>
+
+<p>Gleichzeitig bleiben die zugrunde liegenden Arbeitsweisen oft unverändert. Teams arbeiten weiterhin entlang historischer Strukturen, Verantwortung ist nicht klar zugeordnet, und Entscheidungen werden weiterhin lokal getroffen.</p>
+
+<p>Das Ergebnis ist vorhersehbar:</p>
+
+<p>Die neue Architektur wird durch die bestehende Organisation „überformt“.<br />
+Grenzen verschwimmen, Abhängigkeiten entstehen erneut, und die Komplexität kehrt zurück.</p>
+
+<p>Modernisierung wird so zu einem technischen Projekt mit organisatorischen Nebenwirkungen – statt zu einer echten Transformation.</p>
+
+<h2 id="domain-driven-design-als-strukturelle-grundlage">Domain-Driven Design als strukturelle Grundlage</h2>
+
+<p>Domain-Driven Design bietet in diesem Kontext mehr als einen Ansatz zur Systemmodellierung. Es liefert eine Struktur, die sich direkt auf die Organisation übertragen lässt.</p>
+
+<p>Domänen sind nicht nur technische Einheiten. Sie repräsentieren fachliche Verantwortungsbereiche. Sie beschreiben, wo Entscheidungen getroffen werden, wo Wissen entsteht und wo Veränderungen stattfinden.</p>
+
+<p>Wird ein System entlang von Domänen strukturiert, stellt sich zwangsläufig auch die Frage nach der Organisation:</p>
+
+<p>Wer ist für eine Domäne verantwortlich?<br />
+Wie werden Entscheidungen innerhalb dieser Domäne getroffen?<br />
+Wie werden Abhängigkeiten zwischen Domänen koordiniert?</p>
+
+<p>DDD macht diese Fragen sichtbar – und zwingt dazu, sie zu beantworten.</p>
+
+<h2 id="agile-transformation-jenseits-von-prozessen">Agile Transformation jenseits von Prozessen</h2>
+
+<p>Ähnlich verhält es sich mit Agilität. In vielen Organisationen wird Agile Transformation primär über Prozesse, Rollen und Meetings verstanden. Scrum Events werden eingeführt, Boards aufgebaut und neue Begriffe etabliert.</p>
+
+<p>Der eigentliche Kern von Agilität liegt jedoch an anderer Stelle.</p>
+
+<p>Agilität bedeutet, Entscheidungen dort zu treffen, wo das relevante Wissen vorhanden ist. Sie bedeutet, Feedback schnell zu integrieren, Verantwortung zu übernehmen und mit Unsicherheit umzugehen.</p>
+
+<p>In diesem Sinne ist Agilität kein Prozess, sondern ein Organisationsprinzip.</p>
+
+<h2 id="die-verbindung-struktur-trifft-arbeitsweise">Die Verbindung: Struktur trifft Arbeitsweise</h2>
+
+<p>Die Verbindung zwischen Domain-Driven Design und Agilität wird besonders deutlich, wenn beide konsequent zusammengedacht werden.</p>
+
+<p>DDD definiert sinnvolle fachliche Grenzen und Verantwortungsbereiche.<br />
+Agilität beschreibt, wie innerhalb dieser Grenzen gearbeitet und entschieden wird.</p>
+
+<p>Erst durch diese Kombination entsteht ein konsistentes Gesamtbild:</p>
+
+<p>Teams sind entlang fachlicher Domänen organisiert.<br />
+Verantwortung ist klar zugeordnet.<br />
+Entscheidungen werden dort getroffen, wo das Wissen vorhanden ist.<br />
+Abhängigkeiten werden bewusst gestaltet und nicht zufällig erzeugt.</p>
+
+<p>Modernisierung wird damit nicht nur technisch, sondern auch organisatorisch greifbar.</p>
+
+<h2 id="typische-anti-patterns-in-der-praxis">Typische Anti-Patterns in der Praxis</h2>
+
+<p>In vielen Organisationen lassen sich wiederkehrende Muster beobachten, die genau dieser Logik entgegenstehen.</p>
+
+<p>Feature-Teams arbeiten quer durch alle Systembereiche, ohne ein tiefes Verständnis einzelner Domänen zu entwickeln. Architekturentscheidungen werden zentral getroffen, während die Umsetzung dezentral erfolgt. Teams optimieren lokal ihre Ergebnisse, ohne die Auswirkungen auf das Gesamtsystem zu berücksichtigen.</p>
+
+<p>Diese Strukturen führen zwangsläufig zu Systemen, die schwer verständlich, schwer veränderbar und stark voneinander abhängig sind.</p>
+
+<h2 id="konsequenzen-für-it-modernisierung">Konsequenzen für IT-Modernisierung</h2>
+
+<p>Wenn System und Organisation so eng miteinander verbunden sind, ergibt sich eine klare Konsequenz:</p>
+
+<p>IT-Modernisierung kann nicht isoliert als technisches Vorhaben betrachtet werden.</p>
+
+<p>Jede Veränderung an der Systemstruktur hat Auswirkungen auf die Organisation – und umgekehrt.</p>
+
+<p>Das bedeutet nicht, dass Organisationen vollständig neu aufgebaut werden müssen. Es bedeutet jedoch, dass strukturelle Fragen bewusst adressiert werden müssen:</p>
 
 <ul>
-  <li>Das bestehende System bleibt zunächst bestehen</li>
-  <li>Neue Funktionalitäten werden separat entwickelt</li>
-  <li>Zugriffe werden schrittweise umgeleitet</li>
-  <li>Alte Komponenten werden nach und nach entfernt</li>
+  <li>Wie sind Teams geschnitten?</li>
+  <li>Wo liegt Verantwortung?</li>
+  <li>Wie werden Entscheidungen getroffen?</li>
 </ul>
 
-<p>Der entscheidende Vorteil:</p>
+<p>Ohne Antworten auf diese Fragen bleibt Modernisierung unvollständig.</p>
 
-<p>Das Risiko wird verteilt – nicht konzentriert.</p>
+<h2 id="fazit">Fazit</h2>
 
-<h2 id="einstieg-in-die-umsetzung">Einstieg in die Umsetzung</h2>
+<p>IT-Modernisierung ist mehr als ein Architekturprojekt. Sie ist immer auch ein Prozess der Organisationsentwicklung.</p>
 
-<p>Ein typischer Einstieg beginnt mit der Definition klarer Schnittstellen.</p>
+<p>Domain-Driven Design und agile Prinzipien bieten gemeinsam einen Ansatz, um diese beiden Ebenen miteinander zu verbinden.</p>
 
-<p>Diese fungieren als Übergabepunkt zwischen Alt- und Neusystem.</p>
+<p>DDD schafft die strukturelle Grundlage.<br />
+Agilität definiert die Art der Zusammenarbeit.</p>
 
-<p>Darauf aufbauend können einzelne Bereiche gezielt herausgelöst werden:</p>
+<p>Erst wenn beide Aspekte zusammengedacht werden, entsteht eine Umgebung, in der nachhaltige Veränderung möglich ist.</p>
 
-<ul>
-  <li>Identifikation einer klar abgegrenzten Domäne</li>
-  <li>Aufbau einer neuen Implementierung</li>
-  <li>Umlenkung der Anfragen auf das neue System</li>
-  <li>Abschaltung der alten Funktionalität</li>
-</ul>
+<p>Modernisierung bedeutet dann nicht nur, Systeme zu verändern.<br />
+Sondern auch die Art und Weise, wie Entscheidungen getroffen und Verantwortung übernommen wird.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[In den vorherigen Artikeln habe ich unterschiedliche Aspekte moderner IT-Modernisierung beleuchtet. Ausgangspunkt war die Erkenntnis, dass viele Systeme nicht an ihrer Technologie scheitern, sondern an fehlender Klarheit über ihre fachliche Struktur. Domain-Driven Design schafft hier die Grundlage, um Systeme überhaupt verstehen und sinnvoll schneiden zu können.]]></summary></entry><entry><title type="html">IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern</title><link href="https://mehrwert.tech/Strangler-Fig-Pattern" rel="alternate" type="text/html" title="IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern" /><published>2026-03-22T00:00:00+01:00</published><updated>2026-03-22T00:00:00+01:00</updated><id>https://mehrwert.tech/Strangler-Fig-Pattern</id><content type="html" xml:base="https://mehrwert.tech/Strangler-Fig-Pattern"><![CDATA[<h1 id="it-modernisierung-schritt-für-schritt--das-strangler-fig-pattern">IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern</h1>
 
-<p>Dieser Prozess wird iterativ wiederholt.</p>
+<p>Eine der schwierigsten Fragen in der IT-Modernisierung lautet nicht, wie ein Zielsystem aussehen soll, sondern wie der Übergang dorthin gestaltet werden kann. Bestehende Systeme lassen sich selten isoliert ersetzen. Sie sind in Prozesse eingebettet, unterstützen laufende Geschäftsabläufe und können nicht einfach abgeschaltet werden.</p>
+
+<p>Genau hier liegt die Herausforderung: Veränderung ist notwendig, gleichzeitig muss der Betrieb stabil bleiben.</p>
+
+<h2 id="warum-der-big-bang-in-der-praxis-selten-funktioniert">Warum der „Big Bang“ in der Praxis selten funktioniert</h2>
+
+<p>Ein häufiger Ansatz besteht darin, ein System vollständig neu zu entwickeln und zu einem definierten Zeitpunkt zu ersetzen. Dieses Vorgehen wirkt auf den ersten Blick logisch, da es klare Schnittpunkte und ein sauberes Zielbild verspricht.</p>
+
+<p>In der Praxis zeigt sich jedoch, dass dieser Ansatz mit erheblichen Risiken verbunden ist.</p>
+
+<p>Während der Entwicklungsphase müssen bestehende und neue Anforderungen parallel berücksichtigt werden. Das Altsystem entwickelt sich weiter, während gleichzeitig ein neues System entsteht. Am Ende treffen zwei Welten aufeinander, die sich oft nicht mehr synchronisieren lassen.</p>
+
+<p>Zudem entsteht ein hoher Druck auf den finalen Umschaltzeitpunkt. Fehler oder unvollständige Funktionalität lassen sich zu diesem Zeitpunkt kaum noch kontrolliert beheben.</p>
+
+<p>Der Versuch, Komplexität in einem Schritt zu ersetzen, führt häufig dazu, dass sie sich an anderer Stelle erneut aufbaut.</p>
+
+<h2 id="das-grundprinzip-des-strangler-fig-patterns">Das Grundprinzip des Strangler Fig Patterns</h2>
+
+<p>Das Strangler Fig Pattern verfolgt einen anderen Ansatz. Statt eines vollständigen Austauschs wird das bestehende System schrittweise transformiert. Neue Funktionalität entsteht außerhalb des bestehenden Systems und übernimmt nach und nach einzelne Aufgabenbereiche.</p>
+
+<p>Der Name beschreibt dieses Vorgehen sehr treffend: Wie eine Würgefeige einen Baum langsam umschließt, wird das bestehende System Stück für Stück durch neue Komponenten ersetzt.</p>
+
+<p>Der zentrale Gedanke ist dabei nicht die technische Umsetzung, sondern die Art der Veränderung:</p>
+
+<p>Transformation erfolgt inkrementell, kontrolliert und entlang fachlicher Grenzen.</p>
+
+<h2 id="technische-struktur-des-ansatzes">Technische Struktur des Ansatzes</h2>
+
+<p>In der Praxis wird das Strangler Fig Pattern häufig über eine zusätzliche Schicht umgesetzt, die eingehende Anfragen steuert. Diese Schicht entscheidet, ob eine Anfrage an das bestehende System oder an eine neue Komponente weitergeleitet wird.</p>
+
+<p>Im Laufe der Transformation verschiebt sich diese Zuordnung schrittweise.</p>
+
+<p>Zu Beginn werden nahezu alle Anfragen an das bestehende System weitergeleitet. Mit jeder neuen Komponente wird ein weiterer Teil der Funktionalität ausgelagert.</p>
+
+<p>Die zentrale Steuerung ermöglicht es, diese Übergänge kontrolliert zu gestalten und bei Bedarf auch wieder rückgängig zu machen.</p>
+
+<h2 id="ein-konkretes-beispiel-aus-der-praxis">Ein konkretes Beispiel aus der Praxis</h2>
+
+<p>Im Projekt zeigte sich der Bedarf für diesen Ansatz besonders in Bereichen mit hoher Änderungsdynamik. Kundenspezifische Anpassungen mussten regelmäßig umgesetzt werden, während gleichzeitig bestehende Funktionalität stabil bleiben musste.</p>
+
+<p>Ein vollständiger Austausch dieser Bereiche wäre mit hohem Risiko verbunden gewesen, da viele Abhängigkeiten nicht vollständig sichtbar waren.</p>
+
+<p>Stattdessen wurde ein klar abgegrenzter fachlicher Bereich identifiziert und als eigenständige Komponente neu implementiert. Die Zugriffe auf diesen Bereich wurden gezielt über eine Routing-Schicht gesteuert.</p>
+
+<p>Neue Anforderungen wurden ausschließlich in der neuen Komponente umgesetzt, während bestehende Funktionalität zunächst im Altsystem verblieb. Schritt für Schritt wurden weitere Funktionen migriert, bis der entsprechende Bereich vollständig aus dem Altsystem herausgelöst war.</p>
+
+<p>Dieses Vorgehen ermöglichte es, Veränderungen umzusetzen, ohne den laufenden Betrieb zu gefährden.</p>
 
 <h2 id="verbindung-zu-domain-driven-design">Verbindung zu Domain-Driven Design</h2>
 
 <p>Das Strangler Fig Pattern entfaltet seine volle Wirkung erst in Kombination mit Domain-Driven Design.</p>
 
-<p>DDD hilft dabei:</p>
+<p>Die zentrale Frage lautet nicht, welche technischen Komponenten ersetzt werden sollen, sondern welche fachlichen Domänen sinnvoll geschnitten werden können.</p>
+
+<p>DDD liefert genau diese Struktur:</p>
 <ul>
-  <li>sinnvolle fachliche Schnitte zu identifizieren</li>
-  <li>klare Verantwortlichkeiten zu definieren</li>
-  <li>Abhängigkeiten zu verstehen</li>
+  <li>klare fachliche Grenzen</li>
+  <li>definierte Verantwortlichkeiten</li>
+  <li>nachvollziehbare Abhängigkeiten</li>
 </ul>
 
-<p>Ohne diese Grundlage besteht die Gefahr, lediglich technische Teile zu verschieben –<br />
-statt echte Komplexität zu reduzieren.</p>
+<p>Ohne diese Grundlage besteht die Gefahr, lediglich technische Teile zu verschieben, während die eigentliche Komplexität bestehen bleibt.</p>
 
-<h2 id="qualität-während-der-transformation">Qualität während der Transformation</h2>
+<p>Mit einem klaren Domänenmodell hingegen lassen sich gezielte, fachlich sinnvolle Transformationen durchführen.</p>
 
-<p>Während der schrittweisen Migration stellt sich eine zentrale Frage:</p>
+<h2 id="qualität-und-risiko-während-der-migration">Qualität und Risiko während der Migration</h2>
 
-<p>Wie stellen wir sicher, dass sich das Verhalten nicht unbeabsichtigt verändert?</p>
+<p>Ein wesentlicher Aspekt des Strangler Fig Patterns ist der parallele Betrieb von Alt- und Neusystem. Dadurch entsteht eine Übergangsphase, in der beide Systeme aktiv genutzt werden.</p>
 
-<p>Hier kommt beispielsweise <strong>Golden Master Testing</strong> ins Spiel.</p>
+<p>Diese Phase erfordert besondere Aufmerksamkeit, insbesondere im Hinblick auf Konsistenz und Qualität.</p>
 
-<p>Bestehende Funktionalität wird abgesichert, während neue Komponenten entstehen.<br />
-So können Änderungen kontrolliert und nachvollziehbar umgesetzt werden.</p>
+<p>Ansätze wie Golden Master Testing können hier eine wichtige Rolle spielen. Bestehendes Verhalten wird abgesichert, während neue Komponenten entstehen. Veränderungen werden sichtbar und können gezielt bewertet werden.</p>
 
-<h2 id="typische-herausforderungen">Typische Herausforderungen</h2>
+<p>Gleichzeitig müssen Aspekte wie Datenkonsistenz, Synchronisation und Monitoring aktiv adressiert werden. Der Vorteil des inkrementellen Vorgehens liegt darin, dass diese Herausforderungen schrittweise gelöst werden können.</p>
 
-<p>Auch dieser Ansatz ist nicht trivial.</p>
+<h2 id="typische-herausforderungen-und-trade-offs">Typische Herausforderungen und Trade-offs</h2>
 
-<p>Häufige Herausforderungen sind:</p>
+<p>Das Strangler Fig Pattern reduziert Risiken, eliminiert sie jedoch nicht.</p>
 
+<p>Zu den typischen Herausforderungen zählen:</p>
 <ul>
-  <li>Unklare Schnittstellen im bestehenden System</li>
-  <li>Versteckte Abhängigkeiten</li>
-  <li>Datenmigration und Synchronisation</li>
-  <li>Paralleler Betrieb von Alt- und Neusystem</li>
+  <li>Unklare oder fehlende Schnittstellen im bestehenden System</li>
+  <li>Versteckte Abhängigkeiten zwischen Systemteilen</li>
+  <li>Synchronisation von Daten zwischen Alt- und Neusystem</li>
+  <li>Erhöhter Betriebsaufwand durch parallele Systemlandschaften</li>
 </ul>
 
-<p>Diese Aspekte müssen aktiv adressiert werden.</p>
+<p>Diese Aspekte sind Teil des Ansatzes und müssen bewusst eingeplant werden.</p>
 
-<h2 id="warum-sich-der-ansatz-lohnt">Warum sich der Ansatz lohnt</h2>
-
-<p>Trotz der Herausforderungen bietet das Strangler Fig Pattern entscheidende Vorteile:</p>
-
-<ul>
-  <li>Reduziertes Risiko durch inkrementelle Umsetzung</li>
-  <li>Frühe sichtbare Ergebnisse</li>
-  <li>Bessere Steuerbarkeit der Transformation</li>
-  <li>Möglichkeit zur kontinuierlichen Anpassung</li>
-</ul>
-
-<p>Modernisierung wird damit kein einmaliges Projekt, sondern ein steuerbarer Prozess.</p>
+<p>Der zentrale Trade-off besteht darin, kurzfristig mehr Komplexität im Betrieb in Kauf zu nehmen, um langfristig Komplexität im System zu reduzieren.</p>
 
 <h2 id="fazit">Fazit</h2>
 
-<p>Das Strangler Fig Pattern ist kein technischer Trick.<br />
-Es ist ein strategischer Ansatz für den Umgang mit Komplexität.</p>
+<p>Das Strangler Fig Pattern ist kein technischer Trick, sondern ein strategischer Ansatz für den Umgang mit gewachsenen Systemen.</p>
 
-<p>In Kombination mit Domain-Driven Design und gezielter Qualitätssicherung entsteht ein belastbares Fundament für nachhaltige IT-Modernisierung.</p>
+<p>Es verschiebt den Fokus von einmaligen, risikobehafteten Großprojekten hin zu einer kontrollierten, schrittweisen Transformation.</p>
 
-<p>Nicht durch radikale Brüche.<br />
-Sondern durch kontrollierte, kontinuierliche Veränderung.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Eine der schwierigsten Fragen in der IT-Modernisierung lautet:]]></summary></entry><entry><title type="html">Qualität sichern während der Modernisierung – mit Golden Master Testing</title><link href="https://mehrwert.tech/Golder-Master-Testing" rel="alternate" type="text/html" title="Qualität sichern während der Modernisierung – mit Golden Master Testing" /><published>2026-03-22T00:00:00+01:00</published><updated>2026-03-22T00:00:00+01:00</updated><id>https://mehrwert.tech/Golder-Master-Testing</id><content type="html" xml:base="https://mehrwert.tech/Golder-Master-Testing"><![CDATA[<p>IT-Modernisierung bedeutet Veränderung.<br />
-Und jede Veränderung bringt ein Risiko mit sich:</p>
+<p>In Kombination mit Domain-Driven Design und gezielter Qualitätssicherung entsteht ein belastbarer Weg, um bestehende Systeme weiterzuentwickeln, ohne ihre Stabilität zu gefährden.</p>
 
-<p>Funktioniert das System danach noch genauso wie zuvor?</p>
+<p>Nicht durch radikale Brüche.
+Sondern durch kontinuierliche, nachvollziehbare Veränderung.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern]]></summary></entry><entry><title type="html">Qualität sichern während der Modernisierung – mit Golden Master Testing</title><link href="https://mehrwert.tech/Golder-Master-Testing" rel="alternate" type="text/html" title="Qualität sichern während der Modernisierung – mit Golden Master Testing" /><published>2026-03-21T00:00:00+01:00</published><updated>2026-03-21T00:00:00+01:00</updated><id>https://mehrwert.tech/Golder-Master-Testing</id><content type="html" xml:base="https://mehrwert.tech/Golder-Master-Testing"><![CDATA[<p>Eine der zentralen Herausforderungen in der IT-Modernisierung ist nicht die Zielarchitektur, sondern der Weg dorthin. Bestehende Systeme müssen verändert, erweitert oder schrittweise ersetzt werden – und gleichzeitig muss sichergestellt werden, dass das bestehende Verhalten stabil bleibt.</p>
 
-<p>Gerade bei gewachsenen Systemen ist diese Frage schwer zu beantworten.<br />
-Zu viele Sonderfälle, zu viele implizite Regeln, zu wenig Dokumentation.</p>
+<p>Genau hier entsteht ein Spannungsfeld:</p>
 
-<p>Und genau hier liegt eines der größten Risiken jeder Modernisierung.</p>
+<p>Auf der einen Seite besteht der Druck, Systeme zu verändern und weiterzuentwickeln.<br />
+Auf der anderen Seite steht das Risiko, bestehende Funktionalität unbeabsichtigt zu verändern oder zu verlieren.</p>
 
-<h2 id="das-eigentliche-problem">Das eigentliche Problem</h2>
+<p>In gewachsenen Systemen ist dieses Risiko besonders hoch.</p>
 
-<p>In vielen Legacy-Systemen steckt die fachliche Logik nicht nur im Code – sie ist über Jahre gewachsen, erweitert und angepasst worden.</p>
+<h2 id="wenn-verhalten-wichtiger-ist-als-verständnis">Wenn Verhalten wichtiger ist als Verständnis</h2>
 
-<p>Oft gilt:<br />
-Das System funktioniert – aber niemand weiß genau, warum.</p>
+<p>In vielen Legacy-Systemen ist die fachliche Logik über Jahre hinweg gewachsen. Anforderungen wurden ergänzt, Sonderfälle implementiert und Anpassungen vorgenommen, oft ohne vollständige Dokumentation.</p>
 
-<p>Ein klassischer Ansatz wäre, umfassende Tests zu schreiben.<br />
-Doch in der Praxis ist das kaum realistisch:</p>
+<p>Das Ergebnis ist ein System, das zuverlässig funktioniert – dessen Verhalten jedoch nur noch in Teilen verstanden wird.</p>
 
-<ul>
-  <li>Die vollständige fachliche Logik ist nicht bekannt</li>
-  <li>Anforderungen sind unvollständig oder widersprüchlich</li>
-  <li>Der Aufwand für klassische Testabdeckung ist enorm</li>
-</ul>
+<p>In solchen Situationen stößt ein klassischer Testansatz schnell an Grenzen. Um fachlich korrekte Tests zu schreiben, müsste das Verhalten des Systems vollständig bekannt sein. Genau dieses Wissen fehlt jedoch häufig.</p>
 
-<p>Die Folge:<br />
-Modernisierung wird zum Blindflug.</p>
+<p>Die Alternative ist nicht, auf Tests zu verzichten.<br />
+Die Alternative ist, den Ansatz zu verändern.</p>
 
-<h2 id="die-idee-des-golden-master-testing">Die Idee des Golden Master Testing</h2>
+<h2 id="golden-master-testing-als-pragmatischer-einstieg">Golden Master Testing als pragmatischer Einstieg</h2>
 
-<p>Golden Master Testing (auch bekannt als <strong>Characterization Testing</strong>) verfolgt einen anderen Ansatz.</p>
+<p>Golden Master Testing, häufig auch als Characterization Testing bezeichnet, verfolgt einen bewusst pragmatischen Ansatz.</p>
 
-<p>Statt zu definieren, wie ein System <em>funktionieren soll</em>, wird zunächst erfasst, wie es sich <em>tatsächlich verhält</em>.</p>
+<p>Anstatt zu definieren, wie ein System funktionieren sollte, wird zunächst erfasst, wie es sich tatsächlich verhält. Dieses Verhalten wird dokumentiert und dient als Referenz für zukünftige Änderungen.</p>
 
-<p>Das Prinzip ist einfach:</p>
+<p>Das Prinzip ist dabei einfach: Bestehende Funktionalität wird mit realistischen Eingaben ausgeführt, die Ergebnisse werden aufgezeichnet und später bei Änderungen erneut erzeugt und verglichen.</p>
 
-<ol>
-  <li>Bestehende Funktionalität wird mit realistischen Eingaben ausgeführt</li>
-  <li>Die Ergebnisse werden aufgezeichnet („Golden Master“)</li>
-  <li>Änderungen am System werden gegen diesen Referenzzustand geprüft</li>
-</ol>
+<p>Ziel ist nicht, fachliche Korrektheit zu validieren, sondern unbeabsichtigte Veränderungen sichtbar zu machen.</p>
 
-<p>Ziel ist nicht Perfektion.<br />
-Ziel ist Stabilität.</p>
+<h2 id="ein-konkretes-beispiel-aus-der-praxis">Ein konkretes Beispiel aus der Praxis</h2>
 
-<h2 id="warum-das-in-der-modernisierung-so-wertvoll-ist">Warum das in der Modernisierung so wertvoll ist</h2>
+<p>Im Projekt zeigte sich diese Herausforderung besonders deutlich in einem Bereich, der für kundenspezifische Anpassungen zuständig war.</p>
 
-<p>Golden Master Testing ermöglicht es, bestehendes Verhalten abzusichern – ohne es vollständig verstehen zu müssen.</p>
+<p>Neue Anforderungen mussten regelmäßig umgesetzt werden, gleichzeitig durfte bestehende Funktionalität nicht beeinträchtigt werden. Genau hier kam es jedoch immer wieder zu Problemen. Änderungen an scheinbar isolierten Stellen führten zu unerwarteten Seiteneffekten in anderen Bereichen des Systems.</p>
 
-<p>Das ist besonders in frühen Phasen entscheidend:</p>
+<p>Ein klassischer Testansatz war in diesem Fall nicht realistisch, da die vollständige fachliche Logik nicht dokumentiert war und sich viele Sonderfälle nur implizit im Systemverhalten widerspiegelten.</p>
 
-<ul>
-  <li>Beim Refactoring bestehender Komponenten</li>
-  <li>Beim Herauslösen einzelner Domänen</li>
-  <li>Beim Aufbau neuer Services parallel zum Altsystem</li>
-</ul>
+<p>Der gewählte Ansatz bestand darin, typische Eingaben aus bestehenden Installationen zu nutzen und das aktuelle Verhalten des Systems systematisch aufzuzeichnen. Diese Daten bildeten den sogenannten „Golden Master“.</p>
 
-<p>Der große Vorteil:</p>
+<p>Bei jeder Änderung wurde das System erneut mit denselben Eingaben ausgeführt und die Ergebnisse automatisiert verglichen. Abweichungen wurden sichtbar gemacht und konnten gezielt analysiert werden.</p>
 
-<p>Das Risiko von unbeabsichtigten Änderungen wird drastisch reduziert.</p>
+<p>Dieser Ansatz führte nicht dazu, dass das System vollständig verstanden wurde.<br />
+Er stellte jedoch sicher, dass bestehendes Verhalten nicht unbemerkt verändert wurde.</p>
 
-<h2 id="ein-pragmatischer-einsatz">Ein pragmatischer Einsatz</h2>
+<h2 id="wo-der-ansatz-besonders-wirksam-ist">Wo der Ansatz besonders wirksam ist</h2>
 
-<p>In der Praxis hat sich ein iteratives Vorgehen bewährt:</p>
+<p>Golden Master Testing entfaltet seine Stärke vor allem in Situationen, in denen Systeme schrittweise verändert werden.</p>
+
+<p>Typische Einsatzfelder sind:</p>
 
 <ul>
-  <li>Auswahl kritischer Use Cases</li>
-  <li>Aufzeichnung von Ein- und Ausgaben</li>
-  <li>Aufbau einer automatisierten Vergleichslogik</li>
-  <li>Schrittweise Erweiterung der Testbasis</li>
+  <li>Refactoring bestehender Komponenten</li>
+  <li>Herauslösen einzelner Domänen im Zuge einer Modernisierung</li>
+  <li>Aufbau neuer Services parallel zum bestehenden System</li>
+  <li>Stabilisierung kritischer Bereiche mit hoher Änderungsrate</li>
 </ul>
 
-<p>Wichtig ist dabei:</p>
+<p>Gerade in frühen Phasen einer Transformation schafft dieser Ansatz eine wichtige Grundlage: Veränderungen werden möglich, ohne die Stabilität des Gesamtsystems zu gefährden.</p>
 
-<p>Nicht alles muss getestet werden.<br />
-Aber das Richtige.</p>
+<h2 id="grenzen-und-bewusste-entscheidungen">Grenzen und bewusste Entscheidungen</h2>
 
-<h2 id="grenzen-des-ansatzes">Grenzen des Ansatzes</h2>
+<p>Trotz seiner Vorteile ist Golden Master Testing kein Allheilmittel.</p>
 
-<p>Golden Master Testing ist kein Ersatz für fachliche Tests.</p>
+<p>Der Ansatz sichert bestehendes Verhalten – unabhängig davon, ob dieses fachlich korrekt oder optimal ist. In gewachsenen Systemen bedeutet das häufig, dass auch unerwünschtes Verhalten zunächst konserviert wird.</p>
 
-<p>Es zeigt, ob sich das Verhalten verändert hat –<br />
-nicht, ob es fachlich korrekt ist.</p>
+<p>Diese Einschränkung ist bewusst in Kauf zu nehmen.</p>
 
-<p>Gerade in gewachsenen Systemen kann es sinnvoll sein, bestehendes Verhalten bewusst zu verändern.</p>
+<p>Golden Master Tests beantworten die Frage, ob sich etwas verändert hat. Sie beantworten nicht, ob diese Veränderung sinnvoll oder notwendig ist. Diese Entscheidung bleibt weiterhin eine fachliche.</p>
 
-<p>Deshalb gilt:</p>
+<p>Ein weiterer Aspekt ist der Umgang mit Änderungen. Nicht jede Abweichung ist ein Fehler. In vielen Fällen sind Anpassungen gewollt und Teil der Weiterentwicklung. Entscheidend ist, dass diese Veränderungen bewusst erfolgen und nachvollziehbar sind.</p>
 
-<p>Golden Master Tests sichern den Status quo.<br />
-Die fachliche Weiterentwicklung bleibt eine bewusste Entscheidung.</p>
+<h2 id="zusammenspiel-mit-domain-driven-design">Zusammenspiel mit Domain-Driven Design</h2>
 
-<h2 id="verbindung-zu-domain-driven-design">Verbindung zu Domain-Driven Design</h2>
+<p>Im Kontext von IT-Modernisierung entfaltet Golden Master Testing seine volle Wirkung in Kombination mit Domain-Driven Design.</p>
 
-<p>In Kombination mit Domain-Driven Design entsteht ein wirkungsvoller Ansatz:</p>
+<p>Während DDD dabei hilft, fachliche Strukturen sichtbar zu machen und sinnvolle Schnitte im System zu definieren, sorgt Golden Master Testing dafür, dass diese Veränderungen kontrolliert umgesetzt werden können.</p>
 
-<ul>
-  <li>DDD schafft Struktur und Verständnis</li>
-  <li>Golden Master Testing schafft Sicherheit bei der Umsetzung</li>
-</ul>
-
-<p>Während Domänen identifiziert und neu geschnitten werden, sorgt Golden Master Testing dafür, dass bestehende Funktionalität stabil bleibt.</p>
-
-<p>So wird Modernisierung nicht nur planbar – sondern auch kontrollierbar.</p>
+<p>Das Domänenmodell gibt die Richtung vor.<br />
+Golden Master Testing reduziert das Risiko auf dem Weg dorthin.</p>
 
 <h2 id="fazit">Fazit</h2>
 
-<p>Modernisierung ohne Absicherung ist riskant.<br />
-Klassische Testansätze stoßen in komplexen Legacy-Systemen schnell an ihre Grenzen.</p>
+<p>In komplexen Legacy-Systemen ist vollständiges Verständnis oft nicht realistisch. Gleichzeitig ist Stabilität eine zwingende Voraussetzung für jede Form der Weiterentwicklung.</p>
 
-<p>Golden Master Testing bietet einen pragmatischen Weg, bestehendes Verhalten zu sichern und Veränderungen kontrolliert umzusetzen.</p>
+<p>Golden Master Testing bietet einen pragmatischen Weg, mit dieser Situation umzugehen. Es ermöglicht Veränderungen, ohne vollständige Sicherheit über alle fachlichen Details zu benötigen.</p>
 
-<p>Nicht perfekt.<br />
-Aber wirkungsvoll.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[IT-Modernisierung bedeutet Veränderung. Und jede Veränderung bringt ein Risiko mit sich:]]></summary></entry><entry><title type="html">DDD trifft LLMs – warum AI ohne Domänenverständnis scheitert</title><link href="https://mehrwert.tech/DDD-3" rel="alternate" type="text/html" title="DDD trifft LLMs – warum AI ohne Domänenverständnis scheitert" /><published>2026-03-20T00:00:00+01:00</published><updated>2026-03-20T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-3</id><content type="html" xml:base="https://mehrwert.tech/DDD-3"><![CDATA[<p>Die Erwartungen an Large Language Models (LLMs) sind hoch.<br />
-Code generieren, Systeme verstehen, ganze Anwendungen entwickeln – vieles scheint plötzlich einfacher zu werden.</p>
+<p>Nicht als Ersatz für saubere fachliche Tests.<br />
+Sondern als Grundlage, um Modernisierung überhaupt erst kontrollierbar zu machen.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Eine der zentralen Herausforderungen in der IT-Modernisierung ist nicht die Zielarchitektur, sondern der Weg dorthin. Bestehende Systeme müssen verändert, erweitert oder schrittweise ersetzt werden – und gleichzeitig muss sichergestellt werden, dass das bestehende Verhalten stabil bleibt.]]></summary></entry><entry><title type="html">DDD trifft LLMs – warum AI ohne Domänenverständnis scheitert</title><link href="https://mehrwert.tech/DDD-3" rel="alternate" type="text/html" title="DDD trifft LLMs – warum AI ohne Domänenverständnis scheitert" /><published>2026-03-20T00:00:00+01:00</published><updated>2026-03-20T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-3</id><content type="html" xml:base="https://mehrwert.tech/DDD-3"><![CDATA[<p>Der Einsatz von Large Language Models (LLMs) verändert aktuell die Softwareentwicklung spürbar. Code kann generiert, bestehende Systeme analysiert und Integrationen schneller umgesetzt werden als noch vor wenigen Jahren. Viele Aufgaben, die zuvor spezialisiertes Wissen erforderten, lassen sich heute mit vergleichsweise geringem Aufwand umsetzen.</p>
 
-<p>Doch in der Praxis zeigt sich ein anderes Bild.</p>
+<p>Diese Entwicklung führt zu einer naheliegenden Erwartung: Wenn Technologie einen immer größeren Teil der Umsetzung übernimmt, müsste auch die Komplexität bestehender Systeme leichter beherrschbar werden.</p>
 
-<p>LLMs sind extrem leistungsfähig.<br />
-Aber sie verstärken das, was bereits vorhanden ist.</p>
+<p>In der Praxis zeigt sich jedoch ein differenzierteres Bild.</p>
 
-<p>Struktur wird besser.<br />
-Chaos wird schneller.</p>
+<h2 id="produktivität-steigt--komplexität-bleibt">Produktivität steigt – Komplexität bleibt</h2>
 
-<h2 id="das-eigentliche-problem">Das eigentliche Problem</h2>
+<p>LLMs sind in der Lage, bestehende Strukturen effizient zu nutzen. Sie können Code auf Basis vorhandener Muster erzeugen, bestehende Logik erweitern und repetitive Aufgaben deutlich beschleunigen. In gut strukturierten Systemen führt das zu messbaren Produktivitätsgewinnen.</p>
 
-<p>In vielen Organisationen fehlt ein klares Domänenverständnis.</p>
+<p>In gewachsenen, schwer verständlichen Systemen zeigt sich jedoch eine andere Dynamik.</p>
 
-<p>Systeme sind historisch gewachsen, Verantwortlichkeiten unscharf, fachliche Grenzen nicht sauber definiert.<br />
-Genau in diesen Umgebungen werden LLMs aktuell eingesetzt.</p>
+<p>Dort, wo fachliche Zusammenhänge unklar sind und Grenzen zwischen Systemteilen nicht sauber definiert sind, fehlt den Modellen der notwendige Kontext. Die generierten Ergebnisse orientieren sich an bestehenden Strukturen – unabhängig davon, ob diese sinnvoll oder problematisch sind.</p>
 
-<p>Die Hoffnung:<br />
-Produktivität steigern, Entwicklung beschleunigen, Komplexität reduzieren.</p>
+<p>Komplexität wird in diesem Fall nicht reduziert, sondern reproduziert.</p>
 
-<p>Die Realität:</p>
+<h2 id="kontext-als-entscheidender-faktor">Kontext als entscheidender Faktor</h2>
 
-<p>Ohne klare Struktur liefern LLMs zwar Ergebnisse – aber keine nachhaltigen Lösungen.</p>
+<p>LLMs arbeiten nicht isoliert, sondern immer auf Basis von Kontext. Dieser Kontext ergibt sich aus Code, Daten, Beschreibungen und impliziten Annahmen über das System.</p>
 
-<h2 id="llms-brauchen-kontext">LLMs brauchen Kontext</h2>
-
-<p>Ein LLM arbeitet immer auf Basis von Kontext.</p>
-
-<p>Fehlt dieser Kontext oder ist er widersprüchlich, entstehen typische Probleme:</p>
+<p>Ist dieser Kontext unvollständig oder widersprüchlich, hat das direkte Auswirkungen auf die Ergebnisse. Typische Muster sind:</p>
 
 <ul>
-  <li>Generierter Code passt nicht zur bestehenden Architektur</li>
-  <li>Fachliche Regeln werden inkonsistent umgesetzt</li>
-  <li>Abhängigkeiten werden verstärkt statt reduziert</li>
-  <li>Technische Schulden wachsen schneller</li>
+  <li>Generierter Code fügt sich nicht konsistent in die bestehende Architektur ein</li>
+  <li>Fachliche Regeln werden unterschiedlich interpretiert und umgesetzt</li>
+  <li>Abhängigkeiten werden verstärkt, anstatt aufgelöst zu werden</li>
+  <li>Technische Schulden wachsen schneller als zuvor</li>
 </ul>
 
-<p>Das Problem liegt nicht im Modell.<br />
-Es liegt im System, in dem es eingesetzt wird.</p>
+<p>Diese Effekte sind keine Schwäche der Modelle selbst, sondern eine Folge der Umgebung, in der sie eingesetzt werden.</p>
 
-<h2 id="warum-ddd-wichtiger-wird">Warum DDD wichtiger wird</h2>
+<h2 id="warum-domänenverständnis-an-bedeutung-gewinnt">Warum Domänenverständnis an Bedeutung gewinnt</h2>
 
-<p>Genau hier gewinnt Domain-Driven Design eine neue Bedeutung.</p>
+<p>Vor diesem Hintergrund wird deutlich, dass die Bedeutung von Domänenverständnis nicht abnimmt, sondern zunimmt.</p>
 
-<p>DDD schafft:</p>
-<ul>
-  <li>Klare fachliche Grenzen</li>
-  <li>Eindeutige Verantwortlichkeiten</li>
-  <li>Gemeinsame Sprache zwischen Business und IT</li>
-</ul>
+<p>Domain-Driven Design bietet genau die Struktur, die für den sinnvollen Einsatz von LLMs erforderlich ist. Klare fachliche Grenzen, definierte Verantwortlichkeiten und eine gemeinsame Sprache zwischen Business und IT schaffen den Kontext, den die Modelle benötigen.</p>
 
-<p>Diese Elemente sind nicht nur für Menschen relevant.<br />
-Sie sind die Grundlage dafür, dass LLMs sinnvoll eingesetzt werden können.</p>
+<p>In Systemen mit klar abgegrenzten Domänen entstehen deutlich bessere Ergebnisse. Anforderungen lassen sich präziser formulieren, Prompts werden konkreter und generierter Code ist konsistenter. Entscheidungen bleiben nachvollziehbar, da sie sich auf klar definierte Zusammenhänge beziehen.</p>
 
-<p>Ein klar abgegrenzter Kontext führt zu besseren Ergebnissen:</p>
+<p>Der Unterschied liegt nicht in der Leistungsfähigkeit der Technologie, sondern in der Qualität der zugrunde liegenden Struktur.</p>
 
-<ul>
-  <li>Prompts werden präziser</li>
-  <li>Generierter Code wird konsistenter</li>
-  <li>Entscheidungen werden nachvollziehbarer</li>
-</ul>
+<h2 id="ein-perspektivwechsel-in-der-diskussion">Ein Perspektivwechsel in der Diskussion</h2>
 
-<p>LLMs funktionieren am besten in klar definierten Domänen.</p>
+<p>Die aktuelle Diskussion rund um LLMs fokussiert sich häufig auf die Frage, in welchem Umfang menschliche Entwicklungstätigkeiten ersetzt werden können. Diese Perspektive greift zu kurz.</p>
 
-<h2 id="ein-perspektivwechsel">Ein Perspektivwechsel</h2>
+<p>Die entscheidendere Frage lautet: Unter welchen strukturellen Voraussetzungen lassen sich LLMs sinnvoll einsetzen?</p>
 
-<p>Die aktuelle Diskussion wird oft falsch geführt.</p>
+<p>Die Antwort führt zurück zu grundlegenden Prinzipien der Softwareentwicklung: klare Verantwortlichkeiten, verständliche fachliche Modelle und bewusst gestaltete Systemgrenzen.</p>
 
-<p>Nicht:<br />
-„Ersetzen LLMs Entwickler?“</p>
-
-<p>Sondern:<br />
-„Wie müssen Systeme strukturiert sein, damit LLMs sinnvoll eingesetzt werden können?“</p>
-
-<p>Die Antwort führt direkt zurück zu den Grundlagen:<br />
-Domänenverständnis, klare Grenzen und saubere Verantwortlichkeiten.</p>
+<p>Diese Prinzipien sind nicht neu. Sie werden jedoch durch den Einsatz von LLMs noch relevanter.</p>
 
 <h2 id="die-rolle-moderner-it-führung">Die Rolle moderner IT-Führung</h2>
 
-<p>Für Unternehmen entsteht daraus eine neue Herausforderung.</p>
+<p>Für Unternehmen ergibt sich daraus eine neue Herausforderung. Es reicht nicht aus, neue Technologien einzuführen und auf kurzfristige Effizienzgewinne zu setzen. Entscheidend ist die Fähigkeit, die eigene Systemlandschaft so zu strukturieren, dass diese Technologien sinnvoll wirken können.</p>
 
-<p>Es reicht nicht, neue Tools einzuführen.<br />
-Es braucht eine klare Struktur, in der diese Tools wirken können.</p>
+<p>Moderne IT-Führung bedeutet in diesem Kontext, Komplexität sichtbar zu machen, Strukturen bewusst zu gestalten und Entscheidungen auf Basis eines klaren Domänenverständnisses zu treffen.</p>
 
-<p>Genau hier liegt die Rolle moderner IT-Führung:</p>
-
-<ul>
-  <li>Komplexität sichtbar machen</li>
-  <li>Strukturen schaffen</li>
-  <li>Entscheidungen fundiert treffen</li>
-</ul>
-
-<p>LLMs sind ein Beschleuniger.<br />
-Ob sie Fortschritt oder Chaos beschleunigen, hängt vom System ab.</p>
+<p>LLMs wirken dabei als Verstärker. Sie beschleunigen bestehende Strukturen – im positiven wie im negativen Sinne.</p>
 
 <h2 id="fazit">Fazit</h2>
 
-<p>Domain-Driven Design ist kein Gegenpol zu AI.<br />
-Es ist die Voraussetzung dafür, dass AI sinnvoll eingesetzt werden kann.</p>
+<p>LLMs sind ein leistungsfähiges Werkzeug, verändern jedoch nicht die grundlegenden Herausforderungen komplexer Systeme. Ohne ein klares Verständnis der fachlichen Struktur bleiben ihre Ergebnisse begrenzt.</p>
 
-<p>Wer heute in LLMs investiert, sollte gleichzeitig in Domänenverständnis investieren.</p>
+<p>Domain-Driven Design ist daher kein Gegenpol zu AI, sondern eine Voraussetzung für ihren sinnvollen Einsatz.</p>
 
-<p>Nicht als theoretisches Konzept.<br />
-Sondern als Grundlage für echte, nachhaltige Modernisierung.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Die Erwartungen an Large Language Models (LLMs) sind hoch. Code generieren, Systeme verstehen, ganze Anwendungen entwickeln – vieles scheint plötzlich einfacher zu werden.]]></summary></entry><entry><title type="html">Von Domänen zu Entscheidungen – wie DDD echte IT-Modernisierung ermöglicht</title><link href="https://mehrwert.tech/DDD-2" rel="alternate" type="text/html" title="Von Domänen zu Entscheidungen – wie DDD echte IT-Modernisierung ermöglicht" /><published>2026-03-18T00:00:00+01:00</published><updated>2026-03-18T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-2</id><content type="html" xml:base="https://mehrwert.tech/DDD-2"><![CDATA[<p>Im ersten Schritt ging es darum, das System zu verstehen.<br />
-Domänen sichtbar zu machen, Abhängigkeiten zu erkennen und ein gemeinsames Verständnis zu schaffen.</p>
+<p>Wer heute in den Einsatz von LLMs investiert, sollte gleichzeitig in die Struktur seiner Systeme investieren. Nicht als theoretisches Konzept, sondern als praktische Grundlage für nachhaltige IT-Modernisierung.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Der Einsatz von Large Language Models (LLMs) verändert aktuell die Softwareentwicklung spürbar. Code kann generiert, bestehende Systeme analysiert und Integrationen schneller umgesetzt werden als noch vor wenigen Jahren. Viele Aufgaben, die zuvor spezialisiertes Wissen erforderten, lassen sich heute mit vergleichsweise geringem Aufwand umsetzen.]]></summary></entry><entry><title type="html">Von Domänen zu Entscheidungen – wie DDD echte IT-Modernisierung ermöglicht</title><link href="https://mehrwert.tech/DDD-2" rel="alternate" type="text/html" title="Von Domänen zu Entscheidungen – wie DDD echte IT-Modernisierung ermöglicht" /><published>2026-03-18T00:00:00+01:00</published><updated>2026-03-18T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-2</id><content type="html" xml:base="https://mehrwert.tech/DDD-2"><![CDATA[<p>Im ersten Schritt ging es darum, das System zu verstehen. Domänen sichtbar zu machen, Abhängigkeiten zu erkennen und ein gemeinsames Verständnis zwischen Fachbereich und IT aufzubauen.</p>
 
-<p>Doch Verständnis allein reicht nicht.</p>
+<p>Doch genau an diesem Punkt beginnt die eigentliche Herausforderung.</p>
 
-<p>Die eigentliche Herausforderung beginnt danach:<br />
-Wie werden aus diesem Verständnis konkrete Entscheidungen?</p>
+<p>Ein Domänenmodell allein verändert noch nichts. Es schafft Transparenz – aber noch keine Entscheidungen. Die zentrale Frage lautet daher: Wie wird aus diesem Verständnis eine konkrete, steuerbare Modernisierung?</p>
 
-<h2 id="vom-modell-zur-priorisierung">Vom Modell zur Priorisierung</h2>
+<h2 id="vom-verständnis-zur-priorisierung">Vom Verständnis zur Priorisierung</h2>
 
-<p>Ein strukturiertes Domänenmodell schafft Transparenz.<br />
-Doch erst durch gezielte Bewertung entsteht Entscheidungsfähigkeit.</p>
+<p>Ein strukturiertes Domänenmodell macht sichtbar, wie ein System fachlich aufgebaut ist. Es zeigt, welche Bereiche existieren, wie sie zusammenhängen und wo Komplexität entsteht.</p>
 
-<p>Im Workshop wurden die identifizierten Domänen systematisch eingeordnet:</p>
+<p>Was zunächst wie eine reine Analyse wirkt, wird schnell zur Grundlage für Priorisierung. Denn mit der zunehmenden Transparenz wird deutlich, dass nicht alle Teile des Systems gleich relevant sind.</p>
 
-<ul>
-  <li>Welche Domänen sind geschäftskritisch?</li>
-  <li>Wo entsteht der größte Mehrwert für das Unternehmen?</li>
-  <li>Welche Bereiche verursachen aktuell die größten Probleme?</li>
-</ul>
+<p>Einige Domänen sind eng mit dem Kerngeschäft verknüpft und entscheiden über die Wettbewerbsfähigkeit eines Unternehmens. Andere erfüllen unterstützende Funktionen oder sind historisch gewachsen, ohne heute noch einen klaren Mehrwert zu liefern.</p>
 
-<p>Diese Bewertung macht einen entscheidenden Unterschied.</p>
+<p>Ohne diese Differenzierung entstehen typische Probleme: Teams arbeiten parallel an unterschiedlichen Themen, ohne eine gemeinsame Richtung zu haben. Ressourcen werden verteilt, ohne dass klar ist, wo sie den größten Effekt erzielen. Modernisierung wird zum Sammelbegriff für viele Einzelinitiativen, aber nicht zu einer gezielten Veränderung.</p>
 
-<p>Nicht mehr alle Teile des Systems sind gleich wichtig.<br />
-Nicht mehr alles muss gleichzeitig modernisiert werden.</p>
+<p>Die systematische Bewertung von Domänen – etwa nach Business-Relevanz, Veränderungsdruck oder technischer Komplexität – schafft hier erstmals eine belastbare Grundlage für Entscheidungen.</p>
 
-<h2 id="abhängigkeiten-sichtbar-machen">Abhängigkeiten sichtbar machen</h2>
+<h2 id="abhängigkeiten-als-zentraler-steuerungsfaktor">Abhängigkeiten als zentraler Steuerungsfaktor</h2>
 
-<p>Ein weiterer zentraler Schritt ist die Analyse der Abhängigkeiten zwischen den Domänen.</p>
+<p>Neben der Relevanz einzelner Domänen spielen ihre Abhängigkeiten eine entscheidende Rolle. In gewachsenen Systemen sind diese oft implizit entstanden und selten vollständig dokumentiert.</p>
 
-<p>In gewachsenen Systemen sind diese oft implizit, historisch entstanden und kaum dokumentiert.<br />
-Genau das macht Modernisierung so schwierig.</p>
+<p>Gerade diese Abhängigkeiten bestimmen jedoch maßgeblich, was überhaupt umsetzbar ist.</p>
 
-<p>Durch die explizite Darstellung der Abhängigkeiten entsteht Klarheit:</p>
+<p>Im Projekt wurde deutlich, dass scheinbar isolierte Änderungen regelmäßig Auswirkungen auf andere Bereiche hatten. Funktionen, die auf den ersten Blick unabhängig wirkten, waren fachlich oder technisch eng miteinander verknüpft.</p>
 
-<ul>
-  <li>Welche Domänen blockieren andere?</li>
-  <li>Wo entstehen technische und fachliche Engpässe?</li>
-  <li>Welche Reihenfolge ist überhaupt sinnvoll?</li>
-</ul>
+<p>Erst durch die explizite Analyse dieser Zusammenhänge entstand ein realistisches Bild der Situation.</p>
 
-<p>Erst mit diesem Verständnis wird Planung belastbar.</p>
+<p>Abhängigkeiten sind dabei kein rein technisches Thema. Sie spiegeln oft fachliche Kopplungen wider und sind eng mit der Art verbunden, wie ein Unternehmen seine Prozesse organisiert.</p>
 
-<h2 id="migrationsstrategien-statt-big-bang">Migrationsstrategien statt Big Bang</h2>
+<p>Ohne dieses Verständnis bleibt jede Planung spekulativ. Mit diesem Verständnis wird sie belastbar.</p>
 
-<p>Ein häufiger Fehler in der Modernisierung ist der Versuch, das System als Ganzes neu zu bauen.</p>
+<h2 id="warum-reihenfolge-wichtiger-ist-als-zielbilder">Warum Reihenfolge wichtiger ist als Zielbilder</h2>
 
-<p>Die Realität zeigt:<br />
-Solche Ansätze sind riskant, teuer und selten erfolgreich.</p>
+<p>Ein häufiger Fokus in der Modernisierung liegt auf Zielarchitekturen. Es werden zukünftige Systemlandschaften entworfen, Technologien definiert und Strukturen beschrieben.</p>
 
-<p>Auf Basis der Domänen und ihrer Abhängigkeiten lassen sich stattdessen gezielte Migrationsstrategien entwickeln:</p>
+<p>Diese Zielbilder sind wichtig, reichen jedoch allein nicht aus.</p>
 
-<ul>
-  <li>Schrittweise Ablösung einzelner Bereiche</li>
-  <li>Paralleler Betrieb von Alt- und Neusystemen</li>
-  <li>Klare Schnittstellen zwischen den Domänen</li>
-</ul>
+<p>Die entscheidende Frage ist nicht nur, wie ein System aussehen soll, sondern wie man dorthin gelangt.</p>
 
-<p>Der Fokus verschiebt sich:<br />
-Von einem großen Zielbild hin zu einer umsetzbaren Abfolge von Schritten.</p>
+<p>In komplexen Systemen ist die Reihenfolge von Veränderungen oft wichtiger als das angestrebte Endbild. Eine technisch sinnvolle Zielarchitektur kann in der Praxis nicht umgesetzt werden, wenn sie die bestehenden Abhängigkeiten ignoriert.</p>
 
-<h2 id="transformation-in-waves-denken">Transformation in Waves denken</h2>
+<p>Im Projekt zeigte sich, dass bestimmte Domänen zunächst stabilisiert oder entkoppelt werden mussten, bevor andere sinnvoll modernisiert werden konnten.</p>
 
-<p>Ein besonders wirkungsvolles Konzept ist die Planung in sogenannten <strong>Transformation Waves</strong>.</p>
+<p>Modernisierung wird damit zu einer Abfolge von Entscheidungen, die aufeinander aufbauen – nicht zu einem einmaligen Entwurf.</p>
 
-<p>Statt eines langen, schwer steuerbaren Programms wird die Modernisierung in klar abgegrenzte Phasen unterteilt.</p>
+<h2 id="migrationsstrategien-als-bewusste-entscheidungen">Migrationsstrategien als bewusste Entscheidungen</h2>
 
-<p>Jede Wave folgt dabei einer klaren Logik:</p>
-<ul>
-  <li>Fokus auf ausgewählte Domänen</li>
-  <li>Berücksichtigung der Abhängigkeiten</li>
-  <li>Lieferung eines konkreten Ergebnisses</li>
-</ul>
+<p>Auf Basis von Domänenverständnis und Abhängigkeitsanalyse lassen sich unterschiedliche Migrationsstrategien ableiten. Diese sind kein Selbstzweck, sondern eine direkte Konsequenz der jeweiligen Systemstruktur.</p>
 
-<p>Das schafft mehrere Vorteile:</p>
-<ul>
-  <li>Frühe sichtbare Fortschritte</li>
-  <li>Bessere Steuerbarkeit</li>
-  <li>Reduziertes Risiko</li>
-</ul>
+<p>In einigen Fällen ist es sinnvoll, bestehende Komponenten schrittweise zu refaktorisieren. In anderen Fällen bietet sich eine klare Trennung und Neuimplementierung einzelner Domänen an. Wieder andere Bereiche können zunächst stabilisiert und bewusst unverändert weiterbetrieben werden.</p>
+
+<p>Wichtig ist dabei, dass diese Entscheidungen nicht technologisch motiviert sind, sondern fachlich begründet.</p>
+
+<p>Die Wahl einer Strategie ist immer auch ein Trade-off zwischen Risiko, Geschwindigkeit und Aufwand. Ohne ein klares Verständnis der Domänen lassen sich diese Trade-offs jedoch nicht fundiert bewerten.</p>
+
+<h2 id="transformation-als-strukturierter-prozess">Transformation als strukturierter Prozess</h2>
+
+<p>Ein hilfreiches Konzept in diesem Zusammenhang ist die Planung in klar abgegrenzten Transformationseinheiten, oft als „Waves“ bezeichnet.</p>
+
+<p>Anstatt ein großes, schwer steuerbares Gesamtprojekt zu definieren, wird die Modernisierung in aufeinander aufbauende Phasen unterteilt. Jede Phase fokussiert sich auf ausgewählte Domänen, berücksichtigt deren Abhängigkeiten und liefert ein konkretes Ergebnis.</p>
+
+<p>Dieses Vorgehen ermöglicht es, Fortschritt sichtbar zu machen und gleichzeitig flexibel auf neue Erkenntnisse zu reagieren.</p>
+
+<p>Es reduziert das Risiko, da nicht alle Veränderungen gleichzeitig erfolgen, und schafft die Möglichkeit, aus jedem Schritt zu lernen und die nächsten Schritte anzupassen.</p>
 
 <h2 id="von-der-analyse-zur-roadmap">Von der Analyse zur Roadmap</h2>
 
-<p>Aus der Kombination von Domänenmodell, Bewertung und Abhängigkeitsanalyse entsteht schließlich eine belastbare Roadmap.</p>
+<p>Aus der Kombination von Domänenmodell, Bewertung und Abhängigkeitsanalyse entsteht schließlich eine Roadmap, die mehr ist als eine zeitliche Planung.</p>
 
-<p>Nicht als starres Zielbild, sondern als strukturierte Entscheidungsgrundlage.</p>
+<p>Sie beschreibt nicht nur, was umgesetzt werden soll, sondern warum diese Reihenfolge sinnvoll ist.</p>
 
-<p>Die zentrale Veränderung:</p>
+<p>Damit verändert sich die Rolle der Roadmap grundlegend. Sie ist nicht mehr ein statisches Zielbild, sondern ein Instrument zur kontinuierlichen Entscheidungsfindung.</p>
 
-<p>Die Roadmap ist nicht mehr technologiegetrieben.<br />
-Sie ist fachlich begründet.</p>
+<h2 id="fazit">Fazit</h2>
 
-<h2 id="warum-das-den-unterschied-macht">Warum das den Unterschied macht</h2>
+<p>Domain-Driven Design liefert nicht die Lösung für IT-Modernisierung. Es liefert die Grundlage, um Lösungen überhaupt sinnvoll zu entwickeln.</p>
 
-<p>Viele Modernisierungsinitiativen scheitern nicht an fehlenden Ideen, sondern an fehlender Klarheit.</p>
+<p>Erst durch ein klares Verständnis von Domänen und ihren Zusammenhängen werden Prioritäten sichtbar, Abhängigkeiten verständlich und Entscheidungen nachvollziehbar.</p>
 
-<p>DDD schafft diese Klarheit – und macht sie nutzbar.</p>
-
-<ul>
-  <li>Entscheidungen werden nachvollziehbar</li>
-  <li>Prioritäten werden sichtbar</li>
-  <li>Komplexität wird beherrschbar</li>
-</ul>
-
-<p>Modernisierung wird damit nicht einfacher.<br />
+<p>Modernisierung wird dadurch nicht einfacher.<br />
 Aber sie wird steuerbar.</p>
 
 <h2 id="ausblick">Ausblick</h2>
 
-<p>Mit einem klaren Domänenmodell und einer strukturierten Roadmap entsteht eine solide Grundlage für die Umsetzung.</p>
+<p>Mit einer strukturierten Roadmap entsteht die Basis für die Umsetzung. Doch genau in dieser Phase stellt sich eine neue Frage:</p>
 
-<p>Doch eine neue Herausforderung zeichnet sich bereits ab:</p>
+<p>Wie lassen sich bestehende Systeme verändern, ohne ihre Stabilität zu gefährden?</p>
 
-<p>Wie passen moderne Technologien wie LLMs in dieses Bild?<br />
-Und welche Rolle spielt Domänenverständnis in einer Welt, in der Code zunehmend automatisch generiert wird?</p>
+<p>Und welche Rolle spielen dabei Ansätze wie Golden Master Testing oder das Strangler Fig Pattern?</p>
 
-<p>Genau darum geht es im nächsten Beitrag.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Im ersten Schritt ging es darum, das System zu verstehen. Domänen sichtbar zu machen, Abhängigkeiten zu erkennen und ein gemeinsames Verständnis zu schaffen.]]></summary></entry><entry><title type="html">IT-Modernisierung neu denken – die Rolle von Domain-Driven Design</title><link href="https://mehrwert.tech/DDD-1" rel="alternate" type="text/html" title="IT-Modernisierung neu denken – die Rolle von Domain-Driven Design" /><published>2026-03-14T00:00:00+01:00</published><updated>2026-03-14T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-1</id><content type="html" xml:base="https://mehrwert.tech/DDD-1"><![CDATA[<p>IT-Modernisierung steht aktuell auf nahezu jeder Agenda. Neue Marktanforderungen, steigender Kostendruck und der Wunsch nach mehr Flexibilität treiben Unternehmen dazu, ihre bestehenden Systeme zu hinterfragen.</p>
+<p>Genau darum geht es in den nächsten Beiträgen.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Im ersten Schritt ging es darum, das System zu verstehen. Domänen sichtbar zu machen, Abhängigkeiten zu erkennen und ein gemeinsames Verständnis zwischen Fachbereich und IT aufzubauen.]]></summary></entry><entry><title type="html">IT-Modernisierung neu denken – die Rolle von Domain-Driven Design</title><link href="https://mehrwert.tech/DDD-1" rel="alternate" type="text/html" title="IT-Modernisierung neu denken – die Rolle von Domain-Driven Design" /><published>2026-03-14T00:00:00+01:00</published><updated>2026-03-14T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-1</id><content type="html" xml:base="https://mehrwert.tech/DDD-1"><![CDATA[<p>IT-Modernisierung ist aktuell eines der dominierenden Themen in vielen Unternehmen. Neue Marktanforderungen, steigender Kostendruck und technologische Entwicklungen wie KI führen dazu, dass bestehende Systeme zunehmend hinterfragt werden. Gleichzeitig zeigt sich in der Praxis, dass genau diese Vorhaben häufig komplexer sind als erwartet und in vielen Fällen nicht die gewünschten Ergebnisse liefern.</p>
 
-<p>Ein aktuelles Beispiel aus der Praxis zeigt, wie solche Ausgangssituationen typischerweise aussehen:</p>
+<p>Ein aktuelles Projekt verdeutlicht diese Ausgangssituation sehr gut. Über viele Jahre ist ein System gewachsen, das heute aus mehr als 25 Technologien und Programmiersprachen besteht. Es existieren über 200 Installationen, viele davon mit kundenspezifischen Anpassungen. Gleichzeitig hat sich das Wissen über das System fragmentiert: Einzelne Teile sind bekannt, ein gemeinsames Verständnis über das Gesamtsystem existiert jedoch nicht mehr.</p>
 
-<p>Ein über Jahre gewachsener Monolith, aufgebaut aus mehr als 25 Technologien und Programmiersprachen.<br />
-Über 200 einzelne Installationen – viele davon mit kundenspezifischen Anpassungen.<br />
-Und ein Team, in dem niemand mehr ein vollständiges Verständnis des Gesamtsystems hat.</p>
+<p>Diese Situation ist kein Einzelfall. Sie ist typisch für gewachsene IT-Landschaften.</p>
 
-<p>Genau in solchen Situationen beginnen viele Modernisierungsinitiativen.<br />
-Und genau hier scheitern sie oft.</p>
+<h2 id="wenn-systeme-nicht-mehr-entwickelbar-sind">Wenn Systeme nicht mehr entwickelbar sind</h2>
 
-<h2 id="das-eigentliche-problem-ist-nicht-die-technologie">Das eigentliche Problem ist nicht die Technologie</h2>
+<p>Die eigentlichen Herausforderungen zeigen sich weniger auf architektonischer Ebene als im operativen Alltag. Änderungen werden zunehmend riskant, da ihre Auswirkungen auf andere Systembereiche nicht mehr zuverlässig eingeschätzt werden können. Kundenspezifische Anpassungen führen regelmäßig zu unerwarteten Seiteneffekten, da implizite Abhängigkeiten nicht sichtbar sind. Gleichzeitig wird Qualitätssicherung zu einem zentralen Engpass, weil sich das Verhalten des Systems nur noch eingeschränkt reproduzieren und absichern lässt.</p>
 
-<p>Die naheliegende Reaktion ist häufig technisch geprägt:<br />
-Neue Architektur, neue Plattform, vielleicht sogar ein kompletter Rewrite.</p>
+<p>Im konkreten Fall führte das dazu, dass eine einzelne Installation über ein Jahr dauerte und nur noch vor Ort beim Kunden durchgeführt werden konnte. Parallel dazu konnten neue fachliche Anforderungen, etwa die Visualisierung von Daten, nicht umgesetzt werden. Nicht, weil die technische Kompetenz fehlte, sondern weil die bestehende Systemstruktur diese Weiterentwicklung faktisch verhinderte.</p>
 
-<p>Doch diese Ansätze greifen zu kurz.</p>
+<p>Das System funktionierte weiterhin – war jedoch nicht mehr in der Lage, sich sinnvoll weiterzuentwickeln.</p>
 
-<p>Ohne ein klares Verständnis der fachlichen Zusammenhänge wird bestehende Komplexität nicht reduziert – sie wird lediglich neu implementiert.<br />
-Das Ergebnis: Die gleichen Probleme, nur auf einer moderneren Technologie.</p>
+<h2 id="typische-annahmen--und-warum-sie-nicht-tragen">Typische Annahmen – und warum sie nicht tragen</h2>
 
-<p>Der entscheidende Hebel liegt nicht in der Technologie.<br />
-Er liegt im Verständnis des Systems.</p>
+<p>In solchen Situationen entstehen häufig zwei Annahmen, die auf den ersten Blick plausibel erscheinen. Zum einen wird davon ausgegangen, dass das bestehende System grundsätzlich verstanden ist. Zum anderen besteht die Hoffnung, dass neue Technologien – aktuell insbesondere KI – einen Großteil der Modernisierungsarbeit übernehmen können.</p>
 
-<h2 id="domain-driven-design-als-grundlage">Domain-Driven Design als Grundlage</h2>
+<p>Beide Annahmen erweisen sich in der Praxis als problematisch.</p>
 
-<p>Domain-Driven Design (DDD) setzt genau hier an.<br />
-Nicht die technische Struktur steht im Mittelpunkt, sondern die fachliche Sicht auf das System.</p>
+<p>Im beschriebenen Projekt zeigte sich schnell, dass kein gemeinsames Verständnis über das Gesamtsystem existierte. Wissen war vorhanden, jedoch verteilt auf einzelne Personen und Bereiche. Entscheidungen wurden lokal getroffen, ohne die Auswirkungen auf andere Teile des Systems vollständig zu berücksichtigen.</p>
 
-<p>Welche Domänen gibt es?<br />
-Wie hängen sie zusammen?<br />
-Welche Bereiche sind wirklich geschäftskritisch?</p>
+<p>Auch die Erwartung an neue Technologien greift zu kurz. Technologien wie LLMs können bestehende Strukturen nutzen und beschleunigen, sie ersetzen jedoch kein fehlendes fachliches Verständnis. Ohne klar definierte Zusammenhänge fehlt die Grundlage für sinnvolle Automatisierung oder Generierung.</p>
 
-<p>Erst wenn diese Fragen beantwortet sind, entsteht eine belastbare Grundlage für Entscheidungen.</p>
+<h2 id="warum-klassische-modernisierung-oft-scheitert">Warum klassische Modernisierung oft scheitert</h2>
 
-<p>In einem aktuellen Workshop wurde genau dieser Schritt zum Wendepunkt.<br />
-Statt direkt über Zielarchitekturen zu sprechen, wurde zunächst gemeinsam das fachliche Modell erarbeitet.</p>
+<p>Vor diesem Hintergrund wird verständlich, warum viele Modernisierungsansätze nicht den gewünschten Effekt erzielen. Die naheliegende Reaktion besteht häufig darin, eine neue Architektur zu entwerfen oder einen vollständigen Neuaufbau anzustreben. Diese Ansätze sind technologisch sinnvoll gedacht, greifen jedoch zu kurz, wenn die fachliche Struktur des Systems nicht verstanden ist.</p>
 
-<p>Der entscheidende Unterschied:<br />
-Nicht nur die IT war beteiligt, sondern auch die Fachbereiche.</p>
+<p>In der Praxis führt das dazu, dass bestehende Komplexität nicht reduziert, sondern lediglich in eine neue technologische Umgebung übertragen wird. Abhängigkeiten bleiben bestehen, fachliche Unklarheiten werden fortgeschrieben und die eigentlichen Probleme verlagern sich, anstatt gelöst zu werden.</p>
 
-<h2 id="der-wichtigste-aha-moment">Der wichtigste Aha-Moment</h2>
+<p>Die Technologie ändert sich – die Komplexität bleibt.</p>
 
-<p>Einer der größten Erkenntnisse war überraschend einfach:</p>
+<h2 id="domain-driven-design-als-strukturierender-ansatz">Domain-Driven Design als strukturierender Ansatz</h2>
 
-<p>Modernisierung ist kein reines IT-Thema.</p>
+<p>Der entscheidende Wendepunkt im Projekt entstand daher nicht durch eine technische Entscheidung, sondern durch eine veränderte Perspektive auf das System. Anstatt direkt über Zielarchitekturen zu sprechen, wurde zunächst die fachliche Struktur analysiert.</p>
 
-<p>Erst durch die Zusammenarbeit unterschiedlicher Perspektiven entstand ein gemeinsames Verständnis der Domänen.<br />
-Und genau dieses Verständnis wurde zur Grundlage für alle weiteren Entscheidungen.</p>
+<p>Im Zentrum standen dabei Fragen wie: Welche Domänen existieren? Wie hängen sie zusammen? Und welche davon sind für das Geschäft tatsächlich relevant?</p>
 
-<p>Ein weiterer wichtiger Punkt:<br />
-Aus der Organisation heraus ist es oft kaum möglich, diese Klarheit zu erreichen.</p>
+<p>Ein wesentlicher Unterschied bestand darin, dass diese Analyse nicht isoliert innerhalb der IT durchgeführt wurde. Erst durch die Einbindung der Fachbereiche entstand ein gemeinsames Verständnis der Domänen und ihrer Zusammenhänge. Dieses gemeinsame Bild bildete die Grundlage für alle weiteren Entscheidungen.</p>
 
-<p>Zu viele bestehende Annahmen, zu viele Abhängigkeiten, zu viele implizite Entscheidungen.<br />
-Ein externer Blick hilft, Strukturen sichtbar zu machen und echte Priorisierung zu ermöglichen.</p>
+<h2 id="die-rolle-des-externen-blicks">Die Rolle des externen Blicks</h2>
 
-<h2 id="warum-das-entscheidend-ist">Warum das entscheidend ist</h2>
+<p>Ein Aspekt, der in diesem Zusammenhang häufig unterschätzt wird, ist die Bedeutung eines externen Blicks. In gewachsenen Organisationen sind viele Strukturen implizit geworden und werden nicht mehr hinterfragt. Historische Entscheidungen werden fortgeführt, auch wenn ihre ursprüngliche Begründung nicht mehr gilt.</p>
 
-<p>Ohne ein klares Domänenverständnis entstehen Entscheidungen im Blindflug.<br />
-Mit einem klaren Domänenmodell entsteht Orientierung.</p>
+<p>Ein externer Blick bringt dabei nicht zwangsläufig bessere Lösungen, sondern hilft vor allem dabei, bestehende Annahmen sichtbar zu machen und systematisch zu hinterfragen. Erst dadurch wird eine echte Priorisierung möglich.</p>
 
-<ul>
-  <li>Welche Teile des Systems müssen modernisiert werden – und welche nicht?</li>
-  <li>Wo lohnt sich eine Investition wirklich?</li>
-  <li>Welche Abhängigkeiten bestimmen die Reihenfolge der Umsetzung?</li>
-</ul>
+<h2 id="was-sich-dadurch-verändert">Was sich dadurch verändert</h2>
 
-<p>Diese Fragen lassen sich nicht technisch beantworten.<br />
-Sie sind fachlich.</p>
+<p>Mit einem klaren Domänenverständnis verändert sich die Perspektive auf Modernisierung grundlegend. Die zentrale Frage ist nicht mehr, wie ein System als Ganzes ersetzt werden kann, sondern welche Teile des Systems tatsächlich relevant sind, wo Investitionen sinnvoll sind und welche Bereiche bewusst unverändert bleiben können.</p>
+
+<p>Modernisierung wird damit von einem technologischen Großprojekt zu einer Reihe fundierter Entscheidungen, die sich an fachlichen Zusammenhängen orientieren.</p>
+
+<h2 id="fazit">Fazit</h2>
+
+<p>Die größte Herausforderung in der IT-Modernisierung liegt selten in der Technologie selbst, sondern im fehlenden Verständnis der fachlichen Struktur. Domain-Driven Design bietet einen Ansatz, um diese Struktur sichtbar zu machen und als Grundlage für Entscheidungen zu nutzen.</p>
+
+<p>Nicht als methodischer Selbstzweck, sondern als Mittel, um Komplexität in gewachsenen Systemen gezielt zu reduzieren und Modernisierung überhaupt erst steuerbar zu machen.</p>
 
 <h2 id="ausblick">Ausblick</h2>
 
-<p>Domain-Driven Design ist kein Selbstzweck.<br />
-Es ist ein Werkzeug, um Komplexität zu verstehen und gezielt zu reduzieren.</p>
+<p>Auf Basis eines klaren Domänenverständnisses lassen sich im nächsten Schritt konkrete Maßnahmen ableiten – von der Priorisierung einzelner Bereiche über Migrationsstrategien bis hin zu einer umsetzbaren Roadmap.</p>
 
-<p>In den nächsten Schritten geht es darum, aus diesem Verständnis konkrete Entscheidungen abzuleiten:<br />
-Migrationsstrategien, Transformation Waves und eine belastbare Roadmap.</p>
-
-<p>Und genau hier wird es besonders spannend – vor allem im Zusammenspiel mit neuen Technologien wie LLMs.</p>
-
-<p>Mehr dazu im nächsten Beitrag.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[IT-Modernisierung steht aktuell auf nahezu jeder Agenda. Neue Marktanforderungen, steigender Kostendruck und der Wunsch nach mehr Flexibilität treiben Unternehmen dazu, ihre bestehenden Systeme zu hinterfragen.]]></summary></entry><entry><title type="html">n8n im Realitätscheck - Produktivitätsgewinn oder programmieren mit UI?</title><link href="https://mehrwert.tech/n8n" rel="alternate" type="text/html" title="n8n im Realitätscheck - Produktivitätsgewinn oder programmieren mit UI?" /><published>2026-01-27T00:00:00+01:00</published><updated>2026-01-27T00:00:00+01:00</updated><id>https://mehrwert.tech/n8n</id><content type="html" xml:base="https://mehrwert.tech/n8n"><![CDATA[<p>Automatisierung zwischen Orchestrierung und versteckter Komplexität.</p>
+<p>Genau darum geht es im nächsten Beitrag.</p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[IT-Modernisierung ist aktuell eines der dominierenden Themen in vielen Unternehmen. Neue Marktanforderungen, steigender Kostendruck und technologische Entwicklungen wie KI führen dazu, dass bestehende Systeme zunehmend hinterfragt werden. Gleichzeitig zeigt sich in der Praxis, dass genau diese Vorhaben häufig komplexer sind als erwartet und in vielen Fällen nicht die gewünschten Ergebnisse liefern.]]></summary></entry><entry><title type="html">n8n im Realitätscheck - Produktivitätsgewinn oder programmieren mit UI?</title><link href="https://mehrwert.tech/n8n" rel="alternate" type="text/html" title="n8n im Realitätscheck - Produktivitätsgewinn oder programmieren mit UI?" /><published>2026-01-27T00:00:00+01:00</published><updated>2026-01-27T00:00:00+01:00</updated><id>https://mehrwert.tech/n8n</id><content type="html" xml:base="https://mehrwert.tech/n8n"><![CDATA[<p>Automatisierung zwischen Orchestrierung und versteckter Komplexität.</p>
 
 <p>Low-Code-Workflow-Automation verspricht Effizienz, Geschwindigkeit und weniger manuelle Arbeit. Tools wie n8n greifen dieses Versprechen auf – mit einer visuellen Oberfläche, zahlreichen Integrationen und der Möglichkeit, Prozesse schnell zusammenzuklicken. Doch wie groß ist der tatsächliche Mehrwert heute noch? Und wo liegen die Grenzen solcher Low-Code-Ansätze?</p>
 
@@ -768,40 +768,4 @@ Migrationsstrategien, Transformation Waves und eine belastbare Roadmap.</p>
 
 <blockquote>
   <p>Gemeinsam können wir zeigen: <strong>Nachhaltige Software entsteht nicht durch Zufall. Sondern durch Menschen mit Bewusstsein und Verantwortung.</strong></p>
-</blockquote>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="#green-agile," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Vor einigen Jahren hatte ich die Aufgabe, das Warenwirtschaftssystem einer großen deutschen Supermarktkette zu analysieren. Das System war über Jahrzehnte gewachsen – geschrieben in Gupta, einem heute kaum noch verbreiteten Entwicklungssystem. Eine einzelne Datei umfasste über 300.000 Zeilen Quellcode. Keine Module. Keine Dokumentation. Keine klaren Verantwortlichkeiten.]]></summary></entry><entry><title type="html">Green Agile - Warum wir Agilität neu denken müssen</title><link href="https://mehrwert.tech/green-agile" rel="alternate" type="text/html" title="Green Agile - Warum wir Agilität neu denken müssen" /><published>2025-09-11T00:00:00+02:00</published><updated>2025-09-11T00:00:00+02:00</updated><id>https://mehrwert.tech/green-agile</id><content type="html" xml:base="https://mehrwert.tech/green-agile"><![CDATA[<p>Wenn wir heute über Nachhaltigkeit sprechen, denken viele zuerst an Windräder, Elektromobilität oder den eigenen Konsum. Kaum jemand hat dabei Software im Kopf. Dabei steckt in unseren digitalen Systemen ein oft unsichtbarer, aber gewaltiger Energie- und Ressourcenverbrauch. Rechenzentren verbrauchen mehr Strom als ganze Länder, und schlecht optimierte Software sorgt dafür, dass Hardware schneller ersetzt werden muss.</p>
-
-<p>Mich begleitet dieses Thema seit vielen Jahren. Als <strong>Software Engineer</strong> habe ich gesehen, wie durch kleine Designentscheidungen enorme Unterschiede im Energieverbrauch entstehen können. Später, als <strong>Agile Coach und RTE</strong>, habe ich Organisationen dabei unterstützt, komplexe IT-Landschaften und Teams zu steuern. Immer wieder stieß ich auf dieselbe Lücke: Agilität bringt Geschwindigkeit und Anpassungsfähigkeit – aber die ökologische Dimension blieb außen vor.</p>
-
-<p>Genau hier setzt <strong>Green Agile</strong> an.</p>
-
-<h2 id="warum-green-agile">Warum Green Agile?</h2>
-
-<p>Klassische agile Methoden wie Scrum, SAFe oder Kanban fokussieren auf Lieferfähigkeit, Kundennutzen und Flexibilität. Alles wichtige Werte – doch sie greifen zu kurz, wenn wir die langfristige Verantwortung für Umwelt und Gesellschaft ausklammern.</p>
-
-<p>Green Agile verbindet die <strong>Prinzipien der Agilität</strong> (Transparenz, Inspektion, Adaption) mit den <strong>Dimensionen der Nachhaltigkeit</strong>:</p>
-<ul>
-  <li><strong>Ökologisch</strong> – weniger Energieverbrauch, längere Lebenszyklen von Hardware, bewusster Umgang mit Ressourcen</li>
-  <li><strong>Ökonomisch</strong> – Effizienzsteigerung, Vermeidung von technischer Verschwendung, zukunftsfähige IT-Strategien</li>
-  <li><strong>Sozial</strong> – gesunde Teams, faire Zusammenarbeit, ethisches Bewusstsein in der Produktentwicklung</li>
-</ul>
-
-<p>Agilität ohne Nachhaltigkeit ist kurzfristig. Nachhaltigkeit ohne Agilität bleibt oft Theorie. Erst in Kombination entsteht ein Ansatz, der Teams und Organisationen zukunftsfähig macht.</p>
-
-<h2 id="der-green-agile-guide">Der Green Agile Guide</h2>
-
-<p>Um diese Verbindung greifbar zu machen, habe ich die Initiative <strong>Green Agile Guide</strong> gestartet. Inspiriert vom Scrum Guide, aber bewusst erweitert. Kein neues Framework, keine Methodensammlung – sondern ein <strong>Mindset</strong>, das Orientierung gibt.</p>
-
-<p>Der Guide beschreibt, wie Teams ökologische, ökonomische und soziale Verantwortung in ihre Arbeitsweise integrieren können, ohne Geschwindigkeit und Flexibilität aufzugeben. Er soll helfen, bessere Fragen zu stellen:</p>
-<ul>
-  <li>Was ist der ökologische Fußabdruck unserer Architektur?</li>
-  <li>Wie messen wir Nachhaltigkeit neben Time-to-Market und Business Value?</li>
-  <li>Wie schaffen wir Strukturen, die nicht nur für das nächste Quartal funktionieren, sondern auch für die nächsten Generationen?</li>
-</ul>
-
-<h2 id="ausblick--und-meine-haltung">Ausblick – und meine Haltung</h2>
-
-<p>Mit meiner Firma <strong>mehr.wert</strong> begleite ich Unternehmen als <strong>Fractional CTO</strong>. Meine Haltung: Technologie und Führung dürfen nicht nur nach Effizienz und Profit streben, sondern müssen <strong>Mehr Wert für die Welt</strong> schaffen. Green Agile ist ein Teil dieser Vision.</p>
-
-<p>Ich lade dich ein, mitzudenken, Feedback zu geben und den Green Agile Guide mitzugestalten. Denn nur gemeinsam schaffen wir es, IT nicht nur schneller, sondern auch nachhaltiger zu machen.</p>
-
-<p>👉 <a href="https://greenagile.org">Hier geht’s zum Green Agile Guide</a></p>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="#green-agile," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Wenn wir heute über Nachhaltigkeit sprechen, denken viele zuerst an Windräder, Elektromobilität oder den eigenen Konsum. Kaum jemand hat dabei Software im Kopf. Dabei steckt in unseren digitalen Systemen ein oft unsichtbarer, aber gewaltiger Energie- und Ressourcenverbrauch. Rechenzentren verbrauchen mehr Strom als ganze Länder, und schlecht optimierte Software sorgt dafür, dass Hardware schneller ersetzt werden muss.]]></summary></entry></feed>
+</blockquote>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="#green-agile," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Vor einigen Jahren hatte ich die Aufgabe, das Warenwirtschaftssystem einer großen deutschen Supermarktkette zu analysieren. Das System war über Jahrzehnte gewachsen – geschrieben in Gupta, einem heute kaum noch verbreiteten Entwicklungssystem. Eine einzelne Datei umfasste über 300.000 Zeilen Quellcode. Keine Module. Keine Dokumentation. Keine klaren Verantwortlichkeiten.]]></summary></entry></feed>

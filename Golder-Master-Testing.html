@@ -34,7 +34,6 @@
   <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png">
   <link rel="icon" href="/assets/images/favicon.png" type="image/png">
   <link rel="apple-touch-icon" type="image/png" href="/assets/images/apple-touch-icon.png">
-  
 </head>
 
 
@@ -173,9 +172,7 @@
 								<span class="text-color"> Marcel, </span>
 								<span class="text-color">22.03.2026</span>
 							</div>
-							<!-- <p class="text-white">IT-Modernisierung bedeutet Veränderung.
-Und jede Veränderung bringt ein Risiko mit sich:
-</p> -->
+							<!-- <p class="text-white">Eine der zentralen Herausforderungen in der IT-Modernisierung ist nicht die Zielarchitektur, sondern der Weg dorthin. Bestehende Systeme müssen verändert, erweitert oder schrittweise ersetzt werden –...</p> -->
 						</div>
 					</div>
 					<!-- 
@@ -187,120 +184,95 @@ Und jede Veränderung bringt ein Risiko mit sich:
 					<div class="row justify-content-center">
 						<div class="col-lg-8 mx-auto">
 							<div class="post-content">
-								<p>IT-Modernisierung bedeutet Veränderung.<br />
-Und jede Veränderung bringt ein Risiko mit sich:</p>
+								<p>Eine der zentralen Herausforderungen in der IT-Modernisierung ist nicht die Zielarchitektur, sondern der Weg dorthin. Bestehende Systeme müssen verändert, erweitert oder schrittweise ersetzt werden – und gleichzeitig muss sichergestellt werden, dass das bestehende Verhalten stabil bleibt.</p>
 
-<p>Funktioniert das System danach noch genauso wie zuvor?</p>
+<p>Genau hier entsteht ein Spannungsfeld:</p>
 
-<p>Gerade bei gewachsenen Systemen ist diese Frage schwer zu beantworten.<br />
-Zu viele Sonderfälle, zu viele implizite Regeln, zu wenig Dokumentation.</p>
+<p>Auf der einen Seite besteht der Druck, Systeme zu verändern und weiterzuentwickeln.<br />
+Auf der anderen Seite steht das Risiko, bestehende Funktionalität unbeabsichtigt zu verändern oder zu verlieren.</p>
 
-<p>Und genau hier liegt eines der größten Risiken jeder Modernisierung.</p>
+<p>In gewachsenen Systemen ist dieses Risiko besonders hoch.</p>
 
-<h2 id="das-eigentliche-problem">Das eigentliche Problem</h2>
+<h2 id="wenn-verhalten-wichtiger-ist-als-verständnis">Wenn Verhalten wichtiger ist als Verständnis</h2>
 
-<p>In vielen Legacy-Systemen steckt die fachliche Logik nicht nur im Code – sie ist über Jahre gewachsen, erweitert und angepasst worden.</p>
+<p>In vielen Legacy-Systemen ist die fachliche Logik über Jahre hinweg gewachsen. Anforderungen wurden ergänzt, Sonderfälle implementiert und Anpassungen vorgenommen, oft ohne vollständige Dokumentation.</p>
 
-<p>Oft gilt:<br />
-Das System funktioniert – aber niemand weiß genau, warum.</p>
+<p>Das Ergebnis ist ein System, das zuverlässig funktioniert – dessen Verhalten jedoch nur noch in Teilen verstanden wird.</p>
 
-<p>Ein klassischer Ansatz wäre, umfassende Tests zu schreiben.<br />
-Doch in der Praxis ist das kaum realistisch:</p>
+<p>In solchen Situationen stößt ein klassischer Testansatz schnell an Grenzen. Um fachlich korrekte Tests zu schreiben, müsste das Verhalten des Systems vollständig bekannt sein. Genau dieses Wissen fehlt jedoch häufig.</p>
 
-<ul>
-  <li>Die vollständige fachliche Logik ist nicht bekannt</li>
-  <li>Anforderungen sind unvollständig oder widersprüchlich</li>
-  <li>Der Aufwand für klassische Testabdeckung ist enorm</li>
-</ul>
+<p>Die Alternative ist nicht, auf Tests zu verzichten.<br />
+Die Alternative ist, den Ansatz zu verändern.</p>
 
-<p>Die Folge:<br />
-Modernisierung wird zum Blindflug.</p>
+<h2 id="golden-master-testing-als-pragmatischer-einstieg">Golden Master Testing als pragmatischer Einstieg</h2>
 
-<h2 id="die-idee-des-golden-master-testing">Die Idee des Golden Master Testing</h2>
+<p>Golden Master Testing, häufig auch als Characterization Testing bezeichnet, verfolgt einen bewusst pragmatischen Ansatz.</p>
 
-<p>Golden Master Testing (auch bekannt als <strong>Characterization Testing</strong>) verfolgt einen anderen Ansatz.</p>
+<p>Anstatt zu definieren, wie ein System funktionieren sollte, wird zunächst erfasst, wie es sich tatsächlich verhält. Dieses Verhalten wird dokumentiert und dient als Referenz für zukünftige Änderungen.</p>
 
-<p>Statt zu definieren, wie ein System <em>funktionieren soll</em>, wird zunächst erfasst, wie es sich <em>tatsächlich verhält</em>.</p>
+<p>Das Prinzip ist dabei einfach: Bestehende Funktionalität wird mit realistischen Eingaben ausgeführt, die Ergebnisse werden aufgezeichnet und später bei Änderungen erneut erzeugt und verglichen.</p>
 
-<p>Das Prinzip ist einfach:</p>
+<p>Ziel ist nicht, fachliche Korrektheit zu validieren, sondern unbeabsichtigte Veränderungen sichtbar zu machen.</p>
 
-<ol>
-  <li>Bestehende Funktionalität wird mit realistischen Eingaben ausgeführt</li>
-  <li>Die Ergebnisse werden aufgezeichnet („Golden Master“)</li>
-  <li>Änderungen am System werden gegen diesen Referenzzustand geprüft</li>
-</ol>
+<h2 id="ein-konkretes-beispiel-aus-der-praxis">Ein konkretes Beispiel aus der Praxis</h2>
 
-<p>Ziel ist nicht Perfektion.<br />
-Ziel ist Stabilität.</p>
+<p>Im Projekt zeigte sich diese Herausforderung besonders deutlich in einem Bereich, der für kundenspezifische Anpassungen zuständig war.</p>
 
-<h2 id="warum-das-in-der-modernisierung-so-wertvoll-ist">Warum das in der Modernisierung so wertvoll ist</h2>
+<p>Neue Anforderungen mussten regelmäßig umgesetzt werden, gleichzeitig durfte bestehende Funktionalität nicht beeinträchtigt werden. Genau hier kam es jedoch immer wieder zu Problemen. Änderungen an scheinbar isolierten Stellen führten zu unerwarteten Seiteneffekten in anderen Bereichen des Systems.</p>
 
-<p>Golden Master Testing ermöglicht es, bestehendes Verhalten abzusichern – ohne es vollständig verstehen zu müssen.</p>
+<p>Ein klassischer Testansatz war in diesem Fall nicht realistisch, da die vollständige fachliche Logik nicht dokumentiert war und sich viele Sonderfälle nur implizit im Systemverhalten widerspiegelten.</p>
 
-<p>Das ist besonders in frühen Phasen entscheidend:</p>
+<p>Der gewählte Ansatz bestand darin, typische Eingaben aus bestehenden Installationen zu nutzen und das aktuelle Verhalten des Systems systematisch aufzuzeichnen. Diese Daten bildeten den sogenannten „Golden Master“.</p>
 
-<ul>
-  <li>Beim Refactoring bestehender Komponenten</li>
-  <li>Beim Herauslösen einzelner Domänen</li>
-  <li>Beim Aufbau neuer Services parallel zum Altsystem</li>
-</ul>
+<p>Bei jeder Änderung wurde das System erneut mit denselben Eingaben ausgeführt und die Ergebnisse automatisiert verglichen. Abweichungen wurden sichtbar gemacht und konnten gezielt analysiert werden.</p>
 
-<p>Der große Vorteil:</p>
+<p>Dieser Ansatz führte nicht dazu, dass das System vollständig verstanden wurde.<br />
+Er stellte jedoch sicher, dass bestehendes Verhalten nicht unbemerkt verändert wurde.</p>
 
-<p>Das Risiko von unbeabsichtigten Änderungen wird drastisch reduziert.</p>
+<h2 id="wo-der-ansatz-besonders-wirksam-ist">Wo der Ansatz besonders wirksam ist</h2>
 
-<h2 id="ein-pragmatischer-einsatz">Ein pragmatischer Einsatz</h2>
+<p>Golden Master Testing entfaltet seine Stärke vor allem in Situationen, in denen Systeme schrittweise verändert werden.</p>
 
-<p>In der Praxis hat sich ein iteratives Vorgehen bewährt:</p>
+<p>Typische Einsatzfelder sind:</p>
 
 <ul>
-  <li>Auswahl kritischer Use Cases</li>
-  <li>Aufzeichnung von Ein- und Ausgaben</li>
-  <li>Aufbau einer automatisierten Vergleichslogik</li>
-  <li>Schrittweise Erweiterung der Testbasis</li>
+  <li>Refactoring bestehender Komponenten</li>
+  <li>Herauslösen einzelner Domänen im Zuge einer Modernisierung</li>
+  <li>Aufbau neuer Services parallel zum bestehenden System</li>
+  <li>Stabilisierung kritischer Bereiche mit hoher Änderungsrate</li>
 </ul>
 
-<p>Wichtig ist dabei:</p>
+<p>Gerade in frühen Phasen einer Transformation schafft dieser Ansatz eine wichtige Grundlage: Veränderungen werden möglich, ohne die Stabilität des Gesamtsystems zu gefährden.</p>
 
-<p>Nicht alles muss getestet werden.<br />
-Aber das Richtige.</p>
+<h2 id="grenzen-und-bewusste-entscheidungen">Grenzen und bewusste Entscheidungen</h2>
 
-<h2 id="grenzen-des-ansatzes">Grenzen des Ansatzes</h2>
+<p>Trotz seiner Vorteile ist Golden Master Testing kein Allheilmittel.</p>
 
-<p>Golden Master Testing ist kein Ersatz für fachliche Tests.</p>
+<p>Der Ansatz sichert bestehendes Verhalten – unabhängig davon, ob dieses fachlich korrekt oder optimal ist. In gewachsenen Systemen bedeutet das häufig, dass auch unerwünschtes Verhalten zunächst konserviert wird.</p>
 
-<p>Es zeigt, ob sich das Verhalten verändert hat –<br />
-nicht, ob es fachlich korrekt ist.</p>
+<p>Diese Einschränkung ist bewusst in Kauf zu nehmen.</p>
 
-<p>Gerade in gewachsenen Systemen kann es sinnvoll sein, bestehendes Verhalten bewusst zu verändern.</p>
+<p>Golden Master Tests beantworten die Frage, ob sich etwas verändert hat. Sie beantworten nicht, ob diese Veränderung sinnvoll oder notwendig ist. Diese Entscheidung bleibt weiterhin eine fachliche.</p>
 
-<p>Deshalb gilt:</p>
+<p>Ein weiterer Aspekt ist der Umgang mit Änderungen. Nicht jede Abweichung ist ein Fehler. In vielen Fällen sind Anpassungen gewollt und Teil der Weiterentwicklung. Entscheidend ist, dass diese Veränderungen bewusst erfolgen und nachvollziehbar sind.</p>
 
-<p>Golden Master Tests sichern den Status quo.<br />
-Die fachliche Weiterentwicklung bleibt eine bewusste Entscheidung.</p>
+<h2 id="zusammenspiel-mit-domain-driven-design">Zusammenspiel mit Domain-Driven Design</h2>
 
-<h2 id="verbindung-zu-domain-driven-design">Verbindung zu Domain-Driven Design</h2>
+<p>Im Kontext von IT-Modernisierung entfaltet Golden Master Testing seine volle Wirkung in Kombination mit Domain-Driven Design.</p>
 
-<p>In Kombination mit Domain-Driven Design entsteht ein wirkungsvoller Ansatz:</p>
+<p>Während DDD dabei hilft, fachliche Strukturen sichtbar zu machen und sinnvolle Schnitte im System zu definieren, sorgt Golden Master Testing dafür, dass diese Veränderungen kontrolliert umgesetzt werden können.</p>
 
-<ul>
-  <li>DDD schafft Struktur und Verständnis</li>
-  <li>Golden Master Testing schafft Sicherheit bei der Umsetzung</li>
-</ul>
-
-<p>Während Domänen identifiziert und neu geschnitten werden, sorgt Golden Master Testing dafür, dass bestehende Funktionalität stabil bleibt.</p>
-
-<p>So wird Modernisierung nicht nur planbar – sondern auch kontrollierbar.</p>
+<p>Das Domänenmodell gibt die Richtung vor.<br />
+Golden Master Testing reduziert das Risiko auf dem Weg dorthin.</p>
 
 <h2 id="fazit">Fazit</h2>
 
-<p>Modernisierung ohne Absicherung ist riskant.<br />
-Klassische Testansätze stoßen in komplexen Legacy-Systemen schnell an ihre Grenzen.</p>
+<p>In komplexen Legacy-Systemen ist vollständiges Verständnis oft nicht realistisch. Gleichzeitig ist Stabilität eine zwingende Voraussetzung für jede Form der Weiterentwicklung.</p>
 
-<p>Golden Master Testing bietet einen pragmatischen Weg, bestehendes Verhalten zu sichern und Veränderungen kontrolliert umzusetzen.</p>
+<p>Golden Master Testing bietet einen pragmatischen Weg, mit dieser Situation umzugehen. Es ermöglicht Veränderungen, ohne vollständige Sicherheit über alle fachlichen Details zu benötigen.</p>
 
-<p>Nicht perfekt.<br />
-Aber wirkungsvoll.</p>
+<p>Nicht als Ersatz für saubere fachliche Tests.<br />
+Sondern als Grundlage, um Modernisierung überhaupt erst kontrollierbar zu machen.</p>
 
 								<ul class="list-inline post-share text-right">
     <li class="list-inline-item"><h5>Share:</h5></li>
