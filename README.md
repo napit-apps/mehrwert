@@ -1,54 +1,59 @@
-# Dizer Jekyll
+# mehrwert.tech – Company Homepage
 
-Dizer Jekyll Creative Portfolio Template ported from [Dizer HTML Template](https://themefisher.com/products/dizer/)
+This repository contains the source code for the official website of  
+**mehr.wert Software und IT Beratung GmbH**.
 
-![dizer-jekyll](https://demo.themefisher.com/thumbnails/dizer.png)
+The website represents our work and perspective on sustainable software engineering, agile product development, and pragmatic tech leadership.
 
-[Live Preview](http://demo.themefisher.com/dizer-jekyll/)
+Live site: https://mehrwert.tech
 
-## Setup
+---
 
-To start your project, fork this repository
-After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
+# About mehr.wert
+### We give IT value.<br />And your business lasting resilience.
+#### We think strategically, act responsibly, and shape change with technical clarity. The results are sustainable structures, effective teams, and software with a lasting impact.
 
-Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.
+We stand for MEHR.WERT (MORE.VALUE) – and that starts with attitude.  
+We support companies that not only want to keep up digitally, but also want to shape the future. As the founder of mehr.wert, I – Marcel Russ – bring over a decade of experience in software development, agile leadership, and technology support to the table.
+Our mission: strategic clarity, partnership-based consulting, and technical thinking with responsibility. Together, we develop structures, teams, and solutions that work – today and tomorrow.
 
-## Customize
+---
 
-Things you can customize in `_data/settings.yml` (no HTML/CSS):
+## Tech Stack
 
-- Theme General Settings ( name, logo, email, phone, address )
-- Hero Section
-- About Section
-- Team Section
-- Skills Section
-- Experience Section
-- Education Section
-- Services Section
-- Portfolio Section
-- Testimonials Section
-- Client Slider Section
-- Contact Section
+The website is built with a lightweight, performance-focused stack:
+- Jekyll (static site generator)
+- Dizer theme (customized)
+- SCSS for styling
+- GitHub Pages for hosting
+- Multilingual setup (i18n)
 
-## Deployment
+The site intentionally avoids unnecessary complexity in favor of clarity, speed, and maintainability.
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll's website.
+---
 
-## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/dizer-jekyll/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/dizer-jekyll/issues/new)
+## Design Principles
 
-## Technical Support or Questions
+This project follows a few clear principles:
 
-If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
+- Performance first
+- Clarity over decoration
+- Accessibility-aware design
+- Long-term maintainability
 
-<!-- licence -->
+---
+
 ## License
 
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+The source code is provided for reference and inspiration.  
+Content, branding, and design are © mehr.wert Software und IT Beratung GmbH.
 
-**Code License:** Released under the [MIT](https://github.com/themefisher/dizer-jekyll/blob/main/LICENSE) license.
+---
 
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+## Contact
+
+For questions or feedback:
+
+Email: kontakt@mehrwert.tech  
+Website: https://mehrwert.tech

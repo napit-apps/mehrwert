@@ -1,4 +1,529 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-02-02T11:33:48+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">n8n Reality Check - Productivity Gain or Programming with a User Interface?</title><link href="https://mehrwert.tech/en/n8n-1" rel="alternate" type="text/html" title="n8n Reality Check - Productivity Gain or Programming with a User Interface?" /><published>2026-01-27T00:00:00+01:00</published><updated>2026-01-27T00:00:00+01:00</updated><id>https://mehrwert.tech/en/n8n-1</id><content type="html" xml:base="https://mehrwert.tech/en/n8n-1"><![CDATA[<p>Automation Between Orchestration and Hidden Complexity.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-23T08:33:00+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Ensuring Quality During Modernization – with Golden Master Testing</title><link href="https://mehrwert.tech/Strangler-Fig-Pattern" rel="alternate" type="text/html" title="Ensuring Quality During Modernization – with Golden Master Testing" /><published>2026-03-23T00:00:00+01:00</published><updated>2026-03-23T00:00:00+01:00</updated><id>https://mehrwert.tech/Strangler-Fig-Pattern</id><content type="html" xml:base="https://mehrwert.tech/Strangler-Fig-Pattern"><![CDATA[<h1 id="modernizing-systems-step-by-step--the-strangler-fig-pattern">Modernizing Systems Step by Step – The Strangler Fig Pattern</h1>
+
+<p>One of the most difficult questions in IT modernization is:</p>
+
+<p>How do you replace an existing system without putting ongoing operations at risk?</p>
+
+<p>The classic approach is well known:<br />
+a complete rebuild, often executed as a “big bang.”</p>
+
+<p>In reality, these projects are risky, expensive, and rarely successful.</p>
+
+<h2 id="a-different-approach">A different approach</h2>
+
+<p>The <strong>Strangler Fig Pattern</strong> follows a fundamentally different strategy.</p>
+
+<p>Instead of replacing the system all at once, it transforms it incrementally.</p>
+
+<p>New functionality is built outside the existing system and gradually integrated.<br />
+The old system is replaced step by step – similar to how a strangler fig grows around a tree.</p>
+
+<h2 id="the-principle">The principle</h2>
+
+<p>The approach can be summarized in a few core ideas:</p>
+
+<ul>
+  <li>The existing system remains in place initially</li>
+  <li>New functionality is developed separately</li>
+  <li>Requests are gradually redirected</li>
+  <li>Old components are removed step by step</li>
+</ul>
+
+<p>The key advantage:</p>
+
+<p>Risk is distributed – not concentrated.</p>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>A typical starting point is defining clear interfaces.</p>
+
+<p>These act as the boundary between legacy and new systems.</p>
+
+<p>From there, individual parts can be extracted step by step:</p>
+
+<ul>
+  <li>Identify a clearly bounded domain</li>
+  <li>Build a new implementation</li>
+  <li>Redirect traffic to the new system</li>
+  <li>Decommission the old functionality</li>
+</ul>
+
+<p>This process is repeated iteratively.</p>
+
+<h2 id="connection-to-domain-driven-design">Connection to Domain-Driven Design</h2>
+
+<p>The Strangler Fig Pattern becomes most effective when combined with Domain-Driven Design.</p>
+
+<p>DDD helps to:</p>
+<ul>
+  <li>Identify meaningful domain boundaries</li>
+  <li>Define clear responsibilities</li>
+  <li>Understand dependencies</li>
+</ul>
+
+<p>Without this foundation, there is a risk of merely moving technical pieces –<br />
+instead of actually reducing complexity.</p>
+
+<h2 id="ensuring-quality-during-transformation">Ensuring quality during transformation</h2>
+
+<p>During incremental migration, a key question arises:</p>
+
+<p>How do we ensure that behavior does not change unintentionally?</p>
+
+<p>This is where <strong>Golden Master Testing</strong> can be applied.</p>
+
+<p>Existing behavior is preserved while new components are introduced.<br />
+This allows changes to be implemented in a controlled and transparent way.</p>
+
+<h2 id="typical-challenges">Typical challenges</h2>
+
+<p>This approach is not without its challenges.</p>
+
+<p>Common issues include:</p>
+
+<ul>
+  <li>Unclear interfaces in the legacy system</li>
+  <li>Hidden dependencies</li>
+  <li>Data migration and synchronization</li>
+  <li>Running legacy and new systems in parallel</li>
+</ul>
+
+<p>These aspects must be actively managed.</p>
+
+<h2 id="why-it-is-worth-it">Why it is worth it</h2>
+
+<p>Despite these challenges, the Strangler Fig Pattern offers significant advantages:</p>
+
+<ul>
+  <li>Reduced risk through incremental change</li>
+  <li>Early visible results</li>
+  <li>Better control of the transformation</li>
+  <li>Ability to adapt continuously</li>
+</ul>
+
+<p>Modernization becomes not a one-time project, but a manageable process.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The Strangler Fig Pattern is not a technical trick.<br />
+It is a strategic approach to handling complexity.</p>
+
+<p>Combined with Domain-Driven Design and proper quality assurance, it provides a solid foundation for sustainable IT modernization.</p>
+
+<p>Not through radical disruption.<br />
+But through controlled, continuous change.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Modernizing Systems Step by Step – The Strangler Fig Pattern]]></summary></entry><entry><title type="html">Ensuring Quality During Modernization – with Golden Master Testing</title><link href="https://mehrwert.tech/Golder-Master-Testing-copy" rel="alternate" type="text/html" title="Ensuring Quality During Modernization – with Golden Master Testing" /><published>2026-03-22T00:00:00+01:00</published><updated>2026-03-22T00:00:00+01:00</updated><id>https://mehrwert.tech/Golder-Master-Testing%20copy</id><content type="html" xml:base="https://mehrwert.tech/Golder-Master-Testing-copy"><![CDATA[<p>IT modernization means change.<br />
+And every change introduces risk:</p>
+
+<p>Will the system still behave the same afterward?</p>
+
+<p>In legacy systems, this question is difficult to answer.<br />
+Too many edge cases, too many implicit rules, and too little documentation.</p>
+
+<p>This is one of the biggest risks in any modernization effort.</p>
+
+<h2 id="the-real-problem">The real problem</h2>
+
+<p>In many legacy systems, business logic is not only in the code – it has evolved over years through continuous changes and adaptations.</p>
+
+<p>Often, the reality is:<br />
+The system works – but no one fully understands why.</p>
+
+<p>A typical approach would be to write comprehensive tests.<br />
+In practice, this is rarely feasible:</p>
+
+<ul>
+  <li>The full business logic is unknown</li>
+  <li>Requirements are incomplete or inconsistent</li>
+  <li>The effort for traditional test coverage is extremely high</li>
+</ul>
+
+<p>The result:<br />
+Modernization becomes guesswork.</p>
+
+<h2 id="the-idea-of-golden-master-testing">The idea of Golden Master Testing</h2>
+
+<p>Golden Master Testing (also known as <strong>Characterization Testing</strong>) takes a different approach.</p>
+
+<p>Instead of defining how a system <em>should behave</em>, it captures how it <em>actually behaves</em>.</p>
+
+<p>The principle is simple:</p>
+
+<ol>
+  <li>Execute existing functionality with realistic inputs</li>
+  <li>Record the outputs (“Golden Master”)</li>
+  <li>Compare future changes against this reference</li>
+</ol>
+
+<p>The goal is not perfection.<br />
+The goal is stability.</p>
+
+<h2 id="why-this-is-valuable-in-modernization">Why this is valuable in modernization</h2>
+
+<p>Golden Master Testing allows teams to safeguard existing behavior – without fully understanding it.</p>
+
+<p>This is especially important in early stages:</p>
+
+<ul>
+  <li>Refactoring existing components</li>
+  <li>Extracting domains</li>
+  <li>Building new services alongside legacy systems</li>
+</ul>
+
+<p>The key benefit:</p>
+
+<p>The risk of unintended changes is significantly reduced.</p>
+
+<h2 id="a-pragmatic-approach">A pragmatic approach</h2>
+
+<p>In practice, an iterative approach works best:</p>
+
+<ul>
+  <li>Select critical use cases</li>
+  <li>Capture inputs and outputs</li>
+  <li>Build automated comparison logic</li>
+  <li>Gradually extend test coverage</li>
+</ul>
+
+<p>The key principle:</p>
+
+<p>You don’t need to test everything.<br />
+But you need to test the right things.</p>
+
+<h2 id="limitations-of-the-approach">Limitations of the approach</h2>
+
+<p>Golden Master Testing is not a replacement for business-driven tests.</p>
+
+<p>It shows whether behavior has changed –<br />
+not whether it is correct.</p>
+
+<p>In legacy systems, it is often necessary to intentionally change existing behavior.</p>
+
+<p>Therefore:</p>
+
+<p>Golden Master Tests preserve the current state.<br />
+Business improvements remain a conscious decision.</p>
+
+<h2 id="combined-with-domain-driven-design">Combined with Domain-Driven Design</h2>
+
+<p>In combination with Domain-Driven Design, a powerful approach emerges:</p>
+
+<ul>
+  <li>DDD provides structure and understanding</li>
+  <li>Golden Master Testing provides safety during change</li>
+</ul>
+
+<p>While domains are identified and reshaped, Golden Master Testing ensures that existing behavior remains stable.</p>
+
+<p>This makes modernization not only possible – but controllable.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Modernization without safeguards is risky.<br />
+Traditional testing approaches often reach their limits in complex legacy systems.</p>
+
+<p>Golden Master Testing offers a pragmatic way to preserve behavior and enable controlled change.</p>
+
+<p>Not perfect.<br />
+But effective.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[IT modernization means change. And every change introduces risk:]]></summary></entry><entry><title type="html">DDD Meets LLMs – Why AI Fails Without Domain Understanding</title><link href="https://mehrwert.tech/en/DDD-3-copy" rel="alternate" type="text/html" title="DDD Meets LLMs – Why AI Fails Without Domain Understanding" /><published>2026-03-20T00:00:00+01:00</published><updated>2026-03-20T00:00:00+01:00</updated><id>https://mehrwert.tech/en/DDD-3%20copy</id><content type="html" xml:base="https://mehrwert.tech/en/DDD-3-copy"><![CDATA[<p>Expectations for large language models (LLMs) are high.<br />
+Generating code, understanding systems, building entire applications – many things suddenly seem easier.</p>
+
+<p>But in practice, a different picture emerges.</p>
+
+<p>LLMs are extremely powerful.<br />
+But they amplify what already exists.</p>
+
+<p>Structure gets better.<br />
+Chaos gets faster.</p>
+
+<h2 id="the-real-problem">The real problem</h2>
+
+<p>In many organizations, there is no clear domain understanding.</p>
+
+<p>Systems have grown over time, responsibilities are unclear, and business boundaries are not well defined.<br />
+These are exactly the environments where LLMs are currently being introduced.</p>
+
+<p>The expectation:<br />
+increase productivity, accelerate development, reduce complexity.</p>
+
+<p>The reality:</p>
+
+<p>Without clear structure, LLMs produce output – but not sustainable solutions.</p>
+
+<h2 id="llms-need-context">LLMs need context</h2>
+
+<p>An LLM always operates based on context.</p>
+
+<p>If this context is missing or inconsistent, typical problems occur:</p>
+
+<ul>
+  <li>Generated code does not fit the existing architecture</li>
+  <li>Business rules are implemented inconsistently</li>
+  <li>Dependencies increase instead of decreasing</li>
+  <li>Technical debt grows faster</li>
+</ul>
+
+<p>The problem is not the model.<br />
+It is the system in which it is used.</p>
+
+<h2 id="why-ddd-becomes-more-important">Why DDD becomes more important</h2>
+
+<p>This is where Domain-Driven Design gains new relevance.</p>
+
+<p>DDD provides:</p>
+<ul>
+  <li>Clear business boundaries</li>
+  <li>Defined responsibilities</li>
+  <li>A shared language between business and IT</li>
+</ul>
+
+<p>These elements are not only important for humans.<br />
+They are the foundation for using LLMs effectively.</p>
+
+<p>A well-defined context leads to better outcomes:</p>
+
+<ul>
+  <li>Prompts become more precise</li>
+  <li>Generated code becomes more consistent</li>
+  <li>Decisions become more traceable</li>
+</ul>
+
+<p>LLMs perform best within clearly defined domains.</p>
+
+<h2 id="a-shift-in-perspective">A shift in perspective</h2>
+
+<p>The current discussion is often framed incorrectly.</p>
+
+<p>Not:<br />
+“Will LLMs replace developers?”</p>
+
+<p>But:<br />
+“How must systems be structured so that LLMs can be used effectively?”</p>
+
+<p>The answer leads back to fundamentals:<br />
+domain understanding, clear boundaries, and well-defined responsibilities.</p>
+
+<h2 id="the-role-of-modern-it-leadership">The role of modern IT leadership</h2>
+
+<p>This creates a new challenge for organizations.</p>
+
+<p>It is not enough to introduce new tools.<br />
+A structure is needed in which these tools can operate effectively.</p>
+
+<p>This is where modern IT leadership comes in:</p>
+
+<ul>
+  <li>Making complexity visible</li>
+  <li>Creating structure</li>
+  <li>Enabling sound decision-making</li>
+</ul>
+
+<p>LLMs are an accelerator.<br />
+Whether they accelerate progress or chaos depends on the system.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Domain-Driven Design is not opposed to AI.<br />
+It is a prerequisite for using AI effectively.</p>
+
+<p>Organizations investing in LLMs should invest in domain understanding at the same time.</p>
+
+<p>Not as a theoretical concept.<br />
+But as a foundation for real, sustainable modernization.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Expectations for large language models (LLMs) are high. Generating code, understanding systems, building entire applications – many things suddenly seem easier.]]></summary></entry><entry><title type="html">From Domains to Decisions – How DDD Enables Real IT Modernization</title><link href="https://mehrwert.tech/en/DDD-2" rel="alternate" type="text/html" title="From Domains to Decisions – How DDD Enables Real IT Modernization" /><published>2026-03-18T00:00:00+01:00</published><updated>2026-03-18T00:00:00+01:00</updated><id>https://mehrwert.tech/en/DDD-2</id><content type="html" xml:base="https://mehrwert.tech/en/DDD-2"><![CDATA[<p>The first step is understanding the system.<br />
+Making domains visible, identifying dependencies, and building a shared understanding.</p>
+
+<p>But understanding alone is not enough.</p>
+
+<p>The real challenge starts afterward:<br />
+How do you turn that understanding into concrete decisions?</p>
+
+<h2 id="from-model-to-prioritization">From model to prioritization</h2>
+
+<p>A structured domain model creates transparency.<br />
+But only through deliberate evaluation does it enable decision-making.</p>
+
+<p>In the workshop, the identified domains were systematically assessed:</p>
+
+<ul>
+  <li>Which domains are business-critical?</li>
+  <li>Where is the highest value created?</li>
+  <li>Which areas currently cause the biggest problems?</li>
+</ul>
+
+<p>This assessment changes everything.</p>
+
+<p>Not all parts of the system are equally important.<br />
+Not everything needs to be modernized at once.</p>
+
+<h2 id="making-dependencies-visible">Making dependencies visible</h2>
+
+<p>Another key step is analyzing dependencies between domains.</p>
+
+<p>In most legacy systems, these are implicit, historically grown, and poorly documented.<br />
+That is exactly what makes modernization so difficult.</p>
+
+<p>By making dependencies explicit, clarity emerges:</p>
+
+<ul>
+  <li>Which domains block others?</li>
+  <li>Where are technical or business bottlenecks?</li>
+  <li>What sequence of change actually makes sense?</li>
+</ul>
+
+<p>Only with this understanding does planning become reliable.</p>
+
+<h2 id="migration-strategies-instead-of-big-bang">Migration strategies instead of big bang</h2>
+
+<p>A common mistake in modernization is trying to rebuild the entire system at once.</p>
+
+<p>In reality, these approaches are risky, expensive, and rarely successful.</p>
+
+<p>Based on domains and their dependencies, targeted migration strategies can be developed instead:</p>
+
+<ul>
+  <li>Incremental replacement of specific areas</li>
+  <li>Parallel operation of legacy and new systems</li>
+  <li>Clearly defined interfaces between domains</li>
+</ul>
+
+<p>The focus shifts:<br />
+from a single end-state to an executable sequence of steps.</p>
+
+<h2 id="thinking-in-transformation-waves">Thinking in transformation waves</h2>
+
+<p>A particularly effective concept is planning in <strong>transformation waves</strong>.</p>
+
+<p>Instead of one large, hard-to-control program, modernization is structured into clearly defined phases.</p>
+
+<p>Each wave follows a clear logic:</p>
+<ul>
+  <li>Focus on selected domains</li>
+  <li>Consideration of dependencies</li>
+  <li>Delivery of a concrete outcome</li>
+</ul>
+
+<p>This creates several advantages:</p>
+<ul>
+  <li>Early visible progress</li>
+  <li>Better control</li>
+  <li>Reduced risk</li>
+</ul>
+
+<h2 id="from-analysis-to-roadmap">From analysis to roadmap</h2>
+
+<p>Combining domain model, evaluation, and dependency analysis results in a solid roadmap.</p>
+
+<p>Not as a rigid plan, but as a structured basis for decision-making.</p>
+
+<p>The key shift:</p>
+
+<p>The roadmap is no longer technology-driven.<br />
+It is driven by the business domain.</p>
+
+<h2 id="why-this-makes-the-difference">Why this makes the difference</h2>
+
+<p>Many modernization initiatives do not fail because of a lack of ideas, but because of a lack of clarity.</p>
+
+<p>DDD provides that clarity – and makes it actionable.</p>
+
+<ul>
+  <li>Decisions become transparent</li>
+  <li>Priorities become visible</li>
+  <li>Complexity becomes manageable</li>
+</ul>
+
+<p>Modernization does not become easy.<br />
+But it becomes controllable.</p>
+
+<h2 id="outlook">Outlook</h2>
+
+<p>With a clear domain model and a structured roadmap, a solid foundation for execution is in place.</p>
+
+<p>But a new challenge is already emerging:</p>
+
+<p>How do modern technologies like LLMs fit into this picture?<br />
+And what role does domain understanding play in a world where code is increasingly generated automatically?</p>
+
+<p>This is what the next post will explore.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[The first step is understanding the system. Making domains visible, identifying dependencies, and building a shared understanding.]]></summary></entry><entry><title type="html">Rethinking IT Modernization – The Role of Domain-Driven Design</title><link href="https://mehrwert.tech/DDD-1-copy" rel="alternate" type="text/html" title="Rethinking IT Modernization – The Role of Domain-Driven Design" /><published>2026-03-14T00:00:00+01:00</published><updated>2026-03-14T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-1%20copy</id><content type="html" xml:base="https://mehrwert.tech/DDD-1-copy"><![CDATA[<p>IT modernization is on almost every agenda today. New market demands, increasing cost pressure, and the need for greater flexibility are driving companies to question their existing systems.</p>
+
+<p>An example from a recent project shows what these situations typically look like:</p>
+
+<p>A monolithic system grown over many years, built on more than 25 technologies and programming languages.<br />
+Over 200 individual installations, many with customer-specific customizations.<br />
+And a team where no one has a complete understanding of the system as a whole.</p>
+
+<p>This is where many modernization initiatives begin.<br />
+And this is exactly where they often fail.</p>
+
+<h2 id="the-real-problem-is-not-technology">The real problem is not technology</h2>
+
+<p>The most common reaction is technology-driven:<br />
+a new architecture, a new platform, sometimes even a complete rewrite.</p>
+
+<p>But these approaches fall short.</p>
+
+<p>Without a clear understanding of the business domain, existing complexity is not reduced – it is simply reimplemented.<br />
+The result: the same problems, just on a more modern technology stack.</p>
+
+<p>The key lever is not technology.<br />
+It is understanding the system.</p>
+
+<h2 id="domain-driven-design-as-a-foundation">Domain-Driven Design as a foundation</h2>
+
+<p>Domain-Driven Design (DDD) addresses exactly this challenge.<br />
+Instead of focusing on technical structure, it puts the business perspective at the center.</p>
+
+<p>What domains exist?<br />
+How are they connected?<br />
+Which parts are truly business-critical?</p>
+
+<p>Only when these questions are answered does a solid foundation for decision-making emerge.</p>
+
+<p>In a recent workshop, this step became the turning point.<br />
+Instead of jumping directly into target architectures, we first built a shared understanding of the business domain.</p>
+
+<p>The key difference:<br />
+not only IT was involved, but also the business stakeholders.</p>
+
+<h2 id="the-key-insight">The key insight</h2>
+
+<p>One of the most important realizations was surprisingly simple:</p>
+
+<p>Modernization is not an IT-only topic.</p>
+
+<p>Only through collaboration across different perspectives did a shared understanding of the domains emerge.<br />
+And this understanding became the foundation for all further decisions.</p>
+
+<p>Another critical aspect:<br />
+from within the organization, achieving this level of clarity is often difficult.</p>
+
+<p>There are too many assumptions, too many dependencies, and too many implicit decisions.<br />
+An external perspective helps to make structures visible and enables real prioritization.</p>
+
+<h2 id="why-this-matters">Why this matters</h2>
+
+<p>Without a clear domain understanding, decisions are made blindly.<br />
+With a clear domain model, direction emerges.</p>
+
+<ul>
+  <li>Which parts of the system actually need modernization – and which do not?</li>
+  <li>Where does investment truly pay off?</li>
+  <li>Which dependencies determine the sequence of implementation?</li>
+</ul>
+
+<p>These are not technical questions.<br />
+They are business questions.</p>
+
+<h2 id="outlook">Outlook</h2>
+
+<p>Domain-Driven Design is not an end in itself.<br />
+It is a tool to understand complexity and reduce it deliberately.</p>
+
+<p>The next step is to turn this understanding into concrete decisions:<br />
+migration strategies, transformation waves, and a solid roadmap.</p>
+
+<p>And this is where it becomes particularly interesting – especially in combination with new technologies like LLMs.</p>
+
+<p>More on that in the next post.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[IT modernization is on almost every agenda today. New market demands, increasing cost pressure, and the need for greater flexibility are driving companies to question their existing systems.]]></summary></entry><entry><title type="html">n8n Reality Check - Productivity Gain or Programming with a User Interface?</title><link href="https://mehrwert.tech/en/n8n-1" rel="alternate" type="text/html" title="n8n Reality Check - Productivity Gain or Programming with a User Interface?" /><published>2026-01-27T00:00:00+01:00</published><updated>2026-01-27T00:00:00+01:00</updated><id>https://mehrwert.tech/en/n8n-1</id><content type="html" xml:base="https://mehrwert.tech/en/n8n-1"><![CDATA[<p>Automation Between Orchestration and Hidden Complexity.</p>
 
 <p>Low-code workflow automation promises efficiency, speed, and less manual work. Tools like n8n embrace this promise—with a visual interface, numerous integrations, and the ability to quickly piece together processes. But how much actual added value do they still provide today? And where are the limits of such low-code approaches?</p>
 
@@ -288,302 +813,4 @@
 
 <p>I invite you to join the conversation, share your feedback, and help shape the Green Agile Guide. Because only together can we make IT not just faster, but also more sustainable.</p>
 
-<p>👉 <a href="https://greenagile.org">Read the Green Agile Guide here</a></p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="#green-agile," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[When we talk about sustainability today, most people think of wind turbines, electric cars, or personal consumption. Hardly anyone thinks of software. Yet our digital systems hide a massive, invisible energy and resource footprint. Data centers consume more electricity than entire countries, and poorly optimized software forces hardware to be replaced far too quickly.]]></summary></entry><entry><title type="html">Green Coding with AI – ChatGPT as a Tool for Sustainable Programming</title><link href="https://mehrwert.tech/KI-II" rel="alternate" type="text/html" title="Green Coding with AI – ChatGPT as a Tool for Sustainable Programming" /><published>2025-07-23T00:00:00+02:00</published><updated>2025-07-23T00:00:00+02:00</updated><id>https://mehrwert.tech/KI-II</id><content type="html" xml:base="https://mehrwert.tech/KI-II"><![CDATA[<p>In the <a href="https://mehrwert.tech/en/KI">first part of our article series</a>, we explored the tension between <strong>Artificial Intelligence</strong> and <strong>sustainability</strong>: How can we ensure that AI is not just resource-intensive, but also contributes to solving ecological problems?</p>
-
-<p>In this second part, we turn to the <strong>practical application</strong>: How can <strong>ChatGPT be used in everyday development</strong> to produce <strong>sustainable, energy-efficient code</strong>? We take a closer look at <strong>current research</strong>, analyze the <strong>strengths and weaknesses</strong> of LLMs, and show how these tools can already be tailored for <strong>Green Coding</strong> today—and how to put this <strong>potential to use</strong> right now.</p>
-
-<p>Before diving into specific implementation methods in ChatGPT, we need to ask a fundamental question: <strong>Can a language model like ChatGPT even generate energy-efficient code—and if so, under what conditions?</strong> This potential needs to be confirmed before considering appropriate techniques and contexts for practical use. Let’s take a look at <strong>current research findings</strong>.</p>
-
-<h3 id="can-chatgpt-actually-produce-energy-efficient-code">Can ChatGPT actually produce energy-efficient code?</h3>
-
-<p>The answer is: <strong>Yes—under certain conditions</strong>. But not automatically. A key source here is the study “Generating Energy‑efficient Code with LLMs” (<a href="https://arxiv.org/abs/2411.10599">Tom Cappendijk et al., 2024</a>). In a controlled experiment, five large LLMs (including CodeLlama‑70b and DeepSeek‑Coder‑33b) were tasked with solving three different LeetCode problems. The prompts ranged from neutral instructions (“Solve this problem”) to specific phrasing such as “Give me an energy‑optimized solution…” or “Use library functions.”</p>
-
-<p>The study concludes that <strong>energy savings through LLMs are generally possible</strong>—but not consistently. In some test scenarios, certain combinations of model, task type, and <strong>targeted prompting</strong> led to significant improvements in energy efficiency. For example, the use of <strong>efficient library functions</strong> or <strong>optimized loop structures</strong> resulted in savings of up to <strong>60%</strong>. At the same time, there was <strong>no prompt that consistently produced more efficient code</strong>; in some cases, the models even generated considerably less efficient code, especially for more complex tasks.</p>
-
-<p>The decisive factor is <strong>prompting</strong>: Only when the prompt explicitly references energy efficiency or specific coding practices does the <strong>likelihood increase</strong> that the generated solution will be resource-conscious. Without such guidance, the energy efficiency of the output remains <strong>largely unpredictable</strong>.</p>
-
-<p>The study shows: LLMs like ChatGPT <strong>can</strong> generate <strong>energy-efficient code</strong>—if <strong>guided accordingly</strong>. What matters are <strong>clear prompts</strong> and a meaningful <strong>context</strong>. Without them, the potential remains untapped.</p>
-
-<h3 id="ai-powered-refactoring-what-the-research-tells-us">AI-powered Refactoring: What the Research Tells Us</h3>
-
-<p>A major shortcoming of existing approaches is their focus on evaluating AI-generated code. They assess how energy-efficient a given output is—but offer no concrete method for automatically improving existing code. This is where a research team from Purdue University (<a href="https://arxiv.org/abs/2410.09241">Peng et al., 2024</a>) goes a step further: They developed a prototype for an automated <strong>refactoring system</strong>, in which <strong>two LLMs collaborate</strong> to systematically optimize existing code for energy efficiency.</p>
-
-<p>Here’s how it works: A first model (e.g., GPT-4) analyzes the input code and suggests an <strong>optimized version</strong> designed to use fewer resources. A second model evaluates this suggestion—checking for <strong>functional correctness</strong> and measuring actual <strong>energy consumption</strong> using embedded telemetry and runtime data. Based on this feedback, the first model can then <strong>iteratively improve</strong> its suggestions.</p>
-
-<p>The result: In about half of the test cases, <strong>energy consumption was significantly reduced</strong>—sometimes to less than half of the original level. Particularly notable: In several cases, the refactoring suggestions even outperformed what traditional <strong>compiler optimizations</strong> achieved.</p>
-
-<p>This approach clearly highlights the <strong>potential of LLMs in sustainable software maintenance</strong>: Instead of merely generating efficient new code, they could also adapt existing code to meet modern <strong>efficiency standards</strong>—a promising outlook for future tools.</p>
-
-<h3 id="green-coding-guidelines-how-to-train-chatgpt-with-context">Green Coding Guidelines: How to Train ChatGPT with Context</h3>
-
-<p>To unlock the potential of LLMs like ChatGPT for everyday development, several proven strategies are already available. While research shows that LLMs do not inherently produce energy-efficient code, their output can be greatly improved through <strong>targeted prompting</strong> and <strong>contextual guidance</strong>.</p>
-
-<p>If you want ChatGPT to consistently focus on energy efficiency in code generation, there are multiple ways to make that happen:</p>
-
-<ul>
-<li><b>Persistent Custom Instructions</b><br />
-With custom instructions (accessible via the settings menu in the ChatGPT app, available only for ChatGPT Plus/Enterprise), you can store permanent prompts that are automatically applied in every conversation. <br />
-These instructions are used across contexts – regardless of the project or topic at hand.</li>
-
-<li><b>Upload style guides or Markdown files</b><br />
-GPT-4 supports file uploads. This allows you to provide your own guidelines directly as input – for example as `green_coding_guidelines.md` – and explicitly ask the model to follow them.</li>
-
-<li><b>Create your own GPTs with system prompts</b><br />
-Using the "Explore" feature, you can build specialized GPTs that consistently follow Green Coding goals – including fixed prompts and optional knowledge files.</li>
-
-<li><b>Be clear and structured</b><br />
-Rules should be positive, precise, and written in bullet points. Reinforcers such as “always” or “definitely” help the model prioritize effectively.</li>
-</ul>
-
-<p><strong>Good prompting is key</strong>—and sometimes a single sentence is enough to noticeably improve code suggestions. A prompt that has proven effective in practice reads:</p>
-
-<blockquote>
-  <p>“Act as an experienced software developer. Review the following code for performance, maintainability, and energy efficiency. Provide specific, actionable suggestions for improvement in each of these areas.”</p>
-</blockquote>
-
-<p>This prompt is taken from a practical article by (<a href="https://ashexplained.com/how-to-improve-code-reviews-using-chatgpt/">Ash Explained, 2024</a>) and can be easily adapted. Developers looking to systematically generate or review more efficient code can embed such prompts directly or apply them as persistent settings.</p>
-
-<h3 id="green-coding-checklist-for-embedding-or-uploading">Green Coding Checklist (for Embedding or Uploading)</h3>
-
-<p>Here is a list of Green Coding Principles that can be incorporated in various ways within ChatGPT: directly in prompts, as system instructions in a custom GPT, or as a Markdown file uploaded during a conversation. This checklist can of course be refined or extended for project-specific needs:</p>
-
-<h3> Green Coding Guidelines for Energy-Efficient Software</h3>
-<h4> General Principles</h4>
-<ul>
-  <li>Use efficient algorithms &amp; data structures</li>
-  <li>Avoid redundant computations</li>
-  <li>Apply caching &amp; memoization</li>
-  <li>Avoid busy-waiting</li>
-  <li>Keep memory usage low</li>
-  <li>Parallelize tasks sensibly</li>
-</ul>
-<h4> Python-Specific</h4>
-<ul>
-  <li>Use vectorized NumPy operations instead of loops</li>
-  <li>Prefer generators over lists</li>
-  <li>Read files line by line</li>
-  <li>Avoid object instantiation inside loops</li>
-</ul>
-<h4> Java-Specific</h4>
-<ul>
-  <li>Avoid object allocations in hot loops</li>
-  <li>Use streams instead of full data loads</li>
-  <li>Prefer primitive types</li>
-  <li>Mark constants with <code>final</code></li>
-</ul>
-<h4> Cross-Technology</h4>
-<ul>
-  <li>Move loop conditions outside the loop</li>
-  <li>Use optimized libraries</li>
-  <li>Choose suitable languages/platforms</li>
-</ul>
-
-<h3 id="conclusion">Conclusion</h3>
-
-<p>Language models like ChatGPT can be a powerful <strong>tool for sustainable programming</strong>—provided they are used strategically. Research shows: <strong>Energy-efficient code does not happen by default</strong>. It requires clear instructions, thoughtful context, and the integration of green coding principles into the development process. By leveraging <strong>custom instructions</strong>, <strong>prompting strategies</strong>, or tailored <strong>style guides</strong>, developers can start using the potential of LLMs for sustainable software development today—reducing resource consumption while improving code quality. For more background on the intersection of AI and sustainability, check out the <a href="https://mehrwert.tech/en/KI">first part of our article series</a>.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit," /><category term="#ki" /><summary type="html"><![CDATA[In the first part of our article series, we explored the tension between Artificial Intelligence and sustainability: How can we ensure that AI is not just resource-intensive, but also contributes to solving ecological problems?]]></summary></entry><entry><title type="html">Artificial Intelligence - Between Grand Promises and the Illusion of Innovation</title><link href="https://mehrwert.tech/KI" rel="alternate" type="text/html" title="Artificial Intelligence - Between Grand Promises and the Illusion of Innovation" /><published>2025-07-16T00:00:00+02:00</published><updated>2025-07-16T00:00:00+02:00</updated><id>https://mehrwert.tech/KI</id><content type="html" xml:base="https://mehrwert.tech/KI"><![CDATA[<p><strong>“AI will reach singularity by 2030.”</strong> This bold claim by OpenAI CEO Sam Altman illustrates the immense hype surrounding artificial intelligence (AI). Indeed, modern AI systems are seen as beacons of hope in nearly every field. In <em>medicine</em>, they are expected to detect diseases earlier and help develop new treatments. In the fight against <em>climate change</em>, they promise to optimize the <em>energy sector</em> and <em>mobility</em>. <em>Education</em> could also be transformed by personalized learning systems. And when it comes to <em>climate adaptation</em>, AI is increasingly used to predict extreme weather events, map risks, and help cities adjust their infrastructure to heatwaves. In short: AI is celebrated as a miracle cure for solving humanity’s most pressing problems.</p>
-
-<p>But this euphoric narrative often overshadows a more fundamental issue: While much attention is paid to AI’s energy and resource consumption, a more crucial question remains—<strong>can AI actually create innovation, or is it merely a tool for reassembling existing knowledge?</strong> Today’s systems like GPT-4 are impressive in producing fluent texts, but they draw entirely on pre-existing data. True creative breakthroughs, scientific paradigm shifts, or disruptive ideas still originate from human intuition, curiosity, and experience.</p>
-
-<p>That’s not to ignore the environmental impact: Training large models consumes vast amounts of energy and leaves behind a significant carbon footprint—training GPT-3 alone emitted around <strong>550 tons of CO₂</strong>. And that’s without accounting for the environmental toll of the required hardware: Specialized chips and servers demand enormous resources and materials—often at the expense of ecosystems and communities in mining regions. While some companies are working on more efficient algorithms and sustainable infrastructure, reality still lags behind these ambitions. Without clear ecological guidelines, technological progress risks continuing at the planet’s expense.</p>
-
-<p>The glowing vision of AI as a universal savior begins to look less like a revolutionary shift and more like a reflection of our existing mindset—only faster.</p>
-
-<h2 id="when-ai-becomes-a-technological-miracle-cure">When AI Becomes a Technological Miracle Cure</h2>
-
-<p>Faced with these contradictions, critical questions arise: <strong>Is AI really the solution to all our modern problems—or are we simply creating new ones?</strong> What <strong>ecological</strong> and <strong>social side effects</strong> accompany the AI boom? And who decides <em>how</em> an AI should solve a problem? One thing is certain: An AI always acts according to the goals and priorities we set for it.</p>
-
-<p>Consider this thought experiment: What if an AI were tasked with achieving <em>climate goals at all costs</em>? In extreme cases, it might weigh human suffering against emission reductions. Whether it prioritizes <em>individual well-being</em> or the <em>collective good</em> depends on the values it has been trained with. The question of <strong>how</strong> AI “thinks” is thus closely tied to societal values, ethical boundaries, and—most importantly—<strong>who defines them</strong>.</p>
-
-<p>A real-world example from the U.S. highlights how societal biases can creep into AI systems: Facial recognition software used by U.S. police forces misidentified several innocent Black men as suspects. The problem wasn’t just technical—it stemmed from biased training data and decisions that reproduced systemic inequalities. Algorithms were significantly less accurate at identifying non-white faces, especially Black individuals. Studies showed that the error rate for Black women reached up to <strong>35%</strong>, compared to under <strong>1%</strong> for white men (<a href="https://www.media.mit.edu/projects/gender-shades/overview/">MIT Media Lab, 2018</a>).</p>
-
-<p>Different priorities and blind spots can lead to radically different “solutions”—from technological efficiency to social redistribution. What’s considered “right” ultimately depends on the worldview and objectives behind a system. AI is therefore not a neutral all-rounder but a <strong>tool</strong> shaped by human assumptions. It cannot think—it merely detects and reproduces patterns from the data it was trained on. As such, it cannot develop its own moral framework or make ethical decisions. These too must be programmed by us. Ethical trade-offs—so essential in many societal debates—are beyond AI’s reach unless explicitly defined by humans.</p>
-
-<p>So who really benefits from this AI revolution—and who is left behind? Right now, it’s primarily large tech companies that control the necessary data and computing power, concentrating influence in the hands of a few. Experts warn that AI development risks becoming monopolized, potentially stifling innovation and increasing global dependency (<a href="https://yalelawandpolicy.org/antimonopoly-approach-governing-artificial-intelligence?utm_source=chatgpt.com">Yale Law &amp; Policy Review, 2024</a>). At the same time, millions of jobs are at risk. A study by Goldman Sachs estimates that up to <strong>300 million jobs</strong> worldwide could be automated or altered by generative AI (<a href="https://www.industryintel.com/news/goldman-sachs-ai-could-replace-up-to-300-million-full-time-jobs-globally-with-administrative-and-legal-sectors-at-highest-risk-generative-ai-marks-leap-in-automation-and-could-increase-global-annual-value-of-goods-or-services-output-by-7--171642439200?utm_source">industry intelligence inc., 2025</a>). Administrative, legal, and routine-heavy office work is especially vulnerable. New professions are emerging—like <em>prompt engineering</em>—but the <strong>social transformations</strong> will be far-reaching. However, this shift is occurring more slowly than anticipated a decade ago (<a href="https://www.oecd.org/publications/ai-outlook/">OECD, 2023</a>), making long-term predictions difficult, both technologically and socially.</p>
-
-<p>And the core issue remains: <strong>Can AI truly innovate—or is it just remixing what already exists?</strong> Many experts argue that today’s models, such as GPT-4, are highly capable pattern recognition machines (<a href="https://arxiv.org/pdf/1801.00631">vgl. Marcus &amp; Davis, “Rebooting AI”, 2019</a>). They generate outputs by recombining known information—but without any actual understanding. What’s missing is context, a sense of purpose, or even curiosity.</p>
-
-<p><strong>Genuine innovation</strong>—like the theory of relativity or quantum mechanics—requires paradigm shifts, interdisciplinary thinking, and the courage to challenge established ideas. These abilities are deeply rooted in human cognition and remain impossible to replicate algorithmically. At best, AI can serve as a catalyst or assistive tool—generating hypotheses or speeding up workflows—but not as a true source of disruptive breakthroughs. It remains dependent on human-defined goals, data, and evaluation metrics.</p>
-
-<h2 id="ai-only-works-as-a-tool">AI Only Works as a Tool</h2>
-
-<p>How can AI be expected to solve humanity’s grand challenges if it can’t truly innovate? In many ways, AI risks exacerbating the very inequalities it claims to fix. The climate crisis, for example, is not just an ecological emergency but also a social one. Studies show that wealthier populations contribute far more to global emissions, while poorer communities bear the brunt—facing heatwaves, food insecurity, or lack of adaptive infrastructure (<a href="https://www.theguardian.com/environment/2025/may/07/two-thirds-of-global-heating-caused-by-richest-study-suggests?utm_source=chatgpt.com">The Guardian, 2025</a>). If AI is primarily deployed for economic optimization and industrial efficiency, these imbalances risk being reinforced. New challenges may emerge—without solving the old ones.</p>
-
-<p>If we accept that AI is not <em>the</em> solution, we must ask: <strong>How can it be part of one?</strong> The key lies in understanding AI as a <strong>tool</strong>. And like any tool, it depends on <strong>how and for what</strong> it is used. Responsible governance is essential—grounded in ethical reflection, fair policies, and the political will to shape AI for the common good.</p>
-
-<p>In practical terms, developers, companies, and institutions have a responsibility to use AI consciously—for instance, to detect climate risks early, promote equitable resource use, or democratize access to knowledge. Even on the technical level, there are levers for change: Developers who engage with the principles of <em>green coding</em> can already contribute to sustainability in small but meaningful ways. AI itself can be used deliberately to make one’s code more sustainable—how exactly that works will be the focus of the <strong>next article in this series</strong> (<a href="https://mehrwert.tech/en/KI-II">Green Coding with AI – ChatGPT as a Tool for Sustainable Programming</a>). For a general introduction to the topic, see our article <a href="https://mehrwert.tech/en/green-coding">„Green coding - sustainability in software development“</a>, and for practical approaches, refer to <a href="https://mehrwert.tech/en/green-coding-patterns">„Green Coding Patterns - Practical Tips for Energy-Efficient Software“</a>. This way, AI becomes not an end in itself but a building block of a more sustainable digital future. It’s not the technology itself that makes the difference—but our decisions about how we use it.</p>
-
-<p>In the end, AI is not a magic fix. It’s a component of a more sustainable digital future. What makes the difference is not the technology itself—but <strong>our choices in how we use it.</strong></p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit," /><category term="#ki" /><summary type="html"><![CDATA[“AI will reach singularity by 2030.” This bold claim by OpenAI CEO Sam Altman illustrates the immense hype surrounding artificial intelligence (AI). Indeed, modern AI systems are seen as beacons of hope in nearly every field. In medicine, they are expected to detect diseases earlier and help develop new treatments. In the fight against climate change, they promise to optimize the energy sector and mobility. Education could also be transformed by personalized learning systems. And when it comes to climate adaptation, AI is increasingly used to predict extreme weather events, map risks, and help cities adjust their infrastructure to heatwaves. In short: AI is celebrated as a miracle cure for solving humanity’s most pressing problems.]]></summary></entry><entry><title type="html">Green Coding Patterns - Practical Tips for Energy-Efficient Software</title><link href="https://mehrwert.tech/green-coding-patterns" rel="alternate" type="text/html" title="Green Coding Patterns - Practical Tips for Energy-Efficient Software" /><published>2025-05-07T00:00:00+02:00</published><updated>2025-05-07T00:00:00+02:00</updated><id>https://mehrwert.tech/green-coding-patterns</id><content type="html" xml:base="https://mehrwert.tech/green-coding-patterns"><![CDATA[<p>As the climate crisis intensifies, the <strong>energy consumption of the IT sector</strong> is drawing increasing attention. According to the Intergovernmental Panel on Climate Change (IPCC), severe impacts can only be mitigated through <strong>immediate emission reductions</strong>. IT plays a dual role: on the one hand, digitalization can help reduce emissions in other sectors (<em>green by IT</em>). On the other hand, the industry itself must become more sustainable (<em>green in IT</em>).</p>
-
-<p>Software is at the center of this transformation—because <strong>sustainable software is efficient software</strong>. Every inefficient line of code creates not only technical but also <strong>ecological debt</strong>. Like technical debt, it can impair <strong>long-term maintainability and efficiency</strong>—but with the added impact on <strong>real resources like electricity and CO₂</strong>. The good news: no radical changes are needed—what matters most is a <strong>sharpened awareness</strong> and a few <strong>targeted adjustments</strong>. This article presents practical <strong>Green Coding Patterns</strong> that are easy to integrate into everyday development.</p>
-
-<h2 id="small-levers-big-impact">Small Levers, Big Impact</h2>
-
-<p>Sustainable development doesn’t have to start with a complete overhaul. Often, <strong>small everyday changes</strong>—a different format here, a more conscious decision there—can lead to <strong>measurable effects</strong>. These adjustments act like <strong>levers</strong>: small in effort but large in impact. Many small decisions can significantly <strong>reduce energy consumption across multiple levels</strong>.</p>
-
-<p>Changing behaviors step by step leads to a <strong>new awareness</strong>. What feels like an extra effort today can soon become the <strong>new normal</strong>. The following examples highlight such <strong>small levers with big impact</strong>—immediately applicable and effective for both the environment and system performance.</p>
-
-<h2 id="efficiency-through-reduced-computation">Efficiency Through Reduced Computation</h2>
-
-<p>One of the first levers lies in the <strong>code itself</strong>: the less computational power an application requires, the less energy it consumes. <strong>Avoiding unnecessary calculations</strong> is a key lever—just as a fuel-efficient car uses less gas, efficient code uses less electricity. It’s not about perfection, but about setting clear <strong>priorities for resource use</strong>.</p>
-
-<ul>
-  <li><strong>Avoid unnecessary processes</strong>: Does every click really need to trigger a new query? Does the entire DOM need to re-render? Smart event handling and caching can prevent excess computation.</li>
-  <li><strong>Prefer simple data types</strong>: Integer operations often use less energy than floating-point ones. Small changes in data handling can make a big difference.</li>
-  <li><strong>Use precompiled resources</strong>: Bundle and optimize scripts and assets before delivery to reduce computation on end devices.</li>
-</ul>
-
-<h2 id="transferring-data-efficiently">Transferring Data Efficiently</h2>
-
-<p><strong>Data traffic also consumes energy</strong>—on end devices, in networks, and in data centers. The rule: the less, the better.</p>
-
-<ul>
-  <li><strong>Transfer only necessary data</strong>: Keep API responses and database queries focused on essentials.</li>
-  <li><strong>Compress files</strong>: Text and image files can often be reduced significantly in size without losing quality.</li>
-  <li><strong>Use caching effectively</strong>: Repeated data retrievals can be avoided by storing static content locally or on the server.</li>
-</ul>
-
-<h2 id="energy-efficient-interfaces-and-ux">Energy-Efficient Interfaces and UX</h2>
-
-<p>The <strong>design of an application</strong> directly influences its energy demand. <strong>User-friendliness and resource efficiency</strong> are not mutually exclusive—they go hand in hand.</p>
-
-<ul>
-  <li><strong>Use images efficiently</strong>: Lean formats like WebP and properly scaled media reduce file size and energy consumption.</li>
-  <li><strong>Reduce animations</strong>: Visual effects increase GPU usage, especially on mobile devices. Less is more.</li>
-  <li><strong>Offer dark mode</strong>: On OLED screens, a dark interface saves energy and improves accessibility.</li>
-  <li><strong>Optimize loading times</strong>: Faster loading not only saves energy but also improves user experience.</li>
-</ul>
-
-<h2 id="using-resources-more-wisely">Using Resources More Wisely</h2>
-
-<p>The <strong>infrastructure</strong> behind an application also holds potential for optimization. The goal is to <strong>scale resources to actual needs</strong>.</p>
-
-<ul>
-  <li><strong>Scale based on demand</strong>: Systems should automatically adapt to load and scale down during off-peak times.</li>
-  <li><strong>Shut down unnecessary environments</strong>: Development and test environments don’t need to run 24/7.</li>
-  <li><strong>Use serverless and containers</strong>: These technologies help use hardware more efficiently.</li>
-</ul>
-
-<h2 id="carbon-aware-coding">Carbon-Aware Coding</h2>
-
-<p>Not all electricity is equally green. CO₂ emissions per kilowatt-hour vary depending on the time of day and grid load—depending on whether <strong>renewable sources like wind and solar</strong> are feeding the grid or whether <strong>fossil fuels</strong> dominate. This is called <strong>carbon intensity</strong>, describing how much carbon dioxide is emitted per kilowatt-hour of electricity. <strong>Carbon-aware coding</strong> takes these variations into account.</p>
-
-<ul>
-  <li><strong>Schedule intelligently</strong>: Batch jobs or analyses can be timed to run during periods of <strong>low grid load or lower CO₂ intensity</strong>—for instance, when renewables are abundant. Tools like the Carbon Aware SDK or apps like StromGedacht help identify particularly green times in the grid mix.</li>
-  <li><strong>Adapt to device states</strong>: Applications should detect whether a device is in energy-saving mode and adjust their behavior accordingly.</li>
-</ul>
-
-<h2 id="measuring-and-improving">Measuring and Improving</h2>
-
-<p><strong>Sustainability needs metrics</strong>. Only what is measured can be improved. A <strong>realistic overview</strong> of energy usage is the foundation for meaningful change.</p>
-
-<ul>
-  <li><strong>Measure energy consumption</strong>: There are various ways to track how much energy an application uses—through <strong>runtime profiling</strong> or <strong>indirect indicators</strong> like CPU load, runtime, or memory usage. While these proxies aren’t precise, they offer helpful insights. More detailed analysis can be done with specialized tools.</li>
-  <li><strong>Use benchmarks</strong>: Standardized metrics like the <strong>Software Carbon Intensity (SCI)</strong> make progress measurable. A practical example is available in the <a href="https://mehrwert.tech/en/powermetrics">previous article on energy analysis with Powermetrics</a>.</li>
-</ul>
-
-<h2 id="low-hanging-fruits-saving-energy-on-devices">Low Hanging Fruits: Saving Energy on Devices</h2>
-
-<p>Not all optimization happens in code or infrastructure—<strong>devices themselves</strong> offer opportunities for simple yet effective actions:</p>
-
-<ul>
-  <li><strong>Activate dark mode</strong>: Especially on OLED screens, this can significantly reduce power usage.</li>
-  <li><strong>Reduce screen brightness</strong>: One of the simplest ways to save energy.</li>
-  <li><strong>Shut down devices after hours</strong>: Turning off monitors, laptops, and peripherals avoids unnecessary standby power.</li>
-  <li><strong>Enable energy-saving modes</strong>: Many operating systems and IDEs offer these features—they’re often just unused.</li>
-  <li><strong>Close unused tabs and applications</strong>: Less load on the CPU means less energy consumed.</li>
-</ul>
-
-<p><strong>These small, easy-to-implement actions</strong> complement structural improvements and make <strong>Green Coding</strong> a <strong>holistic approach</strong>.</p>
-
-<p><strong>One major advantage:</strong> Many of these actions can be implemented <strong>individually</strong>, <strong>without team consensus or lengthy discussions</strong>. Anyone adjusting local power settings or activating energy-saving features can <strong>have an immediate impact</strong>. A portion of the <strong>responsibility</strong>—and <strong>freedom to act</strong>—lies in one’s own hands.</p>
-
-<h2 id="conclusion-small-steps-big-difference">Conclusion: Small Steps, Big Difference</h2>
-
-<p><strong>Green Coding doesn’t have to be complex.</strong> Many practices are simple to implement and deliver real impact. <strong>Efficient code</strong>, <strong>reduced data transfer</strong>, and <strong>thoughtful interfaces</strong> help lower energy consumption while making software more <strong>performant and reliable</strong>.</p>
-
-<p><strong>Developers have the power</strong> to make software more sustainable—one line at a time.</p>
-
-<p>Want more? You can find strategic background and further insights in the <a href="https://mehrwert.tech/en/green-coding">article “Green Software, Green Future”</a>.</p>]]></content><author><name>Marcel, Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[As the climate crisis intensifies, the energy consumption of the IT sector is drawing increasing attention. According to the Intergovernmental Panel on Climate Change (IPCC), severe impacts can only be mitigated through immediate emission reductions. IT plays a dual role: on the one hand, digitalization can help reduce emissions in other sectors (green by IT). On the other hand, the industry itself must become more sustainable (green in IT).]]></summary></entry><entry><title type="html">Determine energy consumption - with on-board tools - The self-test for video conferencing tools</title><link href="https://mehrwert.tech/powermetrics" rel="alternate" type="text/html" title="Determine energy consumption - with on-board tools - The self-test for video conferencing tools" /><published>2025-04-02T00:00:00+02:00</published><updated>2025-04-02T00:00:00+02:00</updated><id>https://mehrwert.tech/powermetrics</id><content type="html" xml:base="https://mehrwert.tech/powermetrics"><![CDATA[<h2 id="video-conferencing-tools-compared-how-much-energy-do-zoom-teams-and-facetime-really-use">Video Conferencing Tools Compared: How Much Energy Do Zoom, Teams, and FaceTime Really Use?</h2>
-
-<p>Video conferencing has become an integral part of our everyday lives. But how climate-friendly are tools like Zoom, Teams, and FaceTime really? In a self-experiment, all three tools were tested under identical conditions – with some surprising results.</p>
-
-<p>This wasn’t just about the tools themselves, but also about a central question: Can the energy consumption of digital applications be measured and compared with simple methods? The answer is: <strong>Yes.</strong> Using the built-in <strong>powermetrics</strong> tool available on every Mac and some scripting in <strong>Python</strong>, a realistic test setup was created. It shows that even without expensive hardware or specialized software, meaningful energy comparisons are possible. The experiment proves that solid insights into energy efficiency can be achieved in a <strong>low-threshold and reproducible</strong> way – an important aspect for IT professionals who take sustainability seriously in their digital infrastructure.</p>
-
-<h2 id="setup-and-objective">Setup and Objective</h2>
-
-<p>The self-experiment was conducted in <strong>June/July 2023</strong> on a <strong>MacBookPro17,1 running macOS Ventura Version 13.3</strong>. Only the energy consumption on the device itself was considered – meaning the energy demand of each application on the MacBook, excluding network usage or external infrastructure. The three widely used video conferencing tools <strong>Zoom</strong>, <strong>Microsoft Teams</strong>, and <strong>FaceTime</strong> were tested. The goal was to examine how incoming and outgoing video and screen sharing impact energy consumption – and whether recommendations for more sustainable usage can be derived.</p>
-
-<p>At the same time, the experiment aimed to demonstrate that tools like <strong>powermetrics</strong>, a <strong>Python script</strong>, and a well-designed test setup can already be used to make qualitative statements about energy efficiency.</p>
-
-<h2 id="methodology">Methodology</h2>
-
-<p>Each tool was tested in various scenarios: <strong>incoming video on/off, outgoing video on/off, and screen sharing on/off</strong>. The so-called <strong>Energy Impact</strong> was recorded – a model value generated by powermetrics and saved as a text file. A <strong>restart</strong> was performed before each measurement series to terminate unnecessary processes. Additionally, a <strong>baseline</strong> was established by modeling the Energy Impact after a restart with no programs open.</p>
-
-<p>Measurements were conducted in <strong>10-minute blocks</strong>. Each scenario was repeated <strong>three times</strong>, and the <strong>average Energy Impact</strong> was calculated.</p>
-
-<p>The analysis script was written in <strong>Python</strong>: relevant data was extracted using <strong>regex</strong>, transferred to a <strong>Pandas DataFrame</strong>, and <strong>visualized</strong>.</p>
-
-<p>The test setup was intentionally kept <strong>realistic</strong>: video calls were conducted between two laptops. An external display showed a standardized test video with audio, which was recorded by the MacBook’s camera. This ensured that all scenarios were <strong>consistent and reproducible</strong>.</p>
-
-<h2 id="results-overview">Results Overview</h2>
-
-<p>The two charts below clearly show the average Energy Impact of the tested video conferencing tools in two groups of scenarios: with and without screen sharing. This makes it easy to visually compare the energy profiles of the applications.</p>
-
-<p>The results reveal clear differences between the tools – especially with screen sharing and active video. <strong>Microsoft Teams</strong> performed <strong>worse in almost all scenarios</strong> compared to Zoom and FaceTime. Only in the <strong>minimal mode without video or screen sharing</strong> were the results across all tools relatively similar.</p>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/mit-screen-sharing-en.png" alt="Energy Impact with screen sharing" /></p>
-
-<p>These data clearly show: <strong>The choice of tool and video conference configuration has a direct impact on energy consumption.</strong> Especially for regular meetings, it’s worth being mindful about camera and screen sharing behavior – particularly when using Teams.</p>
-
-<p>A particularly revealing comparison is between the “everything off” and “everything on” scenarios. While FaceTime and Zoom showed almost identical values with only incoming or outgoing video compared to the “everything off” scenario, Microsoft Teams showed a dramatic difference: <strong>Energy Impact increased by a factor of 80</strong> when all features – incoming and outgoing video and screen sharing – were enabled. In comparison: FaceTime’s consumption only increased by about <strong>a factor of five</strong>, Zoom by <strong>a factor of three</strong>. This not only highlights the technical efficiency of each platform, but also the immense potential for optimization through conscious use.</p>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/ohne-screen-sharing-en.png" alt="Energy Impact without screen sharing" /></p>
-
-<p>In the scenario with all features enabled (<strong>“Video in/out + screen sharing on”</strong>), the <strong>Energy Impact for Teams was about three times higher</strong> than in minimal mode with everything disabled – a significant difference that adds up over time.</p>
-
-<h2 id="conclusion-understanding-energy-use--a-foundation-for-sustainable-software">Conclusion: Understanding Energy Use – A Foundation for Sustainable Software</h2>
-
-<p>The self-experiment shows <strong>just how wide the differences in energy consumption</strong> between video conferencing tools can be. Even with <strong>basic built-in tools</strong>, <strong>meaningful results</strong> can be achieved. This approach makes it possible to <strong>gradually engage with the complex topic of software energy efficiency</strong> – without immediately needing specialized measurement equipment or large resources.</p>
-
-<p>The insights gained provide a <strong>solid foundation</strong> for evaluating software in terms of energy efficiency – and build a bridge to the <strong>Software Carbon Intensity (SCI) standard</strong>, which focuses on the <strong>transparent measurement and optimization of CO₂ emissions from software</strong>.</p>
-
-<p><strong>With the right tool and more conscious usage, even everyday applications can be used more sustainably.</strong></p>
-
-<p>For a deeper dive into the topic, check out our dedicated article on the <strong><a href="https://mehrwert.tech/SCI">Software Carbon Intensity (SCI)</a></strong> standard and how it enables consistent CO₂ assessments for software.</p>
-
-<p>Also recommended: our <strong><a href="https://mehrwert.tech/embodied-carbon-1">article series on Embodied Carbon</a></strong>, which explores the <strong>hidden emissions in the hardware lifecycle</strong> – a crucial counterpart to the software perspective.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Video Conferencing Tools Compared: How Much Energy Do Zoom, Teams, and FaceTime Really Use?]]></summary></entry><entry><title type="html">Carbon Intensity software - making sustainability measurable</title><link href="https://mehrwert.tech/SCI" rel="alternate" type="text/html" title="Carbon Intensity software - making sustainability measurable" /><published>2025-03-27T00:00:00+01:00</published><updated>2025-03-27T00:00:00+01:00</updated><id>https://mehrwert.tech/SCI</id><content type="html" xml:base="https://mehrwert.tech/SCI"><![CDATA[<p>Sustainability is no longer just a buzzword – its ecological, economic, and social impacts are becoming increasingly relevant in software development. As we’ve already explored in our <a href="https://mehrwert.tech/software-obsoleszenz">previous article</a>, software decisions can significantly affect hardware longevity.</p>
-
-<p>In this post, we focus on an approach that makes the <strong>energy consumption of software itself</strong> and its related CO₂ emissions visible. The <strong>Software Carbon Intensity (SCI)</strong> standard, developed by the Green Software Foundation, helps developers and companies model the emissions of their applications and supports them in making more conscious decisions.</p>
-
-<h2 id="what-is-software-carbon-intensity-sci">What is Software Carbon Intensity (SCI)?</h2>
-
-<p>SCI brings transparency to the environmental impact of software and provides a simple formula and clear methodology to estimate CO₂ emissions. The goal is to create an objective and repeatable foundation for making software more <strong>ecologically</strong> sustainable.</p>
-
-<h2 id="how-sci-works">How SCI Works</h2>
-
-<p>SCI models the CO₂ emissions caused both during operation and in the creation of software. This includes <em>energy consumption</em>, <em>hardware efficiency</em>, and the <em>energy mix</em>. It gives developers the transparency they need to pinpoint the areas with the greatest potential for effective carbon reduction.</p>
-
-<p>The core formula of SCI is:</p>
-
-<p><img class="img-fluid w-100" src="/assets/images/blog/SCI.png" alt="Formula of Software Carbon Intensity" />
-<small> <a href="https://learn.greensoftware.foundation/measurement/">Green Software Foundation</a></small></p>
-
-<p>In this formula, <em>E</em> represents the energy consumed by the software in kWh, <em>I</em> the amount of CO₂ per kWh consumed, and <em>M</em> the embodied carbon. (To learn more about what embodied carbon means and how it’s measured, check out our series on <a href="https://mehrwert.tech/embodied-carbon-1">Embodied Carbon</a>). The factor <em>R</em> normalizes these emissions per use, user, system runtime, or access – depending on the context and availability of data. In Germany, the average value for <em>I</em> in 2023 was 380 g CO₂/kWh (Umweltbundesamt, 2023). Further values and country-specific data can be found at <a href="https://app.electricitymaps.com/">electricityMaps</a> or the <a href="https://www.iea.org/data-and-statistics/data-browser?country=WORLD\&amp;fuel=Energy%20consumption\&amp;indicator=Electricity%20generation%20by%20source">IEA</a>.</p>
-
-<p>A practical example for measuring energy consumption is modeling via CPU and RAM usage. Alternatively, energy can be estimated using network load, number and type of processes, or standardized benchmark tests. The chosen methods must always be well-documented and reproducible to ensure transparency. A physical power meter isn’t strictly necessary – script-based tools like Apple’s “powermetrics” can reliably estimate actual hardware utilization.</p>
-
-<h2 id="an-internationally-recognized-iso-standard">An Internationally Recognized ISO Standard</h2>
-
-<p>Since 2024, SCI has been officially recognized as an ISO standard (ISO/IEC 21031:2024). It defines clear criteria and methods for transparently measuring and reporting the carbon footprint of software. As a result, it has gained international relevance and acceptance, making it easier to implement across the industry. Companies benefit from a globally accepted framework that enables consistent and comparable sustainability assessments.</p>
-
-<h2 id="measuring-is-winning">Measuring is Winning</h2>
-
-<p>SCI allows companies to compare the environmental efficiency of different software solutions and make informed, sustainable choices. Developers integrate the methodology directly into their workflows, leading to more resource-efficient products in the long term (Green Software Foundation Projects, 2024). Solid data is essential here – because you can only improve what you can measure. SCI provides this data, creating the foundation for real transparency and actionable sustainability in software development.</p>
-
-<h2 id="challenges-and-criticism">Challenges and Criticism</h2>
-
-<p>Implementing a new standard comes with its challenges. Accurate measurements rely on high-quality data, which can be time-consuming to collect. To make SCI truly effective, it needs to be put into practice and backed by real-world examples. Even rough estimates are enough to trigger improvements and identify the most impactful areas for reducing emissions.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>The Software Carbon Intensity standard sets a new benchmark for sustainable software development. With clear, measurable outcomes, it empowers organizations and developers to take meaningful action on emissions. Now it’s up to the industry to adopt the standard and drive real change for a more sustainable digital future. For more insights into hardware-related emissions, check out our series on <a href="https://mehrwert.tech/embodied-carbon-1">Embodied Carbon</a>.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="#green-coding," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[Sustainability is no longer just a buzzword – its ecological, economic, and social impacts are becoming increasingly relevant in software development. As we’ve already explored in our previous article, software decisions can significantly affect hardware longevity.]]></summary></entry></feed>
+<p>👉 <a href="https://greenagile.org">Read the Green Agile Guide here</a></p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="#green-agile," /><category term="#nachhaltigkeit" /><summary type="html"><![CDATA[When we talk about sustainability today, most people think of wind turbines, electric cars, or personal consumption. Hardly anyone thinks of software. Yet our digital systems hide a massive, invisible energy and resource footprint. Data centers consume more electricity than entire countries, and poorly optimized software forces hardware to be replaced far too quickly.]]></summary></entry></feed>

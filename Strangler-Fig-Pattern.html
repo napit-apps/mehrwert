@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  
+  <title>IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern</title>
+  
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description" content="Wir geben IT einen Wert. Und Ihrem Business nachhaltige Stärke. - Strategische IT-Beratung für Unternehmen im Wandel: Als CTO auf Zeit unterstützen wir Sie bei Architekturentscheidungen, Teamführung, agilen Prozessen und nachhaltiger Softwareentwicklung. Klar. Umsetzbar. Wirkungsvoll.">
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="mehr.wert" />
+    
+  
+  <meta name="author" content="">
+  
+
+  
+  <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/assets/plugins/themify/css/themify-icons.css">
+  
+  <link rel="stylesheet" href="/assets/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="/assets/plugins/slick-carousel/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  <link href="/assets/scss/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png">
+  <link rel="icon" href="/assets/images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" type="image/png" href="/assets/images/apple-touch-icon.png">
+  
+</head>
+
+
+<body data-spy="scroll" data-target="#ftco-navbar-spy" data-offset="0" class="">
+
+   
+
+<nav class="navbar navbar-expand-lg fixed-top main-nav" id="main-nav">
+	<div class="container">
+		<a class="navbar-brand" href="/">
+			<img src="/assets/images/logo.png" alt="page_title" class="img-fluid">
+		</a>
+		
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navigation"
+			aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="ti-menu"></span>
+		</button>
+		
+	</div>
+	
+	<div class="collapse navbar-collapse" id="navigation">
+		
+
+<ul class="navbar-nav ml-auto text-center">
+  
+  
+
+  
+
+  
+
+  <li class="nav-item ">
+    <a class="nav-link"  href="/">Startseite</a>
+    
+  </li>
+  
+  
+
+  
+
+  
+
+  <li class="nav-item  dropdown ">
+    <a class="nav-link"  data-toggle="dropdown"
+       href="/">Leistungen<i
+        class="ti-angle-down ml-2"></i></a>
+    
+    <ul class="sub-menu dropdown-menu">
+      
+      <li><a class="dropdown-item" href="/services/fractional-cto.html">CTO auf Zeit</a></li>
+      
+      <li><a class="dropdown-item" href="/services/agile-transformation-coaching.html">Agile Transformation Coaching</a></li>
+      
+      <li><a class="dropdown-item" href="/trainings/gsp.html">Green Coding Training</a></li>
+      
+    </ul>
+    
+  </li>
+  
+  
+
+  
+
+  
+
+  <li class="nav-item ">
+    <a class="nav-link"  href="/blog.html">Blog</a>
+    
+  </li>
+  
+  
+
+  
+
+  
+
+  <li class="nav-item  dropdown ">
+    <a class="nav-link"  data-toggle="dropdown"
+       href="/">Über uns<i
+        class="ti-angle-down ml-2"></i></a>
+    
+    <ul class="sub-menu dropdown-menu">
+      
+      <li><a class="dropdown-item" href="/mission.html">Unsere Mission</a></li>
+      
+      <li><a class="dropdown-item" href="/contact.html">Kontakt</a></li>
+      
+    </ul>
+    
+  </li>
+  
+  
+
+  
+
+  
+
+  <li class="nav-item  dropdown ">
+    <a class="nav-link"  data-toggle="dropdown"
+       href="/">Rechtliches<i
+        class="ti-angle-down ml-2"></i></a>
+    
+    <ul class="sub-menu dropdown-menu">
+      
+      <li><a class="dropdown-item" href="/agb.html">AGB</a></li>
+      
+      <li><a class="dropdown-item" href="/imprint.html">Impressum</a></li>
+      
+      <li><a class="dropdown-item" href="/privacy.html">Datenschutzbestimmung</a></li>
+      
+    </ul>
+    
+  </li>
+  
+</ul>
+
+<ul class="languages" aria-label="Verfügbare Sprachen">
+  
+    <li><a title="Zu Deutsch wechseln" aria-label="Zu Deutsch wechseln" lang-current="true" href="/">DE</a></li>
+    <li><a title="Zu Englisch wechseln" aria-label="Zu Englisch wechseln" lang-current="false" href="/en/">EN</a></li>
+  
+</ul>
+	</div>
+	
+</nav>
+
+   <section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="blog-single mb-5">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<h3 class="text-white mt-4 mb-2">IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern</h3>
+							<div class="post-meta text-uppercase mb-3">
+								<span class="text-color"> Marcel, </span>
+								<span class="text-color">27.03.2026</span>
+							</div>
+							<!-- <p class="text-white">Eine der schwierigsten Fragen in der IT-Modernisierung lautet:
+</p> -->
+						</div>
+					</div>
+					<!-- 
+					<div class="blog-img position-relative mt-5 mb-5">
+						img src="/assets/images/blog/2026-12-18-mehrwiki.jpg" alt="" class="img-fluid w-100"/>
+					</div>
+					 -->
+
+					<div class="row justify-content-center">
+						<div class="col-lg-8 mx-auto">
+							<div class="post-content">
+								<p>Eine der schwierigsten Fragen in der IT-Modernisierung lautet:</p>
+
+<p>Wie ersetzt man ein bestehendes System, ohne den laufenden Betrieb zu gefährden?</p>
+
+<p>Der klassische Ansatz ist bekannt:<br />
+Ein vollständiger Neuaufbau – oft als „Big Bang“ umgesetzt.</p>
+
+<p>Die Realität zeigt jedoch:<br />
+Solche Projekte sind riskant, teuer und selten erfolgreich.</p>
+
+<h2 id="ein-anderer-ansatz">Ein anderer Ansatz</h2>
+
+<p>Das <strong>Strangler Fig Pattern</strong> verfolgt eine grundlegend andere Strategie.</p>
+
+<p>Statt das bestehende System auf einmal zu ersetzen, wird es schrittweise transformiert.</p>
+
+<p>Neue Funktionalitäten werden außerhalb des bestehenden Systems aufgebaut und nach und nach integriert.<br />
+Das alte System wird dabei Stück für Stück „ersetzt“ – ähnlich wie eine Würgefeige, die einen Baum langsam umschließt.</p>
+
+<h2 id="das-prinzip">Das Prinzip</h2>
+
+<p>Der Ansatz lässt sich auf wenige Kerngedanken reduzieren:</p>
+
+<ul>
+  <li>Das bestehende System bleibt zunächst bestehen</li>
+  <li>Neue Funktionalitäten werden separat entwickelt</li>
+  <li>Zugriffe werden schrittweise umgeleitet</li>
+  <li>Alte Komponenten werden nach und nach entfernt</li>
+</ul>
+
+<p>Der entscheidende Vorteil:</p>
+
+<p>Das Risiko wird verteilt – nicht konzentriert.</p>
+
+<h2 id="einstieg-in-die-umsetzung">Einstieg in die Umsetzung</h2>
+
+<p>Ein typischer Einstieg beginnt mit der Definition klarer Schnittstellen.</p>
+
+<p>Diese fungieren als Übergabepunkt zwischen Alt- und Neusystem.</p>
+
+<p>Darauf aufbauend können einzelne Bereiche gezielt herausgelöst werden:</p>
+
+<ul>
+  <li>Identifikation einer klar abgegrenzten Domäne</li>
+  <li>Aufbau einer neuen Implementierung</li>
+  <li>Umlenkung der Anfragen auf das neue System</li>
+  <li>Abschaltung der alten Funktionalität</li>
+</ul>
+
+<p>Dieser Prozess wird iterativ wiederholt.</p>
+
+<h2 id="verbindung-zu-domain-driven-design">Verbindung zu Domain-Driven Design</h2>
+
+<p>Das Strangler Fig Pattern entfaltet seine volle Wirkung erst in Kombination mit Domain-Driven Design.</p>
+
+<p>DDD hilft dabei:</p>
+<ul>
+  <li>sinnvolle fachliche Schnitte zu identifizieren</li>
+  <li>klare Verantwortlichkeiten zu definieren</li>
+  <li>Abhängigkeiten zu verstehen</li>
+</ul>
+
+<p>Ohne diese Grundlage besteht die Gefahr, lediglich technische Teile zu verschieben –<br />
+statt echte Komplexität zu reduzieren.</p>
+
+<h2 id="qualität-während-der-transformation">Qualität während der Transformation</h2>
+
+<p>Während der schrittweisen Migration stellt sich eine zentrale Frage:</p>
+
+<p>Wie stellen wir sicher, dass sich das Verhalten nicht unbeabsichtigt verändert?</p>
+
+<p>Hier kommt beispielsweise <strong>Golden Master Testing</strong> ins Spiel.</p>
+
+<p>Bestehende Funktionalität wird abgesichert, während neue Komponenten entstehen.<br />
+So können Änderungen kontrolliert und nachvollziehbar umgesetzt werden.</p>
+
+<h2 id="typische-herausforderungen">Typische Herausforderungen</h2>
+
+<p>Auch dieser Ansatz ist nicht trivial.</p>
+
+<p>Häufige Herausforderungen sind:</p>
+
+<ul>
+  <li>Unklare Schnittstellen im bestehenden System</li>
+  <li>Versteckte Abhängigkeiten</li>
+  <li>Datenmigration und Synchronisation</li>
+  <li>Paralleler Betrieb von Alt- und Neusystem</li>
+</ul>
+
+<p>Diese Aspekte müssen aktiv adressiert werden.</p>
+
+<h2 id="warum-sich-der-ansatz-lohnt">Warum sich der Ansatz lohnt</h2>
+
+<p>Trotz der Herausforderungen bietet das Strangler Fig Pattern entscheidende Vorteile:</p>
+
+<ul>
+  <li>Reduziertes Risiko durch inkrementelle Umsetzung</li>
+  <li>Frühe sichtbare Ergebnisse</li>
+  <li>Bessere Steuerbarkeit der Transformation</li>
+  <li>Möglichkeit zur kontinuierlichen Anpassung</li>
+</ul>
+
+<p>Modernisierung wird damit kein einmaliges Projekt, sondern ein steuerbarer Prozess.</p>
+
+<h2 id="fazit">Fazit</h2>
+
+<p>Das Strangler Fig Pattern ist kein technischer Trick.<br />
+Es ist ein strategischer Ansatz für den Umgang mit Komplexität.</p>
+
+<p>In Kombination mit Domain-Driven Design und gezielter Qualitätssicherung entsteht ein belastbares Fundament für nachhaltige IT-Modernisierung.</p>
+
+<p>Nicht durch radikale Brüche.<br />
+Sondern durch kontrollierte, kontinuierliche Veränderung.</p>
+
+								<ul class="list-inline post-share text-right">
+    <li class="list-inline-item"><h5>Share:</h5></li>
+    <li class="list-inline-item">
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://mehrwert.tech/Strangler-Fig-Pattern"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Facebook" >
+        <i class="ti-facebook"></i>
+    </a>
+    </li>
+    <li class="list-inline-item">
+        <a  href="https://twitter.com/intent/tweet?text=IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern&url=https://mehrwert.tech/Strangler-Fig-Pattern"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Twitter" >
+        <i class="ti-twitter"></i>
+     </a>
+    </li>
+    <li class="list-inline-item">
+        <a  href="http://pinterest.com/pin/create/button/?url=&media=https://mehrwert.tech/assets/images/blog/2026-12-18-mehrwiki.jpg&description=" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest" >
+        <i class="ti-pinterest"></i>
+        </a>
+    </li>
+</ul>
+
+							</div>
+							<!-- <div class="row align-items-center my-5">
+								<div class="col-lg-6">
+									<div class="list-inline post-tags">
+										<div class="list-inline-item"><h5>Themenbereiche:</h5></div>
+										<a  href="/tag/modernisierung%2c/"  rel="tag">modernisierung,</a>,  <a  href="/tag/softwareentwicklung%2c/"  rel="tag">softwareentwicklung,</a>,  <a  href="/tag/ressourceneffizienz%2c/"  rel="tag">ressourceneffizienz,</a>,  <a  href="/tag/toolkritik%2c/"  rel="tag">toolkritik,</a>,  <a  href="/tag/ki-gestuetztes-coding%2c/"  rel="tag">ki-gestütztes-coding,</a>,  <a  href="/tag/integration/"  rel="tag">integration</a>
+									</div>
+								</div>
+								<div class="col-lg-8">
+									<ul class="list-inline post-share text-right">
+    <li class="list-inline-item"><h5>Share:</h5></li>
+    <li class="list-inline-item">
+        <a  href="https://www.facebook.com/sharer/sharer.php?u=https://mehrwert.tech/Strangler-Fig-Pattern"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Facebook" >
+        <i class="ti-facebook"></i>
+    </a>
+    </li>
+    <li class="list-inline-item">
+        <a  href="https://twitter.com/intent/tweet?text=IT-Modernisierung Schritt für Schritt – das Strangler Fig Pattern&url=https://mehrwert.tech/Strangler-Fig-Pattern"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Twitter" >
+        <i class="ti-twitter"></i>
+     </a>
+    </li>
+    <li class="list-inline-item">
+        <a  href="http://pinterest.com/pin/create/button/?url=&media=https://mehrwert.tech/assets/images/blog/2026-12-18-mehrwiki.jpg&description=" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest" >
+        <i class="ti-pinterest"></i>
+        </a>
+    </li>
+</ul>
+
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</section>
+
+
+<!-- Call To action -->
+
+<!-- Contact Start -->
+
+
+
+ 
+
+<section id="contact" class="section home-contact bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<span class="h5 text-color text-uppercase">
+					 Diskussion 
+				</span>
+				<p class="h2 mb-5 mt-2"> Was ist Ihre Meinung zu diesem Thema? </p>
+				<p class="h5 mb-5 mt-2"> Schreiben Sie uns – wir freuen uns über einen spannenden Austausch mit Ihnen. </p>
+
+				<form action="https://formspree.io/f/xjvnvkzb" method="POST" class="home-contact-form">
+					<div class="form-row">
+						<div class="col-lg-12">
+							<div class="form-group">
+								<input type="text" class="form-control" name="Name" id="name" placeholder="Name">
+							</div>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col-lg-6">
+							<div class="form-group">
+								<input type="text" class="form-control" name="_replyto" id="email" placeholder="E-Mail">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-group">
+								<input type="text" class="form-control" name="Telephone" id="telephone" placeholder="Telefon">
+							</div>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col-lg-12">
+							<div class="form-group">
+								<input type="text" class="form-control" name="Subject" id="subject" placeholder="Betreff">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<textarea name="Message" id="message" cols="30" rows="4" class="form-control mb-4" placeholder="Nachricht"></textarea>
+							<p class="text-sm">Durch Klick auf den nachfolgenden Button 'Senden', erklären Sie sich damit einverstanden, dass wir Ihre Daten entsprechend der <a href="/privacy.html" target="_blank">Datenschutzerklärung</a> verarbeiten.</p>
+							<button type="submit" class="btn btn-primary">Senden</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Contact End -->
+<!-- Call To action -->
+
+   <!-- Footer section start -->
+
+
+
+
+<footer class="section bg-secondary position-relative pb-0">
+	<div class="container">
+		<div class="row">
+			
+				
+			<div class="col-lg-6 col-md-6">
+				<div class="footer-widget">
+					<h4 class="text-white mb-3">Kontakt Informationen</h4>
+					<ul class="list-unstyled lh-38">
+						<li>mehr.wert Software und IT Beratung GmbH</li>
+						<li>Schönbergstraße 15, 73230 Kirchheim unter Teck</li>
+						<li><a href="tel:+49 152 21694139">Telefon: +49 152 21694139</a></li>
+						<li><a href="mailto:kontakt@mehrwert.tech">E-Mail: kontakt@mehrwert.tech</a></li>
+					</ul>
+				</div>
+			</div>	
+<!-- 			
+			<div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0 col-md-6">
+				<div class="footer-widget">
+					<h4 class="text-white mb-3">Navigation</h4>
+
+					<ul class="list-unstyled lh-38">
+						
+						<li><a href="/imprint.html">Terms of Service</a></li>
+						
+						<li><a href="/privacy.html">Privacy Policy</a></li>
+						
+					</ul>
+				</div>
+			</div>	  -->
+		</div>
+	</div>
+
+	<div class="footer-btm ">
+		<div class="container border-top py-4 mt-5">
+			<div class="row align-items-center justify-content-md-between">
+				<div class="col-12 col-lg-4">
+					<div class="text-center text-lg-left "> <span>mehr.wert Software und IT Beratung GmbH <br /> &copy; 2025 All Rights Reserved</span></div>
+				</div>
+				<div class="col-lg-4 text-center col-12">
+					<a href="">
+						<img src="/assets/images/logo.png" alt="page_title" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-lg-4 col-12">
+					<div class="text-center text-lg-right">
+						
+						<a href="/imprint.html">Impressum  <span class="mx-2">|</span> </a>
+						
+						<a href="/privacy.html">Datenschutzbestimmung </a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Footer End -->
+
+<!-- <script src=""></script> -->
+
+<!-- JS Plugins -->
+
+<script src="/assets/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/assets/plugins/slick-carousel/slick/slick.min.js"></script>
+
+<script src="/assets/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="/assets/plugins/magnific-popup/magnific-popup.min.js"></script>
+
+<script src="/assets/plugins/search/search.min.js"></script>
+
+<script src="/assets/plugins/bootstrap/bootstrap.js"></script>
+
+
+<!-- Main Script -->
+<script src="/assets/js/script.js"></script>
+
+</body>
+
+</html>
