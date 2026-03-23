@@ -3,7 +3,7 @@ layout: post
 title: Ensuring Quality During Modernization – with Golden Master Testing  
 cover: cover.jpg
 type: "Artikel"
-datum:  "23.03.2026"
+datum:  "22.03.2026"
 post_image: "/assets/images/blog/2026-12-18-mehrwiki.jpg"
 tags: Modernisierung, Softwareentwicklung, Ressourceneffizienz, Toolkritik, KI-gestütztes-Coding, Integration
 categories: de posts
