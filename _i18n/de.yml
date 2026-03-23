@@ -340,7 +340,7 @@ blog:
 blog-landing:
   enable: true
   title : "Blog & Artikel"
-  subtitle : "Weil wir unser Wissen gerne mit Ihnen teilen."
+  subtitle : "Weil wir unsere Erfahrung gerne teilen."
 
 contact_blog:
   title: "Diskussion"
@@ -635,7 +635,7 @@ ac_hero:
   title: "Agilität mit Business-Fokus"
   title2: "Komplexität steuern. Wirkung sichern."
   subheadline: "Wir helfen Organisationen, ihre agile Arbeitsweise messbar wirksam zu machen – mit Fokus auf Lieferfähigkeit, klare Führungsmodelle und risikoarme Umsetzung. Für schnellere Entscheidungen, bessere Ergebnisse und planbaren Fortschritt in komplexen Umfeldern."
-  image : "/assets/images/banner/agile-coaching.avif"
+  image : ""
   content : 
     "<ul class=\"list-hero mt-4 mb-5\">
       <li>Lieferfähigkeit und Planbarkeit in dynamischen Systemen erhöhen</li>

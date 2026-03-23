@@ -1,0 +1,12 @@
+.header-padding {
+	padding: 220px 0px 140px 0px;
+}
+
+.header-background {
+    background:
+  radial-gradient(circle at 20% 10%, rgba(147, 74, 228, 0.7) 0%, transparent 35%),
+  radial-gradient(circle at 80% 15%, rgba(97, 187, 149, 0.6) 0%, transparent 40%),
+  radial-gradient(circle at 25% 85%, rgba(147, 74, 228, 0.35) 0%, transparent 45%),
+  radial-gradient(circle at 75% 90%, rgba(97, 187, 149, 0.35) 0%, transparent 50%),
+  linear-gradient(140deg, #1E172E 0%, #251D39 50%, #1E172E 100%);
+}
