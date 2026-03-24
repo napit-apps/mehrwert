@@ -13,6 +13,22 @@
 
 }
 
+.blog-section {
+	padding: 60px 0px;
+	  
+	@media (min-width: 768px) {
+		padding: 60px 0px;
+	 }
+	  
+	@media (min-width: 992px) {
+		padding: 70px 0px;
+	 }
+	  
+	@media (min-width: 1200px) {
+		padding: 80px 0px;
+	}
+}
+
 .blog-search-section {
   .blog-search-wrapper {
     position: sticky;
