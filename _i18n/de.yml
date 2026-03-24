@@ -7,6 +7,10 @@ empty: " "
 readmore: "Mehr"
 close: "Schließen"
 
+blog-search:
+  placeholder: "Artikel nach Titel, Autor, Tag oder Inhalt suchen..."
+  no_results: "Keine Artikel gefunden, die zu Ihrer Suche passen."
+
 ################## Menu Area #######################
 main-menue:
   - name: Startseite

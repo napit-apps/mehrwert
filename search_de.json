@@ -1,11 +1,10 @@
 ---
 layout: null
-permalink: /search.json
+permalink: /search_de.json
 ---
 [
+{% assign lang = site.lang | default: 'de' %}
 {% for post in site.posts %}
-  {% assign post_lang = post.lang | default: "de" %}
-  {% if post.url contains "/en/" %}{% assign post_lang = "en" %}{% endif %}
   {
     "title": "{{ post.title | escape }}",
     "author": "{{ post.author | default: site.author | escape }}",
@@ -13,7 +12,7 @@ permalink: /search.json
     "category": "{{ post.category | default: post.categories | join: ", " | escape }}",
     "url": "{{ site.baseurl }}{{ post.url }}",
     "date": "{{ post.date | date_to_string }}",
-    "lang": "{{ post_lang }}",
+    "lang": "{{ post.lang | default: lang | default: 'de' }}",
     "excerpt": "{{ post.excerpt | strip_html | strip_newlines | replace: '\n', ' ' | replace: '\r', ' ' | escape }}",
     "content": "{{ post.content | strip_html | strip_newlines | replace: '\n', ' ' | replace: '\r', ' ' | escape }}"
   }{% unless forloop.last %},{% endunless %}

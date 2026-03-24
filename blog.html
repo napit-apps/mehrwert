@@ -6,6 +6,27 @@ description: blog-landing.subtitle
 
 {% include page_header.html %}
 
+<section class="section blog-search-section pt-4 pb-0">
+  <div class="container">
+    <div id="blog-search-wrapper" class="blog-search-wrapper">
+      <div class="search-input-group">
+        <input type="search" id="blog-search-input" class="form-control search-input" placeholder="{% t 'blog-search.placeholder' %}" autocomplete="off" />
+        <button id="blog-search-clear" class="search-clear-btn d-none" type="button" aria-label="Clear search">
+          <i class="ti-close"></i>
+        </button>
+      </div>
+      <div id="blog-search-overlay" class="search-result-overlay d-none">
+        <div id="blog-search-results" class="search-results"></div>
+        <div id="blog-search-no-results" class="no-results text-center d-none">{% t 'blog-search.no_results' %}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  window.searchConfig = {{ site.search | jsonify }};
+</script>
+
 <section class="section">
     <div class="container">
         <div class="row justify-content-center">

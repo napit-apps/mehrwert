@@ -9,6 +9,7 @@ css:
 ################ JS Plugins ######################
 js:
   - "/assets/plugins/jQuery/jquery.min.js"
+  - "https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"
   - "/assets/plugins/slick-carousel/slick/slick.min.js"
   - "/assets/plugins/shuffle/shuffle.min.js"
   - "/assets/plugins/magnific-popup/magnific-popup.min.js"

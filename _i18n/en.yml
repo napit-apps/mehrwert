@@ -7,6 +7,10 @@ empty: " "
 readmore: "Read More"
 close: "Close"
 
+blog-search:
+  placeholder: "Search articles by title, author, tags, or content..."
+  no_results: "No articles matched your search."
+
 ################## Menu Area #######################
 main-menue:
   - name: Home

@@ -148,5 +148,20 @@ feed:
     posts:
       path: "/index.xml"
 
+search:
+  enabled: true
+  use_language_index: true
+  max_results: 20
+  snippet_length: 180
+  min_query_length: 3
+  field_weights:
+    title: 10
+    author: 6
+    tags: 5
+    content: 1
+  de_json: "search_de.json"
+  en_json: "search_en.json"
+  fallback_json: "search.json"
+
 exclude:
   - deploy.sh
