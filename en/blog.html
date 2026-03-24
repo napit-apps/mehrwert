@@ -180,6 +180,28 @@
   </div>
 </section>
 
+<section class="section blog-search-section pt-4 pb-0">
+  <div class="container">
+    <div id="blog-search-wrapper" class="blog-search-wrapper">
+      <div class="search-input-group">
+        <i class="ti-search search-icon"></i>
+        <input type="search" id="blog-search-input" class="form-control search-input" placeholder="Search articles by title, author, tags, or content..." autocomplete="off" />
+        <button id="blog-search-clear" class="search-clear-btn d-none" type="button" aria-label="Clear search">
+          <i class="ti-close"></i>
+        </button>
+      </div>
+      <div id="blog-search-overlay" class="search-result-overlay d-none">
+        <div id="blog-search-results" class="search-results"></div>
+        <div id="blog-search-no-results" class="no-results text-center d-none">No articles matched your search.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  window.searchConfig = {"enabled":true,"use_language_index":true,"max_results":20,"snippet_length":180,"min_query_length":3,"field_weights":{"title":10,"author":6,"tags":5,"content":1},"de_json":"search_de.json","en_json":"search_en.json","fallback_json":"search.json"};
+</script>
+
 <section class="section">
     <div class="container">
         <div class="row justify-content-center">
@@ -702,6 +724,8 @@
 <!-- JS Plugins -->
 
 <script src="/assets/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
 
 <script src="/assets/plugins/slick-carousel/slick/slick.min.js"></script>
 
