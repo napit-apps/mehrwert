@@ -12,7 +12,7 @@
   }
 
   .hero-logo {
-    width: 140px;
+    width: 180px;
     height: auto;
     margin-bottom: 0.75rem !important;
   }
@@ -97,6 +97,11 @@
       font-size: 1.1rem;
       line-height: 2rem;
     }
+  }
+  .banner .hero-logo {
+    width: 140px;
+    height: auto;
+    margin-bottom: 1rem !important;
   }
 }
 
