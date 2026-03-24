@@ -435,7 +435,7 @@ gsp_training:
     - title: "Professional"
       background: bg-primary
       duration: "6-8 Hours"
-      price: "800€"
+      price: "850€"
       participants: "up to 10 participants"
       location: "On site with us"
       content-1: "Creating awareness"
@@ -444,7 +444,7 @@ gsp_training:
     - title: "Professional"
       background: bg-white
       duration: "6-8 Hours"
-      price: "950€"
+      price: "1000€"
       participants: "up to 10 participants"
       location: "On site with you"
       content-1: "Creating awareness"

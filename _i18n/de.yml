@@ -436,7 +436,7 @@ gsp_training:
       background: bg-extra
       textcolor: text-white
       duration: "6-8 Stunden"
-      price: "800€"
+      price: "850€"
       participants: "bis 10 Teilnehmer"
       location: "Bei uns im Office"
       content-1: "Bewusstsein schaffen"
@@ -445,7 +445,7 @@ gsp_training:
     - title: "Professional"
       background: bg-white
       duration: "6-8 Stunden"
-      price: "950€"
+      price: "1.000€"
       participants: "bis 10 Teilnehmer"
       location: "Bei Ihnen vor Ort"
       content-1: "Bewusstsein schaffen"
