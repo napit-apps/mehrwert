@@ -11,8 +11,6 @@ author: "Alina"
 featured: false
 ---
 
-## Videokonferenztools im Vergleich: Wie viel Energie verbrauchen Zoom, Teams und FaceTime wirklich?
-
 Videokonferenzen sind aus unserem Alltag nicht mehr wegzudenken. Doch wie klimafreundlich sind Zoom, Teams und FaceTime eigentlich? In einem Selbstversuch wurden die drei Tools unter identischen Bedingungen getestet – mit erstaunlichen Ergebnissen.
 
 Dabei ging es nicht nur um die Tools selbst, sondern auch um eine zentrale Frage: Kann man den Energieverbrauch digitaler Anwendungen mit einfachen Mitteln nachvollziehen und vergleichen? Die Antwort lautet: **Ja.** Mit dem auf jedem Mac verfügbaren Tool **powermetrics** und etwas Skripting in **Python** wurde ein realistisches Testsetup aufgebaut, das zeigt, dass sich auch ohne aufwändige Hardware oder Spezialsoftware aussagekräftige Energievergleiche durchführen lassen. Der Versuch belegt, dass fundierte Aussagen zur Energieeffizienz **niedrigschwellig und reproduzierbar** möglich sind – ein wichtiger Aspekt für IT-Professionals, die Nachhaltigkeit in ihrer digitalen Infrastruktur ernst nehmen.

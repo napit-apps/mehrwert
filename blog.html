@@ -39,12 +39,12 @@ description: blog-landing.subtitle
 							<!-- {% if post.post_image %}
 							<img src="{{post.post_image | relative_url}}" alt="{{post.title}}" class="img-fluid w-100" />
 							{% endif %} -->
-                            <h4 class="mt-4 mb-2">{{ post.title }}</h4>
-                            <div class="post-meta text-uppercase mb-3">
+                            <h4 class="mt-4 mb-0">{{ post.title }}</h4>
+                            <div class="post-meta text-uppercase mb-2">
                                 {% if post.author %}
-                                <span class="text-color">{{ post.author }}, </span>
+                                <span class="text-muted text-small">{{ post.author }}, </span>
                                 {% endif %}
-                                <span class="text-color">{{ post.datum }}</span>
+                                <span class="text-muted text-small">{{ post.datum }}</span>
                             </div>
                             <p class="text-dark">{{ post.excerpt | strip_html | truncatewords: "20" }} <i class="ti-arrow-right"></i></p>
                         </div>
