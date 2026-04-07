@@ -691,6 +691,10 @@ ac_testimonials:
   title : "Trust Built on Substance"
   subtitle : "Voices from real collaboration"
   item:
+  - text : "Since July 2023, Marcel has supported me in particular with the operational and strategic development of trading*serviceHUB, agile governance, and large-scale planning and on-site initiatives. Together, we have been able to measurably improve transparency, customer satisfaction, and the quality of planning, and establish sustainable structures for collaboration and feedback."
+    author : "Lucas Schleweis"
+    role : "Product Owner trading*serviceHUB, EnBW AG"
+    image : "../../assets/images/clients/lucas.avif"
   - text : "Marcel Russ actively co-developed the agile operating model for around 20 teams. His impact was especially valuable at the system level: coaching Scrum Masters, Product Owners, and executives (L1–L3), establishing a cross-team portfolio management approach, and streamlining backlog and risk governance. Dependencies became transparent and manageable."
     author : "Exxeta AG"
     role : "Excerpt from reference letter, Team Lead"
