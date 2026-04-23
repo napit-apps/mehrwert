@@ -68,7 +68,7 @@ hero_area:
   subheadline : "We bring clarity to complex systems and structure to grown IT landscapes. This makes technology manageable again — and enables real business impact."
   content : ""
   primaryButton-label : "Let’s connect" 
-  primaryButton-url : "/#contact"
+  primaryButton-url : "/en/#contact"
   secondaryButton-label : ""
 
 ################## Problem Solution ###########################
