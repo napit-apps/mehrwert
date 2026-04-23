@@ -64,11 +64,11 @@ bottom:
 
 ################## Hero Area #######################
 hero_area:
-  title : "We give IT value.<br />And your business lasting resilience."
-  subheadline : "We think strategically, act responsibly, and shape change with technical clarity. The results are sustainable structures, effective teams, and software with a lasting impact."
+  title : "We make technology effective.<br />For sustainable results."
+  subheadline : "We bring clarity to complex systems and structure to grown IT landscapes. This makes technology manageable again — and enables real business impact."
   content : ""
-  primaryButton-label : "Start the conversation now" 
-  primaryButton-url : "/contact.html"
+  primaryButton-label : "Let’s connect" 
+  primaryButton-url : "/#contact"
   secondaryButton-label : ""
 
 ################## Problem Solution ###########################

@@ -61,11 +61,11 @@ bottom:
 
 ################## Hero Area #######################
 hero_area:
-  title : "Wir geben IT einen Wert.<br />Und Ihrem Business nachhaltige Stärke."
-  subheadline : "Wir denken strategisch, handeln verantwortungsvoll und gestalten Wandel mit technischer Klarheit. Das Ergebnis sind tragfähige Strukturen, handlungsfähige Teams und Software mit nachhaltiger Wirkung."
+  title : "Wir machen Technologie wirksam. <br />Für nachhaltige Ergebnisse."
+  subheadline : "Wir schaffen Klarheit in komplexen Systemen und bringen Struktur in gewachsene IT-Landschaften. So wird Technologie wieder steuerbar – und liefert einen echten Beitrag zum Business."
   content: ""
-  primaryButton-label : "Jetzt ins Gespräch kommen" 
-  primaryButton-url : "/contact.html"
+  primaryButton-label : "Unverbindlich austauschen" 
+  primaryButton-url : "/#contact"
   secondaryButton-label : ""
 
 
