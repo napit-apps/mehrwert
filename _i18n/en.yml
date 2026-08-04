@@ -18,7 +18,7 @@ main-menue:
   - name: Services
     url: "#"
     submenu: 
-      - name: Technischer Leiter auf Zeit
+      - name: Frational CTO
         url: "/services/fractional-cto.html"
       - name: Agile Transformation Coaching
         url: "/services/agile-transformation-coaching.html"

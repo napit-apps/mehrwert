@@ -1,6 +1,6 @@
 ################## Page #######################
 page_title: "mehr.wert - Technologie für nachhaltige Lösungen"
-page_description: "Wir geben IT einen Wert. Und Ihrem Business nachhaltige Stärke. - Strategische IT-Beratung für Unternehmen im Wandel: Als Technischer Leiter auf Zeit unterstütze ich Sie bei Architekturentscheidungen, Teamführung, agilen Prozessen und nachhaltiger Softwareentwicklung. Klar. Umsetzbar. Wirkungsvoll."
+page_description: "Wir geben IT einen Wert. Und Ihrem Business nachhaltige Stärke. - Strategische IT-Beratung für Unternehmen im Wandel: Als IT Leiter auf Zeit unterstütze ich Sie bei Architekturentscheidungen, Teamführung, agilen Prozessen und nachhaltiger Softwareentwicklung. Klar. Umsetzbar. Wirkungsvoll."
 
 ################## General #######################
 empty: " "
@@ -18,7 +18,7 @@ main-menue:
   - name: Leistungen
     url: "#"
     submenu: 
-      - name: Technischer Leiter auf Zeit
+      - name: IT Leitung auf Zeit
         url: "/services/fractional-cto.html"
       - name: Agile Transformation Coaching
         url: "/services/agile-transformation-coaching.html"
@@ -488,7 +488,7 @@ gsp_training:
 #################################### Technischer Leiter#########################################
 ################## IT Leiter Hero Area #######################
 cto_hero:
-  title : "Technischer Leiter auf Zeit<br />für KMU & Startups"
+  title : "Technische Leitung auf Zeit<br />für KMU & Startups"
   title2 : "Ich bin Marcel Russ"
   subheadline : "Als externer IT Leiter bringe ich Klarheit in Ihre IT-Strukturen, Teams und Technologien – für nachhaltige Wirkung und messbaren Fortschritt."
   image : "/assets/images/banner/2023.avif"
