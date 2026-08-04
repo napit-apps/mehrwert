@@ -64,8 +64,8 @@ bottom:
 
 ################## Hero Area #######################
 hero_area:
-  title : "We make technology effective.<br />For sustainable results."
-  subheadline : "We bring clarity to complex systems and structure to grown IT landscapes. This makes technology manageable again — and enables real business impact."
+  title : "We give IT value.<br />And your business lasting resilience"
+  subheadline : "We bring clarity, structure, and sound decisionmaking to the intersection of technology, organization, and people."
   content : ""
   primaryButton-label : "Let’s connect" 
   primaryButton-url : "/en/#contact"
