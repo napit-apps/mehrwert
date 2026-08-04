@@ -1,6 +1,6 @@
 ################## Page #######################
-page_title: "mehr.wert - Fractional CTO & Agile Leadership for sustainable IT Solutions "
-page_description: "We give IT value. And your business lasting resilience. - Strategic IT consulting for companies undergoing change: As an interim CTO, We support you in architectural decisions, team leadership, agile processes, and sustainable software development. Clear. Feasible. Effective."
+page_title: "mehr.wert - Sustainable Software Solutions "
+page_description: "We give IT value. And your business lasting resilience. - Strategic IT consulting for companies undergoing change: As an interim IT Leader, I support you in architectural decisions, team leadership, agile processes, and sustainable software development. Clear. Feasible. Effective."
 
 ################## General #######################
 empty: " "
@@ -18,7 +18,7 @@ main-menue:
   - name: Services
     url: "#"
     submenu: 
-      - name: Fractional CTO
+      - name: Technischer Leiter auf Zeit
         url: "/services/fractional-cto.html"
       - name: Agile Transformation Coaching
         url: "/services/agile-transformation-coaching.html"

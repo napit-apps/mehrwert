@@ -1,6 +1,6 @@
 ################## Page #######################
-page_title: "mehr.wert - Fractional CTO & Agile Leadership für nachhaltige Softwarelösungen"
-page_description: "Wir geben IT einen Wert. Und Ihrem Business nachhaltige Stärke. - Strategische IT-Beratung für Unternehmen im Wandel: Als CTO auf Zeit unterstützen wir Sie bei Architekturentscheidungen, Teamführung, agilen Prozessen und nachhaltiger Softwareentwicklung. Klar. Umsetzbar. Wirkungsvoll."
+page_title: "mehr.wert - Technologie für nachhaltige Lösungen"
+page_description: "Wir geben IT einen Wert. Und Ihrem Business nachhaltige Stärke. - Strategische IT-Beratung für Unternehmen im Wandel: Als Technischer Leiter auf Zeit unterstütze ich Sie bei Architekturentscheidungen, Teamführung, agilen Prozessen und nachhaltiger Softwareentwicklung. Klar. Umsetzbar. Wirkungsvoll."
 
 ################## General #######################
 empty: " "
@@ -18,7 +18,7 @@ main-menue:
   - name: Leistungen
     url: "#"
     submenu: 
-      - name: CTO auf Zeit
+      - name: Technischer Leiter auf Zeit
         url: "/services/fractional-cto.html"
       - name: Agile Transformation Coaching
         url: "/services/agile-transformation-coaching.html"
@@ -485,12 +485,12 @@ gsp_training:
       answer: "Für die Durchführung des Tainungs kommen wir sehr gerne bei Ihnen vorbei. Alternativ, laden wir Sie gerne zu uns in Kirchheim unter Teck ein."
 
 
-#################################### Fractional CTO #########################################
-################## CTO Hero Area #######################
+#################################### Technischer Leiter#########################################
+################## IT Leiter Hero Area #######################
 cto_hero:
-  title : "CTO auf Zeit<br />für KMU & Startups"
+  title : "Technischer Leiter auf Zeit<br />für KMU & Startups"
   title2 : "Ich bin Marcel Russ"
-  subheadline : "Als externer CTO bringe ich Klarheit in Ihre IT-Strukturen, Teams und Technologien – für nachhaltige Wirkung und messbaren Fortschritt."
+  subheadline : "Als externer IT Leiter bringe ich Klarheit in Ihre IT-Strukturen, Teams und Technologien – für nachhaltige Wirkung und messbaren Fortschritt."
   image : "/assets/images/banner/2023.avif"
   content : 
     "<ul class=\"list-hero mt-4 mb-5\">
@@ -500,7 +500,7 @@ cto_hero:
       <li>Direkte Zusammenarbeit – statt PowerPoint-Beratung</li>
     </ul>"
   primaryButton-label : "CTO Quick Check starten – kostenlos & konkret" 
-  primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Anfrage kostenloser CTO Quick Check"
+  primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Anfrage kostenloser IT Leiter Quick Check"
   background-style: "background: radial-gradient(circle at 20% 0%, #934ae4 0%, rgba(147, 74, 228, 0) 45%), radial-gradient(circle at 80% 10%, #61bb95 0%, rgba(255, 255, 255, 0) 55%), linear-gradient(to bottom, #1B1428 0%, #2B2044 100%);"
 
 
@@ -510,7 +510,7 @@ cto_about:
   title : "Wenn IT wächst, wachsen auch die Herausforderungen."
   content : "<p><b>Ohne technische Führung verliert sich das Team im Tagesgeschäft.</b><br />Viele Unternehmen stecken fest: Die IT entwickelt sich inkonsistent, technische Schulden wachsen, strategische Entscheidungen werden aufgeschoben. Oft liegt die Ursache nicht nur in fehlender Führung, sondern in der Art, wie Fachbereiche, IT und Systeme zusammenarbeiten.</p>
             <p><b>Das kostet nicht nur Zeit und Geld – es gefährdet die Zukunftsfähigkeit.</b><br />Ohne klare technische Vision entstehen Silos, schlechte Architekturentscheidungen oder ineffiziente Prozesse. Die Folge: Frust im Team, verzögerte Releases, verpasste Marktchancen. Irgendwann ist es zu spät für nachhaltige Korrekturen.</p>
-            <p><b>Mit einem externen CTO holen Sie sich strategische Führung auf Zeit.</b><br />Als CTO auf Zeit bringe ich Struktur, Klarheit und technisches Denken in Ihre Organisation – flexibel, erfahren und mit dem Blick fürs Wesentliche. Gemeinsam richten wir Ihre IT neu aus: zukunftsfähig, wirkungsorientiert und im Einklang mit Ihren Business-Zielen.</p>"
+            <p><b>Mit einem externen IT Leiter holen Sie sich strategische Führung auf Zeit.</b><br />Als IT Leiter auf Zeit bringe ich Struktur, Klarheit und technisches Denken in Ihre Organisation – flexibel, erfahren und mit dem Blick fürs Wesentliche. Gemeinsam richten wir Ihre IT neu aus: zukunftsfähig, wirkungsorientiert und im Einklang mit Ihren Business-Zielen.</p>"
   btn-label: "Mehr über unsere Haltung & Arbeitsweise"
   quote: "„Struktur ist kein Selbstzweck. Sie schafft Raum für Klarheit, Fokus und nachhaltige Entscheidungen.“ — Marcel Russ"
 
@@ -597,11 +597,11 @@ cto_faq:
   title: "GUT ZU WISSEN"
   subtitle: "Antworten auf die wichtigsten Fragen"
   item:
-  - question: "Was genau macht ein CTO auf Zeit?"
+  - question: "Was genau macht ein IT Leiter auf Zeit?"
     answer: "Ich übernehme temporär die technische Führung – hands-on und strategisch. Dabei geht es um klare Architekturentscheidungen, saubere Teamstrukturen und wirksame Prozesse – bis Ihr Tech-Team selbstständig liefern kann."
 
   - question: "Wie läuft der Einstieg ab?"
-    answer: "Mit dem CTO Quick Check (kostenlos) prüfen wir Ziel, Kontext und Handlungsbedarf. Danach folgt – falls sinnvoll – ein CTO Tech Audit mit klaren Empfehlungen und Prioritäten."
+    answer: "Mit demQuick Check (kostenlos) prüfen wir Ziel, Kontext und Handlungsbedarf. Danach folgt – falls sinnvoll – einTech Audit mit klaren Empfehlungen und Prioritäten."
 
   - question: "Sind Sie Teil meines Teams oder externer Berater?"
     answer: "Ich arbeite als Teil Ihrer Organisation, nicht auf der Metaebene. Ich übernehme Verantwortung, treffe Entscheidungen und coache gleichzeitig Ihr Team für nachhaltige Eigenständigkeit."
@@ -624,7 +624,7 @@ cto_cta:
     title: "CTO auf Zeit – Klarheit, Struktur und Wirksamkeit starten hier."
     subtitle: "In 30 Minuten erhalten Sie eine realistische Einschätzung zu Potenzial, Risiken und nächsten Schritten – kostenlos, konkret und unverbindlich."
     btn-label: "Jetzt kostenlosen Quick Check anfragen"
-    btn-url: "mailto:kontakt@mehrwert.com?subject=Anfrage kostenloser CTO Quick Check"
+    btn-url: "mailto:kontakt@mehrwert.com?subject=Anfrage kostenloserQuick Check"
 
 cto_contact:
   title: "Unverbindliche Anfrage"
