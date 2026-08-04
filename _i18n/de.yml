@@ -74,7 +74,7 @@ services:
   title: "Nachhaltige IT. Agile Prozesse. Messbare Ergebnisse."
   subtitle: "Wir verbinden Agilität mit Verantwortung, um Softwareentwicklung zukunftssicher zu gestalten. Unsere Services helfen Unternehmen, effizienter, ressourcenschonender und messbar erfolgreicher zu werden."
   item:
-  - name : "CTO auf Zeit"
+  - name : "IT Leitung auf Zeit"
     content : "Technische Führung auf Zeit – für KMU, NGOs und Startups mit wachsender IT. Wir bringen Struktur in Ihre IT-Landschaft, begleiten technologische Entscheidungen und machen Ihr Team fit für die Zukunft."
     icon: "ti-direction"
     btn-label: "Mehr erfahren"
@@ -130,7 +130,7 @@ portfolios:
       color: "#322F40"  # CI-nahes Dunkelviolett
       popup: "Wir etablierten leistungsfähige Nearshore-Teams (Portugal, Slowakei, England, Tschechien, Indien) und führten sie erfolgreich in verteilte Entwicklungsprozesse ein – mit klarer Kommunikation, Qualitätssicherung und technischer Verantwortung."
 
-    - name: "CTO auf Zeit"
+    - name: "IT Leitung auf Zeit"
       description: "Technische Führung auf Zeit – Struktur, Architektur und Klarheit für KMU & Startups."
       color: "#44464F"  # Neutraler Metallton – modern & zurückhaltend
       popup: "Ich bringe technische Führung in Ihr Unternehmen – genau dann, wenn sie gebraucht wird. Von Architektur über Teamstruktur bis zur Skalierungsstrategie: pragmatisch, erfahren und auf Augenhöhe."
@@ -499,7 +499,7 @@ cto_hero:
       <li>Green Tech mit Verantwortung & messbarem Impact</li>
       <li>Direkte Zusammenarbeit – statt PowerPoint-Beratung</li>
     </ul>"
-  primaryButton-label : "CTO Quick Check starten – kostenlos & konkret" 
+  primaryButton-label : " Quick Check starten – kostenlos & konkret" 
   primaryButton-url : "mailto:kontakt@mehrwert.com?subject=Anfrage kostenloser IT Leiter Quick Check"
   background-style: "background: radial-gradient(circle at 20% 0%, #934ae4 0%, rgba(147, 74, 228, 0) 45%), radial-gradient(circle at 80% 10%, #61bb95 0%, rgba(255, 255, 255, 0) 55%), linear-gradient(to bottom, #1B1428 0%, #2B2044 100%);"
 
@@ -551,10 +551,10 @@ cto_testimonials:
 
 ###################### Skill #############################
 cto_skill:
-  subtitle : "Handlungsfelder im CTO-Mandat"
+  subtitle : "Handlungsfelder im Mandat"
   title : "12 Bausteine für tragfähige Technik, Teams und Prozesse"
   skills-left:
-    - name: "CTO Tech Audit"
+    - name: "Technologie Audit"
       description: "Systematische Analyse von Code, Tools, Architektur & Team zur klaren Einordnung."
 
     - name: "Technische Roadmap & Architekturstrategie"
@@ -621,7 +621,7 @@ cto_faq:
 
 ####################### CTA ##########################
 cto_cta:
-    title: "CTO auf Zeit – Klarheit, Struktur und Wirksamkeit starten hier."
+    title: "IT Leitung auf Zeit – Klarheit, Struktur und Wirksamkeit starten hier."
     subtitle: "In 30 Minuten erhalten Sie eine realistische Einschätzung zu Potenzial, Risiken und nächsten Schritten – kostenlos, konkret und unverbindlich."
     btn-label: "Jetzt kostenlosen Quick Check anfragen"
     btn-url: "mailto:kontakt@mehrwert.com?subject=Anfrage kostenloserQuick Check"
