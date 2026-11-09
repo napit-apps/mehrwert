@@ -1,0 +1,49 @@
+{% assign case = site.translations[site.lang].relaunch.pages.enbw.case_study %}
+<article class="mw-strategy mw-enbw-case">
+  <header class="mw-hero"><div class="mw-shell">
+    <p class="mw-eyebrow">{{ case.hero.eyebrow }}</p>
+    <h1>{{ case.hero.title }}</h1>
+    <p class="mw-lead">{{ case.hero.lead }}</p>
+    <p class="mw-case-context">{{ case.hero.context }}</p>
+  </div></header>
+  <div class="mw-shell">
+    <section class="mw-case-section mw-case-prose" aria-labelledby="case-situation">
+      <h2 id="case-situation">{{ case.situation.title }}</h2>
+      {% for paragraph in case.situation.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+    </section>
+    <section class="mw-case-section mw-case-prose" aria-labelledby="case-role">
+      <h2 id="case-role">{{ case.role.title }}</h2>
+      {% for paragraph in case.role.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+    </section>
+    <section class="mw-case-section" aria-labelledby="case-approach">
+      <div class="mw-case-prose"><h2 id="case-approach">{{ case.approach.title }}</h2><p>{{ case.approach.intro }}</p></div>
+      <ol class="mw-case-steps">{% for item in case.approach.items %}
+        <li><span class="mw-case-number" aria-hidden="true">0{{ forloop.index }}</span><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></li>
+      {% endfor %}</ol>
+    </section>
+    <section class="mw-case-section" aria-labelledby="case-process">
+      <div class="mw-case-prose"><h2 id="case-process">{{ case.process.title }}</h2><p>{{ case.process.intro }}</p></div>
+      <figure class="mw-case-process mw-case-cycle">
+        <ol>{% for step in case.process.steps %}<li>{{ step }}</li>{% endfor %}</ol>
+        <p class="mw-case-feedback">{{ case.process.feedback }}</p>
+        <figcaption>{{ case.process.caption }}</figcaption>
+      </figure>
+    </section>
+    <section class="mw-case-section" aria-labelledby="case-results">
+      <div class="mw-case-prose"><h2 id="case-results">{{ case.results.title }}</h2><p>{{ case.results.intro }}</p></div>
+      <div class="mw-case-results">{% for item in case.results.items %}<section><h3>{{ item.title }}</h3><p>{{ item.text }}</p></section>{% endfor %}</div>
+    </section>
+    {% if case.testimonial %}<section class="mw-case-section mw-case-prose mw-case-testimonial" aria-labelledby="case-testimonial">
+      <h2 id="case-testimonial">{{ case.testimonial.title }}</h2>
+      <figure><blockquote lang="en"><p>{{ case.testimonial.quote }}</p></blockquote><figcaption>{{ case.testimonial.attribution }}</figcaption></figure>
+    </section>{% endif %}
+    <section class="mw-case-section mw-case-prose" aria-labelledby="case-transfer">
+      <h2 id="case-transfer">{{ case.transfer.title }}</h2>
+      {% for paragraph in case.transfer.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+    </section>
+    <section class="mw-case-section mw-case-closing" aria-labelledby="case-closing">
+      <div class="mw-case-prose"><h2 id="case-closing">{{ case.closing.title }}</h2>{% for paragraph in case.closing.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
+      <ul>{% for link in case.closing.links %}<li><a class="mw-text-link" href="{{ link.url }}">{{ link.title }}</a></li>{% endfor %}</ul>
+    </section>
+  </div>
+</article>

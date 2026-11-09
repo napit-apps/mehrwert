@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ensuring Quality During Modernization – with Golden Master Testing  
+title: IT Modernization Step by Step – the Strangler Fig Pattern
 cover: cover.jpg
 type: "Artikel"
 datum:  "22.03.2026"

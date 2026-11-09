@@ -1,0 +1,59 @@
+{% assign about = site.translations[site.lang].relaunch.pages.about %}
+<div class="mw-strategy mw-about">
+  <section class="mw-hero">
+    <div class="mw-shell">
+      <p class="mw-eyebrow">{{ about.hero.label }}</p>
+      <h1>{{ about.hero.title }}</h1>
+      <div class="mw-about-prose mw-about-hero-copy">{% for paragraph in about.hero.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
+      <div class="mw-actions"><a class="mw-button" href="#person">{{ about.hero.primary }}</a><a class="mw-text-link" href="#approach">{{ about.hero.secondary }} <span aria-hidden="true">↓</span></a></div>
+    </div>
+  </section>
+  <section class="mw-section mw-about-story">
+    <div class="mw-shell mw-strategy-split">
+      <div><p class="mw-strategy-label">{{ about.why.label }}</p><h2>{{ about.why.title }}</h2></div>
+      <div class="mw-about-prose">{% for paragraph in about.why.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}<p class="mw-strategy-email">{{ about.why.signature }}</p></div>
+    </div>
+  </section>
+  <section class="mw-section mw-about-person" id="person">
+    <div class="mw-shell">
+      <p class="mw-strategy-label">{{ about.person.label }}</p><h2>{{ about.person.title }}</h2>
+      <div class="mw-about-person-story">
+        <figure class="mw-portrait"><img src="/assets/images/banner/2023.avif" alt="{{ about.person.portrait_alt | escape }}" width="600" height="800" loading="lazy" decoding="async"></figure>
+        <div class="mw-about-prose">{% for paragraph in about.person.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
+      </div>
+      <div class="mw-about-columns mw-about-experience">{% for item in about.person.items %}<div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div>{% endfor %}</div>
+      <p class="mw-about-link"><a class="mw-text-link" href="{{ about.person.url }}">{{ about.person.link }}</a></p>
+    </div>
+  </section>
+  <section class="mw-section mw-about-network">
+    <div class="mw-shell mw-strategy-split">
+      <div><p class="mw-strategy-label">{{ about.network.label }}</p><h2>{{ about.network.title }}</h2></div>
+      <div class="mw-about-prose">{% for paragraph in about.network.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
+    </div>
+  </section>
+  <section class="mw-section" id="approach">
+    <div class="mw-shell">
+      <p class="mw-strategy-label">{{ about.approach.label }}</p><h2>{{ about.approach.title }}</h2><p class="mw-strategy-intro">{{ about.approach.intro }}</p>
+      <ol class="mw-about-steps">{% for item in about.approach.items %}<li><h3>{{ item.title }}</h3><p>{{ item.text }}</p></li>{% endfor %}</ol>
+    </div>
+  </section>
+  <section class="mw-section mw-strategy-values">
+    <div class="mw-shell mw-strategy-split">
+      <div><p class="mw-strategy-label">{{ about.values.label }}</p><h2>{{ about.values.title }}</h2><p class="mw-strategy-intro">{{ about.values.intro }}</p></div>
+      <div class="mw-about-prose">{% for item in about.values.items %}<div class="mw-about-value"><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div>{% endfor %}<p>{{ about.values.closing }}</p><p><a class="mw-text-link" href="{{ about.values.url }}">{{ about.values.link }}</a></p></div>
+    </div>
+  </section>
+  <section class="mw-section mw-about-reading">
+    <div class="mw-shell">
+      <p class="mw-strategy-label">{{ about.reading.label }}</p><h2>{{ about.reading.title }}</h2>
+      <ul class="mw-about-links">{% for item in about.reading.items %}<li><h3><a class="mw-text-link" href="{{ item.url }}">{{ item.title }}</a></h3><p>{{ item.text }}</p></li>{% endfor %}</ul>
+    </div>
+  </section>
+  <section class="mw-section mw-dark mw-strategy-contact">
+    <div class="mw-shell">
+      <p class="mw-strategy-label">{{ about.contact.label }}</p><h2>{{ about.contact.title }}</h2><p class="mw-strategy-intro">{{ about.contact.text }}</p>
+      <div class="mw-actions"><a class="mw-button" href="{{ site.baseurl }}/contact.html#enquiry">{{ about.contact.primary }}</a></div>
+      <p class="mw-strategy-email">{{ about.contact.alternative | replace: "kontakt@mehrwert.tech", '<a href="mailto:kontakt@mehrwert.tech">kontakt@mehrwert.tech</a>' }}</p>
+    </div>
+  </section>
+</div>

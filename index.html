@@ -1,17 +1,9 @@
 ---
-layout: default
+layout: relaunch
+relaunch: true
+content_key: home
+title: relaunch.pages.home.meta_title
+description: relaunch.pages.home.description
+sitemap: false
 ---
-
-{% include hero_area.html %}
-{% include services.html %}
-{% include about.html %}
-{% include clients.html %}
-{% include portfolios.html %}
-{% include count_down.html %}
-{% include skills.html %}
-{% include team.html %} 
-{% include banner.html %}
-{% include blog.html %}
-{% assign contact = site.translations[site.lang].contact %}
-{% include contact.html %}
-{% include modals.html %}
+{% include relaunch/home.html %}

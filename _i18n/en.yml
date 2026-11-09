@@ -789,3 +789,1004 @@ ac_contact:
   title: "Still Have Questions or Want to Talk?"
   subtitle: "No immediate coaching need – but something worth discussing?"
   intro: "Reach out to us. We’ll give you an honest perspective – independent, informed, and without obligation."
+
+# Relaunch 2027 – editorial working draft; all visible copy lives here.
+relaunch:
+  ui:
+    home_link: Home
+    draft: Working draft · content and references awaiting approval
+    skip: Skip to content
+    menu: Menu
+    languages: Language
+    more: Learn more
+    contact: Start a conversation
+    all_projects: All projects & experience
+    home: Home
+    placeholder: Copy pending
+    visual: Visualization pending
+    logo_alt: mehr.wert – home
+    portrait_alt: Marcel Russ, founder of mehr.wert
+    footer: Personal responsibility. Sustainably better software.
+    copyright: "© 2026 mehr.wert Software und IT Beratung GmbH"
+    legal:
+    - title: Legal notice
+      url: "/imprint.html"
+    - title: Privacy
+      url: "/privacy.html"
+    - title: Terms
+      url: "/agb.html"
+    person_name: Marcel Russ
+    brand_name: mehr.wert
+  navigation:
+  - title: Services
+    children:
+    - title: IT strategy & modernization
+      url: "/services/fractional-cto.html"
+    - title: Organization & software delivery
+      url: "/services/agile-transformation-coaching.html"
+  - title: Projects & experience
+    url: "/projects.html"
+  - title: About mehr.wert
+    url: "/mission.html"
+  - title: Blog
+    url: "/blog.html"
+  - title: Contact
+    url: "/contact.html"
+  pages:
+    home:
+      eyebrow: IT strategy & modernization · Agile leadership
+      meta_title: mehr.wert – IT strategy, modernization & agile leadership
+      description: Marcel Russ supports business-critical IT modernization and effective
+        software delivery. Independent advice, personal responsibility and practical
+        experience.
+      intro: We create clarity, structure and sound decisions where technology, organizations
+        and people come together. We help you evolve business-critical software and
+        align collaboration around it.
+      primary: Let’s talk
+      secondary: Our services
+      person_role: Marcel Russ · Founder & consultant
+      situations:
+        label: Your starting point
+        title: Your IT needs to evolve. Where do you start?
+        items:
+        - title: The software runs the business. Change is becoming harder.
+          text: Legacy systems, unclear dependencies and scattered knowledge make
+            change difficult. You need a sound modernization roadmap that takes ongoing
+            operations into account.
+        - title: Important decisions remain unresolved.
+          text: There are plenty of technology options. What is missing is shared
+            priorities, clear responsibility and an independent assessment of benefits,
+            effort and risks.
+        - title: Teams work in agile ways. Delivery remains hard to predict.
+          text: Dependencies, unclear roles and different working practices slow progress.
+            Strategy, planning and day-to-day collaboration need to work together.
+      services:
+        label: Our services
+        title: Move technology and organization forward together.
+        items:
+        - title: IT strategy & modernization
+          text: We help you assess the future viability of business-critical software,
+            weigh options and develop a practical path forward. We connect technical,
+            economic and organizational perspectives – from assessment to implementation
+            guidance.
+          points:
+          - Assess the IT landscape, dependencies and risks
+          - Prioritize architecture decisions and modernization
+          - Guide initiatives and take interim IT responsibility
+          url: "/services/fractional-cto.html"
+          link: Explore IT strategy & modernization
+        - title: Organization & software delivery
+          text: We support leaders and teams in translating strategic goals into workable
+            collaboration. Clear responsibilities, shared planning and appropriate
+            feedback loops help expose bottlenecks and focus improvement efforts.
+          points:
+          - Connect agile strategy and cross-team planning
+          - Strengthen teams and leaders in their responsibilities
+          - Improve transparency and decision-making
+          url: "/services/agile-transformation-coaching.html"
+          link: Explore organization & software delivery
+      projects:
+        label: Selected experience
+        title: Our contribution in practice.
+        intro: Every starting point is different. These examples show how we connect
+          technical questions, shared direction and organizational practice.
+        link: All projects & experience
+        items:
+        - name: Dücker
+          type: Modernization guidance · ongoing
+          title: A shared path forward for ASCOR
+          text: Brought business functions and IT together to develop a shared understanding
+            of the domain and a modernization strategy. Existing business rules were
+            extracted from ASCOR and handed to developers.
+          url: "/projects/duecker.html"
+        - name: EnBW
+          type: Agile transformation · multiple assignments
+          title: Translating strategy into shared planning
+          text: Established quarterly planning and onsite weeks as recurring ways
+            of working. Roadmaps, dependencies and management feedback were integrated
+            into cross-team collaboration.
+          url: "/projects/enbw.html"
+        - name: Viridium
+          type: Organizational development · ongoing
+          title: Shared foundations for delivery
+          text: Built a community of practice and developed shared quality criteria
+            and working practices. Introduction and adoption in squads are supported
+            operationally. Organization-wide effects are still being assessed.
+          url: "/projects/viridium.html"
+        - name: HUGO BOSS
+          type: Strategy and team workshop · 2026
+          title: From individual ideas to a shared roadmap
+          text: Supported the TechFoundry team in clarifying its strategic direction.
+            The workshop produced a shared view of the initiative and a structured
+            roadmap for the next steps.
+          url: "/projects/hugo-boss.html"
+        additional:
+        - title: Own product responsibility
+          text: Through myWork, Marcel Russ also brings experience in developing and
+            operating his own software product.
+          url: "/projects.html#products"
+        - title: International leadership experience
+          text: Building and leading distributed teams complements the engagement
+            experience – with a suitable nearshore network where needed.
+          url: "/projects.html#international"
+      person:
+        label: Your point of contact
+        title: Personally responsible. Independent in judgment.
+        paragraphs:
+        - As the founder of mehr.wert, I – Marcel Russ – bring over a decade of experience
+          in software development, agile leadership and technology guidance. I understand
+          both technical decisions and the work of leading people and organizations
+          through change.
+        - You work directly with me. Where needed, I bring in suitable specialists
+          from my network. We agree on a scope that fits your situation and regularly
+          review which support remains useful.
+        quote: Technology needs direction. And an approach that lasts.
+        link: More about our approach & working methods
+      approach:
+        label: How we work
+        title: Understand. Design. Guide.
+        items:
+        - title: Understand
+          text: We analyze your situation, listen to those involved and challenge
+            assumptions. This creates a shared picture of problems, dependencies and
+            where action is needed.
+          result: Understanding before solutions.
+        - title: Design
+          text: Together, we develop a target picture, assess options and clarify
+            priorities. We translate these into decisions, responsibilities and actionable
+            next steps.
+          result: A path that fits your reality.
+        - title: Guide
+          text: We put concepts into practice with leaders and teams, assess progress
+            and adapt. We make obstacles and necessary management decisions transparent.
+          result: Responsibility within the mandate.
+      voice:
+        label: A perspective from working together
+        quote: Particularly valuable is his ability to understand situations quickly,
+          develop viable concepts and initiate sustainable change through targeted
+          input and coaching.
+        name: Michael Weinheimer
+        role: Head of IT TECH Core Software Engineering, HUGO BOSS AG
+        source: Translated excerpt from existing client feedback
+      values:
+        label: Our foundation
+        title: Sustainably better software.
+        text: 'We stand for MEHR.WERT – and that starts with our approach. To us,
+          sustainability means making conscious decisions and taking responsibility
+          for long-term consequences: for people, systems and resources. Economic
+          viability, maintainability and the ability to act belong together.'
+        ai: We consider AI where it offers concrete value – for example in analysis,
+          documentation or quality assurance. Benefits, quality, costs and security
+          guide its use. Professional judgment and responsibility remain with people.
+        link: Awareness and responsibility in the Green Agile Guide
+      knowledge:
+        label: Practical insight
+        title: Ideas to take further.
+        text: Our articles explore the connection between software modernization,
+          collaboration and responsible technology work.
+        link: Visit the blog
+        articles:
+        - title: Modernization starts with shared understanding
+          text: How domain-driven design connects business context and technical decisions.
+          url: "/DDD-1.html"
+        - title: Modernize incrementally, manage risks
+          text: The Strangler Fig pattern as a path to replacing legacy systems.
+          url: "/Strangler-Fig-Pattern.html"
+        - title: Architecture and organization belong together
+          text: Why technical change also affects collaboration.
+          url: "/Beyond-Architecure.html"
+      contact:
+        label: Your next step
+        title: What decision is ahead of you?
+        text: 'Whether you are dealing with legacy software, a modernization initiative
+          or questions about collaboration: tell me about your situation. Together
+          we can determine whether and how mehr.wert can support you.'
+        button: Start a conversation
+        alternative: Or email directly
+      title: We give IT value.<br>And your business lasting resilience.
+      url: "/"
+    strategy:
+      title: IT strategy & modernization
+      meta_title: IT strategy & modernization | mehr.wert
+      description: 'Working draft: IT strategy & modernization'
+      eyebrow: mehr.wert / 2027
+      intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+        sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+        neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
+      sections:
+      - id: situations
+        title: When legacy software becomes a strategic issue
+        kind: cards
+        items:
+        - title: Future viability & dependencies
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing.
+        - title: Architecture & modernization roadmap
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing.
+        - title: Interim IT leadership
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing.
+      - id: approach
+        title: From assessment to a viable path
+        kind: steps
+        items:
+        - title: Understand
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien.
+          number: '01'
+        - title: Design
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien.
+          number: '02'
+        - title: Guide
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien.
+          number: '03'
+      - id: responsibility
+        title: Responsibility within the engagement
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim, sapien vitae consequat interdum,.
+      - id: experience
+        title: Experience behind the approach
+        kind: projects
+        items:
+        - title: Dücker
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum.
+          url: "/projects/duecker.html"
+          category: Client engagement · draft
+        - title: NOE
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum.
+          url: "/projects/noe.html"
+          category: Client engagement · draft
+      - id: questions
+        title: Questions before getting started
+        kind: faq
+        items:
+        - title: How does an engagement start?
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Integer dignissim, sapien vitae.
+        - title: What responsibility does mehr.wert take?
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Integer dignissim, sapien vitae.
+        - title: How do we assess progress and impact?
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Integer dignissim, sapien vitae.
+      url: "/services/fractional-cto.html"
+    delivery:
+      title: Organization & software delivery
+      meta_title: Organization & software delivery | mehr.wert
+      description: 'Working draft: Organization & software delivery'
+      eyebrow: mehr.wert / 2027
+      intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+        sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+        neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
+      sections:
+      - id: situations
+        title: When methods alone are not enough
+        kind: cards
+        items:
+        - title: Agile strategy & scaling
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing.
+        - title: Team maturity & delivery focus
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing.
+        - title: Transparency & decision-making
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing.
+      - id: approach
+        title: Connect leadership, collaboration and delivery
+        kind: steps
+        items:
+        - title: Understand
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien.
+          number: '01'
+        - title: Design
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien.
+          number: '02'
+        - title: Guide
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien.
+          number: '03'
+      - id: responsibility
+        title: Responsibility within the engagement
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim, sapien vitae consequat interdum,.
+      - id: experience
+        title: Experience behind the approach
+        kind: projects
+        items:
+        - title: EnBW
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum.
+          url: "/projects/enbw.html"
+          category: Client engagement · draft
+        - title: Viridium
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum.
+          url: "/projects/viridium.html"
+          category: Client engagement · draft
+        - title: HUGO BOSS
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum.
+          url: "/projects/hugo-boss.html"
+          category: Client engagement · draft
+      - id: questions
+        title: Questions before getting started
+        kind: faq
+        items:
+        - title: How does an engagement start?
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Integer dignissim, sapien vitae.
+        - title: What responsibility does mehr.wert take?
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Integer dignissim, sapien vitae.
+        - title: How do we assess progress and impact?
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Integer dignissim, sapien vitae.
+      url: "/services/agile-transformation-coaching.html"
+    projects:
+      title: Projects & experience
+      meta_title: Projects & experience | mehr.wert
+      description: 'Working draft: Projects & experience'
+      eyebrow: mehr.wert / 2027
+      intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+        sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+        neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
+      sections:
+      - id: mandates
+        title: Client engagements
+        kind: projects
+        items:
+        - title: Dücker
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum.
+          url: "/projects/duecker.html"
+          category: Client engagement · draft
+        - title: EnBW
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum.
+          url: "/projects/enbw.html"
+          category: Client engagement · draft
+        - title: Viridium
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum.
+          url: "/projects/viridium.html"
+          category: Client engagement · draft
+        - title: HUGO BOSS
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum.
+          url: "/projects/hugo-boss.html"
+          category: Client engagement · draft
+        - title: NOE
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum.
+          url: "/projects/noe.html"
+          category: Client engagement · draft
+      - id: products
+        title: Own products & initiatives
+        kind: cards
+        items:
+        - title: myWork
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Integer dignissim, sapien vitae consequat
+            interdum, erat erat volutpat.
+        - title: Green Agile Guide
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Integer dignissim, sapien vitae consequat
+            interdum, erat erat volutpat.
+          url: https://greenagile.org
+      - id: international
+        title: International leadership & nearshore experience
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae
+          facilisis neque ipsum ut nulla..
+      url: "/projects.html"
+    about:
+      title: About mehr.wert
+      meta_title: About mehr.wert | mehr.wert
+      description: 'Working draft: About mehr.wert'
+      eyebrow: mehr.wert / 2027
+      intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+        sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+        neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
+      sections:
+      - id: person
+        title: Marcel Russ – experience and personal responsibility
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae
+          facilisis neque ipsum ut nulla..
+      - id: approach
+        title: How we work
+        kind: steps
+        items:
+        - title: Understand
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien.
+          number: '01'
+        - title: Design
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien.
+          number: '02'
+        - title: Guide
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien.
+          number: '03'
+      - id: network
+        title: Independent advice. A network when needed.
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut.
+      - id: values
+        title: Awareness and responsibility
+        kind: cards
+        items:
+        - title: Awareness
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Integer dignissim, sapien vitae consequat
+            interdum, erat erat volutpat.
+        - title: Responsibility
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Integer dignissim, sapien vitae consequat
+            interdum, erat erat volutpat.
+      portrait: true
+      url: "/mission.html"
+    contact:
+      title: Let’s start a conversation.
+      meta_title: Let’s start a conversation. | mehr.wert
+      description: 'Working draft: Let’s start a conversation.'
+      eyebrow: mehr.wert / 2027
+      intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+        sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+        neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
+      sections:
+      - id: next
+        title: What matters in our first conversation
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat.
+      url: "/contact.html"
+    duecker:
+      title: Dücker
+      meta_title: Dücker | mehr.wert
+      description: 'Working draft: Dücker'
+      eyebrow: mehr.wert / Client engagement
+      intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+        sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+        neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
+      sections:
+      - id: context
+        title: Context and initial need
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit.
+      - id: contribution
+        title: Mandate, role and contribution
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae
+          facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Integer dignissim,.
+      - id: results
+        title: Results and limits of the evidence
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit.
+      - id: visual
+        title: A closer look at the approach
+        kind: visual
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem.
+      - id: related
+        title: Related expertise
+        kind: cards
+        items:
+        - title: IT strategy & modernization
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo,.
+          url: "/services/fractional-cto.html"
+          number: '01'
+      subtitle: 'ASCOR: shaping modernization together'
+      url: "/projects/duecker.html"
+    enbw:
+      title: EnBW
+      meta_title: EnBW | mehr.wert
+      description: 'Working draft: EnBW'
+      eyebrow: mehr.wert / Client engagement
+      intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+        sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+        neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
+      sections:
+      - id: context
+        title: Context and initial need
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit.
+      - id: contribution
+        title: Mandate, role and contribution
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae
+          facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Integer dignissim,.
+      - id: results
+        title: Results and limits of the evidence
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit.
+      - id: visual
+        title: A closer look at the approach
+        kind: visual
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem.
+      - id: related
+        title: Related expertise
+        kind: cards
+        items:
+        - title: Organization & software delivery
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo,.
+          url: "/services/agile-transformation-coaching.html"
+          number: '02'
+      subtitle: Translating strategy into shared planning
+      url: "/projects/enbw.html"
+    viridium:
+      title: Viridium
+      meta_title: Viridium | mehr.wert
+      description: 'Working draft: Viridium'
+      eyebrow: mehr.wert / Client engagement
+      intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+        sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+        neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
+      sections:
+      - id: context
+        title: Context and initial need
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit.
+      - id: contribution
+        title: Mandate, role and contribution
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae
+          facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Integer dignissim,.
+      - id: results
+        title: Results and limits of the evidence
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit.
+      - id: visual
+        title: A closer look at the approach
+        kind: visual
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem.
+      - id: related
+        title: Related expertise
+        kind: cards
+        items:
+        - title: Organization & software delivery
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo,.
+          url: "/services/agile-transformation-coaching.html"
+          number: '02'
+      subtitle: Agile collaboration across squads
+      url: "/projects/viridium.html"
+    hugo-boss:
+      title: HUGO BOSS
+      meta_title: HUGO BOSS | mehr.wert
+      description: 'Working draft: HUGO BOSS'
+      eyebrow: mehr.wert / Client engagement
+      intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+        sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+        neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
+      sections:
+      - id: context
+        title: Context and initial need
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit.
+      - id: contribution
+        title: Mandate, role and contribution
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae
+          facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Integer dignissim,.
+      - id: results
+        title: Results and limits of the evidence
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit.
+      - id: visual
+        title: A closer look at the approach
+        kind: visual
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem.
+      - id: related
+        title: Related expertise
+        kind: cards
+        items:
+        - title: Organization & software delivery
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo,.
+          url: "/services/agile-transformation-coaching.html"
+          number: '02'
+      subtitle: Shared direction and a roadmap
+      url: "/projects/hugo-boss.html"
+    noe:
+      title: NOE
+      meta_title: NOE | mehr.wert
+      description: 'Working draft: NOE'
+      eyebrow: mehr.wert / Client engagement
+      intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+        sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+        neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
+      sections:
+      - id: context
+        title: Context and initial need
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit.
+      - id: contribution
+        title: Mandate, role and contribution
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae
+          facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Integer dignissim,.
+      - id: results
+        title: Results and limits of the evidence
+        kind: text
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+          justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum,
+          erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae
+          consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum
+          ut nulla. Lorem ipsum dolor sit.
+      - id: visual
+        title: A closer look at the approach
+        kind: visual
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+          sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+          neque ipsum ut nulla. Lorem.
+      - id: related
+        title: Related expertise
+        kind: cards
+        items:
+        - title: IT strategy & modernization
+          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,
+            sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis
+            neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat
+            justo,.
+          url: "/services/fractional-cto.html"
+          number: '01'
+      subtitle: IT assessment as a basis for decisions
+      url: "/projects/noe.html"
+  form:
+    title: Your enquiry
+    name: Name
+    email: Email
+    company: Company (optional)
+    message: How can we help?
+    send: Send enquiry
+    privacy: 'Information about how your details are processed:'
+    required: Name, email and message are required.

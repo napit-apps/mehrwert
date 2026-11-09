@@ -17,9 +17,13 @@
   <meta name="author" content="{{ . }}">
   {% endif %}
 
+  {% if page.relaunch %}
+  <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
+  {% else %}
   {% for css in site.data.plugins.css %}
   <link rel="stylesheet" href="{{ css }}">
   {% endfor %}
+  {% endif %}
 
   <!-- Main Stylesheet -->
   <link href="{{ '/assets/scss/style.css' }}" rel="stylesheet">
@@ -28,4 +32,8 @@
   <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' }}" type="image/png">
   <link rel="icon" href="{{ '/assets/images/favicon.png' }}" type="image/png">
   <link rel="apple-touch-icon" type="image/png" href="{{ '/assets/images/apple-touch-icon.png' }}">
+  {% if page.relaunch %}
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="/assets/scss/relaunch.css?v={{ site.time | date: '%s' }}">
+  {% endif %}
 </head>

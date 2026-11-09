@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+{% include head.html %}
+<body class="mw-2027">
+{% assign copy = site.translations[site.lang].relaunch %}
+
+<a class="mw-skip" href="#main-content">{{ copy.ui.skip }}</a>
+{% include relaunch/portfolio-header.html %}
+<main id="main-content" tabindex="-1">{{ content }}</main>
+{% include relaunch/footer.html %}
+</body>
+</html>

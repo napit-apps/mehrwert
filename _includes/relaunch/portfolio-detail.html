@@ -1,0 +1,11 @@
+{% assign portfolio = site.translations[site.lang].relaunch.pages.projects %}
+{% assign entry_key = page.portfolio_key | default: page.content_key %}
+{% assign entry = portfolio.entries[entry_key] %}
+{% if entry %}
+<div class="mw-strategy mw-portfolio mw-portfolio-detail">
+<section class="mw-hero"><div class="mw-shell"><p class="mw-eyebrow">{{ entry.type }}</p><h1>{{ entry.detail_title | default: entry.title }}</h1><p class="mw-lead">{{ entry.lead }}</p></div></section>
+<div class="mw-shell mw-portfolio-narrative">{% for section in entry.sections %}<section class="mw-portfolio-chapter"><h2>{{ section.title }}</h2><p>{{ section.text }}</p></section>{% endfor %}</div>
+<div class="mw-shell"><p class="mw-portfolio-back"><a class="mw-text-link" href="/projects.html#experience-title">{{ portfolio.ui.back }}</a></p></div>
+</div>
+
+{% else %}{% include relaunch/portfolio-detail-legacy.html %}{% endif %}

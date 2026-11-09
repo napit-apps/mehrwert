@@ -1,3 +1,8 @@
+{% if include.relaunch_items %}
+{% for item in include.relaunch_items %}
+<article class="col-lg-4 col-md-6 mb-4"><a class="mw-project" href="{{ site.baseurl }}{{ item.url }}"><span class="mw-project-category">{{ item.category }}</span><h3>{{ item.title }}</h3><p>{{ item.text }}</p><span class="mw-project-more">{{ copy.ui.more }} <span aria-hidden="true">↗</span></span></a></article>
+{% endfor %}
+{% else %}
 {% assign items = site.translations[site.lang].portfolios %}
 {% for item in items.item %}
 <div class="col-lg-4 col-6 mb-4 shuffle-item">
@@ -18,3 +23,4 @@
   </div>
 </div>
 {% endfor %}
+{% endif %}

@@ -1,0 +1,83 @@
+{% assign delivery = site.translations[site.lang].relaunch.pages.delivery %}
+<div class="mw-strategy mw-delivery">
+  <section class="mw-hero">
+    <div class="mw-shell">
+      <p class="mw-eyebrow">{{ delivery.hero.label }}</p>
+      <h1>{{ delivery.hero.title }}</h1>
+      <div class="mw-strategy-hero-copy">{% for paragraph in delivery.hero.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
+      <div class="mw-actions">
+        <a class="mw-button" href="{{ site.baseurl }}/contact.html#enquiry">{{ delivery.hero.primary }}</a>
+        <a class="mw-text-link" href="#so-unterstuetzen-wir">{{ delivery.hero.secondary }} <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </section>
+  <section class="mw-section mw-strategy-situations">
+    <div class="mw-shell">
+      <p class="mw-strategy-label">{{ delivery.situations.label }}</p>
+      <h2>{{ delivery.situations.title }}</h2>
+      <p class="mw-strategy-intro">{{ delivery.situations.intro }}</p>
+      <div class="mw-strategy-situations-grid">{% for item in delivery.situations.items %}
+        <article><span class="mw-index" aria-hidden="true">0{{ forloop.index }}</span><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article>
+      {% endfor %}</div>
+    </div>
+  </section>
+  <section class="mw-section mw-strategy-benefits">
+    <div class="mw-shell">
+      <p class="mw-strategy-label">{{ delivery.benefits.label }}</p>
+      <h2>{{ delivery.benefits.title }}</h2>
+      <p class="mw-strategy-intro">{{ delivery.benefits.intro }}</p>
+      <div class="mw-cards">{% for item in delivery.benefits.items %}<article class="mw-card"><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article>{% endfor %}</div>
+    </div>
+  </section>
+  <section class="mw-section mw-strategy-support" id="so-unterstuetzen-wir">
+    <div class="mw-shell">
+      <p class="mw-strategy-label">{{ delivery.support.label }}</p>
+      <h2>{{ delivery.support.title }}</h2>
+      <p class="mw-strategy-intro">{{ delivery.support.intro }}</p>
+      <div class="mw-strategy-services">{% for item in delivery.support.items %}
+        <article class="mw-strategy-service">
+          <div><span class="mw-card-number" aria-hidden="true">0{{ forloop.index }}</span><h3>{{ item.title }}</h3><p class="mw-strategy-subtitle">{{ item.subtitle }}</p></div>
+          <div><p>{{ item.text }}</p><p class="mw-strategy-closing">{{ delivery.support.results_label }}</p><ul>{% for result in item.results %}<li>{{ result }}</li>{% endfor %}</ul></div>
+        </article>
+      {% endfor %}</div>
+      <div class="mw-strategy-closing mw-strategy-experience">
+        <p class="mw-strategy-label">{{ delivery.experience.label }}</p>
+        <p>{{ delivery.experience.text }}</p>
+        <p class="mw-strategy-closing"><a class="mw-text-link" href="{{ delivery.experience.url }}">{{ delivery.experience.link }}</a></p>
+      </div>
+    </div>
+  </section>
+<section class="mw-section mw-strategy-values mw-strategy-ai">
+  <div class="mw-shell mw-strategy-split">
+    <div><p class="mw-strategy-label">{{ delivery.ai.label }}</p><h2>{{ delivery.ai.title }}</h2></div>
+    <div>{% for paragraph in delivery.ai.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
+  </div>
+</section>
+  <section class="mw-section mw-strategy-engagements">
+    <div class="mw-shell mw-strategy-split">
+      <div><p class="mw-strategy-label">{{ delivery.engagements.label }}</p><h2>{{ delivery.engagements.title }}</h2></div>
+      <div>{% for paragraph in delivery.engagements.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}<p class="mw-strategy-clarification">{{ delivery.engagements.closing }}</p></div>
+    </div>
+  </section>
+  <section class="mw-section mw-strategy-values">
+    <div class="mw-shell mw-strategy-split">
+      <div><p class="mw-strategy-label">{{ delivery.values.label }}</p><h2>{{ delivery.values.title }}</h2></div>
+      <div>{% for paragraph in delivery.values.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}<p><a class="mw-text-link" href="{{ delivery.values.url }}">{{ delivery.values.link }}</a></p></div>
+    </div>
+  </section>
+  <section class="mw-section mw-strategy-questions">
+    <div class="mw-shell mw-strategy-split">
+      <div><p class="mw-strategy-label">{{ delivery.faq.label }}</p><h2>{{ delivery.faq.title }}</h2></div>
+      <div class="mw-faq">{% for item in delivery.faq.items %}<details><summary>{{ item.title }}</summary><p>{{ item.text }}</p></details>{% endfor %}</div>
+    </div>
+  </section>
+  <section class="mw-section mw-dark mw-strategy-contact">
+    <div class="mw-shell">
+      <p class="mw-strategy-label">{{ delivery.contact.label }}</p>
+      <h2>{{ delivery.contact.title }}</h2>
+      <p class="mw-strategy-intro">{{ delivery.contact.text }}</p>
+      <div class="mw-actions"><a class="mw-button" href="{{ site.baseurl }}/contact.html#enquiry">{{ delivery.contact.primary }}</a></div>
+      <p class="mw-strategy-email">{{ delivery.contact.alternative | replace: "kontakt@mehrwert.tech", '<a href="mailto:kontakt@mehrwert.tech">kontakt@mehrwert.tech</a>' }}</p>
+    </div>
+  </section>
+</div>

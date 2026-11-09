@@ -1,30 +1,13 @@
 ---
-layout: default
+layout: relaunch
+relaunch: true
+content_key: strategy
+title: relaunch.pages.strategy.meta_title
+description: relaunch.pages.strategy.description
+sitemap: false
 ---
-{% assign hero = site.translations[site.lang].cto_hero %}
-{% include service/hero_area.html %}
-
-{% assign about_config = site.data.homepage.cto_about %}
-{% assign about = site.translations[site.lang].cto_about %}
-{% include service/about.html %}
-
-{% assign services = site.translations[site.lang].cto_services %}
-{% include service/services.html %}
-
-{% assign testimonials = site.translations[site.lang].cto_testimonials %}
-{% include service/testimonials.html %}
-
-{% assign skill = site.translations[site.lang].cto_skill %}
-{% include service/skills.html %}
-
-{% assign faq = site.translations[site.lang].cto_faq %}
-{% include service/faq.html %}
-
-{% assign cta = site.translations[site.lang].cto_cta %}
-{% include service/cta.html %}
-
-{% assign contact_spec = site.translations[site.lang].cto_contact %}
-{% include contact.html %}
-
-{% assign skills = site.translations[site.lang].cto_skill %}
-{% include service/modals.html %}
+{% if site.lang == 'de' %}
+{% include relaunch/strategy.html %}
+{% else %}
+{% include relaunch/page.html %}
+{% endif %}
