@@ -1800,131 +1800,164 @@ relaunch:
     url: "/contact.html"
   pages:
     home:
-      eyebrow: IT-Strategie & Modernisierung · Agile Leadership
-      meta_title: mehr.wert – IT-Strategie, Modernisierung & Agile Leadership
-      description: Marcel Russ begleitet geschäftskritische IT-Modernisierung und wirksame Software-Delivery. Unabhängige Beratung, persönliche Verantwortung und Erfahrung aus der Praxis.
-      intro: "Technologie soll Ihr Geschäft voranbringen, nicht komplizierter machen. Wir helfen Ihnen, gewachsene Software zukunftsfähig weiterzuentwickeln, fundierte Entscheidungen zu treffen und Ihre IT-Organisation so aufzustellen, dass Veränderungen gelingen. Dabei behalten wir technische Qualität, Wirtschaftlichkeit und die Zusammenarbeit im Blick. Wir bleiben nicht bei Empfehlungen stehen: Wo wir die Umsetzung begleiten, übernehmen wir Verantwortung für die vereinbarten Aufgaben."
+      eyebrow: IT-STRATEGIE & MODERNISIERUNG · ORGANISATION & SOFTWARE-DELIVERY
+      meta_title: mehr.wert | IT-Strategie, Softwaremodernisierung & Software-Delivery
+      description: mehr.wert begleitet IT-Entscheidungen, die Modernisierung gewachsener
+        Software und die Zusammenarbeit von Teams. Persönlich, pragmatisch und mit Verantwortung.
+      intro: Wir schaffen Klarheit bei IT-Entscheidungen, begleiten die Modernisierung gewachsener
+        Software und stärken die Zusammenarbeit von Teams und Führung.
       primary: Unverbindlich ins Gespräch kommen
-      secondary: Unsere Leistungen
-      person_role: Marcel Russ · Gründer & Berater
       situations:
-        label: Ihre Ausgangslage
+        label: IHRE AUSGANGSLAGE
         title: Die IT muss sich weiterentwickeln. Aber wo anfangen?
         items:
-        - title: Die Software ist unverzichtbar. Aber Veränderungen werden immer aufwendiger.
-          text: Über Jahre gewachsene Systeme halten das Geschäft am Laufen. Gleichzeitig ist Wissen auf viele Köpfe verteilt, und nicht jede Abhängigkeit ist dokumentiert. Neue Anforderungen umzusetzen wird schwieriger – während der laufende Betrieb zuverlässig funktionieren muss.
-        - title: Wichtige Entscheidungen bleiben liegen.
-          text: Modernisieren, ersetzen oder zunächst weiterbetreiben? Im Tagesgeschäft fehlt oft die Zeit, Chancen und Risiken sorgfältig abzuwägen. Ohne gemeinsame Prioritäten wird aus einer schwierigen Entscheidung schnell ein dauerhaftes Problem.
+        - title: Die Software ist unverzichtbar. Veränderungen werden aber immer aufwendiger.
+          text: Gewachsene Systeme halten das Geschäft am Laufen. Gleichzeitig steckt wichtiges
+            Wissen oft in einzelnen Köpfen, und jede Änderung wird schwieriger – während
+            der Betrieb zuverlässig weiterlaufen muss.
+        - title: Wichtige IT-Entscheidungen bleiben offen.
+          text: Modernisieren, ersetzen oder zunächst weiterbetreiben? Ohne ein gemeinsames
+            Bild von Kosten, Risiken und Möglichkeiten wird die Entscheidung immer wieder
+            verschoben.
         - title: Gute Teams arbeiten nicht automatisch gut zusammen.
-          text: Wenn Ziele, Verantwortlichkeiten und Planungen nicht zusammenpassen, geht viel Energie in Abstimmung verloren. Dann liegt die Lösung nicht in noch mehr Methoden, sondern in einer Zusammenarbeit, die über Teamgrenzen hinweg funktioniert.
+          text: Wenn Ziele, Verantwortlichkeiten und Planungen nicht zusammenpassen, geht
+            viel Zeit in Abstimmung verloren. Die Teams brauchen eine gemeinsame Richtung,
+            die im Alltag trägt.
       services:
-        label: Unsere Leistungen
-        title: Technologie und Organisation gemeinsam weiterdenken.
+        label: UNSERE LEISTUNGEN
+        title: Wobei wir Sie unterstützen.
         items:
         - title: IT-Strategie & Modernisierung
-          text: Nicht jede gewachsene Anwendung muss neu gebaut werden. Entscheidend ist, dass Ihre Software das Geschäft zuverlässig unterstützt und sich auch morgen noch sinnvoll weiterentwickeln lässt. Wir zeigen, wo Risiken und Abhängigkeiten liegen, welche Optionen sich lohnen und was zuerst angegangen werden sollte. Daraus entwickeln wir gemeinsam einen realistischen Modernisierungsweg. Bei Bedarf übernehmen wir auch Verantwortung für die Steuerung und Begleitung des Vorhabens.
-          points:
-          - Bestehende IT verstehen und Chancen sowie Risiken einordnen
-          - Sinnvolle Modernisierungsschritte gemeinsam festlegen
-          - Komplexe Vorhaben begleiten und bei Bedarf IT-Verantwortung auf Zeit übernehmen
+          text: Wir helfen, gewachsene Systeme zu verstehen und Modernisierungsoptionen
+            samt Risiken und Aufwand einzuordnen. Gemeinsam entscheiden wir, was zuerst
+            sinnvoll ist. Bei Bedarf begleiten wir die nächsten Schritte und passen den
+            Weg an, wenn neue Erkenntnisse es erfordern.
           url: "/services/fractional-cto.html"
-          link: IT-Strategie & Modernisierung entdecken
+          link: IT-Strategie & Modernisierung ansehen
+          short: Den nächsten Schritt für Ihre IT fundiert entscheiden.
         - title: Organisation & Software-Delivery
-          text: Auch gute Teams erzielen nicht automatisch gemeinsam gute Ergebnisse. Wenn Ziele, Verantwortlichkeiten und Planungen nicht zusammenpassen, entstehen Reibung und vermeidbare Verzögerungen. Wir helfen Führungskräften und Teams, ihre Zusammenarbeit so zu gestalten, dass Prioritäten klarer werden, Abhängigkeiten früher sichtbar sind und Vorhaben verlässlicher vorankommen können. Dabei begleiten wir Veränderungen im Arbeitsalltag – statt nur neue Methoden einzuführen.
-          points:
-          - Strategie und tägliche Arbeit der Teams verbinden
-          - Verantwortlichkeiten und Zusammenarbeit klar gestalten
-          - Planung, Fortschritt und Verbesserungen nachvollziehbar machen
+          text: Wir verbinden Ziele, Verantwortlichkeiten und tägliche Zusammenarbeit. Mit
+            Führungskräften und Teams schauen wir auf Hindernisse, machen Fortschritte sichtbar
+            und stärken die Arbeitsweisen, die im jeweiligen Umfeld tatsächlich helfen.
           url: "/services/agile-transformation-coaching.html"
-          link: Organisation & Software-Delivery entdecken
+          link: Organisation & Software-Delivery ansehen
+          short: Damit Teams besser zusammenarbeiten und verlässlicher liefern können.
       projects:
         label: AUSGEWÄHLTE PROJEKTE & ERFAHRUNGEN
         title: Erfahrung zeigt sich in der Praxis.
-        intro: Jedes Projekt beginnt mit einer anderen Herausforderung. Diese Beispiele zeigen, wie wir technische Fragen klären, Menschen zusammenbringen und Veränderungen so begleiten, dass daraus konkrete Schritte werden.
-        link: Alle Projekte & Erfahrungen
+        link: Alle Projekte & Erfahrungen ansehen
         items:
         - name: Dücker
-          type: MODERNISIERUNG · LAUFEND
-          title: Modernisieren, ohne das Wissen im System zu verlieren
-          text: Eine geschäftskritische Anwendung lässt sich nur schwer modernisieren, wenn Fachbereiche und Entwicklung unterschiedliche Vorstellungen davon haben, wie sie funktioniert. Bei Dücker haben wir diese Perspektiven zusammengebracht, die fachlichen Regeln aus ASCOR herausgearbeitet und gemeinsam eine Modernisierungsstrategie entwickelt. Damit kann Dücker die nächsten Modernisierungsschritte gemeinsam priorisieren, und die Entwicklung baut auf gesicherten fachlichen Regeln auf – statt auf unterschiedlichen Annahmen über das Altsystem.
+          type: KUNDENMANDAT · MEHR.WERT · LAUFEND
+          title: Modernisieren, ohne Wissen zu verlieren
+          text: Bei Dücker haben wir Fachbereiche und Entwicklung zusammengebracht. Gemeinsam
+            entstand ein Verständnis der gewachsenen Software und eine Modernisierungsstrategie.
+            Fachliche Regeln aus dem Altsystem wurden für die nächsten Umsetzungsschritte
+            aufbereitet.
           url: "/projects/duecker.html"
         - name: EnBW
-          type: PERSÖNLICHE PROJEKTERFAHRUNG · MEHRJÄHRIG
-          title: Wenn aus vielen Teamplänen eine gemeinsame Richtung wird
-          text: Wenn viele Teams gemeinsam liefern sollen, reicht es nicht, dass jedes Team seinen eigenen Plan hat. In der Trading IT von EnBW entstand ein wiederkehrender Quartalsplanungsprozess, ergänzt durch gemeinsame Onsite-Wochen. So konnten Teams ihre Vorhaben besser aufeinander abstimmen, Risiken und Abhängigkeiten wurden früher sichtbar und das Management erhielt eine klarere Grundlage für Entscheidungen.
+          type: FRÜHERE BERUFSERFAHRUNG · MARCEL RUSS
+          title: Viele Teams, eine gemeinsame Planung
+          text: In meiner früheren Tätigkeit in der EnBW Trading IT habe ich die teamübergreifende
+            Quartalsplanung und gemeinsame Onsite-Wochen maßgeblich mitgestaltet. Roadmaps,
+            Abhängigkeiten und Rückmeldungen wurden zu einer wiederkehrenden Grundlage für
+            Abstimmungen und Entscheidungen.
           url: "/projects/enbw.html"
         - name: Viridium
-          type: ORGANISATIONSENTWICKLUNG · LAUFEND
-          title: Damit zwölf Squads besser zusammenarbeiten können
-          text: 'Wenn zwölf Squads unterschiedlich arbeiten, wird es schwer, Qualität und Fortschritt übergreifend sichtbar zu machen. Bei Viridium schaffen wir gemeinsame Grundlagen: klare Qualitätskriterien, abgestimmte Arbeitsweisen und eine Community of Practice mit rund 50 Beteiligten. Wir begleiten die Anwendung im Arbeitsalltag und zeigen Hindernisse auf, damit die Squads diese Grundlagen tatsächlich nutzen können. Ziel sind bessere Abstimmung und eine verlässlichere Software-Delivery.'
+          type: KUNDENMANDAT · MEHR.WERT · LAUFEND
+          title: Gemeinsame Arbeitsgrundlagen für zwölf Squads
+          text: Bei Viridium unterstützen wir zwölf Squads dabei, gemeinsame Arbeits- und
+            Qualitätsgrundlagen zu entwickeln und im Alltag anzuwenden. Dazu gehören eine
+            Community of Practice, klare Qualitätskriterien und die Begleitung ihrer Einführung.
           url: "/projects/viridium.html"
         - name: HUGO BOSS
-          type: STRATEGIE- UND TEAMWORKSHOP · 2026
-          title: Aus vielen guten Ideen wurde ein gemeinsamer Plan
-          text: Das TechFoundry-Team bei HUGO BOSS wollte die Chancen KI-gestützter Softwareentwicklung gezielt nutzen. Dafür brauchte es nicht noch mehr Ideen, sondern ein gemeinsames Verständnis von Nutzen, Zielen und Prioritäten. In unserem Workshop hat das Team diese Fragen geklärt und eine Roadmap erarbeitet, mit der es die nächsten Schritte gezielt angehen kann.
+          type: KUNDENMANDAT · MEHR.WERT · 2026
+          title: Eine gemeinsame Richtung für KI-gestützte Softwareentwicklung
+          text: Mit dem TechFoundry-Team von HUGO BOSS haben wir in einem Strategie-Workshop
+            Kundennutzen, Ziele und Prioritäten geklärt. Gemeinsam entstand eine Roadmap
+            für die nächsten Schritte in der KI-gestützten Softwareentwicklung.
           url: "/projects/hugo-boss.html"
-        additional:
-        - title: Eigene Produktverantwortung
-          text: 'myWork hat Marcel Russ selbst entwickelt und über Jahre betrieben und weiterentwickelt. Diese Produktverantwortung prägt unsere Beratung: Wir kennen die Folgen technischer Entscheidungen nicht nur aus Konzepten, sondern aus dem laufenden Betrieb und dem Feedback echter Nutzer. Gerade bei Modernisierung zählen deshalb auch Wartbarkeit, Betrieb und die langfristige Nutzbarkeit.'
-          url: "/projects.html#products"
-        - title: Internationale Führungserfahrung
-          text: Marcel Russ hat internationale Entwicklungsteams über Standorte und Kulturen hinweg geführt. Diese Erfahrung hilft uns, die Zusammenarbeit auch in verteilten Projektkonstellationen klar und verbindlich zu gestalten. Wenn zusätzliche Expertise gebraucht wird, binden wir passende Spezialisten ein. Die Verantwortung für unser Mandat bleibt bei mehr.wert.
-          url: "/projects.html#international"
       person:
-        label: Ihr Ansprechpartner
+        label: IHR ANSPRECHPARTNER
         title: Persönlich verantwortlich. Unabhängig im Urteil.
         paragraphs:
-        - Ich bin Marcel Russ, Gründer von mehr.wert. Ich habe selbst Software entwickelt, Teams geführt und Unternehmen durch technische und organisatorische Veränderungen begleitet. Dabei habe ich gelernt, dass gute Lösungen nicht nur technisch funktionieren müssen. Sie müssen auch zu den Menschen und zum Geschäft passen.
-        - Bei mehr.wert sprechen Sie direkt mit mir. Ich höre zu, hinterfrage Annahmen und übernehme Verantwortung für unsere vereinbarten Aufgaben. Wenn zusätzliche Expertise gebraucht wird, hole ich erfahrene Spezialisten aus meinem Netzwerk dazu. Ihr Ansprechpartner bleibe ich.
-        quote: Technologie braucht Richtung. Und eine Haltung, die bleibt.
-        link: Mehr über Haltung & Arbeitsweise
+        - Ich bin Marcel Russ, Gründer von mehr.wert. Ich habe selbst Software entwickelt,
+          eigene Produkte über Jahre verantwortet und internationale Entwicklungsteams geführt.
+          Heute verbinde ich diese Erfahrung mit der Beratung und Begleitung technischer
+          und organisatorischer Veränderungen.
+        - Bei mehr.wert sprechen Sie direkt mit mir. Ich höre zu, hinterfrage Annahmen und
+          übernehme Verantwortung für die Aufgaben, die wir vereinbaren. Wenn zusätzliche
+          Fachleute gebraucht werden, holen wir sie gezielt dazu. Ihr Ansprechpartner bleibe
+          ich.
+        link: Mehr über mehr.wert
       approach:
-        label: Unsere Arbeitsweise
-        title: Verstehen. Konzipieren. Begleiten.
-        items:
-        - title: Verstehen
-          text: Bevor wir etwas verändern, wollen wir verstehen, was wirklich los ist. Wir sprechen mit den Beteiligten, schauen auf die Technik und die Zusammenarbeit und machen sichtbar, wo die eigentlichen Schwierigkeiten liegen.
-          result: Erst verstehen, dann entscheiden.
-        - title: Konzipieren
-          text: Gemeinsam entwickeln wir ein Zielbild und einen realistischen Weg dorthin. Wir wägen Möglichkeiten ab, setzen Prioritäten und klären, wer welche Entscheidungen trifft und Verantwortung übernimmt.
-          result: Ein Plan, der zu Ihrem Alltag passt.
-        - title: Begleiten
-          text: Wir unterstützen dabei, Entscheidungen in die Praxis zu bringen. Wir arbeiten mit den Teams, schauen gemeinsam auf Fortschritte und sprechen Hindernisse offen an – auch wenn dafür Entscheidungen der Führung nötig sind.
-          result: Damit gute Ideen nicht auf dem Papier bleiben.
+        label: UNSERE ARBEITSWEISE
+        title: Wir schauen gemeinsam, was wirklich hilft.
+        paragraphs:
+        - Wir bringen Erfahrung mit, aber keine fertige Schablone. Wir hören zu, klären
+          das Ziel und prüfen, welche Fragen noch offen sind. Bei manchen Themen reicht
+          eine fundierte Entscheidung. Andere lassen sich besser in überschaubaren Schritten
+          klären. Wir schauen auf die Ergebnisse und passen das Vorgehen gemeinsam an.
+        - Was hat sich bewährt? Was möchten wir ausprobieren? Und was können wir weglassen?
+          Dafür nutzen wir Rückmeldungen und die Kennzahlen, die in Ihrer Situation wirklich
+          bei Entscheidungen helfen.
+        questions:
+        - Was behalten wir?
+        - Was probieren wir aus?
+        - Was lassen wir weg?
       voice:
-        title: Was unsere Kunden über die Zusammenarbeit sagen
-        intro: Unterschiedliche Projekte, unterschiedliche Perspektiven – und Erfahrungen aus der gemeinsamen Arbeit.
+        title: Stimmen aus der Zusammenarbeit.
+        intro: Rückmeldungen von Menschen, mit denen wir in Kundenmandaten oder früheren
+          beruflichen Stationen gearbeitet haben.
         previous: Vorherige Kundenstimme
         next: Nächste Kundenstimme
         position: "{current} von {total}"
-        instructions: Mit den Pfeiltasten oder durch Wischen zwischen den Kundenstimmen wechseln.
+        instructions: Mit den Pfeiltasten oder durch Wischen zwischen den Kundenstimmen
+          wechseln.
         items:
-        - quote: "„Gemeinsam konnten wir Transparenz, Kundenzufriedenheit und Planungsqualität messbar verbessern und nachhaltige Strukturen für Zusammenarbeit und Feedback etablieren.“"
+        - quote: "„Gemeinsam konnten wir Transparenz, Kundenzufriedenheit und Planungsqualität
+            messbar verbessern und nachhaltige Strukturen für Zusammenarbeit und Feedback
+            etablieren.“"
           name: Lucas Schleweis
           role: EnBW-Kontext, Planung/Steuerung
-        - quote: "„Es hat uns sehr geholfen, in dem Workshop mit dir, auf eine gemeinsame Sichtweise unseres Projektes zu gelangen.“"
+          origin: Frühere Berufserfahrung
+        - quote: "„Es hat uns sehr geholfen, in dem Workshop mit dir, auf eine gemeinsame
+            Sichtweise unseres Projektes zu gelangen.“"
           name: Andreas Binder
           role: Product Owner, HUGO BOSS AG
-        - quote: "„Besonders wertvoll ist seine Fähigkeit, Situationen schnell zu verstehen, tragfähige Konzepte zu entwickeln und durch gezielte Impulse sowie Coaching nachhaltige Veränderungen anzustoßen.“"
+          origin: mehr.wert-Kundenmandat
+        - quote: "„Besonders wertvoll ist seine Fähigkeit, Situationen schnell zu verstehen,
+            tragfähige Konzepte zu entwickeln und durch gezielte Impulse sowie Coaching
+            nachhaltige Veränderungen anzustoßen.“"
           name: Michael Weinheimer
           role: Head of IT TECH Core Software Engineering, HUGO BOSS AG
-        - quote: "„Diese Verlässlichkeit und der wertschätzende Umgang haben die Zusammenarbeit spürbar einfacher gemacht und für ein gutes, vertrauensvolles Arbeitsklima gesorgt.“"
+          origin: mehr.wert-Kundenmandat
+        - quote: "„Diese Verlässlichkeit und der wertschätzende Umgang haben die Zusammenarbeit
+            spürbar einfacher gemacht und für ein gutes, vertrauensvolles Arbeitsklima gesorgt.“"
           name: Harald Bezjak
           role: Trading IT Analyst, EnBW AG
+          origin: Frühere Berufserfahrung
       values:
-        label: Unser Fundament
+        label: UNSER FUNDAMENT
         title: Nachhaltig bessere Software.
-        text: Nachhaltigkeit bedeutet für uns, heute bewusst zu entscheiden und auch morgen Verantwortung für die Folgen zu übernehmen. Wir achten darauf, dass Software nicht nur funktioniert, sondern langfristig wartbar, wirtschaftlich sinnvoll und für Menschen nützlich bleibt.
-        ai: KI gehört für uns selbstverständlich zu moderner Technologiearbeit. Wir setzen sie dort ein, wo sie hilft – etwa bei der Analyse gewachsener Systeme, der Dokumentation oder der Qualitätssicherung. Ob ein Einsatz sinnvoll ist, entscheiden wir anhand von Nutzen, Kosten, Qualität und Sicherheit. Die Verantwortung bleibt bei Menschen.
-        link: Bewusstsein und Verantwortung im Green Agile Guide
+        text: Uns interessiert nicht nur, ob Software heute funktioniert. Wir schauen auch
+          darauf, wie gut sie sich morgen verändern lässt, was ihr Betrieb kostet und welche
+          Folgen Entscheidungen für Menschen und Umwelt haben. Bewusstsein und Verantwortung
+          gehören für uns zur täglichen Arbeit.
+        ai: Auch neue Werkzeuge wie KI beurteilen wir daran, ob sie einen konkreten Nutzen
+          bringen und Qualität, Sicherheit und Nachvollziehbarkeit stimmen. Die Entscheidung
+          und die Verantwortung bleiben bei Menschen.
+        link: Mehr über den Green Agile Guide
       knowledge:
-        label: Wissen aus der Praxis
+        label: WISSEN AUS DER PRAXIS
         title: Gedanken, die weiterführen.
-        text: Unsere Fachartikel vertiefen die Verbindung von Softwaremodernisierung, Zusammenarbeit und verantwortungsvoller Technologiearbeit.
+        text: In unserem Blog schreiben wir über Softwaremodernisierung, Architektur und
+          Zusammenarbeit – mit Fragen und Erfahrungen aus der Praxis.
         link: Zum Blog
         articles:
         - title: Modernisierung beginnt mit gemeinsamem Verständnis
-          text: Wie Domain-Driven Design hilft, fachliche Zusammenhänge und technische Entscheidungen zu verbinden.
+          text: Wie Domain-Driven Design hilft, fachliche Zusammenhänge und technische Entscheidungen
+            zu verbinden.
           url: "/DDD-1.html"
         - title: Schrittweise modernisieren, Risiken begrenzen
           text: Das Strangler Fig Pattern als Weg zur Ablösung gewachsener Systeme.
@@ -1933,13 +1966,19 @@ relaunch:
           text: Warum technische Veränderungen auch die Zusammenarbeit betreffen.
           url: "/Beyond-Architecure.html"
       contact:
-        label: Der nächste Schritt
+        label: DER NÄCHSTE SCHRITT
         title: Welche Entscheidung steht bei Ihnen an?
-        text: Vielleicht steht eine Modernisierung an. Vielleicht braucht Ihre IT-Organisation eine neue Richtung. Oder Sie wünschen sich einen unabhängigen Blick auf eine schwierige Entscheidung. Erzählen Sie uns, was Sie beschäftigt – wir klären gemeinsam, ob und wie wir unterstützen können.
+        text: Vielleicht geht es um eine gewachsene Anwendung, eine technische Richtungsentscheidung
+          oder die Zusammenarbeit Ihrer Teams. Erzählen Sie uns, wo Sie gerade stehen. Wir
+          hören zu und klären gemeinsam, ob und wie wir helfen können.
         button: Unverbindlich ins Gespräch kommen
         alternative: Oder schreiben Sie direkt an
       title: Wir geben IT einen Wert.<br>Und Ihrem Business nachhaltige Stärke.
       url: "/"
+      visuals:
+        circle_alt: Aus einem unübersichtlichen Linienknäuel entsteht ein klarer Kreis.
+        circle_caption: '„Struktur ist kein Selbstzweck. Sie schafft Raum für Klarheit, Fokus und nachhaltige Entscheidungen.“ — Marcel Russ'
+        portrait_alt: Marcel Russ, Gründer von mehr.wert.
     strategy:
       url: "/services/fractional-cto.html"
       meta_title: IT-Strategie & Modernisierung | mehr.wert

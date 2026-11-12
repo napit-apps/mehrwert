@@ -6,4 +6,4 @@ title: relaunch.pages.home.meta_title
 description: relaunch.pages.home.description
 sitemap: false
 ---
-{% include relaunch/home.html %}
+{% if site.lang == 'de' %}{% include relaunch/home-final.html %}{% else %}{% include relaunch/home.html %}{% endif %}
