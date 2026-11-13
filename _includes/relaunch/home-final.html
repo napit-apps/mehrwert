@@ -11,7 +11,7 @@
 <section class="mw-section mw-home-situations" aria-labelledby="situations-title"><div class="mw-shell">
   <p class="mw-home-label">{{ home.situations.label }}</p><h2 id="situations-title">{{ home.situations.title }}</h2>
   <div class="mw-home-situation-grid">
-    <figure class="mw-home-circle"><img src="{{ '/assets/images/about/cto-about.avif' | relative_url }}" alt="{{ home.visuals.circle_alt | escape }}" width="1536" height="1024" loading="lazy" decoding="async"><figcaption><em>{{ home.visuals.circle_caption }}</em></figcaption></figure>
+    <figure class="mw-home-circle"><img src="{{ '/assets/images/about/cto-about.avif' | relative_url }}" alt="{{ home.visuals.circle_alt | escape }}" width="1536" height="1024" loading="lazy" decoding="async"></figure>
     <div class="mw-home-problems">{% for item in home.situations.items %}<article><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article>{% endfor %}</div>
   </div>
 </div></section>
@@ -30,10 +30,11 @@
 </div></section>
 <section class="mw-section mw-home-experience" id="projects" aria-labelledby="projects-title"><div class="mw-shell">
   <p class="mw-home-label">{{ home.projects.label }}</p><h2 id="projects-title">{{ home.projects.title }}</h2>
-  <div class="mw-home-projects">{% for item in home.projects.items %}<article class="mw-home-project">
-    <p class="mw-project-category">{{ item.type }}</p><h3 class="mw-home-client"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }} <span aria-hidden="true">↗</span></a></h3>
-    <p class="mw-home-project-subtitle">{{ item.title }}</p><p>{{ item.text }}</p>
-  </article>{% endfor %}</div>
+  <p class="mw-home-experience-intro">{{ home.projects.intro }}</p>
+  <div class="mw-home-projects mw-home-projects-compact">{% for item in home.projects.items %}<a class="mw-home-project-tile" href="{{ site.baseurl }}{{ item.url }}">
+    <span class="mw-home-project-origin">{{ item.type }}</span>
+    <h3>{{ item.name }}</h3><p>{{ item.text }}</p>
+  </a>{% endfor %}</div>
   <a class="mw-text-link" href="{{ site.baseurl }}/projects.html">{{ home.projects.link }} <span aria-hidden="true">↗</span></a>
 </div></section>
 <section class="mw-section mw-home-person" aria-labelledby="person-title"><div class="mw-shell mw-home-person-grid">

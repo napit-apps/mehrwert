@@ -1812,33 +1812,31 @@ relaunch:
         title: Die IT muss sich weiterentwickeln. Aber wo anfangen?
         items:
         - title: Die Software ist unverzichtbar. Veränderungen werden aber immer aufwendiger.
-          text: Gewachsene Systeme halten das Geschäft am Laufen. Gleichzeitig steckt wichtiges
-            Wissen oft in einzelnen Köpfen, und jede Änderung wird schwieriger – während
-            der Betrieb zuverlässig weiterlaufen muss.
+          text: Die Software hält das Geschäft am Laufen. Doch wichtiges Wissen ist oft
+            verteilt, und Veränderungen werden aufwendiger – während der Betrieb zuverlässig
+            funktionieren muss.
         - title: Wichtige IT-Entscheidungen bleiben offen.
-          text: Modernisieren, ersetzen oder zunächst weiterbetreiben? Ohne ein gemeinsames
-            Bild von Kosten, Risiken und Möglichkeiten wird die Entscheidung immer wieder
-            verschoben.
+          text: Modernisieren, ersetzen oder weiterbetreiben? Ohne Klarheit über Kosten,
+            Risiken und Möglichkeiten bleiben wichtige Entscheidungen liegen.
         - title: Gute Teams arbeiten nicht automatisch gut zusammen.
-          text: Wenn Ziele, Verantwortlichkeiten und Planungen nicht zusammenpassen, geht
-            viel Zeit in Abstimmung verloren. Die Teams brauchen eine gemeinsame Richtung,
-            die im Alltag trägt.
+          text: Wenn Ziele, Verantwortlichkeiten und Planungen nicht zusammenpassen, verlieren
+            Teams Zeit mit Abstimmungen statt mit gemeinsamer Umsetzung.
       services:
         label: UNSERE LEISTUNGEN
         title: Wobei wir Sie unterstützen.
         items:
         - title: IT-Strategie & Modernisierung
-          text: Wir helfen, gewachsene Systeme zu verstehen und Modernisierungsoptionen
-            samt Risiken und Aufwand einzuordnen. Gemeinsam entscheiden wir, was zuerst
-            sinnvoll ist. Bei Bedarf begleiten wir die nächsten Schritte und passen den
-            Weg an, wenn neue Erkenntnisse es erfordern.
+          text: 'Wir klären, welche Risiken und Möglichkeiten in Ihrer IT stecken, und entwickeln
+            gemeinsam die nächsten sinnvollen Schritte. Ob modernisieren, ersetzen oder
+            weiterbetreiben: Entscheidungen sollen zu Ihrem Geschäft passen und auf neuen
+            Erkenntnissen aufbauen.'
           url: "/services/fractional-cto.html"
           link: IT-Strategie & Modernisierung ansehen
           short: Den nächsten Schritt für Ihre IT fundiert entscheiden.
         - title: Organisation & Software-Delivery
-          text: Wir verbinden Ziele, Verantwortlichkeiten und tägliche Zusammenarbeit. Mit
-            Führungskräften und Teams schauen wir auf Hindernisse, machen Fortschritte sichtbar
-            und stärken die Arbeitsweisen, die im jeweiligen Umfeld tatsächlich helfen.
+          text: Wir helfen Teams und Führung, Ziele und Verantwortung zu klären, Hindernisse
+            zu beseitigen und ihre Zusammenarbeit zu verbessern. Gemeinsam schauen wir,
+            was funktioniert, und passen Arbeitsweisen dort an, wo sie wirklich helfen.
           url: "/services/agile-transformation-coaching.html"
           link: Organisation & Software-Delivery ansehen
           short: Damit Teams besser zusammenarbeiten und verlässlicher liefern können.
@@ -1848,35 +1846,55 @@ relaunch:
         link: Alle Projekte & Erfahrungen ansehen
         items:
         - name: Dücker
-          type: KUNDENMANDAT · MEHR.WERT · LAUFEND
-          title: Modernisieren, ohne Wissen zu verlieren
-          text: Bei Dücker haben wir Fachbereiche und Entwicklung zusammengebracht. Gemeinsam
-            entstand ein Verständnis der gewachsenen Software und eine Modernisierungsstrategie.
-            Fachliche Regeln aus dem Altsystem wurden für die nächsten Umsetzungsschritte
-            aufbereitet.
+          text: Softwaremodernisierung · Domänenverständnis · Geschäftsregeln
+          type: Mandat
           url: "/projects/duecker.html"
-        - name: EnBW
-          type: FRÜHERE BERUFSERFAHRUNG · MARCEL RUSS
-          title: Viele Teams, eine gemeinsame Planung
-          text: In meiner früheren Tätigkeit in der EnBW Trading IT habe ich die teamübergreifende
-            Quartalsplanung und gemeinsame Onsite-Wochen maßgeblich mitgestaltet. Roadmaps,
-            Abhängigkeiten und Rückmeldungen wurden zu einer wiederkehrenden Grundlage für
-            Abstimmungen und Entscheidungen.
+        - name: EnBW Trading IT
+          text: Quartalsplanung · Onsite-Wochen · Teamabstimmung
+          type: Frühere Berufserfahrung
           url: "/projects/enbw.html"
         - name: Viridium
-          type: KUNDENMANDAT · MEHR.WERT · LAUFEND
-          title: Gemeinsame Arbeitsgrundlagen für zwölf Squads
-          text: Bei Viridium unterstützen wir zwölf Squads dabei, gemeinsame Arbeits- und
-            Qualitätsgrundlagen zu entwickeln und im Alltag anzuwenden. Dazu gehören eine
-            Community of Practice, klare Qualitätskriterien und die Begleitung ihrer Einführung.
+          text: Zwölf Squads · Qualitätsgrundlagen · Software-Delivery
+          type: Mandat
           url: "/projects/viridium.html"
-        - name: HUGO BOSS
-          type: KUNDENMANDAT · MEHR.WERT · 2026
-          title: Eine gemeinsame Richtung für KI-gestützte Softwareentwicklung
-          text: Mit dem TechFoundry-Team von HUGO BOSS haben wir in einem Strategie-Workshop
-            Kundennutzen, Ziele und Prioritäten geklärt. Gemeinsam entstand eine Roadmap
-            für die nächsten Schritte in der KI-gestützten Softwareentwicklung.
+        - name: HUGO BOSS – TechFoundry
+          text: KI-gestützte Entwicklung · Strategie · Roadmap
+          type: Mandat
           url: "/projects/hugo-boss.html"
+        - name: HUGO BOSS – Technische Führung
+          text: Web & Mobile · Teamführung · Digitale Produkte
+          type: Frühere Berufserfahrung
+          url: "/projects/technische-fuehrung-web-mobile.html"
+        - name: myWork
+          text: Mobile Zeiterfassung · Entwicklung · Produktverantwortung
+          type: Eigenes Produkt
+          url: "/projects/mywork-produktverantwortung.html"
+        - name: Mercedes-Benz Guides
+          text: Digitale Fahrzeughandbücher · Mobile Engineering
+          type: Frühere Berufserfahrung
+          url: "/projects/mobile-fahrzeughandbuecher.html"
+        - name: Kverneland
+          text: Android · Fertigungslogistik · Produktionsprozesse
+          type: Frühere Berufserfahrung
+          url: "/projects/mobile-fertigungslogistik.html"
+        - name: Bosch Power Tools
+          text: iBeacon · Standortbezogene Messeinformationen
+          type: Frühere Berufserfahrung
+          url: "/projects/ibeacon-messeinformationen.html"
+        - name: HBScanner
+          text: Native iOS-Bibliothek · Technologische Unabhängigkeit
+          type: Frühere Berufserfahrung
+          url: "/projects/mobile-scanning-bibliothek.html"
+        - name: Green Agile Guide
+          text: Nachhaltigkeit · Bewusstsein · Verantwortung
+          type: Initiative
+          url: "/projects/green-agile-guide.html"
+        - name: myMoney
+          text: iOS-App · Finanzverwaltung · Produktentwicklung
+          type: Eigenes Produkt
+          url: "/projects/mymoney-finanzverwaltung.html"
+        intro: Ein Einblick in Kundenmandate, frühere berufliche Stationen, eigene Softwareprodukte
+          und Initiativen.
       person:
         label: IHR ANSPRECHPARTNER
         title: Persönlich verantwortlich. Unabhängig im Urteil.
@@ -1894,17 +1912,14 @@ relaunch:
         label: UNSERE ARBEITSWEISE
         title: Wir schauen gemeinsam, was wirklich hilft.
         paragraphs:
-        - Wir bringen Erfahrung mit, aber keine fertige Schablone. Wir hören zu, klären
-          das Ziel und prüfen, welche Fragen noch offen sind. Bei manchen Themen reicht
-          eine fundierte Entscheidung. Andere lassen sich besser in überschaubaren Schritten
-          klären. Wir schauen auf die Ergebnisse und passen das Vorgehen gemeinsam an.
-        - Was hat sich bewährt? Was möchten wir ausprobieren? Und was können wir weglassen?
-          Dafür nutzen wir Rückmeldungen und die Kennzahlen, die in Ihrer Situation wirklich
-          bei Entscheidungen helfen.
+        - Wir hören zu, bringen Erfahrung ein und schauen gemeinsam, was in Ihrer Situation
+          sinnvoll ist. Manche Fragen brauchen eine klare Entscheidung, andere einen überschaubaren
+          Versuch. Wir prüfen Ergebnisse, nehmen Rückmeldungen ernst und passen unser Vorgehen
+          an, wenn wir dazulernen.
         questions:
-        - Was behalten wir?
+        - Was funktioniert bereits?
         - Was probieren wir aus?
-        - Was lassen wir weg?
+        - Was können wir weglassen?
       voice:
         title: Stimmen aus der Zusammenarbeit.
         intro: Rückmeldungen von Menschen, mit denen wir in Kundenmandaten oder früheren
@@ -1977,7 +1992,6 @@ relaunch:
       url: "/"
       visuals:
         circle_alt: Aus einem unübersichtlichen Linienknäuel entsteht ein klarer Kreis.
-        circle_caption: '„Struktur ist kein Selbstzweck. Sie schafft Raum für Klarheit, Fokus und nachhaltige Entscheidungen.“ — Marcel Russ'
         portrait_alt: Marcel Russ, Gründer von mehr.wert.
     strategy:
       url: "/services/fractional-cto.html"
