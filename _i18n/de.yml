@@ -2099,7 +2099,7 @@ relaunch:
         clarification: Die Softwareentwicklung liegt bei Ihren Teams, bestehenden Partnern
           oder gezielt hinzugezogenen Spezialisten. Wir verantworten die Aufgaben, die wir
           gemeinsam vereinbaren.
-        result_label: 'Ergebnis:'
+        result_label: 'Mögliche Arbeitsergebnisse:'
       practice:
         label: EINBLICKE IN UNSERE ARBEIT
         title: Erfahrung hilft, aus Möglichkeiten konkrete Schritte zu machen.
@@ -2191,11 +2191,9 @@ relaunch:
           geben."
       experience:
         label: ERFAHRUNG ALS GRUNDLAGE
-        text: Wir kennen Software aus eigener Entwicklung, langfristiger Produktverantwortung
-          und technischer Teamführung. Diese Erfahrung hilft uns, strategische Entscheidungen
-          auch mit Blick auf Umsetzung, Betrieb und die Menschen dahinter zu treffen.
-        link: Mehr zu Projekten & Erfahrung
-        url: "/projects.html"
+        text: Wir kennen Software aus eigener Entwicklung, langfristiger Produktverantwortung und technischer Führung. Bei Dücker haben wir beispielsweise Fachbereiche und Entwicklung zusammengebracht, die fachlichen Zusammenhänge einer gewachsenen Software geklärt und bestehende Geschäftsregeln für die weitere Modernisierung aufbereitet.
+        link: Modernisierung bei Dücker ansehen
+        url: "/projects/duecker.html"
     delivery:
       title: Organisation & Software-Delivery
       meta_title: Organisation & Software-Delivery | mehr.wert
