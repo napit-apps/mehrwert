@@ -290,31 +290,27 @@
   .mw-hero { padding-block: 68px; }
   .mw-hero h1 { max-width: 27ch; font-size: clamp(2.3rem, 4.4vw, 4.4rem); text-wrap: balance; }
   .mw-hero .mw-eyebrow { color: #8ed3b4; }
-  .mw-strategy-hero-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-top: 40px; max-width: 1120px; color: #e0dce6; font-size: 1.05rem; }
+  .mw-strategy-hero-copy { margin-top: 32px; max-width: 65ch; color: #e0dce6; font-size: 1.05rem; }
   .mw-strategy-label { font-size: .75rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #4b6d5b; margin-bottom: 22px; }
   .mw-strategy-intro { max-width: 76ch; margin-top: 24px; }
   .mw-strategy-situations-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; margin-top: 40px; }
   .mw-strategy-situations-grid article { padding: 30px; border: 1px solid var(--mw-line); }
-  .mw-strategy-situations-grid .mw-index { display: block; margin-bottom: 18px; }
   .mw-strategy-situations-grid h3 { max-width: 30ch; }
   .mw-strategy-situations-grid p { margin-top: 18px; }
   .mw-strategy-benefits, .mw-strategy-values { background: #e4eee7; }
-  .mw-cards { margin-top: 40px; }
-  .mw-card p { color: inherit; }
-  .mw-card { border-color: #477e65; }
+  .mw-strategy-benefit-points { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; margin-top: 32px; }
+  .mw-strategy-benefit-points p { margin-top: 16px; }
   .mw-strategy-services { margin-top: 40px; }
   .mw-strategy-service { display: grid; grid-template-columns: 1fr 1.35fr; gap: 72px; padding-block: 36px; border-top: 1px solid var(--mw-line); }
   .mw-strategy-service h3 { max-width: 24ch; font-size: 1.7rem; }
-  .mw-strategy-service ul { margin: 28px 0 0; padding-left: 22px; }
-  .mw-strategy-service li { padding-left: 8px; margin-top: 12px; }
-  .mw-strategy-service li::marker { color: #477e65; }
-  .mw-strategy-subtitle { margin-top: 18px; max-width: 32ch; color: #625c6e; }
-  .mw-strategy-clarification { margin-top: 20px; padding: 26px 32px; border-left: 3px solid #61bb95; background: #eeede8; font-size: .95rem; }
+  .mw-strategy-service-result { margin-top: 24px; padding-left: 20px; border-left: 3px solid #61bb95; }
+  .mw-strategy-clarification { margin-top: 20px; max-width: 76ch; }
+  .mw-strategy-ai .mw-strategy-split { display: block; max-width: 850px; }
+  .mw-strategy-ai h2 { max-width: 30ch; margin-bottom: 24px; }
+  .mw-strategy-ai .mw-strategy-clarification { padding: 0; background: transparent; border: 0; }
   .mw-strategy-decisions { background: #eeede8; }
-  .mw-strategy-paths { list-style: none; padding: 0; margin: 64px 0 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; position: relative; }
-  .mw-strategy-paths::before { content: ''; position: absolute; top: -24px; left: calc(100% / 6); right: calc(100% / 6); height: 1px; background: #477e65; }
-  .mw-strategy-paths li { position: relative; background: var(--mw-paper); padding: 30px; border-top: 3px solid #477e65; }
-  .mw-strategy-paths li::before { content: ''; position: absolute; top: -26px; left: 50%; height: 24px; width: 1px; background: #477e65; }
+  .mw-strategy-paths { list-style: none; padding: 0; margin: 36px 0 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 32px; }
+  .mw-strategy-paths li { min-width: 0; }
   .mw-strategy-paths p { margin-top: 20px; }
   .mw-strategy-closing { max-width: 83ch; margin-top: 36px; }
   .mw-strategy-case { display: grid; grid-template-columns: 1fr 1.35fr; gap: 48px; margin-top: 32px; padding: 36px; background: #eeede8; }
@@ -338,20 +334,16 @@
   .mw-hero .mw-text-link:hover { color: #8ed3b4 !important; }
   @media (max-width: 900px) {
     .mw-strategy-service, .mw-strategy-split, .mw-strategy-case { gap: 32px; }
-    .mw-strategy-paths li { padding: 24px; }
   }
   @media (max-width: 767px) {
     .mw-section, .mw-hero { padding-block: 44px; }
     .mw-hero h1 { font-size: clamp(2rem,8.5vw,2.8rem); }
-    .mw-strategy-hero-copy, .mw-strategy-situations-grid, .mw-strategy-service, .mw-strategy-case, .mw-strategy-split, .mw-strategy-paths { grid-template-columns: minmax(0,1fr); gap: 24px; }
+    .mw-strategy-benefit-points, .mw-strategy-situations-grid, .mw-strategy-service, .mw-strategy-case, .mw-strategy-split, .mw-strategy-paths { grid-template-columns: minmax(0,1fr); gap: 24px; }
     .mw-strategy-hero-copy { font-size: 1rem; margin-top: 28px; }
     .mw-strategy-situations-grid article, .mw-strategy-case { padding: 24px; }
     .mw-strategy-product { padding: 0 0 0 20px; }
     .mw-strategy-service h3 { font-size: 1.5rem; }
-    .mw-strategy-clarification { padding: 22px; }
     .mw-strategy-paths { margin-top: 36px; }
-    .mw-strategy-paths::before, .mw-strategy-paths li::before { display: none; }
-    .mw-strategy-paths li { border-top-width: 3px; }
     h2, h3, p, li, a, summary { overflow-wrap: break-word; hyphens: auto; }
   }
 }
