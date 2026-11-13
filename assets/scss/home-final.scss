@@ -53,7 +53,7 @@
   .mw-home-project-tile h3 { font-size: 1.15rem; line-height: 1.35; text-wrap: initial; }
   .mw-home-project-tile p { font-size: .87rem; line-height: 1.65; color: var(--mw-muted); margin-top: 12px; text-wrap: initial; }
   @media (max-width: 1023px) { .mw-home-projects-compact { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-  @media (max-width: 479px) { .mw-home-projects-compact { grid-template-columns: minmax(0, 1fr); } }
+  @media (max-width: 767px) { .mw-home-projects-compact { grid-template-columns: minmax(0, 1fr); } }
   .mw-home-person { background: #e4eee7; }
   .mw-home-person-grid { display: grid; grid-template-columns: .8fr 1.2fr; align-items: center; gap: 64px; }
   .mw-home-founder img { display: block; width: 100%; max-width: 348px; height: auto; margin-inline: auto; }

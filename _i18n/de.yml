@@ -1845,54 +1845,54 @@ relaunch:
         title: Erfahrung zeigt sich in der Praxis.
         link: Alle Projekte & Erfahrungen ansehen
         items:
-        - name: Dücker
-          text: Softwaremodernisierung · Domänenverständnis · Geschäftsregeln
-          type: Mandat
-          url: "/projects/duecker.html"
         - name: EnBW Trading IT
           text: Quartalsplanung · Onsite-Wochen · Teamabstimmung
           type: Frühere Berufserfahrung
           url: "/projects/enbw.html"
-        - name: Viridium
-          text: Zwölf Squads · Qualitätsgrundlagen · Software-Delivery
-          type: Mandat
-          url: "/projects/viridium.html"
-        - name: HUGO BOSS – TechFoundry
+        - name: HUGO BOSS
           text: KI-gestützte Entwicklung · Strategie · Roadmap
           type: Mandat
           url: "/projects/hugo-boss.html"
-        - name: HUGO BOSS – Technische Führung
-          text: Web & Mobile · Teamführung · Digitale Produkte
-          type: Frühere Berufserfahrung
-          url: "/projects/technische-fuehrung-web-mobile.html"
-        - name: myWork
-          text: Mobile Zeiterfassung · Entwicklung · Produktverantwortung
-          type: Eigenes Produkt
-          url: "/projects/mywork-produktverantwortung.html"
-        - name: Mercedes-Benz Guides
-          text: Digitale Fahrzeughandbücher · Mobile Engineering
-          type: Frühere Berufserfahrung
-          url: "/projects/mobile-fahrzeughandbuecher.html"
-        - name: Kverneland
-          text: Android · Fertigungslogistik · Produktionsprozesse
-          type: Frühere Berufserfahrung
-          url: "/projects/mobile-fertigungslogistik.html"
-        - name: Bosch Power Tools
-          text: iBeacon · Standortbezogene Messeinformationen
-          type: Frühere Berufserfahrung
-          url: "/projects/ibeacon-messeinformationen.html"
-        - name: HBScanner
-          text: Native iOS-Bibliothek · Technologische Unabhängigkeit
-          type: Frühere Berufserfahrung
-          url: "/projects/mobile-scanning-bibliothek.html"
         - name: Green Agile Guide
           text: Nachhaltigkeit · Bewusstsein · Verantwortung
           type: Initiative
           url: "/projects/green-agile-guide.html"
-        - name: myMoney
-          text: iOS-App · Finanzverwaltung · Produktentwicklung
+        - name: Viridium
+          text: Zwölf Squads · Qualitätsgrundlagen · Software-Delivery
+          type: Mandat
+          url: "/projects/viridium.html"
+        - name: myWork
+          text: Mobile Zeiterfassung · Entwicklung · Produktverantwortung
           type: Eigenes Produkt
-          url: "/projects/mymoney-finanzverwaltung.html"
+          url: "/projects/mywork-produktverantwortung.html"
+        - name: HUGO BOSS Technische Führung
+          text: Web & Mobile · Teamführung · Digitale Produkte
+          type: Frühere Berufserfahrung
+          url: "/projects/technische-fuehrung-web-mobile.html"
+        - name: Mercedes-Benz Guides
+          text: Digitale Fahrzeughandbücher · Mobile Engineering
+          type: Frühere Berufserfahrung
+          url: "/projects/mobile-fahrzeughandbuecher.html"
+        - name: Dücker
+          text: Softwaremodernisierung · Domänenverständnis · Geschäftsregeln
+          type: Mandat
+          url: "/projects/duecker.html"
+        - name: HBScanner
+          text: Native iOS-Bibliothek · Technologische Unabhängigkeit
+          type: Frühere Berufserfahrung
+          url: "/projects/mobile-scanning-bibliothek.html"
+        - name: Gemeinsame UI-Bausteine
+          text: Angular · Wiederverwendbare Oberflächenbausteine · Teamübergreifende Abstimmung
+          type: Frühere Berufserfahrung
+          url: "/projects/web-komponentenbibliothek.html"
+        - name: Smartes Golf Shirt
+          text: Sensorik · Bewegungsanalyse · Mobile Anwendungen
+          type: Frühere Berufserfahrung
+          url: "/projects/smartes-sportshirt-bewegungsanalyse.html"
+        - name: Kverneland
+          text: Android · Fertigungslogistik · Produktionsprozesse
+          type: Frühere Berufserfahrung
+          url: "/projects/mobile-fertigungslogistik.html"
         intro: Ein Einblick in Kundenmandate, frühere berufliche Stationen, eigene Softwareprodukte
           und Initiativen.
       person:
