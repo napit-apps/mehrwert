@@ -2042,6 +2042,11 @@ relaunch:
           text: Wer übernimmt was, und wann lohnt es sich, den Weg zu überprüfen?
       decisions:
         label: MODERNISIERUNG ALS STRATEGISCHE ENTSCHEIDUNG
+        criteria:
+        - Geschäftlicher Nutzen
+        - Risiken
+        - Wirtschaftlichkeit
+        - Umsetzbarkeit
         title: Nicht alles muss neu. Aber es braucht eine bewusste Entscheidung.
         intro: Manchmal ist gezielte Weiterentwicklung richtig, manchmal eine schrittweise
           Erneuerung oder eine Ablösung. Entscheidend sind Ihr Geschäft, die Risiken, die

@@ -53,7 +53,10 @@
       <p class="mw-strategy-label">{{ strategy.decisions.label }}</p>
       <h2>{{ strategy.decisions.title }}</h2>
       <p class="mw-strategy-intro">{{ strategy.decisions.intro }}</p>
+      <div class="mw-strategy-decision-map">
+        <ul class="mw-strategy-criteria">{% for criterion in strategy.decisions.criteria %}<li>{{ criterion }}</li>{% endfor %}</ul>
       <ul class="mw-strategy-paths">{% for item in strategy.decisions.items %}<li><h3>{{ item.title }}</h3><p>{{ item.text }}</p></li>{% endfor %}</ul>
+      </div>
       <p class="mw-strategy-closing">{{ strategy.decisions.closing }}</p>
     </div>
   </section>
