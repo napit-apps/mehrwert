@@ -394,10 +394,17 @@
 
 // Editorial composition scoped exclusively to the German about page.
 .mw-2027 .mw-about {
+  .mw-about-founder-story { margin-top: 40px; }
+  .mw-about-founder-story:has(.mw-portrait) { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 64px; align-items: start; }
+  .mw-about-founder-story .mw-about-prose { max-width: 68ch; }
+  @media (max-width: 767px) {
+    .mw-about-founder-story:has(.mw-portrait) { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+    .mw-about-founder-story .mw-portrait { margin-inline: auto; }
+  }
   .mw-hero h1 { max-width: 24ch; }
   .mw-about-prose { max-width: 68ch; }
   .mw-about-prose p + p { margin-top: 24px; }
-  .mw-about-hero-copy { margin-top: 36px; color: #e0dce6; font-size: 1.08rem; }
+  .mw-about-hero-copy { max-width: 65ch; margin-top: 36px; color: #e0dce6; font-size: 1.08rem; }
   .mw-about-principles { padding-top: 32px; }
   .mw-about-columns { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; margin-top: 40px; }
   .mw-about-columns p { margin-top: 18px; }

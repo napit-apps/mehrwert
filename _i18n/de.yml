@@ -3145,78 +3145,114 @@ relaunch:
         label: ÜBER MEHR.WERT
         title: Nachhaltig bessere Software. Aus Überzeugung.
         paragraphs:
-        - 'Wir sind überzeugt: Gute IT zeigt ihren Wert nicht allein daran, was technisch möglich ist. Entscheidend ist, was sie für ein Unternehmen leistet – heute und auf lange Sicht. Dafür verbinden wir Erfahrung aus der Softwareentwicklung mit strategischem Denken, einem Blick für Menschen und der Bereitschaft, Verantwortung zu übernehmen.'
-        - mehr.wert steht für Beratung, die sorgfältig hinschaut, Klarheit schafft und Veränderungen auch in der Umsetzung begleitet. Unabhängig, persönlich und immer mit dem Ziel, Lösungen zu finden, die wirklich zum Unternehmen passen.
-        primary: Lernen Sie uns kennen
-        secondary: Unsere Arbeitsweise
-      why:
+        - Software ist für uns nie nur Technik. Sie beeinflusst, wie Menschen arbeiten,
+          wie Unternehmen entscheiden und wie gut sich Dinge verändern lassen. Wir möchten
+          dazu beitragen, dass aus guten Ideen etwas wird, das im Alltag trägt. Mit eigener
+          Erfahrung, einem offenen Blick und der Bereitschaft, Verantwortung zu übernehmen.
+        primary: Den Menschen hinter mehr.wert kennenlernen
+        secondary: So arbeiten wir zusammen
+      story:
         label: WARUM ES MEHR.WERT GIBT
         title: Warum ich mehr.wert gegründet habe.
         paragraphs:
-        - Ich habe Software selbst entwickelt, eigene Produkte über Jahre betreut, technische Teams geführt und Unternehmen bei Veränderungen begleitet. Dabei habe ich erlebt, wie wichtig es ist, technische Entscheidungen mit den Menschen und den Abläufen im Unternehmen zusammenzudenken. Eine gute Idee allein reicht selten aus. Sie muss auch im Alltag funktionieren.
-        - 2024 habe ich mehr.wert gegründet, um diese Erfahrungen in meiner eigenen Beratung zusammenzubringen. Ich möchte Unternehmen unabhängig bei wichtigen IT-Entscheidungen unterstützen und Verantwortung dafür übernehmen, dass aus einer gemeinsamen Richtung auch konkrete, tragfähige Schritte werden.
-        - Mir geht es nicht darum, möglichst viel zu verändern. Sondern darum, gemeinsam zu erkennen, was wirklich besser werden sollte – und den passenden Weg dafür zu finden.
+        - Ich komme aus der Softwareentwicklung. Mit meiner eigenen App myWork habe ich
+          über Jahre erlebt, was es bedeutet, ein Produkt nicht nur zu entwickeln, sondern
+          auch langfristig dafür verantwortlich zu sein. Anforderungen ändern sich, Menschen
+          nutzen Software anders als gedacht, und technische Entscheidungen wirken oft viel
+          länger nach als der erste Release.
+        - Später habe ich bei HUGO BOSS Web- und Mobile-Teams geführt und digitale Produkte
+          verantwortet. Bei Exxeta und im Umfeld der EnBW Trading IT kamen Strategie, Modernisierung
+          und die Zusammenarbeit größerer Organisationen stärker dazu. Dabei habe ich viele
+          kluge Menschen kennengelernt, die ihr Fach verstehen – und trotzdem an fehlender
+          Abstimmung, unklaren Entscheidungen oder gewachsenen Strukturen hängenbleiben.
+        - 2024 habe ich mehr.wert gegründet, weil ich diese Perspektiven zusammenbringen
+          wollte. Ich möchte unabhängig beraten, ehrlich sagen können, was ich für sinnvoll
+          halte, und die Menschen auch dann begleiten, wenn aus einer Idee konkrete Arbeit
+          wird. Mir geht es darum, gemeinsam herauszufinden, was besser werden soll – und
+          genauso darum, zu erkennen, was bereits gut funktioniert und bleiben darf.
+        - Ich bin überzeugt, dass man viel Erfahrung mitbringen und trotzdem offen bleiben
+          kann. Gerade bei schwierigen Entscheidungen ist mir wichtig, zuzuhören, Fragen
+          zu stellen und die eigene Einschätzung zu überprüfen, wenn neue Erkenntnisse dazukommen.
         signature: Marcel Russ · Gründer und Geschäftsführer
-      network:
-        label: SO SIND WIR AUFGESTELLT
-        title: Persönlich im Kern. Offen für die passende Expertise.
-        paragraphs:
-        - mehr.wert ist bewusst persönlich geführt. Sie arbeiten direkt mit dem Gründer und dem Menschen, der Ihr Mandat verantwortet. Das bedeutet kurze Wege, klare Absprachen und einen Ansprechpartner, der Ihre Situation kennt.
-        - Wenn ein Vorhaben zusätzliche Fähigkeiten erfordert, beziehen wir erfahrene Spezialisten und internationale Entwicklungspartner ein. Umfang und Zusammenarbeit richten sich nach der Aufgabe. Die Verantwortung für unser Mandat bleibt bei mehr.wert.
-      person:
-        label: PERSÖNLICH VERANTWORTLICH
-        title: Ich bin Marcel Russ. Mein Ausgangspunkt ist die Softwareentwicklung.
-        paragraphs:
-        - Ich bin Diplom-Informatiker mit Schwerpunkt Softwaretechnik und habe meine Laufbahn als Softwareentwickler begonnen. Mit myWork habe ich außerdem ein eigenes Softwareprodukt entwickelt, das ich über viele Jahre betrieben und weiterentwickelt habe. Dabei lernt man, was technische Entscheidungen langfristig bedeuten – nicht nur beim ersten Release, sondern auch im täglichen Betrieb.
-        - Später habe ich bei HUGO BOSS Web- und Mobile-Teams geführt und Verantwortung für digitale Produkte übernommen. Bei Exxeta arbeitete ich in der Enterprise-Modernisierung; im Umfeld der EnBW Trading IT habe ich Führungskräfte und Teams bei der Organisationsentwicklung und teamübergreifenden Steuerung begleitet. Auch die Arbeit mit internationalen Entwicklungspartnern gehört zu meiner Erfahrung.
-        - 'Heute bringe ich diese Perspektiven bei mehr.wert zusammen. Ich verstehe die Fragen, die Entwicklungsteams beschäftigen, ebenso wie die Entscheidungen, die Führungskräfte treffen müssen. Mir ist wichtig, dass beides zusammenpasst: eine fachlich gute Entscheidung und ein Weg, der unter realen Bedingungen funktioniert.'
-        items:
-        - title: Software & Produkte
-          text: Eigene Software entwickeln, betreiben und über Jahre weiterentwickeln – unter anderem die Zeiterfassungs-App myWork.
-        - title: Technische Führung
-          text: Web- und Mobile-Teams führen, digitale Produkte verantworten und standortübergreifende Zusammenarbeit gestalten.
-        - title: Strategie & Veränderung
-          text: Modernisierungsvorhaben beraten, Führung und Teams begleiten und Software-Delivery über Organisationsgrenzen hinweg verbessern.
-        link: Mehr zu Projekten & Erfahrung
+        link: Projekte & Erfahrung ansehen
         url: "/projects.html"
         portrait_alt: Marcel Russ, Gründer und Geschäftsführer von mehr.wert
+      network:
+        label: SO SIND WIR AUFGESTELLT
+        title: Ein fester Kern. Ein Netzwerk, das zur Aufgabe passt.
+        paragraphs:
+        - mehr.wert ist bewusst persönlich geführt. Ich bin Ihr direkter Ansprechpartner,
+          entwickle mit Ihnen die Richtung und gestalte die Zusammenarbeit. Für die Aufgaben,
+          die wir vereinbaren, übernehme ich Verantwortung – vom ersten Gespräch bis zu
+          den nächsten Schritten in der Praxis.
+        - 'Nicht jedes Vorhaben braucht dieselben Menschen oder ein großes Projektteam.
+          Wenn zusätzliche Erfahrung oder besondere technische Fähigkeiten nötig sind, arbeite
+          ich mit Fachleuten aus meinem Netzwerk zusammen. So entsteht ein bedarfsgerecht
+          zusammengestelltes Kollektiv: mit einem klaren Kern, ergänzender Expertise und
+          so wenig organisatorischem Aufwand wie sinnvoll.'
+        - Ihre eigenen Teams und bestehenden Partner bleiben dabei eingebunden. Wir ergänzen,
+          was fehlt, statt funktionierende Strukturen zu ersetzen. Und auch wenn weitere
+          Spezialisten mitarbeiten, wissen Sie immer, an wen Sie sich wenden können.
       approach:
         label: UNSERE ARBEITSWEISE
-        title: Verstehen. Konzipieren. Begleiten.
-        intro: 'Jedes Mandat ist anders. Die Art, wie wir vorgehen, folgt dennoch einer einfachen Idee: Erst die Situation wirklich verstehen, dann einen passenden Weg entwickeln und schließlich dafür sorgen, dass daraus konkrete Schritte werden.'
-        items:
-        - title: Verstehen
-          text: Wir hören zu, stellen Fragen und betrachten Technologie, Geschäftsanforderungen und Organisation gemeinsam. Wir wollen wissen, was heute funktioniert, was im Weg steht und was verändert werden soll.
-        - title: Konzipieren
-          text: Wir entwickeln mit den Verantwortlichen ein klares Zielbild, bewerten Alternativen und übersetzen Entscheidungen in nachvollziehbare Prioritäten und umsetzbare Schritte.
-        - title: Begleiten
-          text: Wir unterstützen die Beteiligten bei der Umsetzung, machen Hindernisse sichtbar und prüfen gemeinsam, ob die Veränderungen ihren Zweck erfüllen. Wo nötig, steuern wir innerhalb unseres Mandats nach.
+        title: Wir bringen Erfahrung mit. Und bleiben offen für das, was wir lernen.
+        paragraphs:
+        - Zu Beginn möchte ich verstehen, was Sie beschäftigt, was bereits gut läuft und
+          wo Sie sich Veränderung wünschen. Wir schauen auf die technischen Fragen, aber
+          genauso auf die Menschen, die später mit den Ergebnissen arbeiten sollen. Ihre
+          Branche, Ihre Kultur und die vorhandenen Möglichkeiten sind dabei wichtiger als
+          irgendein Standardmodell.
+        - Manchmal braucht es vor allem eine klare Entscheidung. Manchmal hilft ein kleiner,
+          überschaubarer Versuch, bevor viel Geld und Zeit gebunden werden. Und manchmal
+          ist die beste Empfehlung, etwas bewusst nicht zu verändern. Wir nutzen die Arbeitsweisen
+          und Methoden, die in der jeweiligen Situation helfen – und lassen den Rest weg.
+        - Wenn wir etwas verändern, interessieren uns die Folgen im Alltag. Wir holen Rückmeldungen
+          ein, schauen auf passende Kennzahlen und sprechen offen darüber, was funktioniert
+          und was nicht. Daraus ergeben sich die nächsten Schritte. Gemeinsam, mit klaren
+          Zuständigkeiten und der Bereitschaft, den Kurs zu korrigieren.
       values:
-        label: UNSER QUALITÄTSANSPRUCH
-        title: Gute Entscheidungen sollen lange tragen.
-        intro: "„Nachhaltig bessere Software“ ist für uns ein Qualitätsanspruch. Wir achten nicht nur darauf, ob eine Lösung heute funktioniert. Wir betrachten auch, wie sie sich später verändern, betreiben und wirtschaftlich sinnvoll nutzen lässt – und welche Folgen Entscheidungen für die Menschen haben, die damit arbeiten."
-        items:
-        - title: Bewusstsein
-          text: Wir schaffen Klarheit über Chancen, Risiken und Zielkonflikte. Dabei berücksichtigen wir Technik und Architektur ebenso wie Kosten, Ressourcen, Zusammenarbeit und den zukünftigen Handlungsspielraum des Unternehmens.
-        - title: Verantwortung
-          text: Wir geben begründete Empfehlungen, begleiten die vereinbarten Schritte und sprechen Hindernisse offen an. Wir prüfen, was unsere Arbeit bewirkt, und steuern innerhalb unseres Mandats nach, wenn es nötig ist.
-        closing: Diese Haltung steckt auch hinter dem Green Agile Guide, mit dem wir Nachhaltigkeit in bestehende agile Arbeitsweisen einbringen. Neue Technologien und KI nutzen wir dort, wo sie helfen – mit demselben Anspruch an Qualität, Sicherheit und Verantwortung.
-        link: Mehr über den Green Agile Guide
+        label: WAS UNS WICHTIG IST
+        title: Bewusst entscheiden. Verantwortung übernehmen.
+        paragraphs:
+        - Nachhaltig bessere Software heißt für uns, weiter zu denken als bis zum nächsten
+          Release. Wir achten darauf, ob Lösungen veränderbar bleiben, was sie im Betrieb
+          kosten und welche Auswirkungen Entscheidungen auf die Menschen haben, die damit
+          arbeiten.
+        - Dafür sind Bewusstsein und Verantwortung wichtig. Bewusstsein heißt, Chancen,
+          Risiken und Zielkonflikte offen zu betrachten – auch wenn die Antwort unbequem
+          ist. Verantwortung heißt, Empfehlungen zu begründen, vereinbarte Aufgaben gut
+          zu machen, Rückmeldungen ernst zu nehmen und nachzusteuern, wenn etwas nicht wie
+          gedacht funktioniert.
+        - Diese Haltung prägt auch unsere eigene Zusammenarbeit. Agile Methoden und neue
+          Technologien, einschließlich KI, setzen wir dort ein, wo sie wirklich nützen.
+          Ein Werkzeug oder eine Methode ist noch kein Erfolg. Entscheidend ist, ob das
+          Ergebnis dem Unternehmen und den Menschen hilft.
+        link: Green Agile Guide kennenlernen
         url: "/green-agile-guide.html"
       reading:
         label: WEITERLESEN
-        title: Mehr erfahren – über unsere Arbeit und unsere Erfahrungen.
+        title: Wenn Sie mehr wissen möchten.
         items:
         - title: IT-Strategie & Modernisierung
-          text: Wie wir technologische Zukunftsfähigkeit, klare Entscheidungen und Modernisierung verbinden.
+          text: Wie wir bei schwierigen Technologieentscheidungen Orientierung geben und
+            Modernisierung begleiten.
           url: "/services/fractional-cto.html"
         - title: Organisation & Software-Delivery
-          text: Wie wir Führung, Planung und Zusammenarbeit in der Softwareentwicklung wirksam machen.
+          text: Wie wir Führung und Teams helfen, besser zusammenzuarbeiten und Veränderungen
+            im Alltag umzusetzen.
           url: "/services/agile-transformation-coaching.html"
         - title: Projekte & Erfahrung
-          text: Einblicke in Mandate, eigene Produkte und die berufliche Erfahrung hinter mehr.wert.
+          text: Was wir selbst entwickelt, geführt und gemeinsam mit Kunden bewegt haben.
           url: "/projects.html"
       contact:
+        label: DER NÄCHSTE SCHRITT
+        title: Vielleicht sollten wir einfach miteinander sprechen.
+        text: Sie müssen noch keine fertige Aufgabenstellung haben. Erzählen Sie uns, was
+          Sie beschäftigt oder welche Entscheidung ansteht. Wir hören zu, fragen nach und
+          sagen Ihnen offen, ob und wie wir helfen können.
+        primary: Unverbindlich ins Gespräch kommen
+        email: kontakt@mehrwert.tech
+    contact:
         label: DER NÄCHSTE SCHRITT
         title: Sprechen wir über das, was Sie voranbringen möchten.
         text: Vielleicht steht eine wichtige Technologieentscheidung an. Vielleicht möchten Sie Ihre Software oder die Zusammenarbeit Ihrer Teams weiterentwickeln. Erzählen Sie uns, was Sie beschäftigt. Wir hören zu, stellen die richtigen Fragen und klären gemeinsam, ob und wie mehr.wert unterstützen kann.
