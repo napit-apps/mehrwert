@@ -12,7 +12,7 @@
     <div class="mw-shell">
       <p class="mw-strategy-label">{{ about.story.label }}</p><h2>{{ about.story.title }}</h2>
       <div class="mw-about-founder-story">
-        {% if about.story.portrait %}<figure class="mw-portrait"><img src="{{ about.story.portrait | relative_url }}" alt="{{ about.story.portrait_alt | escape }}" width="600" height="800" loading="lazy" decoding="async"></figure>{% endif %}
+        {% if about.story.portrait %}<figure class="mw-portrait"><img src="{{ about.story.portrait | relative_url }}" alt="{{ about.story.portrait_alt | escape }}" width="1436" height="2857" loading="lazy" decoding="async"></figure>{% endif %}
         <div class="mw-about-prose">{% for paragraph in about.story.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
           <p class="mw-strategy-email">{{ about.story.signature }}</p>
           <p class="mw-about-link"><a class="mw-text-link" href="{{ about.story.url | relative_url }}">{{ about.story.link }}</a></p>
@@ -22,8 +22,19 @@
   </section>
   <section class="mw-section mw-about-network">
     <div class="mw-shell mw-strategy-split">
-      <div><p class="mw-strategy-label">{{ about.network.label }}</p><h2>{{ about.network.title }}</h2></div>
+      <div><p class="mw-strategy-label">{{ about.network.label }}</p><h2 id="network-title">{{ about.network.title }}</h2></div>
       <div class="mw-about-prose">{% for paragraph in about.network.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
+    </div>
+    <div class="mw-shell">
+      <div class="mw-about-network-map" aria-labelledby="network-title" role="group">
+        <svg class="mw-about-network-lines" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path class="mw-network-optional" d="M 167 200 Q 330 175 500 200"/><path d="M 500 200 Q 665 225 833 200"/></svg>
+        <svg class="mw-about-network-lines mw-network-mobile" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path class="mw-network-optional" d="M 500 100 Q 250 130 250 300"/><path d="M 500 100 Q 750 130 750 300"/></svg>
+        <ul class="mw-about-network-nodes">
+          <li class="mw-network-core"><strong>{{ about.network.diagram.core }}</strong><span>{{ about.network.diagram.responsibility }}</span></li>
+          <li class="mw-network-expertise">{{ about.network.diagram.expertise }}</li>
+          <li class="mw-network-customer">{{ about.network.diagram.customer }}</li>
+        </ul>
+      </div>
     </div>
   </section>
   <section class="mw-section" id="approach">

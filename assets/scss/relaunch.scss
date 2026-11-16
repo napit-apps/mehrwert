@@ -394,6 +394,25 @@
 
 // Editorial composition scoped exclusively to the German about page.
 .mw-2027 .mw-about {
+  .mw-about-founder-story .mw-portrait img { width: auto; max-width: 100%; margin-inline: auto; }
+  .mw-about-network-map { position: relative; margin-top: 40px; }
+  .mw-about-network-lines { position: absolute; inset: 0; width: 100%; height: 100%; fill: none; stroke: #477e65; stroke-width: 1.5; pointer-events: none; }
+  .mw-about-network-lines path { vector-effect: non-scaling-stroke; }
+  .mw-network-optional { stroke-dasharray: 5 6; }
+  .mw-network-mobile { display: none; }
+  .mw-about-network-nodes { position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-areas: 'expertise core customer'; align-items: center; gap: 56px; list-style: none; margin: 0; padding: 32px 0; }
+  .mw-about-network-nodes li { padding: 28px 20px; border: 1px solid var(--mw-line); border-radius: 45% 40% 42% 38% / 30% 35% 32% 38%; background: var(--mw-paper); text-align: center; }
+  .mw-about-network-nodes .mw-network-core { grid-area: core; background: #e4eee7; border-color: #477e65; }
+  .mw-network-core span { display: block; margin-top: 10px; font-size: .9rem; }
+  .mw-about-network-nodes .mw-network-expertise { grid-area: expertise; border-style: dashed; }
+  .mw-network-customer { grid-area: customer; }
+  @media (max-width: 767px) {
+    .mw-about-network-nodes { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-areas: 'core core' 'expertise customer'; gap: 48px 20px; padding: 0; }
+    .mw-about-network-nodes li { padding: 24px 14px; }
+    .mw-about-network-nodes .mw-network-core { justify-self: center; max-width: 320px; }
+    .mw-about-network-lines { display: none; }
+    .mw-about-network-lines.mw-network-mobile { display: block; }
+  }
   .mw-about-founder-story { margin-top: 40px; }
   .mw-about-founder-story:has(.mw-portrait) { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 64px; align-items: start; }
   .mw-about-founder-story .mw-about-prose { max-width: 68ch; }

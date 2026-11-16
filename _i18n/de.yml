@@ -3176,8 +3176,14 @@ relaunch:
         signature: Marcel Russ · Gründer und Geschäftsführer
         link: Projekte & Erfahrung ansehen
         url: "/projects.html"
+        portrait: /assets/images/banner/2023.avif
         portrait_alt: Marcel Russ, Gründer und Geschäftsführer von mehr.wert
       network:
+        diagram:
+          core: mehr.wert · Marcel Russ
+          responsibility: Ihr direkter Ansprechpartner
+          expertise: Fachleute aus meinem Netzwerk
+          customer: Ihre eigenen Teams und bestehenden Partner
         label: SO SIND WIR AUFGESTELLT
         title: Ein fester Kern. Ein Netzwerk, das zur Aufgabe passt.
         paragraphs:
