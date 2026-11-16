@@ -2232,18 +2232,17 @@ relaunch:
             gemeinsam möglich machen.
       benefits:
         label: WORAUF ES ANKOMMT
-        title: Gute Zusammenarbeit zeigt sich in der Delivery.
-        intro: Wir möchten, dass Teams gemeinsame Vorhaben besser abstimmen, mit weniger
-          Reibung arbeiten und notwendige Entscheidungen früher treffen können.
+        title: Gute Zusammenarbeit zeigt sich darin, dass Arbeit vorankommt.
+        intro: Vom Kundenbedarf bis zur fertigen Software soll Arbeit möglichst reibungslos durch die Organisation fließen. Dafür brauchen Teams eine gemeinsame Richtung, klare Absprachen und die Möglichkeit, Hindernisse frühzeitig zu erkennen.
         items:
-        - title: Eine gemeinsame Richtung
-          text: Teams kennen Prioritäten, Abhängigkeiten und ihren Beitrag zu größeren Vorhaben.
-        - title: Weniger Reibung im Arbeitsalltag
-          text: Anforderungen, Qualitätskriterien und Übergaben sind so geklärt, dass die
-            Arbeit besser vorankommt.
-        - title: Mehr Transparenz für Entscheidungen
-          text: Fortschritt, Hindernisse und geeignete Kennzahlen helfen Teams und Führung,
-            rechtzeitig zu entscheiden.
+        - title: Gemeinsame Richtung
+          text: Prioritäten und Abhängigkeiten über Teamgrenzen hinweg klären.
+        - title: Weniger Reibung
+          text: Übergaben vereinfachen, Rückfragen und Wartezeiten reduzieren.
+        - title: Bessere Entscheidungen
+          text: Fortschritt und Hindernisse sichtbar machen und gemeinsam nachsteuern.
+      voice:
+        title: Was Menschen aus der Zusammenarbeit mitnehmen.
       support:
         label: UNSERE UNTERSTÜTZUNG
         title: Was wir gemeinsam verbessern können.

@@ -252,7 +252,8 @@
 }
 
 // The German homepage carousel enhances a fully readable, stacked fallback.
-.mw-2027 .mw-home .mw-testimonials {
+.mw-2027 .mw-home .mw-testimonials,
+.mw-2027 .mw-delivery .mw-testimonials {
   .mw-testimonials-intro { max-width: 65ch; margin-top: 24px; }
   .mw-testimonials-track { margin-top: 36px; }
   .mw-testimonial { max-width: none; padding-block: 12px 32px; }
@@ -355,6 +356,19 @@
 
 // Compact evidence, scoped only to the German delivery service page.
 .mw-2027 .mw-delivery {
+  .mw-delivery-value-flow { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 64px; margin-top: 40px; }
+  .mw-delivery-value-flow img { display: block; width: 100%; height: auto; max-width: 520px; margin-inline: auto; }
+  .mw-delivery-value-flow .mw-strategy-benefit-points { grid-template-columns: minmax(0, 1fr); gap: 28px; margin-top: 0; }
+  .mw-delivery-value-flow .mw-strategy-benefit-points p { margin-top: 10px; }
+  .mw-delivery-voice { background: #eeede8; }
+  .mw-delivery-voice blockquote { padding: 0; margin: 0; border: 0; background: none; font-family: $heading-font; font-size: clamp(1.15rem, 1.7vw, 1.5rem); line-height: 1.6; font-style: normal; }
+  .mw-delivery-voice figure { margin: 0; }
+  .mw-delivery-voice figcaption { margin-top: 24px; padding-left: 20px; border-left: 3px solid #61bb95; }
+  .mw-delivery-voice figcaption span, .mw-delivery-voice figcaption small { display: block; color: var(--mw-muted); }
+  @media (max-width: 767px) {
+    .mw-delivery-value-flow { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+    .mw-delivery-value-flow img { max-width: 400px; }
+  }
   .mw-delivery-experience { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--mw-line); }
   .mw-delivery-experience > p { max-width: 76ch; }
   .mw-delivery-experience-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; margin-top: 28px; }
