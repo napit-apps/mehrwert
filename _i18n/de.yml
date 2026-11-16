@@ -2265,10 +2265,7 @@ relaunch:
             praktikable Vereinbarungen und unterstützen ihre Anwendung im Alltag.
           result: Besser vorbereitete Arbeit · gemeinsame Qualitätskriterien · klarere Übergaben.
         - title: Verbesserungen begleiten und Wirkung prüfen
-          text: Wir unterstützen Führung und Teams dabei, Veränderungen im Alltag anzuwenden.
-            Rückmeldungen und passende Kennzahlen helfen zu erkennen, was besser funktioniert
-            und wo weitere Entscheidungen oder ein anderer Weg nötig sind. So kann die Organisation
-            die Verbesserungen zunehmend selbst tragen.
+          text: Wir unterstützen Führung und Teams dabei, Veränderungen im Alltag anzuwenden. Gemeinsam prüfen wir, ob sich beispielsweise Durchlaufzeiten, Nacharbeit oder die Verlässlichkeit der Lieferung verbessern. Dafür nutzen wir passende Kennzahlen und Rückmeldungen und passen Maßnahmen an, wenn sie nicht die gewünschte Wirkung zeigen.
           result: Konkrete Verbesserungen mit Verantwortlichen · regelmäßiges Feedback ·
             geeignete Messsignale für Entscheidungen.
       ai:
@@ -2396,9 +2393,7 @@ relaunch:
           url: "/projects/enbw.html"
         - title: Viridium
           origin: Laufendes Kundenmandat · mehr.wert
-          text: Wir entwickeln mit zwölf Squads gemeinsame Arbeits- und Qualitätsgrundlagen
-            und begleiten ihre Anwendung im Alltag – von der Zusammenarbeit über Teamgrenzen
-            hinweg bis zu konkreten Vereinbarungen für die Software-Delivery.
+          text: Bei Viridium unterstützen wir eine IT-Organisation mit zwölf Squads beim Aufbau gemeinsamer Arbeits- und Qualitätsgrundlagen. Über die Community of Practice fördern wir den Austausch und entwickeln gemeinsame Vereinbarungen. Ihre Anwendung begleiten wir gezielt in einzelnen Squads.
           link: Viridium-Erfahrung ansehen
           url: "/projects/viridium.html"
     projects:
