@@ -2200,103 +2200,149 @@ relaunch:
       url: "/services/agile-transformation-coaching.html"
       hero:
         label: ORGANISATION & SOFTWARE-DELIVERY
-        title: Damit Strategie im Alltag ankommt. Und Teams gemeinsam verlässlich liefern können.
+        title: Damit Strategie im Alltag ankommt. Und Teams verlässlich liefern.
         paragraphs:
-        - Viele IT-Organisationen haben erfahrene Teams und etablierte agile Arbeitsweisen. Trotzdem gehen Prioritäten im Tagesgeschäft verloren, Abhängigkeiten werden zu spät sichtbar und die Zusammenarbeit kostet mehr Energie als nötig.
-        - Wir helfen Ihnen, strategische Ziele in gemeinsame Planung, klare Verantwortlichkeiten und eine Zusammenarbeit zu übersetzen, die im Alltag funktioniert. Dabei verbinden wir Führung und Softwareentwicklung, begleiten Verbesserungen in der Praxis und prüfen gemeinsam, ob sie die gewünschte Wirkung entfalten.
+        - Auch gute Teams kommen ins Stocken, wenn Prioritäten, Abhängigkeiten und Entscheidungen
+          nicht zusammenpassen. Wir bringen Führungskräfte und Teams zusammen, unterstützen
+          konkrete Verbesserungen im Alltag und überprüfen gemeinsam, was sich dadurch verändert.
+          Dabei passen wir das Vorgehen an Ihre Organisation und neue Erkenntnisse an.
         primary: Unverbindlich ins Gespräch kommen
         secondary: So unterstützen wir
-      description: Damit Strategie im Alltag ankommt. Und Teams gemeinsam verlässlich liefern können.
+      description: Damit Strategie im Alltag ankommt. Und Teams gemeinsam verlässlich liefern
+        können.
       situations:
         label: WENN ZUSAMMENARBEIT KOMPLEX WIRD
         title: Kommen Ihnen diese Situationen bekannt vor?
-        intro: Gute Software entsteht nicht in isolierten Teams. Sobald mehrere Teams, Projekte und Führungsebenen zusammenarbeiten, werden gemeinsame Orientierung und klare Absprachen entscheidend.
         items:
         - title: Jedes Team hat einen Plan. Der gemeinsame fehlt.
-          text: Teams verfolgen wichtige Vorhaben, aber Prioritäten und Abhängigkeiten werden erst spät miteinander abgestimmt. Was für ein Team sinnvoll ist, passt nicht immer zum Gesamtbild. Termine und Zusagen werden dadurch schwerer belastbar.
+          text: Prioritäten und Abhängigkeiten werden erst spät abgestimmt. Was für ein
+            Team sinnvoll ist, passt nicht immer zum Ganzen – und gemeinsame Zusagen werden
+            unsicher.
         - title: Die Projektplanung steht. Die tatsächliche Delivery bleibt schwer einschätzbar.
-          text: Auf Projekt- und Managementebene gibt es Budgets, Meilensteine und Erwartungen. Im Arbeitsalltag der Teams zeigen sich jedoch neue Erkenntnisse, Engpässe und Abhängigkeiten. Ohne einen regelmäßigen Abgleich können notwendige Entscheidungen zu spät kommen.
-        - title: Agile Arbeitsweisen sind eingeführt. Trotzdem entstehen Reibungsverluste.
-          text: Teams nutzen unterschiedliche Qualitätsmaßstäbe, bereiten Arbeit verschieden vor oder verstehen Übergaben unterschiedlich. Das führt zu Rückfragen, Wartezeiten und vermeidbarer Nacharbeit – auch wenn alle engagiert arbeiten.
-        - title: Verbesserungen sind bekannt. Im Alltag fehlt die Umsetzung.
-          text: Nach Workshops oder Retrospektiven ist oft klar, was sich ändern sollte. Wenn Zeit, Verantwortlichkeiten oder Unterstützung fehlen, bleibt es beim guten Vorsatz. Führung und Teams brauchen einen gemeinsamen Weg, Verbesserungen tatsächlich anzuwenden.
+          text: Budgets und Termine sind geplant. Engpässe und neue Erkenntnisse aus der
+            Entwicklung erreichen die Projektsteuerung jedoch zu spät, um rechtzeitig über
+            Prioritäten, Umfang oder Termine zu entscheiden.
+        - title: Agile Arbeitsweisen sind eingeführt. Trotzdem hakt es.
+          text: Unterschiedliche Qualitätsmaßstäbe und unklare Übergaben führen zu Rückfragen
+            und Nacharbeit. Oft fehlen gemeinsame Vereinbarungen, die im Alltag auch angewendet
+            werden.
+        - title: Verbesserungen sind bekannt. Im Alltag bleibt vieles liegen.
+          text: Gute Ideen aus Retrospektiven oder Workshops kommen nicht voran, wenn Zeit,
+            Zuständigkeiten oder Unterstützung fehlen. Führung und Teams müssen Veränderungen
+            gemeinsam möglich machen.
       benefits:
         label: WORAUF ES ANKOMMT
         title: Gute Zusammenarbeit zeigt sich in der Delivery.
-        intro: Uns geht es nicht darum, möglichst viele agile Praktiken einzuführen. Entscheidend ist, dass Teams und Führung besser zusammenarbeiten, Hindernisse früher erkennen und die Softwareentwicklung verlässlicher steuern können.
+        intro: Wir möchten, dass Teams gemeinsame Vorhaben besser abstimmen, mit weniger
+          Reibung arbeiten und notwendige Entscheidungen früher treffen können.
         items:
         - title: Eine gemeinsame Richtung
-          text: Ziele und Prioritäten sind über Teamgrenzen hinweg verständlich. Abhängigkeiten werden gemeinsam besprochen, und Teams wissen, wie ihre Arbeit zum größeren Vorhaben beiträgt.
+          text: Teams kennen Prioritäten, Abhängigkeiten und ihren Beitrag zu größeren Vorhaben.
         - title: Weniger Reibung im Arbeitsalltag
-          text: Arbeit ist besser vorbereitet, Qualitätsansprüche sind nachvollziehbar und Übergaben funktionieren klarer. Das schafft die Voraussetzungen für weniger Klärungsschleifen und konzentriertere Umsetzung.
+          text: Anforderungen, Qualitätskriterien und Übergaben sind so geklärt, dass die
+            Arbeit besser vorankommt.
         - title: Mehr Transparenz für Entscheidungen
-          text: Fortschritt, Risiken und Engpässe werden sichtbar. Teams können realistisch planen und Führungskräfte rechtzeitig über Prioritäten, Umfang oder notwendige Unterstützung entscheiden.
+          text: Fortschritt, Hindernisse und geeignete Kennzahlen helfen Teams und Führung,
+            rechtzeitig zu entscheiden.
       support:
         label: UNSERE UNTERSTÜTZUNG
-        title: Von der gemeinsamen Richtung bis zur Veränderung im Alltag.
-        intro: 'Wir steigen dort ein, wo Ihre Organisation Unterstützung braucht: bei der Abstimmung über Teams hinweg, bei den Arbeitsweisen der Softwareentwicklung oder bei der Einführung konkreter Verbesserungen. Dabei bringen wir Erfahrungen aus eigener Softwareentwicklung, technischer Führung und langjähriger Arbeit mit Teams und Management in komplexen IT-Organisationen ein.'
-        results_label: 'Daraus entstehen:'
+        title: Was wir gemeinsam verbessern können.
+        intro: Mal braucht es eine gemeinsame Planung über mehrere Teams. Mal sind es die
+          täglichen Arbeitsweisen oder die Umsetzung längst bekannter Verbesserungen. Wir
+          konzentrieren uns auf das, was in Ihrer Organisation gerade hilft.
+        results_label: 'Mögliche Arbeitsergebnisse:'
         items:
-        - title: Strategie, Planung und Teams verbinden
-          subtitle: Damit aus vielen Einzelplänen eine gemeinsame Richtung wird.
-          text: Wir gestalten mit Führungskräften, Product Ownern und Teams eine Planung, die strategische Ziele mit der tatsächlichen Arbeit verbindet. Dazu gehören gemeinsame Prioritäten, abgestimmte Roadmaps und ein transparenter Umgang mit Abhängigkeiten. Die Formate richten sich nach Ihrer Organisation – von der teamübergreifenden Abstimmung bis zu wiederkehrenden Quartalsplanungen.
-          results:
-          - Abgestimmte Ziele, Prioritäten und teamübergreifende Roadmaps
-          - Praktikable Planungs- und Abstimmungsformate
-          - Klare Rückkopplung zwischen Teams, Projekten und Management
-        - title: Arbeitsweisen und Qualität gemeinsam verbessern
-          subtitle: Damit Teams Arbeit besser vorbereiten und verlässlich abschließen können.
-          text: 'Wir schauen gemeinsam auf die Stellen, an denen die Software-Delivery ins Stocken gerät: unklare Anforderungen, unzureichend vorbereitete Arbeit, unterschiedliche Qualitätsmaßstäbe oder schwierige Übergaben. Mit den Beteiligten entwickeln wir passende Vereinbarungen und unterstützen deren Einführung. Bewährte agile Methoden nutzen wir dort, wo sie helfen – nicht als Selbstzweck.'
-          results:
-          - Gemeinsam verstandene Anforderungen, klarere Qualitätskriterien und besser vorbereitete Arbeit – als Grundlage für weniger Rückfragen, Nacharbeit und Verzögerungen.
-          - Klarere Schnittstellen zwischen Teams, Projekten und Releases
-          - Gemeinsame Qualitätsgrundlagen mit Raum für die Besonderheiten einzelner Teams
-        - title: Veränderungen führen, begleiten und Wirkung sichtbar machen
-          subtitle: Damit Verbesserungen im Alltag ankommen und eigenständig weitergeführt werden können.
-          text: Veränderungen gelingen, wenn Führung und Teams gemeinsam Verantwortung übernehmen. Wir unterstützen dabei, Ziele, Verantwortlichkeiten und Entscheidungen zu klären, Verbesserungen im Arbeitsalltag anzuwenden und Hindernisse frühzeitig zu bearbeiten. Gemeinsam mit den Verantwortlichen überprüfen wir Fortschritte, nutzen geeignete Kennzahlen und passen Maßnahmen an, wenn sie noch nicht die gewünschte Wirkung entfalten. So schaffen wir Voraussetzungen, damit die Organisation ihre Zusammenarbeit und Software-Delivery zunehmend selbst weiterentwickeln kann.
-          results:
-          - Konkrete Verbesserungsmaßnahmen mit vereinbarten Zielen, Zuständigkeiten und nächsten Schritten
-          - Begleitung von Führung und Teams bei Einführung, Anwendung und Anpassung im Arbeitsalltag
-          - Regelmäßiges Feedback und geeignete Kennzahlen, um die Wirkung von Veränderungen zu beurteilen
+        - title: Ziele, Planung und Teams verbinden
+          text: 'Wir stimmen mit Führungskräften, Product Ownern und Teams Prioritäten ab,
+            machen Abhängigkeiten sichtbar und schaffen eine Planung, die im Alltag Orientierung
+            gibt. Ob Quartalsplanung oder ein einfacheres Abstimmungsformat: Wir richten
+            die Zusammenarbeit an Ihrer Organisation aus.'
+          result: Abgestimmte Ziele und Prioritäten · sichtbare Abhängigkeiten · passende
+            Planungs- und Rückkopplungsformate.
+        - title: Arbeitsweisen und Qualität verbessern
+          text: Wir schauen gemeinsam auf Rückfragen, Wartezeiten und Nacharbeit – etwa
+            durch unklare Anforderungen oder Übergaben. Mit den Beteiligten entwickeln wir
+            praktikable Vereinbarungen und unterstützen ihre Anwendung im Alltag.
+          result: Besser vorbereitete Arbeit · gemeinsame Qualitätskriterien · klarere Übergaben.
+        - title: Verbesserungen begleiten und Wirkung prüfen
+          text: Wir unterstützen Führung und Teams dabei, Veränderungen im Alltag anzuwenden.
+            Rückmeldungen und passende Kennzahlen helfen zu erkennen, was besser funktioniert
+            und wo weitere Entscheidungen oder ein anderer Weg nötig sind. So kann die Organisation
+            die Verbesserungen zunehmend selbst tragen.
+          result: Konkrete Verbesserungen mit Verantwortlichen · regelmäßiges Feedback ·
+            geeignete Messsignale für Entscheidungen.
       ai:
         label: SOFTWARE-DELIVERY IM WANDEL
         title: Wenn KI die Entwicklung verändert, muss die Zusammenarbeit mitwachsen.
         paragraphs:
-        - 'KI kann die Arbeit an Software verändern – von der Analyse über Implementierung und Tests bis zur Dokumentation. Dadurch entstehen neue Möglichkeiten, aber auch neue Fragen: Wie prüfen wir Ergebnisse? Wie sichern wir Qualität? Und wie organisieren wir Entscheidungen und Feedback, wenn Entwicklungsarbeit schneller oder anders abläuft als bisher?'
-        - Wir beziehen diese Fragen in die Weiterentwicklung von Teams und Software-Delivery ein. Wir prüfen gemeinsam, welche Arbeitsweisen, Verantwortlichkeiten und Feedbackschleifen zu den tatsächlichen Möglichkeiten und Anforderungen passen. Entscheidend ist nicht der Einsatz möglichst vieler KI-Werkzeuge, sondern dass Technologie und Organisation zusammen funktionieren.
-        closing: Wie strategische Orientierung bei einer KI-gestützten Entwicklungsinitiative entstehen kann, zeigt auch unsere Arbeit mit dem TechFoundry-Team von HUGO BOSS.
+        - 'KI kann die Analyse, Entwicklung, Tests und Dokumentation von Software verändern.
+          Damit entstehen neue Fragen: Wer prüft Ergebnisse? Wie bleibt die Qualität gesichert?
+          Wie müssen Abstimmung und Feedback aussehen, wenn sich Arbeit verändert?'
+        - Wir betrachten Werkzeuge und Zusammenarbeit gemeinsam. Ob Verantwortlichkeiten,
+          Qualitätsprüfungen oder Arbeitsweisen angepasst werden sollten, hängt von den
+          tatsächlichen Möglichkeiten und Anforderungen ab. Entscheidend bleiben Nutzen,
+          Sicherheit und nachvollziehbare Ergebnisse.
+        closing: Wie strategische Orientierung bei einer KI-gestützten Entwicklungsinitiative
+          entstehen kann, zeigt auch unsere Arbeit mit dem TechFoundry-Team von HUGO BOSS.
       practice:
         label: ERFAHRUNGEN AUS DER PRAXIS
         title: Wenn aus guten Absichten gemeinsame Arbeitsweisen werden.
-        intro: 'Nicht jede Organisation braucht dieselbe Veränderung. Diese Beispiele zeigen zwei unterschiedliche Aufgaben: Zusammenarbeit und Planung über viele Teams hinweg wirksam gestalten – und gemeinsame Grundlagen für bessere Software-Delivery aufbauen und einführen.'
+        intro: 'Nicht jede Organisation braucht dieselbe Veränderung. Diese Beispiele zeigen
+          zwei unterschiedliche Aufgaben: Zusammenarbeit und Planung über viele Teams hinweg
+          wirksam gestalten – und gemeinsame Grundlagen für bessere Software-Delivery aufbauen
+          und einführen.'
         items:
         - label: PERSÖNLICHE PROJEKTERFAHRUNG · ENBW TRADING IT · MEHRJÄHRIG
           title: Strategie, Roadmaps und Teams in einer gemeinsamen Planung verbinden.
           paragraphs:
-          - In der Trading IT von EnBW arbeiteten viele Teams an unterschiedlichen Vorhaben. Für eine gemeinsame Richtung brauchte es mehr als die Summe einzelner Teampläne. Marcel Russ hat die Entwicklung eines wiederkehrenden Quartalsplanungsprozesses und teamübergreifender Onsite-Wochen maßgeblich gestaltet und in der Praxis begleitet.
-          - So wurden strategische Prioritäten, Roadmaps, Abhängigkeiten und die Rückkopplung mit dem Management in einen gemeinsamen Planungsrhythmus gebracht. Beteiligte bestätigen, dass Planung, Transparenz und Zusammenarbeit dadurch besser wurden.
-          result: Wiederkehrende, gemeinsam genutzte Planungsformate und mehr Transparenz über Vorhaben und Abhängigkeiten – mit positiven Rückmeldungen aus der Organisation.
+          - In der Trading IT von EnBW arbeiteten viele Teams an unterschiedlichen Vorhaben.
+            Für eine gemeinsame Richtung brauchte es mehr als die Summe einzelner Teampläne.
+            Marcel Russ hat die Entwicklung eines wiederkehrenden Quartalsplanungsprozesses
+            und teamübergreifender Onsite-Wochen maßgeblich gestaltet und in der Praxis
+            begleitet.
+          - So wurden strategische Prioritäten, Roadmaps, Abhängigkeiten und die Rückkopplung
+            mit dem Management in einen gemeinsamen Planungsrhythmus gebracht. Beteiligte
+            bestätigen, dass Planung, Transparenz und Zusammenarbeit dadurch besser wurden.
+          result: Wiederkehrende, gemeinsam genutzte Planungsformate und mehr Transparenz
+            über Vorhaben und Abhängigkeiten – mit positiven Rückmeldungen aus der Organisation.
         - label: LAUFENDES MANDAT · VIRIDIUM · ORGANISATIONSENTWICKLUNG
-          title: Gemeinsame Grundlagen schaffen, damit zwölf Squads besser zusammenarbeiten können.
+          title: Gemeinsame Grundlagen schaffen, damit zwölf Squads besser zusammenarbeiten
+            können.
           paragraphs:
-          - Bei Viridium begleiten wir die Weiterentwicklung der Software-Delivery in einer Organisation mit zwölf Squads. Unterschiedliche Arbeitsweisen, Qualitätsvorstellungen und der Abstimmungsbedarf zwischen Projekten und Teams erfordern gemeinsame Orientierung.
-          - Wir haben eine Community of Practice mit rund 50 Beteiligten aufgebaut und mit den Teams Grundlagen für Backlog-Qualität, Refinement, Schätzung und Definition of Done entwickelt. Dazu kommen die strukturierte Betrachtung der Squad-Arbeitsweisen und die aktive Begleitung der Einführung. So wird Verbesserung zu einer gemeinsamen Aufgabe, die im Alltag weiterentwickelt werden kann.
-          result: Geschaffene gemeinsame Arbeits- und Qualitätsgrundlagen sowie eine übergreifende Austauschstruktur. Die Einführung wird begleitet; Verbesserungen der Delivery werden weiter überprüft.
+          - Bei Viridium begleiten wir die Weiterentwicklung der Software-Delivery in einer
+            Organisation mit zwölf Squads. Unterschiedliche Arbeitsweisen, Qualitätsvorstellungen
+            und der Abstimmungsbedarf zwischen Projekten und Teams erfordern gemeinsame
+            Orientierung.
+          - Wir haben eine Community of Practice mit rund 50 Beteiligten aufgebaut und mit
+            den Teams Grundlagen für Backlog-Qualität, Refinement, Schätzung und Definition
+            of Done entwickelt. Dazu kommen die strukturierte Betrachtung der Squad-Arbeitsweisen
+            und die aktive Begleitung der Einführung. So wird Verbesserung zu einer gemeinsamen
+            Aufgabe, die im Alltag weiterentwickelt werden kann.
+          result: Geschaffene gemeinsame Arbeits- und Qualitätsgrundlagen sowie eine übergreifende
+            Austauschstruktur. Die Einführung wird begleitet; Verbesserungen der Delivery
+            werden weiter überprüft.
         link: Mehr Projekte & Erfahrungen
         url: "/projects.html"
       engagements:
         label: ZUSAMMENARBEIT
-        title: Wir begleiten Veränderung. Gemeinsam mit den Menschen, die sie tragen.
+        title: Veränderung braucht Menschen, die Verantwortung übernehmen.
         paragraphs:
-        - Wir übernehmen Verantwortung für die Gestaltung, Einführung und Begleitung der vereinbarten Verbesserungen. Dazu gehört auch, offen anzusprechen, wenn etwas nicht funktioniert, Hindernisse sichtbar zu machen und konkrete nächste Schritte vorzuschlagen.
-        - 'Damit Veränderungen dauerhaft wirksam werden, braucht es gleichzeitig die Unterstützung der Führung: klare Prioritäten, Zeit für Verbesserungen und Entscheidungen, wenn Zielkonflikte entstehen. Wir arbeiten eng mit Teams und Management zusammen und helfen, Verantwortung dort zu verankern, wo sie langfristig hingehört.'
-        closing: Manchmal hilft zunächst eine gemeinsame Standortbestimmung oder ein Workshop. In anderen Situationen begleiten wir mehrere Teams oder eine gesamte Organisationseinheit über einen längeren Zeitraum. Der Umfang richtet sich nach der Aufgabe – nicht nach einem vorgegebenen Methodenpaket.
+        - 'Wir übernehmen Verantwortung für die vereinbarten Aufgaben: Wir entwickeln mit
+          den Beteiligten passende Maßnahmen, begleiten ihre Einführung, sprechen Hindernisse
+          offen an und steuern bei Bedarf nach.'
+        - Damit Verbesserungen im Alltag bestehen bleiben, braucht es auch Führung, die
+          Prioritäten setzt, Entscheidungen trifft und Zeit für Veränderungen ermöglicht.
+          Wir arbeiten mit Ihren Teams und bestehenden Partnern – punktuell oder über längere
+          Zeit, je nach Aufgabe.
       values:
         label: NACHHALTIG BESSERE SOFTWARE
         title: Gute Zusammenarbeit soll bleiben – auch wenn unsere Begleitung endet.
         paragraphs:
-        - Wir entwickeln Arbeitsweisen, die zu den Menschen und zur Organisation passen und von ihnen eigenständig weitergeführt werden können. Bestehende Formate nutzen wir, wo sie ihren Zweck erfüllen, statt Veränderungen mit zusätzlichen Ritualen zu überladen.
-        - 'Bewusstsein und Verantwortung sind dafür unsere Leitwerte: Wir machen die Auswirkungen von Entscheidungen sichtbar und unterstützen Teams und Führung dabei, ihre Arbeit bewusst und langfristig tragfähig weiterzuentwickeln.'
+        - 'Wir helfen, Arbeitsweisen zu entwickeln, die Teams selbst weiterführen können.
+          Dazu gehört auch, auf Termine und Regeln zu verzichten, wenn sie keinen Nutzen
+          bringen. Bewusstsein und Verantwortung aus Green Agile prägen diesen Anspruch:
+          Folgen erkennen, Entscheidungen tragen und Zusammenarbeit so gestalten, dass sie
+          auf Dauer funktioniert.'
         link: Bewusstsein und Verantwortung im Green Agile Guide
         url: "/green-agile-guide.html"
       faq:
@@ -2304,24 +2350,57 @@ relaunch:
         title: Häufige Fragen zur Zusammenarbeit
         items:
         - title: Müssen unsere Teams bereits agil arbeiten?
-          text: Nein. Entscheidend ist nicht, welches Vorgehensmodell Sie heute verwenden, sondern welche Probleme Sie lösen möchten. Wir knüpfen an vorhandene Strukturen an und entwickeln mit Ihnen die Arbeitsweisen, die tatsächlich helfen.
+          text: Nein. Entscheidend ist nicht, welches Vorgehensmodell Sie heute verwenden,
+            sondern welche Probleme Sie lösen möchten. Wir knüpfen an vorhandene Strukturen
+            an und entwickeln mit Ihnen die Arbeitsweisen, die tatsächlich helfen.
         - title: Müssen wir unsere bestehenden Planungs- und Arbeitsweisen grundlegend verändern?
-          text: Nicht unbedingt. Wir beginnen mit dem, was bereits funktioniert, und betrachten gemeinsam, wo Veränderungen sinnvoll sind. Projekt- und Portfolioplanung, die tägliche Arbeit der Teams und die Steuerung durch das Management müssen nicht nach derselben Methode funktionieren. Entscheidend ist, dass sie zusammenpassen und notwendige Entscheidungen rechtzeitig möglich machen.
+          text: Nicht unbedingt. Wir beginnen mit dem, was bereits funktioniert, und betrachten
+            gemeinsam, wo Veränderungen sinnvoll sind. Projekt- und Portfolioplanung, die
+            tägliche Arbeit der Teams und die Steuerung durch das Management müssen nicht
+            nach derselben Methode funktionieren. Entscheidend ist, dass sie zusammenpassen
+            und notwendige Entscheidungen rechtzeitig möglich machen.
         - title: Wie erkennen wir, ob sich die Software-Delivery verbessert?
-          text: Wir schauen zunächst darauf, welche Wirkung Sie erreichen möchten – etwa bessere Planbarkeit, weniger Wartezeiten oder höhere Qualität. Darauf abgestimmt wählen wir geeignete Beobachtungen und Kennzahlen. Sie sollen Teams bei Verbesserungen unterstützen und fundierte Entscheidungen ermöglichen, nicht einzelne Menschen oder Teams gegeneinander ausspielen.
+          text: Wir schauen zunächst darauf, welche Wirkung Sie erreichen möchten – etwa
+            bessere Planbarkeit, weniger Wartezeiten oder höhere Qualität. Darauf abgestimmt
+            wählen wir geeignete Beobachtungen und Kennzahlen. Sie sollen Teams bei Verbesserungen
+            unterstützen und fundierte Entscheidungen ermöglichen, nicht einzelne Menschen
+            oder Teams gegeneinander ausspielen.
         - title: Wer sorgt dafür, dass neue Arbeitsweisen dauerhaft genutzt werden?
-          text: Wir gestalten und begleiten die Einführung, prüfen die Anwendung und machen Hindernisse sichtbar. Für Prioritäten, notwendige Kapazitäten und verbindliche Entscheidungen braucht es das Management und die jeweiligen Teams. Genau diese Zusammenarbeit bauen wir von Anfang an mit auf.
+          text: Wir gestalten und begleiten die Einführung, prüfen die Anwendung und machen
+            Hindernisse sichtbar. Für Prioritäten, notwendige Kapazitäten und verbindliche
+            Entscheidungen braucht es das Management und die jeweiligen Teams. Genau diese
+            Zusammenarbeit bauen wir von Anfang an mit auf.
       contact:
         label: DER NÄCHSTE SCHRITT
         title: Was soll in Ihrer Software-Delivery besser funktionieren?
-        text: Vielleicht möchten Sie mehrere Teams besser aufeinander abstimmen, Planung verlässlicher machen oder eine begonnene Veränderung endlich in die Praxis bringen. Erzählen Sie uns, was Sie beschäftigt. Gemeinsam klären wir, wo mehr.wert sinnvoll unterstützen kann.
+        text: Vielleicht möchten Sie mehrere Teams besser aufeinander abstimmen, Planung
+          verlässlicher machen oder eine begonnene Veränderung endlich in die Praxis bringen.
+          Erzählen Sie uns, was Sie beschäftigt. Gemeinsam klären wir, wo mehr.wert sinnvoll
+          unterstützen kann.
         primary: Unverbindlich ins Gespräch kommen
         alternative: Oder schreiben Sie direkt an kontakt@mehrwert.tech.
       experience:
         label: ERFAHRUNG ALS GRUNDLAGE
-        text: 'Hinter unserer Arbeit steht auch die persönliche Erfahrung von Gründer Marcel Russ: aus eigener Softwareentwicklung, der Führung technischer Teams und der mehrjährigen Begleitung von Führungskräften und Entwicklungsteams in komplexen IT-Organisationen. Diese Perspektiven helfen uns, nicht nur passende Konzepte zu entwickeln, sondern ihre Anwendung im Arbeitsalltag mitzudenken.'
+        text: Aus eigener Softwareentwicklung, technischer Führung und der Zusammenarbeit
+          mit Führungskräften und Teams kennen wir unterschiedliche Perspektiven. Zwei Erfahrungen
+          zeigen, wie verschieden die Aufgaben in der Praxis sind.
         link: Mehr zu Projekten & Erfahrung
         url: "/projects.html"
+        items:
+        - title: EnBW Trading IT
+          origin: Frühere Berufserfahrung · Marcel Russ
+          text: In meiner früheren Tätigkeit habe ich die teamübergreifende Quartalsplanung
+            und gemeinsame Onsite-Wochen mitgestaltet. Die Formate wurden zu einer wiederkehrenden
+            Grundlage für Abstimmung und Entscheidungen.
+          link: EnBW-Erfahrung ansehen
+          url: "/projects/enbw.html"
+        - title: Viridium
+          origin: Laufendes Kundenmandat · mehr.wert
+          text: Wir entwickeln mit zwölf Squads gemeinsame Arbeits- und Qualitätsgrundlagen
+            und begleiten ihre Anwendung im Alltag – von der Zusammenarbeit über Teamgrenzen
+            hinweg bis zu konkreten Vereinbarungen für die Software-Delivery.
+          link: Viridium-Erfahrung ansehen
+          url: "/projects/viridium.html"
     projects:
       grid_entries:
       - id: P11

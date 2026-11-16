@@ -353,6 +353,19 @@
 }
 .mw-2027:has(.mw-strategy) .mw-footer p { color: #e0dce6; }
 
+// Compact evidence, scoped only to the German delivery service page.
+.mw-2027 .mw-delivery {
+  .mw-delivery-experience { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--mw-line); }
+  .mw-delivery-experience > p { max-width: 76ch; }
+  .mw-delivery-experience-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; margin-top: 28px; }
+  .mw-delivery-experience-grid article { padding: 24px; border-left: 3px solid #61bb95; background: #eeede8; }
+  .mw-delivery-origin { margin-top: 12px; margin-bottom: 20px; font-size: .85rem; color: var(--mw-muted); }
+  .mw-delivery-experience-grid .mw-text-link { display: inline-block; margin-top: 20px; }
+  @media (max-width: 767px) {
+    .mw-delivery-experience-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  }
+}
+
 // Editorial composition scoped exclusively to the German about page.
 .mw-2027 .mw-about {
   .mw-hero h1 { max-width: 24ch; }
