@@ -288,7 +288,13 @@
   .mw-section { padding-block: 72px; }
   h2 { max-width: 28ch; }
   h3 { font-size: 1.4rem; line-height: 1.25; }
-  .mw-hero { padding-block: 68px; }
+  .mw-hero {
+    padding-block: 68px;
+    background:
+      radial-gradient(circle at 20% 0%, #934ae4 0%, rgba(147, 74, 228, 0) 45%),
+      radial-gradient(circle at 80% 10%, #61bb95 0%, rgba(255, 255, 255, 0) 55%),
+      linear-gradient(to bottom, #1B1428 0%, #2B2044 100%);
+  }
   .mw-hero h1 { max-width: 27ch; font-size: clamp(2.3rem, 4.4vw, 4.4rem); text-wrap: balance; }
   .mw-hero .mw-eyebrow { color: #8ed3b4; }
   .mw-strategy-hero-copy { margin-top: 32px; max-width: 65ch; color: #e0dce6; font-size: 1.05rem; }
@@ -356,6 +362,12 @@
 
 // Compact evidence, scoped only to the German delivery service page.
 .mw-2027 .mw-delivery {
+  .mw-hero {
+    background:
+      radial-gradient(circle at -10% -10%, #934ae4 0%, rgba(147, 74, 228, 0) 40%),
+      radial-gradient(circle at 110% 110%, #61bb95 0%, rgba(97, 187, 149, 0) 50%),
+      linear-gradient(to bottom, #1B1428 0%, #2B2044 100%);
+  }
   .mw-delivery-value-flow { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 64px; margin-top: 40px; }
   .mw-delivery-value-flow img { display: block; width: 100%; height: auto; max-width: 520px; margin-inline: auto; }
   .mw-delivery-value-flow .mw-strategy-benefit-points { grid-template-columns: minmax(0, 1fr); gap: 28px; margin-top: 0; }
