@@ -3155,29 +3155,41 @@ relaunch:
         label: WARUM ES MEHR.WERT GIBT
         title: Warum ich mehr.wert gegründet habe.
         paragraphs:
-        - Ich komme aus der Softwareentwicklung. Mit meiner eigenen App myWork habe ich
-          über Jahre erlebt, was es bedeutet, ein Produkt nicht nur zu entwickeln, sondern
-          auch langfristig dafür verantwortlich zu sein. Anforderungen ändern sich, Menschen
-          nutzen Software anders als gedacht, und technische Entscheidungen wirken oft viel
-          länger nach als der erste Release.
-        - Später habe ich bei HUGO BOSS Web- und Mobile-Teams geführt und digitale Produkte
-          verantwortet. Bei Exxeta und im Umfeld der EnBW Trading IT kamen Strategie, Modernisierung
-          und die Zusammenarbeit größerer Organisationen stärker dazu. Dabei habe ich viele
-          kluge Menschen kennengelernt, die ihr Fach verstehen – und trotzdem an fehlender
-          Abstimmung, unklaren Entscheidungen oder gewachsenen Strukturen hängenbleiben.
-        - 2024 habe ich mehr.wert gegründet, weil ich diese Perspektiven zusammenbringen
-          wollte. Ich möchte unabhängig beraten, ehrlich sagen können, was ich für sinnvoll
-          halte, und die Menschen auch dann begleiten, wenn aus einer Idee konkrete Arbeit
-          wird. Mir geht es darum, gemeinsam herauszufinden, was besser werden soll – und
-          genauso darum, zu erkennen, was bereits gut funktioniert und bleiben darf.
-        - Ich bin überzeugt, dass man viel Erfahrung mitbringen und trotzdem offen bleiben
-          kann. Gerade bei schwierigen Entscheidungen ist mir wichtig, zuzuhören, Fragen
-          zu stellen und die eigene Einschätzung zu überprüfen, wenn neue Erkenntnisse dazukommen.
+        - 'Ich habe meine Laufbahn als Softwareentwickler und Berater begonnen. Schon vor
+          meiner Zeit bei HUGO BOSS habe ich in ganz unterschiedlichen Branchen gearbeitet
+          – unter anderem im Automobil- und Industrieumfeld. Dabei musste ich mich immer
+          wieder in neue Fachgebiete, Abläufe und Menschen hineindenken. Das hat meinen
+          Blick geprägt: Gute Software entsteht nicht allein durch gute Technik. Man muss
+          verstehen, wofür sie gebraucht wird und wer später damit arbeitet.'
+        - Mit meiner App myWork habe ich außerdem ein eigenes Produkt entwickelt, über viele
+          Jahre weiterentwickelt und betrieben. Dabei erlebt man unmittelbar, wie lange
+          technische Entscheidungen nachwirken, wie sich Anforderungen verändern und wie
+          wichtig die Rückmeldungen der Menschen sind, die eine Anwendung täglich nutzen.
+        - 'Später habe ich bei HUGO BOSS Web- und Mobile-Teams geführt und digitale Produkte
+          verantwortet. Bei Exxeta und in der EnBW Trading IT kamen Modernisierung, Strategie
+          und die Zusammenarbeit größerer Organisationen hinzu. Dabei ist mir eines immer
+          wieder begegnet: Es fehlt selten an guten Ideen oder klugen Menschen. Schwieriger
+          wird es, wenn Entscheidungen liegen bleiben, Verantwortlichkeiten unklar sind
+          oder Veränderungen im Alltag nicht ankommen.'
+        - 2024 habe ich mehr.wert gegründet, weil ich diese Erfahrungen zusammenbringen
+          wollte. Ich möchte Unternehmen unabhängig begleiten, meine Einschätzung offen
+          vertreten und Verantwortung für die Arbeit übernehmen, die wir gemeinsam vereinbaren.
+          Dabei geht es mir nicht darum, möglichst viel zu verändern. Sondern herauszufinden,
+          was tatsächlich besser werden kann – und was bereits gut funktioniert und bleiben
+          sollte.
+        - Ich glaube an Erfahrung, aber nicht an fertige Antworten für jede Situation. Deshalb
+          höre ich zu, hinterfrage auch meine eigenen Annahmen und bleibe offen für neue
+          Erkenntnisse. Gemeinsam mit den Menschen, die das Unternehmen und seine Herausforderungen
+          am besten kennen, finden wir den passenden Weg.
         signature: Marcel Russ · Gründer und Geschäftsführer
         link: Projekte & Erfahrung ansehen
         url: "/projects.html"
-        portrait: /assets/images/banner/2023.avif
+        portrait: "/assets/images/banner/2023.avif"
         portrait_alt: Marcel Russ, Gründer und Geschäftsführer von mehr.wert
+        caption: Marcel Russ - Diplom Informatiker, Universität Stutgart
+        anecdote: Der Name mehr.wert geht übrigens auf einen Kunden zurück, der einmal meinte,
+          ich sei mehr wert als all die teuren Berater aus den großen Häusern zusammen –
+          darüber musste ich schmunzeln, aber der Anspruch ist geblieben.
       network:
         diagram:
           core: mehr.wert · Marcel Russ
@@ -3218,23 +3230,39 @@ relaunch:
           Zuständigkeiten und der Bereitschaft, den Kurs zu korrigieren.
       values:
         label: WAS UNS WICHTIG IST
-        title: Bewusst entscheiden. Verantwortung übernehmen.
+        title: Nachhaltig besser. Für Unternehmen, Menschen und Umwelt.
         paragraphs:
-        - Nachhaltig bessere Software heißt für uns, weiter zu denken als bis zum nächsten
-          Release. Wir achten darauf, ob Lösungen veränderbar bleiben, was sie im Betrieb
-          kosten und welche Auswirkungen Entscheidungen auf die Menschen haben, die damit
-          arbeiten.
-        - Dafür sind Bewusstsein und Verantwortung wichtig. Bewusstsein heißt, Chancen,
-          Risiken und Zielkonflikte offen zu betrachten – auch wenn die Antwort unbequem
-          ist. Verantwortung heißt, Empfehlungen zu begründen, vereinbarte Aufgaben gut
-          zu machen, Rückmeldungen ernst zu nehmen und nachzusteuern, wenn etwas nicht wie
-          gedacht funktioniert.
-        - Diese Haltung prägt auch unsere eigene Zusammenarbeit. Agile Methoden und neue
-          Technologien, einschließlich KI, setzen wir dort ein, wo sie wirklich nützen.
-          Ein Werkzeug oder eine Methode ist noch kein Erfolg. Entscheidend ist, ob das
-          Ergebnis dem Unternehmen und den Menschen hilft.
+        - Auch der Planet ist für uns ein Stakeholder – selbst wenn er in keinem unserer
+          Meetings sitzt.
+        - Bewusstsein und Verantwortung aus Green Agile helfen uns, diese Perspektiven zusammenzubringen.
+          Wir schauen auf Chancen und Zielkonflikte, begründen unsere Empfehlungen und übernehmen
+          Verantwortung für die vereinbarten Aufgaben. Nicht alles lässt sich gleichzeitig
+          optimieren. Aber wir sollten wissen, welche Folgen unsere Entscheidungen haben.
+        - Diese Haltung prägt auch unsere eigene Zusammenarbeit. Wir setzen bewährte agile
+          Ansätze und neue Technologien dort ein, wo sie helfen, und überprüfen gemeinsam,
+          ob sie den gewünschten Nutzen bringen.
         link: Green Agile Guide kennenlernen
         url: "/green-agile-guide.html"
+        intro: Nachhaltig bessere Software bedeutet für uns mehr als geringere Kosten oder
+          eine längere Lebensdauer. Wir möchten Lösungen mitgestalten, die wirtschaftlich
+          sinnvoll sind, Menschen unterstützen und verantwortungsvoll mit den Ressourcen
+          unseres Planeten umgehen. Alle drei Perspektiven gehören für uns zu einer guten
+          Entscheidung.
+        items:
+        - title: Wirtschaftlich
+          text: Software soll einen echten Nutzen bringen und langfristig tragfähig bleiben.
+            Deshalb betrachten wir nicht nur die Entwicklungskosten, sondern auch Betrieb,
+            Wartbarkeit, Abhängigkeiten und die Möglichkeiten, später etwas zu verändern.
+        - title: Sozial
+          text: Software wird von Menschen entwickelt und für Menschen gemacht. Wir achten
+            darauf, wie sie den Arbeitsalltag beeinflusst, ob sie zugänglich und verständlich
+            ist und wie Teams zusammenarbeiten. Gute Lösungen sollen Menschen unterstützen,
+            nicht zusätzliche Hürden schaffen.
+        - title: Ökologisch
+          text: Auch Software verbraucht Energie und Ressourcen. Rechenleistung, Datenübertragung,
+            Infrastruktur und die Lebensdauer von Systemen haben Auswirkungen auf unsere
+            Umwelt. Diese Folgen möchten wir bewusst berücksichtigen und dort verbessern,
+            wo es sinnvoll und möglich ist.
       reading:
         label: WEITERLESEN
         title: Wenn Sie mehr wissen möchten.
@@ -3251,6 +3279,14 @@ relaunch:
           text: Was wir selbst entwickelt, geführt und gemeinsam mit Kunden bewegt haben.
           url: "/projects.html"
       contact:
+        label: DER NÄCHSTE SCHRITT
+        title: Vielleicht sollten wir einfach miteinander sprechen.
+        text: Sie müssen noch keine fertige Aufgabenstellung haben. Erzählen Sie uns, was
+          Sie beschäftigt oder welche Entscheidung ansteht. Wir hören zu, fragen nach und
+          sagen Ihnen offen, ob und wie wir helfen können.
+        primary: Unverbindlich ins Gespräch kommen
+        email: kontakt@mehrwert.tech
+    contact:
         label: DER NÄCHSTE SCHRITT
         title: Vielleicht sollten wir einfach miteinander sprechen.
         text: Sie müssen noch keine fertige Aufgabenstellung haben. Erzählen Sie uns, was

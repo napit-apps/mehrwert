@@ -12,9 +12,10 @@
     <div class="mw-shell">
       <p class="mw-strategy-label">{{ about.story.label }}</p><h2>{{ about.story.title }}</h2>
       <div class="mw-about-founder-story">
-        {% if about.story.portrait %}<figure class="mw-portrait"><img src="{{ about.story.portrait | relative_url }}" alt="{{ about.story.portrait_alt | escape }}" width="1436" height="2857" loading="lazy" decoding="async"></figure>{% endif %}
+        {% if about.story.portrait %}<figure class="mw-portrait"><img src="{{ about.story.portrait | relative_url }}" alt="{{ about.story.portrait_alt | escape }}" width="1436" height="2857" loading="lazy" decoding="async"><figcaption>{{ about.story.caption }}</figcaption></figure>{% endif %}
         <div class="mw-about-prose">{% for paragraph in about.story.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
-          <p class="mw-strategy-email">{{ about.story.signature }}</p>
+          <p class="mw-strategy-email"><strong>{{ about.story.signature }}</strong></p>
+          <p class="mw-about-anecdote">{{ about.story.anecdote }}</p>
           <p class="mw-about-link"><a class="mw-text-link" href="{{ about.story.url | relative_url }}">{{ about.story.link }}</a></p>
         </div>
       </div>
@@ -43,10 +44,12 @@
       <div class="mw-about-prose">{% for paragraph in about.approach.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
     </div>
   </section>
-  <section class="mw-section mw-strategy-values">
-    <div class="mw-shell mw-strategy-split">
-      <div><p class="mw-strategy-label">{{ about.values.label }}</p><h2>{{ about.values.title }}</h2></div>
-      <div class="mw-about-prose">{% for paragraph in about.values.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}<p><a class="mw-text-link" href="{{ about.values.url | relative_url }}">{{ about.values.link }}</a></p></div>
+  <section class="mw-section mw-strategy-values mw-about-sustainability">
+    <div class="mw-shell">
+      <p class="mw-strategy-label">{{ about.values.label }}</p><h2>{{ about.values.title }}</h2>
+      <p class="mw-strategy-intro">{{ about.values.intro }}</p>
+      <div class="mw-about-dimensions">{% for item in about.values.items %}<article><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article>{% endfor %}</div>
+      <div class="mw-about-prose mw-about-values-closing">{% for paragraph in about.values.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}<p><a class="mw-text-link" href="{{ about.values.url | relative_url }}">{{ about.values.link }}</a></p></div>
     </div>
   </section>
   <section class="mw-section mw-about-reading">
