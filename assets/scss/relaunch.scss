@@ -639,3 +639,29 @@
   .mw-2027:has(.mw-contact-page) .mw-skip { display: none !important; }
   .mw-2027:has(.mw-contact-page) .mw-header { position: static; }
 }
+
+// Individual German landing-page heroes within the existing brand palette.
+html[lang="de"] .mw-2027 .mw-about > .mw-hero {
+  background:
+    radial-gradient(ellipse at 0% 15%, rgba(147, 74, 228, .55) 0%, rgba(147, 74, 228, 0) 58%),
+    radial-gradient(ellipse at 100% 95%, rgba(97, 187, 149, .38) 0%, rgba(97, 187, 149, 0) 52%),
+    linear-gradient(120deg, #1E172E 0%, #2B2044 100%);
+}
+html[lang="de"] .mw-2027 .mw-portfolio > .mw-hero {
+  background:
+    radial-gradient(ellipse at 100% 0%, rgba(147, 74, 228, .55) 0%, rgba(147, 74, 228, 0) 65%),
+    radial-gradient(ellipse at 0% 100%, rgba(97, 187, 149, .4) 0%, rgba(97, 187, 149, 0) 52%),
+    linear-gradient(150deg, #251D39 0%, #1E172E 100%);
+}
+html[lang="de"] .mw-2027.mw-blog-review .mw-blog-hero {
+  background:
+    radial-gradient(ellipse at 50% -65%, rgba(147, 74, 228, .65) 0%, rgba(147, 74, 228, 0) 72%),
+    radial-gradient(ellipse at 105% 100%, rgba(97, 187, 149, .3) 0%, rgba(97, 187, 149, 0) 45%),
+    linear-gradient(180deg, #2B2044 0%, #1E172E 100%);
+}
+html[lang="de"] .mw-2027 .mw-contact-page > .mw-hero {
+  background:
+    radial-gradient(ellipse at 105% 10%, rgba(97, 187, 149, .45) 0%, rgba(97, 187, 149, 0) 62%),
+    radial-gradient(ellipse at 5% 110%, rgba(147, 74, 228, .45) 0%, rgba(147, 74, 228, 0) 58%),
+    linear-gradient(110deg, #1E172E 0%, #251D39 100%);
+}
