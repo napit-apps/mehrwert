@@ -840,6 +840,7 @@ relaunch:
         title: Gemeinsame UI-Bausteine für Webanwendungen
         lead: Wenn mehrere Teams Webanwendungen entwickeln, helfen gemeinsame technische Grundlagen dabei, Gestaltung und Weiterentwicklung besser aufeinander abzustimmen.
         context: HUGO BOSS · Webentwicklung · Angular · Technische Führung
+        client: HUGO BOSS
       situation:
         title: Viele Anwendungen brauchen mehr als einzelne gute Lösungen.
         paragraphs:
@@ -899,6 +900,7 @@ relaunch:
         title: Bewegungsanalyse mit smartem Sport-Shirt und App
         lead: Ein Innovationsvorhaben, das Sensorik, Algorithmen und mobile Software zusammenführte – und unterschiedliche technische Spezialisten an einer gemeinsamen Produktidee arbeiten ließ.
         context: HUGO BOSS · Innovations- und Entwicklungsumfeld · Mobile Software · Sensorik
+        client: HUGO BOSS
       situation:
         title: Bewegungen erfassen – und über eine App verständlich machen.
         paragraphs:
@@ -957,6 +959,7 @@ relaunch:
         title: Green Agile Guide – Nachhaltigkeit im agilen Alltag
         lead: Nachhaltige Software entsteht durch bewusste Entscheidungen und übernommene Verantwortung – nicht allein durch zusätzliche Regeln oder neue Methoden.
         context: Fachinitiative von Marcel Russ · Agile Produkt- und Softwareentwicklung · Bewusstsein & Verantwortung
+        client: ''
       situation:
         title: Wie wird Nachhaltigkeit Teil der täglichen Softwarearbeit?
         paragraphs:
@@ -1028,6 +1031,7 @@ relaunch:
         title: Fahrzeugdaten mit dem Smartphone erfassen
         lead: Kennzeichen und Fahrzeugidentifikationsnummern bei der Fahrzeugannahme mit mobiler Texterkennung erfassen – statt sie ausschließlich von Hand zu übertragen.
         context: Automotive · iOS · Kamera und optische Texterkennung
+        client: ''
       situation:
         title: Eine alltägliche Aufgabe, bei der viele kleine Schritte zählen.
         paragraphs:
@@ -1086,6 +1090,7 @@ relaunch:
         title: Mobile Messeinformationen mit iBeacon-Technologie
         lead: Informationen auf dem Smartphone passend zum jeweiligen Bereich eines Messestands bereitstellen – damit Besucher relevante Inhalte dort entdecken, wo sie gerade gebraucht werden.
         context: Mobile Anwendung · iBeacon · Technische Konzeption und Projektkoordination
+        client: Bosch Power Tools
       situation:
         title: Informationen sollten dort auftauchen, wo sie relevant sind.
         paragraphs:
@@ -1144,6 +1149,7 @@ relaunch:
         title: Lieferaufträge mobil erfassen und koordinieren
         lead: Ein mobiler Prototyp, der Informationen aus dem Lieferalltag für die Disposition nutzbar macht – entwickelt mit Blick auf unterschiedliche Geräteplattformen und reale technische Einschränkungen.
         context: Logistik · Proof of Concept · Xamarin · iOS und Windows Phone
+        client: ''
       situation:
         title: Lieferinformationen entstehen unterwegs. Geplant wird zentral.
         paragraphs:
@@ -1202,6 +1208,7 @@ relaunch:
         title: myMoney – Persönliche Finanzen im Blick
         lead: Eine selbst entwickelte iOS-App, um Einnahmen und Ausgaben zu erfassen, auszuwerten und verständlich darzustellen – von der Produktidee bis zur laufenden Weiterentwicklung in eigener Verantwortung.
         context: iOS-Softwareprodukt · Produktkonzeption · Swift · Daten und Benutzerführung
+        client: ''
       situation:
         title: Aus Zahlen einen verständlichen Überblick machen.
         paragraphs:
@@ -1262,6 +1269,7 @@ relaunch:
         title: Gemeinsame Arbeitsgrundlagen für zwölf Squads
         lead: Unterschiedliche Teams auf gemeinsame Qualitätsmaßstäbe und eine verlässlichere Zusammenarbeit ausrichten – und die Veränderungen im Arbeitsalltag begleiten.
         context: Organisationsentwicklung · Software-Delivery · Laufendes Mandat
+        client: Viridium
       situation:
         title: Viele Teams. Unterschiedliche Arbeitsweisen. Ein gemeinsamer Lieferauftrag.
         paragraphs:
@@ -1325,6 +1333,7 @@ relaunch:
         title: Roadmap für KI-gestützte Softwareentwicklung
         lead: Die Möglichkeiten von KI im Softwareentwicklungsprozess gemeinsam einordnen, Prioritäten klären und daraus eine tragfähige Richtung für die nächsten Schritte entwickeln.
         context: Strategischer Team-Workshop · Software Development Lifecycle · 2026
+        client: HUGO BOSS
       situation:
         title: Viele gute Ideen brauchen eine gemeinsame Richtung.
         paragraphs:
@@ -1388,6 +1397,7 @@ relaunch:
         title: Mobile Fertigungslogistik in der Landmaschinenproduktion
         lead: Produktionsabläufe verstehen, eine mobile Lösung dafür gestalten und sie unter den tatsächlichen Bedingungen der Fertigung in Betrieb bringen.
         context: Android-Anwendung · Prozessverständnis · Technische Koordination · Einführung vor Ort
+        client: Kverneland
       situation:
         title: Das richtige Teil muss zur richtigen Zeit am richtigen Platz sein.
         paragraphs:
@@ -1450,6 +1460,7 @@ relaunch:
         title: Eine eigene Barcode-Scanning-Bibliothek für Store-Apps
         lead: Eine kostenpflichtige Softwarekomponente durch eine native iOS-Lösung ersetzen – und dabei technische Qualität, Integration und langfristige Abhängigkeiten gemeinsam betrachten.
         context: HUGO BOSS · Mobile Anwendungen im Handel · iOS
+        client: HUGO BOSS
       situation:
         title: Wenn eine kleine Komponente dauerhaft abhängig macht.
         paragraphs:
@@ -1513,6 +1524,7 @@ relaunch:
         title: Eine geschäftskritische Softwareplattform modernisieren
         lead: Gewachsene Software zukunftsfähig weiterentwickeln – indem Fachbereiche und Entwicklung eine gemeinsame Grundlage für Entscheidungen und Umsetzung schaffen.
         context: Laufendes Modernisierungsvorhaben · Fachliche und technische Zusammenarbeit · IT-Strategie
+        client: Dücker
       situation:
         title: Die Anwendung ist unverzichtbar. Das Wissen darüber ist verteilt.
         paragraphs:
@@ -1576,6 +1588,7 @@ relaunch:
         title: myWork – Mobile Zeiterfassung
         lead: Eine iOS-App, mit der sich Arbeitszeiten und Projekte erfassen lassen – und die ich von der ersten Idee an über viele Jahre selbst entwickelt und verantwortet habe.
         context: iOS-Softwareprodukt · Konzeption, Entwicklung, Betrieb und Weiterentwicklung
+        client: ''
       situation:
         title: Aus einem eigenen Bedarf wurde ein Softwareprodukt.
         paragraphs:
@@ -1636,9 +1649,10 @@ relaunch:
       publication_status: draft
       hero:
         eyebrow: BERUFSERFAHRUNG · MARCEL RUSS
-        title: Web- und Mobile-Entwicklung bei HUGO BOSS führen
+        title: Web- und Mobile-Entwicklung führen
         lead: Digitale Produkte und Entwicklungsteams verantworten – und dabei technische Qualität, Menschen und organisatorische Zusammenarbeit zusammenbringen.
         context: HUGO BOSS · Team Lead Web & Mobile · 2018–2022
+        client: HUGO BOSS
       situation:
         title: Digitale Produkte brauchen mehr als gute Einzelentscheidungen.
         paragraphs:
@@ -1698,9 +1712,10 @@ relaunch:
       publication_status: draft
       hero:
         eyebrow: BERUFSERFAHRUNG · MARCEL RUSS
-        title: Mercedes-Benz Guides – Digitale Fahrzeughandbücher
+        title: Digitale Fahrzeughandbücher
         lead: Umfangreiche Fahrzeuginformationen mobil verfügbar machen – mit Softwareentwicklung, Content-Werkzeugen, Internationalisierung und technischer Projektleitung.
         context: Mobile Produktentwicklung · iOS & Android · Persönliche berufliche Erfahrung in unterschiedlichen Projektphasen
+        client: Mercedes-Benz Guides
       situation:
         title: Technisches Wissen soll unterwegs einfach zugänglich sein.
         paragraphs:
@@ -1845,52 +1860,40 @@ relaunch:
         title: Erfahrung zeigt sich in der Praxis.
         link: Alle Projekte & Erfahrungen ansehen
         items:
-        - name: EnBW Trading IT
-          text: Quartalsplanung · Onsite-Wochen · Teamabstimmung
+        - text: Quartalsplanung · Onsite-Wochen · Teamabstimmung
           type: Frühere Berufserfahrung
           url: "/projects/enbw.html"
-        - name: HUGO BOSS
-          text: KI-gestützte Entwicklung · Strategie · Roadmap
+        - text: KI-gestützte Entwicklung · Strategie · Roadmap
           type: Mandat
           url: "/projects/hugo-boss.html"
-        - name: Green Agile Guide
-          text: Nachhaltigkeit · Bewusstsein · Verantwortung
+        - text: Nachhaltigkeit · Bewusstsein · Verantwortung
           type: Initiative
           url: "/projects/green-agile-guide.html"
-        - name: Viridium
-          text: Zwölf Squads · Qualitätsgrundlagen · Software-Delivery
+        - text: Zwölf Squads · Qualitätsgrundlagen · Software-Delivery
           type: Mandat
           url: "/projects/viridium.html"
-        - name: myWork
-          text: Mobile Zeiterfassung · Entwicklung · Produktverantwortung
+        - text: Mobile Zeiterfassung · Entwicklung · Produktverantwortung
           type: Eigenes Produkt
           url: "/projects/mywork-produktverantwortung.html"
-        - name: HUGO BOSS Technische Führung
-          text: Web & Mobile · Teamführung · Digitale Produkte
+        - text: Web & Mobile · Teamführung · Digitale Produkte
           type: Frühere Berufserfahrung
           url: "/projects/technische-fuehrung-web-mobile.html"
-        - name: Mercedes-Benz Guides
-          text: Digitale Fahrzeughandbücher · Mobile Engineering
+        - text: Digitale Fahrzeughandbücher · Mobile Engineering
           type: Frühere Berufserfahrung
           url: "/projects/mobile-fahrzeughandbuecher.html"
-        - name: Dücker
-          text: Softwaremodernisierung · Domänenverständnis · Geschäftsregeln
+        - text: Softwaremodernisierung · Domänenverständnis · Geschäftsregeln
           type: Mandat
           url: "/projects/duecker.html"
-        - name: HBScanner
-          text: Native iOS-Bibliothek · Technologische Unabhängigkeit
+        - text: Native iOS-Bibliothek · Technologische Unabhängigkeit
           type: Frühere Berufserfahrung
           url: "/projects/mobile-scanning-bibliothek.html"
-        - name: Gemeinsame UI-Bausteine
-          text: Angular · Wiederverwendbare Oberflächenbausteine · Teamübergreifende Abstimmung
+        - text: Angular · Wiederverwendbare Oberflächenbausteine · Teamübergreifende Abstimmung
           type: Frühere Berufserfahrung
           url: "/projects/web-komponentenbibliothek.html"
-        - name: Smartes Golf Shirt
-          text: Sensorik · Bewegungsanalyse · Mobile Anwendungen
+        - text: Sensorik · Bewegungsanalyse · Mobile Anwendungen
           type: Frühere Berufserfahrung
           url: "/projects/smartes-sportshirt-bewegungsanalyse.html"
-        - name: Kverneland
-          text: Android · Fertigungslogistik · Produktionsprozesse
+        - text: Android · Fertigungslogistik · Produktionsprozesse
           type: Frühere Berufserfahrung
           url: "/projects/mobile-fertigungslogistik.html"
         intro: Ein Einblick in Kundenmandate, frühere berufliche Stationen, eigene Softwareprodukte
@@ -1930,28 +1933,14 @@ relaunch:
         instructions: Mit den Pfeiltasten oder durch Wischen zwischen den Kundenstimmen
           wechseln.
         items:
-        - quote: "„Gemeinsam konnten wir Transparenz, Kundenzufriedenheit und Planungsqualität
-            messbar verbessern und nachhaltige Strukturen für Zusammenarbeit und Feedback
-            etablieren.“"
-          name: Lucas Schleweis
-          role: EnBW-Kontext, Planung/Steuerung
+        - source_key: ac_testimonials
+          source_author: Lucas Schleweis
+          published: true
           origin: Frühere Berufserfahrung
-        - quote: "„Es hat uns sehr geholfen, in dem Workshop mit dir, auf eine gemeinsame
-            Sichtweise unseres Projektes zu gelangen.“"
-          name: Andreas Binder
-          role: Product Owner, HUGO BOSS AG
+        - source_key: cto_testimonials
+          source_author: Michael Weinheimer
+          published: true
           origin: mehr.wert-Kundenmandat
-        - quote: "„Besonders wertvoll ist seine Fähigkeit, Situationen schnell zu verstehen,
-            tragfähige Konzepte zu entwickeln und durch gezielte Impulse sowie Coaching
-            nachhaltige Veränderungen anzustoßen.“"
-          name: Michael Weinheimer
-          role: Head of IT TECH Core Software Engineering, HUGO BOSS AG
-          origin: mehr.wert-Kundenmandat
-        - quote: "„Diese Verlässlichkeit und der wertschätzende Umgang haben die Zusammenarbeit
-            spürbar einfacher gemacht und für ein gutes, vertrauensvolles Arbeitsklima gesorgt.“"
-          name: Harald Bezjak
-          role: Trading IT Analyst, EnBW AG
-          origin: Frühere Berufserfahrung
       values:
         label: UNSER FUNDAMENT
         title: Nachhaltig bessere Software.
@@ -2410,9 +2399,10 @@ relaunch:
         filter_ids:
         - it-strategie
         - modernisierung
+        client: Dücker
       - id: P12
         type: Berufserfahrung · Marcel Russ
-        title: Quartalsplanung für mehrere IT-Teams bei EnBW
+        title: Quartalsplanung für mehrere IT-Teams
         text: In der EnBW Trading IT habe ich den Aufbau teamübergreifender Quartalsplanung und gemeinsamer Onsite-Wochen maßgeblich mitgestaltet. Strategische Prioritäten, Team-Roadmaps und Abhängigkeiten wurden in einen wiederkehrenden Planungsprozess übersetzt. So entstand eine praktisch genutzte Grundlage für Abstimmung und gemeinsame Entscheidungen.
         slug: enbw-quartalsplanung-onsite
         tags:
@@ -2423,6 +2413,7 @@ relaunch:
         filter_ids:
         - organisation-delivery
         - technische-fuehrung
+        client: EnBW Trading IT
       - id: P01
         type: Eigenes Produkt · Marcel Russ
         title: myWork – Mobile Zeiterfassung
@@ -2436,9 +2427,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - it-strategie
+        client: ''
       - id: P08
         type: Berufserfahrung · Marcel Russ
-        title: Web- und Mobile-Entwicklung bei HUGO BOSS führen
+        title: Web- und Mobile-Entwicklung führen
         text: Bei HUGO BOSS habe ich Web- und Mobile-Teams geführt und Verantwortung für digitale Produkte übernommen. Technische Entscheidungen, Personalführung und die Zusammenarbeit verteilter Entwicklungsteams gehörten dabei zusammen. Diese Erfahrung verbindet meine praktische Softwareentwicklung mit Führung und organisatorischer Verantwortung.
         slug: technische-fuehrung-web-mobile
         tags:
@@ -2451,9 +2443,10 @@ relaunch:
         - technische-fuehrung
         - organisation-delivery
         - mobile-produkte
+        client: HUGO BOSS
       - id: P02
         type: Berufserfahrung · Marcel Russ
-        title: Mercedes-Benz Guides – Digitale Fahrzeughandbücher
+        title: Digitale Fahrzeughandbücher
         text: Digitale Fahrzeughandbücher machen technische Informationen mobil zugänglich. In verschiedenen beruflichen Phasen habe ich an der Entwicklung und technischen Leitung der Anwendungen und zugehöriger Content-Werkzeuge gearbeitet. Dazu gehörten Internationalisierung, Qualitätssicherung sowie die Zusammenarbeit mit einem Nearshore-Team.
         slug: mobile-fahrzeughandbuecher
         tags:
@@ -2464,6 +2457,7 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
+        client: Mercedes-Benz Guides
       - id: P13
         type: Kundenmandat · mehr.wert
         title: Gemeinsame Arbeitsgrundlagen für zwölf Squads
@@ -2477,6 +2471,7 @@ relaunch:
         filter_ids:
         - organisation-delivery
         - it-strategie
+        client: Viridium
       - id: P14
         type: Kundenmandat · mehr.wert
         title: Roadmap für KI-gestützte Softwareentwicklung
@@ -2492,6 +2487,7 @@ relaunch:
         - ki-sdlc
         - it-strategie
         - organisation-delivery
+        client: HUGO BOSS
       - id: P03
         type: Berufserfahrung · Marcel Russ
         title: Mobile Fertigungslogistik für Landmaschinen
@@ -2505,6 +2501,7 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
+        client: Kverneland
       - id: P10
         type: Berufserfahrung · Marcel Russ
         title: Eigene Barcode-Scanning-Bibliothek für Store-Apps
@@ -2520,6 +2517,7 @@ relaunch:
         - mobile-produkte
         - it-strategie
         - modernisierung
+        client: HUGO BOSS
       - id: P04
         type: Berufserfahrung · Marcel Russ
         title: Fahrzeugdaten per Kamera erfassen
@@ -2531,6 +2529,7 @@ relaunch:
         url: "/projects/ocr-fahrzeugdaten-aftersales.html"
         filter_ids:
         - mobile-produkte
+        client: ''
       - id: P05
         type: Berufserfahrung · Marcel Russ
         title: Standortbezogene Informationen am Messestand
@@ -2544,6 +2543,7 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
+        client: Bosch Power Tools
       - id: P06
         type: Berufserfahrung · Marcel Russ
         title: Lieferaufträge mobil koordinieren
@@ -2557,6 +2557,7 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
+        client: ''
       - id: P07
         type: Eigenes Produkt · Marcel Russ
         title: myMoney – Persönliche Finanzen verwalten
@@ -2568,6 +2569,7 @@ relaunch:
         url: "/projects/mymoney-finanzverwaltung.html"
         filter_ids:
         - mobile-produkte
+        client: ''
       - id: P09
         type: Berufserfahrung · Marcel Russ
         title: Gemeinsame UI-Bausteine für Webanwendungen
@@ -2583,6 +2585,7 @@ relaunch:
         - it-strategie
         - technische-fuehrung
         - organisation-delivery
+        client: HUGO BOSS
       - id: P15
         type: Berufserfahrung · Marcel Russ
         title: Bewegungsanalyse mit smartem Sport-Shirt und App
@@ -2596,6 +2599,7 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
+        client: HUGO BOSS
       - id: P16
         type: Initiative · Green Agile
         title: Green Agile Guide – Nachhaltigkeit im agilen Alltag
@@ -2609,6 +2613,7 @@ relaunch:
         filter_ids:
         - nachhaltigkeit
         - organisation-delivery
+        client: ''
       title: Projekte & Erfahrung
       meta_title: Projekte & Erfahrung | mehr.wert
       url: "/projects.html"
@@ -3341,9 +3346,10 @@ relaunch:
         publication_status: draft
         hero:
           eyebrow: BERUFSERFAHRUNG · MARCEL RUSS
-          title: Quartalsplanung und Onsite-Wochen in der EnBW Trading IT
+          title: Quartalsplanung und Onsite-Wochen
           lead: Strategische Ziele, Team-Roadmaps und Abhängigkeiten zusammenbringen – damit Teams und Führung ihre Vorhaben gemeinsam planen und Entscheidungen rechtzeitig treffen können.
           context: EnBW Trading IT · Enterprise Agile Coaching und zeitweise Release Train Engineering · Teamübergreifende Planung und Zusammenarbeit
+          client: EnBW Trading IT
         situation:
           title: Wenn viele Teams liefern, braucht es eine gemeinsame Richtung.
           paragraphs:
@@ -3402,9 +3408,9 @@ relaunch:
           caption: Vereinfachte Darstellung des Planungs- und Rückkopplungsprozesses.
         testimonial:
           title: Über die Zusammenarbeit
-          quote: "“Marcel’s critical and pragmatic approach means he validates whether it contributes to the objectives.”"
-          attribution: Jacques Dunselman · Agile Transformation Lead, PMx · Zusammenarbeit im EnBW-Umfeld
-          publication_status: draft
+          source_key: ac_testimonials
+          source_author: Jacques Dunselmann
+          published: true
       title: Gemeinsame Planung über Teamgrenzen hinweg etablieren.
       meta_title: Teamübergreifende Quartalsplanung in der Trading IT | mehr.wert
       type: Berufserfahrung · Marcel Russ

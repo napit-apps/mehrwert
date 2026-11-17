@@ -3,6 +3,7 @@
   <header class="mw-hero"><div class="mw-shell">
     <p class="mw-eyebrow">{{ case.hero.eyebrow }}</p>
     <h1>{{ case.hero.title }}</h1>
+    {% if case.hero.client != empty %}<p class="mw-project-client">{{ case.hero.client }}</p>{% endif %}
     <p class="mw-lead">{{ case.hero.lead }}</p>
     <p class="mw-case-context">{{ case.hero.context }}</p>
   </div></header>
@@ -45,9 +46,10 @@
       {% for paragraph in case.results.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
       {% if case.results.items %}<div class="mw-case-results" style="--case-results: {{ case.results.items.size }}">{% for item in case.results.items %}<section><h3>{{ item.title }}</h3><p>{{ item.text }}</p></section>{% endfor %}</div>{% endif %}
     </section>
-    {% if case.testimonial %}<section class="mw-case-section mw-case-prose mw-case-testimonial" aria-labelledby="case-testimonial">
+    {% if case.testimonial.published %}<section class="mw-case-section mw-case-prose mw-case-testimonial" aria-labelledby="case-testimonial">
       <h2 id="case-testimonial">{{ case.testimonial.title }}</h2>
-      <figure><blockquote lang="en"><p>{{ case.testimonial.quote }}</p></blockquote><figcaption>{{ case.testimonial.attribution }}</figcaption></figure>
+      {% assign testimonial = site.translations[site.lang][case.testimonial.source_key].item | where: 'author', case.testimonial.source_author | first %}
+      <figure><blockquote><p>{{ testimonial.text }}</p></blockquote><figcaption>{{ testimonial.author }} · {{ testimonial.role }}</figcaption></figure>
     </section>{% endif %}
     <section class="mw-case-section mw-case-prose" aria-labelledby="case-transfer">
       <h2 id="case-transfer">{{ case.transfer.title }}</h2>

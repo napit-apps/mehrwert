@@ -1061,7 +1061,7 @@ entries:
 - key: relaunch.portfolio_cases.technische-fuehrung-web-mobile.hero.eyebrow
   source_sha256: 316a6ae85228c22fd7e0fe61242677cc14f9e39a7e1b418e4922d28c86dbaa3d
 - key: relaunch.portfolio_cases.technische-fuehrung-web-mobile.hero.title
-  source_sha256: e6f66914cbca927f7311eeb55807359b006099de4b2a610ca8989fb1e137374b
+  source_sha256: f3e9e1bb035648776defe16ffa1953809c2200ed9656de8e9317b7b4ab5d023d
 - key: relaunch.portfolio_cases.technische-fuehrung-web-mobile.hero.lead
   source_sha256: 1a3cd1eb5e3b71dcaf4b05b3ea42a176d192c99e0a26548e432f9593f8532959
 - key: relaunch.portfolio_cases.technische-fuehrung-web-mobile.situation.title
@@ -1139,7 +1139,7 @@ entries:
 - key: relaunch.portfolio_cases.mobile-fahrzeughandbuecher.hero.eyebrow
   source_sha256: 316a6ae85228c22fd7e0fe61242677cc14f9e39a7e1b418e4922d28c86dbaa3d
 - key: relaunch.portfolio_cases.mobile-fahrzeughandbuecher.hero.title
-  source_sha256: d46e163f76bbe2e619f1b7fbb86c3c30ff368209c5bc36eda1a2841c43cbefdf
+  source_sha256: 0715bacebafffae7024090b1aeef3bc9b5945a45c2e016ce054162adcd253ba7
 - key: relaunch.portfolio_cases.mobile-fahrzeughandbuecher.hero.lead
   source_sha256: 12b62b75aa093b688a6255fa7cf62926d04423f00630a99edf76604d650728ef
 - key: relaunch.portfolio_cases.mobile-fahrzeughandbuecher.hero.context
@@ -1286,8 +1286,6 @@ entries:
   source_sha256: 65a30d443b3f945906e6f9744c49e346298c79f334149f380716e58c7a2f1976
 - key: relaunch.pages.home.projects.items.4.type
   source_sha256: 55d445274c032e4a67641bd55d71b564ad7c1819af500b0b0a846745afc8aa1c
-- key: relaunch.pages.home.projects.items.5.name
-  source_sha256: 1bf5a07ceeb9bab051a8178b5a6a931abc877f3e723c2018029550a2f76b203b
 - key: relaunch.pages.home.projects.items.5.text
   source_sha256: 643f4034edc016254d3ffd789903ec9d90753ed232f481e8cbd64b6f4b92edec
 - key: relaunch.pages.home.projects.items.5.type
@@ -1304,14 +1302,10 @@ entries:
   source_sha256: 23ba4f51ac9012b0c1de86223e4507e3b15e0a6b9468b2102055add328cb44c3
 - key: relaunch.pages.home.projects.items.8.type
   source_sha256: da808473db057d625013783dd1cc18813af8725223bf3dfded99dd1a33c13d84
-- key: relaunch.pages.home.projects.items.9.name
-  source_sha256: 92067f69e6bb64355583cd1379143e694b6d7f189296b26b37d5053f8214eef5
 - key: relaunch.pages.home.projects.items.9.text
   source_sha256: 9f2c8a5c4dbc078dfcd64271fe0c973d6ab2cc92b3c1e06ebaa6fda2c7c8c5c1
 - key: relaunch.pages.home.projects.items.9.type
   source_sha256: da808473db057d625013783dd1cc18813af8725223bf3dfded99dd1a33c13d84
-- key: relaunch.pages.home.projects.items.10.name
-  source_sha256: 7f1ee3b6ab0564eaadc6f8e624c8d0fec55054bb177699ed3dcfb4b7fcc89e09
 - key: relaunch.pages.home.projects.items.10.text
   source_sha256: 3688c0f4205dbe27bc892f6437a8fa4b443494aab393b8f452baa14c33beda16
 - key: relaunch.pages.home.projects.items.10.type
@@ -1356,24 +1350,10 @@ entries:
   source_sha256: ab8b505453b05e6cb27b7bdb69677da1cb312c0b9d499a12989fd243e10dd124
 - key: relaunch.pages.home.voice.instructions
   source_sha256: 4f58f748a7b589040818df4d24b1480cbb2062c7d3f280053c2ce866fb3d42f2
-- key: relaunch.pages.home.voice.items.0.quote
-  source_sha256: a656f9366c50014dace6c2aebb479346ba0912b4f141df0aa0be284b46fc87e1
-- key: relaunch.pages.home.voice.items.0.role
-  source_sha256: '0855eef4ebeb8d9f55115c874bc46d83d928cd4c1e535499180f4a9c35fd4c9d'
 - key: relaunch.pages.home.voice.items.0.origin
   source_sha256: da808473db057d625013783dd1cc18813af8725223bf3dfded99dd1a33c13d84
-- key: relaunch.pages.home.voice.items.1.quote
-  source_sha256: 481348807fa278f74087111e21041bb94cbfb35430dbe468768ae6664e38b435
 - key: relaunch.pages.home.voice.items.1.origin
   source_sha256: 4efe28fa731e55f0c5c9f849d6b68bbc6c7708e240846e446976736835b52107
-- key: relaunch.pages.home.voice.items.2.quote
-  source_sha256: d4215498a997671f038e3cae9b3821090f394418a257f0153283f7dc9dd25c64
-- key: relaunch.pages.home.voice.items.2.origin
-  source_sha256: 4efe28fa731e55f0c5c9f849d6b68bbc6c7708e240846e446976736835b52107
-- key: relaunch.pages.home.voice.items.3.quote
-  source_sha256: 72f6ce7c0c00f040ae422483c0c50f54ad0ecf8d2058d78518b84f0105c01b0e
-- key: relaunch.pages.home.voice.items.3.origin
-  source_sha256: da808473db057d625013783dd1cc18813af8725223bf3dfded99dd1a33c13d84
 - key: relaunch.pages.home.values.label
   source_sha256: 7f2ab649529ed5f3303243427be4052462c316eaefb4711fd8624ccd9f1e5346
 - key: relaunch.pages.home.values.text
@@ -1731,7 +1711,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.1.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.1.title
-  source_sha256: 12d75bd393a236a689d63e1f7e2c633ced60d2a7f882b96e78876332b70897e3
+  source_sha256: b5b8d156ed987cba09985c05a9eef8df7f4ff2b7af063b3ab9cbf14fcc303d98
 - key: relaunch.pages.projects.grid_entries.1.text
   source_sha256: 29fba2412a1e0cc0a932060b2c45a11d50d4fc4b49a8a5bb1aee9c3c4a4122ae
 - key: relaunch.pages.projects.grid_entries.1.tags.0
@@ -1751,7 +1731,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.3.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.3.title
-  source_sha256: e6f66914cbca927f7311eeb55807359b006099de4b2a610ca8989fb1e137374b
+  source_sha256: f3e9e1bb035648776defe16ffa1953809c2200ed9656de8e9317b7b4ab5d023d
 - key: relaunch.pages.projects.grid_entries.3.text
   source_sha256: 50ca87e0e772ac07e458a62903cf85c1d9a712dafc620d81d0fe19b77ec87eb1
 - key: relaunch.pages.projects.grid_entries.3.tags.0
@@ -1763,7 +1743,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.4.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.4.title
-  source_sha256: d46e163f76bbe2e619f1b7fbb86c3c30ff368209c5bc36eda1a2841c43cbefdf
+  source_sha256: 0715bacebafffae7024090b1aeef3bc9b5945a45c2e016ce054162adcd253ba7
 - key: relaunch.pages.projects.grid_entries.4.text
   source_sha256: a04fc7164af5d219788d9c6ad27a7f88cc4cfcac637436ad3e029101de24e205
 - key: relaunch.pages.projects.grid_entries.4.tags.0
@@ -2123,7 +2103,7 @@ entries:
 - key: relaunch.pages.enbw.case_study.hero.eyebrow
   source_sha256: 316a6ae85228c22fd7e0fe61242677cc14f9e39a7e1b418e4922d28c86dbaa3d
 - key: relaunch.pages.enbw.case_study.hero.title
-  source_sha256: 0a53ad49dff90903d57048156f5c94eaa3d9b9d8efd7ded34581b64afc24b02f
+  source_sha256: fcaed00ca2e31df8a6c2581e84f92f918e10a504194bcbb5bfe0588e791ce9e7
 - key: relaunch.pages.enbw.case_study.hero.lead
   source_sha256: '0982e71e2c1c9bf2cda5c28b84d50e0185629ac2050ea4f4f9f7ea8f7634c8d9'
 - key: relaunch.pages.enbw.case_study.hero.context
@@ -2206,8 +2186,6 @@ entries:
   source_sha256: ac1ce4f599f1978e2ecd08d0be9e74b6cc9591cc0b794d78944a9fcfe96bc71b
 - key: relaunch.pages.enbw.case_study.testimonial.title
   source_sha256: c780a653893663214d2733a2a5c42728e325c87225e47eb2b818ea309a634e9e
-- key: relaunch.pages.enbw.case_study.testimonial.attribution
-  source_sha256: bc40a3d861b4e846591f6f55a226d4d7a4bd4ccc83dcd063a42b9c79ce98f8c9
 - key: relaunch.pages.enbw.title
   source_sha256: bc4160f0e37e1b48930eda8c6fc80e311b7793e8c47eee1803bf44f55ec685a2
 - key: relaunch.pages.enbw.meta_title

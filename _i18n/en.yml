@@ -851,6 +851,7 @@ relaunch:
         lead: When several teams develop web applications, shared technical foundations
           help align design and further development.
         context: HUGO BOSS · Web development · Angular · Technical leadership
+        client: HUGO BOSS
       situation:
         title: Multiple applications need more than individual good solutions.
         paragraphs:
@@ -944,6 +945,7 @@ relaunch:
         lead: An innovation initiative combining sensors, algorithms and mobile software,
           with different technical specialists working on a shared product idea.
         context: HUGO BOSS · Innovation and development · Mobile software · Sensors
+        client: HUGO BOSS
       situation:
         title: Capture movement and make it understandable through an app.
         paragraphs:
@@ -1034,6 +1036,7 @@ relaunch:
           not just additional rules or new methods.
         context: Professional initiative by Marcel Russ · Agile product and software
           development · Awareness & Responsibility
+        client: ''
       situation:
         title: How does sustainability become part of daily software work?
         paragraphs:
@@ -1142,6 +1145,7 @@ relaunch:
           vehicle reception using mobile text recognition, instead of relying entirely
           on manual transcription.
         context: Automotive · iOS · Camera and optical text recognition
+        client: ''
       situation:
         title: An everyday task where many small steps matter.
         paragraphs:
@@ -1231,6 +1235,7 @@ relaunch:
           within an exhibition stand, helping visitors discover relevant content where
           they need it.
         context: Mobile application · iBeacon · Technical design and project coordination
+        client: Bosch Power Tools
       situation:
         title: Information should appear where it is relevant.
         paragraphs:
@@ -1320,6 +1325,7 @@ relaunch:
           for dispatch, developed with different device platforms and real technical
           constraints in mind.
         context: Logistics · Proof of concept · Xamarin · iOS and Windows Phone
+        client: ''
       situation:
         title: Delivery information is generated on the road. Planning happens centrally.
         paragraphs:
@@ -1409,6 +1415,7 @@ relaunch:
           income and expenses, from the product idea to ongoing development under
           my own responsibility.
         context: iOS software product · Product concept · Swift · Data and user experience
+        client: ''
       situation:
         title: Turn numbers into an understandable overview.
         paragraphs:
@@ -1499,6 +1506,7 @@ relaunch:
         lead: Align different teams around shared quality standards and more reliable
           collaboration, while supporting the changes in everyday work.
         context: Organisational development · Software delivery · Ongoing engagement
+        client: Viridium
       situation:
         title: Many teams. Different ways of working. A shared delivery task.
         paragraphs:
@@ -1606,6 +1614,7 @@ relaunch:
         lead: Assess the possibilities of AI in software development together, clarify
           priorities and establish a viable direction for the next steps.
         context: Strategic team workshop · Software development lifecycle · 2026
+        client: HUGO BOSS
       situation:
         title: Many good ideas need a shared direction.
         paragraphs:
@@ -1705,6 +1714,7 @@ relaunch:
           introduce it under actual manufacturing conditions.
         context: Android application · Process understanding · Technical coordination
           · On-site introduction
+        client: Kverneland
       situation:
         title: The right part needs to be in the right place at the right time.
         paragraphs:
@@ -1802,6 +1812,7 @@ relaunch:
         lead: Replace a paid software component with a native iOS solution while considering
           technical quality, integration and long-term dependencies together.
         context: HUGO BOSS · Mobile retail applications · iOS
+        client: HUGO BOSS
       situation:
         title: When a small component creates a lasting dependency.
         paragraphs:
@@ -1896,6 +1907,7 @@ relaunch:
           and implementation.
         context: Ongoing modernisation initiative · Business and technical collaboration
           · IT strategy
+        client: Dücker
       situation:
         title: The application is indispensable. Knowledge about it is dispersed.
         paragraphs:
@@ -2002,6 +2014,7 @@ relaunch:
           and took responsibility for myself, from the first idea over many years.
         context: iOS software product · Concept, development, operation and ongoing
           improvement
+        client: ''
       situation:
         title: A personal need became a software product.
         paragraphs:
@@ -2096,10 +2109,11 @@ relaunch:
       publication_status: draft
       hero:
         eyebrow: PROFESSIONAL EXPERIENCE · MARCEL RUSS
-        title: Leading web and mobile development at HUGO BOSS
+        title: Leading web and mobile development
         lead: Taking responsibility for digital products and development teams – bringing
           together technical quality, people and organisational collaboration.
         context: HUGO BOSS · Team Lead Web & Mobile · 2018–2022
+        client: HUGO BOSS
       situation:
         title: Digital products need more than good individual decisions.
         paragraphs:
@@ -2196,12 +2210,13 @@ relaunch:
       publication_status: draft
       hero:
         eyebrow: PROFESSIONAL EXPERIENCE · MARCEL RUSS
-        title: Mercedes-Benz Guides – Digital vehicle manuals
+        title: Digital vehicle manuals
         lead: Making extensive vehicle information available on mobile devices – through
           software development, content tools, internationalisation and technical
           project management.
         context: Mobile product development · iOS & Android · Personal professional
           experience across different project phases
+        client: Mercedes-Benz Guides
       situation:
         title: Technical knowledge should be easily accessible on the go.
         paragraphs:
@@ -2383,52 +2398,40 @@ relaunch:
         title: Experience shows in practice.
         link: View all projects & experience
         items:
-        - name: EnBW Trading IT
-          text: Quarterly planning · Onsite weeks · Team coordination
+        - text: Quarterly planning · Onsite weeks · Team coordination
           type: Earlier professional experience
           url: "/projects/enbw.html"
-        - name: HUGO BOSS
-          text: AI-assisted development · Strategy · Roadmap
+        - text: AI-assisted development · Strategy · Roadmap
           type: Client engagement
           url: "/projects/hugo-boss.html"
-        - name: Green Agile Guide
-          text: Sustainability · Awareness · Responsibility
+        - text: Sustainability · Awareness · Responsibility
           type: Initiative
           url: "/projects/green-agile-guide.html"
-        - name: Viridium
-          text: Twelve squads · Quality foundations · Software delivery
+        - text: Twelve squads · Quality foundations · Software delivery
           type: Client engagement
           url: "/projects/viridium.html"
-        - name: myWork
-          text: Mobile time tracking · Development · Product responsibility
+        - text: Mobile time tracking · Development · Product responsibility
           type: Own product
           url: "/projects/mywork-produktverantwortung.html"
-        - name: HUGO BOSS technical leadership
-          text: Web & Mobile · Team leadership · Digital products
+        - text: Web & Mobile · Team leadership · Digital products
           type: Earlier professional experience
           url: "/projects/technische-fuehrung-web-mobile.html"
-        - name: Mercedes-Benz Guides
-          text: Digital vehicle manuals · Mobile engineering
+        - text: Digital vehicle manuals · Mobile engineering
           type: Earlier professional experience
           url: "/projects/mobile-fahrzeughandbuecher.html"
-        - name: Dücker
-          text: Software modernisation · Domain understanding · Business rules
+        - text: Software modernisation · Domain understanding · Business rules
           type: Client engagement
           url: "/projects/duecker.html"
-        - name: HBScanner
-          text: Native iOS library · Technological independence
+        - text: Native iOS library · Technological independence
           type: Earlier professional experience
           url: "/projects/mobile-scanning-bibliothek.html"
-        - name: Shared UI components
-          text: Angular · Reusable interface components · Cross-team coordination
+        - text: Angular · Reusable interface components · Cross-team coordination
           type: Earlier professional experience
           url: "/projects/web-komponentenbibliothek.html"
-        - name: Smart golf shirt
-          text: Sensors · Motion analysis · Mobile applications
+        - text: Sensors · Motion analysis · Mobile applications
           type: Earlier professional experience
           url: "/projects/smartes-sportshirt-bewegungsanalyse.html"
-        - name: Kverneland
-          text: Android · Manufacturing logistics · Production processes
+        - text: Android · Manufacturing logistics · Production processes
           type: Earlier professional experience
           url: "/projects/mobile-fertigungslogistik.html"
         intro: An insight into client engagements, earlier professional roles, our
@@ -2466,28 +2469,14 @@ relaunch:
         position: "{current} of {total}"
         instructions: Use the arrow keys or swipe to move between testimonials.
         items:
-        - quote: "“Together, we were able to measurably improve transparency, customer
-            satisfaction and planning quality and establish sustainable structures
-            for collaboration and feedback.”"
-          name: Lucas Schleweis
-          role: EnBW context, planning/coordination
+        - source_key: ac_testimonials
+          source_author: Lucas Schleweis
+          published: true
           origin: Earlier professional experience
-        - quote: "“The workshop with you helped us a great deal in reaching a shared
-            view of our project.”"
-          name: Andreas Binder
-          role: Product Owner, HUGO BOSS AG
+        - source_key: cto_testimonials
+          source_author: Michael Weinheimer
+          published: false
           origin: mehr.wert client engagement
-        - quote: "“Particularly valuable is his ability to understand situations quickly,
-            develop viable concepts and initiate lasting change through targeted input
-            and coaching.”"
-          name: Michael Weinheimer
-          role: Head of IT TECH Core Software Engineering, HUGO BOSS AG
-          origin: mehr.wert client engagement
-        - quote: "“This reliability and appreciative approach made collaboration noticeably
-            easier and created a positive, trusting working atmosphere.”"
-          name: Harald Bezjak
-          role: Trading IT Analyst, EnBW AG
-          origin: Earlier professional experience
       values:
         label: OUR FOUNDATION
         title: Sustainably better software.
@@ -2874,9 +2863,10 @@ relaunch:
         filter_ids:
         - it-strategie
         - modernisierung
+        client: Dücker
       - id: P12
         type: Professional experience · Marcel Russ
-        title: Quarterly planning for several IT teams at EnBW
+        title: Quarterly planning for several IT teams
         text: In EnBW Trading IT, I played a substantial role in establishing cross-team
           quarterly planning and shared onsite weeks. Strategic priorities, team roadmaps
           and dependencies were translated into a recurring planning process. This
@@ -2890,6 +2880,7 @@ relaunch:
         filter_ids:
         - organisation-delivery
         - technische-fuehrung
+        client: EnBW Trading IT
       - id: P01
         type: Own product · Marcel Russ
         title: myWork – Mobile time tracking
@@ -2906,9 +2897,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - it-strategie
+        client: ''
       - id: P08
         type: Professional experience · Marcel Russ
-        title: Leading web and mobile development at HUGO BOSS
+        title: Leading web and mobile development
         text: At HUGO BOSS, I led web and mobile teams and took responsibility for
           digital products. Technical decisions, people management and collaboration
           between distributed development teams were interconnected. This experience
@@ -2925,9 +2917,10 @@ relaunch:
         - technische-fuehrung
         - organisation-delivery
         - mobile-produkte
+        client: HUGO BOSS
       - id: P02
         type: Professional experience · Marcel Russ
-        title: Mercedes-Benz Guides – Digital vehicle manuals
+        title: Digital vehicle manuals
         text: Digital vehicle manuals make technical information accessible on mobile
           devices. At different stages of my career, I worked on developing and technically
           leading the applications and associated content tools. This included internationalisation,
@@ -2941,6 +2934,7 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
+        client: Mercedes-Benz Guides
       - id: P13
         type: Client engagement · mehr.wert
         title: Shared working foundations for twelve squads
@@ -2957,6 +2951,7 @@ relaunch:
         filter_ids:
         - organisation-delivery
         - it-strategie
+        client: Viridium
       - id: P14
         type: Client engagement · mehr.wert
         title: Roadmap for AI-assisted software development
@@ -2975,6 +2970,7 @@ relaunch:
         - ki-sdlc
         - it-strategie
         - organisation-delivery
+        client: HUGO BOSS
       - id: P03
         type: Professional experience · Marcel Russ
         title: Mobile manufacturing logistics for agricultural machinery
@@ -2992,6 +2988,7 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
+        client: Kverneland
       - id: P10
         type: Professional experience · Marcel Russ
         title: Own barcode scanning library for store apps
@@ -3010,6 +3007,7 @@ relaunch:
         - mobile-produkte
         - it-strategie
         - modernisierung
+        client: HUGO BOSS
       - id: P04
         type: Professional experience · Marcel Russ
         title: Capturing vehicle data by camera
@@ -3024,6 +3022,7 @@ relaunch:
         url: "/projects/ocr-fahrzeugdaten-aftersales.html"
         filter_ids:
         - mobile-produkte
+        client: ''
       - id: P05
         type: Professional experience · Marcel Russ
         title: Location-based information at the exhibition stand
@@ -3040,6 +3039,7 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
+        client: Bosch Power Tools
       - id: P06
         type: Professional experience · Marcel Russ
         title: Coordinating delivery orders on mobile devices
@@ -3056,6 +3056,7 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
+        client: ''
       - id: P07
         type: Own product · Marcel Russ
         title: myMoney – Managing personal finances
@@ -3070,6 +3071,7 @@ relaunch:
         url: "/projects/mymoney-finanzverwaltung.html"
         filter_ids:
         - mobile-produkte
+        client: ''
       - id: P09
         type: Professional experience · Marcel Russ
         title: Shared UI components for web applications
@@ -3088,6 +3090,7 @@ relaunch:
         - it-strategie
         - technische-fuehrung
         - organisation-delivery
+        client: HUGO BOSS
       - id: P15
         type: Professional experience · Marcel Russ
         title: Motion analysis with a smart sports shirt and app
@@ -3104,6 +3107,7 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
+        client: HUGO BOSS
       - id: P16
         type: Initiative · Green Agile
         title: Green Agile Guide – sustainability in everyday agile work
@@ -3120,6 +3124,7 @@ relaunch:
         filter_ids:
         - nachhaltigkeit
         - organisation-delivery
+        client: ''
       title: Projects & experience
       meta_title: Projects & experience | mehr.wert
       url: "/projects.html"
@@ -3411,12 +3416,13 @@ relaunch:
         publication_status: draft
         hero:
           eyebrow: PROFESSIONAL EXPERIENCE · MARCEL RUSS
-          title: Quarterly planning and onsite weeks in EnBW Trading IT
+          title: Quarterly planning and onsite weeks
           lead: Bringing strategic goals, team roadmaps and dependencies together
             – so teams and leadership can plan their initiatives jointly and make
             timely decisions.
           context: EnBW Trading IT · Enterprise agile coaching and temporary release
             train engineering · Cross-team planning and collaboration
+          client: EnBW Trading IT
         situation:
           title: When many teams deliver, a shared direction is needed.
           paragraphs:
@@ -3516,11 +3522,9 @@ relaunch:
           caption: Simplified illustration of the planning and feedback process.
         testimonial:
           title: About the collaboration
-          quote: "“Marcel’s critical and pragmatic approach means he validates whether
-            it contributes to the objectives.”"
-          attribution: Jacques Dunselman · Agile Transformation Lead, PMx · Collaboration
-            in the EnBW setting
-          publication_status: draft
+          source_key: ac_testimonials
+          source_author: Jacques Dunselmann
+          published: true
       title: Establishing shared planning across team boundaries.
       meta_title: Cross-team quarterly planning in Trading IT | mehr.wert
       url: "/projects/enbw.html"

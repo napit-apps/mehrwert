@@ -668,3 +668,7 @@
 
 // Long compound words must remain readable in either language at narrow widths.
 .mw-2027 .mw-hero h1 { overflow-wrap: anywhere; hyphens: auto; }
+
+// Client names support the project task instead of competing with its heading.
+.mw-2027 .mw-project-client { display: block; margin-top: 8px; color: var(--mw-muted); font-size: .82rem; line-height: 1.5; font-weight: 400; }
+.mw-2027 .mw-hero .mw-project-client { color: #e0dce6; font-size: 1rem; margin-top: 16px; }

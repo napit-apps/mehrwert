@@ -6,6 +6,7 @@
 
   const track = carousel.querySelector('.mw-testimonials-track');
   const slides = Array.from(track.children);
+  if (slides.length < 2) return;
   const controls = carousel.querySelector('[data-testimonial-controls]');
   const previous = controls.querySelector('[data-previous]');
   const next = controls.querySelector('[data-next]');
