@@ -1701,7 +1701,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.0.type
   source_sha256: d4df9e15a577f0c7fb407fa9efed5a3def5bd1521b7297aadc5e5ec007a6b323
 - key: relaunch.pages.projects.grid_entries.0.title
-  source_sha256: 50c175583a990f57912178816ebaf679958a99247ee641215ace97cc8ae4eb1f
+  source_sha256: 6bb06073cbd9024ceee5d1b766ee1e0fc42481520dbd62d7300c27b010bf2936
 - key: relaunch.pages.projects.grid_entries.0.text
   source_sha256: c685863b6724e8ee8ea909a3ca4ec7bfb8fad6da1b28e6d8adeb5233eb19be58
 - key: relaunch.pages.projects.grid_entries.0.tags.0
@@ -1711,7 +1711,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.1.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.1.title
-  source_sha256: b5b8d156ed987cba09985c05a9eef8df7f4ff2b7af063b3ab9cbf14fcc303d98
+  source_sha256: 993cb751b2e4046b09c4b050fdeaed7696fe79b50bca5db63b23560b61dfbdd1
 - key: relaunch.pages.projects.grid_entries.1.text
   source_sha256: 29fba2412a1e0cc0a932060b2c45a11d50d4fc4b49a8a5bb1aee9c3c4a4122ae
 - key: relaunch.pages.projects.grid_entries.1.tags.0
@@ -1731,7 +1731,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.3.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.3.title
-  source_sha256: f3e9e1bb035648776defe16ffa1953809c2200ed9656de8e9317b7b4ab5d023d
+  source_sha256: f38cfc5f2e445e9d5a141ecae7b7fa78f990f69d07721a0685ea22e86f307911
 - key: relaunch.pages.projects.grid_entries.3.text
   source_sha256: 50ca87e0e772ac07e458a62903cf85c1d9a712dafc620d81d0fe19b77ec87eb1
 - key: relaunch.pages.projects.grid_entries.3.tags.0
@@ -1743,7 +1743,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.4.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.4.title
-  source_sha256: 0715bacebafffae7024090b1aeef3bc9b5945a45c2e016ce054162adcd253ba7
+  source_sha256: 760c14ea86a14a4a87f11b7db705c0771adf9fd75dc413c9d9a74d6d92ad7430
 - key: relaunch.pages.projects.grid_entries.4.text
   source_sha256: a04fc7164af5d219788d9c6ad27a7f88cc4cfcac637436ad3e029101de24e205
 - key: relaunch.pages.projects.grid_entries.4.tags.0
@@ -1753,7 +1753,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.5.type
   source_sha256: d4df9e15a577f0c7fb407fa9efed5a3def5bd1521b7297aadc5e5ec007a6b323
 - key: relaunch.pages.projects.grid_entries.5.title
-  source_sha256: '048ecb5c92a83f42c19f4dbce6388365720bcbe149919b4dfc690fc0b087f396'
+  source_sha256: 8c076093da54c8ae2cd4649d32f0eed5088396a72cadd9940c9388558126abae
 - key: relaunch.pages.projects.grid_entries.5.text
   source_sha256: 695f92264280fa65350e93a3b7b9557906766f2edffd7eb6ae28c38d0c06c0eb
 - key: relaunch.pages.projects.grid_entries.5.tags.0
@@ -1763,7 +1763,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.6.type
   source_sha256: d4df9e15a577f0c7fb407fa9efed5a3def5bd1521b7297aadc5e5ec007a6b323
 - key: relaunch.pages.projects.grid_entries.6.title
-  source_sha256: f320959cfd793951555e6327249c7ba5a1a02743c06caa560fc298e23537bdb3
+  source_sha256: 301e534f5c066aaa6eee11fa2589453b1491103c8ce7650c7b0e2f7e9bbed434
 - key: relaunch.pages.projects.grid_entries.6.text
   source_sha256: 56fea6cca56676ff4b09ec9e6c06a8e2aa8c24f958db303fb51b1f4318f249ab
 - key: relaunch.pages.projects.grid_entries.6.tags.0
@@ -1775,7 +1775,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.7.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.7.title
-  source_sha256: dc2d4f337297f871c983e818678a083e547babe0d79bd4fe863d37c9ae793673
+  source_sha256: c451e6fb595f11023ede52dcf2fa824b26ceaeaf4f7d682793f29e9a5d411224
 - key: relaunch.pages.projects.grid_entries.7.text
   source_sha256: 84e41477f088cec5ca2269b61fa0b363da63b5fcb7f65627dfbeebec7d7df9a2
 - key: relaunch.pages.projects.grid_entries.7.tags.0
@@ -1785,7 +1785,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.8.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.8.title
-  source_sha256: 369416711372011e5dae3bf5fa2fbca0a1dc82f86ad945f3bc8efb6758143c73
+  source_sha256: a0d39e5919f3a2aae29a479fb7d83e076cf8f27d103d1c24fe61922a64c8cdf9
 - key: relaunch.pages.projects.grid_entries.8.text
   source_sha256: e294f48055658fb5038e1244ba42cfb27beb76b88688ea946c6144f765eb20ff
 - key: relaunch.pages.projects.grid_entries.8.tags.0
@@ -1805,7 +1805,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.10.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.10.title
-  source_sha256: 29b51a8a1334f84b061e99a5dda45b63ac7ead7533706a0b2c59c2e8b673b7db
+  source_sha256: d3ea21bed8bafbff3f59638dfc0b90adad643deacae4c30b1d7ea649b383ad45
 - key: relaunch.pages.projects.grid_entries.10.text
   source_sha256: 44426299bd43f4513d36bd931bbe0a8ff6631fe8f7412be31c3c1aa5fa382ca0
 - key: relaunch.pages.projects.grid_entries.10.tags.0
@@ -1815,7 +1815,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.11.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.11.title
-  source_sha256: 9efb550fe84a42d706d921d9833874fce6be26dd597c7d56ceab5b2ca49eba76
+  source_sha256: 233ae9bbfdd2a2f638353799a6ac7dfa170a1edb6a3d2bdf772cf330cdfdfef5
 - key: relaunch.pages.projects.grid_entries.11.text
   source_sha256: b3e166ab91dcdc45020c1d70bb38015804e78d03bbd281bbf1f6a7bd170ae265
 - key: relaunch.pages.projects.grid_entries.11.tags.0
@@ -1833,7 +1833,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.13.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.13.title
-  source_sha256: 57a004728e94b24894f09f9a68212c68677a75407632a2a1427c510f521d3eb8
+  source_sha256: 5f678f4e4b87a60abc1a7d3e738cf8913babed84422cd20be9013fb04f36dfa7
 - key: relaunch.pages.projects.grid_entries.13.text
   source_sha256: da2a2d3679f27d2e603db96760bebb00ed057d6e4678fb0e36a653c93191ad1d
 - key: relaunch.pages.projects.grid_entries.13.tags.0
@@ -1845,7 +1845,7 @@ entries:
 - key: relaunch.pages.projects.grid_entries.14.type
   source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
 - key: relaunch.pages.projects.grid_entries.14.title
-  source_sha256: a03e6e7b3c0a94d30dca1687f46eaf81e95fab1d1f1c86b7bc28e40cf10ecba7
+  source_sha256: 4dd9b65d2a1f133884769fd20410f8c52a2e11560bffef82ec0019c0cc7d31a0
 - key: relaunch.pages.projects.grid_entries.14.text
   source_sha256: a66160f5a8f58db63e53a8e792c34c5f8a9b864fd9aeb74bab219b71f74e17e3
 - key: relaunch.pages.projects.grid_entries.14.tags.0
@@ -2266,3 +2266,7 @@ entries:
   source_sha256: 1545d34ec35bed90c1e70f5d3981fe3018200463383449c4e63bd49426b804fa
 - key: relaunch.pages.green-agile-guide.description
   source_sha256: 0caf1a4a61f6ab4b6342e9c2df1f061fc9448ee32fdd18741750ee198a5de726
+- key: relaunch.pages.projects.grid_entries.9.client
+  source_sha256: 309e32988e21ffe77bc809f4774a1e0e4ada67a9b9841177c50f0e6b6e54963c
+- key: relaunch.pages.projects.grid_entries.11.client
+  source_sha256: b3a6641e8cc56b42c3f8f0fd205fae721aaac1032ef88d028fc14cf01c5c3075

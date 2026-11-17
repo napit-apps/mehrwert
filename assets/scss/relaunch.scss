@@ -474,9 +474,8 @@
   .mw-portfolio-count { margin-top: 22px; font-size: .85rem; }
   .mw-portfolio-grid { margin-top: 24px; gap: 24px; }
   .mw-portfolio-card { display: flex; flex-direction: column; padding: 24px; border: 1px solid var(--mw-line); border-top: 3px solid #61bb95; }
-  .mw-portfolio-card .mw-strategy-label { font-size: .69rem; margin: 0 0 16px; }
   .mw-portfolio-card h3 { font-size: 1.35rem; margin-bottom: 0; }
-  .mw-portfolio-card > p:not(.mw-strategy-label) { margin: 16px 0 20px; }
+  .mw-portfolio-card > p { margin: 16px 0 20px; }
   .mw-portfolio-card > .mw-text-link { margin-top: 0; padding-top: 16px; min-height: 44px; }
   .mw-portfolio-tags { display: flex; flex-wrap: wrap; gap: 6px 12px; list-style: none; padding: 0; margin: auto 0 0; font-size: .75rem; color: #355944; }
   .mw-portfolio-tags li { border-bottom: 1px solid #a2b6a8; }
@@ -672,3 +671,7 @@
 // Client names support the project task instead of competing with its heading.
 .mw-2027 .mw-project-client { display: block; margin-top: 8px; color: var(--mw-muted); font-size: .82rem; line-height: 1.5; font-weight: 400; }
 .mw-2027 .mw-hero .mw-project-client { color: #e0dce6; font-size: 1rem; margin-top: 16px; }
+
+// Shared hierarchy for compact homepage and portfolio cards.
+.mw-2027 .mw-project-card .mw-project-origin { display: block; color: var(--mw-muted); font-size: .72rem; line-height: 1.4; margin-bottom: 14px; }
+.mw-2027 .mw-project-card h3 { overflow-wrap: anywhere; hyphens: auto; }

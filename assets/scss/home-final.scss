@@ -49,7 +49,6 @@
   .mw-home-project-tile { display: flex; flex-direction: column; min-width: 0; padding: 22px; background: var(--mw-paper); border: 1px solid var(--mw-line); border-top: 2px solid #61bb95; text-decoration: none; }
   .mw-home-project-tile:hover { background: #e4eee7; color: var(--mw-ink) !important; }
   .mw-home-project-tile:focus-visible { outline: 3px solid #763bb6; outline-offset: 3px; }
-  .mw-home-project-origin { color: var(--mw-muted); font-size: .72rem; line-height: 1.4; margin-bottom: 14px; }
   .mw-home-project-tile h3 { font-size: 1.15rem; line-height: 1.35; text-wrap: initial; }
   .mw-home-project-tile p { font-size: .87rem; line-height: 1.65; color: var(--mw-muted); margin-top: 12px; text-wrap: initial; }
   @media (max-width: 1023px) { .mw-home-projects-compact { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

@@ -1,0 +1,15 @@
+{% assign card = include.project %}
+{% if include.compact %}
+<a class="mw-project-card mw-home-project-tile" href="{{ card.url | localized_url }}">
+{% else %}
+<article class="mw-project-card mw-card mw-portfolio-card"{% if card.key == 'mywork-produktverantwortung' %} id="products"{% elsif card.key == 'technische-fuehrung-web-mobile' %} id="international"{% endif %} data-tags="{{ card.filter_ids | join: ' ' }}">
+{% endif %}
+  <span class="mw-project-origin">{{ include.origin | default: card.type }}</span>
+  <h3>{{ card.title }}</h3>
+  {% if card.client and card.client != empty %}<span class="mw-project-client">{{ card.client }}</span>{% endif %}
+  <p>{{ include.summary | default: card.text }}</p>
+  {% unless include.compact %}
+    <ul class="mw-portfolio-tags" aria-label="{{ include.ui.filter_label }}">{% for tag in card.tags %}<li>{{ tag }}</li>{% endfor %}</ul>
+    <a class="mw-text-link" href="{{ card.url | localized_url }}">{{ include.ui.view }}<span class="mw-sr-only">: {{ card.title }}</span> <span aria-hidden="true">↗</span></a>
+  {% endunless %}
+{% if include.compact %}</a>{% else %}</article>{% endif %}

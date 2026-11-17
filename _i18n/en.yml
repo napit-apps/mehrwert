@@ -2848,7 +2848,7 @@ relaunch:
       grid_entries:
       - id: P11
         type: Client engagement · mehr.wert
-        title: Modernising a business-critical software platform
+        title: "Modernising business-critical software"
         text: To modernise an established business application, we brought business
           departments and development together. A shared understanding of the domain
           and business rules extracted from the existing software provide a concrete
@@ -2863,10 +2863,10 @@ relaunch:
         filter_ids:
         - it-strategie
         - modernisierung
-        client: Dücker
+        client: "Dücker"
       - id: P12
         type: Professional experience · Marcel Russ
-        title: Quarterly planning for several IT teams
+        title: "Establishing cross-team quarterly planning"
         text: In EnBW Trading IT, I played a substantial role in establishing cross-team
           quarterly planning and shared onsite weeks. Strategic priorities, team roadmaps
           and dependencies were translated into a recurring planning process. This
@@ -2880,10 +2880,10 @@ relaunch:
         filter_ids:
         - organisation-delivery
         - technische-fuehrung
-        client: EnBW Trading IT
+        client: "EnBW Trading IT"
       - id: P01
         type: Own product · Marcel Russ
-        title: myWork – Mobile time tracking
+        title: "myWork – Mobile time tracking"
         text: myWork enables mobile tracking of working hours and projects. I conceived
           and developed the app myself and continued developing it over many years.
           From architecture and usability to operation and support, I therefore know
@@ -2897,10 +2897,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - it-strategie
-        client: ''
+        client: ""
       - id: P08
         type: Professional experience · Marcel Russ
-        title: Leading web and mobile development
+        title: "Leading web and mobile teams"
         text: At HUGO BOSS, I led web and mobile teams and took responsibility for
           digital products. Technical decisions, people management and collaboration
           between distributed development teams were interconnected. This experience
@@ -2917,10 +2917,10 @@ relaunch:
         - technische-fuehrung
         - organisation-delivery
         - mobile-produkte
-        client: HUGO BOSS
+        client: "HUGO BOSS"
       - id: P02
         type: Professional experience · Marcel Russ
-        title: Digital vehicle manuals
+        title: "Making digital vehicle manuals accessible on mobile devices"
         text: Digital vehicle manuals make technical information accessible on mobile
           devices. At different stages of my career, I worked on developing and technically
           leading the applications and associated content tools. This included internationalisation,
@@ -2934,10 +2934,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
-        client: Mercedes-Benz Guides
+        client: "Mercedes-Benz"
       - id: P13
         type: Client engagement · mehr.wert
-        title: Shared working foundations for twelve squads
+        title: "Creating shared working foundations for twelve squads"
         text: 'For twelve squads, we create and support shared foundations for software
           delivery: a Community of Practice, agreed quality criteria and support for
           their application in everyday work. This gives teams a shared framework
@@ -2951,10 +2951,10 @@ relaunch:
         filter_ids:
         - organisation-delivery
         - it-strategie
-        client: Viridium
+        client: "Viridium"
       - id: P14
         type: Client engagement · mehr.wert
-        title: Roadmap for AI-assisted software development
+        title: "Setting a strategic direction for AI-assisted software development"
         text: An experienced development team wanted to assess AI's potential in the
           software development process strategically. We designed and facilitated
           a workshop in which goals, customer value and priorities were clarified
@@ -2970,10 +2970,10 @@ relaunch:
         - ki-sdlc
         - it-strategie
         - organisation-delivery
-        client: HUGO BOSS
+        client: "HUGO BOSS"
       - id: P03
         type: Professional experience · Marcel Russ
-        title: Mobile manufacturing logistics for agricultural machinery
+        title: "Supporting manufacturing logistics with mobile software"
         text: For Kverneland, I worked on an Android solution to better coordinate
           pre-assembly and main production. The initiative connected an understanding
           of actual production workflows with software architecture, technical coordination
@@ -2988,10 +2988,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
-        client: Kverneland
+        client: "Kverneland"
       - id: P10
         type: Professional experience · Marcel Russ
-        title: Own barcode scanning library for store apps
+        title: "Developing an in-house barcode scanning library"
         text: Within HUGO BOSS, an in-house barcode scanning library was developed
           and integrated for iOS retail applications. It replaced a paid third-party
           component. This example shows how a concrete technical solution connects
@@ -3007,10 +3007,10 @@ relaunch:
         - mobile-produkte
         - it-strategie
         - modernisierung
-        client: HUGO BOSS
+        client: "HUGO BOSS"
       - id: P04
         type: Professional experience · Marcel Russ
-        title: Capturing vehicle data by camera
+        title: "Capturing vehicle data by camera"
         text: At vehicle intake, number plates and vehicle identification numbers
           need to be recorded quickly and reliably. An automotive project developed
           an iOS solution using optical character recognition for this purpose. I
@@ -3022,10 +3022,10 @@ relaunch:
         url: "/projects/ocr-fahrzeugdaten-aftersales.html"
         filter_ids:
         - mobile-produkte
-        client: ''
+        client: "Automotive project"
       - id: P05
         type: Professional experience · Marcel Russ
-        title: Location-based information at the exhibition stand
+        title: "Providing location-based exhibition information"
         text: A mobile exhibition application for Bosch Power Tools provided visitors
           with location-based information using iBeacon technology. I was responsible
           for the technical concept and project coordination, connecting positioning
@@ -3039,10 +3039,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
-        client: Bosch Power Tools
+        client: "Bosch Power Tools"
       - id: P06
         type: Professional experience · Marcel Russ
-        title: Coordinating delivery orders on mobile devices
+        title: "Prototyping mobile delivery coordination"
         text: A mobile prototype was developed for a logistics provider to record
           delivery orders and make them visible to dispatch. I was responsible for
           the concept and technical coordination of the cross-platform implementation
@@ -3056,10 +3056,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
-        client: ''
+        client: "Logistics project"
       - id: P07
         type: Own product · Marcel Russ
-        title: myMoney – Managing personal finances
+        title: "myMoney – Managing personal finances"
         text: With myMoney, I developed an iOS app for recording and analysing income
           and expenses. I was responsible from product idea through design and development
           to App Store publication. Ongoing maintenance was also part of everyday
@@ -3071,10 +3071,10 @@ relaunch:
         url: "/projects/mymoney-finanzverwaltung.html"
         filter_ids:
         - mobile-produkte
-        client: ''
+        client: ""
       - id: P09
         type: Professional experience · Marcel Russ
-        title: Shared UI components for web applications
+        title: "Creating reusable UI components for web applications"
         text: At HUGO BOSS, work on an Angular component library aimed to provide
           reusable interface components for web applications. I contributed the perspective
           of technical leadership and cross-team coordination. Shared technical foundations
@@ -3090,10 +3090,10 @@ relaunch:
         - it-strategie
         - technische-fuehrung
         - organisation-delivery
-        client: HUGO BOSS
+        client: "HUGO BOSS"
       - id: P15
         type: Professional experience · Marcel Russ
-        title: Motion analysis with a smart sports shirt and app
+        title: "Exploring motion analysis with sensors and an app"
         text: An innovation initiative at HUGO BOSS combined sensors, algorithms and
           an app to visualise movement. In the technical development setting, I was
           involved in coordination between mobile applications, internal teams, nearshore
@@ -3107,10 +3107,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
-        client: HUGO BOSS
+        client: "HUGO BOSS"
       - id: P16
         type: Initiative · Green Agile
-        title: Green Agile Guide – sustainability in everyday agile work
+        title: "Green Agile Guide – Sustainability in everyday agile work"
         text: The Green Agile Guide describes how awareness and responsibility can
           become part of existing agile goals and ways of working. It connects sustainable
           software development with everyday product and team decisions – without
@@ -3124,7 +3124,7 @@ relaunch:
         filter_ids:
         - nachhaltigkeit
         - organisation-delivery
-        client: ''
+        client: ""
       title: Projects & experience
       meta_title: Projects & experience | mehr.wert
       url: "/projects.html"

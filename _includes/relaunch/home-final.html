@@ -31,11 +31,10 @@
 <section class="mw-section mw-home-experience" id="projects" aria-labelledby="projects-title"><div class="mw-shell">
   <p class="mw-home-label">{{ home.projects.label }}</p><h2 id="projects-title">{{ home.projects.title }}</h2>
   <p class="mw-home-experience-intro">{{ home.projects.intro }}</p>
-  <div class="mw-home-projects mw-home-projects-compact">{% for item in home.projects.items %}<a class="mw-home-project-tile" href="{{ item.url | localized_url }}">
-    <span class="mw-home-project-origin">{{ item.type }}</span>
+  <div class="mw-home-projects mw-home-projects-compact">{% for item in home.projects.items %}
     {% assign project = copy.pages.projects.grid_entries | where: 'url', item.url | first %}
-    <h3>{{ project.title }}</h3>{% if project.client != empty %}<span class="mw-project-client">{{ project.client }}</span>{% endif %}<p>{{ item.text }}</p>
-  </a>{% endfor %}</div>
+    {% include relaunch/project-card.html project=project compact=true origin=item.type summary=item.text %}
+  {% endfor %}</div>
   <a class="mw-text-link" href="{{ site.baseurl }}/projects.html">{{ home.projects.link }} <span aria-hidden="true">↗</span></a>
 </div></section>
 <section class="mw-section mw-home-person" aria-labelledby="person-title"><div class="mw-shell mw-home-person-grid">

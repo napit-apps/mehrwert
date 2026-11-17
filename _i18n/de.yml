@@ -2388,7 +2388,7 @@ relaunch:
       grid_entries:
       - id: P11
         type: Kundenmandat · mehr.wert
-        title: Eine geschäftskritische Softwareplattform modernisieren
+        title: "Geschäftskritische Software modernisieren"
         text: Für die Modernisierung einer gewachsenen Unternehmensanwendung haben wir Fachbereiche und Entwicklung zusammengebracht. Ein gemeinsames Domänenverständnis und aus der bestehenden Software erschlossene Geschäftsregeln bilden eine konkrete Grundlage für die nächsten Umsetzungsschritte. Wir begleiten das laufende Modernisierungsvorhaben weiter.
         slug: modernisierung-ascor
         tags:
@@ -2399,10 +2399,10 @@ relaunch:
         filter_ids:
         - it-strategie
         - modernisierung
-        client: Dücker
+        client: "Dücker"
       - id: P12
         type: Berufserfahrung · Marcel Russ
-        title: Quartalsplanung für mehrere IT-Teams
+        title: "Teamübergreifende Quartalsplanung etablieren"
         text: In der EnBW Trading IT habe ich den Aufbau teamübergreifender Quartalsplanung und gemeinsamer Onsite-Wochen maßgeblich mitgestaltet. Strategische Prioritäten, Team-Roadmaps und Abhängigkeiten wurden in einen wiederkehrenden Planungsprozess übersetzt. So entstand eine praktisch genutzte Grundlage für Abstimmung und gemeinsame Entscheidungen.
         slug: enbw-quartalsplanung-onsite
         tags:
@@ -2413,10 +2413,10 @@ relaunch:
         filter_ids:
         - organisation-delivery
         - technische-fuehrung
-        client: EnBW Trading IT
+        client: "EnBW Trading IT"
       - id: P01
         type: Eigenes Produkt · Marcel Russ
-        title: myWork – Mobile Zeiterfassung
+        title: "myWork – Mobile Zeiterfassung"
         text: Mit myWork lassen sich Arbeitszeiten und Projekte mobil erfassen. Ich habe die App selbst konzipiert, entwickelt und über viele Jahre weiterentwickelt. Von der Architektur und Bedienbarkeit über den Betrieb bis zum Support kenne ich damit die Verantwortung für ein eigenes Softwareprodukt aus erster Hand.
         slug: mywork-produktverantwortung
         tags:
@@ -2427,10 +2427,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - it-strategie
-        client: ''
+        client: ""
       - id: P08
         type: Berufserfahrung · Marcel Russ
-        title: Web- und Mobile-Entwicklung führen
+        title: "Web- und Mobile-Teams führen"
         text: Bei HUGO BOSS habe ich Web- und Mobile-Teams geführt und Verantwortung für digitale Produkte übernommen. Technische Entscheidungen, Personalführung und die Zusammenarbeit verteilter Entwicklungsteams gehörten dabei zusammen. Diese Erfahrung verbindet meine praktische Softwareentwicklung mit Führung und organisatorischer Verantwortung.
         slug: technische-fuehrung-web-mobile
         tags:
@@ -2443,10 +2443,10 @@ relaunch:
         - technische-fuehrung
         - organisation-delivery
         - mobile-produkte
-        client: HUGO BOSS
+        client: "HUGO BOSS"
       - id: P02
         type: Berufserfahrung · Marcel Russ
-        title: Digitale Fahrzeughandbücher
+        title: "Digitale Fahrzeughandbücher mobil zugänglich machen"
         text: Digitale Fahrzeughandbücher machen technische Informationen mobil zugänglich. In verschiedenen beruflichen Phasen habe ich an der Entwicklung und technischen Leitung der Anwendungen und zugehöriger Content-Werkzeuge gearbeitet. Dazu gehörten Internationalisierung, Qualitätssicherung sowie die Zusammenarbeit mit einem Nearshore-Team.
         slug: mobile-fahrzeughandbuecher
         tags:
@@ -2457,10 +2457,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
-        client: Mercedes-Benz Guides
+        client: "Mercedes-Benz"
       - id: P13
         type: Kundenmandat · mehr.wert
-        title: Gemeinsame Arbeitsgrundlagen für zwölf Squads
+        title: "Gemeinsame Arbeitsgrundlagen für zwölf Squads schaffen"
         text: 'Für zwölf Squads schaffen und begleiten wir gemeinsame Grundlagen für Software-Delivery: eine Community of Practice, abgestimmte Qualitätskriterien und Unterstützung bei ihrer Anwendung im Arbeitsalltag. So erhalten Teams einen gemeinsamen Rahmen, um Abstimmungen zu erleichtern und Verbesserungen gezielt weiterzuentwickeln.'
         slug: viridium-software-delivery
         tags:
@@ -2471,10 +2471,10 @@ relaunch:
         filter_ids:
         - organisation-delivery
         - it-strategie
-        client: Viridium
+        client: "Viridium"
       - id: P14
         type: Kundenmandat · mehr.wert
-        title: Roadmap für KI-gestützte Softwareentwicklung
+        title: "KI-gestützte Softwareentwicklung strategisch ausrichten"
         text: Ein erfahrenes Entwicklungsteam wollte die Möglichkeiten von KI im Softwareentwicklungsprozess strategisch einordnen. Wir haben einen Workshop konzipiert und begleitet, in dem Ziele, Kundennutzen und Prioritäten gemeinsam geschärft wurden. Daraus entstand eine abgestimmte Roadmap für die nächsten Schritte.
         slug: techfoundry-strategischer-workshop
         tags:
@@ -2487,10 +2487,10 @@ relaunch:
         - ki-sdlc
         - it-strategie
         - organisation-delivery
-        client: HUGO BOSS
+        client: "HUGO BOSS"
       - id: P03
         type: Berufserfahrung · Marcel Russ
-        title: Mobile Fertigungslogistik für Landmaschinen
+        title: "Fertigungslogistik mobil unterstützen"
         text: Für Kverneland habe ich an einer Android-Lösung mitgearbeitet, die Vormontage und Hauptfertigung besser aufeinander abstimmt. Das Vorhaben verband das Verständnis realer Produktionsabläufe mit Softwarearchitektur, technischer Koordination und Einführung vor Ort. So wurde eine konkrete Fertigungsaufgabe mobil unterstützt.
         slug: mobile-fertigungslogistik
         tags:
@@ -2501,10 +2501,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
-        client: Kverneland
+        client: "Kverneland"
       - id: P10
         type: Berufserfahrung · Marcel Russ
-        title: Eigene Barcode-Scanning-Bibliothek für Store-Apps
+        title: "Eine eigene Barcode-Scanning-Bibliothek entwickeln"
         text: Für iOS-Anwendungen im Handel wurde im HUGO-BOSS-Umfeld eine eigene Barcode-Scanning-Bibliothek entwickelt und integriert. Sie ersetzte eine kostenpflichtige Drittanbieterkomponente. Das Beispiel zeigt, wie eine konkrete technische Lösung mit Entscheidungen über Anbieterabhängigkeiten und langfristige Wartbarkeit zusammenhängt.
         slug: mobile-scanning-bibliothek
         tags:
@@ -2517,10 +2517,10 @@ relaunch:
         - mobile-produkte
         - it-strategie
         - modernisierung
-        client: HUGO BOSS
+        client: "HUGO BOSS"
       - id: P04
         type: Berufserfahrung · Marcel Russ
-        title: Fahrzeugdaten per Kamera erfassen
+        title: "Fahrzeugdaten per Kamera erfassen"
         text: Bei der Fahrzeugannahme sollen Kennzeichen und Fahrzeugidentifikationsnummern schnell und zuverlässig erfasst werden. In einem Automotive-Projekt entstand dafür eine iOS-Lösung mit optischer Texterkennung. Ich war an der technischen Ausarbeitung und Umsetzung der mobilen Anwendung beteiligt.
         slug: ocr-fahrzeugdaten-aftersales
         tags:
@@ -2529,10 +2529,10 @@ relaunch:
         url: "/projects/ocr-fahrzeugdaten-aftersales.html"
         filter_ids:
         - mobile-produkte
-        client: ''
+        client: "Automotive-Projekt"
       - id: P05
         type: Berufserfahrung · Marcel Russ
-        title: Standortbezogene Informationen am Messestand
+        title: "Standortbezogene Messeinformationen bereitstellen"
         text: Für Bosch Power Tools entstand eine mobile Messeanwendung, die Besuchern standortbezogene Informationen bereitstellte. Zum Einsatz kam iBeacon-Technologie. Ich verantwortete die technische Konzeption und Projektkoordination und verband die Positionsbestimmung mit der passenden Darstellung von Inhalten.
         slug: ibeacon-messeinformationen
         tags:
@@ -2543,10 +2543,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
-        client: Bosch Power Tools
+        client: "Bosch Power Tools"
       - id: P06
         type: Berufserfahrung · Marcel Russ
-        title: Lieferaufträge mobil koordinieren
+        title: "Mobile Lieferkoordination prototypisch erproben"
         text: Für einen Logistikdienstleister wurde ein mobiler Prototyp entwickelt, mit dem Lieferaufträge erfasst und für die Disposition sichtbar gemacht werden konnten. Ich verantwortete die Konzeption und technische Steuerung der plattformübergreifenden Umsetzung mit Xamarin. Dabei kamen mobile Standortdaten und zentrale Koordination zusammen.
         slug: mobile-lieferkoordination
         tags:
@@ -2557,10 +2557,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
-        client: ''
+        client: "Logistikprojekt"
       - id: P07
         type: Eigenes Produkt · Marcel Russ
-        title: myMoney – Persönliche Finanzen verwalten
+        title: "myMoney – Persönliche Finanzen verwalten"
         text: Mit myMoney habe ich eine iOS-App entwickelt, um Einnahmen und Ausgaben zu erfassen und auszuwerten. Von der Produktidee über Design und Entwicklung bis zur App-Store-Veröffentlichung lag die Verantwortung bei mir. Auch die weitere Pflege gehörte zum Produktalltag.
         slug: mymoney-finanzverwaltung
         tags:
@@ -2569,10 +2569,10 @@ relaunch:
         url: "/projects/mymoney-finanzverwaltung.html"
         filter_ids:
         - mobile-produkte
-        client: ''
+        client: ""
       - id: P09
         type: Berufserfahrung · Marcel Russ
-        title: Gemeinsame UI-Bausteine für Webanwendungen
+        title: "Wiederverwendbare UI-Bausteine für Webanwendungen schaffen"
         text: Bei HUGO BOSS wurde an einer Angular-Komponentenbibliothek gearbeitet, um wiederverwendbare Oberflächenbausteine für Webanwendungen bereitzustellen. Ich brachte die Perspektive aus technischer Führung und teamübergreifender Abstimmung ein. Einheitliche technische Grundlagen können Gestaltung und Weiterentwicklung erleichtern.
         slug: web-komponentenbibliothek
         tags:
@@ -2585,10 +2585,10 @@ relaunch:
         - it-strategie
         - technische-fuehrung
         - organisation-delivery
-        client: HUGO BOSS
+        client: "HUGO BOSS"
       - id: P15
         type: Berufserfahrung · Marcel Russ
-        title: Bewegungsanalyse mit smartem Sport-Shirt und App
+        title: "Bewegungsanalyse mit Sensorik und App erproben"
         text: Ein Innovationsvorhaben bei HUGO BOSS verband Sensorik, Algorithmen und eine App zur Visualisierung von Bewegungsabläufen. Ich war im technischen Entwicklungsumfeld an der Abstimmung zwischen mobilen Anwendungen, internen Teams, Nearshore-Entwicklern und spezialisierten Partnern beteiligt.
         slug: smartes-sportshirt-bewegungsanalyse
         tags:
@@ -2599,10 +2599,10 @@ relaunch:
         filter_ids:
         - mobile-produkte
         - technische-fuehrung
-        client: HUGO BOSS
+        client: "HUGO BOSS"
       - id: P16
         type: Initiative · Green Agile
-        title: Green Agile Guide – Nachhaltigkeit im agilen Alltag
+        title: "Green Agile Guide – Nachhaltigkeit im agilen Alltag"
         text: Der Green Agile Guide beschreibt, wie Bewusstsein und Verantwortung in bestehende agile Ziele und Arbeitsweisen einfließen können. Er verbindet nachhaltige Softwareentwicklung mit alltäglichen Produkt- und Teamentscheidungen – ohne zusätzliche Rollen oder Methodenbürokratie als Voraussetzung.
         slug: green-agile-guide
         tags:
@@ -2613,7 +2613,7 @@ relaunch:
         filter_ids:
         - nachhaltigkeit
         - organisation-delivery
-        client: ''
+        client: ""
       title: Projekte & Erfahrung
       meta_title: Projekte & Erfahrung | mehr.wert
       url: "/projects.html"
