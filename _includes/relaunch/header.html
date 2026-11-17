@@ -4,13 +4,13 @@
 {% endif %}
 <header class="mw-header">
   <div class="mw-shell mw-header-inner">
-    <a class="mw-brand" href="{{ site.baseurl }}/"><img src="{{ '/assets/images/logo.svg' | asset_url }}" width="150" height="52" alt="{{ copy.ui.logo_alt | escape }}"></a>
-    <nav class="mw-desktop-nav" aria-label="{{ copy.ui.menu }}">{% include relaunch/menu.html %}</nav>
-    <details class="mw-mobile-nav"><summary>{{ copy.ui.menu }}</summary><nav aria-label="{{ copy.ui.menu }}">{% include relaunch/menu.html %}</nav></details>
-    <nav class="mw-languages" aria-label="{{ copy.ui.languages }}">
+    <a class="mw-brand" href="{{ site.baseurl }}/"><img src="{{ '/assets/images/logo.svg' | asset_url }}" width="150" height="52" alt="{{ copy.common.brand.logo_alt | escape }}"></a>
+    <nav class="mw-desktop-nav" aria-label="{{ copy.common.navigation.label }}">{% include relaunch/menu.html %}</nav>
+    <details class="mw-mobile-nav"><summary>{{ copy.common.navigation.label }}</summary><nav aria-label="{{ copy.common.navigation.label }}">{% include relaunch/menu.html %}</nav></details>
+    <nav class="mw-languages" aria-label="{{ copy.common.navigation.languages }}">
       <a href="{{ language_root }}{{ german_route }}" lang="de" hreflang="de"{% if site.lang == 'de' %} aria-current="page"{% endif %}>DE</a>
       <a href="{{ language_root }}/en{{ english_route }}" lang="en" hreflang="en"{% if site.lang == 'en' %} aria-current="page"{% endif %}>EN</a>
     </nav>
   </div>
 </header>
-<div class="mw-draft"><div class="mw-shell">{{ copy.ui.draft }}</div></div>
+<div class="mw-draft"><div class="mw-shell">{{ copy.common.header.draft }}</div></div>

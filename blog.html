@@ -1,7 +1,7 @@
 ---
 layout: blog-review
-title: blog-landing.title
-description: blog-landing.subtitle
+title: pages.blog.header.title
+description: pages.blog.header.subtitle
 ---
 
 <section class="mw-hero mw-blog-hero"><div class="mw-shell"><h1>{% t page.title %}</h1><p class="mw-lead">{% t page.description %}</p></div></section>
@@ -11,14 +11,14 @@ description: blog-landing.subtitle
     <div id="blog-search-wrapper" class="blog-search-wrapper">
       <div class="search-input-group">
         <i class="ti-search search-icon"></i>
-        <input type="search" id="blog-search-input" class="form-control search-input" placeholder="{% t 'blog-search.placeholder' %}" autocomplete="off" />
-        <button id="blog-search-clear" class="search-clear-btn d-none" type="button" aria-label="{% t shared_ui.clear_search %}">
+        <input type="search" id="blog-search-input" class="form-control search-input" placeholder="{% t 'pages.blog.search.placeholder' %}" autocomplete="off" />
+        <button id="blog-search-clear" class="search-clear-btn d-none" type="button" aria-label="{% t pages.blog.ui.clear_search %}">
           <i class="ti-close"></i>
         </button>
       </div>
       <div id="blog-search-overlay" class="search-result-overlay d-none">
         <div id="blog-search-results" class="search-results"></div>
-        <div id="blog-search-no-results" class="no-results text-center d-none">{% t 'blog-search.no_results' %}</div>
+        <div id="blog-search-no-results" class="no-results text-center d-none">{% t 'pages.blog.search.no_results' %}</div>
       </div>
     </div>
   </div>

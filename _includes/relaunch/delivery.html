@@ -1,4 +1,4 @@
-{% assign delivery = site.translations[site.lang].relaunch.pages.delivery %}
+{% assign delivery = site.translations[site.lang].pages.services.software_delivery %}
 <div class="mw-strategy mw-delivery">
   <section class="mw-hero">
     <div class="mw-shell">
@@ -57,13 +57,13 @@
       </div>
     </div>
   </section>
-{% assign voice_controls = site.translations[site.lang].relaunch.pages.home.voice %}
+{% assign voice_controls = site.translations[site.lang].common.carousel %}
 <section class="mw-section mw-delivery-voice mw-testimonials" aria-labelledby="testimonials-title" data-testimonials>
   <div class="mw-shell">
     <h2 id="testimonials-title">{{ delivery.voice.title }}</h2>
     <p id="testimonials-instructions" class="mw-visually-hidden" hidden data-testimonial-instructions>{{ voice_controls.instructions }}</p>
     <div class="mw-testimonials-track" id="testimonials-track">
-      {% for item in site.translations[site.lang].ac_testimonials.item %}
+      {% for item in site.translations[site.lang].common.testimonials.coaching.item %}
       <figure class="mw-testimonial">
         <blockquote><p>{{ item.text }}</p></blockquote>
         <figcaption><strong>{{ item.author }}</strong><span>{{ item.role }}</span>{% if item.origin %}<small>{{ item.origin }}</small>{% endif %}</figcaption>

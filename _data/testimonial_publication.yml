@@ -1,136 +1,93 @@
 ---
 checked_on: '2026-11-17'
-rule: Only verbatim quotations and attribution already published on mehrwert.tech,
-  separately verified per language.
+rule: Only verbatim quotations and attribution already published on mehrwert.tech, separately verified per language.
 entries:
 - language: de
-  source_key: ac_testimonials
+  source_key: common.testimonials.coaching
   author: Lucas Schleweis
   url: https://mehrwert.tech/services/agile-transformation-coaching.html
   quote_sha256: 5368d6c92b5ee7c0da9bf35403f2225a95849ec601264f5b42043f57ee4a324c
   retrieved_html_sha256: 9e2d3de06d81e95e0d5750c0cb83d3181813c2340e34ff39121c5332ceec29c3
 - language: de
-  source_key: ac_testimonials
+  source_key: common.testimonials.coaching
   author: Exxeta AG
   url: https://mehrwert.tech/services/agile-transformation-coaching.html
   quote_sha256: 1ffd16b9a5b3ed30f37ad409f223df2eb3980f7d8d2ddb85f1d5932b906a854c
   retrieved_html_sha256: 9e2d3de06d81e95e0d5750c0cb83d3181813c2340e34ff39121c5332ceec29c3
 - language: de
-  source_key: ac_testimonials
+  source_key: common.testimonials.coaching
   author: Jacques Dunselmann
   url: https://mehrwert.tech/services/agile-transformation-coaching.html
   quote_sha256: e538110629a143d877d64b8759df10834e1cfacba90d28bff183db4893811a1a
   retrieved_html_sha256: 9e2d3de06d81e95e0d5750c0cb83d3181813c2340e34ff39121c5332ceec29c3
 - language: de
-  source_key: ac_testimonials
+  source_key: common.testimonials.coaching
   author: Feedback zur Zusammenarbeit
   url: https://mehrwert.tech/services/agile-transformation-coaching.html
   quote_sha256: 4bc0a6ebcf102e386e5e85cac6b9ba21ed6635f0fb7ba5bda39b6591fc092e8b
   retrieved_html_sha256: 9e2d3de06d81e95e0d5750c0cb83d3181813c2340e34ff39121c5332ceec29c3
 - language: de
-  source_key: cto_testimonials
+  source_key: common.testimonials.leadership
   author: Michael Weinheimer
   url: https://mehrwert.tech/services/fractional-cto.html
   quote_sha256: 1cbb37be8d6bd9a2f78aa8e967fd27535461293766beec19a6050e8a2e151da7
   retrieved_html_sha256: 115e6383c090cdbbe2c51e7f04e1cc2f4791f2393f62d95bfb3a7fd4930da5b2
 - language: de
-  source_key: cto_testimonials
-  author: Thomas Weiland
-  url: https://mehrwert.tech/services/fractional-cto.html
-  quote_sha256: 266dc9d20ab28b13009341daa4f56aa856d11e34a4cb31e69767d98e393384b2
-  retrieved_html_sha256: 115e6383c090cdbbe2c51e7f04e1cc2f4791f2393f62d95bfb3a7fd4930da5b2
-- language: de
-  source_key: cto_testimonials
-  author: Konstantin Pasternack
-  url: https://mehrwert.tech/services/fractional-cto.html
-  quote_sha256: 203e331fd1cacd31d98e81ee383dbc6e02a791a56faaabbedc2f6fb202e41af4
-  retrieved_html_sha256: 115e6383c090cdbbe2c51e7f04e1cc2f4791f2393f62d95bfb3a7fd4930da5b2
-- language: de
-  source_key: cto_testimonials
-  author: Exxeta AG
-  url: https://mehrwert.tech/services/fractional-cto.html
-  quote_sha256: b38371fd75015cdfe6d149cf21ad135c31c9a92e7244eb724f364d071c8e9204
-  retrieved_html_sha256: 115e6383c090cdbbe2c51e7f04e1cc2f4791f2393f62d95bfb3a7fd4930da5b2
-- language: de
-  source_key: cto_testimonials
-  author: Hugo Boss AG
-  url: https://mehrwert.tech/services/fractional-cto.html
-  quote_sha256: e47dfcdbea65b72e12e54dc8519e60f444d15a1e5fd7d9cb73809e4407489c30
-  retrieved_html_sha256: 115e6383c090cdbbe2c51e7f04e1cc2f4791f2393f62d95bfb3a7fd4930da5b2
-- language: de
-  source_key: gsp_training
+  source_key: pages.training.gsp
   author: Ivo Ganchev
   url: https://mehrwert.tech/trainings/gsp.html
   quote_sha256: aab80a26e71df347139f5bbd809cd08639af32a2b5ed0d6e7f0cd70a0d969719
   retrieved_html_sha256: 5ec5a413d490fb523d5439af85cd12cbe186ecc9d89735ee4ba74bb62c111f63
 - language: de
-  source_key: gsp_training
+  source_key: pages.training.gsp
   author: Marietta Manz
   url: https://mehrwert.tech/trainings/gsp.html
   quote_sha256: 95a2795af18fe58b337071326f048c327c9c48239aa49a4d9384fcd6b461fd55
   retrieved_html_sha256: 5ec5a413d490fb523d5439af85cd12cbe186ecc9d89735ee4ba74bb62c111f63
 - language: de
-  source_key: gsp_training
+  source_key: pages.training.gsp
   author: Marcus Danzer
   url: https://mehrwert.tech/trainings/gsp.html
   quote_sha256: c9f967034c62010e1be754eba1acc26bba61a4d20742b2526fdd742f10e2901e
   retrieved_html_sha256: 5ec5a413d490fb523d5439af85cd12cbe186ecc9d89735ee4ba74bb62c111f63
 - language: en
-  source_key: ac_testimonials
+  source_key: common.testimonials.coaching
   author: Lucas Schleweis
   url: https://mehrwert.tech/en/services/agile-transformation-coaching.html
   quote_sha256: 2ff78ec9b31652ce62b5f7b1ba3627dba6480691ff5dfbabe808d4d0f07b33bb
   retrieved_html_sha256: 1f57e1a8a08ea4628930cb7fa7a0b146f11071e3d507572ecfba766abf7e246f
 - language: en
-  source_key: ac_testimonials
+  source_key: common.testimonials.coaching
   author: Exxeta AG
   url: https://mehrwert.tech/en/services/agile-transformation-coaching.html
   quote_sha256: e515c7f8bbe7c34963a5d039ca24677dc5a4e266da42a93663731eb75eab2be8
   retrieved_html_sha256: 1f57e1a8a08ea4628930cb7fa7a0b146f11071e3d507572ecfba766abf7e246f
 - language: en
-  source_key: ac_testimonials
+  source_key: common.testimonials.coaching
   author: Jacques Dunselmann
   url: https://mehrwert.tech/en/services/agile-transformation-coaching.html
   quote_sha256: fb18aeda213ca52ecb91e26c7508dfb4b2fdce27fc1e3280cc24b0e10b308faa
   retrieved_html_sha256: 1f57e1a8a08ea4628930cb7fa7a0b146f11071e3d507572ecfba766abf7e246f
 - language: en
-  source_key: ac_testimonials
+  source_key: common.testimonials.coaching
   author: Collaboration Feedback
   url: https://mehrwert.tech/en/services/agile-transformation-coaching.html
   quote_sha256: c382ab432f5bf98f634caf967fd3337b93a5cf9d1182bd6e724f127e3df5b047
   retrieved_html_sha256: 1f57e1a8a08ea4628930cb7fa7a0b146f11071e3d507572ecfba766abf7e246f
 - language: en
-  source_key: cto_testimonials
-  author: Konstantin Pasternack
-  url: https://mehrwert.tech/en/services/fractional-cto.html
-  quote_sha256: bbd12a0a68f7c831db3069981d450bbcebd9e20a238ef5468e1bccfa13164112
-  retrieved_html_sha256: 8cd0e5b0c1906a54d5638e47e512ff86ca9e954bfd114df0f4c237de233b0881
-- language: en
-  source_key: cto_testimonials
-  author: Exxeta AG
-  url: https://mehrwert.tech/en/services/fractional-cto.html
-  quote_sha256: 7d0c82686aa2f16f1f646c89b6d56b43b90caee89b0a4d93adc5ce8ac3728a25
-  retrieved_html_sha256: 8cd0e5b0c1906a54d5638e47e512ff86ca9e954bfd114df0f4c237de233b0881
-- language: en
-  source_key: cto_testimonials
-  author: Hugo Boss AG
-  url: https://mehrwert.tech/en/services/fractional-cto.html
-  quote_sha256: '081ac88da099a4cb9ab4e8538cb5b5ce08cf30afa56d163c9292788ca5b23e12'
-  retrieved_html_sha256: 8cd0e5b0c1906a54d5638e47e512ff86ca9e954bfd114df0f4c237de233b0881
-- language: en
-  source_key: gsp_training
+  source_key: pages.training.gsp
   author: Ivo Ganchev
   url: https://mehrwert.tech/en/trainings/gsp.html
   quote_sha256: aab80a26e71df347139f5bbd809cd08639af32a2b5ed0d6e7f0cd70a0d969719
   retrieved_html_sha256: 04204c7e6ae903766fed6f9032a85a7ed8b5889608a5c54fc8a5da81bbb335af
 - language: en
-  source_key: gsp_training
+  source_key: pages.training.gsp
   author: Marietta Manz
   url: https://mehrwert.tech/en/trainings/gsp.html
   quote_sha256: 9fe987126bc605ff1a73865de78af394fa4f7b677cb05d2efc11cb35b1496a9c
   retrieved_html_sha256: 04204c7e6ae903766fed6f9032a85a7ed8b5889608a5c54fc8a5da81bbb335af
 - language: en
-  source_key: gsp_training
+  source_key: pages.training.gsp
   author: Marcus Danzer
   url: https://mehrwert.tech/en/trainings/gsp.html
   quote_sha256: c9f967034c62010e1be754eba1acc26bba61a4d20742b2526fdd742f10e2901e

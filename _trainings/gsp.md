@@ -1,13 +1,13 @@
 ---
 layout: training
-title: gsp_training.title
-description: gsp_training.description
-cta-title: gsp_training.cta.title
-cta-action: gsp_training.cta.action
+title: pages.training.gsp.title
+description: pages.training.gsp.description
+cta-title: pages.training.gsp.cta.title
+cta-action: pages.training.gsp.cta.action
 ---
 
 {% include page_header.html %}
-{% assign gsp_training = site.translations[site.lang].gsp_training %}
+{% assign gsp_training = site.translations[site.lang].pages.training.gsp %}
 
 <!-- Training Start -->
 <section class="service-main section">
@@ -58,7 +58,6 @@ cta-action: gsp_training.cta.action
 </section>
 
 <section class="position-relative section-sm bg-primary">
-	<!-- <img <img src="{{ gsp_training.banner.image }}" alt="" class="overlay-shape">"> -->
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-12 mb-5 mb-lg-0 text-center">

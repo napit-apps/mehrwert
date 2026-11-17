@@ -48,7 +48,7 @@
     </section>
     {% if case.testimonial.published %}<section class="mw-case-section mw-case-prose mw-case-testimonial" aria-labelledby="case-testimonial">
       <h2 id="case-testimonial">{{ case.testimonial.title }}</h2>
-      {% assign testimonial = site.translations[site.lang][case.testimonial.source_key].item | where: 'author', case.testimonial.source_author | first %}
+      {% assign testimonial = site.translations[site.lang].common.testimonials[case.testimonial.source_key].item | where: 'author', case.testimonial.source_author | first %}
       <figure><blockquote><p>{{ testimonial.text }}</p></blockquote><figcaption>{{ testimonial.author }} · {{ testimonial.role }}</figcaption></figure>
     </section>{% endif %}
     <section class="mw-case-section mw-case-prose" aria-labelledby="case-transfer">

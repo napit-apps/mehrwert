@@ -1,4 +1,5 @@
 ---
+title: pages.testimonial_archives.title_02
 name: "Konstantin Pasternack"
 subtitle: "Head of Trading IT - EnBW"
 link: "https://www.linkedin.com/in/konstantin-pasternack-2b4723168/"

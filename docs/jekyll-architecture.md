@@ -24,26 +24,64 @@ Diese Sprachverzweigungen sind entfernt. Das bestehende
 
 ## Inhalte und Übersetzungen
 
-`_i18n/de.yml` und `_i18n/en.yml` behalten die etablierten Schlüssel:
-`relaunch.pages`, `relaunch.contact_page`, `relaunch.portfolio_cases*`, Navigation
-und UI sowie `ac_testimonials` und die vorhandenen Blog-/Kontakt-Schlüssel.
-Die aktuell gerenderten Zweige haben dieselbe Struktur und Reihenfolge.
-Historische, nicht mehr gerenderte deutsche Felder wurden nicht redaktionell
-bereinigt. Sie sind kein Fallback für englische Inhalte.
+`_i18n/de.yml` und `_i18n/en.yml` sind die einzigen aktiven Sprachdateien.
+Sie haben dieselbe vollständige Schlüsselstruktur; es gibt keinen separaten
+Relaunch-Inhaltsbereich und keine Alias-Schlüssel oder historischen Fallbacks.
 
-`_plugins/i18n_contract.rb` prüft beim Build die benötigten Strukturen beider
-Sprachen. Fehlende Schlüssel oder abweichende Array-Längen brechen den Build
-mit dem konkreten Pfad ab. Beim Hinzufügen neuer Seitentypen ist der geprüfte
-Inhaltsumfang entsprechend zu ergänzen; neue Felder innerhalb bestehender
-aktiver Zweige werden automatisch mitgeprüft.
+- `common`: Marke, Navigation, Header, Footer, gemeinsames Kontaktformular,
+  Karussell-Bedienung, veröffentlichte Zitatquellen und globale SEO-Texte.
+- `pages.home`, `pages.services.it_strategy`,
+  `pages.services.software_delivery`, `pages.about`, `pages.contact`:
+  aktuelle Seiteninhalte und Metadaten.
+- `pages.portfolio`: Übersicht mit `grid_entries`, Filtern und Bedienung;
+  `details.<bestehende Projekt-ID>` enthält die 16 Case Studies sowie die
+  weiterhin erreichbaren Bestandsseiten NOE und Mobile-Software-Projekte.
+  Die früheren redaktionellen Viererblöcke sind aufgelöst.
+- `pages.blog`: Übersicht, Suche, Teilen, Pagination, Tag-Archive und Kontakt.
+- `pages.training`: bestehendes Green-Software-Training und dessen Kontakttext.
+- `pages.error`, `pages.testimonial_archives`: bestehende Sonderseiten/Metadaten.
 
-`_data/translation_review.yml` kennzeichnet neue/geänderte englische Texte als
-`pending_editorial_review`, mit Schlüssel und Prüfsumme des deutschen Ausgangs.
-Die Kennzeichnung wird nicht auf der Website ausgegeben. Freigabe erforderlich
-für die aktuellen Texte von Startseite, Leistungen, Über mehr.wert, Kontakt,
-Portfolioübersicht und Case Studies einschließlich übersetzter Zitate/Metadaten.
-Passende bestehende UI-/Servicebezeichnungen, der englische Hero-Claim,
-Blogtexte und `ac_testimonials` bleiben erhalten.
+Templates lesen `site.translations[site.lang]` oder verwenden den bestehenden
+`{% t ... %}`-Tag. Front Matter verweist auf dieselben Schlüssel. Die bestehenden
+technischen Layout-/Include-Namen unter `relaunch/` bleiben erhalten; sie
+bezeichnen gemeinsame Templates, keine zweite Inhaltsquelle.
+
+`_plugins/i18n_contract.rb` prüft jetzt die vollständigen Sprachdateien ohne
+historische Ausnahmeliste: doppelte YAML-Schlüssel, fehlende/zusätzliche Felder,
+Typen, Array-Längen, leere benötigte Übersetzungen, veröffentlichte Zitatverweise
+und verwaiste Redaktionsfreigaben führen zum Build-Fehler.
+
+`_data/translation_review.yml` enthält weiterhin 1.111 aktive englische
+Freigabeeinträge mit ihren unveränderten deutschen Prüfsummen. 22 Einträge zu
+entfernten, nicht gerenderten Feldern wurden mit diesen Feldern ausgemustert.
+Es wurden keine Übersetzungen ergänzt oder freigegeben.
+
+Die veröffentlichten Zitate bleiben wortgetreu. Die gemeinsame Zitatstruktur
+enthält nur tatsächlich verwendete Quellen. Für Michael Weinheimer existiert
+keine freigegebene englische Fassung: Der englische Datensatz bleibt explizit
+`published: false` mit leerem Zitat und leerer Rollenangabe; er wird nicht
+angezeigt und löst keinen deutschen Fallback aus. Der Veröffentlichungsnachweis
+in `_data/testimonial_publication.yml` enthält die 15 weiterhin verwendeten
+sprachbezogenen Originalnachweise. Nicht mehr verwendete Nachweise und Inhalte
+sind weiterhin in der Git-Historie nachvollziehbar.
+
+### Prüfung der Konsolidierung
+
+Die Bestandsaufnahme kombinierte den statischen Include-/Layout-Graphen,
+Front Matter, Plugins und JavaScript mit einer temporären Laufzeit-Erfassung
+der tatsächlich gelesenen YAML-Felder. Dynamische Projekt-IDs, Zitatquellen,
+Listen, Filter-IDs und Tag-Archive wurden zusätzlich geprüft. Die derzeit
+inaktive Pagination behält ihre verwendbaren UI-Schlüssel. Nicht eingebundene
+historische Templates wurden mit ihren ungenutzten Inhalten entfernt.
+
+Vergleich mit dem Produktions-Build des vorherigen Commits: **157 HTML-Seiten
+mit identischen Texten, Elementen und Attributen**, einschließlich Metadaten,
+Links, Zitaten und Filterdaten. Nur Kommentare und bedeutungslose Leerzeichen
+wurden beim Vergleich ausgeklammert. Blogartikel, Rechtstexte, CSS und JavaScript
+blieben unverändert. Produktions- und Test-Build: jeweils 157 Seiten ohne
+Prüffehler; `noindex` ausschließlich im Test-Build. Browserprüfung: 156 Ansichten
+(DE/EN bei 1440, 390 und 320 Pixeln) ohne Fehler, einschließlich Filter,
+Sprachlinks, Karussells, Suche, Mobilmenü und bewusster Kartenaktivierung.
 
 ## URLs und Testumgebung
 
@@ -70,6 +108,7 @@ müssen URL und baseurl des jeweiligen Test-Repositories konfiguriert werden.
 ```sh
 JEKYLL_ENV=production bundle exec jekyll build --destination /tmp/mw-production
 python3 _scripts/check-site.py /tmp/mw-production
+bundle exec ruby _scripts/test-i18n-contract.rb
 bundle exec jekyll build --config _config.yml,_config.test.yml --destination /tmp/mw-test
 python3 _scripts/check-site.py /tmp/mw-test --test
 ```

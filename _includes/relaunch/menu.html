@@ -1,6 +1,6 @@
 <ul class="mw-menu">
-  <li><a href="{{ site.baseurl }}/"{% if page.url == "/" or page.url == "/index.html" %} aria-current="page"{% endif %}>{{ copy.ui.home_link }}</a></li>
-{% for item in copy.navigation %}
+  <li><a href="{{ site.baseurl }}/"{% if page.url == "/" or page.url == "/index.html" %} aria-current="page"{% endif %}>{{ copy.common.navigation.home_link }}</a></li>
+{% for item in copy.common.navigation.items %}
   <li>{% if item.children %}<details><summary>{{ item.title }}</summary><ul>{% for child in item.children %}<li><a href="{{ site.baseurl }}{{ child.url }}"{% if current_route == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a></li>{% endfor %}</ul></details>{% else %}<a href="{{ site.baseurl }}{{ item.url }}"{% if current_route == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endif %}</li>
 {% endfor %}
 </ul>

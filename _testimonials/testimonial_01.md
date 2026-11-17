@@ -1,4 +1,5 @@
 ---
+title: pages.testimonial_archives.title_01
 name: "Jacques Dunselman"
 subtitle: "Agile Transformation Lead - PMx"
 link: "https://www.pmx.nl/"
