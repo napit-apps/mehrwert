@@ -170,3 +170,5 @@ exclude:
   - deploy.sh
   - deploy-testpage.sh
   - docs
+  - README.md
+  - assets/plugins/slick-carousel/slick/config.rb

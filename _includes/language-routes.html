@@ -1,4 +1,4 @@
-{% assign current_route = page.url | default: '/' %}
+{% assign current_route = page.redirect_to | default: page.url | default: '/' %}
 {% assign german_route = current_route %}
 {% assign english_route = current_route %}
 {% for routes in site.data.blog_language_routes %}

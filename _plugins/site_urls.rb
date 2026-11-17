@@ -26,3 +26,10 @@ module MehrwertUrls
   end
 end
 Liquid::Template.register_filter(MehrwertUrls)
+
+# The multilingual build reuses one Site object. URL caches must not carry the
+# German baseurl into the English sitemap/feed generated in the next pass.
+Jekyll::Hooks.register :site, :pre_render do |site|
+  site.filter_cache.delete(:absolute_url)
+  site.filter_cache.delete(:relative_url)
+end

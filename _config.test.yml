@@ -9,3 +9,5 @@ exclude:
   - deploy-testpage.sh
   - docs
   - CNAME
+  - README.md
+  - assets/plugins/slick-carousel/slick/config.rb

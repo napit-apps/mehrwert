@@ -26,6 +26,7 @@
   .mw-header { position: sticky; top: 0; z-index: 50; background: #251d39; color: #fff; }
   .mw-header-inner { display: flex; align-items: center; gap: 24px; min-height: 88px; }
   .mw-brand { flex-shrink: 0; }
+  .mw-brand img { display: block; width: 205px; height: auto; }
   .mw-brand img, .mw-footer img { object-fit: contain; }
   .mw-desktop-nav { margin-left: auto; }
   .mw-menu, .mw-menu ul { list-style: none; padding: 0; margin: 0; }
@@ -37,7 +38,6 @@
   .mw-menu [aria-current='page'], .mw-languages [aria-current='page'] { text-decoration: underline; text-decoration-color: #61bb95; text-underline-offset: 6px; }
   .mw-languages { display: flex; gap: 12px; font-size: .8rem; }
   .mw-mobile-nav { display: none; }
-  .mw-draft { padding-block: 8px; background: #e5ede7; color: #35513f; font-size: .75rem; letter-spacing: .03em; }
   .mw-hero { background: #251d39; color: #fff; padding-block: 76px 64px; }
   .mw-hero-grid { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 64px; align-items: center; }
   .mw-hero-text { display: block; max-width: 1000px; }
@@ -127,7 +127,7 @@
     .mw-contact-grid { gap: 40px; }
     .mw-visual { padding: 24px; }
     .mw-header-inner { gap: 8px; }
-    .mw-brand img { width: 125px; }
+    .mw-brand img { width: 164px; height: auto; }
   }
   @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; } }
 }

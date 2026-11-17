@@ -8,7 +8,7 @@ common:
     - title: Services
       children:
       - title: IT strategy & modernization
-        url: "/services/fractional-cto.html"
+        url: "/services/it-strategy-modernisation.html"
       - title: Organization & software delivery
         url: "/services/agile-transformation-coaching.html"
     - title: Projects & experience
@@ -60,7 +60,6 @@ common:
   brand:
     logo_alt: mehr.wert – home
   header:
-    draft: Working draft · content and references awaiting approval
     skip: Skip to content
   footer:
     text: Personal responsibility. Sustainably better software.
@@ -211,8 +210,9 @@ pages:
           answer: We will be happy to come to you for the training. Alternatively, we are happy to invite you to our office in Kirchheim unter Teck
   error:
     not_found:
-      title: '404'
-      description: 404 page not found
+      title: Unfortunately, this is where the path ends.
+      description: The page you are looking for is not available at this address. It may have been moved or renamed.
+      link: Back to the homepage
   testimonial_archives:
     title_01: Testimonial_01
     title_02: Testimonial_02
@@ -238,7 +238,7 @@ pages:
       items:
       - title: IT strategy & modernization
         text: 'We clarify the risks and opportunities in your IT and develop the next sensible steps together. Whether modernising, replacing or continuing to operate: decisions should fit your business and build on new insights.'
-        url: "/services/fractional-cto.html"
+        url: "/services/it-strategy-modernisation.html"
         link: Explore IT strategy & modernisation
         short: Make an informed decision about the next step for your IT.
       - title: Organization & software delivery
@@ -623,7 +623,7 @@ pages:
       items:
       - title: IT Strategy & Modernisation
         text: How we provide direction for difficult technology decisions and support modernisation.
-        url: "/services/fractional-cto.html"
+        url: "/services/it-strategy-modernisation.html"
       - title: Organisation & Software Delivery
         text: How we help leadership and teams collaborate better and put changes into practice.
         url: "/services/agile-transformation-coaching.html"
@@ -871,7 +871,7 @@ pages:
     contact_button: Let's have an initial conversation
     services:
     - title: IT Strategy & Modernisation
-      url: "/services/fractional-cto.html"
+      url: "/services/it-strategy-modernisation.html"
     - title: Organisation & Software Delivery
       url: "/services/agile-transformation-coaching.html"
     details:
@@ -903,7 +903,7 @@ pages:
           - 'Whether modernising, incrementally developing or replacing it: a clear understanding of the starting point comes first. Let us discuss the decisions facing your initiative.'
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -968,7 +968,7 @@ pages:
           - 'Whether you are developing an existing application further or need to make fundamental technology decisions: considering the entire lifecycle helps you choose an appropriate path.'
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -1097,7 +1097,7 @@ pages:
           - 'Whether existing applications are being developed further or new technical requirements arise: good decisions also consider the people, tools and processes behind the software.'
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -1228,7 +1228,7 @@ pages:
           - Let's discuss what you want to achieve, which questions remain open and how different ideas can become a shared approach.
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Organisation & Software Delivery
             url: "/services/agile-transformation-coaching.html"
           - title: View all projects & experience
@@ -1293,7 +1293,7 @@ pages:
           - Whether in production, logistics or another business-critical workflow, we are happy to discuss how technical requirements fit the realities of your organisation.
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -1357,7 +1357,7 @@ pages:
           - Whether an existing library, standard software or an in-house solution, we help assess alternatives objectively and align decisions with actual requirements.
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -1420,7 +1420,7 @@ pages:
           - We help assess technical possibilities in relation to your actual requirements and derive a sensible implementation approach.
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -1480,7 +1480,7 @@ pages:
           - We help assess possibilities and limitations, clarify the right use case and develop a realistic implementation approach.
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -1540,7 +1540,7 @@ pages:
           - We help clarify requirements, risks and sensible next steps, turning an idea into a sound decision for your IT initiative.
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -1600,7 +1600,7 @@ pages:
           - We consider technology, usage and further development together so that solutions fit your company and its requirements.
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -1666,7 +1666,7 @@ pages:
           - When multiple applications and teams solve similar problems, it is worth looking at reuse, architecture and the collaboration required.
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -1727,7 +1727,7 @@ pages:
           - We consider technical possibilities, organisational prerequisites and actual value together, with a clear view of the next sensible steps.
           links:
           - title: IT Strategy & Modernisation
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
           - title: Let's have an initial conversation
@@ -1925,7 +1925,7 @@ pages:
           items:
           - title: IT Strategy & Modernisation
             text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
             number: '01'
         subtitle: IT assessment as a basis for decisions
         contact_button: Start a conversation
@@ -1951,7 +1951,7 @@ pages:
         description: Technical expertise develops when software must be created under real business conditions and work reliably.
         service:
           title: IT Strategy & Modernisation
-          url: "/services/fractional-cto.html"
+          url: "/services/it-strategy-modernisation.html"
         related:
         - title: myWork. Taking long-term responsibility for software.
           url: "/projects/mywork-produktverantwortung.html"

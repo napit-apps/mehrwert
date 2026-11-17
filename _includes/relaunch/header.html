@@ -4,7 +4,7 @@
 {% endif %}
 <header class="mw-header">
   <div class="mw-shell mw-header-inner">
-    <a class="mw-brand" href="{{ site.baseurl }}/"><img src="{{ '/assets/images/logo.svg' | asset_url }}" width="150" height="52" alt="{{ copy.common.brand.logo_alt | escape }}"></a>
+    <a class="mw-brand" href="{{ site.baseurl }}/"><img src="{{ '/assets/images/logo.png' | asset_url }}" width="205" height="42" alt="{{ copy.common.brand.logo_alt | escape }}"></a>
     <nav class="mw-desktop-nav" aria-label="{{ copy.common.navigation.label }}">{% include relaunch/menu.html %}</nav>
     <details class="mw-mobile-nav"><summary>{{ copy.common.navigation.label }}</summary><nav aria-label="{{ copy.common.navigation.label }}">{% include relaunch/menu.html %}</nav></details>
     <nav class="mw-languages" aria-label="{{ copy.common.navigation.languages }}">
@@ -13,4 +13,3 @@
     </nav>
   </div>
 </header>
-<div class="mw-draft"><div class="mw-shell">{{ copy.common.header.draft }}</div></div>

@@ -1,4 +1,15 @@
-Sitemap: https://mehrwert.tech/sitemap.xml
-
-# User-agent: GPTBot
-# Disallow: /
+---
+layout: null
+sitemap: false
+---
+# Voluntary crawler rules, not access control. Googlebot can read portfolio noindex.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+{% assign portfolio_pages = site.pages | where: 'portfolio', true | sort: 'url' %}{% for language in site.languages %}{% for entry in portfolio_pages %}{% assign route = entry.url | remove: '.html' %}{% capture path %}{{ site.baseurl_root }}{% unless language == site.default_lang %}/{{ language }}{% endunless %}{{ route }}{% endcapture %}Disallow: {{ path }}.html
+Disallow: {{ path }}$
+Disallow: {{ path }}?
+{% endfor %}{% endfor %}
+Sitemap: {{ site.url }}{{ site.baseurl_root }}/sitemap.xml
+Sitemap: {{ site.url }}{{ site.baseurl_root }}/en/sitemap.xml

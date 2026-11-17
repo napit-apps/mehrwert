@@ -8,7 +8,7 @@ common:
     - title: Leistungen
       children:
       - title: IT-Strategie & Modernisierung
-        url: "/services/fractional-cto.html"
+        url: "/services/it-strategy-modernisation.html"
       - title: Organisation & Software-Delivery
         url: "/services/agile-transformation-coaching.html"
     - title: Projekte & Erfahrung
@@ -60,7 +60,6 @@ common:
   brand:
     logo_alt: mehr.wert – Startseite
   header:
-    draft: Arbeitsfassung · Inhalte und Referenzen noch nicht freigegeben
     skip: Zum Inhalt
   footer:
     text: Persönliche Verantwortung. Nachhaltig bessere Software.
@@ -211,8 +210,9 @@ pages:
           answer: Für die Durchführung des Tainungs kommen wir sehr gerne bei Ihnen vorbei. Alternativ, laden wir Sie gerne zu uns in Kirchheim unter Teck ein.
   error:
     not_found:
-      title: '404'
-      description: 404 page not found
+      title: Hier geht es leider nicht weiter.
+      description: Die gesuchte Seite gibt es unter dieser Adresse nicht. Vielleicht wurde sie verschoben oder umbenannt.
+      link: Zur Startseite
   testimonial_archives:
     title_01: Testimonial_01
     title_02: Testimonial_02
@@ -238,7 +238,7 @@ pages:
       items:
       - title: IT-Strategie & Modernisierung
         text: 'Wir klären, welche Risiken und Möglichkeiten in Ihrer IT stecken, und entwickeln gemeinsam die nächsten sinnvollen Schritte. Ob modernisieren, ersetzen oder weiterbetreiben: Entscheidungen sollen zu Ihrem Geschäft passen und auf neuen Erkenntnissen aufbauen.'
-        url: "/services/fractional-cto.html"
+        url: "/services/it-strategy-modernisation.html"
         link: IT-Strategie & Modernisierung ansehen
         short: Den nächsten Schritt für Ihre IT fundiert entscheiden.
       - title: Organisation & Software-Delivery
@@ -623,7 +623,7 @@ pages:
       items:
       - title: IT-Strategie & Modernisierung
         text: Wie wir bei schwierigen Technologieentscheidungen Orientierung geben und Modernisierung begleiten.
-        url: "/services/fractional-cto.html"
+        url: "/services/it-strategy-modernisation.html"
       - title: Organisation & Software-Delivery
         text: Wie wir Führung und Teams helfen, besser zusammenzuarbeiten und Veränderungen im Alltag umzusetzen.
         url: "/services/agile-transformation-coaching.html"
@@ -871,7 +871,7 @@ pages:
     contact_button: Unverbindlich ins Gespräch kommen
     services:
     - title: IT-Strategie & Modernisierung
-      url: "/services/fractional-cto.html"
+      url: "/services/it-strategy-modernisation.html"
     - title: Organisation & Software-Delivery
       url: "/services/agile-transformation-coaching.html"
     details:
@@ -903,7 +903,7 @@ pages:
           - 'Ob Modernisierung, schrittweise Weiterentwicklung oder Ablösung: Entscheidend ist zunächst ein klares Verständnis der Ausgangslage. Sprechen wir darüber, welche Entscheidungen in Ihrem Vorhaben anstehen.'
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -968,7 +968,7 @@ pages:
           - 'Ob Sie eine bestehende Anwendung weiterentwickeln oder grundlegende Technologieentscheidungen treffen müssen: Ein Blick auf den gesamten Lebenszyklus hilft, den passenden Weg zu wählen.'
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -1097,7 +1097,7 @@ pages:
           - 'Ob bestehende Anwendungen weiterentwickelt werden oder neue technische Anforderungen entstehen: Gute Entscheidungen berücksichtigen auch die Menschen, Werkzeuge und Abläufe hinter der Software.'
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -1228,7 +1228,7 @@ pages:
           - Sprechen wir darüber, welches Ziel Sie erreichen wollen, welche Fragen noch offen sind und wie aus verschiedenen Ideen ein gemeinsamer Weg entstehen kann.
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Organisation & Software-Delivery
             url: "/services/agile-transformation-coaching.html"
           - title: Alle Projekte & Erfahrungen ansehen
@@ -1293,7 +1293,7 @@ pages:
           - 'Ob Produktion, Logistik oder ein anderer geschäftskritischer Ablauf: Wir sprechen gerne darüber, wie technische Anforderungen und die Realität Ihrer Organisation zusammenpassen.'
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -1357,7 +1357,7 @@ pages:
           - 'Ob bestehende Bibliothek, Standardsoftware oder eigene Lösung: Wir helfen, Alternativen nüchtern zu bewerten und Entscheidungen an den tatsächlichen Anforderungen auszurichten.'
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -1420,7 +1420,7 @@ pages:
           - Wir helfen, technische Möglichkeiten im Zusammenhang mit Ihren tatsächlichen Anforderungen zu bewerten – und daraus einen sinnvollen Weg für die Umsetzung abzuleiten.
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -1480,7 +1480,7 @@ pages:
           - Wir unterstützen dabei, Möglichkeiten und Grenzen einzuordnen, den passenden Anwendungsfall zu schärfen und einen realistischen Weg zur Umsetzung zu entwickeln.
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -1540,7 +1540,7 @@ pages:
           - Wir helfen, Anforderungen, Risiken und sinnvolle nächste Schritte zu klären – damit aus einer Idee eine tragfähige Entscheidung für Ihr IT-Vorhaben wird.
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -1600,7 +1600,7 @@ pages:
           - Wir betrachten Technologie, Nutzung und Weiterentwicklung gemeinsam – damit Lösungen zu Ihrem Unternehmen und seinen Anforderungen passen.
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -1666,7 +1666,7 @@ pages:
           - Wenn mehrere Anwendungen und Teams ähnliche Aufgaben lösen, lohnt sich ein Blick auf Wiederverwendung, Architektur und die dafür nötige Zusammenarbeit.
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -1727,7 +1727,7 @@ pages:
           - Wir betrachten technische Möglichkeiten, organisatorische Voraussetzungen und den tatsächlichen Nutzen gemeinsam – mit einem klaren Blick auf die nächsten sinnvollen Schritte.
           links:
           - title: IT-Strategie & Modernisierung
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
           - title: Unverbindlich ins Gespräch kommen
@@ -1925,7 +1925,7 @@ pages:
           items:
           - title: IT-Strategie & Modernisierung
             text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
-            url: "/services/fractional-cto.html"
+            url: "/services/it-strategy-modernisation.html"
             number: '01'
         subtitle: IT-Assessment als Entscheidungsgrundlage
         contact_button: Gespräch anfragen
@@ -1951,7 +1951,7 @@ pages:
         description: Technische Kompetenz entsteht, wenn Software unter echten fachlichen Bedingungen entstehen und zuverlässig funktionieren muss.
         service:
           title: IT-Strategie & Modernisierung
-          url: "/services/fractional-cto.html"
+          url: "/services/it-strategy-modernisation.html"
         related:
         - title: myWork. Software langfristig verantworten.
           url: "/projects/mywork-produktverantwortung.html"

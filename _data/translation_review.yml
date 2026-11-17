@@ -2225,3 +2225,9 @@ entries:
   source_sha256: 309e32988e21ffe77bc809f4774a1e0e4ada67a9b9841177c50f0e6b6e54963c
 - key: pages.portfolio.grid_entries.11.client
   source_sha256: b3a6641e8cc56b42c3f8f0fd205fae721aaac1032ef88d028fc14cf01c5c3075
+- key: pages.error.not_found.title
+  source_sha256: c4ea753b5d6f22c05954fef7a103485a82ae321fa96be947f15674dd631fc2f8
+- key: pages.error.not_found.description
+  source_sha256: 8bf59f83c954f8a400b8a8a5e9c170939aac54d3534309cbcd58dbe7c1272e81
+- key: pages.error.not_found.link
+  source_sha256: e2998007714df41b3dca63a95cdacdc81da3afbeded338b637d0a796f84fa484

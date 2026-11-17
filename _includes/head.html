@@ -33,11 +33,12 @@
   <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | asset_url }}" type="image/png">
   <link rel="icon" href="{{ '/assets/images/favicon.png' | asset_url }}" type="image/png">
   <link rel="apple-touch-icon" type="image/png" href="{{ '/assets/images/apple-touch-icon.png' | asset_url }}">
-  {% if site.test_environment == true %}
+  {% if site.test_environment == true or page.portfolio == true %}
   <meta name="robots" content="noindex, nofollow">
   {% endif %}
   <link rel="stylesheet" href="{{ '/assets/scss/relaunch.css' | asset_url }}">
   {% if page.layout == 'post' or page.layout == 'blog-review' %}<link rel="stylesheet" href="{{ '/assets/scss/blog-review.css' | asset_url }}">{% endif %}
+  {% if page.redirect_to %}<meta http-equiv="refresh" content="0; url={{ page.redirect_to | localized_url }}">{% endif %}
   {% include language-routes.html %}
   {% if site.lang == 'en' %}{% assign canonical_route = english_route %}{% else %}{% assign canonical_route = german_route %}{% endif %}
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ canonical_route }}">

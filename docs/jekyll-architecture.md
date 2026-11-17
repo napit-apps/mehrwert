@@ -51,8 +51,8 @@ historische Ausnahmeliste: doppelte YAML-Schlüssel, fehlende/zusätzliche Felde
 Typen, Array-Längen, leere benötigte Übersetzungen, veröffentlichte Zitatverweise
 und verwaiste Redaktionsfreigaben führen zum Build-Fehler.
 
-`_data/translation_review.yml` enthält weiterhin 1.111 aktive englische
-Freigabeeinträge mit ihren unveränderten deutschen Prüfsummen. 22 Einträge zu
+`_data/translation_review.yml` enthält weiterhin 1.114 aktive englische
+Freigabeeinträge mit Prüfsummen der deutschen Ausgangstexte. 22 Einträge zu
 entfernten, nicht gerenderten Feldern wurden mit diesen Feldern ausgemustert.
 Es wurden keine Übersetzungen ergänzt oder freigegeben.
 
@@ -98,7 +98,10 @@ Die kleinen Filter in `_plugins/site_urls.rb` trennen lokalisierte Seiten-URLs
 an das Hosting-Unterverzeichnis an. Bestehende absolute Artikelverweise auf die
 Produktivwebsite werden beibehalten. Die Blogsuche erhält den Build-Basispfad.
 
-Produktiv: `_config.yml`, `test_environment: false`.
+Produktiv: `_config.yml`, `test_environment: false`; die explizit mit
+`portfolio: true` markierte Übersicht und die 16 Cases bleiben in DE/EN
+`noindex, nofollow` und außerhalb der Sitemaps. Details und Hosting-Grenzen:
+[Release-Vorbereitung](production-release-preparation.md).
 Test: zusätzlich `_config.test.yml`, `noindex, nofollow` auf allen HTML-Seiten,
 kein produktiver CNAME. Keine robots.txt-Crawlsperre hinzugefügt. Für GitHub Pages
 müssen URL und baseurl des jeweiligen Test-Repositories konfiguriert werden.
