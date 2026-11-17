@@ -834,6 +834,16 @@ pages:
       filter_ids:
       - nachhaltigkeit
       - organisation-delivery
+    - type: Kundenmandat · mehr.wert
+      title: IT- und Projektorganisation unabhängig bewerten
+      client: NOE
+      text: In einem zweitägigen Assessment haben wir eine herausfordernde IT- und ERP-Projektsituation analysiert, Risiken und Handlungsfelder strukturiert und Empfehlungen für die weitere Steuerung und Organisation erarbeitet.
+      tags:
+      - IT-Strategie
+      filter_ids:
+      - it-strategie
+      key: noe
+      url: "/projects/noe.html"
     meta_title: Projekte & Erfahrung | mehr.wert
     filters:
     - label: Alle
@@ -1897,41 +1907,58 @@ pages:
         meta_title: Teamübergreifende Quartalsplanung in der Trading IT | mehr.wert
         description: Strategische Ziele und die tägliche Arbeit mehrerer Teams in einen gemeinsam genutzten Planungsprozess bringen.
       noe:
-        title: NOE
-        meta_title: NOE | mehr.wert
-        description: 'Arbeitsentwurf: NOE'
-        eyebrow: mehr.wert / Kundenmandat
-        intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
-        sections:
-        - id: context
-          title: Ausgangslage und Kaufanlass
-          kind: text
-          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit.
-        - id: contribution
-          title: Auftrag, Rolle und Beitrag
-          kind: text
-          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,.
-        - id: results
-          title: Ergebnisse und Grenzen der Aussage
-          kind: text
-          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit.
-        - id: visual
-          title: Einblick in die Arbeitsweise
-          kind: visual
-          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem.
-        - id: related
-          title: Passendes Kompetenzfeld
-          kind: cards
+        hero:
+          eyebrow: Kundenmandat · mehr.wert
+          title: Unabhängiges IT-Assessment für fundierte Entscheidungen
+          client: NOE
+          lead: Wenn IT-Projekte ins Stocken geraten, hilft manchmal ein unabhängiger Blick von außen. In einem kompakten Assessment haben wir eine herausfordernde IT- und ERP-Projektsituation untersucht, Handlungsfelder herausgearbeitet und konkrete Empfehlungen für die weitere Steuerung entwickelt.
+          context: IT-Assessment · Projektsteuerung · Organisationsentwicklung
+        situation:
+          label: Ausgangslage
+          title: Wenn die IT vor schwierigen Entscheidungen steht.
+          paragraphs:
+          - Komplexe IT- und ERP-Vorhaben stellen nicht nur technische Anforderungen. Auch Verantwortlichkeiten, Zusammenarbeit und die Steuerung des Projekts müssen funktionieren.
+          - Bei NOE bestand Bedarf nach einer unabhängigen Einschätzung der bestehenden Situation. Im Mittelpunkt standen die IT- und Projektorganisation, bestehende Risiken und die Frage, wie sich die weitere Entwicklung sinnvoll gestalten lässt.
+        role:
+          label: Unser Beitrag
+          title: Zwei Tage, ein unabhängiger Blick und konkrete Empfehlungen.
+          paragraphs:
+          - Wir haben die Situation in einer zweitägigen Analyse vor Ort betrachtet und die wesentlichen Handlungsfelder strukturiert.
+          - 'Dabei konzentrierten wir uns auf drei Fragen:'
           items:
+          - title: Steuerung und Transparenz
+            text: Wie ist das Vorhaben organisiert, und wo bestehen Risiken oder Unklarheiten für die weitere Steuerung?
+          - title: Verantwortlichkeiten und Zusammenarbeit
+            text: Wie sind Aufgaben, Zuständigkeiten und Entscheidungen innerhalb der IT- und Projektorganisation geregelt?
+          - title: Nächste sinnvolle Schritte
+            text: Welche Handlungsoptionen ergeben sich aus der Bestandsaufnahme, und was sollte bei der weiteren Entwicklung berücksichtigt werden?
+          closing: Aus dieser Analyse haben wir konkrete Empfehlungen abgeleitet und dem Auftraggeber vorgestellt.
+        results:
+          label: Ergebnisse
+          title: Eine Grundlage für die nächsten Entscheidungen.
+          paragraphs:
+          - Das Assessment lieferte eine strukturierte Einschätzung der Ausgangslage, identifizierte Handlungsfelder und konkrete Empfehlungen für die weitere IT- und Projektorganisation.
+          - Damit standen dem Auftraggeber zusätzliche Informationen und eine unabhängige Perspektive für anstehende Entscheidungen zur Verfügung.
+          - Der Auftrag endete mit der Vorstellung der Ergebnisse. Welche Empfehlungen anschließend umgesetzt wurden und welche Wirkung sie entfaltet haben, ist uns nicht bekannt.
+        transfer:
+          label: Was wir daraus mitnehmen
+          title: Nicht jede Herausforderung braucht ein großes Beratungsprojekt.
+          paragraphs:
+          - Manchmal hilft bereits eine überschaubare, unabhängige Bestandsaufnahme, um Risiken und Handlungsmöglichkeiten besser einzuordnen.
+          - Entscheidend ist, genau hinzuschauen, die richtigen Fragen zu stellen und Empfehlungen zu entwickeln, die zur tatsächlichen Situation des Unternehmens passen.
+        closing:
+          title: Stehen bei Ihnen schwierige IT-Entscheidungen an?
+          paragraphs:
+          - Nicht immer ist sofort ein umfangreiches Projekt notwendig. Sprechen wir darüber, welche Fragen Sie beschäftigen und ob ein unabhängiger Blick auf Ihre Situation sinnvoll wäre.
+          links:
           - title: IT-Strategie & Modernisierung
-            text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
             url: "/services/it-strategy-modernisation.html"
-            number: '01'
-        subtitle: IT-Assessment als Entscheidungsgrundlage
-        contact_button: Gespräch anfragen
-        more: Mehr erfahren
-        visual_label: Visualisierung in Vorbereitung
-        contact_title: Lassen Sie uns ins Gespräch kommen.
+          - title: Alle Projekte & Erfahrungen
+            url: "/projects.html"
+          - title: Unverbindlich ins Gespräch kommen
+            url: "/contact.html"
+        meta_title: Unabhängiges IT-Assessment und Projektsteuerung | mehr.wert
+        description: 'Unabhängige IT-Beratung: Wie mehr.wert in einem zweitägigen Assessment Risiken, Verantwortlichkeiten und Handlungsoptionen für ein ERP- und IT-Vorhaben untersucht hat.'
       mobile-software-projekte:
         title: Mobile Software für unterschiedliche Branchen.
         meta_title: Mobile Software für unterschiedliche Branchen. | mehr.wert

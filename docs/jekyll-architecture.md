@@ -34,8 +34,8 @@ Relaunch-Inhaltsbereich und keine Alias-Schlüssel oder historischen Fallbacks.
   `pages.services.software_delivery`, `pages.about`, `pages.contact`:
   aktuelle Seiteninhalte und Metadaten.
 - `pages.portfolio`: Übersicht mit `grid_entries`, Filtern und Bedienung;
-  `details.<bestehende Projekt-ID>` enthält die 16 Case Studies sowie die
-  weiterhin erreichbaren Bestandsseiten NOE und Mobile-Software-Projekte.
+  `details.<bestehende Projekt-ID>` enthält die 17 Case Studies einschließlich NOE sowie die
+  weiterhin erreichbare Bestandsseite Mobile-Software-Projekte.
   Die früheren redaktionellen Viererblöcke sind aufgelöst.
 - `pages.blog`: Übersicht, Suche, Teilen, Pagination, Tag-Archive und Kontakt.
 - `pages.training`: bestehendes Green-Software-Training und dessen Kontakttext.
@@ -51,7 +51,7 @@ historische Ausnahmeliste: doppelte YAML-Schlüssel, fehlende/zusätzliche Felde
 Typen, Array-Längen, leere benötigte Übersetzungen, veröffentlichte Zitatverweise
 und verwaiste Redaktionsfreigaben führen zum Build-Fehler.
 
-`_data/translation_review.yml` enthält weiterhin 1.114 aktive englische
+`_data/translation_review.yml` enthält weiterhin aktive englische
 Freigabeeinträge mit Prüfsummen der deutschen Ausgangstexte. 22 Einträge zu
 entfernten, nicht gerenderten Feldern wurden mit diesen Feldern ausgemustert.
 Es wurden keine Übersetzungen ergänzt oder freigegeben.
@@ -99,7 +99,7 @@ an das Hosting-Unterverzeichnis an. Bestehende absolute Artikelverweise auf die
 Produktivwebsite werden beibehalten. Die Blogsuche erhält den Build-Basispfad.
 
 Produktiv: `_config.yml`, `test_environment: false`; die explizit mit
-`portfolio: true` markierte Übersicht und die 16 Cases bleiben in DE/EN
+`portfolio: true` markierte Übersicht und die 17 Cases bleiben in DE/EN
 `noindex, nofollow` und außerhalb der Sitemaps. Details und Hosting-Grenzen:
 [Release-Vorbereitung](production-release-preparation.md).
 Test: zusätzlich `_config.test.yml`, `noindex, nofollow` auf allen HTML-Seiten,

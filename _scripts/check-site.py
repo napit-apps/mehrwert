@@ -68,8 +68,8 @@ def main():
             target = resolve(path)
             if target:
                 portfolio.add(target)
-    if len(portfolio) != 17:
-        errors.append(['portfolio', 'Expected overview and 16 project pages', len(portfolio)])
+    if len(portfolio) != 18:
+        errors.append(['portfolio', 'Expected overview and 17 project pages', len(portfolio)])
     portfolio.update(root / 'en' / file.relative_to(root) for file in list(portfolio))
 
     for file, page in pages.items():

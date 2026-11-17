@@ -2053,8 +2053,6 @@ entries:
   source_sha256: 318c8211ce8d62a527ffadf54341fc90476dafd5391014535b8bd3159a05f6d1
 - key: pages.about.contact.primary
   source_sha256: df31355e706965d20dc026bd315359dd0b7774c38db675c991b843a75b49d6b1
-- key: pages.portfolio.details.noe.contact_title
-  source_sha256: 8098b0493926ff60400f7eedc3683b47f784f8364462dfcac60f77c9e75a5db1
 - key: pages.contact.meta_title
   source_sha256: eb0925a7abb0de7833494bcdd2135b9a0a30612aef0995daf9808d0356015e6d
 - key: pages.contact.description
@@ -2161,18 +2159,6 @@ entries:
   source_sha256: 107b8c7c4e51a4e3566f9bd4b5b15b32cf2fcf5505986137e552497a283eb5e4
 - key: pages.portfolio.details.hugo-boss.description
   source_sha256: 50073faa8ccd97328f8d7efe58ebf47c4c9f2b7121330bfb7155f486322e3c19
-- key: pages.portfolio.details.noe.sections.0.title
-  source_sha256: 3d9b5347e3c243f080d10bbc1b9e41cd10aba257cfe6289e4dbc442ccc83ec62
-- key: pages.portfolio.details.noe.sections.1.title
-  source_sha256: aafce2b6a1624ad4ee7d34a314a3fbff2bdc646387b3d60f60e5d53413a153e9
-- key: pages.portfolio.details.noe.sections.2.title
-  source_sha256: 5895b5bf5d6dc1bd982f91d3d8fc853ebf94656c6fb1bec5acfb6cdb00301d63
-- key: pages.portfolio.details.noe.sections.3.title
-  source_sha256: c8454743b4fffe9796e70a24f16cae3f4739e08a5cabc9c59b5047176aa35862
-- key: pages.portfolio.details.noe.sections.4.title
-  source_sha256: d27f32ddc484d2ed0544674eb15ed6d2fe6cc6050644b2ee971f10dfe69bd38a
-- key: pages.portfolio.details.noe.sections.4.items.0.title
-  source_sha256: 7761feacf85ab382cb18f4653c1a88f362a638bc04babf8317d2f5ef58eecd6b
 - key: pages.portfolio.details.mobile-software-projekte.title
   source_sha256: 4654a65cb17837a125a8a4d8f7d5e05af4faff90e8ac6541873d4cc17db8f3e3
 - key: pages.portfolio.details.mobile-software-projekte.meta_title
@@ -2231,3 +2217,85 @@ entries:
   source_sha256: 8bf59f83c954f8a400b8a8a5e9c170939aac54d3534309cbcd58dbe7c1272e81
 - key: pages.error.not_found.link
   source_sha256: e2998007714df41b3dca63a95cdacdc81da3afbeded338b637d0a796f84fa484
+- key: pages.portfolio.details.noe.hero.eyebrow
+  source_sha256: d4df9e15a577f0c7fb407fa9efed5a3def5bd1521b7297aadc5e5ec007a6b323
+- key: pages.portfolio.details.noe.hero.title
+  source_sha256: 7326cd83541a7168db74ad489252e047f36e7ced0bf760f470486091ae91de26
+- key: pages.portfolio.details.noe.hero.client
+  source_sha256: 14b2034535b441e935d36bb44757c892e100a64fa8513503f8a2533bb7f529e2
+- key: pages.portfolio.details.noe.hero.lead
+  source_sha256: e4924fc31b2b878773027725c29c4344155cd35b6aab868cf978bdca50f58be3
+- key: pages.portfolio.details.noe.hero.context
+  source_sha256: 87e483ba0fef174900cbd8753f493253acdb8ace3224f6f4faf82361d9d3b6b0
+- key: pages.portfolio.details.noe.situation.label
+  source_sha256: 6427fcae15485dcb2d10f9c80b0fdd9ff2d0da9273b11b105544e46c2f6b598c
+- key: pages.portfolio.details.noe.situation.title
+  source_sha256: 2d279f367987cfd7bef37e3bc71592cc62d3000ea921a50fe478fbecfc5a3ef4
+- key: pages.portfolio.details.noe.situation.paragraphs.0
+  source_sha256: 1b8187a07c2d2e260241d4520ddcea6d5827ef939a1c6eb2a48f47ac27607879
+- key: pages.portfolio.details.noe.situation.paragraphs.1
+  source_sha256: db3e8cf308a0971ce1dbcfb31a57c2f0255d4227613269a19cd26e9c8e9e763e
+- key: pages.portfolio.details.noe.role.label
+  source_sha256: 36743921311216499eb91ae04ebf257bbf94feb50f320364032eb61be8b6a17b
+- key: pages.portfolio.details.noe.role.title
+  source_sha256: 309378f1432e1e14002f934d98ec9a2d767a598c27161d4813f838d8e4e3dade
+- key: pages.portfolio.details.noe.role.paragraphs.0
+  source_sha256: 4e054d6d4263757fee3607bbdabf70646256fd55326a94ccba84c199222d3cee
+- key: pages.portfolio.details.noe.role.paragraphs.1
+  source_sha256: 792c4e182acd7905e24677cfcff34a679172257f885b3bd940cb579374431df0
+- key: pages.portfolio.details.noe.role.items.0.title
+  source_sha256: 173d5b3b639e7a08b133f665434c09c5b5188e6381918ba86c70b2f0d87f62e2
+- key: pages.portfolio.details.noe.role.items.0.text
+  source_sha256: a2ff6ce34725c8c19112b565bd4150d40cc64b71792f45988fda19d3bc7797e7
+- key: pages.portfolio.details.noe.role.items.1.title
+  source_sha256: a7ced0aa58ff7c17b18685241394d2de1b082c692ebe64e48d5ba771c5780648
+- key: pages.portfolio.details.noe.role.items.1.text
+  source_sha256: 159b8bb5ca910a6e89abae4fd5ff40d00559e169975cd834b93ef43e34f7128c
+- key: pages.portfolio.details.noe.role.items.2.title
+  source_sha256: 32ee691594118c25a0456640e50f7066a2ccf25a5c6e7d417e0b0df80a3c0a3f
+- key: pages.portfolio.details.noe.role.items.2.text
+  source_sha256: 233285bb45551c7b7b96bac4ded47f853bf9e60746f22d2fc0debdd57dd71164
+- key: pages.portfolio.details.noe.role.closing
+  source_sha256: 0d0008b0205b9073976a94cf269c793a24543f2ede28fe8630be8e7e8532e72d
+- key: pages.portfolio.details.noe.results.label
+  source_sha256: 12ba6ae54b68929226b9399481560566fbb281d718f9a96504d03d137904efb2
+- key: pages.portfolio.details.noe.results.title
+  source_sha256: f7ae7179df372d6d72641419f2170812d3e7c2e1123e328493c8a690c512c38d
+- key: pages.portfolio.details.noe.results.paragraphs.0
+  source_sha256: b261bb90b5302871219f97dddc5a96814250ad6fada943711610d3e730a548e0
+- key: pages.portfolio.details.noe.results.paragraphs.1
+  source_sha256: 21e00dbecaf7fa8b7a531f9c1f3884354b0a6238468a38ed49ec23490a5a49bd
+- key: pages.portfolio.details.noe.results.paragraphs.2
+  source_sha256: 84d412449dab6e4baf0ff93f92a450dac53428f22b354347b9cd467baf319bfa
+- key: pages.portfolio.details.noe.transfer.label
+  source_sha256: e536398f94c568c2818fb3dffcd8c1425a72b7860a0e6c0cea4a9511874e70f4
+- key: pages.portfolio.details.noe.transfer.title
+  source_sha256: 26821ac8def45a381f05b168e9cdd29846c19a9cac40d0e17431f2052fbe944d
+- key: pages.portfolio.details.noe.transfer.paragraphs.0
+  source_sha256: 27acc40984c89ce1cdb93b0d979b5392a564d47d91fa966ad117d49f0d60f37e
+- key: pages.portfolio.details.noe.transfer.paragraphs.1
+  source_sha256: 41598bf01eac5a53923b676e5b203c9326c1d49f88262bf0bdfe81329efe140b
+- key: pages.portfolio.details.noe.closing.title
+  source_sha256: 5f4b8d224cc95b494943427f4f2701510a4256b960d577f2538660cba5e80362
+- key: pages.portfolio.details.noe.closing.paragraphs.0
+  source_sha256: 89236d9cbca7aa36a545e1ca55d73fc92d02a3494740a1c6073ee162f43bbe0c
+- key: pages.portfolio.details.noe.closing.links.0.title
+  source_sha256: 7761feacf85ab382cb18f4653c1a88f362a638bc04babf8317d2f5ef58eecd6b
+- key: pages.portfolio.details.noe.closing.links.1.title
+  source_sha256: 15996365034423b1e901fe2fcc8865351dd2ac3844eeba673037f81b7cac947d
+- key: pages.portfolio.details.noe.closing.links.2.title
+  source_sha256: df31355e706965d20dc026bd315359dd0b7774c38db675c991b843a75b49d6b1
+- key: pages.portfolio.details.noe.meta_title
+  source_sha256: 4111dd8256d3e086e1a3a42037f4131b29c9b6afb9e841c547f02a9969fcc141
+- key: pages.portfolio.details.noe.description
+  source_sha256: 942636cefe6dfb23cea325d66096ef62db13fd75e19aa53451726c575f9b8a63
+- key: pages.portfolio.grid_entries.16.type
+  source_sha256: d4df9e15a577f0c7fb407fa9efed5a3def5bd1521b7297aadc5e5ec007a6b323
+- key: pages.portfolio.grid_entries.16.title
+  source_sha256: cf3e4dd31d1d9e85674d6ed30f442004462975f457a37c00415063aaa73496d6
+- key: pages.portfolio.grid_entries.16.client
+  source_sha256: 14b2034535b441e935d36bb44757c892e100a64fa8513503f8a2533bb7f529e2
+- key: pages.portfolio.grid_entries.16.text
+  source_sha256: a8b27f132f7045c672c59c5da6d78e1592998ccdd7a0d3b617520da6353bd21c
+- key: pages.portfolio.grid_entries.16.tags.0
+  source_sha256: 8e7b93b3d17abcd4ee9829f2c40589f5811a725dededf3cd34fa007d97617928

@@ -9,24 +9,29 @@
   </div></header>
   <div class="mw-shell">
     <section class="mw-case-section mw-case-prose" aria-labelledby="case-situation">
-      <h2 id="case-situation">{{ case.situation.title }}</h2>
+      {% if case.situation.label %}<p class="mw-eyebrow">{{ case.situation.label }}</p>{% endif %}<h2 id="case-situation">{{ case.situation.title }}</h2>
       {% for paragraph in case.situation.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
     </section>
     <section class="mw-case-section mw-case-prose" aria-labelledby="case-role">
-      <h2 id="case-role">{{ case.role.title }}</h2>
+      {% if case.role.label %}<p class="mw-eyebrow">{{ case.role.label }}</p>{% endif %}<h2 id="case-role">{{ case.role.title }}</h2>
       {% for paragraph in case.role.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+      {% if case.role.items %}<div class="mw-case-role-topics">{% for item in case.role.items %}<section><h3>{{ item.title }}</h3><p>{{ item.text }}</p></section>{% endfor %}</div>{% endif %}
+      {% if case.role.closing %}<p>{{ case.role.closing }}</p>{% endif %}
     </section>
     {% if case.values %}<section class="mw-case-section mw-case-values" aria-labelledby="case-values">
       <div class="mw-case-prose"><h2 id="case-values">{{ case.values.title }}</h2><p>{{ case.values.intro }}</p></div>
       <div class="mw-case-value-pair">{% for item in case.values.items %}<section><h3>{{ item.title }}</h3><p>{{ item.text }}</p></section>{% endfor %}</div>
       <p class="mw-case-value-closing">{{ case.values.closing }}</p>
     </section>{% endif %}
+    {% if case.approach %}
     <section class="mw-case-section" aria-labelledby="case-approach">
       <div class="mw-case-prose"><h2 id="case-approach">{{ case.approach.title }}</h2><p>{{ case.approach.intro }}</p></div>
       <ol class="mw-case-steps">{% for item in case.approach.items %}
         <li><span class="mw-case-number" aria-hidden="true">0{{ forloop.index }}</span><div><h3>{{ item.title }}</h3><p>{{ item.text }}</p></div></li>
       {% endfor %}</ol>
     </section>
+    {% endif %}
+    {% if case.process %}
     <section class="mw-case-section" aria-labelledby="case-process">
       <div class="mw-case-prose"><h2 id="case-process">{{ case.process.title }}</h2>{% if case.process.intro %}<p>{{ case.process.intro }}</p>{% endif %}</div>
       <figure class="mw-case-process mw-case-{{ case.process.mode | default: 'cycle' }}">
@@ -41,8 +46,9 @@
         <figcaption>{{ case.process.caption }}</figcaption>
       </figure>
     </section>
+    {% endif %}
     <section class="mw-case-section{% if case.results.paragraphs %} mw-case-prose{% endif %}" aria-labelledby="case-results">
-      <div class="mw-case-prose"><h2 id="case-results">{{ case.results.title }}</h2>{% if case.results.intro %}<p>{{ case.results.intro }}</p>{% endif %}</div>
+      <div class="mw-case-prose">{% if case.results.label %}<p class="mw-eyebrow">{{ case.results.label }}</p>{% endif %}<h2 id="case-results">{{ case.results.title }}</h2>{% if case.results.intro %}<p>{{ case.results.intro }}</p>{% endif %}</div>
       {% for paragraph in case.results.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
       {% if case.results.items %}<div class="mw-case-results" style="--case-results: {{ case.results.items.size }}">{% for item in case.results.items %}<section><h3>{{ item.title }}</h3><p>{{ item.text }}</p></section>{% endfor %}</div>{% endif %}
     </section>
@@ -52,7 +58,7 @@
       <figure><blockquote><p>{{ testimonial.text }}</p></blockquote><figcaption>{{ testimonial.author }} · {{ testimonial.role }}</figcaption></figure>
     </section>{% endif %}
     <section class="mw-case-section mw-case-prose" aria-labelledby="case-transfer">
-      <h2 id="case-transfer">{{ case.transfer.title }}</h2>
+      {% if case.transfer.label %}<p class="mw-eyebrow">{{ case.transfer.label }}</p>{% endif %}<h2 id="case-transfer">{{ case.transfer.title }}</h2>
       {% for paragraph in case.transfer.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
     </section>
     <section class="mw-case-section mw-case-closing" aria-labelledby="case-closing">

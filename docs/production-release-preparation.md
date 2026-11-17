@@ -2,6 +2,15 @@
 
 Stand: 17. November 2026 · ausschließlich `fb_update-2027`.
 
+Fortschreibung NOE: Die freigegebene DE-Fassung ersetzt die Platzhalter; die
+EN-Fassung ist als `pending_editorial_review` erfasst. Auf ausdrücklichen Wunsch
+ist NOE als 17. Kachel am Ende ergänzt. Die gemeinsame Case-Study-Komponente
+wird verwendet; keine Prozessgrafik oder Zitate ergänzt. Der frühere NOE-
+Freigabeblocker ist damit behoben. Die folgenden ursprünglichen Zahlen zum
+Release-Stand mit 16 Cases werden durch diese Fortschreibung ergänzt: 17 Cases,
+36 geschützte Portfolio-Seiten in DE/EN einschließlich Übersicht.
+
+
 ## A — Portfolio
 
 `portfolio: true` kennzeichnet die bestehende Übersicht und genau die 16 über
@@ -100,8 +109,8 @@ serverseitiges sprachabhängiges Fehlerseiten-Routing behauptet.
   keine Quelldateien, privaten Unterlagen oder erkannten Secrets im Build.
 
 Vor Go-live offen:
-1. Die bestehende zusätzliche NOE-Detailseite in DE/EN enthält Lorem ipsum.
-   Sie gehört nicht zu den 16 ausgewählten Cases und wurde nicht verändert.
+1. **Erledigt:** NOE ist jetzt vollständig mit freigegebenen deutschen Texten
+   umgesetzt und als 17. Kachel aufgenommen; die EN-Fassung bleibt ungeprüft.
 2. Die englischen Redaktionsfreigaben bleiben offen, einschließlich der neuen
    404-Fassung. Entfernen des Banners ist keine redaktionelle Freigabe.
 3. Der bisherige `deploy.sh`-Ablauf entfernt generierte Tag-Archive und ersetzt

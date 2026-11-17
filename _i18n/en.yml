@@ -834,6 +834,16 @@ pages:
       filter_ids:
       - nachhaltigkeit
       - organisation-delivery
+    - type: Client engagement · mehr.wert
+      title: Independently assess the IT and project organisation
+      client: NOE
+      text: In a two-day assessment, we analysed a challenging IT and ERP project situation, structured risks and areas for action, and developed recommendations for its ongoing management and organisation.
+      tags:
+      - IT Strategy
+      filter_ids:
+      - it-strategie
+      key: noe
+      url: "/projects/noe.html"
     meta_title: Projects & experience | mehr.wert
     filters:
     - label: All
@@ -1897,41 +1907,58 @@ pages:
         meta_title: Cross-team quarterly planning in Trading IT | mehr.wert
         description: Bringing strategic goals and the daily work of several teams into a shared planning process.
       noe:
-        title: NOE
-        meta_title: NOE | mehr.wert
-        description: 'Working draft: NOE'
-        eyebrow: mehr.wert / Client engagement
-        intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
-        sections:
-        - id: context
-          title: Starting point and reason for engagement
-          kind: text
-          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit.
-        - id: contribution
-          title: Assignment, role and contribution
-          kind: text
-          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim,.
-        - id: results
-          title: Results and limits of the claims
-          kind: text
-          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit.
-        - id: visual
-          title: An insight into the way of working
-          kind: visual
-          text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem.
-        - id: related
-          title: Related area of expertise
-          kind: cards
+        hero:
+          eyebrow: Client engagement · mehr.wert
+          title: Independent IT assessment for informed decisions
+          client: NOE
+          lead: When IT projects stall, an independent outside perspective can sometimes help. In a focused assessment, we examined a challenging IT and ERP project situation, identified areas for action and developed specific recommendations for its ongoing management.
+          context: IT assessment · Project management · Organisational development
+        situation:
+          label: Initial situation
+          title: When IT faces difficult decisions.
+          paragraphs:
+          - Complex IT and ERP initiatives involve more than technical requirements. Responsibilities, collaboration and project management also need to work effectively.
+          - NOE needed an independent assessment of its existing situation. The focus was on the IT and project organisation, existing risks and how to approach further development sensibly.
+        role:
+          label: Our contribution
+          title: Two days, an independent perspective and specific recommendations.
+          paragraphs:
+          - We examined the situation during a two-day on-site analysis and structured the key areas for action.
+          - 'We focused on three questions:'
           items:
+          - title: Management and transparency
+            text: How is the initiative organised, and where are there risks or uncertainties for its ongoing management?
+          - title: Responsibilities and collaboration
+            text: How are tasks, responsibilities and decisions defined within the IT and project organisation?
+          - title: Sensible next steps
+            text: What options emerge from the assessment, and what should be considered as development continues?
+          closing: Based on this analysis, we developed specific recommendations and presented them to the client.
+        results:
+          label: Results
+          title: A basis for the next decisions.
+          paragraphs:
+          - The assessment provided a structured evaluation of the initial situation, identified areas for action and specific recommendations for the future IT and project organisation.
+          - This gave the client additional information and an independent perspective for upcoming decisions.
+          - The engagement ended with the presentation of the findings. We do not know which recommendations were subsequently implemented or what impact they had.
+        transfer:
+          label: What we take away
+          title: Not every challenge needs a large consulting project.
+          paragraphs:
+          - Sometimes a focused, independent assessment is enough to put risks and possible courses of action into perspective.
+          - What matters is looking closely, asking the right questions and developing recommendations that fit the company’s actual situation.
+        closing:
+          title: Are you facing difficult IT decisions?
+          paragraphs:
+          - An extensive project is not always needed straight away. Let’s talk about the questions on your mind and whether an independent perspective on your situation could help.
+          links:
           - title: IT Strategy & Modernisation
-            text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo, vitae facilisis neque ipsum ut nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim, sapien vitae consequat interdum, erat erat volutpat justo,.
             url: "/services/it-strategy-modernisation.html"
-            number: '01'
-        subtitle: IT assessment as a basis for decisions
-        contact_button: Start a conversation
-        more: Learn more
-        visual_label: Visualization pending
-        contact_title: Let's talk.
+          - title: All projects & experience
+            url: "/projects.html"
+          - title: Start a conversation without obligation
+            url: "/contact.html"
+        meta_title: Independent IT assessment and project management | mehr.wert
+        description: 'Independent IT consulting: How mehr.wert examined risks, responsibilities and options for an ERP and IT initiative in a two-day assessment.'
       mobile-software-projekte:
         title: Mobile software for different industries.
         meta_title: Mobile software for different industries. | mehr.wert

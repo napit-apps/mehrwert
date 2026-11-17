@@ -502,6 +502,8 @@
   .mw-case-section { padding-block: 48px; }
   .mw-case-section + .mw-case-section { border-top: 1px solid var(--mw-line); }
   .mw-case-prose { max-width: 74ch; }
+  .mw-case-role-topics { margin-block: 24px; }
+  .mw-case-role-topics section + section { margin-top: 24px; }
   .mw-case-section h2 { font-size: clamp(1.65rem, 3vw, 2.4rem); margin-bottom: 24px; }
   .mw-case-section p + p { margin-top: 20px; }
   .mw-case-steps { list-style: none; padding: 0; margin: 32px 0 0; max-width: 82ch; }
