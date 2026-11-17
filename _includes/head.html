@@ -1,39 +1,49 @@
 <head>
   <meta charset="utf-8">
   {% if page.layout == "post" %}
-  <title>{{ page.title }}</title>
+  <title>{{ page.title | escape }}</title>
   {%else %}
   <title>{% if page.title %} {% t page.title %} {% else %} {% t site.title %} {% endif %}</title>
   {% endif %}
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <meta name="description" content="{%if page.description%}{% t page.description %}{%else%}{% t site.description %}{%endif%}">
+  {% capture meta_description %}{%if page.description%}{% t page.description %}{%else%}{% t site.description %}{%endif%}{% endcapture %}
+  <meta name="description" content="{{ meta_description | strip | escape }}">
   
   <!-- theme meta -->
   <meta name="theme-name" content="mehr.wert" />
     
   {% if site.author %}
-  <meta name="author" content="{{ . }}">
+  <meta name="author" content="{{ site.author | escape }}">
   {% endif %}
 
   {% if page.relaunch %}
-  <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ '/assets/plugins/bootstrap/bootstrap.min.css' | asset_url }}">
   {% else %}
   {% for css in site.data.plugins.css %}
-  <link rel="stylesheet" href="{{ css }}">
+  <link rel="stylesheet" href="{{ css | asset_url }}">
   {% endfor %}
   {% endif %}
 
   <!-- Main Stylesheet -->
-  <link href="{{ '/assets/scss/style.css' }}" rel="stylesheet">
+  <link href="{{ '/assets/scss/style.css' | asset_url }}" rel="stylesheet">
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' }}" type="image/png">
-  <link rel="icon" href="{{ '/assets/images/favicon.png' }}" type="image/png">
-  <link rel="apple-touch-icon" type="image/png" href="{{ '/assets/images/apple-touch-icon.png' }}">
-  {% if page.relaunch %}
+  <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | asset_url }}" type="image/png">
+  <link rel="icon" href="{{ '/assets/images/favicon.png' | asset_url }}" type="image/png">
+  <link rel="apple-touch-icon" type="image/png" href="{{ '/assets/images/apple-touch-icon.png' | asset_url }}">
+  {% if site.test_environment == true %}
   <meta name="robots" content="noindex, nofollow">
-  <link rel="stylesheet" href="/assets/scss/relaunch.css?v={{ site.time | date: '%s' }}">
   {% endif %}
+  <link rel="stylesheet" href="{{ '/assets/scss/relaunch.css' | asset_url }}">
+  {% if page.layout == 'post' or page.layout == 'blog-review' %}<link rel="stylesheet" href="{{ '/assets/scss/blog-review.css' | asset_url }}">{% endif %}
+  {% include language-routes.html %}
+  {% if site.lang == 'en' %}{% assign canonical_route = english_route %}{% else %}{% assign canonical_route = german_route %}{% endif %}
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ canonical_route }}">
+  {% unless page.layout == 'tag_page' %}
+  <link rel="alternate" hreflang="de" href="{{ site.url }}{{ language_root }}{{ german_route }}">
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ language_root }}/en{{ english_route }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ language_root }}{{ german_route }}">
+  {% endunless %}
 </head>

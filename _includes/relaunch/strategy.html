@@ -3,7 +3,7 @@
   <section class="mw-hero">
     <div class="mw-shell">
       <p class="mw-eyebrow">{{ strategy.hero.label }}</p>
-      <h1>{{ strategy.hero.title | replace: '. Damit', '.<br>Damit' }}</h1>
+      <h1>{{ strategy.hero.title }}</h1>
       <div class="mw-strategy-hero-copy">{% for paragraph in strategy.hero.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}</div>
       <div class="mw-actions">
         <a class="mw-button" href="{{ site.baseurl }}/contact.html#enquiry">{{ strategy.hero.primary }}</a>
@@ -64,7 +64,7 @@
       <div class="mw-strategy-closing mw-strategy-experience">
         <p class="mw-strategy-label">{{ strategy.experience.label }}</p>
         <p>{{ strategy.experience.text }}</p>
-        <p class="mw-strategy-closing"><a class="mw-text-link" href="{{ strategy.experience.url }}">{{ strategy.experience.link }}</a></p>
+        <p class="mw-strategy-closing"><a class="mw-text-link" href="{{ strategy.experience.url | localized_url }}">{{ strategy.experience.link }}</a></p>
       </div>
       </div>
   <section class="mw-section mw-strategy-engagements">

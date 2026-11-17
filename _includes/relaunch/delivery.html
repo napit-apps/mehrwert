@@ -26,7 +26,7 @@
       <h2>{{ delivery.benefits.title }}</h2>
       <p class="mw-strategy-intro">{{ delivery.benefits.intro }}</p>
       <div class="mw-delivery-value-flow">
-        <img src="{{ '/assets/images/about/ac-about.avif' | relative_url }}" width="1536" height="1024" alt="" loading="lazy" decoding="async">
+        <img src="{{ '/assets/images/about/ac-about.avif' | asset_url }}" width="1536" height="1024" alt="" loading="lazy" decoding="async">
         <div class="mw-strategy-benefit-points">{% for item in delivery.benefits.items %}<article><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article>{% endfor %}</div>
       </div>
     </div>
@@ -53,7 +53,7 @@
             <a class="mw-text-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.link }}</a>
           </article>
         {% endfor %}</div>
-        <p class="mw-strategy-closing"><a class="mw-text-link" href="{{ delivery.experience.url }}">{{ delivery.experience.link }}</a></p>
+        <p class="mw-strategy-closing"><a class="mw-text-link" href="{{ delivery.experience.url | localized_url }}">{{ delivery.experience.link }}</a></p>
       </div>
     </div>
   </section>
@@ -77,7 +77,7 @@
     </div>
   </div>
 </section>
-<script src="{{ '/assets/js/home-testimonials.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/home-testimonials.js' | asset_url }}" defer></script>
 <section class="mw-section mw-strategy-values mw-strategy-ai">
   <div class="mw-shell mw-strategy-split">
     <div><p class="mw-strategy-label">{{ delivery.ai.label }}</p><h2>{{ delivery.ai.title }}</h2></div>
@@ -93,7 +93,7 @@
   <section class="mw-section mw-strategy-values">
     <div class="mw-shell mw-strategy-split">
       <div><p class="mw-strategy-label">{{ delivery.values.label }}</p><h2>{{ delivery.values.title }}</h2></div>
-      <div>{% for paragraph in delivery.values.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}<p><a class="mw-text-link" href="{{ delivery.values.url }}">{{ delivery.values.link }}</a></p></div>
+      <div>{% for paragraph in delivery.values.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}<p><a class="mw-text-link" href="{{ delivery.values.url | localized_url }}">{{ delivery.values.link }}</a></p></div>
     </div>
   </section>
   <section class="mw-section mw-strategy-questions">

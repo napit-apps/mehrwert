@@ -12,7 +12,7 @@
     <div class="mw-shell">
       <p class="mw-strategy-label">{{ about.story.label }}</p><h2>{{ about.story.title }}</h2>
       <div class="mw-about-founder-story">
-        {% if about.story.portrait %}<figure class="mw-portrait"><img src="{{ about.story.portrait | relative_url }}" alt="{{ about.story.portrait_alt | escape }}" width="1436" height="2857" loading="lazy" decoding="async"><figcaption>{{ about.story.caption }}</figcaption></figure>{% endif %}
+        {% if about.story.portrait %}<figure class="mw-portrait"><img src="{{ about.story.portrait | asset_url }}" alt="{{ about.story.portrait_alt | escape }}" width="1436" height="2857" loading="lazy" decoding="async"><figcaption>{{ about.story.caption }}</figcaption></figure>{% endif %}
         <div class="mw-about-prose">{% for paragraph in about.story.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
           <p class="mw-strategy-email"><strong>{{ about.story.signature }}</strong></p>
           <p class="mw-about-anecdote">{{ about.story.anecdote }}</p>
@@ -55,7 +55,7 @@
   <section class="mw-section mw-about-reading">
     <div class="mw-shell">
       <p class="mw-strategy-label">{{ about.reading.label }}</p><h2>{{ about.reading.title }}</h2>
-      <ul class="mw-about-links">{% for item in about.reading.items %}<li><h3><a class="mw-text-link" href="{{ item.url | relative_url }}">{{ item.title }}</a></h3><p>{{ item.text }}</p></li>{% endfor %}</ul>
+      <ul class="mw-about-links">{% for item in about.reading.items %}<li><h3><a class="mw-text-link" href="{{ item.url | localized_url }}">{{ item.title }}</a></h3><p>{{ item.text }}</p></li>{% endfor %}</ul>
     </div>
   </section>
   <section class="mw-section mw-dark mw-strategy-contact">

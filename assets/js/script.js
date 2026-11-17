@@ -327,7 +327,7 @@
     }
 
     var lang = (document.documentElement.lang || (window.site && window.site.lang) || 'de').toLowerCase();
-    var localePrefix = (lang === 'en' ? '/en' : '');
+    var localePrefix = window.searchConfig.baseurl || '';
 
     function localizePath(p) {
       if (!p || typeof p !== 'string') return p;
@@ -480,7 +480,7 @@
         });
     }
 
-    loadIndex(indexUrl, window.searchConfig.fallback_json && indexUrl !== window.searchConfig.fallback_json ? window.searchConfig.fallback_json : null);
+    loadIndex(indexUrl, window.searchConfig.fallback_json && indexUrl !== window.searchConfig.fallback_json ? localizePath(window.searchConfig.fallback_json) : null);
   }
 
 })(jQuery);

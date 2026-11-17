@@ -44,7 +44,7 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<textarea name="Message" id="message" cols="30" rows="4" class="form-control mb-4" placeholder="{{ contact.form.message }}"></textarea>
-							<p class="text-sm">{{ contact.privacy-note }}</p>
+							<p class="text-sm">{% capture privacy_link %}href="{{ '/privacy.html' | localized_url }}"{% endcapture %}{{ contact.privacy-note | replace: 'href="/en/privacy.html"', privacy_link | replace: 'href="/privacy.html"', privacy_link }}</p>
 							<button type="submit" class="btn btn-primary">{{ contact.button }}</button>
 						</div>
 					</div>

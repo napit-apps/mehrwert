@@ -1,3 +1,6 @@
+# Production default. Only _config.test.yml enables the test robots directive.
+test_environment: false
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mehrwert.tech" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
 title: "page_title"
@@ -165,4 +168,5 @@ search:
 
 exclude:
   - deploy.sh
+  - deploy-testpage.sh
   - docs

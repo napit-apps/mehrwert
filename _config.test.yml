@@ -1,0 +1,11 @@
+# Explicit opt-in for a separate, static GitHub Pages test repository.
+# Never include this overlay in a production build.
+test_environment: true
+
+# Do not assign the production custom domain to the test repository.
+# Jekyll replaces this list rather than merging it with _config.yml.
+exclude:
+  - deploy.sh
+  - deploy-testpage.sh
+  - docs
+  - CNAME

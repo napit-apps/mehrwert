@@ -6,7 +6,7 @@
     {% if entry.subtitle %}<h2 class="mw-subtitle">{{ entry.subtitle }}</h2>{% endif %}
     <p class="mw-lead">{{ entry.intro }}</p>
     <div class="mw-actions"><a class="mw-button" href="{{ site.baseurl }}/contact.html#enquiry">{{ copy.ui.contact }}</a>{% if page.content_key == 'home' %}<a class="mw-text-link" href="#services">{{ copy.navigation.first.title }} <span aria-hidden="true">↗</span></a>{% endif %}</div></div>
-    {% if entry.portrait %}<figure class="mw-portrait"><img src="/assets/images/banner/2023.avif" alt="{{ copy.ui.portrait_alt | escape }}" width="600" height="800" fetchpriority="high"><figcaption>{{ copy.ui.person_name }} <span>{{ copy.ui.brand_name }}</span></figcaption></figure>{% endif %}
+    {% if entry.portrait %}<figure class="mw-portrait"><img src="{{ '/assets/images/banner/2023.avif' | asset_url }}" alt="{{ copy.ui.portrait_alt | escape }}" width="600" height="800" fetchpriority="high"><figcaption>{{ copy.ui.person_name }} <span>{{ copy.ui.brand_name }}</span></figcaption></figure>{% endif %}
   </div>
 </section>
 {% for section in entry.sections %}

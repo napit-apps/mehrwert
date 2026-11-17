@@ -1,0 +1,9 @@
+{% assign current_route = page.url | default: '/' %}
+{% assign german_route = current_route %}
+{% assign english_route = current_route %}
+{% for routes in site.data.blog_language_routes %}
+  {% if current_route == routes.de or current_route == routes.en %}
+    {% assign german_route = routes.de %}{% assign english_route = routes.en %}{% break %}
+  {% endif %}
+{% endfor %}
+{% assign language_root = site.baseurl_root | default: '' %}

@@ -3653,3 +3653,13 @@ relaunch:
     send: Anfrage senden
     privacy: 'Informationen zur Verarbeitung Ihrer Angaben:'
     required: Name, E-Mail und Nachricht sind erforderlich.
+
+shared_ui:
+  clear_search: Clear search
+  share: "Share:"
+  share_facebook: Share on Facebook
+  share_twitter: Share on Twitter
+  share_pinterest: Share on Pinterest
+  older_posts: Older Posts
+  newer_posts: Newer Posts
+  tag_page: Tag Page
