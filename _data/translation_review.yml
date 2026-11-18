@@ -1,6 +1,10 @@
 ---
 language: en
-status: pending_editorial_review
+status: approved
+reviewed_on: '2026-11-18'
+reviewed_by: Codex, delegated linguistic review
+review_basis: Existing English translations compared with approved German content and Manifest v2.1 language guidelines; no translation text changed.
+review_limits: Linguistic approval only; legal adequacy, project publication rights and quotation permissions are separate. Published quotation wording remains governed by testimonial_publication.yml.
 scope: New or updated translations of the approved German website; original blog articles and legal content are unchanged.
 entries:
 - key: pages.contact.hero.eyebrow
