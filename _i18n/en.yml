@@ -17,7 +17,7 @@ common:
     - title: About mehr.wert
       url: "/mission.html"
       children:
-      - title: About mehr.wert
+      - title: About us
         url: "/mission.html"
       - title: Sustainability
         url: "/sustainability.html"

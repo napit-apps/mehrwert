@@ -17,7 +17,7 @@ common:
     - title: Über mehr.wert
       url: "/mission.html"
       children:
-      - title: Über mehr.wert
+      - title: Über uns
         url: "/mission.html"
       - title: Nachhaltigkeit
         url: "/sustainability.html"

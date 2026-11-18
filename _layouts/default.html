@@ -7,6 +7,7 @@
 {% include header.html %}
 <main id="main-content" tabindex="-1">{{ content | content_asset_urls }}</main>
 {% include footer.html %}
+<script src="{{ '/assets/js/navigation.js' | asset_url }}" defer></script>
 {% if page.page_type == 'blog' %}
 <script src="{{ '/assets/plugins/lunr/lunr.min.js' | asset_url }}" defer></script>
 <script src="{{ '/assets/js/blog-search.js' | asset_url }}" defer></script>
