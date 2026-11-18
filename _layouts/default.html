@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 {% include head.html %}
-<body class="mw-2027{% if page.layout == 'post' or page.layout == 'blog-review' %} mw-blog-review{% endif %}">
+<body class="mw-site{% if page.layout == 'post' or page.page_type == 'blog' %} mw-blog{% endif %}">
 {% assign copy = site.translations[site.lang] %}
 <a class="mw-skip" href="#main-content">{{ copy.common.header.skip }}</a>
-{% include relaunch/header.html %}
+{% include header.html %}
 <main id="main-content" tabindex="-1">{{ content | content_asset_urls }}</main>
-{% include relaunch/footer.html %}
-{% unless page.relaunch %}
-{% for js in site.data.plugins.js %}<script src="{{ js | asset_url }}"></script>{% endfor %}
-<script src="{{ '/assets/js/script.js' | asset_url }}"></script>
-{% endunless %}
+{% include footer.html %}
+{% if page.page_type == 'blog' %}
+<script src="{{ '/assets/plugins/lunr/lunr.min.js' | asset_url }}" defer></script>
+<script src="{{ '/assets/js/blog-search.js' | asset_url }}" defer></script>
+{% endif %}
+{% if page.layout == 'training' %}
+<script src="{{ '/assets/plugins/jQuery/jquery.min.js' | asset_url }}" defer></script>
+<script src="{{ '/assets/plugins/slick-carousel/slick/slick.min.js' | asset_url }}" defer></script>
+<script src="{{ '/assets/js/training.js' | asset_url }}" defer></script>
+{% endif %}
 </body></html>

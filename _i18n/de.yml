@@ -4,6 +4,7 @@ common:
     title: mehr.wert - Technologie für nachhaltige Lösungen
     description: 'Wir geben IT einen Wert. Und Ihrem Business nachhaltige Stärke. - Strategische IT-Beratung für Unternehmen im Wandel: Als IT Leiter auf Zeit unterstütze ich Sie bei Architekturentscheidungen, Teamführung, agilen Prozessen und nachhaltiger Softwareentwicklung. Klar. Umsetzbar. Wirkungsvoll.'
   navigation:
+    legal_label: Rechtliches
     items:
     - title: Leistungen
       children:

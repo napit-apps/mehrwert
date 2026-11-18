@@ -1,0 +1,28 @@
+.mw-site .mw-home .mw-testimonials,
+.mw-site .mw-delivery .mw-testimonials {
+  .mw-testimonials-intro { max-width: 65ch; margin-top: 24px; }
+  .mw-testimonials-track { margin-top: 36px; }
+  .mw-testimonial { max-width: none; padding-block: 12px 32px; }
+  .mw-testimonial + .mw-testimonial { border-top: 1px solid var(--mw-line); padding-top: 32px; }
+  blockquote p::before, blockquote p::after { content: none; }
+  .mw-testimonials-controls { display: flex; align-items: center; gap: 24px; margin-top: 24px; }
+  [hidden] { display: none; }
+  .mw-testimonials-controls button {
+    width: 48px; height: 48px; border: 1px solid var(--mw-ink);
+    background: transparent; color: var(--mw-ink); font-size: 1.5rem;
+    cursor: pointer; border-radius: 0;
+  }
+  .mw-testimonials-controls button:hover { background: #e4eee7; }
+  .mw-testimonials-controls button[aria-disabled="true"] { opacity: .45; cursor: default; }
+  .mw-testimonials-controls [data-position] { min-width: 5ch; text-align: center; font-variant-numeric: tabular-nums; }
+  .mw-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  &.is-enhanced {
+    .mw-testimonials-track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; position: relative; }
+    .mw-testimonials-track:focus-visible { outline-offset: -3px; }
+    .mw-testimonial { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; padding: 12px 6px 24px; border: 0; }
+  }
+  @media (max-width: 767px) {
+    blockquote { font-size: 1.35rem; }
+    .mw-testimonials-track { margin-top: 24px; }
+  }
+}

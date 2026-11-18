@@ -1,5 +1,5 @@
 ---
-layout: blog-review
+layout: default
 ---
 
 <section class="section">
@@ -14,14 +14,10 @@ layout: blog-review
 								<span class="text-color"> {{page.author}}, </span>
 								<span class="text-color">{{ page.datum }}</span>
 							</div>
-							<!-- <p class="text-white">{{page.excerpt | strip_html | truncatewords: "25"}}</p> -->
+
 						</div>
 					</div>
-					<!-- {% if page.post_image %}
-					<div class="blog-img position-relative mt-5 mb-5">
-						img src="{{page.post_image}}" alt="{{post.title}}" class="img-fluid w-100"/>
-					</div>
-					{% endif %} -->
+
 
 					<div class="row justify-content-center">
 						<div class="col-lg-8 mx-auto">
@@ -29,27 +25,16 @@ layout: blog-review
 								{{page.content}}
 								{% include social_share.html %}
 							</div>
-							<!-- <div class="row align-items-center my-5">
-								<div class="col-lg-6">
-									<div class="list-inline post-tags">
-										<div class="list-inline-item"><h5>Themenbereiche:</h5></div>
-										{{page | tags | capitalize | replace: " ","  "}}
-									</div>
-								</div>
-								<div class="col-lg-8">
-									{% include social_share.html %}
-								</div>
-							</div> -->
+
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
 </section>
 
 
-<!-- Call To action -->
+
 {% assign contact_spec = site.translations[site.lang].pages.blog.contact %}
 {% include contact.html %}
-<!-- Call To action -->

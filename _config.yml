@@ -28,33 +28,6 @@ default_locale_in_subfolder: false
 exclude_from_localizations: ["assets", "javascript", "images", "css", "deploy.sh", "robots.txt", "favicon.ico", "LICENSE", "README.md"]
 
 
-############### Call to Action ###############
-cta:
-  enable: false
-  title: ""
-  bg_image: "/assets/images/bg/cta-bg-2.png"
-  button:
-    label: "get a quote"
-    link: "contact"
-
-################## Social site ###############
-social:
-  - name: facebook
-    icon: "ti-facebook"
-    link: "#"
-
-  - name: twitter
-    icon: "ti-twitter-alt"
-    link: "#"
-
-  - name: linkedin
-    icon: "ti-linkedin"
-    link: "#"
-
-  - name: pinterest
-    icon: "ti-pinterest"
-    link: "#"
-
 # Build settings
 permalink: "/:title"
 markdown: kramdown

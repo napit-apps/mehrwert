@@ -1,43 +1,38 @@
 ---
 ---
 
-/*!------------------------------------------------------------------
-[MAIN STYLESHEET]
-
-PROJECT:	Dizer-Portfolio template
-VERSION:	1.0
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-[TABLE OF CONTENTS]
--------------------------------------------------------------------*/
-
+// Shared stylesheet: foundations, components, then page-specific rules.
 @import 'variables.scss';
 
 @import 'mixins.scss';
 @import 'typography.scss';
 
 @import 'common.scss';
-@import 'templates/menu.scss';
-@import 'templates/clients.scss';
-@import 'templates/slider.scss';
+.card { border: none; }
+.ti-arrow-right { color: #61bb95; }
+
 @import 'templates/service.scss';
-@import 'templates/about.scss';
+
 @import 'templates/buttons.scss';
-@import 'templates/portfolio.scss';
-@import 'templates/counter.scss';
-@import 'templates/skill.scss';
+
 @import 'templates/testimonial.scss';
-@import 'templates/team.scss';
-@import 'templates/latest-blog.scss';
+
 @import 'templates/contact.scss';
 @import 'templates/pricing.scss';
 @import 'templates/page-header.scss';
-@import 'templates/blog.scss';
-@import 'templates/blog-single.scss';
-@import 'templates/modals.scss';
-@import 'templates/footer.scss';
-@import 'templates/imprint.scss';
+
 @import 'templates/training.scss';
-@import 'templates/post.scss';
-@import 'templates/slider-cto.scss';
+
+@import 'components/site';
+
+@import 'components/testimonials';
+@import 'pages/services';
+@import 'pages/about';
+@import 'pages/portfolio';
+@import 'components/case-study';
+@import 'pages/contact';
+@import 'components/finishing';
+@import 'pages/blog';
+@import 'pages/home';
+
+@import 'pages/legal';

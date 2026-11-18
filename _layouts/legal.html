@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% assign document = site.data[page.document_key][page.document_key] %}
+<section class="section imprint overflow-hidden bg-secondary">
+  <div class="container">
+    <h1 class="legal-title">{{ document.title }}</h1>
+    {{ document.content | replace: '<h3>', '<h2 class="legal-heading-large">' | replace: '</h3>', '</h2>' | replace: '<h5>', '<h2 class="legal-heading">' | replace: '</h5>', '</h2>' | replace: '<h6>', '<h3 class="legal-subheading">' | replace: '</h6>', '</h3>' }}
+  </div>
+</section>

@@ -1,0 +1,6 @@
+---
+layout: default
+---
+{% assign case_key = page.portfolio_key | default: page.content_key %}
+{% assign case = site.translations[site.lang].pages.portfolio.details[case_key] %}
+{% include components/case-study.html case=case classes=page.case_style %}

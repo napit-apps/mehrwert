@@ -1,0 +1,25 @@
+// Document typography follows the published legal pages, isolated from page heroes.
+.mw-site .imprint {
+  div { word-break: break-word; }
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  p, ul, ol { color: #fff; margin: 0 0 16px; }
+  h1, h2, h3 { color: #fff; font-weight: 500; letter-spacing: normal; margin: 0 0 8px; }
+  .legal-title { font-size: 42px; line-height: 52px; }
+  .legal-heading-large { font-size: 40px; line-height: 50px; }
+  .legal-heading { font-size: 20px; line-height: 34px; }
+  .legal-subheading { font-size: 16px; line-height: 26px; }
+  a { color: #007bff; }
+  a:hover { color: $primary-color !important; }
+  @include desktop {
+    .legal-title { font-size: 35px; line-height: 42px; }
+    .legal-heading-large { font-size: 30px; line-height: 35px; }
+    .legal-heading { font-size: 18px; line-height: 24px; }
+    .legal-subheading { line-height: 20px; }
+  }
+  @include mobile {
+    .legal-title { font-size: 32px; line-height: 38px; }
+    .legal-heading-large { font-size: 28px; line-height: 32px; }
+  }
+}

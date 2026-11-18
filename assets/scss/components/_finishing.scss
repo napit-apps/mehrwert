@@ -1,0 +1,32 @@
+.mw-site .mw-about > .mw-hero {
+  background:
+    radial-gradient(ellipse at 0% 15%, rgba(147, 74, 228, .55) 0%, rgba(147, 74, 228, 0) 58%),
+    radial-gradient(ellipse at 100% 95%, rgba(97, 187, 149, .38) 0%, rgba(97, 187, 149, 0) 52%),
+    linear-gradient(120deg, #1E172E 0%, #2B2044 100%);
+}
+.mw-site .mw-portfolio > .mw-hero {
+  background:
+    radial-gradient(ellipse at 100% 0%, rgba(147, 74, 228, .55) 0%, rgba(147, 74, 228, 0) 65%),
+    radial-gradient(ellipse at 0% 100%, rgba(97, 187, 149, .4) 0%, rgba(97, 187, 149, 0) 52%),
+    linear-gradient(150deg, #251D39 0%, #1E172E 100%);
+}
+.mw-site.mw-blog .mw-blog-hero {
+  background:
+    radial-gradient(ellipse at 50% -65%, rgba(147, 74, 228, .65) 0%, rgba(147, 74, 228, 0) 72%),
+    radial-gradient(ellipse at 105% 100%, rgba(97, 187, 149, .3) 0%, rgba(97, 187, 149, 0) 45%),
+    linear-gradient(180deg, #2B2044 0%, #1E172E 100%);
+}
+.mw-site .mw-contact-page > .mw-hero {
+  background:
+    radial-gradient(ellipse at 105% 10%, rgba(97, 187, 149, .45) 0%, rgba(97, 187, 149, 0) 62%),
+    radial-gradient(ellipse at 5% 110%, rgba(147, 74, 228, .45) 0%, rgba(147, 74, 228, 0) 58%),
+    linear-gradient(110deg, #1E172E 0%, #251D39 100%);
+}
+
+.mw-site .mw-hero h1 { overflow-wrap: anywhere; hyphens: auto; }
+
+.mw-site .mw-project-client { display: block; margin-top: 8px; color: var(--mw-muted); font-size: .82rem; line-height: 1.5; font-weight: 400; }
+.mw-site .mw-hero .mw-project-client { color: #e0dce6; font-size: 1rem; margin-top: 16px; }
+
+.mw-site .mw-project-card .mw-project-origin { display: block; color: var(--mw-muted); font-size: .72rem; line-height: 1.4; margin-bottom: 14px; }
+.mw-site .mw-project-card h3 { overflow-wrap: anywhere; hyphens: auto; }

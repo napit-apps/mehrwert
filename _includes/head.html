@@ -18,13 +18,9 @@
   <meta name="author" content="{{ site.author | escape }}">
   {% endif %}
 
-  {% if page.relaunch %}
   <link rel="stylesheet" href="{{ '/assets/plugins/bootstrap/bootstrap.min.css' | asset_url }}">
-  {% else %}
-  {% for css in site.data.plugins.css %}
-  <link rel="stylesheet" href="{{ css | asset_url }}">
-  {% endfor %}
-  {% endif %}
+  {% if page.layout == 'post' or page.page_type == 'blog' or page.layout == 'training' %}<link rel="stylesheet" href="{{ '/assets/plugins/themify/css/themify-icons.css' | asset_url }}">{% endif %}
+  {% if page.layout == 'training' %}<link rel="stylesheet" href="{{ '/assets/plugins/slick-carousel/slick/slick.css' | asset_url }}">{% endif %}
 
   <!-- Main Stylesheet -->
   <link href="{{ '/assets/scss/style.css' | asset_url }}" rel="stylesheet">
@@ -36,8 +32,6 @@
   {% if site.test_environment == true or page.portfolio == true %}
   <meta name="robots" content="noindex, nofollow">
   {% endif %}
-  <link rel="stylesheet" href="{{ '/assets/scss/relaunch.css' | asset_url }}">
-  {% if page.layout == 'post' or page.layout == 'blog-review' %}<link rel="stylesheet" href="{{ '/assets/scss/blog-review.css' | asset_url }}">{% endif %}
   {% if page.redirect_to %}<meta http-equiv="refresh" content="0; url={{ page.redirect_to | localized_url }}">{% endif %}
   {% include language-routes.html %}
   {% if site.lang == 'en' %}{% assign canonical_route = english_route %}{% else %}{% assign canonical_route = german_route %}{% endif %}

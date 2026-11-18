@@ -1,0 +1,36 @@
+.mw-site .mw-contact-page {
+  .mw-contact-hero { display: grid; grid-template-columns: minmax(0,1.5fr) minmax(0,1fr); gap: 64px; align-items: center; }
+  .mw-hero h1 { max-width: 19ch; }
+  .mw-lead, .mw-contact-note { color: #e0dce6; }
+  .mw-contact-note { font-size: .9rem; margin-top: 20px; }
+  .mw-contact-direct { padding-left: 32px; border-left: 2px solid #61bb95; }
+  .mw-contact-direct h2 { font-size: 1.65rem; }
+  .mw-contact-direct dl { margin: 28px 0; }
+  .mw-contact-direct dt { font-size: .85rem; color: #e0dce6; }
+  .mw-contact-direct dd { margin: 0 0 20px; }
+  .mw-contact-direct a { display: inline-block; padding-block: 8px; overflow-wrap: anywhere; }
+  .mw-contact-direct p { font-size: .9rem; }
+  .mw-contact-location { background: #e5ede7; }
+  .mw-contact-location-grid { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.5fr); gap: 48px; margin-top: 32px; }
+  address { font-style: normal; margin-bottom: 24px; }
+  .mw-contact-map { background: var(--mw-paper); padding: 24px; min-width: 0; }
+  .mw-map-placeholder, [data-map-frame] { min-height: 340px; }
+  .mw-map-placeholder { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 20px; }
+  .mw-map-placeholder h3 { font-size: 1.35rem; }
+  .mw-map-placeholder p { font-size: .9rem; }
+  .mw-contact-map [hidden] { display: none !important; }
+  .mw-contact-map iframe { display: block; width: 100%; height: 340px; border: 0; }
+  .mw-map-controls { display: flex; flex-direction: column; align-items: flex-start; min-height: 132px; margin-top: 12px; font-size: .85rem; }
+  .mw-map-controls a, .mw-map-controls button { min-height: 44px; padding-block: 10px; text-decoration: underline; }
+  .mw-map-controls button { border: 0; background: transparent; cursor: pointer; font: inherit; }
+  @media (max-width: 767px) {
+    .mw-contact-hero, .mw-contact-location-grid { grid-template-columns: minmax(0,1fr); gap: 32px; }
+    .mw-contact-direct { padding-left: 20px; }
+    .mw-hero h1 { font-size: 2rem; }
+    .mw-contact-map { padding: 20px; }
+  }
+}
+@media print {
+  .mw-site:has(.mw-contact-page) .mw-skip { display: none !important; }
+  .mw-site:has(.mw-contact-page) .mw-header { position: static; }
+}

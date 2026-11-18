@@ -1,110 +1,44 @@
 # Gemeinsame Jekyll-Architektur DE/EN
 
-Stand: 17. November 2026, Branch `fb_update-2027`.
+Stand: 18. November 2026, Branch `fb_update-2027`.
 
-## Struktur und Ursache
+## Verbindliche Struktur
 
-Die überarbeiteten Seiten wählten bisher mit `site.lang == 'de'` neue Includes
-und für Englisch die alten Abschnitte. Zusätzlich waren zahlreiche Projektseiten
-auf `languages: [de]` eingeschränkt und die aktuellen englischen Daten fehlten.
-Diese Sprachverzweigungen sind entfernt. Das bestehende
-`jekyll-multiple-languages-plugin` erzeugt beide Versionen aus denselben Seiten.
+- `_layouts/default.html`: gemeinsame Seitenschale, Head, Navigation und Footer.
+- `_layouts/post.html`, `tag_page.html`, `training.html`: Artikel, Tag-Archive und Training innerhalb derselben Seitenschale.
+- `_layouts/legal.html`: Impressum, Datenschutz und AGB aus den unveränderten bestehenden Dokumentdaten. Semantische Überschriften und isolierte Typografie entsprechen den Größen und Abständen der produktiven Rechtsseiten.
+- `_layouts/case-study.html` und `_includes/components/case-study.html`: gemeinsamer Aufbau der 17 Cases mit optionalen, projektspezifischen Abschnitten und Diagrammen.
+- `_includes/pages/`: seitenbezogener Aufbau; `_includes/components/`: gemeinsame Projektkarten, Case Study und Portfolio-Kontakt.
+- `_includes/header.html`, `navigation.html`, `footer.html`: DE/EN und Desktop/Mobile verwenden dieselben Komponenten. „Rechtliches“ verwendet die bestehenden Ziele und Bezeichnungen aus `common.footer.legal`.
+- Seiten im Wurzel-, Service- und Projektverzeichnis enthalten Front Matter, Routing und die Inhaltszuordnung. Es gibt keine sprachspezifischen Layoutkopien.
 
-- `_layouts/default.html`: gemeinsame HTML-Schale, Head, Navigation, Footer.
-- `_layouts/relaunch.html`, `portfolio.html`, `blog-review.html`: bestehende
-  Layoutnamen als dünne Verweise; `_layouts/post.html` bleibt der Artikelaufbau.
-- `_includes/relaunch/`: gemeinsame seitenbezogene Inhalte/Komponenten.
-- `_includes/relaunch/case-study.html`: gemeinsame Struktur der 16 Case Studies;
-  bestehende Zuordnungs-Includes wählen die jeweiligen Projektdaten. Optionale
-  Abschnitte und Visualisierungen bleiben projektspezifisch.
-- Seiten im Wurzel-, Service- und Projektverzeichnis enthalten Routing/Front
-  Matter und den gemeinsamen Include-Aufruf, keine DE-/EN-HTML-Kopien.
-- Blogartikel bleiben unverändert unter `_i18n/de/_posts` bzw. `_i18n/en/_posts`.
-  Rechtliche Inhalte bleiben unverändert in ihrer bestehenden Datenstruktur.
+Die bisherigen Umschalter und Ressourcenlisten für zwei Website-Versionen sind entfernt. Dünne Layout-Aliase, die fünf Case-Zuordnungswrapper, nicht importierte Theme-Module und das unbenutzte Sammelskript wurden entfernt. Es gibt keine zweite technische Seitenschale.
+
+## Styles und Verhalten
+
+`assets/scss/style.scss` ist der einzige Website-Stylesheet-Einstieg. Grundlagen und weiterhin benötigte Training-/Dokumentregeln werden mit `components/` und `pages/` zusammengeführt. Startseiten- und Blogregeln sind in ihren jeweiligen Seitenmodulen konsolidiert; die bewährte Kaskade bleibt erhalten. Rechtliche Typografie ist auf `.imprint` begrenzt und beeinflusst keine anderen Seiten.
+
+Bootstrap bleibt die vorhandene Layoutgrundlage. Themify wird nur für Artikel, Blog und Training geladen. jQuery und Slick sind ausschließlich für den bestehenden Training-Slider und dessen FAQ erforderlich. Blogsuche verwendet lokales Lunr und `assets/js/blog-search.js`; das Training verwendet `training.js`. Filter, Kundenstimmen und bewusst aktivierte Karte behalten ihre bestehenden kleinen JavaScript-Module. Ungenutzte Shuffle-, Magnific-Popup- und Such-Plugins sind entfernt. Authentische Bildbestände, Logos und Fonts bleiben erhalten; eine fehlende aktuelle Verwendung allein ist kein Löschgrund für redaktionelle Assets.
 
 ## Inhalte und Übersetzungen
 
-`_i18n/de.yml` und `_i18n/en.yml` sind die einzigen aktiven Sprachdateien.
-Sie haben dieselbe vollständige Schlüsselstruktur; es gibt keinen separaten
-Relaunch-Inhaltsbereich und keine Alias-Schlüssel oder historischen Fallbacks.
+`_i18n/de.yml` und `_i18n/en.yml` besitzen dieselbe Schlüsselstruktur:
 
-- `common`: Marke, Navigation, Header, Footer, gemeinsames Kontaktformular,
-  Karussell-Bedienung, veröffentlichte Zitatquellen und globale SEO-Texte.
-- `pages.home`, `pages.services.it_strategy`,
-  `pages.services.software_delivery`, `pages.about`, `pages.contact`:
-  aktuelle Seiteninhalte und Metadaten.
-- `pages.portfolio`: Übersicht mit `grid_entries`, Filtern und Bedienung;
-  `details.<bestehende Projekt-ID>` enthält die 17 Case Studies einschließlich NOE sowie die
-  weiterhin erreichbare Bestandsseite Mobile-Software-Projekte.
-  Die früheren redaktionellen Viererblöcke sind aufgelöst.
-- `pages.blog`: Übersicht, Suche, Teilen, Pagination, Tag-Archive und Kontakt.
-- `pages.training`: bestehendes Green-Software-Training und dessen Kontakttext.
-- `pages.error`, `pages.testimonial_archives`: bestehende Sonderseiten/Metadaten.
+- `common`: Navigation, Footer, Marke, Formular, Karussell, veröffentlichte Zitatquellen und SEO-Grundlagen.
+- `pages.home`, `pages.services`, `pages.about`, `pages.contact`, `pages.blog`, `pages.training`, `pages.error`, `pages.testimonial_archives`: jeweilige Seiteninhalte.
+- `pages.portfolio.grid_entries`: Auswahl, Karten und Filter; `pages.portfolio.details`: 17 Cases einschließlich NOE und die weiterhin erreichbare zusätzliche Mobile-Software-Seite.
 
-Templates lesen `site.translations[site.lang]` oder verwenden den bestehenden
-`{% t ... %}`-Tag. Front Matter verweist auf dieselben Schlüssel. Die bestehenden
-technischen Layout-/Include-Namen unter `relaunch/` bleiben erhalten; sie
-bezeichnen gemeinsame Templates, keine zweite Inhaltsquelle.
+Templates lesen `site.translations[site.lang]` oder den bestehenden `{% t ... %}`-Tag. Das bestehende Mehrsprachen-Plugin erzeugt beide Sprachen. Blogartikel bleiben unter `_i18n/de/_posts` und `_i18n/en/_posts`; Rechtstexte bleiben in ihren bestehenden Datenquellen und werden nicht übersetzt.
 
-`_plugins/i18n_contract.rb` prüft jetzt die vollständigen Sprachdateien ohne
-historische Ausnahmeliste: doppelte YAML-Schlüssel, fehlende/zusätzliche Felder,
-Typen, Array-Längen, leere benötigte Übersetzungen, veröffentlichte Zitatverweise
-und verwaiste Redaktionsfreigaben führen zum Build-Fehler.
+`_plugins/i18n_contract.rb` kontrolliert vollständige Schlüsselparität, Typen, Array-Längen, leere Pflichtfelder, doppelte YAML-Schlüssel, Zitatverweise und Redaktionsfreigaben. `_data/translation_review.yml` behält die bereits geprüften englischen Inhalte und deren Quellenprüfsummen. `_data/testimonial_publication.yml` dokumentiert die 15 verwendeten sprachbezogenen Veröffentlichungsnachweise. Unveröffentlichte englische Zitate werden nicht durch deutsche Fassungen ersetzt.
 
-`_data/translation_review.yml` enthält weiterhin aktive englische
-Freigabeeinträge mit Prüfsummen der deutschen Ausgangstexte. 22 Einträge zu
-entfernten, nicht gerenderten Feldern wurden mit diesen Feldern ausgemustert.
-Es wurden keine Übersetzungen ergänzt oder freigegeben.
+## Routing und Indexierung
 
-Die veröffentlichten Zitate bleiben wortgetreu. Die gemeinsame Zitatstruktur
-enthält nur tatsächlich verwendete Quellen. Für Michael Weinheimer existiert
-keine freigegebene englische Fassung: Der englische Datensatz bleibt explizit
-`published: false` mit leerem Zitat und leerer Rollenangabe; er wird nicht
-angezeigt und löst keinen deutschen Fallback aus. Der Veröffentlichungsnachweis
-in `_data/testimonial_publication.yml` enthält die 15 weiterhin verwendeten
-sprachbezogenen Originalnachweise. Nicht mehr verwendete Nachweise und Inhalte
-sind weiterhin in der Git-Historie nachvollziehbar.
+`_includes/language-routes.html` und `_data/blog_language_routes.yml` liefern Sprachwechsel, Canonicals und hreflang. Die URL-Filter in `_plugins/site_urls.rb` berücksichtigen Hosting-Unterverzeichnisse. Tag-Archive ohne Gegenstück wechseln zur anderssprachigen Blogübersicht. Bestehende Artikel- und Projektrouten bleiben erhalten.
 
-### Prüfung der Konsolidierung
+Produktiv sind Portfolioübersicht und 17 Cases über `portfolio: true` in DE/EN `noindex, nofollow`, außerhalb der Sitemap und für die vereinbarten KI-Crawler gesperrt. Das ist kein Zugriffsschutz. Die zusätzliche Route `/projects/mobile-software-projekte.html` bleibt auf ausdrücklichen Wunsch unverändert indexierbar; ihre Ausnahme ist weiterhin offen dokumentiert.
 
-Die Bestandsaufnahme kombinierte den statischen Include-/Layout-Graphen,
-Front Matter, Plugins und JavaScript mit einer temporären Laufzeit-Erfassung
-der tatsächlich gelesenen YAML-Felder. Dynamische Projekt-IDs, Zitatquellen,
-Listen, Filter-IDs und Tag-Archive wurden zusätzlich geprüft. Die derzeit
-inaktive Pagination behält ihre verwendbaren UI-Schlüssel. Nicht eingebundene
-historische Templates wurden mit ihren ungenutzten Inhalten entfernt.
-
-Vergleich mit dem Produktions-Build des vorherigen Commits: **157 HTML-Seiten
-mit identischen Texten, Elementen und Attributen**, einschließlich Metadaten,
-Links, Zitaten und Filterdaten. Nur Kommentare und bedeutungslose Leerzeichen
-wurden beim Vergleich ausgeklammert. Blogartikel, Rechtstexte, CSS und JavaScript
-blieben unverändert. Produktions- und Test-Build: jeweils 157 Seiten ohne
-Prüffehler; `noindex` ausschließlich im Test-Build. Browserprüfung: 156 Ansichten
-(DE/EN bei 1440, 390 und 320 Pixeln) ohne Fehler, einschließlich Filter,
-Sprachlinks, Karussells, Suche, Mobilmenü und bewusster Kartenaktivierung.
-
-## URLs und Testumgebung
-
-`_includes/language-routes.html` nutzt die bestehenden Routen und
-`_data/blog_language_routes.yml` für die zwei abweichenden Artikel-Slugs.
-Canonical und hreflang verwenden dieselbe Zuordnung wie der Sprachwechsel.
-Tag-Archive besitzen nicht immer ein sprachliches Gegenstück: Der Wechsel führt
-hier zur anderssprachigen Blogübersicht; es wird kein falsches hreflang-Paar
-behauptet. Ihre bestehenden URLs und Artikel-Tags bleiben unverändert.
-
-Die kleinen Filter in `_plugins/site_urls.rb` trennen lokalisierte Seiten-URLs
-(`localized_url`) von gemeinsam ausgelieferten Assets (`asset_url`).
-`content_asset_urls` passt alte absolute Asset-Pfade ausschließlich beim Rendern
-an das Hosting-Unterverzeichnis an. Bestehende absolute Artikelverweise auf die
-Produktivwebsite werden beibehalten. Die Blogsuche erhält den Build-Basispfad.
-
-Produktiv: `_config.yml`, `test_environment: false`; die explizit mit
-`portfolio: true` markierte Übersicht und die 17 Cases bleiben in DE/EN
-`noindex, nofollow` und außerhalb der Sitemaps. Details und Hosting-Grenzen:
-[Release-Vorbereitung](production-release-preparation.md).
-Test: zusätzlich `_config.test.yml`, `noindex, nofollow` auf allen HTML-Seiten,
-kein produktiver CNAME. Keine robots.txt-Crawlsperre hinzugefügt. Für GitHub Pages
-müssen URL und baseurl des jeweiligen Test-Repositories konfiguriert werden.
+Test-Builds aktivieren `_config.test.yml`: alle HTML-Seiten `noindex, nofollow`, kein produktiver CNAME. URL und baseurl werden passend zum Test-Repository übergeben. Die alte IT-Strategie-URL bleibt als statische Weiterleitung erhalten; sie liefert keinen echten HTTP-Redirect. Siehe auch [Release-Vorbereitung](production-release-preparation.md).
 
 ## Prüfung
 
@@ -112,31 +46,12 @@ müssen URL und baseurl des jeweiligen Test-Repositories konfiguriert werden.
 JEKYLL_ENV=production bundle exec jekyll build --destination /tmp/mw-production
 python3 _scripts/check-site.py /tmp/mw-production
 bundle exec ruby _scripts/test-i18n-contract.rb
-bundle exec jekyll build --config _config.yml,_config.test.yml --destination /tmp/mw-test
+JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config.test.yml --destination /tmp/mw-test
 python3 _scripts/check-site.py /tmp/mw-test --test
 ```
 
-Für einen Unterverzeichnis-Build dem Prüfer zusätzlich `--baseurl /mw-testpage`
-übergeben. Der Prüfer kontrolliert alle HTML-Dateien, lokale Links, Assets,
-Anker, Canonicals und die umgebungsabhängigen Robots-Metadaten ohne Netzwerk.
+Bei Unterverzeichnis-Hosting zusätzlich `--baseurl /mw-testpage` an den Prüfer übergeben. Dieser prüft HTML-Dateien, interne Links, Assets, Anker, Canonicals, Sitemap, Indexierungsregeln und unerwünschte interne Dateien.
 
-Geprüft: 157 HTML-Dateien pro Build; Produktions-, Test- und Unterverzeichnis-
-Build. Browserprüfung von 26 Seiten in DE/EN bei 1440, 390 und 320 px
-(156 Ansichten), inklusive DOM-/Hintergrund-Parität, Überläufen, Filtern,
-Navigation, Karussells, Blogsuche und Kartenaktivierung. Keine Screenshots.
-Die vier gefundenen Überläufe langer deutscher Hero-Wörter wurden gemeinsam
-über den Wortumbruch behoben.
+Konsolidierungsprüfung: je 159 HTML-Dateien im Produktions- und Test-Build; 11 i18n-Vertragstests. Alle sichtbaren Hauptinhalte sind gegenüber dem gesicherten Ausgangsstand wortgleich. 116 Desktop-/Mobile-Ansichten der geschützten Seiten stimmen in berechneter Typografie, Farben, Abständen und Elementmaßen überein. 156 Browseransichten bei 1440, 390 und 320 Pixeln prüfen DE/EN, Überläufe, Filter, Karussells, Suche, Sprachlinks und Kartenaktivierung. Die Rechtsseiten wurden zusätzlich mit der tatsächlichen Live-Darstellung verglichen; dunkler direkter Text auf dunklem Grund ist nun weiß. Keine Exporte.
 
-## Vorhandene redaktionelle Grenzen
-
-- Die alte NOE-Route enthält weiterhin den vorhandenen Lorem-ipsum-Arbeitsstand;
-  sie wurde weder inhaltlich ergänzt noch entfernt.
-- Rechtliche Inhalte sind weiterhin deutsch; keine ungefragte Übersetzung.
-- Die Herkunftsangaben der bestehenden Agile-Coaching-Zitate bleiben wie
-  angeordnet unverändert. Die Architekturarbeit ersetzt keine Referenzfreigabe.
-- Die bisherigen Tag-Archive enthalten teils Hashzeichen/Kommas in den URLs;
-  diese wurden zum Schutz bestehender URLs nicht umbenannt.
-
-Weitere Änderungen orientieren sich pragmatisch an
-`mw-jekyll-coding-guidelines.md`. Kein Frameworkwechsel, keine zusätzlichen
-Abhängigkeiten, kein Deployment und keine Manifest-Änderung.
+Weitere Änderungen folgen den pragmatischen [Coding Guidelines](mw-jekyll-coding-guidelines.md). Keine zusätzlichen Abhängigkeiten und keine Änderung des Manifests.

@@ -1,0 +1,15 @@
+{% assign portfolio = site.translations[site.lang].pages.portfolio %}
+<div class="mw-strategy mw-portfolio" data-portfolio>
+  <section class="mw-hero"><div class="mw-shell"><p class="mw-eyebrow">{{ portfolio.eyebrow }}</p><h1>{{ portfolio.hero_title }}</h1><p class="mw-lead">{{ portfolio.intro }}</p></div></section>
+  <section class="mw-section" aria-labelledby="experience-title"><div class="mw-shell">
+    <h2 id="experience-title">{{ portfolio.grid_title }}</h2><p class="mw-strategy-intro">{{ portfolio.filter_intro }}</p>
+    <div class="mw-portfolio-filters" role="group" aria-label="{{ portfolio.ui.filter_label }}" hidden data-filters>{% for filter in portfolio.filters %}<button type="button" data-filter="{{ filter.id }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="experience-grid">{{ filter.label }}</button>{% endfor %}</div>
+    <p class="mw-portfolio-count" role="status" aria-live="polite" aria-atomic="true" data-count data-format="{{ portfolio.ui.count }}">{{ portfolio.ui.count | replace: '%count%', portfolio.grid_entries.size }}</p>
+    <div class="mw-cards mw-portfolio-grid portfolio-gallery" id="experience-grid">{% for item in portfolio.grid_entries %}
+      {% include components/project-card.html project=item ui=portfolio.ui %}
+    {% endfor %}</div>
+  </div></section>
+  <section class="mw-section mw-strategy-values"><div class="mw-shell mw-strategy-split"><h2>{{ portfolio.closing_title }}</h2><div><p>{{ portfolio.closing }}</p><ul class="mw-portfolio-reading">{% for item in portfolio.services %}<li><a class="mw-text-link" href="{{ item.url | localized_url }}">{{ item.title }}</a></li>{% endfor %}</ul></div></div></section>
+  {% include components/portfolio-contact.html %}
+</div>
+<script src="{{ '/assets/js/portfolio-filters.js' | asset_url }}" defer></script>

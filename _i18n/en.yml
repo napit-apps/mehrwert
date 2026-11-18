@@ -4,6 +4,7 @@ common:
     title: 'mehr.wert - Sustainable Software Solutions '
     description: 'We give IT value. And your business lasting resilience. - Strategic IT consulting for companies undergoing change: As an interim IT Leader, I support you in architectural decisions, team leadership, agile processes, and sustainable software development. Clear. Feasible. Effective.'
   navigation:
+    legal_label: Legal
     items:
     - title: Services
       children:

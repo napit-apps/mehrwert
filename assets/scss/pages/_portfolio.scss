@@ -1,0 +1,29 @@
+.mw-site .mw-portfolio {
+  .mw-lead { color: #e0dce6; }
+  .mw-portfolio-filters { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 32px; }
+  .mw-portfolio-filters[hidden], .mw-portfolio-card[hidden] { display: none; }
+  .mw-portfolio-filters button { border: 1px solid #938b9c; border-radius: 2px; padding: 9px 16px; background: transparent; color: inherit; font: inherit; font-size: .9rem; cursor: pointer; }
+  .mw-portfolio-filters button[aria-pressed='true'] { background: #251d39; color: white; border-color: #251d39; box-shadow: inset 0 -3px #61bb95; }
+  .mw-portfolio-filters button:hover { border-color: #386c55; }
+  .mw-portfolio-count { margin-top: 22px; font-size: .85rem; }
+  .mw-portfolio-grid { margin-top: 24px; gap: 24px; }
+  .mw-portfolio-card { display: flex; flex-direction: column; padding: 24px; border: 1px solid var(--mw-line); border-top: 3px solid #61bb95; }
+  .mw-portfolio-card h3 { font-size: 1.35rem; margin-bottom: 0; }
+  .mw-portfolio-card > p { margin: 16px 0 20px; }
+  .mw-portfolio-card > .mw-text-link { margin-top: 0; padding-top: 16px; min-height: 44px; }
+  .mw-portfolio-tags { display: flex; flex-wrap: wrap; gap: 6px 12px; list-style: none; padding: 0; margin: auto 0 0; font-size: .75rem; color: #355944; }
+  .mw-portfolio-tags li { border-bottom: 1px solid #a2b6a8; }
+  .mw-portfolio-reading { list-style: none; padding: 0; margin: 28px 0 0; }
+  .mw-portfolio-reading li + li { margin-top: 16px; }
+  .mw-portfolio-back { margin-top: 28px; font-size: .9rem; }
+  .mw-portfolio-narrative { padding-block: 24px 64px; }
+  .mw-portfolio-chapter { display: grid; grid-template-columns: 1fr 2fr; gap: 64px; padding-block: 40px; border-bottom: 1px solid var(--mw-line); }
+  .mw-portfolio-chapter h2 { font-size: 1.65rem; }
+  .mw-portfolio-chapter p { max-width: 72ch; }
+  @media (min-width: 768px) and (max-width: 1100px) { .mw-portfolio-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+  @media (max-width: 767px) {
+    .mw-portfolio-grid, .mw-portfolio-chapter { grid-template-columns: minmax(0,1fr); }
+    .mw-portfolio-chapter { gap: 20px; padding-block: 28px; }
+    .mw-portfolio-card { padding: 24px; }
+  }
+}
