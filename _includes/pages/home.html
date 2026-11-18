@@ -2,7 +2,7 @@
 {% assign home = copy.pages.home %}
 <div class="mw-home mw-home-composition">
 <section class="mw-hero" aria-labelledby="home-title"><div class="mw-shell mw-home-hero-content">
-  <p class="mw-eyebrow">{{ home.eyebrow }}</p>
+  <p class="mw-eyebrow">{% assign expertise_labels = home.eyebrow | split: ' · ' %}{% for label in expertise_labels %}{% unless forloop.first %}<span class="mw-home-expertise-separator"> · </span>{% endunless %}<span class="mw-home-expertise-label">{{ label }}</span>{% endfor %}</p>
   <h1 id="home-title">{{ home.title }}</h1>
   <p class="mw-lead">{{ home.intro }}</p>
   <div class="mw-actions"><a class="mw-button" href="{{ site.baseurl }}/contact.html#enquiry">{{ home.primary }}</a></div>
