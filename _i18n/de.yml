@@ -16,6 +16,11 @@ common:
       url: "/projects.html"
     - title: Über mehr.wert
       url: "/mission.html"
+      children:
+      - title: Über mehr.wert
+        url: "/mission.html"
+      - title: Nachhaltigkeit
+        url: "/sustainability.html"
     - title: Blog
       url: "/blog.html"
     - title: Kontakt
@@ -2025,3 +2030,66 @@ pages:
       embed_url: https://www.openstreetmap.org/export/embed.html?bbox=9.4802769%2C48.6384944%2C9.4882769%2C48.6434944&layer=mapnik&marker=48.6409944%2C9.4842769
     meta_title: Kontakt | mehr.wert – IT-Strategie & Software-Delivery
     description: Sprechen Sie mit mehr.wert über IT-Strategie, Modernisierung und Software-Delivery. Persönlicher Kontakt per E-Mail oder Telefon in Kirchheim unter Teck.
+
+  sustainability:
+    navigation_title: Nachhaltigkeit
+    meta_title: Nachhaltige Software & IT – Unsere Haltung | mehr.wert
+    description: Nachhaltigkeit ist für mehr.wert ein Qualitätsversprechen. Erfahren Sie mehr über unsere Haltung, Green Agile und unser Engagement für Green Software.
+    hero:
+      eyebrow: NACHHALTIGKEIT BEI MEHR.WERT
+      title: Nachhaltigkeit gehört für uns zu guter Software.
+      lead: Software soll Probleme lösen und über Jahre einen echten Nutzen bringen. Dabei macht es einen Unterschied, wie viel Aufwand sie verursacht, wie Menschen mit ihr arbeiten und welche Ressourcen sie benötigt. Deshalb ist Nachhaltigkeit bei mehr.wert kein zusätzliches Angebot, sondern Teil unseres Qualitätsanspruchs.
+      link: Was uns antreibt ↓
+    understanding:
+      eyebrow: UNSER VERSTÄNDNIS
+      title: Gut für Unternehmen, Menschen und Umwelt.
+      intro: Nachhaltige Software ist für uns nicht automatisch die Software mit dem geringsten Energieverbrauch. Eine gute Entscheidung berücksichtigt auch, ob eine Lösung langfristig tragfähig ist, Menschen unterstützt und sich sinnvoll weiterentwickeln lässt. Wir betrachten deshalb drei Perspektiven gemeinsam.
+      items:
+      - title: Wirtschaftlich
+        text: Software soll ihren Zweck erfüllen und langfristig bezahlbar und veränderbar bleiben. Wir achten auf Wartbarkeit, Betriebskosten, technische Abhängigkeiten und den Nutzen über den gesamten Lebenszyklus – nicht nur auf die nächste Lieferung.
+      - title: Sozial
+        text: Software wird von Menschen entwickelt und von Menschen genutzt. Verständlichkeit, Zugänglichkeit, sinnvolle Arbeitsabläufe und eine gesunde Zusammenarbeit gehören für uns zur Qualität. Technik sollte Menschen unterstützen, nicht ihnen zusätzliche Hürden schaffen.
+      - title: Ökologisch
+        text: Auch digitale Lösungen brauchen Energie, Rechenleistung, Netze und Geräte. Wir möchten unnötigen Ressourcenverbrauch vermeiden und ökologische Auswirkungen dort sichtbar machen, wo wir sie sinnvoll beeinflussen können – ohne pauschale Versprechen über CO₂-Einsparungen.
+    values:
+      eyebrow: WIE WIR ENTSCHEIDEN
+      title: Bewusstsein schaffen. Verantwortung übernehmen.
+      intro: Nicht jede Entscheidung lässt sich gleichzeitig wirtschaftlich, sozial und ökologisch optimieren. Gerade deshalb wollen wir die Folgen unserer Entscheidungen verstehen und Zielkonflikte offen besprechen.
+      items:
+      - title: Bewusstsein
+        text: Wir fragen nach dem tatsächlichen Nutzen, nach langfristigen Folgen und nach dem Aufwand, den eine Lösung verursacht. Wo es hilft, nutzen wir Daten und passende Kennzahlen. Wo etwas unklar ist, benennen wir die Unsicherheit.
+      - title: Verantwortung
+        text: Wir begründen Empfehlungen, vereinbaren konkrete nächste Schritte und schauen gemeinsam, ob sie im Alltag funktionieren. Wir versprechen keine perfekte Lösung, sondern einen bewussten und verantwortungsvollen Umgang mit Entscheidungen und ihren Folgen.
+      closing: Diese Haltung prägt unsere Arbeit an IT-Strategie, Modernisierung und Software-Delivery. Sie ist kein zusätzliches Projekt, das erst bei Bedarf beginnt.
+    engagement:
+      eyebrow: UNSER ENGAGEMENT
+      title: Wir möchten das Thema auch über unsere Projekte hinaus voranbringen.
+      intro: Wir lernen von anderen, teilen eigene Erfahrungen und beteiligen uns an Initiativen, die nachhaltige Softwareentwicklung im Alltag greifbarer machen.
+      items:
+      - title: Bundesverband Green Software
+        text: mehr.wert ist Mitglied im Bundesverband Green Software e. V. Der Austausch mit anderen Unternehmen und Fachleuten hilft uns, Perspektiven zu erweitern und nachhaltige Softwareentwicklung gemeinsam weiterzudenken.
+        link: Zum Bundesverband
+        url: https://www.bundesverband-green-software.de/mitglieder/
+        visual:
+          src: "/assets/images/banner/BvGS.jpg"
+          alt: Mitglied im Bundesverband Green Software
+      - title: Green Software Champion
+        text: Unser Gründer Marcel Russ ist Green Software Champion der Green Software Foundation. Die Anerkennung gilt seinem persönlichen Engagement für nachhaltige Softwareentwicklung und den Austausch innerhalb der Community.
+        link: Champion-Profil ansehen
+        url: https://champions.greensoftware.foundation/champions/marcel-russ/
+      - title: Green Agile Guide
+        text: Mit dem Green Agile Guide hat Marcel Russ eine unabhängige Initiative gestartet und veröffentlicht. Sie zeigt, wie Bewusstsein und Verantwortung Teil bestehender agiler Arbeitsweisen werden können – ohne zusätzliche Rollen oder Methodenbürokratie als Voraussetzung.
+        link: Green Agile Guide entdecken
+        url: https://greenagile.org/
+      - title: Wissen weitergeben
+        text: Schon vor der Gründung von mehr.wert hat Marcel Russ Entwicklerteams im Rahmen des Green Software Practitioner Trainings der Green Software Foundation geschult. Diese Erfahrung gehört zu unserem fachlichen Fundament. Ein separates Trainingsangebot machen wir daraus auf dieser Website bewusst nicht.
+        link: Mehr zum Green Software Practitioner
+        url: https://greensoftware.foundation/education/
+    closing:
+      eyebrow: UNSER ANSPRUCH
+      title: Nachhaltigkeit beginnt bei den Entscheidungen, die wir heute treffen.
+      text: Wir können nicht jede Auswirkung einer Software im Voraus kennen. Aber wir können genauer hinschauen, bessere Fragen stellen und Verantwortung für die Arbeit übernehmen, die wir gemeinsam vereinbaren. Daran möchten wir uns messen lassen.
+      primary: Den Green Agile Guide kennenlernen
+      primary_url: https://greenagile.org/
+      secondary: Mehr über mehr.wert
+      secondary_url: "/mission.html"

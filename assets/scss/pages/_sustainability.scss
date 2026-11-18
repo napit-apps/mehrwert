@@ -1,0 +1,37 @@
+.mw-site .mw-sustainability {
+  background: var(--mw-paper);
+  .mw-hero {
+    padding-block: 80px 96px;
+    background:
+      radial-gradient(ellipse at 100% 0%, rgba(97, 187, 149, .35), transparent 65%),
+      linear-gradient(125deg, #251d39, #283d36);
+  }
+  .mw-hero h1 { max-width: 23ch; text-wrap: balance; }
+  .mw-hero .mw-lead { max-width: 72ch; }
+  .mw-hero .mw-eyebrow { color: #d7eee1; }
+  .mw-hero a:focus-visible { outline-color: #8ed3b4; }
+  .mw-section { padding-block: 76px; }
+  .mw-section .mw-eyebrow { color: #4b6d5b; margin-bottom: 18px; }
+  .mw-sustainability-intro { max-width: 76ch; }
+  .mw-sustainability-intro h2 { max-width: 30ch; text-wrap: balance; }
+  .mw-sustainability-intro > p:last-child { margin-top: 24px; }
+  .mw-cards { margin-top: 40px; }
+  .mw-card { border-top-color: #9eb9a9; }
+  .mw-card p { color: var(--mw-ink); }
+  .mw-sustainability-values { background: #e4eee7; }
+  .mw-sustainability-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; }
+  .mw-sustainability-closing-copy { margin-top: 36px; max-width: 76ch; }
+  .mw-sustainability-engagements { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; margin-top: 40px; }
+  .mw-sustainability-engagement { border-top: 1px solid var(--mw-line); padding-top: 28px; }
+  .mw-sustainability-engagement h3 { font-size: 1.35rem; line-height: 1.35; }
+  .mw-sustainability-engagement p { margin-block: 18px 20px; }
+  .mw-sustainability-visual { display: block; width: min(100%, 280px); height: auto; margin-bottom: 24px; }
+  .mw-sustainability-closing { background: #eeede8; }
+  @media (max-width: 767px) {
+    .mw-hero { padding-block: 48px 64px; }
+    .mw-section { padding-block: 48px; }
+    .mw-sustainability-dimensions, .mw-sustainability-pair, .mw-sustainability-engagements { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+    .mw-cards, .mw-sustainability-engagements { margin-top: 32px; }
+    .mw-hero h1 { font-size: clamp(2rem, 8.5vw, 2.8rem); }
+  }
+}

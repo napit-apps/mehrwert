@@ -49,7 +49,7 @@
       <p class="mw-strategy-label">{{ about.values.label }}</p><h2>{{ about.values.title }}</h2>
       <p class="mw-strategy-intro">{{ about.values.intro }}</p>
       <div class="mw-about-dimensions">{% for item in about.values.items %}<article><h3>{{ item.title }}</h3><p>{{ item.text }}</p></article>{% endfor %}</div>
-      <div class="mw-about-prose mw-about-values-closing">{% for paragraph in about.values.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}<p><a class="mw-text-link" href="{{ about.values.url | relative_url }}">{{ about.values.link }}</a></p></div>
+      <div class="mw-about-prose mw-about-values-closing">{% for paragraph in about.values.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}<p><a class="mw-text-link" href="{{ about.values.url | relative_url }}">{{ about.values.link }}</a></p><p><a class="mw-text-link" href="{{ '/sustainability.html' | localized_url }}">{{ copy.pages.sustainability.navigation_title }} <span aria-hidden="true">↗</span></a></p></div>
     </div>
   </section>
   <section class="mw-section mw-about-reading">

@@ -16,6 +16,11 @@ common:
       url: "/projects.html"
     - title: About mehr.wert
       url: "/mission.html"
+      children:
+      - title: About mehr.wert
+        url: "/mission.html"
+      - title: Sustainability
+        url: "/sustainability.html"
     - title: Blog
       url: "/blog.html"
     - title: Contact
@@ -2025,3 +2030,66 @@ pages:
       embed_url: https://www.openstreetmap.org/export/embed.html?bbox=9.4802769%2C48.6384944%2C9.4882769%2C48.6434944&layer=mapnik&marker=48.6409944%2C9.4842769
     meta_title: Contact | mehr.wert – IT Strategy & Software Delivery
     description: Talk to mehr.wert about IT strategy, modernisation and software delivery. Personal contact by email or phone in Kirchheim unter Teck.
+
+  sustainability:
+    navigation_title: Sustainability
+    meta_title: Sustainable Software & IT – Our Approach | mehr.wert
+    description: Sustainability is part of how mehr.wert defines software quality. Explore our approach, the Green Agile Guide and our commitment to green software.
+    hero:
+      eyebrow: SUSTAINABILITY AT MEHR.WERT
+      title: We believe sustainability is part of good software.
+      lead: Software should solve problems and deliver real value for years to come. How much effort it takes to maintain, how people work with it and which resources it consumes all matter. That is why sustainability at mehr.wert is not an additional service. It is part of how we define quality.
+      link: What drives us ↓
+    understanding:
+      eyebrow: OUR PERSPECTIVE
+      title: Good for businesses, people and the planet.
+      intro: To us, sustainable software is not simply the software that uses the least energy. Good decisions also consider whether a solution remains viable over time, supports the people who use it and can evolve when needs change. That is why we look at three perspectives together.
+      items:
+      - title: Economic
+        text: Software should serve its purpose and remain affordable and adaptable over time. We consider maintainability, operating costs, technical dependencies and value across the entire lifecycle – not just the next release.
+      - title: Social
+        text: Software is built by people and used by people. Clarity, accessibility, useful workflows and healthy collaboration are part of quality. Technology should help people do their work, not create unnecessary obstacles.
+      - title: Environmental
+        text: Digital solutions also rely on energy, computing power, networks and devices. We want to avoid unnecessary resource consumption and make environmental impacts visible where we can meaningfully influence them – without making blanket claims about carbon savings.
+    values:
+      eyebrow: HOW WE MAKE DECISIONS
+      title: Build awareness. Take responsibility.
+      intro: Not every decision can optimise economic, social and environmental outcomes at the same time. That makes it even more important to understand the consequences and discuss trade-offs openly.
+      items:
+      - title: Awareness
+        text: We ask what value a solution actually delivers, what its long-term effects might be and how much effort it creates. When useful, we work with data and relevant metrics. When something is uncertain, we say so.
+      - title: Responsibility
+        text: We explain our recommendations, agree on concrete next steps and check together whether they work in practice. We do not promise perfect solutions. We commit to making thoughtful decisions and taking responsibility for the work we agree to deliver.
+      closing: This mindset shapes our work in IT strategy, modernisation and software delivery. It is not a separate project that starts only when someone asks for it.
+    engagement:
+      eyebrow: OUR COMMITMENT
+      title: We want to move the conversation forward beyond our own projects.
+      intro: We learn from others, share what we have experienced and contribute to initiatives that make sustainable software development more practical in everyday work.
+      items:
+      - title: German Green Software Association
+        text: mehr.wert is a member of the Bundesverband Green Software e. V., the German Green Software Association. Exchanging ideas with other companies and practitioners helps us broaden our perspective and advance sustainable software development together.
+        link: Visit the association
+        url: https://www.bundesverband-green-software.de/mitglieder/
+        visual:
+          src: "/assets/images/banner/BvGS.jpg"
+          alt: Member of the German Green Software Association
+      - title: Green Software Champion
+        text: Our founder, Marcel Russ, is a Green Software Champion recognised by the Green Software Foundation. The recognition reflects his personal contribution to sustainable software development and knowledge-sharing in the community.
+        link: View Champion profile
+        url: https://champions.greensoftware.foundation/champions/marcel-russ/
+      - title: Green Agile Guide
+        text: Marcel Russ initiated and published the Green Agile Guide as an independent initiative. It explores how awareness and responsibility can become part of existing agile practices – without requiring additional roles or layers of process.
+        link: Explore the Green Agile Guide
+        url: https://greenagile.org/
+      - title: Sharing knowledge
+        text: Even before founding mehr.wert, Marcel Russ trained development teams using the Green Software Foundation's Green Software Practitioner course. That experience remains part of our professional foundation. We deliberately do not present training as a separate service on this website.
+        link: About Green Software Practitioner
+        url: https://greensoftware.foundation/education/
+    closing:
+      eyebrow: WHAT WE STAND FOR
+      title: Sustainability starts with the decisions we make today.
+      text: We cannot foresee every impact a piece of software will have. But we can look more closely, ask better questions and take responsibility for the work we agree to do together. That is the standard we want to be held to.
+      primary: Explore the Green Agile Guide
+      primary_url: https://greenagile.org/
+      secondary: More about mehr.wert
+      secondary_url: "/mission.html"

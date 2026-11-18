@@ -1,0 +1,68 @@
+{% assign sustainability = site.translations[site.lang].pages.sustainability %}
+<article class="mw-sustainability">
+  <header class="mw-hero">
+    <div class="mw-shell">
+      <p class="mw-eyebrow">{{ sustainability.hero.eyebrow }}</p>
+      <h1>{{ sustainability.hero.title }}</h1>
+      <p class="mw-lead">{{ sustainability.hero.lead }}</p>
+      <div class="mw-actions"><a class="mw-text-link" href="#engagement">{{ sustainability.hero.link }}</a></div>
+    </div>
+  </header>
+  <section class="mw-section" aria-labelledby="understanding-title">
+    <div class="mw-shell">
+      <div class="mw-sustainability-intro">
+        <p class="mw-eyebrow">{{ sustainability.understanding.eyebrow }}</p>
+        <h2 id="understanding-title">{{ sustainability.understanding.title }}</h2>
+        <p>{{ sustainability.understanding.intro }}</p>
+      </div>
+      <div class="mw-cards mw-sustainability-dimensions">
+        {% for item in sustainability.understanding.items %}<section class="mw-card"><h3>{{ item.title }}</h3><p>{{ item.text }}</p></section>{% endfor %}
+      </div>
+    </div>
+  </section>
+  <section class="mw-section mw-sustainability-values" aria-labelledby="values-title">
+    <div class="mw-shell">
+      <div class="mw-sustainability-intro">
+        <p class="mw-eyebrow">{{ sustainability.values.eyebrow }}</p>
+        <h2 id="values-title">{{ sustainability.values.title }}</h2>
+        <p>{{ sustainability.values.intro }}</p>
+      </div>
+      <div class="mw-cards mw-sustainability-pair">
+        {% for item in sustainability.values.items %}<section class="mw-card"><h3>{{ item.title }}</h3><p>{{ item.text }}</p></section>{% endfor %}
+      </div>
+      <p class="mw-sustainability-closing-copy">{{ sustainability.values.closing }}</p>
+    </div>
+  </section>
+  <section class="mw-section" id="engagement" aria-labelledby="engagement-title">
+    <div class="mw-shell">
+      <div class="mw-sustainability-intro">
+        <p class="mw-eyebrow">{{ sustainability.engagement.eyebrow }}</p>
+        <h2 id="engagement-title">{{ sustainability.engagement.title }}</h2>
+        <p>{{ sustainability.engagement.intro }}</p>
+      </div>
+      <div class="mw-sustainability-engagements">
+        {% for item in sustainability.engagement.items %}
+        <section class="mw-sustainability-engagement">
+          {% if item.visual %}<img class="mw-sustainability-visual" src="{{ item.visual.src | asset_url }}" alt="{{ item.visual.alt | escape }}" width="551" height="152" loading="lazy" decoding="async">{% endif %}
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.text }}</p>
+          <a class="mw-text-link" href="{{ item.url }}">{{ item.link }}</a>
+        </section>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section class="mw-section mw-sustainability-closing" aria-labelledby="closing-title">
+    <div class="mw-shell">
+      <div class="mw-sustainability-intro">
+        <p class="mw-eyebrow">{{ sustainability.closing.eyebrow }}</p>
+        <h2 id="closing-title">{{ sustainability.closing.title }}</h2>
+        <p>{{ sustainability.closing.text }}</p>
+      </div>
+      <div class="mw-actions">
+        <a class="mw-text-link" href="{{ sustainability.closing.primary_url }}">{{ sustainability.closing.primary }}</a>
+        <a class="mw-text-link" href="{{ sustainability.closing.secondary_url | localized_url }}">{{ sustainability.closing.secondary }}</a>
+      </div>
+    </div>
+  </section>
+</article>

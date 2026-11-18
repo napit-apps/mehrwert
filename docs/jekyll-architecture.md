@@ -55,3 +55,13 @@ Bei Unterverzeichnis-Hosting zusätzlich `--baseurl /mw-testpage` an den Prüfer
 Konsolidierungsprüfung: je 159 HTML-Dateien im Produktions- und Test-Build; 11 i18n-Vertragstests. Alle sichtbaren Hauptinhalte sind gegenüber dem gesicherten Ausgangsstand wortgleich. 116 Desktop-/Mobile-Ansichten der geschützten Seiten stimmen in berechneter Typografie, Farben, Abständen und Elementmaßen überein. 156 Browseransichten bei 1440, 390 und 320 Pixeln prüfen DE/EN, Überläufe, Filter, Karussells, Suche, Sprachlinks und Kartenaktivierung. Die Rechtsseiten wurden zusätzlich mit der tatsächlichen Live-Darstellung verglichen; dunkler direkter Text auf dunklem Grund ist nun weiß. Keine Exporte.
 
 Weitere Änderungen folgen den pragmatischen [Coding Guidelines](mw-jekyll-coding-guidelines.md). Keine zusätzlichen Abhängigkeiten und keine Änderung des Manifests.
+
+## Nachhaltigkeit – Stand 18. November 2026
+
+`/sustainability.html` und `/en/sustainability.html` verwenden `pages/sustainability.html`, `pages/_sustainability.scss` und `pages.sustainability` in den bestehenden Sprachdateien. Beide URLs sind produktiv indexierbar und in der Sitemap; im Test-Build gilt weiterhin global `noindex, nofollow`. Der neue Unterpunkt steht unter Über mehr.wert; `/mission.html` bleibt dort erreichbar. Startseite und Über-uns-Seite enthalten jeweils einen zusätzlichen Textlink, sonst unveränderte Inhalte.
+
+Webtexte: wortgetreu aus `mw-nachhaltigkeit-seite-de-en-v1.md`. Redaktionelle Abnahme DE/EN steht aus; die 45 neuen englischen Textfelder einschließlich Bildbeschreibung sind in `translation_review.yml` ausdrücklich `pending_editorial_review`. Frühere Freigaben bleiben bestehen; der Gesamtstatus nennt die offenen Ergänzungen.
+
+Visuals: Das vom Inhaber bereitgestellte `assets/images/banner/BvGS.jpg` wird unverändert, zurückhaltend, mit Alternativtext und festen Bildabmessungen eingebunden. Für Green Agile Guide und Green Software Champion liegen keine Assets vor; nach Rückmeldung des Inhabers bleiben beide Belege rein typografisch. Keine Ersatzgrafiken und keine verbleibenden Bildplatzhalter. Vor produktiver Veröffentlichung bleibt die übliche redaktionelle und visuelle Abnahme erforderlich.
+
+Prüfung der Ergänzung: DE/EN bei 1440, 1280, 768, 390 und 320 Pixeln, Desktop-/Mobile-Sichtprüfung, vollständige Texte, vier Engagement-Belege, Navigation per Tastatur, Anker, Sprachwechsel, interne und vorgegebene externe Linkziele, SEO und Indexierungsregeln. Produktions- und Unterverzeichnis-Test-Build: je 161 HTML-Seiten; 11 i18n-Vertragstests. Keine Exporte.
