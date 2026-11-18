@@ -1,7 +1,7 @@
 ---
 language: en
 status: approved_with_pending_additions
-pending_scope: pages.sustainability
+pending_scope: pages.sustainability; pages.about.values.sustainability_link
 reviewed_on: '2026-11-18'
 reviewed_by: Codex, delegated linguistic review
 review_basis: Existing English translations compared with approved German content and Manifest v2.1 language guidelines; no translation text changed.
@@ -2484,3 +2484,7 @@ entries:
   source_sha256: f1e256b46ab577ca8311a9cc7d291b035aed58f3aa7f2644c3f154c1b00fa54c
   status: pending_editorial_review
   source_document: User-provided BvGS.jpg
+- key: pages.about.values.sustainability_link
+  source_sha256: 4dc45de32a90def034770993d7265ff09d50ebd28340824bfe6af55ddd51a120
+  status: pending_editorial_review
+  source_document: User-requested sustainability link label
