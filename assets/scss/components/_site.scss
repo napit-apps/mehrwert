@@ -30,7 +30,7 @@
   .mw-menu details { position: relative; }
   summary { cursor: pointer; }
   .mw-menu details > ul { position: absolute; top: 100%; left: -20px; width: 300px; padding: 12px 20px; background: #251d39; box-shadow: 0 8px 20px #0002; }
-  .mw-menu [aria-current='page'], .mw-languages [aria-current='page'] { text-decoration: underline; text-decoration-color: #61bb95; text-underline-offset: 6px; }
+  .mw-menu [aria-current='page'], .mw-menu [aria-current='location'], .mw-menu .mw-menu-active, .mw-languages [aria-current='page'] { text-decoration: underline; text-decoration-color: #61bb95; text-underline-offset: 6px; }
   .mw-languages { display: flex; gap: 12px; font-size: .8rem; }
   .mw-mobile-nav { display: none; }
   .mw-hero { background: #251d39; color: #fff; padding-block: 76px 64px; }
