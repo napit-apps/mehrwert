@@ -1,6 +1,5 @@
 <!-- Contact Start -->
 {% assign contact-config = site.data.homepage.contact %}
-{% assign contact = site.translations[site.lang].common.contact_form %}
 
 {% if contact-config.enable %} 
 
@@ -14,41 +13,7 @@
 				<p class="h2 mb-5 mt-2">{{ contact_spec.subtitle }}</p>
 				<p class="h5 mb-5 mt-2">{{ contact_spec.intro }}</p>
 
-				<form action="{{site.contact_form_action}}" method="POST" class="home-contact-form">
-					<div class="form-row">
-						<div class="col-lg-12">
-							<div class="form-group">
-								<input type="text" class="form-control" name="Name" id="name" placeholder="{{ contact.form.name }}" aria-label="{{ contact.form.name | escape }}">
-							</div>
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="col-lg-6">
-							<div class="form-group">
-								<input type="text" class="form-control" name="_replyto" id="email" placeholder="{{ contact.form.email }}" aria-label="{{ contact.form.email | escape }}">
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="form-group">
-								<input type="text" class="form-control" name="Telephone" id="telephone" placeholder="{{ contact.form.phone }}" aria-label="{{ contact.form.phone | escape }}">
-							</div>
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="col-lg-12">
-							<div class="form-group">
-								<input type="text" class="form-control" name="Subject" id="subject" placeholder="{{ contact.form.subject }}" aria-label="{{ contact.form.subject | escape }}">
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12">
-							<textarea name="Message" id="message" cols="30" rows="4" class="form-control mb-4" placeholder="{{ contact.form.message }}" aria-label="{{ contact.form.message | escape }}"></textarea>
-							<p class="text-sm">{% capture privacy_link %}href="{{ '/privacy.html' | localized_url }}"{% endcapture %}{{ contact.privacy-note | replace: 'href="/en/privacy.html"', privacy_link | replace: 'href="/privacy.html"', privacy_link }}</p>
-							<button type="submit" class="btn btn-primary">{{ contact.button }}</button>
-						</div>
-					</div>
-				</form>
+				{% include contact-form.html %}
 			</div>
 		</div>
 	</div>

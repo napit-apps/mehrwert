@@ -48,3 +48,15 @@ Blogsuche und fünf Eingabefelder des bestehenden Kontaktformulars erhielten exp
 Die **1.148 Einträge** in `_data/translation_review.yml` wurden mit den bestehenden deutschen Fassungen und der vereinbarten Markenstimme abgeglichen. Die vorhandenen englischen Texte sind im Rahmen der ausdrücklich delegierten sprachlichen Prüfung freigegeben: verständlich, fachlich zurückhaltend, ohne zusätzliche Leistungs-/Ergebnisbehauptungen; Unterscheidung zwischen Mandat, früherer persönlicher Berufserfahrung, Produkt und Initiative bleibt erhalten. Keine Übersetzung neu erstellt oder umgeschrieben. Status, Datum, Prüfgrundlage und Grenzen der Freigabe sind in der Prüfdatei dokumentiert; Schlüssel und Quellhashes bleiben erhalten. Diese sprachliche Freigabe ist keine rechtliche Prüfung oder neue Kunden-/Zitatfreigabe.
 
 Die vorbestehende Änderung an `README.md`, die unversionierten Build-/Deployment-Helfer und privaten Unterlagen wurden nicht übernommen oder verändert. Das Manifest bleibt unverändert.
+
+## Nachtrag nach Betreiberentscheidung am 18. November 2026
+
+Dieser Nachtrag aktualisiert die betroffenen Befunde oben:
+
+- Formspree bleibt gewünscht. Das vorhandene Formular ist wieder auf der Kontaktseite DE/EN eingebunden. Blog/Training und Kontakt nutzen dasselbe Formular-Include und den unveränderten Endpunkt. Keine echte Nachricht zum Test versendet.
+- Die Suche lief bereits im Browser; extern war nur der Download der Lunr-Bibliothek. Dieselbe Version 2.3.9 wird nun einschließlich MIT-Lizenz lokal ausgeliefert. Keine Änderung an Suchfunktion oder Index.
+- Bestätigte Telefonnummer überall in den aktiven Inhalts-/Konfigurationsquellen: Anzeige `0152 21694139`, bestehende Telefonlinks `tel:+4915221694139`. Fehler in Datenschutz und AGB sowie uneinheitliche Darstellung in Impressum und DE/EN-Kontakt korrigiert. Keine weiteren Rechtstexte geändert.
+- OpenStreetMap wurde vom Betreiber bestätigt und bleibt mit bewusster Aktivierung unverändert. Die technische Entscheidung für Formspree und OpenStreetMap ersetzt nicht den noch offenen Abgleich der Datenschutzerklärung mit diesen Diensten.
+- Die vom Betreiber bearbeitete `deploy.sh` löscht Blog-Tagseiten nicht mehr. Dieser Teilbefund ist erledigt. Der Ablauf entfernt alte Dateien weiterhin nur selektiv; das Risiko zurückbleibender öffentlicher Quelldateien und die Branchwechsel bleiben bestehen. Die Betreiberänderung wurde nicht überschrieben oder in diesen Commit aufgenommen.
+- Produktions-/Test-Build: jeweils 159 HTML-Seiten ohne Prüffehler; 11 i18n-Vertragsprüfungen bestanden. Keine Änderungen an Manifest, Portfolio-Sperren, Routen oder anderen redaktionellen Texten.
+- Ergänzende Browserprüfung: 18 Ansichten von Kontakt, Blogübersicht und Beispielartikel in DE/EN bei 1440, 390 und 320 px; Suchergebnisse, Formularfelder/-Endpunkt, Telefonnummer und Überlauf geprüft. Keine externen Ressourcenabrufe vor Formularversand/Kartenaktivierung. Keine Formulare abgesendet.
