@@ -1,7 +1,7 @@
 ---
 language: en
 status: approved_with_pending_additions
-pending_scope: pages.about.values.sustainability_link; pages.privacy.services
+pending_scope: pages.sustainability (updated copy); pages.about.values.sustainability_link; pages.privacy.services
 reviewed_on: '2026-11-18'
 reviewed_by: Codex, delegated linguistic review
 review_basis: Existing English translations compared with approved German content and Manifest v2.1 language guidelines; no translation text changed.
@@ -2509,10 +2509,8 @@ entries:
   reviewed_by: User approval in chat
   source_document: mw-nachhaltigkeit-seite-de-en-v1.md
 - key: pages.sustainability.engagement.items.2.text
-  source_sha256: 31bb9f120bd0a1da985426428c1eb1b9919d9be677165a2e7a4e1da280862d34
-  status: approved
-  reviewed_on: '2026-11-19'
-  reviewed_by: User approval in chat
+  source_sha256: f54be2d3c5600e1816a9d68bcc8ecf87ada7cca7f88c1f9a89e579f93f26e28c
+  status: pending_editorial_review
   source_document: mw-nachhaltigkeit-seite-de-en-v1.md
 - key: pages.sustainability.engagement.items.2.link
   source_sha256: 6502b43bf3c4f8a4ffa1a777c0c5e17738ded8e6073f49609796fba01f0f92c8
@@ -2527,10 +2525,8 @@ entries:
   reviewed_by: User approval in chat
   source_document: mw-nachhaltigkeit-seite-de-en-v1.md
 - key: pages.sustainability.engagement.items.3.text
-  source_sha256: ff2120dc5cf58665551dfb9c0e3475e3ed1c5c9476ac0f237c482a5b11deddb3
-  status: approved
-  reviewed_on: '2026-11-19'
-  reviewed_by: User approval in chat
+  source_sha256: 019fc80c26f8506899839fc473c91f7e5dc3e7fdb19d89aff96e161aa152ea0d
+  status: pending_editorial_review
   source_document: mw-nachhaltigkeit-seite-de-en-v1.md
 - key: pages.sustainability.engagement.items.3.link
   source_sha256: acef6450ca4a43240d7ab7f603a3a0d5af62d0d32381032925769449a31b77df
@@ -2557,10 +2553,8 @@ entries:
   reviewed_by: User approval in chat
   source_document: mw-nachhaltigkeit-seite-de-en-v1.md
 - key: pages.sustainability.closing.primary
-  source_sha256: 5df763637bfb11a8ad0d5b745743d3d824b80e6be9790505d002362200d8e755
-  status: approved
-  reviewed_on: '2026-11-19'
-  reviewed_by: User approval in chat
+  source_sha256: f7277631458657a22f832355ef43a7987c90d635d2ea5c54eff49664e917bc75
+  status: pending_editorial_review
   source_document: mw-nachhaltigkeit-seite-de-en-v1.md
 - key: pages.sustainability.closing.secondary
   source_sha256: 6f0b79cd3d2549605b42e1f3794c750709e1f0a40c58862f49ce08de046952d1

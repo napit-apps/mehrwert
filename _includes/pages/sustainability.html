@@ -45,7 +45,7 @@
         <section class="mw-sustainability-engagement">
           {% if item.visual %}<img class="mw-sustainability-visual" src="{{ item.visual.src | asset_url }}" alt="{{ item.visual.alt | escape }}" width="551" height="152" loading="lazy" decoding="async">{% endif %}
           <h3>{{ item.title }}</h3>
-          <p>{{ item.text }}</p>
+          {{ item.text | markdownify }}
           <a class="mw-text-link" href="{{ item.url }}">{{ item.link }}</a>
         </section>
         {% endfor %}
@@ -60,7 +60,7 @@
         <p>{{ sustainability.closing.text }}</p>
       </div>
       <div class="mw-actions">
-        <a class="mw-text-link" href="{{ sustainability.closing.primary_url }}">{{ sustainability.closing.primary }}</a>
+        <a class="mw-text-link" href="{{ sustainability.closing.primary_url | localized_url }}">{{ sustainability.closing.primary }}</a>
         <a class="mw-text-link" href="{{ sustainability.closing.secondary_url | localized_url }}">{{ sustainability.closing.secondary }}</a>
       </div>
     </div>

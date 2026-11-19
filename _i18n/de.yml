@@ -2079,19 +2079,22 @@ pages:
         link: Champion-Profil ansehen
         url: https://champions.greensoftware.foundation/champions/marcel-russ/
       - title: Green Agile Guide
-        text: Mit dem Green Agile Guide hat Marcel Russ eine unabhängige Initiative gestartet und veröffentlicht. Sie zeigt, wie Bewusstsein und Verantwortung Teil bestehender agiler Arbeitsweisen werden können – ohne zusätzliche Rollen oder Methodenbürokratie als Voraussetzung.
+        text: |-
+          Der Green Agile Guide erweitert bestehende agile Arbeitsweisen um die ökologische, wirtschaftliche und soziale Perspektive auf Softwareentwicklung. Er hilft Teams, Nachhaltigkeit gemeinsam sichtbar zu machen und in konkrete Entscheidungen und Arbeitsabläufe zu integrieren – ohne zusätzliche Prozesskomplexität.
+
+          Der Guide wurde von mehr.wert initiiert.
         link: Green Agile Guide entdecken
         url: https://greenagile.org/
       - title: Wissen weitergeben
-        text: Schon vor der Gründung von mehr.wert hat Marcel Russ Entwicklerteams im Rahmen des Green Software Practitioner Trainings der Green Software Foundation geschult. Diese Erfahrung gehört zu unserem fachlichen Fundament. Ein separates Trainingsangebot machen wir daraus auf dieser Website bewusst nicht.
+        text: Bereits vor der Gründung von mehr.wert haben wir Entwicklungsteams zum Green Software Practitioner der Green Software Foundation geschult. Die Erfahrungen aus dieser Arbeit prägen bis heute unseren Blick auf Softwarequalität und verantwortungsvolle Technologieentscheidungen.
         link: Mehr zum Green Software Practitioner
         url: https://greensoftware.foundation/education/
     closing:
       eyebrow: UNSER ANSPRUCH
       title: Nachhaltigkeit beginnt bei den Entscheidungen, die wir heute treffen.
       text: Wir können nicht jede Auswirkung einer Software im Voraus kennen. Aber wir können genauer hinschauen, bessere Fragen stellen und Verantwortung für die Arbeit übernehmen, die wir gemeinsam vereinbaren. Daran möchten wir uns messen lassen.
-      primary: Den Green Agile Guide kennenlernen
-      primary_url: https://greenagile.org/
+      primary: Projekte & Erfahrung ansehen
+      primary_url: "/projects.html"
       secondary: Mehr über mehr.wert
       secondary_url: "/mission.html"
 

@@ -2079,19 +2079,22 @@ pages:
         link: View Champion profile
         url: https://champions.greensoftware.foundation/champions/marcel-russ/
       - title: Green Agile Guide
-        text: Marcel Russ initiated and published the Green Agile Guide as an independent initiative. It explores how awareness and responsibility can become part of existing agile practices – without requiring additional roles or layers of process.
+        text: |-
+          The Green Agile Guide extends existing agile practices to include environmental, economic and social perspectives on software development. It helps teams make sustainability visible together and bring it into concrete decisions and workflows without adding process complexity.
+
+          The guide was initiated by mehr.wert.
         link: Explore the Green Agile Guide
         url: https://greenagile.org/
       - title: Sharing knowledge
-        text: Even before founding mehr.wert, Marcel Russ trained development teams using the Green Software Foundation's Green Software Practitioner course. That experience remains part of our professional foundation. We deliberately do not present training as a separate service on this website.
+        text: Before founding mehr.wert, we trained development teams in the Green Software Foundation’s Green Software Practitioner course. That experience still shapes how we think about software quality and responsible technology decisions.
         link: About Green Software Practitioner
         url: https://greensoftware.foundation/education/
     closing:
       eyebrow: WHAT WE STAND FOR
       title: Sustainability starts with the decisions we make today.
       text: We cannot foresee every impact a piece of software will have. But we can look more closely, ask better questions and take responsibility for the work we agree to do together. That is the standard we want to be held to.
-      primary: Explore the Green Agile Guide
-      primary_url: https://greenagile.org/
+      primary: View projects & experience
+      primary_url: "/projects.html"
       secondary: More about mehr.wert
       secondary_url: "/mission.html"
 
