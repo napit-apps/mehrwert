@@ -217,25 +217,27 @@
 }
 
 .mw-site .mw-home .mw-home-discover {
-  background: #251d39;
+  background: #e7f1ea;
+  color: var(--mw-ink);
   padding-block: 42px;
-  border-bottom: 1px solid #ffffff24;
+  border-bottom: 1px solid rgba($secondary-color, .14);
 
   h2 { font-size: clamp(1.5rem, 2.5vw, 2rem); }
-  h3 { color: #8ed3b4; font-size: 1.05rem; }
+  h3 { color: #28785b; font-size: 1.05rem; }
   ul { list-style: none; padding: 0; margin: 10px 0 0; }
   li + li { margin-top: 4px; }
   a {
+    color: inherit;
     display: inline-block;
     padding-block: 4px;
     font-size: .95rem;
     overflow-wrap: anywhere;
     text-decoration: underline;
-    text-decoration-color: #ffffff70;
+    text-decoration-color: currentColor;
     text-underline-offset: 4px;
   }
-  a:hover { color: #8ed3b4 !important; text-decoration-color: currentColor; }
-  a:focus-visible { outline-color: #8ed3b4; }
+  a:hover { color: var(--mw-ink) !important; }
+  a:focus-visible { outline-color: #28785b; }
 
   .mw-home-discover-grid {
     display: grid;
