@@ -2094,3 +2094,19 @@ pages:
       primary_url: https://greenagile.org/
       secondary: More about mehr.wert
       secondary_url: "/mission.html"
+
+  privacy:
+    services:
+      formspree:
+        title: 'Contact form: Formspree'
+        paragraphs:
+        - We use the third-party service Formspree, Inc. to transmit contact enquiries. When you submit the form, the information you enter (name, email address, telephone number, subject and message) is transmitted to Formspree. The provider may also process technical data such as your IP address and browser information. Processing may take place in the United States. Our form integration does not connect to Formspree unless you submit the form. Further information about the provider’s processing is available in its privacy policy; our responsibility for handling your enquiry remains unaffected.
+        link: Formspree privacy policy
+        url: https://formspree.io/legal/privacy-policy/
+      openstreetmap:
+        title: OpenStreetMap
+        paragraphs:
+        - On the contact page, you can load a map provided by the third-party OpenStreetMap Foundation, United Kingdom. A connection to OpenStreetMap is established only when you deliberately activate the map. In particular, your IP address and technical browser data are transmitted so that the map can be displayed. Activation is optional; the address is also visible without the map.
+        - The map is embedded on the basis of your consent under Article 6(1)(a) GDPR. You can end the embedding by selecting “Hide map”. This does not reverse data already transmitted. Your activation is not stored permanently. If you open the external map link instead, you leave our website; the OpenStreetMap Foundation explains its processing in its privacy policy.
+        link: OpenStreetMap Foundation privacy policy
+        url: https://osmfoundation.org/wiki/Privacy_Policy

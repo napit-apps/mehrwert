@@ -2094,3 +2094,19 @@ pages:
       primary_url: https://greenagile.org/
       secondary: Mehr über mehr.wert
       secondary_url: "/mission.html"
+
+  privacy:
+    services:
+      formspree:
+        title: 'Kontaktformular: Formspree'
+        paragraphs:
+        - Für die technische Übermittlung Ihrer Kontaktanfrage nutzen wir den Drittanbieter Formspree, Inc. Beim Absenden werden die von Ihnen eingetragenen Angaben (Name, E-Mail-Adresse, Telefonnummer, Betreff und Nachricht) an Formspree übermittelt. Dabei kann der Anbieter auch technische Daten wie Ihre IP-Adresse und Browserinformationen verarbeiten. Eine Verarbeitung in den USA ist möglich. Ohne Absenden des Formulars stellt unsere Formulareinbindung keine Verbindung zu Formspree her. Weitere Informationen zur Datenverarbeitung durch den Anbieter finden Sie in dessen Datenschutzerklärung; unsere Verantwortung für die Bearbeitung Ihrer Anfrage bleibt davon unberührt.
+        link: Datenschutzerklärung von Formspree
+        url: https://formspree.io/legal/privacy-policy/
+      openstreetmap:
+        title: OpenStreetMap
+        paragraphs:
+        - Auf der Kontaktseite können Sie eine Karte des Drittanbieters OpenStreetMap Foundation, Vereinigtes Königreich, laden. Erst durch Ihre bewusste Aktivierung wird eine Verbindung zu OpenStreetMap hergestellt. Dabei werden insbesondere Ihre IP-Adresse und technische Browserdaten übertragen, damit die Karte bereitgestellt werden kann. Die Aktivierung ist freiwillig; die Adresse ist auch ohne Karte sichtbar.
+        - Die Einbindung erfolgt auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO. Über „Karte ausblenden“ können Sie die Einbindung wieder beenden. Bereits erfolgte Übermittlungen werden dadurch nicht rückgängig gemacht. Die Aktivierung wird nicht dauerhaft gespeichert. Wenn Sie stattdessen den externen Kartenlink öffnen, verlassen Sie unsere Website; für die dortige Verarbeitung informiert die OpenStreetMap Foundation in ihrer Datenschutzerklärung.
+        link: Datenschutzerklärung der OpenStreetMap Foundation
+        url: https://osmfoundation.org/wiki/Privacy_Policy

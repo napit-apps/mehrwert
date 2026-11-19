@@ -2,9 +2,18 @@
 layout: default
 ---
 {% assign document = site.data[page.document_key][page.document_key] %}
+{% assign document_content = document.content %}
+{% if page.document_key == 'privacy' %}
+  {% for service in site.translations[site.lang].pages.privacy.services %}
+    {% assign service_key = service[0] %}{% assign notice = service[1] %}
+    {% capture notice_html %}<div id="{{ service_key }}" lang="{{ site.lang }}"><h6>{{ notice.title }}</h6>{% for paragraph in notice.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}<p><a href="{{ notice.url }}">{{ notice.link }}</a></p></div>{% endcapture %}
+    {% assign marker = '<!-- privacy-' | append: service_key | append: ' -->' %}
+    {% assign document_content = document_content | replace: marker, notice_html %}
+  {% endfor %}
+{% endif %}
 <section class="section imprint overflow-hidden bg-secondary">
   <div class="container">
     <h1 class="legal-title">{{ document.title }}</h1>
-    {{ document.content | replace: '<h3>', '<h2 class="legal-heading-large">' | replace: '</h3>', '</h2>' | replace: '<h5>', '<h2 class="legal-heading">' | replace: '</h5>', '</h2>' | replace: '<h6>', '<h3 class="legal-subheading">' | replace: '</h6>', '</h3>' }}
+    {{ document_content | replace: '<h3>', '<h2 class="legal-heading-large">' | replace: '</h3>', '</h2>' | replace: '<h5>', '<h2 class="legal-heading">' | replace: '</h5>', '</h2>' | replace: '<h6>', '<h3 class="legal-subheading">' | replace: '</h6>', '</h3>' }}
   </div>
 </section>

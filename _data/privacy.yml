@@ -7,7 +7,7 @@ privacy:
 <h6>Datenerfassung auf dieser Website</h6>
 <p>Wer ist verantwortlich für die Datenerfassung auf dieser Website? - Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.</p>
 <p>Wie erfassen wir Ihre Daten? - Ihre Daten werden dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben.</p>
-<p>Wofür nutzen wir Ihre Daten? - Ihre Daten werden ausschlißelich zur Bearbeitung Ihrer Anfrage verwendet. Eine weitergabe an Dritte geschieht nicht.</p>
+<p>Wofür nutzen wir Ihre Daten? - Wir verarbeiten Ihre Daten zur Bereitstellung dieser Website und zur Bearbeitung Ihrer Anfragen. Dabei können die nachfolgend beschriebenen Dienstleister Daten erhalten.</p>
 <p>Welche Rechte haben Sie bezüglich Ihrer Daten? - Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. </p>
 <p>Analyse-Tools und Tools von Dritt­anbietern - Aktuell werden keine Analyse-Tools auf dieser Homepage eingesetzt</p>
 
@@ -64,11 +64,12 @@ Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Si
 
 <h5>Datenerfassung auf dieser Website</h5>
 <h6>Kontaktformular</h6>
-<p>Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+<p>Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Die technische Übermittlung erfolgt über den nachfolgend beschriebenen Dienst Formspree.
 <br />
 Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde.
 <br />
 Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt.</p>
+<!-- privacy-formspree -->
 <h6>Anfrage per E-Mail, Telefon oder Telefax</h6>
 <p>Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
 <br />
@@ -80,6 +81,7 @@ Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, 
 <p>Zum aktuellen Zeitpunkt werden keine Analyse-Tools und Werbung eingesetzt.</p>
 
 <h5>Plugins und Tools</h5>
+<!-- privacy-openstreetmap -->
 <h6>Google Web Fonts</h6>
 <p>Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden und lokal auf der Homepage eingebunden wurden.
 <br />
