@@ -4,7 +4,6 @@ common:
     title: 'mehr.wert - Sustainable Software Solutions '
     description: 'We give IT value. And your business lasting resilience. - Strategic IT consulting for companies undergoing change: As an interim IT Leader, I support you in architectural decisions, team leadership, agile processes, and sustainable software development. Clear. Feasible. Effective.'
   navigation:
-    legal_label: Legal
     items:
     - title: Services
       children:
@@ -26,7 +25,6 @@ common:
     - title: Contact
       url: "/contact.html"
     label: Menu
-    home_link: Home
     languages: Language
   contact_form:
     form:
@@ -228,6 +226,30 @@ pages:
     description: mehr.wert supports IT decisions, the modernisation of established software and team collaboration. Personally, pragmatically and with responsibility.
     intro: We bring clarity to IT decisions, support the modernisation of established software and strengthen collaboration between teams and leadership.
     primary: Let's have an initial conversation
+    discover:
+      title: Explore more
+      groups:
+      - title: Services
+        links:
+        - title: IT strategy & modernization
+          url: "/services/it-strategy-modernisation.html"
+        - title: Organization & software delivery
+          url: "/services/agile-transformation-coaching.html"
+      - title: Insights
+        links:
+        - title: Projects & experience
+          url: "/projects.html"
+        - title: Blog
+          url: "/blog.html"
+        - title: Green Agile Guide
+          url: "/projects/green-agile-guide.html"
+      - title: About mehr.wert
+        links:
+        - title: The company
+          url: "/mission.html"
+        - title: Sustainability
+          url: "/sustainability.html"
+      - title: Legal
     situations:
       label: YOUR STARTING POINT
       title: IT needs to evolve. But where should you start?

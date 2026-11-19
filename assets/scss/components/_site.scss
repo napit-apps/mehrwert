@@ -126,7 +126,3 @@
   }
   @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; } }
 }
-
-
-.mw-site .mw-menu > li:last-child details > ul { left: auto; right: 0; }
-@media (max-width: 1100px) { .mw-site .mw-mobile-nav .mw-menu > li:last-child details > ul { right: auto; } }

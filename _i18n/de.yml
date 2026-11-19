@@ -4,7 +4,6 @@ common:
     title: mehr.wert - Technologie für nachhaltige Lösungen
     description: 'Wir geben IT einen Wert. Und Ihrem Business nachhaltige Stärke. - Strategische IT-Beratung für Unternehmen im Wandel: Als IT Leiter auf Zeit unterstütze ich Sie bei Architekturentscheidungen, Teamführung, agilen Prozessen und nachhaltiger Softwareentwicklung. Klar. Umsetzbar. Wirkungsvoll.'
   navigation:
-    legal_label: Rechtliches
     items:
     - title: Leistungen
       children:
@@ -26,7 +25,6 @@ common:
     - title: Kontakt
       url: "/contact.html"
     label: Menü
-    home_link: Startseite
     languages: Sprache
   contact_form:
     form:
@@ -228,6 +226,30 @@ pages:
     description: mehr.wert begleitet IT-Entscheidungen, die Modernisierung gewachsener Software und die Zusammenarbeit von Teams. Persönlich, pragmatisch und mit Verantwortung.
     intro: Wir schaffen Klarheit bei IT-Entscheidungen, begleiten die Modernisierung gewachsener Software und stärken die Zusammenarbeit von Teams und Führung.
     primary: Unverbindlich ins Gespräch kommen
+    discover:
+      title: Mehr entdecken
+      groups:
+      - title: Leistungen
+        links:
+        - title: IT-Strategie & Modernisierung
+          url: "/services/it-strategy-modernisation.html"
+        - title: Organisation & Software-Delivery
+          url: "/services/agile-transformation-coaching.html"
+      - title: Einblicke
+        links:
+        - title: Projekte & Erfahrung
+          url: "/projects.html"
+        - title: Blog
+          url: "/blog.html"
+        - title: Green Agile Guide
+          url: "/projects/green-agile-guide.html"
+      - title: Über mehr.wert
+        links:
+        - title: Das Unternehmen
+          url: "/mission.html"
+        - title: Nachhaltigkeit
+          url: "/sustainability.html"
+      - title: Rechtliches
     situations:
       label: IHRE AUSGANGSLAGE
       title: Die IT muss sich weiterentwickeln. Aber wo anfangen?

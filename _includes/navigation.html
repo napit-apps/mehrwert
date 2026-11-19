@@ -1,6 +1,5 @@
 {% assign navigation_route = current_route | remove: '.html' %}
 <ul class="mw-menu">
-  <li><a href="{{ site.baseurl }}/"{% if navigation_route == '/' or navigation_route == '/index' %} aria-current="page"{% endif %}>{{ copy.common.navigation.home_link }}</a></li>
 {% for item in copy.common.navigation.items %}
   {% assign item_route = item.url | remove: '.html' %}
   {% if item.children %}
@@ -16,7 +15,4 @@
     <li><a href="{{ site.baseurl }}{{ item.url }}"{% if navigation_route == item_route %} aria-current="page"{% elsif active_section %} aria-current="location"{% endif %}>{{ item.title }}</a></li>
   {% endif %}
 {% endfor %}
-  {% assign active_legal = false %}
-  {% for item in copy.common.footer.legal %}{% assign item_route = item.url | remove: '.html' %}{% if navigation_route == item_route %}{% assign active_legal = true %}{% endif %}{% endfor %}
-  <li><details><summary{% if active_legal %} class="mw-menu-active"{% endif %}>{{ copy.common.navigation.legal_label }}</summary><ul>{% for item in copy.common.footer.legal %}{% assign item_route = item.url | remove: '.html' %}<li><a href="{{ item.url | localized_url }}"{% if navigation_route == item_route %} aria-current="page"{% endif %}>{{ item.title }}</a></li>{% endfor %}</ul></details></li>
 </ul>
