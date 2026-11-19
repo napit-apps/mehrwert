@@ -42,19 +42,20 @@
           <div><p>{{ item.text }}</p><p class="mw-strategy-service-result"><strong>{{ delivery.support.results_label }}</strong> {{ item.result }}</p></div>
         </article>
       {% endfor %}</div>
-      <div class="mw-delivery-experience">
+      <section class="mw-delivery-experience" aria-labelledby="delivery-experience-title">
         <p class="mw-strategy-label">{{ delivery.experience.label }}</p>
-        <p>{{ delivery.experience.text }}</p>
+        <h3 id="delivery-experience-title">{{ delivery.experience.title }}</h3>
+        <p class="mw-delivery-experience-intro">{{ delivery.experience.text }}</p>
         <div class="mw-delivery-experience-grid">{% for item in delivery.experience.items %}
           <article>
-            <h3>{{ item.title }}</h3>
+            <h4>{{ item.title }}</h4>
             <p class="mw-delivery-origin">{{ item.origin }}</p>
             <p>{{ item.text }}</p>
-            <a class="mw-text-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.link }}</a>
+            <a class="mw-text-link" href="{{ item.url | localized_url }}">{{ item.link }}</a>
           </article>
         {% endfor %}</div>
         <p class="mw-strategy-closing"><a class="mw-text-link" href="{{ delivery.experience.url | localized_url }}">{{ delivery.experience.link }}</a></p>
-      </div>
+      </section>
     </div>
   </section>
 {% assign voice_controls = site.translations[site.lang].common.carousel %}

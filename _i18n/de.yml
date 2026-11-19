@@ -258,7 +258,7 @@ pages:
       link: Alle Projekte & Erfahrungen ansehen
       items:
       - text: Quartalsplanung · Onsite-Wochen · Teamabstimmung
-        type: Frühere Berufserfahrung
+        type: Mandat
         url: "/projects/enbw.html"
       - text: KI-gestützte Entwicklung · Strategie · Roadmap
         type: Mandat
@@ -317,7 +317,7 @@ pages:
       - source_key: coaching
         source_author: Lucas Schleweis
         published: true
-        origin: Frühere Berufserfahrung
+        origin: EnBW Trading IT
       - source_key: leadership
         source_author: Michael Weinheimer
         published: true
@@ -546,19 +546,20 @@ pages:
         primary: Unverbindlich ins Gespräch kommen
         alternative: Oder schreiben Sie direkt an kontakt@mehrwert.tech.
       experience:
-        label: ERFAHRUNG ALS GRUNDLAGE
-        text: Aus eigener Softwareentwicklung, technischer Führung und der Zusammenarbeit mit Führungskräften und Teams kennen wir unterschiedliche Perspektiven. Zwei Erfahrungen zeigen, wie verschieden die Aufgaben in der Praxis sind.
-        link: Mehr zu Projekten & Erfahrung
+        label: Aus der Praxis
+        title: Wie Zusammenarbeit konkret besser wird.
+        text: Jede Organisation bringt andere Herausforderungen mit. Zwei Beispiele zeigen, wie wir gemeinsame Planung und Arbeitsweisen im Alltag unterstützen.
+        link: Weitere Projekte & Erfahrungen ansehen
         url: "/projects.html"
         items:
-        - title: EnBW Trading IT
-          origin: Frühere Berufserfahrung · Marcel Russ
-          text: In meiner früheren Tätigkeit habe ich die teamübergreifende Quartalsplanung und gemeinsame Onsite-Wochen mitgestaltet. Die Formate wurden zu einer wiederkehrenden Grundlage für Abstimmung und Entscheidungen.
+        - title: Planung über Teamgrenzen hinweg verankern
+          origin: EnBW Trading IT · mehr.wert-Mandat
+          text: Wir haben eine gemeinsame Quartalsplanung und Onsite-Formate mitgestaltet. Daraus entstand ein wiederkehrender Rahmen für die Abstimmung von Prioritäten, Roadmaps und Abhängigkeiten.
           link: EnBW-Erfahrung ansehen
           url: "/projects/enbw.html"
-        - title: Viridium
-          origin: Laufendes Kundenmandat · mehr.wert
-          text: Bei Viridium unterstützen wir eine IT-Organisation mit zwölf Squads beim Aufbau gemeinsamer Arbeits- und Qualitätsgrundlagen. Über die Community of Practice fördern wir den Austausch und entwickeln gemeinsame Vereinbarungen. Ihre Anwendung begleiten wir gezielt in einzelnen Squads.
+        - title: Gemeinsame Grundlagen für Software-Delivery schaffen
+          origin: Viridium · laufendes mehr.wert-Mandat
+          text: Für eine IT-Organisation mit zwölf Squads entwickeln und begleiten wir gemeinsame Arbeits- und Qualitätsgrundlagen. Die Anwendung unterstützen wir gezielt in einzelnen Squads.
           link: Viridium-Erfahrung ansehen
           url: "/projects/viridium.html"
   about:
@@ -657,7 +658,7 @@ pages:
       filter_ids:
       - it-strategie
       - modernisierung
-    - type: Berufserfahrung · Marcel Russ
+    - type: Kundenmandat · mehr.wert
       title: Teamübergreifende Quartalsplanung etablieren
       text: In der EnBW Trading IT habe ich den Aufbau teamübergreifender Quartalsplanung und gemeinsamer Onsite-Wochen maßgeblich mitgestaltet. Strategische Prioritäten, Team-Roadmaps und Abhängigkeiten wurden in einen wiederkehrenden Planungsprozess übersetzt. So entstand eine praktisch genutzte Grundlage für Abstimmung und gemeinsame Entscheidungen.
       tags:
@@ -1845,7 +1846,7 @@ pages:
         description: Bewusstsein und Verantwortung in der Produkt- und Softwarearbeit verankern.
       enbw:
         hero:
-          eyebrow: BERUFSERFAHRUNG · MARCEL RUSS
+          eyebrow: Kundenmandat · mehr.wert
           title: Quartalsplanung und Onsite-Wochen
           lead: Strategische Ziele, Team-Roadmaps und Abhängigkeiten zusammenbringen – damit Teams und Führung ihre Vorhaben gemeinsam planen und Entscheidungen rechtzeitig treffen können.
           context: EnBW Trading IT · Enterprise Agile Coaching und zeitweise Release Train Engineering · Teamübergreifende Planung und Zusammenarbeit
@@ -1911,8 +1912,8 @@ pages:
           source_key: coaching
           source_author: Jacques Dunselmann
           published: true
-        meta_title: Teamübergreifende Quartalsplanung in der Trading IT | mehr.wert
-        description: Strategische Ziele und die tägliche Arbeit mehrerer Teams in einen gemeinsam genutzten Planungsprozess bringen.
+        meta_title: "EnBW Trading IT: Teamübergreifende Quartalsplanung | mehr.wert"
+        description: "Ein mehr.wert-Kundenmandat in der EnBW Trading IT: Strategische Ziele und die tägliche Arbeit mehrerer Teams in einen gemeinsam genutzten Planungsprozess bringen."
       noe:
         hero:
           eyebrow: Kundenmandat · mehr.wert

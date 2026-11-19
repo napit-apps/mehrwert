@@ -97,10 +97,10 @@
     .mw-delivery-value-flow img { max-width: 400px; }
   }
   .mw-delivery-experience { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--mw-line); }
-  .mw-delivery-experience > p { max-width: 76ch; }
+  .mw-delivery-experience-intro { max-width: 76ch; margin-top: 12px; }
   .mw-delivery-experience-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; margin-top: 28px; }
-  .mw-delivery-experience-grid article { padding: 24px; border-left: 3px solid #61bb95; background: #eeede8; }
-  .mw-delivery-origin { margin-top: 12px; margin-bottom: 20px; font-size: .85rem; color: var(--mw-muted); }
+  .mw-delivery-experience-grid h4 { color: inherit; font-size: 1.1rem; font-weight: 600; line-height: 1.35; }
+  .mw-delivery-origin { margin-top: 6px; margin-bottom: 12px; font-size: .85rem; color: var(--mw-muted); }
   .mw-delivery-experience-grid .mw-text-link { display: inline-block; margin-top: 20px; }
   @media (max-width: 767px) {
     .mw-delivery-experience-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }

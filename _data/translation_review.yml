@@ -1,7 +1,7 @@
 ---
 language: en
 status: approved_with_pending_additions
-pending_scope: pages.sustainability (updated copy); pages.about.values.sustainability_link; pages.privacy.services
+pending_scope: Software-Delivery practice examples and EnBW classification; pages.sustainability (updated copy); pages.about.values.sustainability_link; pages.privacy.services
 reviewed_on: '2026-11-18'
 reviewed_by: Codex, delegated linguistic review
 review_basis: Existing English translations compared with approved German content and Manifest v2.1 language guidelines; no translation text changed.
@@ -1271,7 +1271,8 @@ entries:
 - key: pages.home.projects.items.0.text
   source_sha256: b850a0bfce4968754caf7421e2d40ea3ad7783ea6a1e62080779657b7b5887d0
 - key: pages.home.projects.items.0.type
-  source_sha256: da808473db057d625013783dd1cc18813af8725223bf3dfded99dd1a33c13d84
+  source_sha256: f3f4fd5eb42e38f687a23ee8b0ac02c4d07c8d6949f586c85684b8842da0ae6d
+  status: pending_editorial_review
 - key: pages.home.projects.items.1.text
   source_sha256: f8d73cee1557195c2eff49b8d52cecfecb7deb050cd6a805019d445a11df9248
 - key: pages.home.projects.items.1.type
@@ -1351,7 +1352,8 @@ entries:
 - key: common.carousel.instructions
   source_sha256: 4f58f748a7b589040818df4d24b1480cbb2062c7d3f280053c2ce866fb3d42f2
 - key: pages.home.voice.items.0.origin
-  source_sha256: da808473db057d625013783dd1cc18813af8725223bf3dfded99dd1a33c13d84
+  source_sha256: ccdee5817586f71fd3d9457884b02b915ee70519f1f7650d17bb33fef62004b2
+  status: pending_editorial_review
 - key: pages.home.voice.items.1.origin
   source_sha256: 4efe28fa731e55f0c5c9f849d6b68bbc6c7708e240846e446976736835b52107
 - key: pages.home.values.label
@@ -1679,21 +1681,28 @@ entries:
 - key: pages.services.software_delivery.contact.alternative
   source_sha256: 6d6645164bad309409bbb16fd0b85039c275a1bde408f9f3cf14b7f1f74a27b3
 - key: pages.services.software_delivery.experience.label
-  source_sha256: d93531e6826310df4faa737a23eba313bfcf5d4cbf572ac1c100cf50bdd272cc
+  source_sha256: bbc45927708becc48bc554ca330d4b9b6cf1207357d9193979fa37bf5380bd3c
+  status: pending_editorial_review
 - key: pages.services.software_delivery.experience.text
-  source_sha256: fb814ba175163de23d901b41710a912a8bde70de5e41b11bde41cc5f6c3900a7
+  source_sha256: 7b6dfa7691caa0ec09be71b523e330c2e9ebccc4867b8667b2dd379487482fc4
+  status: pending_editorial_review
 - key: pages.services.software_delivery.experience.link
-  source_sha256: 2a34d8eb05ca857069055fdbcedd65117774a22577dcb6a15b0b7585fd6c61b2
+  source_sha256: a692a78c31d9b8e8297667d2d5327479ff058c2ec5a1b313049a20039d3f2d07
+  status: pending_editorial_review
 - key: pages.services.software_delivery.experience.items.0.origin
-  source_sha256: 501894894d260dd617e30985bd6ddddf251687f230c37018356f2d2f2f058c17
+  source_sha256: cfad5f840c4370a36b908df4fa65ea129d5591032e730be9319c7459704c39b0
+  status: pending_editorial_review
 - key: pages.services.software_delivery.experience.items.0.text
-  source_sha256: 1d5ec8520aed660803064cef659f573c55bf8b07246aaf0119c18a68bfa1c3b7
+  source_sha256: e925e50cba975fd56ba1fcd3021d010d92d29097e7ebf7915c1d3f52a47dbe9c
+  status: pending_editorial_review
 - key: pages.services.software_delivery.experience.items.0.link
   source_sha256: a6b31baa1899094c993aa36ae2fd80142d39f3a3e72445d8a5fa3cc5448fbfc4
 - key: pages.services.software_delivery.experience.items.1.origin
-  source_sha256: 78a06ee2c65070a27aa3767083422b629d7514c4aa044ecbda4053f7df7cdbd6
+  source_sha256: db3abd0f4feab5d27de7acf15b59477de167ad144a4cfed0f9c5c9809dd2c0aa
+  status: pending_editorial_review
 - key: pages.services.software_delivery.experience.items.1.text
-  source_sha256: 3e41a036ee247a004759c440f4f3da6ee5c88f25c09e53698261a97b014b6c8e
+  source_sha256: 532ec657cce11073ff4496ccfac776ab5fadd6c0080bcb0a42f61fa614c24fd1
+  status: pending_editorial_review
 - key: pages.services.software_delivery.experience.items.1.link
   source_sha256: 12004609f8cf22edb2c8aa18dd608e0b75e2d90ed578df0cabe8f0c517ce0a25
 - key: pages.portfolio.grid_entries.0.type
@@ -1707,7 +1716,8 @@ entries:
 - key: pages.portfolio.grid_entries.0.tags.1
   source_sha256: de25f4b4a5c43bc7b418ee917c9a1dc3e2d9eb14d7aa91cd1be6049c92d1b183
 - key: pages.portfolio.grid_entries.1.type
-  source_sha256: 0f8954941e5f906651fcfecbec679b4f9946f33ba11f920d98a88df33a854873
+  source_sha256: d4df9e15a577f0c7fb407fa9efed5a3def5bd1521b7297aadc5e5ec007a6b323
+  status: pending_editorial_review
 - key: pages.portfolio.grid_entries.1.title
   source_sha256: 993cb751b2e4046b09c4b050fdeaed7696fe79b50bca5db63b23560b61dfbdd1
 - key: pages.portfolio.grid_entries.1.text
@@ -2067,7 +2077,8 @@ entries:
 - key: pages.portfolio.details.duecker.description
   source_sha256: c9753d024aec9c2e02437b497abe6c3c875fc0ab3403d1b52298cac0d837526a
 - key: pages.portfolio.details.enbw.hero.eyebrow
-  source_sha256: 316a6ae85228c22fd7e0fe61242677cc14f9e39a7e1b418e4922d28c86dbaa3d
+  source_sha256: d4df9e15a577f0c7fb407fa9efed5a3def5bd1521b7297aadc5e5ec007a6b323
+  status: pending_editorial_review
 - key: pages.portfolio.details.enbw.hero.title
   source_sha256: fcaed00ca2e31df8a6c2581e84f92f918e10a504194bcbb5bfe0588e791ce9e7
 - key: pages.portfolio.details.enbw.hero.lead
@@ -2153,9 +2164,11 @@ entries:
 - key: pages.portfolio.details.enbw.testimonial.title
   source_sha256: c780a653893663214d2733a2a5c42728e325c87225e47eb2b818ea309a634e9e
 - key: pages.portfolio.details.enbw.meta_title
-  source_sha256: b0dd7000329dcd51cefedabe4986aca0a63b24e68fbf5094940f33c7c6c9e382
+  source_sha256: a2a7d4efcfc1f265b94eda03ae46ddc88d437ca4d220ec98a9f9c4b626851f47
+  status: pending_editorial_review
 - key: pages.portfolio.details.enbw.description
-  source_sha256: 4ff16f2652fcba0f5a7090135aad51105a02b0288da7509cf0dd95f9721ea4ba
+  source_sha256: f19f8db131c8a5479cd390fb6994dc6e5c0c2b77e0b03bd15476d8ad0faf0190
+  status: pending_editorial_review
 - key: pages.portfolio.details.viridium.meta_title
   source_sha256: 55bbd3273df2760c98d66fc2328128c5c80e76c92eac53d26462d6e4bde1b3c8
 - key: pages.portfolio.details.viridium.description
@@ -2592,4 +2605,13 @@ entries:
   status: pending_editorial_review
 - key: pages.privacy.services.openstreetmap.paragraphs.1
   source_sha256: 5de49bb74c4f5d1b8f0fe947a8fa944c223dadbd9e71c55919774b5d9ff4d0b0
+  status: pending_editorial_review
+- key: pages.services.software_delivery.experience.title
+  source_sha256: 2d856bf82a4d3879103532708dc16cb33382e485f9f87b08414139fa0ce26be6
+  status: pending_editorial_review
+- key: pages.services.software_delivery.experience.items.0.title
+  source_sha256: 27ac0198fe85538784ad6a8702a853c7853300f337c5a63de15803f4399a2e9f
+  status: pending_editorial_review
+- key: pages.services.software_delivery.experience.items.1.title
+  source_sha256: ac42057e49574457f1ff481b1f862254d60416c53dccd7c6ad1c11ada34e1264
   status: pending_editorial_review

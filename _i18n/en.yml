@@ -258,7 +258,7 @@ pages:
       link: View all projects & experience
       items:
       - text: Quarterly planning · Onsite weeks · Team coordination
-        type: Earlier professional experience
+        type: Client engagement
         url: "/projects/enbw.html"
       - text: AI-assisted development · Strategy · Roadmap
         type: Client engagement
@@ -317,7 +317,7 @@ pages:
       - source_key: coaching
         source_author: Lucas Schleweis
         published: true
-        origin: Earlier professional experience
+        origin: EnBW Trading IT
       - source_key: leadership
         source_author: Michael Weinheimer
         published: false
@@ -546,19 +546,20 @@ pages:
         primary: Let's have an initial conversation
         alternative: Or write directly to kontakt@mehrwert.tech.
       experience:
-        label: EXPERIENCE AS A FOUNDATION
-        text: Through our own software development, technical leadership and work with leaders and teams, we know different perspectives. Two experiences show how different tasks can be in practice.
-        link: More on projects & experience
+        label: In practice
+        title: How collaboration improves in practice.
+        text: Every organisation faces different challenges. These two examples show how we support shared planning and ways of working in everyday practice.
+        link: View more projects & experience
         url: "/projects.html"
         items:
-        - title: EnBW Trading IT
-          origin: Earlier professional experience · Marcel Russ
-          text: In my earlier role, I helped shape cross-team quarterly planning and shared onsite weeks. These formats became a recurring basis for coordination and decisions.
+        - title: Establishing planning across teams
+          origin: EnBW Trading IT · mehr.wert client engagement
+          text: We helped shape shared quarterly planning and onsite formats. This created a recurring framework for aligning priorities, roadmaps and dependencies.
           link: Explore the EnBW experience
           url: "/projects/enbw.html"
-        - title: Viridium
-          origin: Ongoing client engagement · mehr.wert
-          text: At Viridium, we support an IT organisation with twelve squads in building shared working and quality foundations. Through the Community of Practice, we encourage exchange and develop shared agreements. We support their application selectively in individual squads.
+        - title: Building shared foundations for software delivery
+          origin: Viridium · ongoing mehr.wert client engagement
+          text: We develop and support shared working practices and quality foundations for an IT organisation with twelve squads. We help individual squads put them into practice where needed.
           link: Explore the Viridium experience
           url: "/projects/viridium.html"
   about:
@@ -657,7 +658,7 @@ pages:
       filter_ids:
       - it-strategie
       - modernisierung
-    - type: Professional experience · Marcel Russ
+    - type: Client engagement · mehr.wert
       title: Establishing cross-team quarterly planning
       text: In EnBW Trading IT, I played a substantial role in establishing cross-team quarterly planning and shared onsite weeks. Strategic priorities, team roadmaps and dependencies were translated into a recurring planning process. This created a practically used basis for coordination and shared decisions.
       tags:
@@ -1845,7 +1846,7 @@ pages:
         description: Embedding awareness and responsibility in product and software work.
       enbw:
         hero:
-          eyebrow: PROFESSIONAL EXPERIENCE · MARCEL RUSS
+          eyebrow: Client engagement · mehr.wert
           title: Quarterly planning and onsite weeks
           lead: Bringing strategic goals, team roadmaps and dependencies together – so teams and leadership can plan their initiatives jointly and make timely decisions.
           context: EnBW Trading IT · Enterprise agile coaching and temporary release train engineering · Cross-team planning and collaboration
@@ -1911,8 +1912,8 @@ pages:
           source_key: coaching
           source_author: Jacques Dunselmann
           published: true
-        meta_title: Cross-team quarterly planning in Trading IT | mehr.wert
-        description: Bringing strategic goals and the daily work of several teams into a shared planning process.
+        meta_title: "EnBW Trading IT: Cross-team quarterly planning | mehr.wert"
+        description: "A mehr.wert client engagement in EnBW Trading IT: bringing strategic goals and the daily work of several teams into a shared planning process."
       noe:
         hero:
           eyebrow: Client engagement · mehr.wert
