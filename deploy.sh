@@ -8,6 +8,7 @@ git checkout deployment
 #remove old stuff
 rm -r assets/
 rm -r en/
+rm -r docs/
 rm -r testimonials/
 rm -r trainings/
 rm -r services/
