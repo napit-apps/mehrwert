@@ -313,15 +313,6 @@ pages:
     voice:
       title: Stimmen aus der Zusammenarbeit.
       intro: Rückmeldungen von Menschen, mit denen wir in Kundenmandaten oder früheren beruflichen Stationen gearbeitet haben.
-      items:
-      - source_key: coaching
-        source_author: Lucas Schleweis
-        published: true
-        origin: EnBW Trading IT
-      - source_key: leadership
-        source_author: Michael Weinheimer
-        published: true
-        origin: mehr.wert-Kundenmandat
     values:
       label: UNSER FUNDAMENT
       title: Nachhaltig bessere Software.

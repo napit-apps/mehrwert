@@ -49,13 +49,26 @@
     <p class="mw-testimonials-intro">{{ home.voice.intro }}</p>
     <p id="testimonials-instructions" class="mw-visually-hidden" hidden data-testimonial-instructions>{{ copy.common.carousel.instructions }}</p>
     <div class="mw-testimonials-track" id="testimonials-track">
-      {% for item in home.voice.items %}{% if item.published %}
-      {% assign testimonial = site.translations[site.lang].common.testimonials[item.source_key].item | where: 'author', item.source_author | first %}
-      <figure class="mw-testimonial">
-        <blockquote><p>{{ testimonial.text }}</p></blockquote>
-        <figcaption><strong>{{ testimonial.author }}</strong><span>{{ testimonial.role }}</span><small>{{ item.origin }}</small></figcaption>
-      </figure>
-      {% endif %}{% endfor %}
+      {% comment %}The verified DE records contain the original wording, including quotes originally given in English.{% endcomment %}
+      {% assign original_publications = site.data.testimonial_publication.entries | where: 'language', 'de' %}
+      {% assign seen_quotes = '' | split: ',' %}
+      {% for publication in original_publications %}
+        {% assign source = site.translations[publication.language] %}
+        {% assign source_path = publication.source_key | split: '.' %}
+        {% for part in source_path %}{% assign source = source[part] %}{% endfor %}
+        {% assign collection = source.testimonials | default: source %}
+        {% assign testimonial = collection.item | where: 'author', publication.author | first %}
+        {% unless testimonial %}{% assign testimonial = collection.item | where: 'name', publication.author | first %}{% endunless %}
+        {% if testimonial.text and testimonial.text != empty %}
+          {% unless seen_quotes contains testimonial.text %}
+            {% assign seen_quotes = seen_quotes | push: testimonial.text %}
+            <figure class="mw-testimonial">
+              <blockquote lang="{{ publication.quote_language | default: publication.language }}"><p>{{ testimonial.text | escape }}</p></blockquote>
+              <figcaption lang="{{ publication.language }}"><strong>{{ publication.author | escape }}</strong><span>{{ testimonial.role | escape }}</span></figcaption>
+            </figure>
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
     </div>
     <div class="mw-testimonials-controls" hidden data-testimonial-controls>
       <button type="button" data-previous aria-controls="testimonials-track" aria-label="{{ copy.common.carousel.previous | escape }}"><span aria-hidden="true">←</span></button>

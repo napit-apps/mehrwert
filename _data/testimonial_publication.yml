@@ -35,6 +35,7 @@ entries:
 - language: de
   source_key: pages.training.gsp
   author: Ivo Ganchev
+  quote_language: en
   url: https://mehrwert.tech/trainings/gsp.html
   quote_sha256: aab80a26e71df347139f5bbd809cd08639af32a2b5ed0d6e7f0cd70a0d969719
   retrieved_html_sha256: 5ec5a413d490fb523d5439af85cd12cbe186ecc9d89735ee4ba74bb62c111f63

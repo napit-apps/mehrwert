@@ -1351,11 +1351,6 @@ entries:
   source_sha256: ab8b505453b05e6cb27b7bdb69677da1cb312c0b9d499a12989fd243e10dd124
 - key: common.carousel.instructions
   source_sha256: 4f58f748a7b589040818df4d24b1480cbb2062c7d3f280053c2ce866fb3d42f2
-- key: pages.home.voice.items.0.origin
-  source_sha256: ccdee5817586f71fd3d9457884b02b915ee70519f1f7650d17bb33fef62004b2
-  status: pending_editorial_review
-- key: pages.home.voice.items.1.origin
-  source_sha256: 4efe28fa731e55f0c5c9f849d6b68bbc6c7708e240846e446976736835b52107
 - key: pages.home.values.label
   source_sha256: 7f2ab649529ed5f3303243427be4052462c316eaefb4711fd8624ccd9f1e5346
 - key: pages.home.values.text

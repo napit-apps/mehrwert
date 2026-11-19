@@ -313,15 +313,6 @@ pages:
     voice:
       title: Voices from our collaboration.
       intro: Feedback from people we have worked with in client engagements or earlier professional roles.
-      items:
-      - source_key: coaching
-        source_author: Lucas Schleweis
-        published: true
-        origin: EnBW Trading IT
-      - source_key: leadership
-        source_author: Michael Weinheimer
-        published: false
-        origin: mehr.wert client engagement
     values:
       label: OUR FOUNDATION
       title: Sustainably better software.
