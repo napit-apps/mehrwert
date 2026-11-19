@@ -1766,73 +1766,43 @@ pages:
       green-agile-guide:
         hero:
           eyebrow: INITIATIVE · GREEN AGILE
-          title: Green Agile Guide – sustainability in everyday agile work
-          lead: Sustainable software grows out of conscious decisions and shared responsibility, not just additional rules or new methods.
-          context: Professional initiative by Marcel Russ · Agile product and software development · Awareness & Responsibility
-          client: ''
-        situation:
-          title: How does sustainability become part of daily software work?
+          lead: Agile methods help teams learn quickly and improve their software. Yet the long-term environmental, economic and social impacts often go unconsidered.
           paragraphs:
-          - 'Many software development decisions are made under time pressure: which feature takes priority? How much effort do we invest in quality? What impact will our architecture and operations have over the coming years?'
-          - 'Sustainability is often treated as an extra task. I wanted to develop an approach that starts where teams already make decisions: product goals, backlogs, implementation and shared quality standards.'
-        role:
-          title: A professional initiative driven by my convictions.
-          paragraphs:
-          - I develop the Green Agile Guide because I see sustainable software development as part of good professional work. My aim is not to give agile teams another framework. I want to show how they can consider the consequences of their decisions more consciously and take responsibility for long-term quality.
-          - To do this, I connect sustainability questions with familiar agile roles, goals and working practices. I also bring these ideas into talks and professional discussions and continue to develop them.
-        results:
-          title: A guide that puts principles into practice.
-          paragraphs:
-          - The Green Agile Guide provides a professional frame of reference linking sustainability with familiar agile goals, responsibilities and practices. It offers ideas for raising quality and sustainability questions early, rather than only at the end of a development project.
-          - The guide also forms a basis for my talks and professional discussions. Its strength lies in developing existing collaboration rather than burdening the organisation with additional roles and meetings.
-        transfer:
-          title: What connects Green Agile and mehr.wert.
-          paragraphs:
-          - "“Sustainably better software” is our quality ambition. We assess technical solutions not just by whether they work today, but also by how they can be operated, changed and responsibly maintained over the long term."
-          - Awareness and responsibility therefore also shape our work in IT strategy, modernisation and software delivery. Green Agile expresses this approach in a specific professional context; it is not an additional service line.
-        closing:
-          title: Would you like to make more conscious decisions about software quality?
-          paragraphs:
-          - We are happy to discuss how long-term quality and responsible technology decisions fit your existing goals and working practices.
-          links:
-          - title: More about the Green Agile Guide
-            url: "/green-agile-guide.html"
-          - title: Organisation & Software Delivery
-            url: "/services/agile-transformation-coaching.html"
-          - title: View all projects & experience
-            url: "/projects.html"
-          - title: Let's have an initial conversation
-            url: "/contact.html"
+          - The Green Agile Guide shows how sustainability can become part of existing agile ways of working without introducing additional roles, meetings or frameworks.
+          primary: Explore the Green Agile Guide
+          title: Green Agile Guide – Sustainability in agile ways of working
+          primary_url: https://greenagile.org/guide/
+        process:
+          title: Consider sustainability where decisions are made.
+          intro: Sustainability does not have to be a separate task alongside product development. The guide builds on familiar agile goals, roles and practices by bringing in questions about long-term value, resource consumption and responsibility.
+          lead_in: 'It focuses on three areas:'
+          bracket: Awareness + Responsibility
+          items:
+          - title: Product goals & priorities
+            text: Consider long-term costs, environmental impacts and social responsibility alongside immediate customer value.
+          - title: Backlog & delivery
+            text: Make sustainability considerations visible in requirements, technical decisions and day-to-day work.
+          - title: Quality & feedback
+            text: Use relevant quality criteria and feedback to understand impacts and refine improvements.
+          mode: values
         values:
-          title: Awareness and responsibility belong together.
-          intro: The guide builds on two values that complement one another in daily work.
+          title: Awareness and responsibility.
+          intro: Two values form the foundation of the Green Agile Guide.
           items:
           - title: Awareness
-            text: Decisions affect resources, costs, architecture, users and teams. Making these consequences visible helps people assess alternatives and set priorities consciously.
+            text: Recognise how our decisions affect people, the environment and economic viability, and make trade-offs visible.
           - title: Responsibility
-            text: Insights alone change nothing. Responsibility means considering relevant consequences in decisions, putting agreements into practice and critically reviewing results.
-          closing: Sustainable software emerges where awareness meets responsibility.
-        approach:
-          title: No new rituals. Better questions at the right moment.
-          intro: Agile teams already work with goals, backlogs, shared planning and quality agreements. The Green Agile Guide uses these familiar elements as starting points for more sustainable decisions.
-          items:
-          - title: Product goals and priorities
-            text: When setting a product's direction, teams can consider operations, resource consumption, accessibility and long-term costs alongside immediate value.
-          - title: Backlog and implementation
-            text: Sustainability considerations can inform the description and assessment of existing tasks. What matters is considering them where scope, solution and effort are decided.
-          - title: Quality criteria and feedback
-            text: Shared quality standards help make the consequences of technical decisions visible. Appropriate feedback and measurements can indicate whether the chosen approach supports the intended outcome.
-        process:
-          title: Integrate sustainability into the existing flow of decisions.
-          intro: The approach adds a conscious perspective to existing practices rather than building a parallel process.
-          feedback: Recognise impacts, make decisions and review their consequences within normal product and software work.
-          caption: Simplified illustration of the Green Agile idea; not an additional prescribed process.
-          mode: values
-          steps:
-          - Product goal & priorities
-          - Backlog & implementation
-          - Quality & feedback
-          bracket: Awareness + responsibility
+            text: Turn these insights into decisions and actions, then check whether they have the intended effect.
+          closing: Sustainable software takes shape where awareness meets responsibility.
+        closing:
+          title: Explore the Green Agile Guide.
+          paragraphs:
+          - The guide is an independent initiative started by mehr.wert. It continues to evolve as a contribution to sustainable software development.
+          primary: Open the Green Agile Guide
+          links:
+          - title: Learn about our approach to sustainability
+            url: "/sustainability.html"
+          primary_url: https://greenagile.org/guide/
         meta_title: Green Agile Guide – Sustainability in agile ways of working | mehr.wert
         description: Embedding awareness and responsibility in product and software work.
       enbw:

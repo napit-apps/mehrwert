@@ -1,7 +1,7 @@
 ---
 language: en
 status: approved_with_pending_additions
-pending_scope: Software-Delivery practice examples and EnBW classification; pages.sustainability (updated copy); pages.about.values.sustainability_link; pages.privacy.services
+pending_scope: pages.portfolio.details.green-agile-guide; Software-Delivery practice examples and EnBW classification; pages.sustainability (updated copy); pages.about.values.sustainability_link; pages.privacy.services
 reviewed_on: '2026-11-18'
 reviewed_by: Codex, delegated linguistic review
 review_basis: Existing English translations compared with approved German content and Manifest v2.1 language guidelines; no translation text changed.
@@ -196,94 +196,6 @@ entries:
   source_sha256: 0403b63b49673ec5c85654620472ad3191ef8385b92b820da55d69b8a5072897
 - key: pages.portfolio.details.smartes-sportshirt-bewegungsanalyse.process.steps.2
   source_sha256: a2a387acf8a541dde11f9294ed0feedb4a7885ca36e026a8e6747ab1fc69cc34
-- key: pages.portfolio.details.green-agile-guide.hero.title
-  source_sha256: 1c8eedaa044a3028cf8078212a073402ac7c4f11f103b4670de6cc1edfb7baa7
-- key: pages.portfolio.details.green-agile-guide.hero.lead
-  source_sha256: 40348bc45a9bd3f9b0617400d1119e6fc2f0e39ee01419e13885972fa5ee717e
-- key: pages.portfolio.details.green-agile-guide.hero.context
-  source_sha256: e50d0668bef088b4e1ac5ae8e10491746c40ab00023a0dcaf6e563c478e3ab09
-- key: pages.portfolio.details.green-agile-guide.situation.title
-  source_sha256: 632fa6f0ef371a35021c353789529bb47703cd03a3fa1e051efe99742bfad8d2
-- key: pages.portfolio.details.green-agile-guide.situation.paragraphs.0
-  source_sha256: 3ee1e94d431511c1f8d65697c6d91d92291c6ca86bdb8e58d8f1f46427a2b84f
-- key: pages.portfolio.details.green-agile-guide.situation.paragraphs.1
-  source_sha256: f8f85b62ac1a06218f0a2920bf1b38ed812426efe89f2bd5329ec16daaa222b1
-- key: pages.portfolio.details.green-agile-guide.role.title
-  source_sha256: 84f43c4337cb796a0d5c22be739609a6a3223ca3308e3785c31637159941e569
-- key: pages.portfolio.details.green-agile-guide.role.paragraphs.0
-  source_sha256: 17ccb80f1989fc11c3d32d399148e6419b4f9bd37babe7a882a4805132a47824
-- key: pages.portfolio.details.green-agile-guide.role.paragraphs.1
-  source_sha256: 4af3fc5f0724362775afab9ac50495bb138922ec032bd30fe768b90d1bf68197
-- key: pages.portfolio.details.green-agile-guide.results.title
-  source_sha256: 54fd1460bf970de971eb8c4834eb5a9cd67930ba60075c2a7778740ab1de6fba
-- key: pages.portfolio.details.green-agile-guide.results.paragraphs.0
-  source_sha256: dda598352759bf83d303504c5f9e4a6d83124efa8234b4cedfd0e60493cd7408
-- key: pages.portfolio.details.green-agile-guide.results.paragraphs.1
-  source_sha256: 6f3974cd32e6982acf4fe164e99ce3aec1ab7009e9b08a03db9f296ef8ac129c
-- key: pages.portfolio.details.green-agile-guide.transfer.title
-  source_sha256: 679cb2750356cb62c88f90069f7438cc69bbcc1d89755e39a626af65b6b478f7
-- key: pages.portfolio.details.green-agile-guide.transfer.paragraphs.0
-  source_sha256: 14b6899651a525b0d323afc08ba81fc33df156abeba0191e6a3141e4a61078e8
-- key: pages.portfolio.details.green-agile-guide.transfer.paragraphs.1
-  source_sha256: 642b5ac8924f1297be9434636cb36d663195ce30c5537ca48b228983033ad0ce
-- key: pages.portfolio.details.green-agile-guide.closing.title
-  source_sha256: 23f9cea848832d402007e84f62a57889aea6f3cb4176a59b67e25e25bd816097
-- key: pages.portfolio.details.green-agile-guide.closing.paragraphs.0
-  source_sha256: c76966a6f72dc96db8ea4e7181f4cdb1f88961ea5008cd0971cc27495c94d1da
-- key: pages.portfolio.details.green-agile-guide.closing.links.0.title
-  source_sha256: cbafb34e70e0078d55c2ddc3c4a95438ca275827797bb33db02471cbb283f7d9
-- key: pages.portfolio.details.green-agile-guide.closing.links.1.title
-  source_sha256: 936c7ddeed6e4d31ec73f4a57d35b06cec73cd6271a02d1ef8369e12383a6d31
-- key: pages.portfolio.details.green-agile-guide.closing.links.2.title
-  source_sha256: 31a07da60ba3266966fa3042d643c92a600521f13ce0d97c0731b9a0b27118c0
-- key: pages.portfolio.details.green-agile-guide.closing.links.3.title
-  source_sha256: df31355e706965d20dc026bd315359dd0b7774c38db675c991b843a75b49d6b1
-- key: pages.portfolio.details.green-agile-guide.values.title
-  source_sha256: 1dfa6bfe63a6c90579bbb1732e9f02b44cad4ff1dff46cf57355f6f5bd5e443a
-- key: pages.portfolio.details.green-agile-guide.values.intro
-  source_sha256: cda5e168d57e78d4576bdb11cd8db35464fbd5f1a086131ef4510fd44fde8b41
-- key: pages.portfolio.details.green-agile-guide.values.items.0.title
-  source_sha256: 2e38dffba9cff766eaec867b94832e7d77a6fd8869b58f8cdf45d36df4db0087
-- key: pages.portfolio.details.green-agile-guide.values.items.0.text
-  source_sha256: fa7717db6dc6c8f35c0b952a3d1276ca704e04c07acae6818470172394de5ae9
-- key: pages.portfolio.details.green-agile-guide.values.items.1.title
-  source_sha256: 269d3d873f156bd37a61b56573c6732822017ff6912dfa0258b376f76f39ff19
-- key: pages.portfolio.details.green-agile-guide.values.items.1.text
-  source_sha256: e9b6661cbd9b0043b967382689a5a153d3643492c956e03f6a8f38a4cfc69597
-- key: pages.portfolio.details.green-agile-guide.values.closing
-  source_sha256: db6667bb954c4d42037c6977f3e35239dc362ca912cee9caadc422dc4aaa97a4
-- key: pages.portfolio.details.green-agile-guide.approach.title
-  source_sha256: 1bf64398a6dfa6f3d11771aec051de9f443a6139d23c3aa925a4d08197672f3e
-- key: pages.portfolio.details.green-agile-guide.approach.intro
-  source_sha256: 9aad285f792d37dac92b78852c8ca4bce5fe3879be9eb7bc15fe69de3d8ac871
-- key: pages.portfolio.details.green-agile-guide.approach.items.0.title
-  source_sha256: ee52ced36469ddf5bf4b1ab1c0364748b51b60a97cf73c87f9e16e8172d5d882
-- key: pages.portfolio.details.green-agile-guide.approach.items.0.text
-  source_sha256: 8da985d6497b79dd46815d49889b8a8a3fd5fd3b03711d723cac63277d9b0171
-- key: pages.portfolio.details.green-agile-guide.approach.items.1.title
-  source_sha256: 50aac49e893d8cc0fd827ede011379239b2dd8f834c47ffa27dca33ef41b1af2
-- key: pages.portfolio.details.green-agile-guide.approach.items.1.text
-  source_sha256: 3fca92997458c85cc4502dfbd35f7ddc5802577fd6a761b221afa72ee282ab6b
-- key: pages.portfolio.details.green-agile-guide.approach.items.2.title
-  source_sha256: 26bea80f3ded9a44315d341a0f15d6fa8c2804d18561a34caee3edccee72ee80
-- key: pages.portfolio.details.green-agile-guide.approach.items.2.text
-  source_sha256: 80cf7293f02380cb94a97016cfac0cd088dcafb04e363371ca45ec013130b1cd
-- key: pages.portfolio.details.green-agile-guide.process.title
-  source_sha256: 5e2da3874e0c16ad0ee3e45d19eef104d6a0070dc0f16732b5367766964b02a1
-- key: pages.portfolio.details.green-agile-guide.process.intro
-  source_sha256: 109298274f187a33177190df6157683e091fb472784d3ec15bf4ca9c43d2855a
-- key: pages.portfolio.details.green-agile-guide.process.feedback
-  source_sha256: 7b8165f05933f84d981913f0b2b0e0e052b3dc4c529de46ec327d163a3fefe00
-- key: pages.portfolio.details.green-agile-guide.process.caption
-  source_sha256: ab3559fd81962d3a86ceb2751329978d42a5012adbedd722b2424e0d15f2fcdf
-- key: pages.portfolio.details.green-agile-guide.process.steps.0
-  source_sha256: 450419938e0732eba7b794f79d7816f2a72d81e3357f12e7a3a75e7fa40facc6
-- key: pages.portfolio.details.green-agile-guide.process.steps.1
-  source_sha256: 5518459adbc51821cac6daa7eeca352129e8d7e2cfee3b3d57f87469b85a8aea
-- key: pages.portfolio.details.green-agile-guide.process.steps.2
-  source_sha256: 3d6a2b557900f492953aa7e69ceb6631f4025bea2d23f4339c2e05cb84158827
-- key: pages.portfolio.details.green-agile-guide.process.bracket
-  source_sha256: bb0dd02d733a15cf102ca9e4e77da5ab3dee2acaca41dcd86e0d407cac289391
 - key: pages.portfolio.details.ocr-fahrzeugdaten-aftersales.hero.eyebrow
   source_sha256: 316a6ae85228c22fd7e0fe61242677cc14f9e39a7e1b418e4922d28c86dbaa3d
 - key: pages.portfolio.details.ocr-fahrzeugdaten-aftersales.hero.title
@@ -2216,10 +2128,6 @@ entries:
   source_sha256: 2e36fcde66fcd3c640c1b8b8e70d68ef4e6fbdfd3e4bb56619b1b89f8f8e48b8
 - key: pages.portfolio.details.technische-fuehrung-web-mobile.description
   source_sha256: c0d233aa3818bb91d797f721487af389f4d282791450250c353c73fa1ce808dd
-- key: pages.portfolio.details.green-agile-guide.meta_title
-  source_sha256: 1545d34ec35bed90c1e70f5d3981fe3018200463383449c4e63bd49426b804fa
-- key: pages.portfolio.details.green-agile-guide.description
-  source_sha256: 0caf1a4a61f6ab4b6342e9c2df1f061fc9448ee32fdd18741750ee198a5de726
 - key: pages.portfolio.grid_entries.9.client
   source_sha256: 309e32988e21ffe77bc809f4774a1e0e4ada67a9b9841177c50f0e6b6e54963c
 - key: pages.portfolio.grid_entries.11.client
@@ -2610,3 +2518,81 @@ entries:
 - key: pages.services.software_delivery.experience.items.1.title
   source_sha256: ac42057e49574457f1ff481b1f862254d60416c53dccd7c6ad1c11ada34e1264
   status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.hero.eyebrow
+  source_sha256: 578c795432123af252c9a42a6bcc05678849001c0e3ce38b6e0575e6c57a98ec
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.hero.lead
+  source_sha256: 91bd248ec9825b8dd27c8931a7a784ed051d9260ff9659041e326128c01746cf
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.hero.paragraphs.0
+  source_sha256: 9edb664ee55deb45d720126775cbc7827f135e7a17899397581a4f095a489ba1
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.hero.primary
+  source_sha256: 6502b43bf3c4f8a4ffa1a777c0c5e17738ded8e6073f49609796fba01f0f92c8
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.hero.title
+  source_sha256: c81125b975b77398a47617de5df2623f1ae5f4e057a34455d34e6f343b609d44
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.process.title
+  source_sha256: 4fc1db5f2c669b55e74260d93fec777ffb4effa993b59f5a441ae17ad1bc9f85
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.process.intro
+  source_sha256: 33efad1f8f96c2c36808ca4b23a58146c1a8ca6e82f59b578f592b652629cda7
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.process.lead_in
+  source_sha256: e50442bcbbb7b39a5143bf0aada9b3d4c1dfa7d5918bcf5686cbab2427ca22ed
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.process.bracket
+  source_sha256: bb0dd02d733a15cf102ca9e4e77da5ab3dee2acaca41dcd86e0d407cac289391
+- key: pages.portfolio.details.green-agile-guide.process.items.0.title
+  source_sha256: 82ed4121a5b93aa7ca1c447e0717a020b288cef402feee9e85af05befd0bbf05
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.process.items.0.text
+  source_sha256: 2bd75d8e287e42a3034c61a71e646bf44701baa5563e14faf52e8a56f67b0a1c
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.process.items.1.title
+  source_sha256: 5518459adbc51821cac6daa7eeca352129e8d7e2cfee3b3d57f87469b85a8aea
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.process.items.1.text
+  source_sha256: 4bb93a09c7bc2f6d891364d9bfb72263b341c389bccfd4e65bef22a30309fa35
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.process.items.2.title
+  source_sha256: 3d6a2b557900f492953aa7e69ceb6631f4025bea2d23f4339c2e05cb84158827
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.process.items.2.text
+  source_sha256: 7f583120e422f33d4aa4870d4e0d64e53f805806c6c77cc66ced6c1c5f4fd992
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.values.title
+  source_sha256: ea12b4f6dd7d072d26671c4f096fa5bce08f3463e932e6d12414e88f61a05d83
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.values.intro
+  source_sha256: d8a4a242ba3d715aecd16395fa7b553bdea41b486c03bc514b3eae16b1cedf8e
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.values.items.0.title
+  source_sha256: 2e38dffba9cff766eaec867b94832e7d77a6fd8869b58f8cdf45d36df4db0087
+- key: pages.portfolio.details.green-agile-guide.values.items.0.text
+  source_sha256: e3e6bf0dedb5030cb8d9fc37998d8f750359b2fe059548300d1c8812b0df13c6
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.values.items.1.title
+  source_sha256: 269d3d873f156bd37a61b56573c6732822017ff6912dfa0258b376f76f39ff19
+- key: pages.portfolio.details.green-agile-guide.values.items.1.text
+  source_sha256: '0178086ca20aa664d30f71d493f8d96548034d9e3f9841ca0511f0bbc3cb5ab8'
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.values.closing
+  source_sha256: db6667bb954c4d42037c6977f3e35239dc362ca912cee9caadc422dc4aaa97a4
+- key: pages.portfolio.details.green-agile-guide.closing.title
+  source_sha256: c937bff088b8879304d5f904619e109cda10182942f2ac13926467830ed8beac
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.closing.paragraphs.0
+  source_sha256: 1cade4ae85060ead0e53b1898a6487b862b9c22809d01a6209f9f69ecd2893b3
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.closing.primary
+  source_sha256: 37de4e9fb0b33fcd9fdc2be25c32965cca40fe8e8618446baeac8af5b85bbd7e
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.closing.links.0.title
+  source_sha256: cd5cefed5255dcd2c2b31e512646c13818ffeaab49d07f26e27e4ccec0a3650f
+  status: pending_editorial_review
+- key: pages.portfolio.details.green-agile-guide.meta_title
+  source_sha256: 1545d34ec35bed90c1e70f5d3981fe3018200463383449c4e63bd49426b804fa
+- key: pages.portfolio.details.green-agile-guide.description
+  source_sha256: 0caf1a4a61f6ab4b6342e9c2df1f061fc9448ee32fdd18741750ee198a5de726

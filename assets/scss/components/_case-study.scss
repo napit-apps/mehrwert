@@ -17,6 +17,7 @@
   .mw-case-process { margin: 32px 0 0; padding: 28px; background: #eeede8; }
   .mw-case-process ol { display: grid; grid-template-columns: repeat(var(--case-stations, 4),minmax(0,1fr)); gap: 28px; list-style: none; margin: 0; padding: 0; }
   .mw-case-process li { position: relative; padding: 20px 16px; border-top: 3px solid #477e65; background: #fff; font-weight: 600; font-size: .95rem; }
+  .mw-case-process li > p { font-weight: 400; }
   .mw-case-process li:not(:last-child)::after { content: '→'; position: absolute; right: -24px; top: 50%; transform: translateY(-50%); color: #355944; }
   .mw-case-feedback { border-bottom: 2px solid #477e65; padding: 20px 0 12px; font-size: .9rem; }
   .mw-case-feedback span { font-size: 1.4rem; }

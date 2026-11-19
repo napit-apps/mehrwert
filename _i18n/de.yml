@@ -1766,73 +1766,43 @@ pages:
       green-agile-guide:
         hero:
           eyebrow: INITIATIVE · GREEN AGILE
-          title: Green Agile Guide – Nachhaltigkeit im agilen Alltag
-          lead: Nachhaltige Software entsteht durch bewusste Entscheidungen und übernommene Verantwortung – nicht allein durch zusätzliche Regeln oder neue Methoden.
-          context: Fachinitiative von Marcel Russ · Agile Produkt- und Softwareentwicklung · Bewusstsein & Verantwortung
-          client: ''
-        situation:
-          title: Wie wird Nachhaltigkeit Teil der täglichen Softwarearbeit?
+          lead: Agile Methoden helfen Teams, schnell zu lernen und Software weiterzuentwickeln. Die langfristigen ökologischen, wirtschaftlichen und sozialen Auswirkungen bleiben dabei jedoch oft außen vor.
           paragraphs:
-          - 'In der Softwareentwicklung werden viele Entscheidungen unter Zeitdruck getroffen: Welche Funktion hat Priorität? Wie viel Aufwand investieren wir in Qualität? Welche Auswirkungen haben unsere Architektur und unser Betrieb über die nächsten Jahre?'
-          - 'Nachhaltigkeit wird dabei oft als zusätzliche Aufgabe behandelt. Ich wollte einen Ansatz entwickeln, der dort ansetzt, wo Teams ohnehin Entscheidungen treffen: bei Produktzielen, Backlogs, der Umsetzung und den gemeinsamen Qualitätsmaßstäben.'
-        role:
-          title: Eine fachliche Initiative aus meiner Überzeugung.
-          paragraphs:
-          - Ich entwickle den Green Agile Guide, weil ich nachhaltige Softwareentwicklung als Teil guter professioneller Arbeit verstehe. Es geht mir nicht darum, agilen Teams ein weiteres Framework zu geben. Ich möchte verdeutlichen, wie sie die Folgen ihrer Entscheidungen bewusster betrachten und Verantwortung für langfristige Qualität übernehmen können.
-          - Dafür übertrage ich Nachhaltigkeitsfragen in bereits bekannte agile Rollen, Ziele und Arbeitsweisen. Die Gedanken bringe ich auch in Vorträge und fachliche Diskussionen ein und entwickle sie weiter.
-        results:
-          title: Ein Guide, der Haltung in die Praxis übersetzt.
-          paragraphs:
-          - Mit dem Green Agile Guide ist ein fachlicher Bezugsrahmen entstanden, der Nachhaltigkeit mit bekannten agilen Zielen, Verantwortlichkeiten und Arbeitsweisen verknüpft. Er bietet Anregungen, um Qualitäts- und Nachhaltigkeitsfragen frühzeitig zu stellen – und nicht erst am Ende eines Entwicklungsprojekts.
-          - Der Guide ist zugleich Grundlage für meine Vorträge und fachlichen Diskussionen. Seine Stärke liegt darin, bestehende Zusammenarbeit weiterzuentwickeln, statt die Organisation mit zusätzlichen Rollen und Meetings zu belasten.
-        transfer:
-          title: Was Green Agile mit mehr.wert verbindet.
-          paragraphs:
-          - "„Nachhaltig bessere Software“ ist unser Qualitätsanspruch. Wir betrachten technische Lösungen nicht nur danach, ob sie heute funktionieren, sondern auch danach, wie sie langfristig betrieben, verändert und verantwortet werden können."
-          - Bewusstsein und Verantwortung prägen deshalb auch unsere Arbeit in IT-Strategie, Modernisierung und Software-Delivery. Green Agile macht diese Haltung in einem konkreten fachlichen Kontext sichtbar; es ist keine zusätzliche Servicesparte.
-        closing:
-          title: Sie möchten bewusster über die Qualität Ihrer Software entscheiden?
-          paragraphs:
-          - Wir sprechen gerne darüber, wie langfristige Qualität und verantwortungsvolle Technologieentscheidungen in Ihre bestehenden Ziele und Arbeitsweisen passen.
-          links:
-          - title: Mehr über den Green Agile Guide
-            url: "/green-agile-guide.html"
-          - title: Organisation & Software-Delivery
-            url: "/services/agile-transformation-coaching.html"
-          - title: Alle Projekte & Erfahrungen ansehen
-            url: "/projects.html"
-          - title: Unverbindlich ins Gespräch kommen
-            url: "/contact.html"
+          - Der Green Agile Guide zeigt, wie Nachhaltigkeit Teil bestehender agiler Arbeitsweisen werden kann – ohne zusätzliche Rollen, Meetings oder neue Frameworks.
+          primary: Green Agile Guide entdecken
+          title: Green Agile Guide – Nachhaltigkeit in agilen Arbeitsweisen
+          primary_url: https://greenagile.org/guide/
+        process:
+          title: Nachhaltigkeit dort berücksichtigen, wo Entscheidungen fallen.
+          intro: Nachhaltigkeit muss keine zusätzliche Aufgabe neben der eigentlichen Produktentwicklung sein. Der Guide erweitert bekannte agile Ziele, Rollen und Arbeitsweisen um Fragen nach langfristigem Nutzen, Ressourcenverbrauch und Verantwortung.
+          lead_in: 'Dafür setzt er an drei Stellen an:'
+          bracket: Bewusstsein + Verantwortung
+          items:
+          - title: Produktziele & Prioritäten
+            text: Neben dem unmittelbaren Kundennutzen auch langfristige Kosten, ökologische Auswirkungen und soziale Verantwortung berücksichtigen.
+          - title: Backlog & Umsetzung
+            text: Nachhaltigkeitsaspekte bei Anforderungen, technischen Entscheidungen und der täglichen Umsetzung sichtbar machen.
+          - title: Qualität & Feedback
+            text: Geeignete Qualitätskriterien und Rückmeldungen nutzen, um Auswirkungen zu verstehen und Verbesserungen gezielt weiterzuentwickeln.
+          mode: values
         values:
-          title: Bewusstsein und Verantwortung gehören zusammen.
-          intro: Der Guide baut auf zwei Werten auf, die sich im Alltag gegenseitig ergänzen.
+          title: Bewusstsein und Verantwortung.
+          intro: Zwei Werte bilden das Fundament des Green Agile Guides.
           items:
           - title: Bewusstsein
-            text: Entscheidungen haben Auswirkungen auf Ressourcen, Kosten, Architektur, Nutzer und Teams. Wer diese Folgen sichtbar macht, kann Alternativen besser beurteilen und Prioritäten bewusst setzen.
+            text: Erkennen, welche Auswirkungen unsere Entscheidungen auf Menschen, Umwelt und Wirtschaftlichkeit haben – und Zielkonflikte sichtbar machen.
           - title: Verantwortung
-            text: Erkenntnisse allein verändern noch nichts. Verantwortung bedeutet, die relevanten Folgen in Entscheidungen zu berücksichtigen, Vereinbarungen in die Arbeit zu übernehmen und Ergebnisse kritisch zu überprüfen.
+            text: Diese Erkenntnisse in Entscheidungen und Handlungen übersetzen und überprüfen, ob die beabsichtigte Wirkung entsteht.
           closing: Nachhaltige Software entsteht dort, wo Bewusstsein auf Verantwortung trifft.
-        approach:
-          title: Keine neuen Rituale. Bessere Fragen im richtigen Moment.
-          intro: Agile Teams arbeiten bereits mit Zielen, Backlogs, gemeinsamer Planung und Qualitätsvereinbarungen. Der Green Agile Guide nutzt diese bekannten Elemente als Ansatzpunkte für nachhaltigere Entscheidungen.
-          items:
-          - title: Produktziele und Prioritäten
-            text: Bei der Ausrichtung eines Produkts können Teams neben dem unmittelbaren Nutzen auch Betrieb, Ressourcenverbrauch, Zugänglichkeit und langfristige Kosten berücksichtigen.
-          - title: Backlog und Umsetzung
-            text: Nachhaltigkeitsaspekte können in die Beschreibung und Abwägung bestehender Aufgaben einfließen. Entscheidend ist, sie dort zu betrachten, wo über Umfang, Lösung und Aufwand entschieden wird.
-          - title: Qualitätskriterien und Feedback
-            text: Gemeinsame Qualitätsmaßstäbe helfen, die Folgen technischer Entscheidungen sichtbar zu machen. Geeignete Rückmeldungen und Messgrößen können zeigen, ob ein gewählter Weg die beabsichtigte Wirkung unterstützt.
-        process:
-          title: Nachhaltigkeit in den vorhandenen Entscheidungsfluss einbinden.
-          intro: Der Ansatz ergänzt bestehende Arbeitsweisen um eine bewusste Perspektive, statt einen parallelen Prozess aufzubauen.
-          feedback: Auswirkungen erkennen, Entscheidungen treffen und ihre Folgen überprüfen – innerhalb der normalen Produkt- und Softwarearbeit.
-          caption: Vereinfachte Darstellung des Green-Agile-Gedankens; keine zusätzliche Prozessvorgabe.
-          mode: values
-          steps:
-          - Produktziel & Prioritäten
-          - Backlog & Umsetzung
-          - Qualität & Feedback
-          bracket: Bewusstsein + Verantwortung
+        closing:
+          title: Den Green Agile Guide entdecken.
+          paragraphs:
+          - Der Guide ist eine unabhängige Initiative, die von mehr.wert ins Leben gerufen wurde. Er wird als fachlicher Beitrag zur nachhaltigen Softwareentwicklung weiterentwickelt.
+          primary: Green Agile Guide öffnen
+          links:
+          - title: Mehr über unser Nachhaltigkeitsverständnis
+            url: "/sustainability.html"
+          primary_url: https://greenagile.org/guide/
         meta_title: Green Agile Guide – Nachhaltigkeit in agilen Arbeitsweisen | mehr.wert
         description: Bewusstsein und Verantwortung in der Produkt- und Softwarearbeit verankern.
       enbw:
