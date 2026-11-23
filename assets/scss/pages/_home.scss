@@ -130,10 +130,9 @@
     padding-block: 98px 144px;
     text-align: center;
   }
-  .mw-home-hero-content { max-width: 1120px; }
-  .mw-hero .mw-eyebrow { color: #d7eee1; margin: 0 auto 24px; }
-  .mw-hero h1 { font-size: clamp(2.4rem, 4.4vw, 4rem); line-height: 1.13; text-wrap: balance; hyphens: none; overflow-wrap: normal; }
-  .mw-hero .mw-lead { color: #f4f1f6; max-width: 66ch; margin: 26px auto 0; font-size: 1.12rem; }
+  .mw-hero .mw-eyebrow { color: #d7eee1; margin: 0 auto 36px; }
+  .mw-hero h1 { font-size: clamp(2.04rem, 3.74vw, 3.4rem); line-height: 1.13; text-wrap: balance; hyphens: none; overflow-wrap: normal; }
+  .mw-hero .mw-lead { color: #f4f1f6; max-width: 66ch; margin: 38px auto 0; font-size: 1.12rem; }
   .mw-hero .mw-actions { justify-content: center; margin-top: 30px; }
   .mw-home-situation-grid { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 64px; margin-top: 36px; }
   .mw-home-circle img { display: block; width: 100%; max-width: 460px; height: auto; object-fit: contain; margin-inline: auto; }
@@ -191,11 +190,11 @@
     .mw-shell { width: calc(100% - 40px); }
     .mw-section { padding-block: 42px; }
     .mw-hero { padding-block: 44px 64px; }
-    .mw-hero .mw-eyebrow { font-size: .64rem; letter-spacing: .09em; line-height: 1.8; margin-bottom: 20px; }
+    .mw-hero .mw-eyebrow { font-size: .64rem; letter-spacing: .09em; line-height: 1.8; margin-bottom: 24px; }
     .mw-home-expertise-label { display: block; white-space: nowrap; }
     .mw-home-expertise-separator { display: none; }
-    .mw-hero h1 { font-size: clamp(1.9rem, 7.7vw, 2.7rem); }
-    .mw-hero .mw-lead { font-size: 1rem; line-height: 1.7; margin-top: 22px; }
+    .mw-hero h1 { font-size: clamp(1.615rem, 6.55vw, 2.295rem); }
+    .mw-hero .mw-lead { font-size: 1rem; line-height: 1.7; margin-top: 26px; }
     .mw-button { padding: 13px 16px; font-size: .94rem; }
     .mw-home-situation-grid, .mw-home-person-grid, .mw-home-split, .mw-home-section-intro, .mw-home-service-grid { grid-template-columns: minmax(0, 1fr); gap: 26px; }
     .mw-home-circle img { max-width: 320px; }
