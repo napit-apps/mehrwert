@@ -224,7 +224,14 @@ pages:
     eyebrow: IT STRATEGY & MODERNISATION · ORGANISATION & SOFTWARE DELIVERY
     meta_title: mehr.wert | IT strategy, software modernisation & software delivery
     description: mehr.wert supports IT decisions, the modernisation of established software and team collaboration. Personally, pragmatically and with responsibility.
-    intro: We bring clarity to IT decisions, support the modernisation of established software and strengthen collaboration between teams and leadership.
+    intro: We help you make sense of your technology, prepare your software development for the future and align your development teams around shared value streams.
+    contributions:
+    - title: Understand and assess technology
+      text: What opportunities do existing and emerging technologies, including AI, offer your business?
+    - title: Modernise software development
+      text: Evolve established in-house software and its technical foundations so they remain viable in the long term.
+    - title: Shape value streams
+      text: Bring teams, leadership and product goals together so that work across teams delivers real value to customers.
     primary: Let's have an initial conversation
     discover:
       title: Explore more

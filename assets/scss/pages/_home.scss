@@ -250,3 +250,21 @@
     .mw-home-discover-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
   }
 }
+
+.mw-site .mw-home-composition .mw-home-contributions {
+  background: #faf9f6;
+  padding-block: clamp(24px, 3vw, 40px);
+
+  .mw-shell {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(20px, 3vw, 40px);
+  }
+
+  h2 { font-size: 1.2rem; line-height: 1.35; }
+  p { margin-top: 8px; color: var(--mw-muted); }
+
+  @media (max-width: 767px) {
+    .mw-shell { grid-template-columns: 1fr; }
+  }
+}
