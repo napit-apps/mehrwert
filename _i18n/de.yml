@@ -261,23 +261,23 @@ pages:
       label: IHRE AUSGANGSLAGE
       title: Die IT muss sich weiterentwickeln. Aber wo anfangen?
       items:
-      - title: Die Software ist unverzichtbar. Veränderungen werden aber immer aufwendiger.
-        text: Die Software hält das Geschäft am Laufen. Doch wichtiges Wissen ist oft verteilt, und Veränderungen werden aufwendiger – während der Betrieb zuverlässig funktionieren muss.
-      - title: Wichtige IT-Entscheidungen bleiben offen.
-        text: Modernisieren, ersetzen oder weiterbetreiben? Ohne Klarheit über Kosten, Risiken und Möglichkeiten bleiben wichtige Entscheidungen liegen.
-      - title: Gute Teams arbeiten nicht automatisch gut zusammen.
-        text: Wenn Ziele, Verantwortlichkeiten und Planungen nicht zusammenpassen, verlieren Teams Zeit mit Abstimmungen statt mit gemeinsamer Umsetzung.
+      - title: Die eigene Software trägt das Geschäft. Doch Veränderungen werden schwieriger.
+        text: Über Jahre gewachsene Eigenentwicklungen enthalten wertvolles Fachwissen. Technische Abhängigkeiten und fehlende Transparenz erschweren die Weiterentwicklung.
+      - title: Neue Technologien bieten Chancen. Doch welche lohnen sich?
+        text: Ob Modernisierung oder KI; Welche Möglichkeiten bringen echten Geschäftsnutzen? Und wie lassen sich Kosten und Risiken fundiert bewerten?
+      - title: Gute Teams schaffen nicht automatisch gemeinsam mehr Wert.
+        text: Wenn Ziele, Prioritäten und Abhängigkeiten nicht über Teamgrenzen hinweg abgestimmt sind, bleibt wertvoller Kundennutzen auf der Strecke.
     services:
       label: UNSERE LEISTUNGEN
       title: Wobei wir Sie unterstützen.
       items:
       - title: IT-Strategie & Modernisierung
-        text: 'Wir klären, welche Risiken und Möglichkeiten in Ihrer IT stecken, und entwickeln gemeinsam die nächsten sinnvollen Schritte. Ob modernisieren, ersetzen oder weiterbetreiben: Entscheidungen sollen zu Ihrem Geschäft passen und auf neuen Erkenntnissen aufbauen.'
+        text: 'Wir klären, welche Risiken und Möglichkeiten in Ihrer Technologie- und Softwarelandschaft stecken, und entwickeln gemeinsam die nächsten sinnvollen Schritte. Ob modernisieren, ersetzen oder weiterbetreiben: Entscheidungen sollen zu Ihrem Geschäft passen und auf neuen Erkenntnissen aufbauen.'
         url: "/services/it-strategy-modernisation.html"
         link: IT-Strategie & Modernisierung ansehen
         short: Den nächsten Schritt für Ihre IT fundiert entscheiden.
       - title: Organisation & Software-Delivery
-        text: Wir helfen Teams und Führung, Ziele und Verantwortung zu klären, Hindernisse zu beseitigen und ihre Zusammenarbeit zu verbessern. Gemeinsam schauen wir, was funktioniert, und passen Arbeitsweisen dort an, wo sie wirklich helfen.
+        text: Wir helfen Teams und Führung, Ziele und Verantwortung zu klären, Hindernisse zu beseitigen und ihre Zusammenarbeit zu verbessern. Gemeinsam schauen wir, was funktioniert und passen Arbeitsweisen dort an, wo sie wirklich helfen.
         url: "/services/agile-transformation-coaching.html"
         link: Organisation & Software-Delivery ansehen
         short: Damit Teams besser zusammenarbeiten und verlässlicher liefern können.

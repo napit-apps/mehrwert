@@ -261,18 +261,18 @@ pages:
       label: YOUR STARTING POINT
       title: IT needs to evolve. But where should you start?
       items:
-      - title: The software is indispensable. But changes are becoming increasingly complex.
-        text: The software keeps the business running. But important knowledge is often dispersed and changes are becoming more complex – while operations must continue reliably.
-      - title: Important IT decisions remain unresolved.
-        text: Modernise, replace or continue operating? Without clarity on costs, risks and options, important decisions remain unresolved.
-      - title: Good teams do not automatically work well together.
-        text: When goals, responsibilities and plans do not align, teams lose time coordinating instead of implementing together.
+      - title: In-house software drives the business. But making changes is becoming more difficult.
+        text: In-house systems developed over the years contain valuable domain expertise. Technical dependencies and a lack of transparency make further development challenging.
+      - title: New technologies offer opportunities. But which ones are worth pursuing?
+        text: Whether it’s modernization or AI, which options deliver real business value? And how can costs and risks be evaluated in an informed manner?
+      - title: Good teams don’t automatically create more value together.
+        text: When goals, priorities, and dependencies aren’t aligned across team boundaries, valuable customer benefits fall by the wayside.
     services:
       label: OUR SERVICES
       title: How we support you.
       items:
       - title: IT strategy & modernization
-        text: 'We clarify the risks and opportunities in your IT and develop the next sensible steps together. Whether modernising, replacing or continuing to operate: decisions should fit your business and build on new insights.'
+        text: 'We identify the risks and opportunities within your technology and software landscape and work with you to develop the next logical steps. Whether you choose to modernize, replace, or continue operating your current systems, decisions should align with your business needs and be based on new insights.'
         url: "/services/it-strategy-modernisation.html"
         link: Explore IT strategy & modernisation
         short: Make an informed decision about the next step for your IT.
@@ -369,7 +369,7 @@ pages:
       text: Perhaps it concerns an established application, a technical direction or your teams' collaboration. Tell us where you stand. We listen and clarify together whether and how we can help.
       button: Let's have an initial conversation
       alternative: Or write directly to
-    title: We give technology MORE VALUE<br>and your business lasting resilience.
+    title: We give technology MORE.VALUE<br>and your business lasting resilience.
     visuals:
       circle_alt: A tangled mass of lines becomes a clear circle.
       portrait_alt: Marcel Russ, founder of mehr.wert.
