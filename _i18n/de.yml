@@ -232,7 +232,7 @@ pages:
       text: Gewachsene Eigenentwicklungen und ihre technischen Grundlagen so weiterentwickeln, dass sie langfristig tragfähig bleiben.
     - title: Wertströme gestalten
       text: Teams, Führung und Produktziele so verbinden, dass über Teamgrenzen hinweg tatsächlicher Kundenwert entsteht.
-    primary: Let's talk
+    primary: Gespräch vereinbaren
     discover:
       title: Mehr entdecken
       groups:
@@ -385,7 +385,7 @@ pages:
         title: Eine klare Richtung für Ihre IT. Damit Ihr Unternehmen handlungsfähig bleibt.
         paragraphs:
         - Eine gute IT-Strategie beginnt bei Ihrem Geschäft. Wir schaffen Überblick über Systeme, Abhängigkeiten und Möglichkeiten, klären wichtige Entscheidungen und entwickeln mit Ihnen die nächsten sinnvollen Schritte. Bei der Umsetzung übernehmen wir die Verantwortung, die wir vereinbaren – und prüfen gemeinsam, ob der Weg weiterhin passt.
-        primary: Let's talk
+        primary: Gespräch vereinbaren
         secondary: So unterstützen wir
       situations:
         label: WENN IT-ENTSCHEIDUNGEN ANSTEHEN
@@ -467,7 +467,7 @@ pages:
         label: DER NÄCHSTE SCHRITT
         title: Welche IT-Entscheidung beschäftigt Sie gerade?
         text: Sie möchten Ihre IT neu ausrichten, eine wichtige Anwendung modernisieren oder ein festgefahrenes Vorhaben voranbringen? Erzählen Sie uns, wo Sie stehen. Gemeinsam überlegen wir, welcher nächste Schritt sinnvoll ist.
-        primary: Let's talk
+        primary: Gespräch vereinbaren
         alternative: Oder schreiben Sie direkt an
       ai:
         label: NEUE MÖGLICHKEITEN DURCH KI
@@ -488,7 +488,7 @@ pages:
         title: Damit Strategie im Alltag ankommt. Und Teams verlässlich liefern.
         paragraphs:
         - Auch gute Teams kommen ins Stocken, wenn Prioritäten, Abhängigkeiten und Entscheidungen nicht zusammenpassen. Wir bringen Führungskräfte und Teams zusammen, unterstützen konkrete Verbesserungen im Alltag und überprüfen gemeinsam, was sich dadurch verändert. Dabei passen wir das Vorgehen an Ihre Organisation und neue Erkenntnisse an.
-        primary: Let's talk
+        primary: Gespräch vereinbaren
         secondary: So unterstützen wir
       description: Damit Strategie im Alltag ankommt. Und Teams gemeinsam verlässlich liefern können.
       situations:
@@ -566,7 +566,7 @@ pages:
         label: DER NÄCHSTE SCHRITT
         title: Was soll in Ihrer Software-Delivery besser funktionieren?
         text: Vielleicht möchten Sie mehrere Teams besser aufeinander abstimmen, Planung verlässlicher machen oder eine begonnene Veränderung endlich in die Praxis bringen. Erzählen Sie uns, was Sie beschäftigt. Gemeinsam klären wir, wo mehr.wert sinnvoll unterstützen kann.
-        primary: Let's talk
+        primary: Gespräch vereinbaren
         alternative: Oder schreiben Sie direkt an kontakt@mehrwert.tech.
       experience:
         label: Aus der Praxis
@@ -665,7 +665,7 @@ pages:
       label: DER NÄCHSTE SCHRITT
       title: Vielleicht sollten wir einfach miteinander sprechen.
       text: Sie müssen noch keine fertige Aufgabenstellung haben. Erzählen Sie uns, was Sie beschäftigt oder welche Entscheidung ansteht. Wir hören zu, fragen nach und sagen Ihnen offen, ob und wie wir helfen können.
-      primary: Let's talk
+      primary: Gespräch vereinbaren
       email: kontakt@mehrwert.tech
   portfolio:
     grid_entries:
@@ -909,7 +909,7 @@ pages:
     closing: Was diese Arbeiten verbindet, ist kein einzelnes Framework und keine bestimmte Technologie. Es ist die Erfahrung, dass gute Entscheidungen fachlich fundiert sein müssen – und zugleich zu den Menschen, Aufgaben und Möglichkeiten eines Unternehmens passen. Genau diesen Anspruch bringen wir in die heutigen Mandate von mehr.wert ein.
     contact_title: Welche Herausforderung beschäftigt Sie?
     contact_text: 'Ob eine schwierige Technologieentscheidung, ein gewachsenes Softwaresystem oder die Zusammenarbeit mehrerer Teams: Sprechen wir über Ihre Situation und darüber, welcher nächste Schritt sinnvoll sein könnte.'
-    contact_button: Let's talk
+    contact_button: Gespräch vereinbaren
     services:
     - title: IT-Strategie & Modernisierung
       url: "/services/it-strategy-modernisation.html"
@@ -947,7 +947,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Erst verstehen, was erhalten bleiben muss. Dann den nächsten Schritt festlegen.
@@ -1012,7 +1012,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Ein Produkt weiterentwickeln heißt, viele Perspektiven zusammenzubringen.
@@ -1077,7 +1077,7 @@ pages:
             url: "/services/agile-transformation-coaching.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Technologie, Produkte und Menschen gemeinsam im Blick behalten.
@@ -1141,7 +1141,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Damit ein mobiles Handbuch funktioniert, muss auch der Weg der Inhalte funktionieren.
@@ -1207,7 +1207,7 @@ pages:
             url: "/services/agile-transformation-coaching.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Vom gemeinsamen Verständnis zur Anwendung im Squad.
@@ -1274,7 +1274,7 @@ pages:
             url: "/services/agile-transformation-coaching.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Vom Team-Purpose zu konkreten nächsten Schritten.
@@ -1337,7 +1337,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Eine gute App beginnt mit dem Verständnis der Arbeit vor Ort.
@@ -1401,7 +1401,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Eine Alternative entwickeln, die zu den bestehenden Anwendungen passt.
@@ -1464,7 +1464,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Aus einem Kamerabild wird eine nutzbare Information.
@@ -1524,7 +1524,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Technik und Messeerlebnis aufeinander abstimmen.
@@ -1584,7 +1584,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Eine mobile Lösung, die auch technische Grenzen mitdenkt.
@@ -1644,7 +1644,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Einfach zu bedienen. Technisch durchdacht.
@@ -1710,7 +1710,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Ein gemeinsamer Ansatz entsteht zwischen Architektur und Zusammenarbeit.
@@ -1771,7 +1771,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Drei Teile einer gemeinsamen Produktidee.
@@ -1868,7 +1868,7 @@ pages:
             url: "/services/agile-transformation-coaching.html"
           - title: Alle Projekte & Erfahrungen ansehen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         approach:
           title: Von einzelnen Roadmaps zu einem gemeinsamen Planungsrhythmus.
@@ -1956,7 +1956,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: Alle Projekte & Erfahrungen
             url: "/projects.html"
-          - title: Let's talk
+          - title: Gespräch vereinbaren
             url: "/contact.html"
         meta_title: Unabhängiges IT-Assessment und Projektsteuerung | mehr.wert
         description: 'Unabhängige IT-Beratung: Wie mehr.wert in einem zweitägigen Assessment Risiken, Verantwortlichkeiten und Handlungsoptionen für ein ERP- und IT-Vorhaben untersucht hat.'

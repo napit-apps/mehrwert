@@ -232,7 +232,7 @@ pages:
       text: Evolve established in-house software and its technical foundations so they remain viable in the long term.
     - title: Shape value streams
       text: Bring teams, leadership and product goals together so that work across teams delivers real value to customers.
-    primary: Let's talk
+    primary: Let's connect
     discover:
       title: Explore more
       groups:
@@ -385,7 +385,7 @@ pages:
         title: A clear direction for your IT. So your business can keep moving.
         paragraphs:
         - A good IT strategy starts with your business. We establish an overview of systems, dependencies and possibilities, clarify important decisions and develop the next sensible steps with you. During implementation, we take on the responsibility we agree – and review together whether the path still fits.
-        primary: Let's talk
+        primary: Let's connect
         secondary: How we support you
       situations:
         label: WHEN IT DECISIONS ARE NEEDED
@@ -467,7 +467,7 @@ pages:
         label: THE NEXT STEP
         title: Which IT decision is on your mind?
         text: Would you like to realign your IT, modernise an important application or move a stalled initiative forward? Tell us where you stand. Together, we consider which next step makes sense.
-        primary: Let's talk
+        primary: Let's connect
         alternative: Or write directly to
       ai:
         label: NEW POSSIBILITIES THROUGH AI
@@ -488,7 +488,7 @@ pages:
         title: Making strategy work in everyday life. And helping teams deliver reliably.
         paragraphs:
         - Even good teams stall when priorities, dependencies and decisions do not align. We bring leaders and teams together, support concrete improvements in everyday work and review together what changes as a result. We adapt the approach to your organisation and new insights.
-        primary: Let's talk
+        primary: Let's connect
         secondary: How we support you
       description: Making strategy work in everyday life. And helping teams deliver reliably together.
       situations:
@@ -566,7 +566,7 @@ pages:
         label: THE NEXT STEP
         title: What should work better in your software delivery?
         text: Perhaps you want to coordinate several teams better, make planning more reliable or finally put a change already started into practice. Tell us what is on your mind. Together, we clarify where mehr.wert can usefully support you.
-        primary: Let's talk
+        primary: Let's connect
         alternative: Or write directly to kontakt@mehrwert.tech.
       experience:
         label: In practice
@@ -665,7 +665,7 @@ pages:
       label: THE NEXT STEP
       title: Perhaps we should simply talk.
       text: You do not need a fully defined task yet. Tell us what is on your mind or which decision is ahead. We listen, ask questions and tell you openly whether and how we can help.
-      primary: Let's talk
+      primary: Let's connect
       email: kontakt@mehrwert.tech
   portfolio:
     grid_entries:
@@ -909,7 +909,7 @@ pages:
     closing: What connects these works is neither a single framework nor a particular technology. It is the experience that good decisions need a sound professional basis – while also fitting a company's people, tasks and possibilities. This is precisely the approach we bring to mehr.wert's engagements today.
     contact_title: What challenge is on your mind?
     contact_text: 'Whether a difficult technology decision, an established software system or collaboration between several teams: let us talk about your situation and which next step might make sense.'
-    contact_button: Let's talk
+    contact_button: Let's connect
     services:
     - title: IT Strategy & Modernisation
       url: "/services/it-strategy-modernisation.html"
@@ -947,7 +947,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: First understand what needs to be preserved. Then determine the next step.
@@ -1012,7 +1012,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: Developing a product means bringing many perspectives together.
@@ -1077,7 +1077,7 @@ pages:
             url: "/services/agile-transformation-coaching.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: Keeping technology, products and people in view together.
@@ -1141,7 +1141,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: For a mobile manual to work, the content's journey must work too.
@@ -1207,7 +1207,7 @@ pages:
             url: "/services/agile-transformation-coaching.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: From shared understanding to use within a squad.
@@ -1274,7 +1274,7 @@ pages:
             url: "/services/agile-transformation-coaching.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: From team purpose to concrete next steps.
@@ -1337,7 +1337,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: A good app begins with understanding work on site.
@@ -1401,7 +1401,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: Develop an alternative that fits existing applications.
@@ -1464,7 +1464,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: A camera image becomes usable information.
@@ -1524,7 +1524,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: Align technology and the exhibition experience.
@@ -1584,7 +1584,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: A mobile solution that also considers technical limitations.
@@ -1644,7 +1644,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: Easy to use. Technically well considered.
@@ -1710,7 +1710,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: A shared approach emerges between architecture and collaboration.
@@ -1771,7 +1771,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: Three parts of a shared product idea.
@@ -1868,7 +1868,7 @@ pages:
             url: "/services/agile-transformation-coaching.html"
           - title: View all projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         approach:
           title: From individual roadmaps to a shared planning rhythm.
@@ -1956,7 +1956,7 @@ pages:
             url: "/services/it-strategy-modernisation.html"
           - title: All projects & experience
             url: "/projects.html"
-          - title: Let's talk
+          - title: Let's connect
             url: "/contact.html"
         meta_title: Independent IT assessment and project management | mehr.wert
         description: 'Independent IT consulting: How mehr.wert examined risks, responsibilities and options for an ERP and IT initiative in a two-day assessment.'
@@ -1988,7 +1988,7 @@ pages:
   contact:
     hero:
       eyebrow: CONTACT
-      title: Let's talk.
+      title: Let's connect.
       text: Are you facing an important IT decision, looking to develop existing software further or improve collaboration between your teams? Tell us what is on your mind. Together, we will look at your situation and clarify where mehr.wert can offer useful support.
       note: Whether you have a specific task or an initial idea, a conversation is a good start.
       email_action: Send an email
