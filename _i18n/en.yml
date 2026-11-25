@@ -325,7 +325,16 @@ pages:
       intro: An insight into client engagements, earlier professional roles, our own software products and initiatives.
     person:
       label: YOUR CONTACT
-      title: Personally responsible. Independent in judgement.
+      title: Letz talk
+      button: Book a call with Marcel
+      email_subject: Request for a call with Marcel
+      email_body: |-
+        Hello Marcel,
+
+        I’d like to discuss [topic] with you. When would be a good time for an initial conversation?
+
+        Best regards,
+        [Your name]
       paragraphs:
       - I am Marcel Russ, founder of mehr.wert. I have developed software myself, taken responsibility for my own products over years and led international development teams. Today, I combine this experience with advising on and supporting technical and organisational change.
       - At mehr.wert, you speak directly with me. I listen, question assumptions and take responsibility for the tasks we agree. When additional specialists are needed, we bring them in selectively. I remain your contact.
@@ -363,21 +372,6 @@ pages:
       - title: Architecture and organization belong together
         text: Why technical change also affects collaboration.
         url: "/Beyond-Architecure.html"
-    contact:
-      label: LET’S TALK
-      title: Let's talk.
-      text: Do you have an idea, a challenge or an important decision ahead of you? Let’s talk about it.
-      person: Marcel Russ · Founder & Managing Director
-      button: Let's talk
-      email_subject: Request for a call with Marcel
-      email_body: |-
-        Hello Marcel,
-
-        I’d like to discuss [topic] with you. When would be a good time for an initial conversation?
-
-        Best regards,
-        [Your name]
-      alternative: Or write directly to
     title: We give technology MORE.VALUE<br>and your business lasting resilience.
     visuals:
       circle_alt: A tangled mass of lines becomes a clear circle.

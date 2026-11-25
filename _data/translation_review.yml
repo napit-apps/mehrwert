@@ -1277,16 +1277,6 @@ entries:
   source_sha256: ffcb621f58c41ab3c573fa543d35a2189cd0f5e6c283e0ce75d55bf027b7de95
 - key: pages.home.knowledge.text
   source_sha256: 56739aaf6044784cbbde32a5821192050fc04afc046b02f01285f050fd8db912
-- key: pages.home.contact.label
-  source_sha256: 6cd144b6ded76fcdcc8aa42bc1f7c96f25070f365ff978dd54a3f5fee4a13d56
-- key: pages.home.contact.title
-  source_sha256: 257e093365550e013fcf2a170df96bf2ef867f48038d377192afee3abdf8379c
-- key: pages.home.contact.text
-  source_sha256: 71af5d3d9b001b69d13611310bd3de5b7f11894d16a1236dd04998caa6d25f27
-- key: pages.home.contact.button
-  source_sha256: df31355e706965d20dc026bd315359dd0b7774c38db675c991b843a75b49d6b1
-- key: pages.home.contact.alternative
-  source_sha256: df768c49be088f2d725dde56f2a29e19e6d02324d805aa29530b9396966f3cb7
 - key: pages.home.visuals.circle_alt
   source_sha256: 4c45e232f1f7160a7331ad9c4189e2a276d0b34344a687113e61b8fd38ecd88f
 - key: pages.home.visuals.portrait_alt

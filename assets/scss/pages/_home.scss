@@ -36,7 +36,7 @@
   .mw-home-person { background: #e4eee7; }
   .mw-home-person-quote { font-family: $heading-font; font-size: 1.35rem; margin-top: 32px; max-width: 28ch; color: #365944; }
   .mw-home-person-copy p + p { margin-top: 20px; }
-  .mw-home-person-copy a { margin-top: 24px; }
+  .mw-home-person-copy .mw-actions { margin-top: 24px; }
   .mw-dark .mw-home-label { color: #8ed3b4; }
   .mw-home-steps { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 40px; margin: 44px 0 0; }
   .mw-home-steps li { border-top: 1px solid #ffffff50; padding-top: 24px; }
@@ -51,26 +51,18 @@
   .mw-home-values a, .mw-home-knowledge a { margin-top: 24px; }
   .mw-home-knowledge { padding-block: 56px; }
   .mw-home-knowledge .mw-home-section-intro { margin-bottom: 0; }
-  .mw-home-conversation { background: #251d39; color: white; padding-block: 80px; }
-  .mw-home-conversation h2 { max-width: 22ch; font-size: clamp(2rem,4vw,3.8rem); }
-  .mw-home-conversation .mw-home-label { color: #8ed3b4; }
-  .mw-home-email { margin-top: 24px; font-size: .9rem; }
-  .mw-home-email a { text-decoration: underline; text-underline-offset: 5px; }
   @media (max-width: 767px) {
     .mw-home-split, .mw-home-service-grid, .mw-home-section-intro, .mw-home-projects, .mw-home-steps { grid-template-columns: 1fr; gap: 28px; }
     .mw-home-split h2 { max-width: 100%; }
     .mw-home-service, .mw-home-project { padding: 26px; }
     .mw-home-project-category { font-size: .68rem; }
     .mw-home-person-quote { margin-top: 20px; }
-    .mw-home-conversation { padding-block: 56px; }
     .mw-hero { padding-top: 40px; }
   }
 }
 
 .mw-site .mw-home p { color: inherit; }
-.mw-site .mw-home .mw-hero .mw-lead,
-.mw-site .mw-home .mw-home-conversation .mw-lead { color: #e0dce6; }
-.mw-site .mw-home .mw-home-conversation .mw-home-email { color: #e0dce6; }
+.mw-site .mw-home .mw-hero .mw-lead { color: #e0dce6; }
 .mw-site:has(.mw-home) .mw-footer p { color: #e0dce6; }
 .mw-site .mw-home .mw-home-situations,
 .mw-site .mw-home .mw-home-experience,
@@ -179,23 +171,6 @@
   .mw-home-knowledge { background: var(--mw-paper); }
   .mw-home-section-intro { gap: 60px; }
   .mw-home-reading { margin-top: 30px; }
-  .mw-home-conversation {
-    padding-block: 62px;
-
-    .mw-shell {
-      display: grid;
-      grid-template-columns: minmax(0, 56ch) minmax(0, 280px);
-      justify-content: space-between;
-      align-items: center;
-      gap: clamp(32px, 6vw, 88px);
-    }
-
-    figure { margin: 0; }
-    img { display: block; width: 100%; height: auto; }
-    figcaption { margin-top: 12px; font-size: .95rem; }
-  }
-  .mw-home-conversation h2 { font-size: clamp(2rem, 3.4vw, 3rem); max-width: 26ch; }
-  .mw-home-conversation .mw-lead { max-width: 72ch; }
   @media (max-width: 900px) {
     .mw-home-situation-grid, .mw-home-person-grid { gap: 32px; }
     .mw-home-split, .mw-home-section-intro { gap: 32px; }
@@ -219,11 +194,6 @@
     .mw-home-questions li { font-size: 1rem; }
     .mw-home-projects-compact { gap: 14px; }
     .mw-home-person-copy h2 { margin-bottom: 20px; }
-    .mw-home-conversation {
-      padding-block: 44px;
-      .mw-shell { grid-template-columns: minmax(0, 1fr); }
-      figure { max-width: 230px; }
-    }
     .mw-text-link { overflow-wrap: normal; }
   }
   @media print {

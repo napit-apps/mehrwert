@@ -325,7 +325,16 @@ pages:
       intro: Ein Einblick in Kundenmandate, frühere berufliche Stationen, eigene Softwareprodukte und Initiativen.
     person:
       label: IHR ANSPRECHPARTNER
-      title: Persönlich verantwortlich. Unabhängig im Urteil.
+      title: Letz talk
+      button: Gespräch mit Marcel buchen
+      email_subject: Gesprächsanfrage mit Marcel
+      email_body: |-
+        Hallo Herr Russ,
+
+        ich würde mich gerne mit Ihnen über [Thema] austauschen. Wann hätten Sie Zeit für ein erstes Gespräch?
+
+        Viele Grüße
+        [Ihr Name]
       paragraphs:
       - Ich bin Marcel Russ, Gründer von mehr.wert. Ich habe selbst Software entwickelt, eigene Produkte über Jahre verantwortet und internationale Entwicklungsteams geführt. Heute verbinde ich diese Erfahrung mit der Beratung und Begleitung technischer und organisatorischer Veränderungen.
       - Bei mehr.wert sprechen Sie direkt mit mir. Ich höre zu, hinterfrage Annahmen und übernehme Verantwortung für die Aufgaben, die wir vereinbaren. Wenn zusätzliche Fachleute gebraucht werden, holen wir sie gezielt dazu. Ihr Ansprechpartner bleibe ich.
@@ -363,21 +372,6 @@ pages:
       - title: Architektur und Organisation gehören zusammen
         text: Warum technische Veränderungen auch die Zusammenarbeit betreffen.
         url: "/Beyond-Architecure.html"
-    contact:
-      label: LASSEN SIE UNS SPRECHEN
-      title: Let's talk.
-      text: Sie haben eine Idee, eine Herausforderung oder eine wichtige Entscheidung vor sich? Lassen Sie uns darüber sprechen.
-      person: Marcel Russ · Gründer & Geschäftsführer
-      button: Let's talk
-      email_subject: Gesprächsanfrage mit Marcel
-      email_body: |-
-        Hallo Herr Russ,
-
-        ich würde mich gerne mit Ihnen über [Thema] austauschen. Wann hätten Sie Zeit für ein erstes Gespräch?
-
-        Viele Grüße
-        [Ihr Name]
-      alternative: Oder schreiben Sie direkt an
     title: Wir geben Technologie MEHR.WERT<br>und Ihrem Business nachhaltige Stärke.
     visuals:
       circle_alt: Aus einem unübersichtlichen Linienknäuel entsteht ein klarer Kreis.
