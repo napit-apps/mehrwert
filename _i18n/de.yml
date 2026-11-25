@@ -369,6 +369,14 @@ pages:
       text: Sie haben eine Idee, eine Herausforderung oder eine wichtige Entscheidung vor sich? Lassen Sie uns darüber sprechen.
       person: Marcel Russ · Gründer & Geschäftsführer
       button: Let's talk
+      email_subject: Gesprächsanfrage mit Marcel
+      email_body: |-
+        Hallo Herr Russ,
+
+        ich würde mich gerne mit Ihnen über [Thema] austauschen. Wann hätten Sie Zeit für ein erstes Gespräch?
+
+        Viele Grüße
+        [Ihr Name]
       alternative: Oder schreiben Sie direkt an
     title: Wir geben Technologie MEHR.WERT<br>und Ihrem Business nachhaltige Stärke.
     visuals:

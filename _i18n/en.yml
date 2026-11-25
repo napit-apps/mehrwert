@@ -369,6 +369,14 @@ pages:
       text: Do you have an idea, a challenge or an important decision ahead of you? Let’s talk about it.
       person: Marcel Russ · Founder & Managing Director
       button: Let's talk
+      email_subject: Request for a call with Marcel
+      email_body: |-
+        Hello Marcel,
+
+        I’d like to discuss [topic] with you. When would be a good time for an initial conversation?
+
+        Best regards,
+        [Your name]
       alternative: Or write directly to
     title: We give technology MORE.VALUE<br>and your business lasting resilience.
     visuals:
