@@ -227,7 +227,7 @@ pages:
     intro: Wir schaffen Klarheit bei Technologiefragen, machen Ihre Softwareentwicklung zukunftsfähig und richten Ihre Entwicklungsteams auf gemeinsame Wertströme aus.
     contributions:
     - title: Technologie verstehen und einordnen
-      text: Welche Möglichkeiten bieten bestehende und neue Technologien, einschließlich KI oder AR, für Ihr Geschäft?
+      text: Welche Möglichkeiten bieten bestehende und neue Technologien, einschließlich KI und AR, für Ihr Geschäft?
     - title: Softwareentwicklung modernisieren
       text: Gewachsene Eigenentwicklungen und ihre technischen Grundlagen so weiterentwickeln, dass sie langfristig tragfähig bleiben.
     - title: Wertströme gestalten
@@ -329,11 +329,12 @@ pages:
       button: Gespräch mit Marcel buchen
       email_subject: Gesprächsanfrage mit Marcel
       email_body: |-
-        Hallo Herr Russ,
+        Hallo Marcel,
 
-        ich würde mich gerne mit Ihnen über [Thema] austauschen. Wann hätten Sie Zeit für ein erstes Gespräch?
+        ich würde mich gerne mit dir austauschen. Wann hättest du Zeit für ein erstes kurzes Gespräch?
+        Thema: [Bitte kurz beschreiben]
 
-        Viele Grüße
+        Viele Grüße,
         [Ihr Name]
       paragraphs:
       - Ich bin Marcel Russ, Gründer von mehr.wert. Ich habe selbst Software entwickelt, eigene Produkte über Jahre verantwortet und internationale Entwicklungsteams geführt. Heute verbinde ich diese Erfahrung mit der Beratung und Begleitung technischer und organisatorischer Veränderungen.
